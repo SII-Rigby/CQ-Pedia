@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "language": {
+    "name": "重庆话",
+    "romanization": "Chongqing Mandarin tone-number pinyin",
+    "toneNotation": "数字 1-5 暂作声调标记，后续可替换为项目正式正音体系"
+  },
+  "entries": [
+    {
+      "id": "cq-0001",
+      "headword": "㮟㮟角角",
+      "pinyin": "ka1 ka1 go2 go2",
+      "variants": ["卡卡角角", "旮旮角角"],
+      "partOfSpeech": "名词",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "偏僻、狭小、不容易注意到的角落或地方。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你又把钱藏到哪个㮟㮟角角去了嘛？",
+          "pinyin": "li3 you4 ba3 qian2 qiang2 dao3 la3 go4 ka1 ka1 go2 go2 qi4 lao3 ma3",
+          "translation": "你又把钱藏到哪个偏僻的角落去了？"
+        }
+      ]
+    },
+    {
+      "id": "cq-0002",
+      "headword": "雄起",
+      "pinyin": "xiong2 qi3",
+      "partOfSpeech": "动词",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "加油、振作、支持某人或某队。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "重庆队，雄起！",
+          "pinyin": "cong2 qing4 dui4 xiong2 qi3",
+          "translation": "重庆队，加油！"
+        }
+      ]
+    },
+    {
+      "id": "cq-0003",
+      "headword": "要得",
+      "pinyin": "yao4 de2",
+      "partOfSpeech": "形容词；应答词",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "可以、不错、行。"
+        },
+        {
+          "language": "zh-Hans",
+          "text": "表示同意或认可。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个办法要得。",
+          "pinyin": "zhe4 ge ban4 fa yao4 de2",
+          "translation": "这个办法可以。"
+        }
+      ]
+    },
+    {
+      "id": "cq-0004",
+      "headword": "安逸",
+      "pinyin": "an1 yi4",
+      "partOfSpeech": "形容词",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "舒服、满意、很好。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这碗小面吃起安逸。",
+          "pinyin": "zhe4 wan3 xiao3 mian4 chi1 qi3 an1 yi4",
+          "translation": "这碗小面吃起来很舒服、很好。"
+        }
+      ]
+    },
+    {
+      "id": "cq-0005",
+      "headword": "摆龙门阵",
+      "pinyin": "bai3 long2 men2 zhen4",
+      "partOfSpeech": "动词短语",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "聊天、闲谈，常带有讲故事、拉家常的意味。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "吃完饭大家坐到院坝头摆龙门阵。",
+          "pinyin": "chi1 wan2 fan4 da4 jia1 zuo4 dao4 yuan4 ba4 tou bai3 long2 men2 zhen4",
+          "translation": "吃完饭大家坐在院坝里聊天。"
+        }
+      ]
+    }
+  ]
+}

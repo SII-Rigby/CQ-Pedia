@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>重庆话正音词典</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="重庆话正音词典首页">
+        <span class="brand-mark">渝</span>
+        <span>
+          <strong>重庆话正音词典</strong>
+          <small>Chongqing Speech Dictionary</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="主导航">
+        <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
+        <a href="#search">查词</a>
+        <a href="#indexes">索引</a>
+        <a href="#about">编辑说明</a>
+      </nav>
+    </header>
+
+    <div class="modal" id="mustReadModal" role="dialog" aria-modal="true" aria-labelledby="mustReadTitle" hidden>
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-window" role="document">
+        <header class="modal-head">
+          <h2 id="mustReadTitle">必读 / Must Read</h2>
+          <button type="button" class="modal-close" data-modal-close aria-label="关闭">×</button>
+        </header>
+        <div class="modal-body">
+          <aside class="doc-nav" aria-label="文档目录">
+            <ul id="docList"></ul>
+          </aside>
+          <article class="doc-view" id="docView" tabindex="0">
+            <p class="empty">载入中…</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero" id="search">
+        <div class="hero-inner">
+          <p class="eyebrow">重庆语言文化开放词典</p>
+          <h1>重庆话正音词典</h1>
+          <form class="search-panel" id="searchForm">
+            <label class="search-label" for="searchInput">搜索词典</label>
+            <div class="search-row">
+              <select id="searchType" aria-label="搜索类型">
+                <option value="all">全文查词</option>
+                <option value="headword">词目</option>
+                <option value="pinyin">拼音</option>
+                <option value="definition">释义</option>
+              </select>
+              <input id="searchInput" type="search" autocomplete="off" placeholder="输入词目、拼音、异体写法或释义">
+              <button type="submit">搜索</button>
+            </div>
+            <div class="quick-search" aria-label="快捷搜索">
+              <button type="button" data-query="㮟㮟角角">㮟㮟角角</button>
+              <button type="button" data-query="要得">要得</button>
+              <button type="button" data-query="安逸">安逸</button>
+              <button type="button" data-query="ka1">ka1</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <aside class="side-panel" id="indexes">
+          <h2>索引</h2>
+          <div class="index-list">
+            <button class="index-tab active" type="button" data-filter="all">全部</button>
+            <button class="index-tab" type="button" data-filter="常用词">常用词</button>
+            <button class="index-tab" type="button" data-filter="俗语">俗语</button>
+            <button class="index-tab" type="button" data-filter="生活">生活</button>
+            <button class="index-tab" type="button" data-filter="评价">评价</button>
+          </div>
+
+          <div class="notice" id="about">
+            <h2>最新公告</h2>
+            <dl>
+              <div>
+                <dt>数据格式</dt>
+                <dd>已建立 JSON 示例，可继续扩展音频、来源、审校状态。</dd>
+              </div>
+              <div>
+                <dt>编辑提示</dt>
+                <dd>示例读音和释义仅作结构演示，正式发布前应统一正音体系。</dd>
+              </div>
+            </dl>
+          </div>
+        </aside>
+
+        <section class="results-panel" aria-live="polite">
+          <div class="results-head">
+            <h2>查询结果</h2>
+            <span id="resultCount">载入中</span>
+          </div>
+          <div id="results" class="results"></div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>重庆话正音词典示范站</span>
+      <span>资料开放整理中</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
