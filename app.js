@@ -2,11 +2,13 @@
   entries: [],
   mode: "idle",
   query: "",
-  initial: ""
+  initial: "",
+  wordClass: ""
 };
 
-const INITIALS = ["b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "ng", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w"];
+const INITIALS = ["b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "ng", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w", "other"];
 const INITIAL_MATCH_ORDER = ["ng", "yu", "b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w"];
+const OTHER_INITIAL = "other";
 const WELCOME_ENTRY_COUNT = 10;
 
 const els = {
@@ -21,7 +23,8 @@ const els = {
 const indexEls = {
   btn: document.querySelector("#indexBtn"),
   modal: document.querySelector("#indexModal"),
-  grid: document.querySelector("#initialGrid")
+  grid: document.querySelector("#initialGrid"),
+  tabs: document.querySelectorAll("[data-index-type]")
 };
 
 const normalize = (value) => String(value || "").trim().toLowerCase();
@@ -32,16 +35,29 @@ const escapeHtml = (value) => String(value || "")
   .replace(/"/g, "&quot;")
   .replace(/'/g, "&#039;");
 
+function wordClassOf(entry) {
+  return entry.wordClass || "";
+}
+
+function wordClassesOf(entry) {
+  return wordClassOf(entry)
+    .split(/[；;、,，/]+/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
 function entryText(entry) {
   const definitions = (entry.definitions || []).map((item) => item.text).join(" ");
+  const definitionNotes = (entry.definitions || []).map((item) => item.note).join(" ");
   const variants = entry.variants || [];
-  const notes = entry.notes || "";
+  const notes = [entry.note, entry.notes].filter(Boolean).join(" ");
 
   return [
     entry.headword,
     entry.pinyin,
-    entry.partOfSpeech,
+    wordClassOf(entry),
     definitions,
+    definitionNotes,
     notes,
     ...variants
   ].join(" ");
@@ -59,7 +75,15 @@ function initialOf(entry) {
     return "y";
   }
 
-  return matched || "";
+  if (!matched && /^[aoe]/.test(syllable)) {
+    return OTHER_INITIAL;
+  }
+
+  return matched || OTHER_INITIAL;
+}
+
+function initialLabel(initial) {
+  return initial === OTHER_INITIAL ? "其他" : initial;
 }
 
 function matchesSearch(entry) {
@@ -69,6 +93,10 @@ function matchesSearch(entry) {
 
 function matchesInitial(entry) {
   return state.initial ? initialOf(entry) === state.initial : false;
+}
+
+function matchesWordClass(entry) {
+  return state.wordClass ? wordClassesOf(entry).includes(state.wordClass) : false;
 }
 
 function filteredEntries() {
@@ -84,7 +112,64 @@ function filteredEntries() {
     return state.entries.filter(matchesInitial);
   }
 
+  if (state.mode === "wordClass") {
+    return state.entries.filter(matchesWordClass);
+  }
+
   return [];
+}
+
+function hasExampleContent(example) {
+  return Boolean(example && [example.text, example.pinyin, example.translation].some((value) => String(value || "").trim()));
+}
+
+function renderExample(example) {
+  if (!hasExampleContent(example)) {
+    return "";
+  }
+
+  const pinyin = example.pinyin ? `<p class="example-pinyin">${escapeHtml(example.pinyin)}</p>` : "";
+  const translation = example.translation ? `<p class="example-translation">${escapeHtml(example.translation)}</p>` : "";
+
+  return `
+    <div class="example">
+      <strong>例：</strong>${escapeHtml(example.text)}
+      ${pinyin}
+      ${translation}
+    </div>
+  `;
+}
+
+function renderNote(note, modifier = "") {
+  if (!String(note || "").trim()) {
+    return "";
+  }
+
+  const className = modifier ? `note ${modifier}` : "note";
+
+  return `
+    <aside class="${className}">
+      <span>注</span>
+      <p>${escapeHtml(note)}</p>
+    </aside>
+  `;
+}
+
+function renderFigure(entry) {
+  if (!entry.fig) {
+    return "";
+  }
+
+  const imageSrc = entry.fig === true
+    ? `data/fig/${encodeURIComponent(entry.id)}.png`
+    : String(entry.fig);
+  const alt = `${entry.headword || entry.id} 插图`;
+
+  return `
+    <figure class="entry-figure">
+      <img src="${escapeHtml(imageSrc)}" alt="${escapeHtml(alt)}" loading="lazy">
+    </figure>
+  `;
 }
 
 function renderEntry(entry) {
@@ -92,20 +177,13 @@ function renderEntry(entry) {
   const examples = entry.examples || [];
   const definitionBlocks = definitions
     .map((item, index) => {
-      const example = examples[index];
-      const exampleHtml = example
-        ? `
-          <div class="example">
-            <strong>例：</strong>${escapeHtml(example.text)}
-            <p>${escapeHtml(example.pinyin)}</p>
-            <p>${escapeHtml(example.translation)}</p>
-          </div>
-        `
-        : "";
+      const exampleHtml = renderExample(examples[index]);
+      const noteHtml = renderNote(item.note, "definition-note");
 
       return `
         <section class="definition-block">
           <p class="definition-text"><span>${index + 1}.</span>${escapeHtml(item.text)}</p>
+          ${noteHtml}
           ${exampleHtml}
         </section>
       `;
@@ -113,13 +191,8 @@ function renderEntry(entry) {
     .join("");
   const extraExamples = examples.length > definitions.length
     ? examples.slice(definitions.length)
-      .map((item) => `
-        <div class="example">
-          <strong>例：</strong>${escapeHtml(item.text)}
-          <p>${escapeHtml(item.pinyin)}</p>
-          <p>${escapeHtml(item.translation)}</p>
-        </div>
-      `)
+      .map(renderExample)
+      .filter(Boolean)
       .join("")
     : "";
   const definitionFallback = definitionBlocks || `
@@ -130,21 +203,21 @@ function renderEntry(entry) {
   const variants = entry.variants && entry.variants.length
     ? `<p class="variants">异体写法：${escapeHtml(entry.variants.join("、"))}</p>`
     : "";
-  const notes = entry.notes
-    ? `<p class="notes">${escapeHtml(entry.notes)}</p>`
-    : "";
+  const note = renderNote(entry.note || entry.notes, "entry-note");
+  const figure = renderFigure(entry);
 
   return `
     <article class="entry">
       <div class="entry-head">
         <h3>${escapeHtml(entry.headword)}</h3>
-        <span class="pos">${escapeHtml(entry.partOfSpeech)}</span>
+        <span class="pos">${escapeHtml(wordClassOf(entry))}</span>
       </div>
       <p class="pinyin">${escapeHtml(entry.pinyin)}</p>
       ${variants}
+      ${note}
+      ${figure}
       <div class="definitions">${definitionFallback}</div>
       ${extraExamples}
-      ${notes}
     </article>
   `;
 }
@@ -156,7 +229,9 @@ function render() {
   els.count.textContent = `${filtered.length}`;
 
   if (state.mode === "initial") {
-    els.label.textContent = `声母 ${state.initial}`;
+    els.label.textContent = `声母 ${initialLabel(state.initial)}`;
+  } else if (state.mode === "wordClass") {
+    els.label.textContent = `词性 ${state.wordClass}`;
   } else if (state.mode === "idle") {
     els.label.textContent = "展示词条";
   } else {
@@ -181,12 +256,45 @@ function initialCounts() {
 
 function buildInitialIndex() {
   const counts = initialCounts();
+  indexEls.grid.classList.remove("word-class-grid");
   indexEls.grid.innerHTML = INITIALS
     .map((initial) => {
       const count = counts[initial] || 0;
-      return `<button type="button" data-initial="${escapeHtml(initial)}">${escapeHtml(initial)}<small>${count} entries</small></button>`;
+      return `<button type="button" data-initial="${escapeHtml(initial)}">${escapeHtml(initialLabel(initial))}<small>${count} entries</small></button>`;
     })
     .join("");
+}
+
+function wordClassCounts() {
+  return state.entries.reduce((acc, entry) => {
+    wordClassesOf(entry).forEach((wordClass) => {
+      acc[wordClass] = (acc[wordClass] || 0) + 1;
+    });
+    return acc;
+  }, {});
+}
+
+function buildWordClassIndex() {
+  const counts = wordClassCounts();
+  const wordClasses = Object.keys(counts).sort((a, b) => a.localeCompare(b, "zh-Hans"));
+  indexEls.grid.classList.add("word-class-grid");
+  indexEls.grid.innerHTML = wordClasses
+    .map((wordClass) => `<button type="button" data-word-class="${escapeHtml(wordClass)}">${escapeHtml(wordClass)}<small>${counts[wordClass]} entries</small></button>`)
+    .join("");
+}
+
+function setIndexType(type) {
+  indexEls.tabs.forEach((tab) => {
+    const active = tab.dataset.indexType === type;
+    tab.classList.toggle("active", active);
+    tab.setAttribute("aria-selected", active ? "true" : "false");
+  });
+
+  if (type === "wordClass") {
+    buildWordClassIndex();
+  } else {
+    buildInitialIndex();
+  }
 }
 
 async function loadEntries() {
@@ -217,6 +325,7 @@ els.form.addEventListener("submit", (event) => {
   state.query = els.input.value.trim();
   state.mode = state.query ? "search" : "idle";
   state.initial = "";
+  state.wordClass = "";
   render();
 });
 
@@ -224,10 +333,12 @@ els.input.addEventListener("input", () => {
   state.query = els.input.value.trim();
   state.mode = state.query ? "search" : "idle";
   state.initial = "";
+  state.wordClass = "";
   render();
 });
 
 function openIndexModal() {
+  setIndexType("initial");
   indexEls.modal.hidden = false;
   document.body.classList.add("modal-open");
 }
@@ -246,18 +357,23 @@ indexEls.modal.addEventListener("click", (event) => {
     return;
   }
 
-  const button = event.target.closest("button[data-initial]");
-  if (!button) {
+  const tab = event.target.closest("button[data-index-type]");
+  if (tab) {
+    setIndexType(tab.dataset.indexType);
     return;
   }
 
-  state.mode = "initial";
-  state.initial = button.dataset.initial;
+  const initialButton = event.target.closest("button[data-initial]");
+  const wordClassButton = event.target.closest("button[data-word-class]");
+  if (!initialButton && !wordClassButton) {
+    return;
+  }
+
+  state.mode = initialButton ? "initial" : "wordClass";
+  state.initial = initialButton ? initialButton.dataset.initial : "";
+  state.wordClass = wordClassButton ? wordClassButton.dataset.wordClass : "";
   state.query = "";
   els.input.value = "";
-  indexEls.grid.querySelectorAll("button[data-initial]").forEach((item) => {
-    item.classList.toggle("active", item.dataset.initial === state.initial);
-  });
   closeIndexModal();
   render();
   document.querySelector("#resultsPanel").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -491,4 +607,12 @@ document.addEventListener("keydown", (event) => {
 });
 
 buildDocList();
+
+
+
+
+
+
+
+
 

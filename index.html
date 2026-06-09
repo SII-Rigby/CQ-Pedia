@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>重庆话正音字典</title>
+    <title>重庆话正音词典</title>
+    <link rel="icon" href="assets/logo-color.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/logo-color.svg">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#" aria-label="重庆话正音字典首页">
+      <a class="brand" href="#" aria-label="重庆话正音词典首页">
         <span>CQ-Pedia</span>
       </a>
       <nav class="top-nav" aria-label="主导航">
@@ -40,11 +42,15 @@
       <div class="modal-window index-window" role="document">
         <header class="modal-head">
           <div>
-            <p class="modal-kicker">Initial Index</p>
-            <h2 id="indexTitle">声母索引</h2>
+            <p class="modal-kicker">Dictionary Index</p>
+            <h2 id="indexTitle">索引</h2>
           </div>
           <button type="button" class="modal-close" data-index-close aria-label="关闭">×</button>
         </header>
+        <div class="index-tabs" role="tablist" aria-label="索引类型">
+          <button type="button" class="active" data-index-type="initial" role="tab" aria-selected="true">声母索引</button>
+          <button type="button" data-index-type="wordClass" role="tab" aria-selected="false">词性索引</button>
+        </div>
         <div class="initial-grid" id="initialGrid"></div>
       </div>
     </div>
@@ -53,7 +59,7 @@
       <section class="hero" id="search">
         <div class="hero-copy">
           <p class="platform-label">重庆语言文化开放平台</p>
-          <h1>重庆话正音字典</h1>
+          <h1>重庆话正音词典</h1>
 
           <form class="search-form" id="searchForm">
             <label class="visually-hidden" for="searchInput">搜索词典</label>
@@ -80,7 +86,7 @@
     <footer class="site-footer">
       <span class="footer-title">
         <img class="footer-mark" src="assets/logo-color.svg" alt="" aria-hidden="true">
-        <span>重庆话正音字典</span>
+        <span>重庆话正音词典</span>
       </span>
       <span>CQ-Pedia</span>
     </footer>
@@ -88,4 +94,6 @@
     <script src="app.js"></script>
   </body>
 </html>
+
+
 
