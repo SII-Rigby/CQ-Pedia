@@ -7,7 +7,92 @@
   },
   "entries": [
     {
-      "id": "cq-0001",
+      "id": "cq-00001",
+      "headword": "雄起",
+      "pinyin": "xiong2 qi3",
+      "partOfSpeech": "动词；语气词",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "加油、振作。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "重庆队儿，雄起！",
+          "pinyin": "cong2 qin4 duer4 xiong2 qi3",
+          "translation": "重庆队，加油！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00002",
+      "headword": "要得",
+      "pinyin": "yao4 de2",
+      "partOfSpeech": "形容词；语气词",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "可以、不错、行。"
+        },
+        {
+          "language": "zh-Hans",
+          "text": "表示应允、同意。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个办法要得。",
+          "pinyin": "le4 go4-1 ban4 fa3 yao4 de2",
+          "translation": "这个办法可行。"
+        },
+        {
+          "text": "要得，要得，你们就在这里歇嘛。",
+          "pinyin": "yao4 de2 yao4 de2 li3 men1 dou4 dai4 le4 li3-1 xie2 ma3",
+          "translation": "没问题，你们就在这里歇着吧。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00003",
+      "headword": "安逸",
+      "pinyin": "ngan1 yi2",
+      "partOfSpeech": "形容词",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "舒服、满意。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这碗小面吃起安逸。",
+          "pinyin": "le4 wan3 xiao3 mian4 ci2 qi3 ngan1 yi2",
+          "translation": "这碗小面吃起来很舒服、很好。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00004",
+      "headword": "摆龙门阵",
+      "pinyin": "bai3 long2 men2 zhen4",
+      "partOfSpeech": "动词短语",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "聊天、闲谈，常带有讲故事、拉家常的意味。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "吃完饭大家坐着院坝头摆龙门阵。",
+          "pinyin": "ci2 wan2 fan4 da4 jia1 zo4 dao3 yuan4 ba4 tou2 bai3 long2 men2 zen4",
+          "translation": "吃完饭大家坐在院坝里聊天。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00005",
       "headword": "㮟㮟角角",
       "pinyin": "ka1 ka1 go2 go2",
       "variants": ["卡卡角角", "旮旮角角"],
@@ -27,82 +112,125 @@
       ]
     },
     {
-      "id": "cq-0002",
-      "headword": "雄起",
-      "pinyin": "xiong2 qi3",
-      "partOfSpeech": "动词",
-      "definitions": [
-        {
-          "language": "zh-Hans",
-          "text": "加油、振作、支持某人或某队。"
-        }
-      ],
-      "examples": [
-        {
-          "text": "重庆队，雄起！",
-          "pinyin": "cong2 qing4 dui4 xiong2 qi3",
-          "translation": "重庆队，加油！"
-        }
-      ]
-    },
-    {
-      "id": "cq-0003",
-      "headword": "要得",
-      "pinyin": "yao4 de2",
-      "partOfSpeech": "形容词；应答词",
-      "definitions": [
-        {
-          "language": "zh-Hans",
-          "text": "可以、不错、行。"
-        },
-        {
-          "language": "zh-Hans",
-          "text": "表示同意或认可。"
-        }
-      ],
-      "examples": [
-        {
-          "text": "这个办法要得。",
-          "pinyin": "zhe4 ge ban4 fa yao4 de2",
-          "translation": "这个办法可以。"
-        }
-      ]
-    },
-    {
-      "id": "cq-0004",
-      "headword": "安逸",
-      "pinyin": "an1 yi4",
+      "id": "cq-00006",
+      "headword": "得行",
+      "pinyin": "de2 xing2",
       "partOfSpeech": "形容词",
       "definitions": [
         {
           "language": "zh-Hans",
-          "text": "舒服、满意、很好。"
+          "text": "可以、不错、行。"
         }
       ],
       "examples": [
         {
-          "text": "这碗小面吃起安逸。",
-          "pinyin": "zhe4 wan3 xiao3 mian4 chi1 qi3 an1 yi4",
-          "translation": "这碗小面吃起来很舒服、很好。"
+          "text": "这件事我看不得行。",
+          "pinyin": "le4 jian4 si4 o3 kan4 bu2 de2 xin2",
+          "translation": "这件事我看不行。"
         }
       ]
     },
     {
-      "id": "cq-0005",
-      "headword": "摆龙门阵",
-      "pinyin": "bai3 long2 men2 zhen4",
-      "partOfSpeech": "动词短语",
+      "id": "cq-00007",
+      "headword": "神浊浊",
+      "pinyin": "sen2 co2 co2",
+      "variants": ["神戳戳", "神搓搓"],
+      "partOfSpeech": "形容词",
       "definitions": [
         {
           "language": "zh-Hans",
-          "text": "聊天、闲谈，常带有讲故事、拉家常的意味。"
+          "text": "神经质的。"
+        },
+        {
+          "language": "zh-Hans",
+          "text": "故作神秘的。"
         }
       ],
       "examples": [
         {
-          "text": "吃完饭大家坐到院坝头摆龙门阵。",
-          "pinyin": "chi1 wan2 fan4 da4 jia1 zuo4 dao4 yuan4 ba4 tou bai3 long2 men2 zhen4",
-          "translation": "吃完饭大家坐在院坝里聊天。"
+          "text": "这个人神浊浊的，莫理他。",
+          "pinyin": "le4 go4 ren2 sen2 co2 co2 li1 mo2 li3 ta1",
+          "translation": "这个人神经兮兮的，别理他。"
+        },
+        {
+          "text": "做起恁个神浊浊的样儿，其实我都晓得了。",
+          "pinyin": "zu4 qi3 len4 go4 sen2 co2 co2 li1 yang4 er2 qi2 si2 wo3 dou1 xiao3 de2 lao3",
+          "translation": "做出那种神神秘秘的样子，其实我都明白了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00008",
+      "headword": "相因",
+      "pinyin": "xiang1 yin1",
+      "partOfSpeech": "形容词",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "价格便宜。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "今年子的朒朒比往年家相因。",
+          "pinyin": "jin1 lian2 zi3 li1 ga3 ga3 bi3 wang3 lian2 jia1 xiang1 yin1",
+          "translation": "今年的肉比往年便宜。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00009",
+      "headword": "默",
+      "pinyin": "me3/me2",
+      "partOfSpeech": "动词",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "思考、考虑。"
+        },
+        {
+          "language": "zh-Hans",
+          "text": "猜测、认为。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这道题我先默一下了来。",
+          "pinyin": "le4 dao4 ti2 o3 xian1 me3 yi2 ha4 lao3 lai2",
+          "translation": "这道题我先思考一下。"
+        },
+        {
+          "text": "你还默着你还年轻嗦？结得婚了！",
+          "pinyin": "li3 hai2 me2 dao3 li3 hai2 lian2 qin1 so3 jie2 de2 hun1 lao3",
+          "translation": "你还认为你还年轻吗？该结婚了！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00010",
+      "headword": "𨃅𨃅儿",
+      "pinyin": "bai1 bar1",
+      "partOfSpeech": "名词",
+      "definitions": [
+        {
+          "language": "zh-Hans",
+          "text": "瘸子、腿脚不方便的人。"
+        },
+        {
+          "language": "zh-Hans",
+          "text": "三轮车。「𨃅𨃅儿车」的简称"
+        }
+      ],
+      "examples": [
+        {
+          "text": "那个𨃅𨃅儿走路都不方便了，还敢去爬山？",
+          "pinyin": "la4 go4 bai1 bar1 zou3 lu4 dou1 bu2 fang1 bian4 lao3 hai2 gan3 qi4 pa2 san1",
+          "translation": "那个瘸子走路都不方便了，还敢去爬山？"
+        },
+        {
+          "text": "你先等着，我喊个𨃅𨃅儿来接你。",
+          "pinyin": "li3 xian1 den3 dao3 o3 han3 go4 bai1 bar1 lai2 jie2 li3",
+          "translation": "你先等着，我叫一辆三轮车来接你。"
         }
       ]
     }
