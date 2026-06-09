@@ -804,6 +804,66 @@
         }
       ],
       "fig": true
+    },
+    {
+      "id": "cq-00038",
+      "headword": "胁孔",
+      "pinyin": "xia2 kong3",
+      "wordClass": "名词",
+      "variants": ["胛孔","瞎孔","狭孔"],
+      "definitions": [
+        {
+          "text": "腋下、胳肢窝。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "刚刚儿运动完，胁孔胮臭。",
+          "pinyin": "gang1 gar1 yun4 dong4 wan2 xia2 kong3 pang1 cou4",
+          "translation": "刚刚运动完，腋下很臭。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00039",
+      "headword": "胮臭",
+      "pinyin": "pang1 cou4",
+      "wordClass": "形容词",
+      "variants": ["滂臭","膖臭","肨臭"],
+      "definitions": [
+        {
+          "text": "形容气味非常难闻。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "刚刚运动完，胁孔胮臭。",
+          "pinyin": "gang1 gar1 yun4 dong4 wan2 xia2 kong3 pang1 cou4",
+          "translation": "刚刚运动完，腋下很臭。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00040",
+      "headword": "闷墩儿",
+      "pinyin": "men1 der1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "指身材结实，又略带憨态的人。"
+        },
+        {
+          "text": "同「闷声儿」，不爱说话的人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这娃儿长得像个闷墩儿。",
+          "pinyin": "le4 wa2 er2-1 zang3 de2 qiang4 gə4 men1 der1",
+          "translation": "这孩子长得像个胖墩子。"
+        },
+        {}
+      ]
     }
   ]
 }
