@@ -35,6 +35,49 @@ const escapeHtml = (value) => String(value || "")
   .replace(/"/g, "&quot;")
   .replace(/'/g, "&#039;");
 
+function todaysSeedKey(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+
+  return `${year}-${month}-${day}`;
+}
+
+function hashSeed(value) {
+  let hash = 2166136261;
+
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+
+  return hash >>> 0;
+}
+
+function seededRandom(seed) {
+  let value = seed || 1;
+
+  return () => {
+    value += 0x6d2b79f5;
+    let next = value;
+    next = Math.imul(next ^ (next >>> 15), next | 1);
+    next ^= next + Math.imul(next ^ (next >>> 7), next | 61);
+    return ((next ^ (next >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function dailyEntries(entries, count) {
+  const random = seededRandom(hashSeed(`daily-entries:${todaysSeedKey()}`));
+  const shuffled = entries.slice();
+
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const target = Math.floor(random() * (index + 1));
+    [shuffled[index], shuffled[target]] = [shuffled[target], shuffled[index]];
+  }
+
+  return shuffled.slice(0, count);
+}
+
 function wordClassOf(entry) {
   return entry.wordClass || "";
 }
@@ -101,7 +144,7 @@ function matchesWordClass(entry) {
 
 function filteredEntries() {
   if (state.mode === "idle") {
-    return state.entries.slice(0, WELCOME_ENTRY_COUNT);
+    return dailyEntries(state.entries, WELCOME_ENTRY_COUNT);
   }
 
   if (state.mode === "search") {
@@ -233,7 +276,7 @@ function render() {
   } else if (state.mode === "wordClass") {
     els.label.textContent = `词性 ${state.wordClass}`;
   } else if (state.mode === "idle") {
-    els.label.textContent = "展示词条";
+    els.label.textContent = "每日十词";
   } else {
     els.label.textContent = `搜索：${state.query}`;
   }
@@ -260,7 +303,7 @@ function buildInitialIndex() {
   indexEls.grid.innerHTML = INITIALS
     .map((initial) => {
       const count = counts[initial] || 0;
-      return `<button type="button" data-initial="${escapeHtml(initial)}">${escapeHtml(initialLabel(initial))}<small>${count} entries</small></button>`;
+      return `<button type="button" data-initial="${escapeHtml(initial)}">${escapeHtml(initialLabel(initial))}<small>${count} 词条</small></button>`;
     })
     .join("");
 }
@@ -279,7 +322,7 @@ function buildWordClassIndex() {
   const wordClasses = Object.keys(counts).sort((a, b) => a.localeCompare(b, "zh-Hans"));
   indexEls.grid.classList.add("word-class-grid");
   indexEls.grid.innerHTML = wordClasses
-    .map((wordClass) => `<button type="button" data-word-class="${escapeHtml(wordClass)}">${escapeHtml(wordClass)}<small>${counts[wordClass]} entries</small></button>`)
+    .map((wordClass) => `<button type="button" data-word-class="${escapeHtml(wordClass)}">${escapeHtml(wordClass)}<small>${counts[wordClass]} 词条</small></button>`)
     .join("");
 }
 
@@ -607,7 +650,6 @@ document.addEventListener("keydown", (event) => {
 });
 
 buildDocList();
-
 
 
 

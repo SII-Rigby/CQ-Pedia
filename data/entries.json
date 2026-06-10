@@ -10,7 +10,7 @@
       "id": "cq-00001",
       "headword": "雄起",
       "pinyin": "xiong2 qi3",
-      "wordClass": "动词；语气词",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "加油、振作。"
@@ -28,7 +28,7 @@
       "id": "cq-00002",
       "headword": "要得",
       "pinyin": "yao4 de2",
-      "wordClass": "形容词；语气词",
+      "wordClass": "形容词；动词；叹词",
       "definitions": [
         {
           "text": "可以、不错、行。"
@@ -525,7 +525,7 @@
       "id": "cq-00026",
       "headword": "咹",
       "pinyin": "æ1",
-      "wordClass": "语气词",
+      "wordClass": "语气词；叹词",
       "variants": ["安"],
       "definitions": [
         {
@@ -800,7 +800,7 @@
       "wordClass": "名词",
       "definitions": [
         {
-          "text": "绿鳍马面鲀，川渝地区常见食材，因酷似老鼠儿得名。"
+          "text": "绿鳍马面鲀，川渝地区常见食材，因酷似老鼠而得名。"
         }
       ],
       "fig": true
@@ -863,6 +863,196 @@
           "translation": "这孩子长得像个胖墩子。"
         },
         {}
+      ]
+    },
+    {
+      "id": "cq-00041",
+      "headword": "朒朒",
+      "pinyin": "ga3 ga3",
+      "wordClass": "名词",
+      "variants": ["嘎嘎"],
+      "definitions": [
+        {
+          "text": "肉。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "今年子的朒朒比往年家相因。",
+          "pinyin": "jin1 lian2 zi3 ga3 ga3 bi3 wang3 nian2 jia1 xiang1 yin1",
+          "translation": "今年的肉比往年便宜。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00042",
+      "headword": "踏雪",
+      "pinyin": "ta2 xue2",
+      "wordClass": "动词",
+      "variants": ["踏削","踏屑","挞谑","挞噱","誻谑"],
+      "definitions": [
+        {
+          "text": "贬损、嘲讽、挖苦。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "不是我踏雪你，你看你做的啥子事嘛。",
+          "pinyin": "bu2 si4 wo3 ta2 xue2 li3 li3 kan4 li3 zu4 li1 sa4 zi3 si4 ma3",
+          "translation": "不是我要贬低你，你自己看看你做的什么事。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00043",
+      "headword": "理抹",
+      "pinyin": "li3 ma2",
+      "wordClass": "动词",
+      "variants": ["理麻"],
+      "definitions": [
+        {
+          "text": "整理、清理。"
+        },
+        {
+          "text": "批评、教育、追究。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "把房间理抹一下。",
+          "pinyin": "ba3 fang2 jian1 li3 ma2 yi2 ha4",
+          "translation": "把房间整理一下。"
+        },
+        {
+          "text": "快点儿把课桌收拾下儿，不然又要遭老师理抹。",
+          "pinyin": "kuai4 diar3 ba3 ko4 zo2 sou1 si2 har4 bu2 ran2 you4 yao4 zao2 lao3 si1 li3 ma2",
+          "translation": "快点把课桌收拾下，不然又要被老师批评。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00044",
+      "headword": "号",
+      "pinyin": "hao4",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "做记号、标记。引申为批改。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "冉老师正在号作业。",
+          "pinyin": "ran3 lao3 si1 zen4 zai4 hao4 zo2 lie2",
+          "translation": "冉老师正在批改作业。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00045",
+      "headword": "奶娃儿",
+      "pinyin": "lai3 wa2 er2-1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "婴儿。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "屋头几个奶娃儿在耍。",
+          "pinyin": "vu2 tou2 ji3 gə4 lai3 wa2 er2-1 dai4 sua3",
+          "translation": "屋里有几个小婴儿在玩。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00046",
+      "headword": "詜",
+      "pinyin": "tao1",
+      "wordClass": "动词",
+      "variants": ["叨","䛬"],
+      "definitions": [
+        {
+          "text": "骂、斥责。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他又遭老王詜了一顿。",
+          "pinyin": "ta1 you4 zao2 lao3 wang2 tao1 lao3 yi2 den4",
+          "translation": "他又被老王骂了一顿。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00047",
+      "headword": "箩篼",
+      "pinyin": "lo2 dou1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "竹编或藤编的篮子。"
+        },
+        {
+          "text": "引申为屁股。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00048",
+      "headword": "乌喧喧",
+      "pinyin": "vu1 xuan1 xuan1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "喧闹嘈杂、秩序混乱的样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "听到说明天要春游，学生们顿时激动起来，把教室闹得乌喧喧的。",
+          "pinyin": "tin1 dao3 so2 min2 tian1 yao4 cun1 you2 xio2 sen1 men1 den4 si2 ji2 dong4 qi3 lai2 ba3 jiao4 si2 lao4 de2 vu1 xuan1 xuan1 li1",
+          "translation": "听到说明天要春游，学生们顿时激动起来，把教室搞得闹哄哄的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00049",
+      "headword": "孬",
+      "pinyin": "pie4",
+      "wordClass": "形容词",
+      "variants": ["撇"],
+      "definitions": [
+        {
+          "text": "差、不好、不行。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这款茶质量好孬。",
+          "pinyin": "le4 kuan3 ca2 zi2 liang4 hao3 pie4",
+          "translation": "这款茶质量真差。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00050",
+      "headword": "晚黑",
+      "pinyin": "wan3 he2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "晚上。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "昨天儿晚黑",
+          "pinyin": "zo2 tiar1 wan3 he2",
+          "translation": "昨晚"
+        }
       ]
     }
   ]
