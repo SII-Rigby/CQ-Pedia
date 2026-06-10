@@ -455,6 +455,16 @@ h1 {
   line-height: 1.08;
 }
 
+.erhua {
+  display: inline-block;
+  margin-left: 0.02em;
+  color: currentColor;
+  font-size: 0.66em;
+  font-weight: inherit;
+  line-height: 1;
+  vertical-align: baseline;
+}
+
 .pos {
   flex: 0 0 auto;
   padding: 3px 10px;
@@ -502,7 +512,7 @@ h1 {
   font-size: clamp(19px, 2vw, 22px);
 }
 
-.definition-text span {
+.definition-number {
   margin-right: 8px;
   color: var(--red);
   font-weight: 950;

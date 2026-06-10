@@ -8,14 +8,13 @@
 2. **声调用阿拉伯数字 1–4 标在音节末尾**，分别对应**重庆话**中的阴平、阳平、上声、去声。
 3. **不区分平翘舌**：统一拼作 `z c s`。
 4. **保留疑母**：写作 `ng`。
-5. **添加重庆话中特有的韵**：如`io`（「学」`xio2`），`üu`（「俗」`xuu2`），`iai`（「解」`jiai3`）。
-6. **保留 n / l 的本字写法**：尽管口语多读 `l`，词典正字仍按本来声母拼写，并在「读音」字段如实记录变体。
-7. **不区分入声和阳平**：统一标为第 2 调。
-8. **儿化**：用`er ar ier iar uer uar üer üar`这几种儿化方式标注儿化韵。
+5. **添加重庆话中特有的韵**：如`io`（「学」`xio2`），`üu`（「俗」`xuu2`），`iai`（「解」`jiai3`）等。
+6. **不单独区分入声**：根据入声字实际的归并调值标注（绝大多数是第 2 调）。
+7. **儿化**：用`er ar ier iar uer uar üer üar`这几种儿化方式标注儿化韵。
 
 ## 二、声母对照
 
-| 本方案 | 国际音标 | 例字 |
+| 拼音 | 音标 | 例字 |
 | --- | --- | --- |
 | b | p | 把 ba3 |
 | p | pʰ | 怕 pa4 |
@@ -41,7 +40,43 @@
 
 ## 三、韵母对照
 
-🚧
+🚧 Modifying 🚧
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">开口呼</th>
+      <th colspan="3">齐齿呼</th>
+      <th colspan="3">合口呼</th>
+      <th colspan="3">撮口呼</th>
+    </tr>
+    <tr>
+      <th>拼音</th><th>音标</th><th>例字</th>
+      <th>拼音</th><th>音标</th><th>例字</th>
+      <th>拼音</th><th>音标</th><th>例字</th>
+      <th>拼音</th><th>音标</th><th>例字</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>-</td><td>-</td><td>-</td><td>i</td><td>[i]</td><td>鸡 ji1</td><td>u</td><td>[u]</td><td>猪 zu1</td><td>ü</td><td>[y]</td><td>鱼 yu2</td></tr>
+    <tr><td>a</td><td>[a]</td><td>妈 ma1</td><td>ia</td><td>[i̯a]</td><td>家 jia1</td><td>ua</td><td>[u̯a]</td><td>瓦 wa3</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>o</td><td>[o]</td><td>哥 go1</td><td>-</td><td>-</td><td>-</td><td>uo</td><td>[u̯o]</td><td>屙 wo1</td><td>io</td><td>[i̯o]</td><td>学 xio2</td></tr>
+    <tr><td>i</td><td>[]</td><td>资 zi1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>üu</td><td>[]</td><td>俗 xuu2</td></tr>
+    <tr><td>e</td><td>[e]</td><td>额 e2</td><td>ie</td><td>[i̯e]</td><td>学 xie2</td><td>ue</td><td>-</td><td>-</td><td>üe</td><td>-</td><td>-</td></tr>
+    <tr><td>ai</td><td>[ai̯]</td><td>爱 ai4</td><td>iai</td><td>[i̯ai]</td><td>解 jiai3</td><td>uai</td><td>[u̯ai̯]</td><td>快 kuai4</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>ei</td><td>[ei̯]</td><td>飞 fei1</td><td>-</td><td>-</td><td>-</td><td>ui</td><td>[]</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>ao</td><td>[au̯]</td><td>包 bao1</td><td>iao</td><td>[i̯au̯]</td><td>鸟 niao3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>ou</td><td>[ou̯]</td><td>口 kou3</td><td>iu</td><td>[]</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>an</td><td>[an]</td><td>安 ngan1</td><td>ian</td><td>[i̯ɛn]</td><td>烟 yan1</td><td>uan</td><td>[u̯an]</td><td>弯 wan1</td><td>üan</td><td>[ɥɛn]</td><td>冤 yuan1</td></tr>
+    <tr><td>en</td><td>[ən]</td><td>喝 hen1</td><td>in</td><td>[in]</td><td>亲 qin1</td><td>un</td><td>[un]</td><td>文 wen2</td><td>ün</td><td>[yn]</td><td>君 jun1</td></tr>
+    <tr><td>ang</td><td>[ɑŋ]</td><td>妨 fang2</td><td>iang</td><td>[i̯ɑŋ]</td><td>羊 yang2</td><td>uang</td><td>[u̯ɑŋ]</td><td>光 guang1</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>ong</td><td>[uŋ]</td><td>工 gong1</td><td>iong</td><td>[i̯uŋ]</td><td>穷 qiong2</td></tr>
+    <tr><td>er</td><td>[]</td><td>-</td><td>ier</td><td>[]</td><td>-</td><td>uer</td><td>[]</td><td>-</td><td>üer</td><td>[]</td><td>-</td></tr>
+    <tr><td>ar</td><td>[]</td><td>-</td><td>iar</td><td>[]</td><td>-</td><td>uar</td><td>[]</td><td>-</td><td>üar</td><td>[]</td><td>-</td></tr>
+  </tbody>
+</table>
+
 
 > 特殊发音：「个」白读韵母常常弱化成 `[ə]`，记录为 `ə`，对于不方便显示 `ə` 的场景也可以记录成 `eo`；
 > 「吗」「噻」的韵母发音为 `[æ]`，记录为 `æ`，对于不方便显示 `æ` 的场景也可以记录成 `ae`。

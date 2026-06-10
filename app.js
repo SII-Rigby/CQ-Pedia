@@ -34,6 +34,9 @@ const escapeHtml = (value) => String(value || "")
   .replace(/>/g, "&gt;")
   .replace(/"/g, "&quot;")
   .replace(/'/g, "&#039;");
+const plainMarkedText = (value) => String(value || "").replace(/_/g, "");
+const renderMarkedText = (value) => escapeHtml(value)
+  .replace(/_儿/g, '<span class="erhua" aria-label="儿">儿</span>');
 
 function todaysSeedKey(date = new Date()) {
   const year = date.getFullYear();
@@ -90,19 +93,19 @@ function wordClassesOf(entry) {
 }
 
 function entryText(entry) {
-  const definitions = (entry.definitions || []).map((item) => item.text).join(" ");
-  const definitionNotes = (entry.definitions || []).map((item) => item.note).join(" ");
+  const definitions = (entry.definitions || []).map((item) => plainMarkedText(item.text)).join(" ");
+  const definitionNotes = (entry.definitions || []).map((item) => plainMarkedText(item.note)).join(" ");
   const variants = entry.variants || [];
-  const notes = [entry.note, entry.notes].filter(Boolean).join(" ");
+  const notes = [entry.note, entry.notes].filter(Boolean).map(plainMarkedText).join(" ");
 
   return [
-    entry.headword,
+    plainMarkedText(entry.headword),
     entry.pinyin,
     wordClassOf(entry),
     definitions,
     definitionNotes,
     notes,
-    ...variants
+    ...variants.map(plainMarkedText)
   ].join(" ");
 }
 
@@ -172,11 +175,11 @@ function renderExample(example) {
   }
 
   const pinyin = example.pinyin ? `<p class="example-pinyin">${escapeHtml(example.pinyin)}</p>` : "";
-  const translation = example.translation ? `<p class="example-translation">${escapeHtml(example.translation)}</p>` : "";
+  const translation = example.translation ? `<p class="example-translation">${renderMarkedText(example.translation)}</p>` : "";
 
   return `
     <div class="example">
-      <strong>例：</strong>${escapeHtml(example.text)}
+      <strong>例：</strong>${renderMarkedText(example.text)}
       ${pinyin}
       ${translation}
     </div>
@@ -193,7 +196,7 @@ function renderNote(note, modifier = "") {
   return `
     <aside class="${className}">
       <span>注</span>
-      <p>${escapeHtml(note)}</p>
+      <p>${renderMarkedText(note)}</p>
     </aside>
   `;
 }
@@ -206,7 +209,7 @@ function renderFigure(entry) {
   const imageSrc = entry.fig === true
     ? `data/fig/${encodeURIComponent(entry.id)}.png`
     : String(entry.fig);
-  const alt = `${entry.headword || entry.id} 插图`;
+  const alt = `${plainMarkedText(entry.headword || entry.id)} 插图`;
 
   return `
     <figure class="entry-figure">
@@ -225,7 +228,7 @@ function renderEntry(entry) {
 
       return `
         <section class="definition-block">
-          <p class="definition-text"><span>${index + 1}.</span>${escapeHtml(item.text)}</p>
+          <p class="definition-text"><span class="definition-number">${index + 1}.</span>${renderMarkedText(item.text)}</p>
           ${noteHtml}
           ${exampleHtml}
         </section>
@@ -244,7 +247,7 @@ function renderEntry(entry) {
       </section>
     `;
   const variants = entry.variants && entry.variants.length
-    ? `<p class="variants">异体写法：${escapeHtml(entry.variants.join("、"))}</p>`
+    ? `<p class="variants">异体写法：${renderMarkedText(entry.variants.join("、"))}</p>`
     : "";
   const note = renderNote(entry.note || entry.notes, "entry-note");
   const figure = renderFigure(entry);
@@ -252,7 +255,7 @@ function renderEntry(entry) {
   return `
     <article class="entry">
       <div class="entry-head">
-        <h3>${escapeHtml(entry.headword)}</h3>
+        <h3>${renderMarkedText(entry.headword)}</h3>
         <span class="pos">${escapeHtml(wordClassOf(entry))}</span>
       </div>
       <p class="pinyin">${escapeHtml(entry.pinyin)}</p>
@@ -457,6 +460,29 @@ function renderMarkdown(md) {
     return s;
   };
 
+  const sanitizeTableHtml = (html) => {
+    const template = document.createElement("template");
+    template.innerHTML = html;
+    const allowedTags = new Set(["TABLE", "THEAD", "TBODY", "TFOOT", "TR", "TH", "TD"]);
+    const allowedAttrs = new Set(["colspan", "rowspan"]);
+
+    template.content.querySelectorAll("*").forEach((node) => {
+      if (!allowedTags.has(node.tagName)) {
+        node.replaceWith(...node.childNodes);
+        return;
+      }
+
+      [...node.attributes].forEach((attr) => {
+        if (!allowedAttrs.has(attr.name.toLowerCase())) {
+          node.removeAttribute(attr.name);
+        }
+      });
+    });
+
+    const table = template.content.querySelector("table");
+    return table ? table.outerHTML : "";
+  };
+
   const isTableSep = (line) => /^\s*\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)+\|?\s*$/.test(line);
   const splitRow = (line) =>
     line.replace(/^\s*\|/, "").replace(/\|\s*$/, "").split("|").map((c) => c.trim());
@@ -479,6 +505,23 @@ function renderMarkdown(md) {
       }
       i++;
       out.push(`<pre><code>${escapeHtml(buf.join("\n"))}</code></pre>`);
+      continue;
+    }
+
+    if (/^\s*<table\b/i.test(line)) {
+      const buf = [];
+      while (i < lines.length) {
+        buf.push(lines[i]);
+        if (/<\/table>\s*$/i.test(lines[i])) {
+          i++;
+          break;
+        }
+        i++;
+      }
+      const tableHtml = sanitizeTableHtml(buf.join("\n"));
+      if (tableHtml) {
+        out.push(tableHtml);
+      }
       continue;
     }
 
@@ -650,11 +693,3 @@ document.addEventListener("keydown", (event) => {
 });
 
 buildDocList();
-
-
-
-
-
-
-
-
