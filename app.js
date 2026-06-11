@@ -43,6 +43,8 @@ const feedbackEls = {
 };
 
 const normalize = (value) => String(value || "").trim().toLowerCase();
+const normalizeSearchText = (value) => normalize(value)
+  .replace(/[\p{P}\p{S}]+/gu, "");
 const escapeHtml = (value) => String(value || "")
   .replace(/&/g, "&amp;")
   .replace(/</g, "&lt;")
@@ -124,7 +126,6 @@ function entryText(entry) {
   return [
     plainMarkedText(entry.headword),
     entry.pinyin,
-    wordClassOf(entry),
     definitions,
     definitionNotes,
     notes,
@@ -156,8 +157,8 @@ function initialLabel(initial) {
 }
 
 function matchesSearch(entry) {
-  const query = normalize(state.query);
-  return query ? normalize(entryText(entry)).includes(query) : false;
+  const query = normalizeSearchText(state.query);
+  return query ? normalizeSearchText(entryText(entry)).includes(query) : false;
 }
 
 function matchesInitial(entry) {

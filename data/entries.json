@@ -2004,6 +2004,281 @@
           "translation": "爬到山顶的时候，我已经累得手脚发软了。"
         }
       ]
+    },
+    {
+      "id": "cq-00101",
+      "headword": "下暴",
+      "pinyin": "xia4 bao4",
+      "wordClass": "动词；动词短语",
+      "definitions": [
+        {
+          "text": "威胁、欺凌、勒索弱小者，以获得钱财、心理满足等。常用于学生之间。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "几个高年级的学生在校门口下暴，专门找低年级的娃儿要钱。",
+          "pinyin": "ji3 gə4 gao1 lian2 ji2 li1 xio2 sen1 dai4 xiao4 men2 kou3 xia4 bao4 zuan1 men2 zao3 di1 lian2 ji2 li1 wa2 er2-1 yao4 qian2",
+          "translation": "几个高年级的学生在校门口施暴，专门找低年级的孩子要钱。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00102",
+      "headword": "搭飞白",
+      "pinyin": "da2 fei1 be2",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "插入别人谈话，尤其指不受欢迎、不知趣地搭话。"
+        },
+        {
+          "text": "与陌生人或不相干的人主动搭话、攀谈。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我们两个说事情，你跑来搭飞白做啥子嘛？",
+          "pinyin": "wo3 men1 liang3 gə4 so2 si4 qin2 li3 pao3 lai2 da2 fei1 be2 zu4 sa4 zi3 ma3",
+          "translation": "我们两个人在说事情，你跑来插什么话？"
+        },
+        {}
+      ]
+    },
+    {
+      "id": "cq-00103",
+      "headword": "答应",
+      "pinyin": "dai4 yin1 / de2 yin4",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "应答、回应、做出反应。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我喊了你好几声，你啷个不答应我呀？",
+          "pinyin": "wo3 han3 lao3 li3 hao3 ji3 sen1 li3 lang3 gə4-1 bu2 dai4 yin1 wo3 yæ1",
+          "translation": "我喊了你好几声，你怎么不回应我呢？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00104",
+      "headword": "打伙",
+      "pinyin": "da3 ho3",
+      "wordClass": "动词短语；副词",
+      "variants": ["搭伙"],
+      "definitions": [
+        {
+          "text": "结伴、合伙、一起做某事。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "放学了我们打伙回去，路上还可以摆下龙门阵。",
+          "pinyin": "fang4 xio2 lao3 wo3 men1 da3 ho3 hui2 qi4-1 lu4 sang4 hai2 ko3 yi3 bai3 ha4 long2 men2 zen4",
+          "translation": "放学了我们结伴回去，路上还可以聊会儿天。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00105",
+      "headword": "奓",
+      "pinyin": "za1",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "张开、展开。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "看牙医的时候嘴巴要奓大点_儿。",
+          "pinyin": "kan4 ya2 yi1 li1 si2 hou4 zui3 ba1 yao4 za1 da4 diar3",
+          "translation": "看牙医的时候嘴巴得张大点儿。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00106",
+      "headword": "摛",
+      "pinyin": "ci1",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "伸出、探出。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫把脑壳摛出去！",
+          "pinyin": "li3 mo2 ba3 lao3 ko2 ci1 cu2 qi4-1",
+          "translation": "你别把头伸出去！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00107",
+      "headword": "打平伙",
+      "pinyin": "da3 pin2 ho3",
+      "wordClass": "动词短语",
+      "variants": ["打平火"],
+      "definitions": [
+        {
+          "text": "本指民间共同出资、协作烹饪、共享食物。现在也可指大家凑钱或平均分摊餐费，一起吃饭聚餐。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "今天_儿晚黑不请客，我们几个打平伙。",
+          "pinyin": "jin1 tiar1 wan3 he2 bu2 qin3 ke2 wo3 men1 ji3 gə4 da3 pin2 ho3",
+          "translation": "今天晚上不请客，我们几个平摊费用。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00108",
+      "headword": "戳锅漏",
+      "pinyin": "co2 go1 lou4",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "成事不足、败事有余，做事掉链子、扯后腿的人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "大家都在想办法，你不要在侧边当戳锅漏。",
+          "pinyin": "da4 jia1 dou1 dai4 xiang3 ban4 fa2 li3 bu2 yao4 dai4 ze2 bian1 dang4 co2 go1 lou4",
+          "translation": "大家都在想办法，你不要在旁边扯后腿。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00109",
+      "headword": "串串_儿香",
+      "pinyin": "cuan4 cuar4-1 xiang1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "川渝常见小吃，把食材穿在签子上，放入汤锅中烫煮后食用。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00110",
+      "headword": "抖摆",
+      "pinyin": "tou3 bai3",
+      "wordClass": "名词；动词",
+      "definitions": [
+        {
+          "text": "花招、名堂、小动作。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "青天白日的搞这些抖摆，你娃要着！",
+          "pinyin": "qin1 tian1 be2 ri2 li1 gao3 le4 xi1 tou3 bai3 li3 wa2 yao4 zao2",
+          "translation": "光天化日的耍这些花招儿，你给我小心点。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00111",
+      "headword": "孬火药",
+      "pinyin": "pie4 ho3 yo2",
+      "wordClass": "名词",
+      "variants": ["撇火药"],
+      "definitions": [
+        {
+          "text": "水平差、没有能力的（人或物）。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他买的蚊香是孬火药，滴滴_儿效果都没得，蚊子把我咬惨了。",
+          "pinyin": "ta1 mai3 li1 wen2 xiang1 si4 pie4 ho3 yo2 di1 dier1 xiao4 go3 dou1 mei1 de2 wen2 zi3 ba3 wo3 ngao3 can3 lao3",
+          "translation": "他买的蚊香很不中用，一点效果都没有，蚊子把我咬惨了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00112",
+      "headword": "簸尔皮",
+      "pinyin": "bo3 er3 pi2",
+      "wordClass": "名词",
+      "variants": ["波尔皮", "簸儿皮", "波儿皮"],
+      "definitions": [
+        {
+          "text": "价格低廉、质量较差、坐着颠簸的车。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他买了个二手簸尔皮，天天_儿开起上班_儿。",
+          "pinyin": "ta1 mai3 lao3 gə4 er4 sou3 bo3 er3 pi2 tian1 tiar1 kai1 qi3 sang4 bar1",
+          "translation": "他买了辆便宜的二手小车，天天开着上班。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00113",
+      "headword": "搊",
+      "pinyin": "cou1",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "推、扶、撑。使人或物保持住、移动或起来。"
+        },
+        {
+          "text": "帮衬、帮忙、扶持。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "婆婆下坎差点_儿摔了，我赶忙搊了她一把。",
+          "pinyin": "po2 po2-1 ha4 kan3 ca1 diar3 zuai1 lao3 wo3 gan3 mang2 cou1 lao3 ta1 yi4 ba3",
+          "translation": "婆婆下台阶差点摔了，我赶紧扶了她一把。"
+        },
+        {
+          "text": "这几年要不是亲戚搊到起，他屋头早就恼火了。",
+          "pinyin": "le4 ji3 lian2 yao4 bu2 si4 qin1 qi2 cou1 dao3 qi3 ta1 vu2 tou2 zao3 dou4 lao3 ho3 lao3",
+          "translation": "这几年要不是亲戚帮衬着，他家早就困难了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00114",
+      "headword": "曲蟮_儿",
+      "pinyin": "quu2 suar4 / cu2 suar4",
+      "wordClass": "名词",
+      "variants": ["蛐蟮", "曲蟺", "锄蟮"],
+      "definitions": [
+        {
+          "text": "蚯蚓。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00115",
+      "headword": "万天_儿",
+      "pinyin": "wan4 tiar1",
+      "wordClass": "时间词",
+      "definitions": [
+        {
+          "text": "大后天。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "后天_儿没得空，万天_儿再去看外婆。",
+          "pinyin": "hou4 tiar1 mei1 de2 kong4 wan4 tiar1 zai4 qi4 kan4 wai4 po2",
+          "translation": "明天没有空，大后天再去看外婆。"
+        }
+      ]
     }
   ]
 }
