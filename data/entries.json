@@ -70,7 +70,7 @@
     {
       "id": "cq-00004",
       "headword": "摆龙门阵",
-      "pinyin": "bai3 long2 men2 zhen4",
+      "pinyin": "bai3 long2 men2 zen4",
       "wordClass": "动词短语",
       "definitions": [
         {
@@ -407,7 +407,7 @@
       "id": "cq-00020",
       "headword": "高头",
       "pinyin": "gao1 tou2",
-      "wordClass": "方位词",
+      "wordClass": "方位词；名词",
       "definitions": [
         {
           "text": "上面、上方。"
@@ -878,7 +878,7 @@
       "examples": [
         {
           "text": "今年子的朒朒比往年家相因。",
-          "pinyin": "jin1 lian2 zi3 ga3 ga3 bi3 wang3 nian2 jia1 xiang1 yin1",
+          "pinyin": "jin1 lian2 zi3 ga3 ga3 bi3 wang3 lian2 jia1 xiang1 yin1",
           "translation": "今年的肉比往年便宜。"
         }
       ]
@@ -1332,7 +1332,7 @@
       "headword": "𤆵叽叽",
       "pinyin": "pa1 ji1 ji1",
       "wordClass": "形容词",
-      "variants": "𤆵唧唧",
+      "variants": ["𤆵唧唧","耙叽叽"],
       "definitions": [
         {
           "text": "软糯、软弹。"
@@ -1561,7 +1561,7 @@
       "headword": "……到起",
       "pinyin": "dao4 qi3",
       "wordClass": "助词",
-      "variants": "……着起",
+      "variants": ["……着起"],
       "definitions": [
         {
           "text": "接在动词后，表示结果。"
@@ -1595,7 +1595,7 @@
       ],
       "examples": [
         {
-          "text": "这帮娃儿里头他冒尖儿。",
+          "text": "这帮娃儿里头他冒尖_儿。",
           "pinyin": "le4 bang1 wa2 er2-1 yi3 tou2 ta1 mao4 jiar1",
           "translation": "这群孩子里他最突出。"
         }
@@ -1613,7 +1613,7 @@
       ],
       "examples": [
         {
-          "text": "我把屋头找交了都找不到那个金手镯？",
+          "text": "我把屋头找交了都找不到那个金手镯。",
           "pinyin": "wo3 ba3 vu2 tou2 zao3 jiao1 lao3 dou1 zao3 bu2 dao3 la4 gə4 jin1 sou3 zo2",
           "translation": "我把家里找遍了都找不到那个金手镯。"
         }
@@ -1635,6 +1635,369 @@
           "text": "腊肉要拿柏树丫丫煪。",
           "pinyin": "qiu1 la2 rou4 yao4 la2 be2 su4 ya1 ya1 qiu1",
           "translation": "腊肉得拿柏树枝丫熏。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00081",
+      "headword": "里头",
+      "pinyin": "yi3/li3 tou2",
+      "wordClass": "方位词；名词",
+      "definitions": [
+        {
+          "text": "里面、内部。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "碗里头还有点_儿汤，你喝了再走。",
+          "pinyin": "wan3 yi3 tou2 hai2 you3 diar3 tang1, li3 ho1 lao3 zai4 zou3",
+          "translation": "碗里还有点汤，你喝了再走。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00082",
+      "headword": "外头",
+      "pinyin": "wai4 tou2",
+      "wordClass": "方位词；名词",
+      "definitions": [
+        {
+          "text": "外面、外边。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "外头天气好安逸哟！",
+          "pinyin": "wai4 tou2 tian1 qi4 hao3 ngan1 yi2 yo3",
+          "translation": "外面天气真舒服！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00083",
+      "headword": "底下",
+      "pinyin": "di3 xia4-2",
+      "wordClass": "方位词；名词",
+      "definitions": [
+        {
+          "text": "下面、下边。同「底脚」。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00084",
+      "headword": "底脚",
+      "pinyin": "di3 jio2",
+      "wordClass": "方位词；名词",
+      "definitions": [
+        {
+          "text": "底部、脚下位置；也指下边。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "把桌子底下的灰灰清理干净。",
+          "pinyin": "ba3 zo2 zi3 di3 xia4-2 li1 hui1 hui1 qin1 li3 gan1 jin4",
+          "translation": "把桌子底下的灰清理干净。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00085",
+      "headword": "顶顶",
+      "pinyin": "din3 din3",
+      "wordClass": "方位词；名词",
+      "definitions": [
+        {
+          "text": "顶上、最高的地方。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "有只猫儿跑到房子顶顶。",
+          "pinyin": "mao4 zi5 dai4 wen3 le5 o5, bie2 hua2 dao4 ding3 ding5 qu4",
+          "translation": "帽子戴稳了哦，别滑到头顶去。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00086",
+      "headword": "歪",
+      "pinyin": "wai1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "凶恶、蛮横、不好惹。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫看她平时温温柔柔的，冒起火来歪得很。",
+          "pinyin": "li3 mo2 kan4 ta1 pin2 si2 wen1 wen1 rou2 rou2 li1 mao4 qi3 ho3 lai2 wai1 de2 hen3",
+          "translation": "你别看她平时温温柔柔的，发起火来凶得很。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00087",
+      "headword": "歪",
+      "pinyin": "wai3",
+      "wordClass": "形容词",
+      "variants": ["崴"],
+      "definitions": [
+        {
+          "text": "质量差、不好、不正规。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个充电器好歪，买回来两天就用不起了。",
+          "pinyin": "le4 gə4-1 cong1 dian4 qi4 hao3 wai3 mai3 hui2 lai2 liang3 tian1 dou4 yong4 bu2 qi3 lao3",
+          "translation": "这个充电器质量真差，买回来两天就不能用了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00088",
+      "headword": "乖",
+      "pinyin": "guai1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "可爱、讨人喜欢；也可形容人长得好看、漂亮。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她今天_儿这身打扮多乖的。",
+          "pinyin": "ta1 jin1 tiar1 le4 sen1 da3 ban4 do1 guai1 li1",
+          "translation": "她今天这身打扮挺漂亮的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00089",
+      "headword": "膗实",
+      "pinyin": "zuai2 si2",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "体格健壮、身形结实魁梧。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "几年没见，这个崽儿长得膗实得很了。",
+          "pinyin": "ji3 lian2 mei1 jian4 le4 gə4 zai3 er2 zang3 de2 zuai2 si2 de2 hen3 lao3",
+          "translation": "几年没见，这个孩子长得很结实了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00090",
+      "headword": "硬腠",
+      "pinyin": "ngen4 zou3",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "硬实、结实、硬朗。通常形容人的身体、肌肉。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他天天_儿干体力活路_儿，身体硬腠得很。",
+          "pinyin": "ta1 tian1 tiar1 gan4 ti3 li2 ho2 luer4 sen1 ti3 ngen4 zou3 de2 hen3",
+          "translation": "他天天干体力活，身体很结实。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00091",
+      "headword": "读望天书",
+      "pinyin": "du2 wang4 tian1 su1",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "读书、上课时走神，不认真学习，眼睛望到别处或心思不在书本上。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "老师在讲重点，他在后头读望天书，肯定听不懂。",
+          "pinyin": "lao3 si1 dai4 jiang3 zong4 dian3 ta1 dai4 hou4 tou2 du2 wang4 tian1 su1 ken3 ding4 tin1 bu2 dong3",
+          "translation": "老师在讲重点，他在后面走神，肯定听不懂。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00092",
+      "headword": "正南齐北",
+      "pinyin": "zen4 lan2 qi2 be2",
+      "wordClass": "形容词；副词",
+      "variants": ["正南齐白"],
+      "definitions": [
+        {
+          "text": "一本正经地、认真地。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我正南齐北跟你说，这件事不是搞起好耍的。",
+          "pinyin": "wo3 zen4 lan2 qi2 be2 gen1 li3 so2 le4 jian4 si4 bu2 si4 gao3 qi3 hao3 sua3 li1",
+          "translation": "我认真跟你说，这件事不是闹着玩的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00093",
+      "headword": "酌古斟今",
+      "pinyin": "zo2 gu3 zen1-4 jin1",
+      "wordClass": "形容词；副词",
+      "variants": ["作古正经"],
+      "definitions": [
+        {
+          "text": "一本正经、故作严肃。",
+          "notes": "普通书面义本为斟酌古今、参考古今情形；重庆话里多按口语中的「作古正经」一路理解，意义转为一本正经、严肃的样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他酌古斟今地讲了半天，其实啥子办法都没得。",
+          "pinyin": "ta1 zo2 gu3 zen1-4 jin1 li1 jiang3 lao3 ban4 tian1 qi2 si2 sa4 zi3 ban4 fa2 dou1 mei1 de2",
+          "translation": "他一本正经地讲了半天，其实什么办法都没有。"
+        }
+      ],
+      "notes": "普通书面义本为斟酌古今、参考古今情形；重庆话里多按口语中的「作古正经」一路理解，意义转为一本正经、故作正经。"
+    },
+    {
+      "id": "cq-00094",
+      "headword": "估吃霸赊",
+      "pinyin": "gu3 ci2 ba4-2 se1/sai1",
+      "wordClass": "动词短语；形容词",
+      "definitions": [
+        {
+          "text": "吃饭、拿东西不给钱，强迫别人赊账。"
+        },
+        {
+          "text": "引申为蛮不讲理、强占便宜、横行霸道。"
+        }
+      ],
+      "examples": [
+        {},
+        {
+          "text": "你一天估吃霸赊的，哪个还愿意跟你做生意嘛？",
+          "pinyin": "li3 yi2 tian1 gu3 ci2 ba4-2 se1 li1 la3 gə4 hai2 yuan4 yi4 gen1 li3 zu4 sen1 yi4 ma3",
+          "translation": "你总是强占便宜不给钱，谁还愿意跟你做生意呢？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00095",
+      "headword": "怪眉日眼_儿",
+      "pinyin": "guai4 mi2 ri2 yar3",
+      "wordClass": "形容词",
+      "variants": ["怪迷日眼_儿"],
+      "definitions": [
+        {
+          "text": "形容人挤眉弄眼、装腔作势。又作「怪眉怪眼_儿」「鬼眉日眼_儿」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫在那里怪眉日眼_儿的，有话就正南齐北说。",
+          "pinyin": "li3 mo2 dai4 la4 li3-1 guai4 mi2 ri2 yar3 li1 you3 hua4 dou4 zen4 lan2 qi2 be2 so2",
+          "translation": "你别在那里挤眉弄眼、怪里怪气的，有话就正经说。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00096",
+      "headword": "着惊着寒",
+      "pinyin": "zo2 jin1 zo2 han2",
+      "wordClass": "形容词；动词短语",
+      "definitions": [
+        {
+          "text": "受到惊吓，心里发慌、不安。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "上回_儿遭车吓了一盘_儿，他现在过马路都着惊着寒的。",
+          "pinyin": "sang4 huer2 zao2 ce1 ha4 lao3 yi2 par2 ta1 xian4 zai4 go4 ma3 lu4 dou1 zo2 jin1 zo2 han2 li1",
+          "translation": "上次被车吓了一次，他现在过马路都心有余悸。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00097",
+      "headword": "黢麻打黑",
+      "pinyin": "qu1 ma1 da3 he2",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "黑漆漆。形容环境光线极其暗，几乎看不清东西。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "巷巷_儿头黢麻打黑的，你一个人走要好生点_儿。",
+          "pinyin": "hang4 har1 tou2 qu1 ma1 da3 he2 li1 li3 yi2 gə4 ren2 zou3 yao4 hao3 sen1 diar3",
+          "translation": "巷子里黑漆漆的，你一个人走要小心点。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00098",
+      "headword": "白之八之",
+      "pinyin": "be2 zi1 ba2 zi1",
+      "wordClass": "副词；形容词",
+      "definitions": [
+        {
+          "text": "平白无故、莫名其妙。又作「白之之」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你白之八之说这些，我硬是没听懂。",
+          "pinyin": "li3 be2 zi1 ba2 zi1 so2 le4 xi1 wo3 ngen4 si4 mei1 tin1 dong3",
+          "translation": "你莫名其妙地说这些，我实在没听懂。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00099",
+      "headword": "怪头怪脑",
+      "pinyin": "guai4 tou2 guai4 lao3",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "举止古怪、莫名其妙、不合常理。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他今天_儿说话怪头怪脑的，不晓得心头在默啥子。",
+          "pinyin": "ta1 jin1 tiar1 so2 hua4 guai4 tou2 guai4 lao3 li1 bu2 xiao3 de2 xin1 tou2 dai4 me3 sa4 zi3",
+          "translation": "他今天说话怪怪的，不知道心里在想什么。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00100",
+      "headword": "脚𤆵手软",
+      "pinyin": "jio2 pa1 sou3 ruan3",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "腿脚和手都发软、全身无力。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "爬到山顶顶的时候_儿，我已经脚𤆵手软了。",
+          "pinyin": "pa2 dao3 san1 din3 din3 li1 si2 her4 wo3 yi3 jin1 jio2 pa1 sou3 ruan3 lao3",
+          "translation": "爬到山顶的时候，我已经累得手脚发软了。"
         }
       ]
     }
