@@ -886,6 +886,17 @@ h1 {
   width: min(720px, 100%);
 }
 
+.index-window .index-tabs {
+  flex: 0 0 auto;
+}
+
+.index-window .initial-grid {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
 .about-window {
   width: min(640px, 100%);
 }
