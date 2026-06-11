@@ -1281,6 +1281,362 @@
           "translation": "你别在我面前吹牛，老老实实说吧！"
         }
       ]
+    },
+    {
+      "id": "cq-00063",
+      "headword": "烦躁躁",
+      "pinyin": "fan2 zao4 zao4",
+      "wordClass": "形容词",
+      "variants": ["烦燥燥"],
+      "definitions": [
+        {
+          "text": "非常脏、很不干净。"
+        },
+        {
+          "text": "心情烦躁不安。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你看你这双鞋子烦躁躁的，快点_儿拿去刷了。",
+          "pinyin": "li3 kan4 li3 le4 suang1 hai2 zi3 fan2 zao4 zao4 li1 kuai4 diar3 la2 qi4 sua2 lao3",
+          "translation": "你看你这双鞋脏兮兮的，快点拿去刷了。"
+        },
+        {
+          "text": "想起娃儿的升学问题，他心头烦躁躁的。",
+          "pinyin": "xiang3 qi3 wa2 er2-1 li1 sen1 xio2 wen4 ti2 ta1 xin1 tou2 fan2 zao4 zao4 li1",
+          "translation": "一想到孩子的升学问题，他的心里很烦燥。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00064",
+      "headword": "短杵杵",
+      "pinyin": "duan3 cu3 cu3",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "短小。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "裤脚短处处的，磕膝头_儿都遮不着。",
+          "pinyin": "ku4 jio2 duan3 cu3 cu3 li1 ke2 xi2-1 ter2 dou1 ze1 bu2 dao3",
+          "translation": "裤脚短短的，膝盖都遮不住。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00065",
+      "headword": "𤆵叽叽",
+      "pinyin": "pa1 ji1 ji1",
+      "wordClass": "形容词",
+      "variants": "𤆵唧唧",
+      "definitions": [
+        {
+          "text": "软糯、软弹。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个粑粑吃起𤆵叽叽的。",
+          "pinyin": "le4 gə4 ba1 ba1 ci2 qi3 pa1 ji1 ji1 li1",
+          "translation": "这个饼吃起来软软糯糯的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00066",
+      "headword": "滴滴_儿尕尕_儿",
+      "pinyin": "di1 dier1 ga2 gar2-1",
+      "wordClass": "形容词；副词",
+      "variants": ["滴滴_儿嘎嘎_儿"],
+      "definitions": [
+        {
+          "text": "一点点、非常少。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "碗头只剩滴滴_儿尕尕_儿饭了，你还吃不吃？",
+          "pinyin": "wan3 tou2 zi3 sen4 di1 dier1 ga2 gar2-1 fan4 lao3 li3 hai2 ci2 bu2 ci2",
+          "translation": "碗里只剩一点点饭了，你还吃不吃？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00067",
+      "headword": "飞叉叉",
+      "pinyin": "fei1 ca3 ca3 / fei1 ca1 ca1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "形容人不庄重、放肆。多用于女性。"
+        },
+        {
+          "text": "速度快、野、不拘束。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "王婆婆那几个孙女_儿一天飞叉叉的，不懂规矩。",
+          "pinyin": "wang2 po2 po2-1 la4 ji3 gə4 sen1 lüer3 yi2 tian1 fei1 ca3 ca3 li1 bu2 dong3 gui1 ju3",
+          "translation": "王婆婆那几个孙女成天举止放肆，不懂规矩。"
+        },
+        {
+          "text": "这些摩托车一天开得飞叉叉的。",
+          "pinyin": "le4 xi1 mo1 to2 ce1 yi2 tian1 kai1 de2 fei1 ca3 ca3 li1",
+          "translation": "这些摩托车成天开得很放肆。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00068",
+      "headword": "惊抓抓",
+      "pinyin": "jin1 zua1 zua1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "大惊小怪、咋咋呼呼。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫惊抓抓的，又不是好大的事情。",
+          "pinyin": "li3 mo2 jin1 zua1 zua1 li1 you4 bu2 si4 hao3 da4 li1 si4 qin2",
+          "translation": "你别大惊小怪的，又不是什么大事。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00069",
+      "headword": "旷西西",
+      "pinyin": "kuang4 xi1 xi1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "糊涂、不清醒、不灵光。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他睡醒起来矿西西的，钥匙都找不到了。",
+          "pinyin": "ta1 sui4 xin3 qi3 lai2 kuang4 xi1 xi1 li1 yo2 si2 dou1 zao3 bu2 dao3 lao3",
+          "translation": "他睡醒起来迷迷糊糊的，钥匙都找不到了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00070",
+      "headword": "亮瓦瓦",
+      "pinyin": "liang4 wa3 wa3",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "很亮、亮闪闪的。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "新擦的地板亮瓦瓦的，走路小心点啰。",
+          "pinyin": "xin1 ca2 li1 di4 ban3 liang4 wa3 wa3 li1 zou3 lu4 xiao3 xin1 diar3 lo1",
+          "translation": "新擦的地板亮闪闪的，走路小心点。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00071",
+      "headword": "兀笃笃",
+      "pinyin": "vu4 du2 du2",
+      "wordClass": "副词；形容词",
+      "variants": ["兀独独","雾独独"],
+      "definitions": [
+        {
+          "text": "冷不防、突然地。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他雾独独地冒出来，把我吓了一跳。",
+          "pinyin": "ta1 vu4 du2 du2 li1 mao4 cu2 lai2 ba3 wo3 he2 lao3 yi2 tiao4",
+          "translation": "他冷不防地冒出来，把我吓了一跳。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00072",
+      "headword": "俗杂杂",
+      "pinyin": "xuu2 za3 za3",
+      "wordClass": "形容词",
+      "variants": ["俗匝匝"],
+      "definitions": [
+        {
+          "text": "俗气、土气、不雅。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个颜色配起俗杂杂的，不太好看。",
+          "pinyin": "le4 gə4 yan2 se2 pei4 qi3 xuu2 za3 za3 li1 bu2 tai4 hao3 kan4",
+          "translation": "这个颜色搭配起来很俗气，不太好看。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00073",
+      "headword": "磕膝头_儿",
+      "pinyin": "ke2 xi2-1 ter2",
+      "wordClass": "名词",
+      "variants": ["肐膝头_儿", "髂膝头_儿", "𩨘膝头_儿", "克膝头_儿"],
+      "definitions": [
+        {
+          "text": "膝盖。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "裤脚短处处的，磕膝头_儿都遮不着。",
+          "pinyin": "ku4 jio2 duan3 cu3 cu3 li1 ke2 xi2-1 ter2 dou1 ze1 bu2 dao3",
+          "translation": "裤脚短短的，膝盖都遮不住。"
+        }
+      ]
+    }, 
+    { 
+      "id": "cq-00074",
+      "headword": "龌龊",
+      "pinyin": "wo2 co2‑1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "肮脏、污秽。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你这个枕头好龌龊哟。",
+          "pinyin": "li3 le4 gə4-1 zen3 tou2 hao3 wo2 co2-1 yo3",
+          "translation": "你这个枕头真脏。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00075",
+      "headword": "抈憋",
+      "pinyin": "yue1 bie1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "憋闷、压抑、委屈。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他在单位里受了抈憋气，回来就朝着娃儿身上发。",
+          "pinyin": "ta1 dai4 dan1 wei4 li3 sou4 lao3 yue1 bie1 qi4 hui2 lai2 dou4 cao2 dao3 wa2 er2-1 sen1 sang4 fa2",
+          "translation": "他在单位里受了窝囊气，回来就朝着孩子身上撒气。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00076",
+      "headword": "㰵",
+      "pinyin": "juu2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "用嘴吸。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "看起一张樱桃_儿小嘴，两下就把一大瓶奶㰵干净了。",
+          "pinyin": "kan4 qi3 yi2 zang1 ngen1 tar2 xiao3 zui3 liang3 ha4 dou4 ba3 yi2 da4 pin2 lai3 juu2 gan1 jin4 lao3",
+          "translation": "看着是一张樱桃小嘴，两下就把一大瓶奶吸干净了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00077",
+      "headword": "……到起",
+      "pinyin": "dao4 qi3",
+      "wordClass": "助词",
+      "variants": "……着起",
+      "definitions": [
+        {
+          "text": "接在动词后，表示结果。"
+        },
+        {
+          "text": "接在动词后，表示祈使、命令。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我的手机找到起了！",
+          "pinyin": "wo3 li1 sou3 ji1 zao3 dao3 qi3 lao3",
+          "translation": "我的手机找到了！"
+        },
+        {
+          "text": "站到起！",
+          "pinyin": "zan4 dao3 qi3",
+          "translation": "站着！/站住！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00078",
+      "headword": "冒尖_儿",
+      "pinyin": "mao4 jiar1",
+      "wordClass": "动词；动词短语；形容词",
+      "definitions": [
+        {
+          "text": "表现突出、领先。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这帮娃儿里头他冒尖儿。",
+          "pinyin": "le4 bang1 wa2 er2-1 yi3 tou2 ta1 mao4 jiar1",
+          "translation": "这群孩子里他最突出。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00079",
+      "headword": "交",
+      "pinyin": "jiao1",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "完、遍的意思。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我把屋头找交了都找不到那个金手镯？",
+          "pinyin": "wo3 ba3 vu2 tou2 zao3 jiao1 lao3 dou1 zao3 bu2 dao3 la4 gə4 jin1 sou3 zo2",
+          "translation": "我把家里找遍了都找不到那个金手镯。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00080",
+      "headword": "煪",
+      "pinyin": "qiu1",
+      "wordClass": "动词",
+      "variants": ["煍"],
+      "definitions": [
+        {
+          "text": "烟熏、用烟熏制（常指食物）。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "腊肉要拿柏树丫丫煪。",
+          "pinyin": "qiu1 la2 rou4 yao4 la2 be2 su4 ya1 ya1 qiu1",
+          "translation": "腊肉得拿柏树枝丫熏。"
+        }
+      ]
     }
   ]
 }

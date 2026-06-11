@@ -16,6 +16,8 @@
       <nav class="top-nav" aria-label="主导航">
         <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
         <button type="button" id="indexBtn" aria-haspopup="dialog" aria-controls="indexModal">索引</button>
+        <button type="button" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutModal">关于</button>
+        <button type="button" id="feedbackBtn" aria-haspopup="dialog" aria-controls="feedbackModal">反馈</button>
       </nav>
     </header>
 
@@ -55,15 +57,147 @@
       </div>
     </div>
 
+    <div class="modal about-modal" id="aboutModal" role="dialog" aria-modal="true" aria-labelledby="aboutTitle" hidden>
+      <div class="modal-backdrop" data-about-close></div>
+      <div class="modal-window about-window" role="document">
+        <header class="modal-head">
+          <div>
+            <p class="modal-kicker">About CQ-Pedia</p>
+            <h2 id="aboutTitle">关于</h2>
+          </div>
+          <button type="button" class="modal-close" data-about-close aria-label="关闭">×</button>
+        </header>
+        <div class="about-content">
+          <section class="about-section" aria-labelledby="authorTitle">
+            <h3 id="authorTitle">作者信息</h3>
+            <dl class="about-list">
+              <div>
+                <dt>GitHub</dt>
+                <dd><a href="https://github.com/SII-Rigby" target="_blank" rel="noopener">SII-Rigby</a></dd>
+              </div>
+              <div>
+                <dt>邮箱</dt>
+                <dd>georgeliu677@gmail.com</dd>
+              </div>
+            </dl>
+          </section>
+          <section class="about-section" aria-labelledby="donateTitle">
+            <h3 id="donateTitle">求打赏</h3>
+            <figure class="donate-code">
+              <img src="assets/donate.jpg" alt="赞赏码">
+            </figure>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal feedback-modal" id="feedbackModal" role="dialog" aria-modal="true" aria-labelledby="feedbackTitle" hidden>
+      <div class="modal-backdrop" data-feedback-close></div>
+      <div class="modal-window feedback-window" role="document">
+        <header class="modal-head">
+          <div>
+            <p class="modal-kicker">Site Feedback</p>
+            <h2 id="feedbackTitle">反馈</h2>
+          </div>
+          <button type="button" class="modal-close" data-feedback-close aria-label="关闭">×</button>
+        </header>
+        <div class="feedback-tabs" role="tablist" aria-label="反馈类型">
+          <button type="button" class="active" data-feedback-tab="issue" role="tab" aria-selected="true">反馈问题</button>
+          <button type="button" data-feedback-tab="entry" role="tab" aria-selected="false">贡献词条</button>
+        </div>
+        <div class="feedback-content">
+          <form class="feedback-panel active" id="issueFeedbackForm" data-feedback-panel="issue">
+            <fieldset class="feedback-fieldset">
+              <legend>问题类型</legend>
+              <div class="choice-grid">
+                <label><input type="checkbox" name="issueType" value="词条错误">词条错误</label>
+                <label><input type="checkbox" name="issueType" value="网站问题">网站问题</label>
+                <label><input type="checkbox" name="issueType" value="拼音/音系">拼音/音系</label>
+                <label><input type="checkbox" name="issueType" value="建议">建议</label>
+              </div>
+            </fieldset>
+            <label class="form-field">
+              <span>相关词条</span>
+              <input type="text" name="entryRef" autocomplete="off" placeholder="可选">
+            </label>
+            <label class="form-field">
+              <span>联系方式</span>
+              <input type="text" name="contact" autocomplete="off" placeholder="可选">
+            </label>
+            <label class="form-field full">
+              <span>问题描述</span>
+              <textarea name="message" rows="8" required></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit">提交</button>
+            </div>
+          </form>
+
+          <form class="feedback-panel" id="entryContributionForm" data-feedback-panel="entry" hidden>
+            <div class="form-grid">
+              <label class="form-field">
+                <span>词目</span>
+                <input type="text" name="headword" required>
+              </label>
+              <label class="form-field">
+                <span>拼音</span>
+                <input type="text" name="pinyin" placeholder="xiong2 qi3" required>
+              </label>
+              <label class="form-field">
+                <span>词性</span>
+                <input type="text" name="wordClass" placeholder="名词；动词">
+              </label>
+              <label class="form-field">
+                <span>异体写法</span>
+                <input type="text" name="variants" placeholder="用 、 或 ; 分隔">
+              </label>
+              <label class="form-field full">
+                <span>释义</span>
+                <textarea name="definitions" rows="4" required placeholder="每行一条释义"></textarea>
+              </label>
+              <label class="form-field full">
+                <span>例句</span>
+                <textarea name="examples" rows="3" placeholder="每行一条例句"></textarea>
+              </label>
+              <label class="form-field full">
+                <span>例句拼音</span>
+                <textarea name="examplePinyin" rows="3" placeholder="与例句按行对应"></textarea>
+              </label>
+              <label class="form-field full">
+                <span>例句翻译</span>
+                <textarea name="exampleTranslation" rows="3" placeholder="与例句按行对应"></textarea>
+              </label>
+              <label class="form-field full">
+                <span>备注</span>
+                <textarea name="note" rows="3"></textarea>
+              </label>
+              <label class="form-field">
+                <span>贡献者</span>
+                <input type="text" name="contributor" autocomplete="off" placeholder="可选">
+              </label>
+              <label class="form-field">
+                <span>联系方式</span>
+                <input type="text" name="contact" autocomplete="off" placeholder="可选">
+              </label>
+            </div>
+            <div class="form-actions">
+              <button type="submit">提交</button>
+            </div>
+          </form>
+          <p id="feedbackStatus" class="feedback-status" aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+
     <main>
       <section class="hero" id="search">
         <div class="hero-copy">
           <p class="platform-label">重庆语言文化开放平台</p>
           <h1>重庆话正音词典</h1>
 
-          <form class="search-form" id="searchForm">
+          <form class="search-form" id="searchForm" onsubmit="window.cqSearch && window.cqSearch(); return false;">
             <label class="visually-hidden" for="searchInput">搜索词典</label>
-            <input id="searchInput" type="search" autocomplete="off" placeholder="搜索词目、拼音、异体写法或释义">
+            <input id="searchInput" type="search" autocomplete="off" placeholder="搜索词目、拼音、异体写法或释义" oninput="window.cqSearch && window.cqSearch();" onchange="window.cqSearch && window.cqSearch();" onsearch="window.cqSearch && window.cqSearch();" onkeyup="window.cqSearch && window.cqSearch();">
             <button type="submit" aria-label="搜索">
               <svg aria-hidden="true" viewBox="0 0 24 24">
                 <circle cx="11" cy="11" r="6.5"></circle>
@@ -91,7 +225,7 @@
       <span>CQ-Pedia</span>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="app.js?v=20260611-search-inline-fix"></script>
   </body>
 </html>
 
