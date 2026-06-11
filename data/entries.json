@@ -1203,7 +1203,7 @@
       ],
       "examples": [
         {
-          "text": "他躬起身子去捡地上的钥匙",
+          "text": "他躬起身子去捡地上的钥匙。",
           "pinyin": "ta1 jiong1 qi3 sen1 zi3 qi4 jian3 di4 sang4 li1 yo2 si2",
           "translation": "他躬身去捡地上的钥匙。"
         }
@@ -1421,7 +1421,7 @@
       ],
       "examples": [
         {
-          "text": "他睡醒起来矿兮兮的，钥匙都找不到了。",
+          "text": "他睡醒起来旷兮兮的，钥匙都找不到了。",
           "pinyin": "ta1 sui4 xin3 qi3 lai2 kuang4 xi1 xi1 li1 yo2 si2 dou1 zao3 bu2 dao3 lao3",
           "translation": "他睡醒起来迷迷糊糊的，钥匙都找不到了。"
         }
@@ -1633,7 +1633,7 @@
       "examples": [
         {
           "text": "腊肉要拿柏树丫丫煪。",
-          "pinyin": "qiu1 la2 rou4 yao4 la2 be2 su4 ya1 ya1 qiu1",
+          "pinyin": "la2 rou4 yao4 la2 be2 su4 ya1 ya1 qiu1",
           "translation": "腊肉得拿柏树枝丫熏。"
         }
       ]
@@ -1697,7 +1697,7 @@
       ],
       "examples": [
         {
-          "text": "把桌子底下的灰灰清理干净。",
+          "text": "把桌子底脚的灰灰清理干净。",
           "pinyin": "ba3 zo2 zi3 di3 xia4-2 li1 hui1 hui1 qin1 li3 gan1 jin4",
           "translation": "把桌子底下的灰清理干净。"
         }
@@ -1715,9 +1715,9 @@
       ],
       "examples": [
         {
-          "text": "有只猫儿跑到房子顶顶。",
-          "pinyin": "mao4 zi5 dai4 wen3 le5 o5, bie2 hua2 dao4 ding3 ding5 qu4",
-          "translation": "帽子戴稳了哦，别滑到头顶去。"
+          "text": "有只猫儿跑到房子顶顶去了。",
+          "pinyin": "you3 zi1 mao1 er2 pao3 dao3 fang2 zi3 din3 din3 qi4 lao3",
+          "translation": "有只猫跑到房顶上去了。"
         }
       ]
     },
@@ -1858,18 +1858,21 @@
       "variants": ["作古正经"],
       "definitions": [
         {
+          "text": "斟酌古今、参考古今情形。"
+        },
+        {
           "text": "一本正经、故作严肃。",
-          "notes": "普通书面义本为斟酌古今、参考古今情形；重庆话里多按口语中的「作古正经」一路理解，意义转为一本正经、严肃的样子。"
+          "note": "普通书面义本为斟酌古今、参考古今情形；重庆话里多按口语中的「作古正经」一路理解，意义转为一本正经、严肃的样子。"
         }
       ],
       "examples": [
+        {},
         {
           "text": "他酌古斟今地讲了半天，其实啥子办法都没得。",
           "pinyin": "ta1 zo2 gu3 zen1-4 jin1 li1 jiang3 lao3 ban4 tian1 qi2 si2 sa4 zi3 ban4 fa2 dou1 mei1 de2",
           "translation": "他一本正经地讲了半天，其实什么办法都没有。"
         }
-      ],
-      "notes": "普通书面义本为斟酌古今、参考古今情形；重庆话里多按口语中的「作古正经」一路理解，意义转为一本正经、故作正经。"
+      ]
     },
     {
       "id": "cq-00094",
@@ -1960,9 +1963,9 @@
       ],
       "examples": [
         {
-          "text": "你白之八之说这些，我硬是没听懂。",
-          "pinyin": "li3 be2 zi1 ba2 zi1 so2 le4 xi1 wo3 ngen4 si4 mei1 tin1 dong3",
-          "translation": "你莫名其妙地说这些，我实在没听懂。"
+          "text": "你白之八之搒我一下干啥子？",
+          "pinyin": "li3 be2 zi1 ba2 zi1 pang3 wo3 yi2 ha4 gan4 sa4 zi3",
+          "translation": "你平白无故地碰我一下干嘛？"
         }
       ]
     },
