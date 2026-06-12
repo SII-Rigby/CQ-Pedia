@@ -17,7 +17,6 @@
         <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
         <button type="button" id="indexBtn" aria-haspopup="dialog" aria-controls="indexModal">索引</button>
         <button type="button" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutModal">关于</button>
-        <button type="button" id="feedbackBtn" aria-haspopup="dialog" aria-controls="feedbackModal">反馈</button>
       </nav>
     </header>
 
@@ -87,104 +86,14 @@
               <img src="assets/donate.jpg" alt="赞赏码">
             </figure>
           </section>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal feedback-modal" id="feedbackModal" role="dialog" aria-modal="true" aria-labelledby="feedbackTitle" hidden>
-      <div class="modal-backdrop" data-feedback-close></div>
-      <div class="modal-window feedback-window" role="document">
-        <header class="modal-head">
-          <div>
-            <p class="modal-kicker">Site Feedback</p>
-            <h2 id="feedbackTitle">反馈</h2>
-          </div>
-          <button type="button" class="modal-close" data-feedback-close aria-label="关闭">×</button>
-        </header>
-        <div class="feedback-tabs" role="tablist" aria-label="反馈类型">
-          <button type="button" class="active" data-feedback-tab="issue" role="tab" aria-selected="true">反馈问题</button>
-          <button type="button" data-feedback-tab="entry" role="tab" aria-selected="false">贡献词条</button>
-        </div>
-        <div class="feedback-content">
-          <form class="feedback-panel active" id="issueFeedbackForm" data-feedback-panel="issue">
-            <fieldset class="feedback-fieldset">
-              <legend>问题类型</legend>
-              <div class="choice-grid">
-                <label><input type="checkbox" name="issueType" value="词条错误">词条错误</label>
-                <label><input type="checkbox" name="issueType" value="网站问题">网站问题</label>
-                <label><input type="checkbox" name="issueType" value="拼音/音系">拼音/音系</label>
-                <label><input type="checkbox" name="issueType" value="建议">建议</label>
-              </div>
-            </fieldset>
-            <label class="form-field">
-              <span>相关词条</span>
-              <input type="text" name="entryRef" autocomplete="off" placeholder="可选">
-            </label>
-            <label class="form-field">
-              <span>联系方式</span>
-              <input type="text" name="contact" autocomplete="off" placeholder="可选">
-            </label>
-            <label class="form-field full">
-              <span>问题描述</span>
-              <textarea name="message" rows="8" required></textarea>
-            </label>
-            <div class="form-actions">
-              <button type="submit">提交</button>
-            </div>
-          </form>
-
-          <form class="feedback-panel" id="entryContributionForm" data-feedback-panel="entry" hidden>
-            <div class="form-grid">
-              <label class="form-field">
-                <span>词目</span>
-                <input type="text" name="headword" required>
-              </label>
-              <label class="form-field">
-                <span>拼音</span>
-                <input type="text" name="pinyin" placeholder="xiong2 qi3" required>
-              </label>
-              <label class="form-field">
-                <span>词性</span>
-                <input type="text" name="wordClass" placeholder="名词；动词">
-              </label>
-              <label class="form-field">
-                <span>异体写法</span>
-                <input type="text" name="variants" placeholder="用 、 或 ; 分隔">
-              </label>
-              <label class="form-field full">
-                <span>释义</span>
-                <textarea name="definitions" rows="4" required placeholder="每行一条释义"></textarea>
-              </label>
-              <label class="form-field full">
-                <span>例句</span>
-                <textarea name="examples" rows="3" placeholder="每行一条例句"></textarea>
-              </label>
-              <label class="form-field full">
-                <span>例句拼音</span>
-                <textarea name="examplePinyin" rows="3" placeholder="与例句按行对应"></textarea>
-              </label>
-              <label class="form-field full">
-                <span>例句翻译</span>
-                <textarea name="exampleTranslation" rows="3" placeholder="与例句按行对应"></textarea>
-              </label>
-              <label class="form-field full">
-                <span>备注</span>
-                <textarea name="note" rows="3"></textarea>
-              </label>
-              <label class="form-field">
-                <span>贡献者</span>
-                <input type="text" name="contributor" autocomplete="off" placeholder="可选">
-              </label>
-              <label class="form-field">
-                <span>联系方式</span>
-                <input type="text" name="contact" autocomplete="off" placeholder="可选">
-              </label>
-            </div>
-            <div class="form-actions">
-              <button type="submit">提交</button>
-            </div>
-          </form>
-          <p id="feedbackStatus" class="feedback-status" aria-live="polite"></p>
+          <section class="about-section" aria-labelledby="feedbackSurveyTitle">
+            <h3 id="feedbackSurveyTitle">反馈</h3>
+            <a class="survey-link" href="https://wj.qq.com/s2/27012512/a2d1/" target="_blank" rel="noopener" aria-label="打开反馈问卷">
+              <figure class="survey-code">
+                <img src="assets/questionnaire.jpg" alt="反馈问卷二维码">
+              </figure>
+            </a>
+          </section>
         </div>
       </div>
     </div>
@@ -224,6 +133,14 @@
       </span>
       <span>CQ-Pedia</span>
     </footer>
+
+    <button type="button" class="back-to-search" id="backToSearch" aria-label="回到搜索">
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path d="M12 5 5 12"></path>
+        <path d="m12 5 7 7"></path>
+        <path d="M12 6v13"></path>
+      </svg>
+    </button>
 
     <script src="app.js?v=20260611-search-inline-fix"></script>
   </body>

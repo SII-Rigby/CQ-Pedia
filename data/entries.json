@@ -1781,7 +1781,7 @@
       "headword": "膗实",
       "pinyin": "zuai2 si2",
       "wordClass": "形容词",
-      "variants": "拽实",
+      "variants": ["拽实","膪实"],
       "definitions": [
         {
           "text": "体格健壮、身形结实魁梧。"
@@ -2162,7 +2162,7 @@
       "wordClass": "名词",
       "definitions": [
         {
-          "text": "川渝常见小吃，把食材穿在签子上，放入汤锅中烫煮后食用。"
+          "text": "川渝常见小吃，把食材穿在签子上，放入汤锅中烫煮后食用。简称「串串_儿」"
         }
       ],
       "fig": true
@@ -2279,6 +2279,317 @@
           "translation": "明天没有空，大后天再去看外婆。"
         }
       ]
+    },
+    {
+      "id": "cq-00116",
+      "headword": "老辈子",
+      "pinyin": "lao3 bei4 zi3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "长辈、年长的前辈。可指家族中辈分较高的人，也可泛指地方上年纪较大、资历较老的人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你到了院坝头要晓得喊人，那些都是老辈子。",
+          "pinyin": "li3 dao4 lao3 yuan4 ba4 tou2 yao4 xiao3 de2 han3 ren2 la4 xi1 dou1 si4 lao3 bei4 zi3",
+          "translation": "你到了院子里要记得跟人打招呼，那些都是长辈。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00117",
+      "headword": "淹",
+      "pinyin": "ngan1",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "淹。被水漫过、没过。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "昨黑了雨落大了，院子头的水把鞋子都淹了。",
+          "pinyin": "zo2 he2 lao3 yu3 lo2 da4 lao3 yuan4 zi3 tou2 li1 sui3 ba3 hai2 zi3 dou1 ngan1 lao3",
+          "translation": "昨晚雨下大了，院子里的水把鞋子都淹了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00118",
+      "headword": "溅",
+      "pinyin": "zan4",
+      "wordClass": "动词",
+      "variants": ["沾"],
+      "definitions": [
+        {
+          "text": "液体或细小的东西飞散、弹起，落到别处。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你煎鱼的时候_儿好生点_儿，油星子莫溅到脸巴_儿上了。",
+          "pinyin": "li3 jian1 yu2 li1 si2 her4 hao3 sen1 diar3 you2 xin1 zi3 mo2 zan4 dao3 lian3 bar1 sang4 lao3",
+          "translation": "你煎鱼的时候小心点，油点子别溅到脸上了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00119",
+      "headword": "圆范",
+      "pinyin": "yuan2 fan4",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "周全、圆满、说得通。多形容说法、理由、谎话等前后能自洽。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你这话说得前言不搭后语，把子都扯不圆范。",
+          "pinyin": "li3 le4 hua4 so1 de2 qian2 yan2 bu2 da2 hou4 yu3 ba3 zi3 dou1 ce3 bu2 yuan2 fan4",
+          "translation": "你这话说得前后矛盾，连谎都编不圆。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00120",
+      "headword": "泡绍",
+      "pinyin": "pao4 sao4",
+      "wordClass": "形容词",
+      "variants": ["泡潲"],
+      "definitions": [
+        {
+          "text": "松软、蓬松。"
+        },
+        {
+          "text": "宽裕、不紧巴。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个馒头蒸得泡绍，咬起不费力。",
+          "pinyin": "le4 gə4-1 man2 tou2 zen1 de2 pao4 sao4 ngao3 qi3 bu2 fei4 li2",
+          "translation": "这个馒头蒸得松软，咬起来不费劲。"
+        },
+        {
+          "text": "他这阵_儿手头泡绍，天天_儿都在外头下馆子。",
+          "pinyin": "ta1 le4 zer4 sou3 tou2 pao4 sao4 tian1 tiar1 dou1 dai4 wai4 tou2 xia4 guan3 zi3",
+          "translation": "他这段时间手头宽裕，天天都在外面下馆子。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00121",
+      "headword": "脸帮_儿",
+      "pinyin": "lian3 bar1",
+      "wordClass": "名词",
+      "variants": ["脸巴_儿"],
+      "definitions": [
+        {
+          "text": "脸、面颊。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "云南这边太阳好大，他脸帮_儿都晒红了。",
+          "pinyin": "yun2 lan2 le4 bian1 tai4 yang2 hao3 da4 ta1 lian3 bar1 dou1 sai4 hong2 lao3",
+          "translation": "云南这边的太阳太晒了，他脸都晒红了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00116",
+      "headword": "绒",
+      "pinyin": "rong2",
+      "wordClass": "形容词；副词；动词",
+      "variants": ["融"],
+      "definitions": [
+        {
+          "text": "形容东西烂软如绒状或糊状，失去原来的硬挺形态。"
+        },
+        {
+          "text": "因害怕、劳累、受惊等而身体发软、瘫软。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "红苕煮久了，已经绒成一锅了。",
+          "pinyin": "hong2 sao2 zu3 jiu3 lao3 yi3 jin1 rong2 cen2 yi2 go1 lao3",
+          "translation": "红薯煮久了，已经煮得软烂成一锅糊了。"
+        },
+        {
+          "text": "刚刚_儿车子擦到他面前过，他当场就吓绒了。",
+          "pinyin": "gang1 gar1 ce1 zi3 ca2 dao3 ta1 mian4 qian2 go4 ta1 dang1 cang2 dou4 he2 rong2 lao3",
+          "translation": "刚刚车子从他面前擦过去，他当场就吓得瘫软了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00117",
+      "headword": "挼",
+      "pinyin": "rua2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "揉搓、揉按。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "衣领子脏了，要多挼几下才洗得干净。",
+          "pinyin": "yi1 lin3 zi3 zang1 lao3 yao4 do1 rua2 ji3 ha4 tai2 xi3 de2 gan1 jin4",
+          "translation": "衣领脏了，要多揉搓几下才洗得干净。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00118",
+      "headword": "热天家",
+      "pinyin": "re2 tian1 jia1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "夏天、天气炎热的时候。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "热天家屋头不通风，睡起闷得很。",
+          "pinyin": "re2 tian1 jia1 vu2 tou2 bu2 tong1 fong1 sui4 qi3 men4 de2 hen3",
+          "translation": "夏天家里不通风，睡起来很闷。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00119",
+      "headword": "扖",
+      "pinyin": "ru2",
+      "wordClass": "动词",
+      "variants": ["擩"],
+      "definitions": [
+        {
+          "text": "用力塞、插。"
+        },
+        {
+          "text": "扭伤、崴伤。"
+        },
+        {
+          "text": "揍、打，通常指用手击打弹软的物体，使其凹陷或受力变形。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "钥匙莫乱扖，扖断到锁眼_儿头就麻烦了。",
+          "pinyin": "yo2 si2 mo2 luan4 ru2 ru2 duan4 dao3 so3 yar3 tou2 dou4 ma2 fan2 lao3",
+          "translation": "钥匙别乱插，插断在锁孔里就麻烦了。"
+        },
+        {
+          "text": "他下梯坎_儿没踩得稳，把脚扖了。",
+          "pinyin": "ta1 xia4 ti1 kar3 mei1 cai3 de2 wen3 ba3 jio2 ru2 lao3",
+          "translation": "他下台阶没踩稳，把脚扭伤了。"
+        },
+        {
+          "text": "他遭小娃儿扖了两锭子，现在肚儿都还是痛的。",
+          "pinyin": "ta1 zao2 xiao3 wa2 er2-1 ru2 lao3 liang3 din4 zi3 xian4 zai4 du4 er2 dou1 hai2 si4 tong4 li2",
+          "translation": "他被小孩子打了两拳，现在肚子都还是痛的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00120",
+      "headword": "蠕",
+      "pinyin": "ru2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "蠕动，像虫一样慢慢地拱动、移动。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "袋子头有个东西一蠕一蠕的，吓我一跳。",
+          "pinyin": "dai4 zi3 tou2 you3 gə4 dong1 xi1 yi2 ru2 yi2 ru2 li1 he2 wo3 yi2 tiao4",
+          "translation": "袋子里有个东西在蠕动，吓了我一跳。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00121",
+      "headword": "装疯迷窍",
+      "pinyin": "zuang1 fong1 mi2 qiao4",
+      "wordClass": "动词短语；形容词",
+      "definitions": [
+        {
+          "text": "装疯卖傻，明明晓得却故意装糊涂。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫给我装疯迷窍，我晓得你听懂了的。",
+          "pinyin": "li3 mo2 ge1 wo3 zuang1 fong1 mi2 qiao4 wo3 xiao3 de2 li3 tin1 dong3 lao3 li1",
+          "translation": "你别跟我装疯卖傻，我知道你听懂了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00122",
+      "headword": "腌臜",
+      "pinyin": "wa1 zua1",
+      "wordClass": "形容词",
+      "variants": ["哇抓"],
+      "definitions": [
+        {
+          "text": "肮脏、不干净。同「龌龊」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这条水沟腌臜得很，走过路过都闻得到臭味_儿。",
+          "pinyin": "le4 tiao2 sui3 gou1 wa1 zua1 de2 hen3 zou3 go4 lu4 go4 dou1 wen2 de2 dao3 cou4 wer4",
+          "translation": "这条水沟很脏，路过都闻得到臭味。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00123",
+      "headword": "凭",
+      "pinyin": "pen1",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "倚靠、靠着。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫凭到栏杆高头，下头高得很。",
+          "pinyin": "li3 mo2 pen1 dao3 lan2 gan1 gao1 tou2 xia4 mian4 gao1 de2 hen3",
+          "translation": "你别靠在栏杆上，下面很高。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00124",
+      "headword": "荸荠_儿",
+      "pinyin": "pu2 qier2-1/quer2-1",
+      "wordClass": "名词",
+      "variants": ["蒲荠_儿", "菩荠_儿", "蒲曲_儿", "蒲圈_儿"],
+      "definitions": [
+        {
+          "text": "荸荠，莎草科荸荠属水生植物的球茎，皮色紫黑，肉白而脆甜，可生食或熟食。",
+          "note": "《康熙字典》：荸，《篇海》：蒲沒切，音孛。pu2 更贴近古音的念法。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "热天家买点_儿荸荠_儿回来削起吃，清甜得很。",
+          "pinyin": "re2 tian1 jia1 mai3 diar3 pu2 qier2-1 hui2 lai2 xue2 qi3 ci2 qin1 tian2 de2 hen3",
+          "translation": "夏天买点荸荠回来削着吃，很清甜。"
+        }
+      ],
+      "fig": true
     }
   ]
 }

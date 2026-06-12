@@ -3,13 +3,15 @@
   mode: "idle",
   query: "",
   initial: "",
-  wordClass: ""
+  wordClass: "",
+  page: 1
 };
 
 const INITIALS = ["b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "ng", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w", "other"];
 const INITIAL_MATCH_ORDER = ["ng", "yu", "b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w"];
 const OTHER_INITIAL = "other";
 const WELCOME_ENTRY_COUNT = 10;
+const RESULTS_PER_PAGE = 10;
 
 const els = {
   form: document.querySelector("#searchForm"),
@@ -17,7 +19,8 @@ const els = {
   resultsPanel: document.querySelector("#resultsPanel"),
   results: document.querySelector("#results"),
   count: document.querySelector("#resultCount"),
-  label: document.querySelector("#resultLabel")
+  label: document.querySelector("#resultLabel"),
+  backToSearch: document.querySelector("#backToSearch")
 };
 
 const indexEls = {
@@ -30,16 +33,6 @@ const indexEls = {
 const aboutEls = {
   btn: document.querySelector("#aboutBtn"),
   modal: document.querySelector("#aboutModal")
-};
-
-const feedbackEls = {
-  btn: document.querySelector("#feedbackBtn"),
-  modal: document.querySelector("#feedbackModal"),
-  tabs: document.querySelectorAll("[data-feedback-tab]"),
-  panels: document.querySelectorAll("[data-feedback-panel]"),
-  issueForm: document.querySelector("#issueFeedbackForm"),
-  entryForm: document.querySelector("#entryContributionForm"),
-  status: document.querySelector("#feedbackStatus")
 };
 
 const normalize = (value) => String(value || "").trim().toLowerCase();
@@ -133,6 +126,28 @@ function entryText(entry) {
   ].join(" ");
 }
 
+function entryDefinitionsText(entry) {
+  const definitions = (entry.definitions || [])
+    .map((item) => [item.text, item.note].filter(Boolean).map(plainMarkedText).join(" "))
+    .join(" ");
+  const notes = [entry.note, entry.notes].filter(Boolean).map(plainMarkedText).join(" ");
+
+  return [definitions, notes].filter(Boolean).join(" ");
+}
+
+function searchRank(entry, query) {
+  const fields = [
+    plainMarkedText(entry.headword),
+    variantsOf(entry).map(plainMarkedText).join(" "),
+    entry.pinyin,
+    entryDefinitionsText(entry),
+    entryText(entry)
+  ];
+
+  const matchedIndex = fields.findIndex((field) => normalizeSearchText(field).includes(query));
+  return matchedIndex === -1 ? Number.POSITIVE_INFINITY : matchedIndex;
+}
+
 function firstSyllable(pinyin) {
   return normalize(pinyin).split(/\s+/)[0]?.replace(/[0-9].*$/, "") || "";
 }
@@ -175,7 +190,16 @@ function filteredEntries() {
   }
 
   if (state.mode === "search") {
-    return state.entries.filter(matchesSearch);
+    const query = normalizeSearchText(state.query);
+    if (!query) {
+      return [];
+    }
+
+    return state.entries
+      .map((entry, index) => ({ entry, index, rank: searchRank(entry, query) }))
+      .filter((item) => Number.isFinite(item.rank))
+      .sort((a, b) => a.rank - b.rank || a.index - b.index)
+      .map((item) => item.entry);
   }
 
   if (state.mode === "initial") {
@@ -293,8 +317,49 @@ function renderEntry(entry) {
   `;
 }
 
+function renderPagination(totalPages) {
+  const pages = new Set([1, totalPages]);
+
+  for (let page = state.page - 2; page <= state.page + 2; page += 1) {
+    if (page >= 1 && page <= totalPages) {
+      pages.add(page);
+    }
+  }
+
+  const items = [...pages].sort((a, b) => a - b);
+  const buttons = [];
+
+  items.forEach((page, index) => {
+    const previous = items[index - 1];
+    if (previous && page - previous > 1) {
+      buttons.push('<span class="pagination-ellipsis" aria-hidden="true">...</span>');
+    }
+
+    buttons.push(`
+      <button type="button" data-page="${page}" ${page === state.page ? 'class="active" aria-current="page"' : ""}>
+        ${page}
+      </button>
+    `);
+  });
+
+  return `
+    <nav class="pagination" aria-label="词条分页">
+      <button type="button" data-page="${state.page - 1}" ${state.page === 1 ? "disabled" : ""}>上一页</button>
+      <span>第 ${state.page} / ${totalPages} 页</span>
+      <div class="pagination-pages">${buttons.join("")}</div>
+      <button type="button" data-page="${state.page + 1}" ${state.page === totalPages ? "disabled" : ""}>下一页</button>
+    </nav>
+  `;
+}
+
 function render() {
   const filtered = filteredEntries();
+  const totalPages = Math.max(1, Math.ceil(filtered.length / RESULTS_PER_PAGE));
+  state.page = Math.min(Math.max(state.page, 1), totalPages);
+  const shouldPaginate = filtered.length > RESULTS_PER_PAGE;
+  const pageEntries = shouldPaginate
+    ? filtered.slice((state.page - 1) * RESULTS_PER_PAGE, state.page * RESULTS_PER_PAGE)
+    : filtered;
 
   els.resultsPanel.hidden = false;
   els.count.textContent = `${filtered.length}`;
@@ -311,10 +376,13 @@ function render() {
 
   if (!filtered.length) {
     els.results.innerHTML = '<p class="empty">没有找到符合条件的词条。</p>';
+    updateBackToSearch();
     return;
   }
 
-  els.results.innerHTML = filtered.map(renderEntry).join("");
+  const pagination = shouldPaginate ? renderPagination(totalPages) : "";
+  els.results.innerHTML = `${pageEntries.map(renderEntry).join("")}${pagination}`;
+  updateBackToSearch();
 }
 
 function initialCounts() {
@@ -396,6 +464,7 @@ function syncSearch() {
   state.mode = state.query ? "search" : "idle";
   state.initial = "";
   state.wordClass = "";
+  state.page = 1;
   render();
 }
 
@@ -411,6 +480,46 @@ els.form.addEventListener("submit", (event) => {
 });
 
 els.form.querySelector("button[type='submit']")?.addEventListener("click", syncSearch);
+
+els.results.addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-page]");
+  if (!button || button.disabled) {
+    return;
+  }
+
+  const page = Number(button.dataset.page);
+  if (!Number.isFinite(page) || page === state.page) {
+    return;
+  }
+
+  state.page = page;
+  render();
+  els.resultsPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
+function updateBackToSearch() {
+  if (!els.backToSearch) {
+    return;
+  }
+
+  if (els.resultsPanel.hidden) {
+    els.backToSearch.classList.remove("visible");
+    return;
+  }
+
+  const visible = els.resultsPanel.getBoundingClientRect().top < 0;
+  els.backToSearch.classList.toggle("visible", visible);
+}
+
+if (els.backToSearch) {
+  window.addEventListener("scroll", updateBackToSearch, { passive: true });
+  window.addEventListener("resize", updateBackToSearch);
+
+  els.backToSearch.addEventListener("click", () => {
+    document.querySelector("#search").scrollIntoView({ behavior: "smooth", block: "start" });
+    els.input.focus({ preventScroll: true });
+  });
+}
 
 function openIndexModal() {
   setIndexType("initial");
@@ -448,6 +557,7 @@ indexEls.modal.addEventListener("click", (event) => {
   state.initial = initialButton ? initialButton.dataset.initial : "";
   state.wordClass = wordClassButton ? wordClassButton.dataset.wordClass : "";
   state.query = "";
+  state.page = 1;
   els.input.value = "";
   closeIndexModal();
   render();
@@ -475,172 +585,11 @@ if (aboutEls.btn && aboutEls.modal) {
   });
 }
 
-/* ===== 反馈 Modal ===== */
-
-function openFeedbackModal() {
-  feedbackEls.modal.hidden = false;
-  document.body.classList.add("modal-open");
-}
-
-function closeFeedbackModal() {
-  feedbackEls.modal.hidden = true;
-  document.body.classList.remove("modal-open");
-  feedbackEls.btn?.focus();
-}
-
-function finishFeedbackSubmit(form) {
-  form.reset();
-  closeFeedbackModal();
-  syncSearch();
-}
-
-function setFeedbackTab(type) {
-  feedbackEls.tabs.forEach((tab) => {
-    const active = tab.dataset.feedbackTab === type;
-    tab.classList.toggle("active", active);
-    tab.setAttribute("aria-selected", active ? "true" : "false");
-  });
-
-  feedbackEls.panels.forEach((panel) => {
-    const active = panel.dataset.feedbackPanel === type;
-    panel.classList.toggle("active", active);
-    panel.hidden = !active;
-  });
-}
-
-function splitLines(value) {
-  return String(value || "")
-    .replace(/\r\n?/g, "\n")
-    .split("\n")
-    .map((item) => item.trim())
-    .filter(Boolean);
-}
-
 function splitList(value) {
   return String(value || "")
     .split(/[；;、,，\n]+/)
     .map((item) => item.trim())
     .filter(Boolean);
-}
-
-function compactObject(value) {
-  if (Array.isArray(value)) {
-    const next = value
-      .map(compactObject)
-      .filter((item) => item !== undefined);
-    return next.length ? next : undefined;
-  }
-
-  if (value && typeof value === "object") {
-    const next = {};
-    Object.entries(value).forEach(([key, item]) => {
-      const compacted = compactObject(item);
-      if (compacted !== undefined) {
-        next[key] = compacted;
-      }
-    });
-    return Object.keys(next).length ? next : undefined;
-  }
-
-  if (typeof value === "string") {
-    const trimmed = value.trim();
-    return trimmed ? trimmed : undefined;
-  }
-
-  return value === null || value === undefined ? undefined : value;
-}
-
-function buildIssuePayload(form) {
-  const data = new FormData(form);
-  const types = data.getAll("issueType").map(String);
-
-  return compactObject({
-    type: "issueFeedback",
-    recipient: "site-admin",
-    createdAt: new Date().toISOString(),
-    issue: {
-      types,
-      entryRef: data.get("entryRef"),
-      message: data.get("message")
-    },
-    reporter: {
-      contact: data.get("contact")
-    }
-  });
-}
-
-function buildEntryPayload(form) {
-  const data = new FormData(form);
-  const definitions = splitLines(data.get("definitions"))
-    .map((text) => ({ text }));
-  const exampleTexts = splitLines(data.get("examples"));
-  const examplePinyin = splitLines(data.get("examplePinyin"));
-  const exampleTranslations = splitLines(data.get("exampleTranslation"));
-  const examples = exampleTexts.map((text, index) => compactObject({
-    text,
-    pinyin: examplePinyin[index],
-    translation: exampleTranslations[index]
-  }));
-
-  return compactObject({
-    type: "entryContribution",
-    recipient: "site-admin",
-    createdAt: new Date().toISOString(),
-    entry: {
-      id: "pending",
-      headword: data.get("headword"),
-      pinyin: data.get("pinyin"),
-      variants: splitList(data.get("variants")),
-      wordClass: data.get("wordClass"),
-      definitions,
-      examples,
-      note: data.get("note")
-    },
-    contributor: {
-      name: data.get("contributor"),
-      contact: data.get("contact")
-    }
-  });
-}
-
-function submitFeedbackPayload(payload) {
-  window.dispatchEvent(new CustomEvent("cq-feedback-submit", { detail: payload }));
-  console.info("CQ-Pedia feedback payload", payload);
-  if (feedbackEls.status) {
-    feedbackEls.status.textContent = "已提交，感谢反馈。";
-  }
-}
-
-if (feedbackEls.btn && feedbackEls.modal) {
-  feedbackEls.btn.addEventListener("click", openFeedbackModal);
-
-  feedbackEls.modal.addEventListener("click", (event) => {
-    if (event.target.closest("[data-feedback-close]")) {
-      closeFeedbackModal();
-      return;
-    }
-
-    const tab = event.target.closest("button[data-feedback-tab]");
-    if (tab) {
-      setFeedbackTab(tab.dataset.feedbackTab);
-    }
-  });
-}
-
-if (feedbackEls.issueForm) {
-  feedbackEls.issueForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    submitFeedbackPayload(buildIssuePayload(feedbackEls.issueForm));
-    finishFeedbackSubmit(feedbackEls.issueForm);
-  });
-}
-
-if (feedbackEls.entryForm) {
-  feedbackEls.entryForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    submitFeedbackPayload(buildEntryPayload(feedbackEls.entryForm));
-    finishFeedbackSubmit(feedbackEls.entryForm);
-  });
 }
 
 loadEntries();
@@ -911,10 +860,6 @@ document.addEventListener("keydown", (event) => {
 
   if (aboutEls.modal && !aboutEls.modal.hidden) {
     closeAboutModal();
-  }
-
-  if (feedbackEls.modal && !feedbackEls.modal.hidden) {
-    closeFeedbackModal();
   }
 });
 
