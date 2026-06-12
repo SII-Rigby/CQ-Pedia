@@ -35,6 +35,14 @@ const aboutEls = {
   modal: document.querySelector("#aboutModal")
 };
 
+const welcomeEls = {
+  modal: document.querySelector("#welcomeModal"),
+  announcement: document.querySelector("#welcomeAnnouncement"),
+  startButtons: document.querySelectorAll("[data-welcome-start]"),
+  docButton: document.querySelector("[data-welcome-doc]"),
+  aboutButton: document.querySelector("[data-welcome-about]")
+};
+
 const normalize = (value) => String(value || "").trim().toLowerCase();
 const normalizeSearchText = (value) => normalize(value)
   .replace(/[\p{P}\p{S}]+/gu, "");
@@ -837,6 +845,84 @@ function closeModal() {
   modalEls.btn.focus();
 }
 
+const WELCOME_STORAGE_KEY = "cq-pedia-welcome-dismissed-v1";
+
+function isReloadNavigation() {
+  const navigation = performance.getEntriesByType?.("navigation")?.[0];
+  return navigation?.type === "reload" || performance.navigation?.type === 1;
+}
+
+function welcomeDismissed() {
+  try {
+    return localStorage.getItem(WELCOME_STORAGE_KEY) === "true";
+  } catch (error) {
+    return false;
+  }
+}
+
+function rememberWelcomeDismissed() {
+  try {
+    localStorage.setItem(WELCOME_STORAGE_KEY, "true");
+  } catch (error) {
+    // Ignore storage failures; the welcome window still works for this visit.
+  }
+}
+
+async function loadWelcomeAnnouncement() {
+  if (!welcomeEls.announcement) return;
+
+  try {
+    const response = await fetch("docs/welcome.md");
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const md = await response.text();
+    welcomeEls.announcement.innerHTML = renderMarkdown(md);
+  } catch (error) {
+    console.error(error);
+    welcomeEls.announcement.innerHTML = '<p class="empty">公告暂时无法读取。</p>';
+  }
+}
+
+function openWelcomeModal() {
+  if (!welcomeEls.modal) return;
+  welcomeEls.modal.hidden = false;
+  document.body.classList.add("modal-open");
+}
+
+function closeWelcomeModal(remember = true) {
+  if (!welcomeEls.modal) return;
+  welcomeEls.modal.hidden = true;
+  document.body.classList.remove("modal-open");
+
+  if (remember) {
+    rememberWelcomeDismissed();
+  }
+}
+
+function initWelcomeModal() {
+  if (!welcomeEls.modal) return;
+
+  loadWelcomeAnnouncement();
+
+  welcomeEls.startButtons.forEach((button) => {
+    button.addEventListener("click", () => closeWelcomeModal(true));
+  });
+
+  welcomeEls.docButton?.addEventListener("click", () => {
+    closeWelcomeModal(true);
+    openModal();
+    showDoc("phonology");
+  });
+
+  welcomeEls.aboutButton?.addEventListener("click", () => {
+    closeWelcomeModal(true);
+    openAboutModal();
+  });
+
+  if (isReloadNavigation() || !welcomeDismissed()) {
+    openWelcomeModal();
+  }
+}
+
 modalEls.btn.addEventListener("click", openModal);
 
 modalEls.modal.addEventListener("click", (event) => {
@@ -861,6 +947,11 @@ document.addEventListener("keydown", (event) => {
   if (aboutEls.modal && !aboutEls.modal.hidden) {
     closeAboutModal();
   }
+
+  if (welcomeEls.modal && !welcomeEls.modal.hidden) {
+    closeWelcomeModal(true);
+  }
 });
 
 buildDocList();
+initWelcomeModal();

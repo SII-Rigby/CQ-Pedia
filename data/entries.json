@@ -111,7 +111,10 @@
       "wordClass": "形容词",
       "definitions": [
         {
-          "text": "可以、不错、行。"
+          "text": "可以、不错、行得通。"
+        },
+        {
+          "text": "厉害、有本事。"
         }
       ],
       "examples": [
@@ -119,6 +122,11 @@
           "text": "这件事我看不得行。",
           "pinyin": "le4 jian4 si4 wo3 kan4 bu2 de2 xin2",
           "translation": "这件事我看不行。"
+        },
+        {
+          "text": "周幺妹_儿学习方面不在行，但体育很得行。",
+          "pinyin": "zou1 yao1 mer4 xio2 xi2 fang1 mian4 bu2 zai4 hang2 dan4 ti3 yuu2 he1 de2 xin2",
+          "translation": "周幺妹学习方面不怎么样，但体育很厉害。"
         }
       ]
     },
@@ -2590,6 +2598,316 @@
         }
       ],
       "fig": true
+    },
+    {
+      "id": "cq-00125",
+      "headword": "篾片_儿",
+      "pinyin": "mie2 piar3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "竹子茎劈成的薄片，可用于制作器物。"
+        },
+        {
+          "text": "戒尺。"
+        }
+      ],
+      "examples": [
+        {},
+        {
+          "text": "你再不听话，我要拿篾片_儿来了。",
+          "pinyin": "li3 zai4 bu2 tin1 hua4 wo3 yao4 la2 mie2 piar3 lai2 lao3",
+          "translation": "你再不听话，我要拿戒尺来了。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00126",
+      "headword": "尺片_儿",
+      "pinyin": "ci2 piar3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "尺子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "数学课要用尺片_儿画线，你莫搞忘了。",
+          "pinyin": "su4 xio2 ko4 yao4 yong4 ci2 piar3 hua4 xian4 li3 mo2 gao3 wang4 lao3",
+          "translation": "数学课要用尺子画线，你别忘了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00127",
+      "headword": "丁丁猫_儿",
+      "pinyin": "din1 din1 mar1",
+      "wordClass": "名词",
+      "variants": ["叮叮猫_儿"],
+      "definitions": [
+        {
+          "text": "蜻蜓。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "池子边边好多丁丁猫_儿飞过去飞过来，怕是要落雨了。",
+          "pinyin": "ci2 zi3 bian1 bian1 hao3 do1 din1 din1 mar1 fei1 go4 qi1 fei1 go4 lai2 pa4 si4 yao4 lo2 yu3 lao3",
+          "translation": "水池边有很多蜻蜓飞来飞去，恐怕要下雨了。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00128",
+      "headword": "偷油婆",
+      "pinyin": "tou1 you2 po2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "蟑螂。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00129",
+      "headword": "撮箕",
+      "pinyin": "co2 ji1",
+      "wordClass": "名词",
+      "variants": ["戳箕"],
+      "definitions": [
+        {
+          "text": "撮垃圾、粮食、煤渣等散碎物的箕状器具，相当于普通话「簸箕」「垃圾铲」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你把地上的米扫到撮箕头，莫踩得到处都是。",
+          "pinyin": "li3 ba3 di4 sang4 li1 mi3 sao4 dao3 co2 ji1 tou2 mo2 cai3 de2 dao4 cu4 dou1 si4",
+          "translation": "你把地上的米扫进撮箕里，别踩得到处都是。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00130",
+      "headword": "菢鸡母",
+      "pinyin": "bao4 ji1 mu3",
+      "wordClass": "名词",
+      "variants": ["抱鸡母"],
+      "definitions": [
+        {
+          "text": "正在孵蛋或有抱窝习性的母鸡。又称「菢鸡婆」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "那只菢鸡母一天跍到窝头，哪个靠近它都要啄。",
+          "pinyin": "la4 zi1 bao4 ji1 mu3 yi2 tian1 gu1 dao3 wo1 tou2 la3 gə4 kao4 jin4 ta1 dou1 yao4 zua2",
+          "translation": "那只抱窝的母鸡整天蹲在窝里，谁靠近它都要啄。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00131",
+      "headword": "光巴胴_儿",
+      "pinyin": "guang1 ba1 der3",
+      "wordClass": "名词",
+      "variants": ["光巴斗_儿"],
+      "definitions": [
+        {
+          "text": "赤裸上身，没穿上衣的样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "棒棒_儿经常打起光巴胴_儿挑东西。",
+          "pinyin": "bang4 bar4-1 jin1 sang2 da3 qi3 guang1 ba1 der3 tiao1 dong1 xi1",
+          "translation": "棒棒常常赤着上身挑东西。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00132",
+      "headword": "掐",
+      "pinyin": "ka2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "同普通话「掐」，用指甲或手指用力夹、捏。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "去田头掐两根_儿葱子回来。",
+          "pinyin": "qi4 tian2 tou2 ka2 liang3 ger1 cong1 zi3 hui2 lai2",
+          "translation": "去田里摘两根葱回来。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00133",
+      "headword": "䠍",
+      "pinyin": "ka2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "跨步，迈开腿跨过去。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "槛槛_儿有点_儿高，老人家䠍起费力。",
+          "pinyin": "kan3 kar3 you3 diar3 gao1 lao3 ren2 jia1 ka2 qi3 fei4 li2",
+          "translation": "门槛有点高，老人家跨起来费劲。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00134",
+      "headword": "挑住",
+      "pinyin": "diao1 zu4/zu2",
+      "wordClass": "副词；形容词",
+      "variants": ["刁住", "挑做", "刁做"],
+      "definitions": [
+        {
+          "text": "故意、存心、有意做某事。",
+          "note": "「挑」在表示挑选的时候读作 diao1，也更切合「故意、存心」的意义。除了「挑住」，重庆周边还有 tiao4 sen1, liao1 zi3 等等讲法，第一个字都是基于「挑」的演变。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我看呐，他是挑住把水洒到我书上的。",
+          "pinyin": "wo3 kan4 na3 ta1 si4 diao1 zu4 ba3 sui3 sa2 dao3 wo3 su1 sang4 li1",
+          "translation": "我看呐，他是故意把水洒到我书上的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00135",
+      "headword": "㞗",
+      "pinyin": "qiu2",
+      "wordClass": "名词；语气词",
+      "definitions": [
+        {
+          "text": "男性生殖器，粗俗用字，用于骂人或加强语气。多用于动词后。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "算㞗了",
+          "pinyin": "suan4 qiu2 lao3"
+        }
+      ]
+    },
+    {
+      "id": "cq-00136",
+      "headword": "踩假水_儿",
+      "pinyin": "cai3 jia3 suer3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "游泳时身体直立在水中，用脚在水下快速搅动以保持身体不沉。"
+        },
+        {
+          "text": "比喻说话做事不踏实、弄虚作假、夸夸其谈。"
+        }
+      ],
+      "examples": [
+        {},
+        {
+          "text": "他答应得飞快，结果半个月都没得动静，怕是在踩假水_儿。",
+          "pinyin": "ta1 da2 yin4 de2 fei1 kuai4 jie2 go3 ban4 gə4 yue2 dou1 mei1 de2 dong4 jin4 pa4 si4 dai4 cai3 jia3 suer3",
+          "translation": "他答应得很快，结果半个月都没有动静，恐怕是在说空话、弄虚作假。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00137",
+      "headword": "远",
+      "pinyin": "yuan4",
+      "wordClass": "动词；形容词",
+      "definitions": [
+        {
+          "text": "绕远路。"
+        },
+        {
+          "text": "绕路的、麻烦的。"
+        }
+      ],
+      "notes": "形容词作动词时音调发生变化，表示「绕远路」。",
+      "examples": [
+        {
+          "text": "你从那边走要远嘿大一截，不如从巷巷_儿头穿出去。",
+          "pinyin": "li3 cong2 la4 bian1 zou3 yao4 yuan4 he1 da4 yi2 jie2 bu2 ru2 cong2 hang4 har4-1 tou2 cuan1 cu2 qi4",
+          "translation": "你从那边走要绕很大一段路，不如从巷子里穿出去。"
+        },
+        {
+          "text": "这个路线太远了，我们打条捷路过去。",
+          "pinyin": "le4 gə4-1 lu4 xian4 tai4 yuan4 lao3 wo3 men1 da3 tiao2 qie2 lu4 go4 qi4-1",
+          "translation": "这条路线太绕了，我们换条捷径过去。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00138",
+      "headword": "落教",
+      "pinyin": "lo2 jiao4",
+      "wordClass": "形容词",
+      "variants": ["落轿"],
+      "definitions": [
+        {
+          "text": "讲信用、守规矩、靠得住。"
+        }
+      ],
+      "note": "有资料认为该词源自旧时袍哥切口，后进入日常口语",
+      "examples": [
+        {
+          "text": "他这个人落教，答应了的事情绝对不得拉稀摆带。",
+          "pinyin": "ta1 le4 gə4 ren2 lo2 jiao4 dai4 yin1 lao3 li1 si4 qin2 jue2 dui4 bu2 de2 la1 xi1 bai3 dai4",
+          "translation": "他这个人靠得住，答应了的事情绝对不会敷衍了事。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00139",
+      "headword": "依教",
+      "pinyin": "yi1 jiao4",
+      "wordClass": "形容词；动词短语",
+      "definitions": [
+        {
+          "text": "听劝、服理、懂规矩，愿意照规矩或约定办事。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你跟他好生说，他还是依教，不得乱来。",
+          "pinyin": "li3 gen1 ta1 hao3 sen1 so2 ta1 hai2 si4 yi1 jiao4 bu2 de2 luan4 lai2",
+          "translation": "你好好跟他说，他还是懂规矩、讲道理的，不会乱来。"
+        }
+      ],
+      "note": "和「落教」相近，但「落教」偏重讲信用、守承诺；「依教」更偏重懂规矩、听劝、服理。"
+    },
+    {
+      "id": "cq-00140",
+      "headword": "巴心巴肠",
+      "pinyin": "ba1 xin1 ba1 cang2",
+      "wordClass": "形容词；副词",
+      "definitions": [
+        {
+          "text": "对待人全心全意、掏心掏肺。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她巴心巴肠地帮你，你还像恁个误会她。",
+          "pinyin": "ta1 ba1 xin1 ba1 cang2 li1 bang1 li3 li3 hai2 qiang4 len4 gə4-1 vu4 hui4 ta1",
+          "translation": "她真心实意地帮你，你还像这样误会她。"
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,7 @@
   --pink: #ff6fae;
   --muted: #5d5750;
   --line: #111111;
-  --font-serif: "Noto Serif CJK", "Source Han Serif", "Songti", "SimSun", serif;
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
   --font-sans: "Segoe UI", "Noto Sans", "Noto Sans CJK", "Source Han Sans", Arial, sans-serif;
   --font-phonetic: "Charis SIL", "Doulos SIL", "Gentium Plus", "Noto Sans", "Segoe UI", "Arial Unicode MS", Arial, sans-serif;
 }
@@ -277,6 +277,7 @@ h1 {
   max-width: none;
   margin: 0 auto;
   color: var(--ink);
+  font-family: var(--font-serif);
   font-size: clamp(54px, 8vw, 118px);
   font-weight: 950;
   line-height: 0.98;
@@ -939,6 +940,310 @@ h1 {
   width: min(720px, 100%);
 }
 
+.welcome-window {
+  width: min(900px, calc(100vw - 40px));
+  max-height: min(760px, 92vh);
+  overflow: visible;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.welcome-close {
+  position: absolute;
+  right: max(8px, calc((100% - 790px) / 2 - 20px));
+  top: 8px;
+  z-index: 8;
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  padding: 0;
+  color: var(--ink);
+  background: var(--white);
+  border: 4px solid var(--line);
+  border-radius: 50%;
+  box-shadow: 4px 4px 0 var(--ink);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 22px;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.welcome-close:hover,
+.welcome-close:focus-visible {
+  color: var(--white);
+  background: #146b45;
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.welcome-stage {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: min(790px, 100%);
+  min-height: min(690px, 88vh);
+  margin: 0 auto;
+  padding: clamp(14px, 3vw, 28px);
+  isolation: isolate;
+  overflow: visible;
+}
+
+.welcome-card {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-rows: 46px auto minmax(285px, 1fr) auto;
+  min-width: 0;
+  min-height: 0;
+  background:
+    radial-gradient(circle at 88% 18%, rgba(0, 120, 216, 0.16) 0 54px, transparent 55px),
+    linear-gradient(118deg, transparent 0 63%, rgba(255, 213, 31, 0.48) 63% 73%, transparent 73%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+    linear-gradient(90deg, rgba(20, 107, 69, 0.08), rgba(217, 15, 47, 0.08));
+  border: 4px solid var(--line);
+  box-shadow: 10px 10px 0 #d90f2f, 16px 16px 0 var(--ink);
+  overflow: hidden;
+}
+
+.welcome-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 1px 1px, rgba(17, 17, 17, 0.08) 1px, transparent 1.5px) 0 0 / 18px 18px,
+    linear-gradient(90deg, #146b45 0 9px, transparent 9px calc(100% - 9px), #d90f2f calc(100% - 9px) 100%);
+  pointer-events: none;
+}
+
+.welcome-card::after {
+  content: "CQ-PEDIA";
+  position: absolute;
+  right: clamp(14px, 3vw, 34px);
+  bottom: -8px;
+  z-index: 0;
+  color: rgba(17, 17, 17, 0.06);
+  font-family: var(--font-sans);
+  font-size: clamp(54px, 9vw, 118px);
+  font-weight: 950;
+  line-height: 0.9;
+  white-space: nowrap;
+}
+
+.welcome-scorebar {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  min-height: 46px;
+  color: var(--white);
+  background: var(--ink);
+  border-bottom: 4px solid var(--line);
+  font-family: var(--font-sans);
+  font-size: clamp(11px, 1.5vw, 13px);
+  font-weight: 950;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.welcome-scorebar span {
+  min-width: 0;
+  overflow: hidden;
+  padding: 0 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.welcome-scorebar strong {
+  align-self: stretch;
+  display: grid;
+  min-width: 84px;
+  place-items: center;
+  color: var(--ink);
+  background: var(--yellow);
+  border-left: 4px solid var(--line);
+  border-right: 4px solid var(--line);
+  font-size: 21px;
+  line-height: 1;
+}
+
+.welcome-hero {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 12px 16px;
+  align-items: end;
+  padding: clamp(18px, 3vw, 28px) clamp(22px, 5vw, 50px) 16px;
+  color: var(--ink);
+  background: transparent;
+}
+
+.welcome-hero > * {
+  min-width: 0;
+}
+
+.welcome-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+  padding: 6px 11px;
+  background: var(--white);
+  border: 3px solid var(--line);
+  box-shadow: 4px 4px 0 #0078d8;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 950;
+}
+
+.welcome-brand img {
+  width: 28px;
+  height: 28px;
+}
+
+.welcome-kicker {
+  align-self: center;
+  width: max-content;
+  max-width: 100%;
+  margin: 0;
+  padding: 6px 12px;
+  color: var(--white);
+  background: #146b45;
+  border: 3px solid var(--line);
+  box-shadow: 4px 4px 0 var(--ink);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 950;
+  line-height: 1.2;
+}
+
+.welcome-hero h2 {
+  grid-column: 1 / -1;
+  max-width: 760px;
+  margin: 10px 0 0;
+  font-family: var(--font-serif);
+  font-weight: 950;
+  line-height: 0.98;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+
+.welcome-title-prefix,
+.welcome-title-main {
+  display: block;
+  font-family: inherit;
+  font-weight: inherit;
+  letter-spacing: 0;
+}
+
+.welcome-title-prefix {
+  margin-bottom: 0;
+  font-size: clamp(22px, 3.2vw, 42px);
+  line-height: 1.02;
+  text-shadow: 3px 3px 0 var(--white), 7px 7px 0 var(--red);
+}
+
+.welcome-title-main {
+  color: var(--ink);
+  font-size: clamp(46px, 6.8vw, 86px);
+  line-height: 0.98;
+  text-shadow: 3px 3px 0 var(--white), 7px 7px 0 var(--red);
+}
+
+.welcome-hero p {
+  grid-column: 1 / -1;
+  align-self: center;
+  margin: 0;
+  font-size: clamp(15px, 2.1vw, 18px);
+  font-weight: 850;
+  line-height: 1.55;
+}
+
+.welcome-announcement {
+  position: relative;
+  z-index: 1;
+  min-height: 0;
+  margin: 8px clamp(22px, 5vw, 50px) 16px;
+  padding: clamp(18px, 2.7vw, 24px);
+  background: rgba(255, 255, 255, 0.88);
+  border: 3px solid var(--line);
+  box-shadow: 5px 5px 0 rgba(17, 17, 17, 0.16);
+  overflow-x: hidden;
+  overflow-y: auto;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.welcome-announcement p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.welcome-announcement li {
+  font-size: 16px;
+}
+
+.welcome-announcement p + p {
+  margin-top: 10px;
+}
+
+.welcome-announcement h1 {
+  display: inline-block;
+  margin: 0 0 14px;
+  padding: 4px 10px;
+  background: var(--yellow);
+  border: 3px solid var(--line);
+  box-shadow: 3px 3px 0 var(--ink);
+  font-size: 19px;
+  font-weight: 950;
+  line-height: 1.25;
+  color: var(--ink);
+  text-shadow: none;
+}
+
+.welcome-actions {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(160px, 1.2fr) repeat(2, minmax(140px, 1fr));
+  gap: 10px;
+  padding: 0 clamp(22px, 5vw, 50px) clamp(22px, 4vw, 30px);
+}
+
+.welcome-actions button {
+  min-width: 0;
+  min-height: 46px;
+  padding: 8px 16px;
+  color: var(--ink);
+  background: var(--white);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--ink);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-weight: 950;
+  overflow-wrap: anywhere;
+}
+
+.welcome-actions .welcome-primary {
+  color: var(--white);
+  background: #d90f2f;
+  font-size: 18px;
+}
+
+.welcome-actions button:hover,
+.welcome-actions button:focus-visible {
+  color: var(--white);
+  background: #0078d8;
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
 .index-window .index-tabs {
   flex: 0 0 auto;
 }
@@ -951,7 +1256,7 @@ h1 {
 }
 
 .about-window {
-  width: min(640px, 100%);
+  width: min(860px, 100%);
 }
 
 .about-content {
@@ -1012,6 +1317,74 @@ h1 {
 
 .about-list a:hover {
   color: var(--red);
+}
+
+.author-section {
+  padding: 24px;
+  background:
+    radial-gradient(circle at 1px 1px, rgba(17, 17, 17, 0.1) 1px, transparent 1.5px) 0 0 / 16px 16px,
+    var(--white);
+}
+
+.author-section > h3 {
+  justify-self: start;
+  width: fit-content;
+}
+
+.author-copy {
+  min-width: 0;
+  text-align: center;
+}
+
+.author-role {
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: 3px 9px;
+  color: var(--white);
+  background: var(--blue);
+  border: 3px solid var(--line);
+  box-shadow: 3px 3px 0 var(--ink);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.author-name {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: clamp(42px, 6vw, 58px);
+  font-weight: 950;
+  line-height: 1;
+  text-shadow: 2px 2px 0 var(--white), 4px 4px 0 var(--red);
+}
+
+.author-email {
+  width: fit-content;
+  max-width: 100%;
+  margin: 14px auto 0;
+  padding: 6px 10px;
+  background: var(--paper);
+  border: 3px solid var(--line);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 950;
+  word-break: break-word;
+}
+
+.author-section .donate-code {
+  width: min(240px, 100%);
+  margin: 20px auto 0;
+  padding: 12px;
+  background: var(--white);
+  border: 3px solid var(--line);
+  box-shadow: 5px 5px 0 var(--yellow);
+}
+
+.author-section .donate-code img {
+  width: 100%;
+  height: auto;
+  border: 0;
+  box-shadow: none;
 }
 
 .donate-code,
@@ -1472,9 +1845,108 @@ body.modal-open {
   .feedback-content {
     grid-template-columns: 1fr;
   }
+
+  .welcome-window {
+    width: min(100%, calc(100vw - 34px));
+    max-height: 90vh;
+    overflow: visible;
+  }
+
+  .welcome-stage {
+    grid-template-columns: 1fr;
+    min-height: min(720px, 88vh);
+    padding: 8px;
+  }
+
+  .welcome-hero {
+    grid-template-columns: 1fr;
+    padding: 15px 18px 14px;
+    gap: 8px;
+  }
+
+  .welcome-hero h2 {
+    margin-top: 8px;
+    max-width: none;
+    line-height: 1.02;
+    word-break: keep-all;
+  }
+
+  .welcome-title-prefix {
+    font-size: clamp(14px, 3.8vw, 18px);
+    text-shadow: 2px 2px 0 var(--white), 4px 4px 0 var(--red);
+  }
+
+  .welcome-title-main {
+    font-size: clamp(30px, 8vw, 38px);
+    text-shadow: 2px 2px 0 var(--white), 4px 4px 0 var(--red);
+  }
+
+  .welcome-hero p {
+    font-size: 15px;
+  }
+
+  .welcome-card {
+    grid-template-rows: 44px auto minmax(280px, 1fr) auto;
+    max-height: min(710px, 88vh);
+    box-shadow: 4px 4px 0 #d90f2f, 7px 7px 0 var(--ink);
+  }
+
+  .welcome-scorebar {
+    min-height: 48px;
+    font-size: 10px;
+  }
+
+  .welcome-scorebar strong {
+    min-width: 84px;
+    font-size: 20px;
+  }
+
+  .welcome-announcement {
+    margin: 8px 18px 14px;
+    padding: 16px;
+  }
+
+  .welcome-actions {
+    grid-template-columns: 1fr;
+    padding: 0 18px 18px;
+  }
 }
 
 @media (max-width: 460px) {
+  .welcome-window {
+    width: calc(100vw - 28px);
+  }
+
+  .welcome-stage {
+    padding: 6px;
+  }
+
+  .welcome-card {
+    box-shadow: 4px 4px 0 #d90f2f, 6px 6px 0 var(--ink);
+  }
+
+  .welcome-hero h2 {
+    max-width: none;
+  }
+
+  .welcome-card {
+    grid-template-rows: 42px auto minmax(260px, 1fr) auto;
+  }
+
+  .welcome-scorebar strong {
+    min-width: 72px;
+  }
+
+  .welcome-announcement {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  .welcome-actions {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
   .top-nav button {
     padding: 0 12px;
     font-size: 13px;
@@ -1487,6 +1959,10 @@ body.modal-open {
   .about-list div {
     grid-template-columns: 1fr;
     gap: 4px;
+  }
+
+  .author-section .donate-code img {
+    width: min(220px, 100%);
   }
 
   .feedback-tabs {
@@ -1740,8 +2216,10 @@ h1 {
 
 /* ===== Display Songti Overrides ===== */
 h1,
+.welcome-title-prefix,
+.welcome-title-main,
 .entry h3 {
-  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  font-family: var(--font-serif);
   font-weight: 950;
 }
 
@@ -1756,12 +2234,25 @@ h1,
 .doc-view li,
 .doc-view th,
 .doc-view td,
-.doc-view blockquote {
-  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+.doc-view blockquote,
+.welcome-announcement,
+.welcome-announcement h1,
+.welcome-announcement h2,
+.welcome-announcement h3,
+.welcome-announcement h4,
+.welcome-announcement p,
+.welcome-announcement li,
+.welcome-announcement th,
+.welcome-announcement td,
+.welcome-announcement blockquote {
+  font-family: var(--font-serif);
 }
 
 .doc-view code,
 .doc-view pre,
-.doc-view pre code {
+.doc-view pre code,
+.welcome-announcement code,
+.welcome-announcement pre,
+.welcome-announcement pre code {
   font-family: Consolas, monospace;
 }

@@ -16,25 +16,25 @@
 
 | 拼音 | 音标 | 例字 |
 | --- | --- | --- |
-| b | p | 把 ba3 |
-| p | pʰ | 怕 pa4 |
-| m | m | 妈 ma1 |
-| f | f | 飞 fei1 |
-| v | v | 雾 vu4 |
-| d | t | 打 da3 |
-| t | tʰ | 他 ta1 |
-| l | l | 拉 la1 |
-| g | k | 哥 go1 |
-| k | kʰ | 课 ko4 |
-| ng | ŋ | 爱 ngai4 |
-| h | x | 喝 ho1 |
-| j | tɕ | 鸡 ji1 |
-| q | tɕʰ | 期 qi1 |
-| x | ɕ | 西 xi1 |
-| z | ts | 资 zi1 |
-| c | tsʰ | 此 ci3 |
-| s | s | 思 si1 |
-| r | z | 日 ri2 |
+| b | [p] | 把 ba3 |
+| p | [pʰ] | 怕 pa4 |
+| m | [m] | 妈 ma1 |
+| f | [f] | 飞 fei1 |
+| v | [v] | 雾 vu4 |
+| d | [t] | 打 da3 |
+| t | [tʰ] | 他 ta1 |
+| l | [l] | 拉 la1 |
+| g | [k] | 哥 go1 |
+| k | [kʰ] | 课 ko4 |
+| ng | [ŋ] | 爱 ngai4 |
+| h | [x] | 喝 ho1 |
+| j | [tɕ] | 鸡 ji1 |
+| q | [tɕʰ] | 期 qi1 |
+| x | [ɕ] | 西 xi1 |
+| z | [ts] | 资 zi1 |
+| c | [tsʰ] | 此 ci3 |
+| s | [s] | 思 si1 |
+| r | [z] | 日 ri2 |
 
 > 注： `i, u, ü` 开头的零声母字采用与汉语拼音方案相同的处理方法，以 `y, w, yu` 代替。
 
@@ -58,22 +58,22 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td>-</td><td>-</td><td>-</td><td>i</td><td>[i]</td><td>鸡 ji1</td><td>u</td><td>[u]</td><td>猪 zu1</td><td>ü</td><td>[y]</td><td>鱼 yu2</td></tr>
-    <tr><td>a</td><td>[a]</td><td>妈 ma1</td><td>ia</td><td>[i̯a]</td><td>家 jia1</td><td>ua</td><td>[u̯a]</td><td>瓦 wa3</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td>o</td><td>[o]</td><td>哥 go1</td><td>-</td><td>-</td><td>-</td><td>uo</td><td>[u̯o]</td><td>屙 wo1</td><td>io</td><td>[i̯o]</td><td>学 xio2</td></tr>
-    <tr><td>i</td><td>[]</td><td>资 zi1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>üu</td><td>[]</td><td>俗 xuu2</td></tr>
-    <tr><td>e</td><td>[e]</td><td>额 e2</td><td>ie</td><td>[i̯e]</td><td>学 xie2</td><td>ue</td><td>-</td><td>-</td><td>üe</td><td>-</td><td>-</td></tr>
-    <tr><td>ai</td><td>[ai̯]</td><td>爱 ai4</td><td>iai</td><td>[i̯ai]</td><td>解 jiai3</td><td>uai</td><td>[u̯ai̯]</td><td>快 kuai4</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td>ei</td><td>[ei̯]</td><td>飞 fei1</td><td>-</td><td>-</td><td>-</td><td>ui</td><td>[]</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td>ao</td><td>[au̯]</td><td>包 bao1</td><td>iao</td><td>[i̯au̯]</td><td>鸟 niao3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td>ou</td><td>[ou̯]</td><td>口 kou3</td><td>iu</td><td>[]</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td>an</td><td>[an]</td><td>安 ngan1</td><td>ian</td><td>[i̯ɛn]</td><td>烟 yan1</td><td>uan</td><td>[u̯an]</td><td>弯 wan1</td><td>üan</td><td>[ɥɛn]</td><td>冤 yuan1</td></tr>
-    <tr><td>en</td><td>[ən]</td><td>喝 hen1</td><td>in</td><td>[in]</td><td>亲 qin1</td><td>un</td><td>[un]</td><td>文 wen2</td><td>ün</td><td>[yn]</td><td>君 jun1</td></tr>
-    <tr><td>ang</td><td>[ɑŋ]</td><td>妨 fang2</td><td>iang</td><td>[i̯ɑŋ]</td><td>羊 yang2</td><td>uang</td><td>[u̯ɑŋ]</td><td>光 guang1</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>ong</td><td>[uŋ]</td><td>工 gong1</td><td>iong</td><td>[i̯uŋ]</td><td>穷 qiong2</td></tr>
-    <tr><td>er</td><td>[]</td><td>-</td><td>ier</td><td>[]</td><td>-</td><td>uer</td><td>[]</td><td>-</td><td>üer</td><td>[]</td><td>-</td></tr>
-    <tr><td>ar</td><td>[]</td><td>-</td><td>iar</td><td>[]</td><td>-</td><td>uar</td><td>[]</td><td>-</td><td>üar</td><td>[]</td><td>-</td></tr>
+    <tr><td>-</td><td>-</td><td>-</td><td>i</td><td>[i]</td><td>鸡 ji1</td><td>u</td><td>[ʋ]</td><td>猪 zu1</td><td>ü</td><td>[y]</td><td>鱼 yu2</td></tr>
+    <tr><td>a</td><td>[a]</td><td>妈 ma1</td><td>ia</td><td>[ia]</td><td>家 jia1</td><td>ua</td><td>[ua]</td><td>瓦 wa3</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>o</td><td>[o]</td><td>哥 go1</td><td>-</td><td>-</td><td>-</td><td>uo</td><td>[uo]</td><td>屙 wo1</td><td>io</td><td>[ɥo]</td><td>学 xio2</td></tr>
+    <tr><td>i</td><td>[ɿ]</td><td>资 zi1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>üu</td><td>[ɥu]</td><td>俗 xuu2</td></tr>
+    <tr><td>e</td><td>[e]</td><td>额 nge2</td><td>ie</td><td>[ie]</td><td>姐 jie3</td><td>ue</td><td>[ue]</td><td>国 gue2</td><td>üe</td><td>[ye]</td><td>月 yue2</td></tr>
+    <tr><td>ai</td><td>[ai]</td><td>才 cai2</td><td>iai</td><td>[iai]</td><td>解 jiai3</td><td>uai</td><td>[uai]</td><td>快 kuai4</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>ei</td><td>[ei]</td><td>飞 fei1</td><td>-</td><td>-</td><td>-</td><td>ui</td><td>[uei]</td><td>贵 gui4</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>ao</td><td>[au]</td><td>包 bao1</td><td>iao</td><td>[iau]</td><td>桥 qiao2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>ou</td><td>[əu]</td><td>口 kou3</td><td>iu</td><td>[iəu]</td><td>秋 qiu1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>an</td><td>[an]</td><td>安 ngan1</td><td>ian</td><td>[iɛn]</td><td>烟 yan1</td><td>uan</td><td>[uan]</td><td>宽 kuan1</td><td>üan</td><td>[yɛn]</td><td>宣 xuan1</td></tr>
+    <tr><td>en</td><td>[ən]</td><td>跟 gen1</td><td>in</td><td>[in]</td><td>亲 qin1</td><td>un</td><td>[uən]</td><td>文 wen2</td><td>ün</td><td>[yn]</td><td>军 jun1</td></tr>
+    <tr><td>ang</td><td>[ɑŋ]</td><td>妨 fang2</td><td>iang</td><td>[iɑŋ]</td><td>羊 yang2</td><td>uang</td><td>[uɑŋ]</td><td>光 guang1</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>ong</td><td>[oŋ]</td><td>工 gong1</td><td>iong</td><td>[ɥoŋ]</td><td>穷 qiong2</td></tr>
+    <tr><td>er</td><td>[ɚɭ]</td><td>门儿 mer2</td><td>ier</td><td>[iɚɭ]</td><td>兵儿 bier1</td><td>uer</td><td>[uɚɭ]</td><td>绳儿 suer2</td><td>üer</td><td>[yɚɭ]</td><td>群儿 quer2</td></tr>
+    <tr><td>ar</td><td>[aɚɭ]</td><td>猫儿 mar1</td><td>iar</td><td>[iaɚɭ]</td><td>眼儿 yar3</td><td>uar</td><td>[uaɚɭ]</td><td>官儿 guar1</td><td>üar</td><td>[yaɚɭ]</td><td>圈儿 [yaɚɭ]</td></tr>
   </tbody>
 </table>
 
