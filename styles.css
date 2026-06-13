@@ -942,7 +942,8 @@ h1 {
 
 .welcome-window {
   width: min(900px, calc(100vw - 40px));
-  max-height: min(760px, 92vh);
+  height: min(760px, calc(100vh - 56px));
+  max-height: calc(100vh - 56px);
   overflow: visible;
   background: transparent;
   border: 0;
@@ -984,7 +985,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr;
   width: min(790px, 100%);
-  min-height: min(690px, 88vh);
+  height: 100%;
   margin: 0 auto;
   padding: clamp(14px, 3vw, 28px);
   isolation: isolate;
@@ -995,9 +996,10 @@ h1 {
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-rows: 46px auto minmax(285px, 1fr) auto;
+  grid-template-rows: 46px auto minmax(0, 1fr) auto;
   min-width: 0;
   min-height: 0;
+  height: 100%;
   background:
     radial-gradient(circle at 88% 18%, rgba(0, 120, 216, 0.16) 0 54px, transparent 55px),
     linear-gradient(118deg, transparent 0 63%, rgba(255, 213, 31, 0.48) 63% 73%, transparent 73%),
@@ -1848,13 +1850,14 @@ body.modal-open {
 
   .welcome-window {
     width: min(100%, calc(100vw - 34px));
-    max-height: 90vh;
+    height: min(710px, calc(100vh - 48px));
+    max-height: calc(100vh - 48px);
     overflow: visible;
   }
 
   .welcome-stage {
     grid-template-columns: 1fr;
-    min-height: min(720px, 88vh);
+    height: 100%;
     padding: 8px;
   }
 
@@ -1886,8 +1889,8 @@ body.modal-open {
   }
 
   .welcome-card {
-    grid-template-rows: 44px auto minmax(280px, 1fr) auto;
-    max-height: min(710px, 88vh);
+    grid-template-rows: 44px auto minmax(0, 1fr) auto;
+    max-height: none;
     box-shadow: 4px 4px 0 #d90f2f, 7px 7px 0 var(--ink);
   }
 
@@ -1930,7 +1933,7 @@ body.modal-open {
   }
 
   .welcome-card {
-    grid-template-rows: 42px auto minmax(260px, 1fr) auto;
+    grid-template-rows: 42px auto minmax(0, 1fr) auto;
   }
 
   .welcome-scorebar strong {

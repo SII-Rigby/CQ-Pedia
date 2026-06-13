@@ -40,8 +40,6 @@
 
 ## 三、韵母对照
 
-🚧 尚未完善，敬请期待 🚧
-
 <table>
   <thead>
     <tr>
@@ -73,11 +71,9 @@
     <tr><td>ang</td><td>[ɑŋ]</td><td>妨 fang2</td><td>iang</td><td>[iɑŋ]</td><td>羊 yang2</td><td>uang</td><td>[uɑŋ]</td><td>光 guang1</td><td>-</td><td>-</td><td>-</td></tr>
     <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>ong</td><td>[oŋ]</td><td>工 gong1</td><td>iong</td><td>[ɥoŋ]</td><td>穷 qiong2</td></tr>
     <tr><td>er</td><td>[ɚɭ]</td><td>门儿 mer2</td><td>ier</td><td>[iɚɭ]</td><td>兵儿 bier1</td><td>uer</td><td>[uɚɭ]</td><td>绳儿 suer2</td><td>üer</td><td>[yɚɭ]</td><td>群儿 quer2</td></tr>
-    <tr><td>ar</td><td>[aɚɭ]</td><td>猫儿 mar1</td><td>iar</td><td>[iaɚɭ]</td><td>眼儿 yar3</td><td>uar</td><td>[uaɚɭ]</td><td>官儿 guar1</td><td>üar</td><td>[yaɚɭ]</td><td>圈儿 [yaɚɭ]</td></tr>
+    <tr><td>ar</td><td>[aɚɭ]</td><td>猫儿 mar1</td><td>iar</td><td>[iaɚɭ]</td><td>眼儿 yar3</td><td>uar</td><td>[uaɚɭ]</td><td>官儿 guar1</td><td>üar</td><td>[yaɚɭ]</td><td>圈儿 quar1</td></tr>
   </tbody>
 </table>
-
-🚧 尚未完善，敬请期待 🚧
 
 > 特殊发音：「个」白读韵母常常弱化成 `[ə]`，记录为 `ə`，对于不方便显示 `ə` 的场景也可以记录成 `eo`；
 > 「吗」「噻」的韵母发音为 `[æ]`，记录为 `æ`，对于不方便显示 `æ` 的场景也可以记录成 `ae`。
