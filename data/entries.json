@@ -701,7 +701,7 @@
       "id": "cq-00032",
       "headword": "着",
       "pinyin": "zo2",
-      "wordClass": "名词；动词；副词",
+      "wordClass": "名词；副词",
       "variants": ["作","著"],
       "definitions": [
         {
@@ -1509,8 +1509,8 @@
           "translation": "裤脚短短的，膝盖都遮不住。"
         }
       ]
-    }, 
-    { 
+    },
+    {
       "id": "cq-00074",
       "headword": "龌龊",
       "pinyin": "wo2 co2‑1",
@@ -1706,7 +1706,7 @@
       "examples": [
         {
           "text": "把桌子底脚的灰灰清理干净。",
-          "pinyin": "ba3 zo2 zi3 di3 xia4-2 li1 hui1 hui1 qin1 li3 gan1 jin4",
+          "pinyin": "ba3 zo2 zi3 di3 jio2 li1 hui1 hui1 qin1 li3 gan1 jin4",
           "translation": "把桌子底下的灰清理干净。"
         }
       ]
@@ -2274,7 +2274,7 @@
       "id": "cq-00115",
       "headword": "万天_儿",
       "pinyin": "wan4 tiar1",
-      "wordClass": "时间词",
+      "wordClass": "名词",
       "definitions": [
         {
           "text": "大后天。"
@@ -2408,7 +2408,7 @@
       ]
     },
     {
-      "id": "cq-00116",
+      "id": "cq-00122",
       "headword": "绒",
       "pinyin": "rong2",
       "wordClass": "形容词；副词；动词",
@@ -2435,10 +2435,11 @@
       ]
     },
     {
-      "id": "cq-00117",
+      "id": "cq-00123",
       "headword": "挼",
       "pinyin": "rua2",
       "wordClass": "动词",
+      "variants": ["捼"],
       "definitions": [
         {
           "text": "揉搓、揉按。"
@@ -2453,7 +2454,7 @@
       ]
     },
     {
-      "id": "cq-00118",
+      "id": "cq-00124",
       "headword": "热天家",
       "pinyin": "re2 tian1 jia1",
       "wordClass": "名词",
@@ -2471,7 +2472,7 @@
       ]
     },
     {
-      "id": "cq-00119",
+      "id": "cq-00125",
       "headword": "扖",
       "pinyin": "ru2",
       "wordClass": "动词",
@@ -2506,7 +2507,7 @@
       ]
     },
     {
-      "id": "cq-00120",
+      "id": "cq-00126",
       "headword": "蠕",
       "pinyin": "ru2",
       "wordClass": "动词",
@@ -2524,7 +2525,7 @@
       ]
     },
     {
-      "id": "cq-00121",
+      "id": "cq-00127",
       "headword": "装疯迷窍",
       "pinyin": "zuang1 fong1 mi2 qiao4",
       "wordClass": "动词短语；形容词",
@@ -2542,7 +2543,7 @@
       ]
     },
     {
-      "id": "cq-00122",
+      "id": "cq-00128",
       "headword": "腌臜",
       "pinyin": "wa1 zua1",
       "wordClass": "形容词",
@@ -2561,7 +2562,7 @@
       ]
     },
     {
-      "id": "cq-00123",
+      "id": "cq-00129",
       "headword": "凭",
       "pinyin": "pen1",
       "wordClass": "动词",
@@ -2579,7 +2580,7 @@
       ]
     },
     {
-      "id": "cq-00124",
+      "id": "cq-00130",
       "headword": "荸荠_儿",
       "pinyin": "pu2 qier2-1/quer2-1",
       "wordClass": "名词",
@@ -2593,7 +2594,7 @@
       "fig": true
     },
     {
-      "id": "cq-00125",
+      "id": "cq-00131",
       "headword": "篾片_儿",
       "pinyin": "mie2 piar3",
       "wordClass": "名词",
@@ -2616,7 +2617,7 @@
       "fig": true
     },
     {
-      "id": "cq-00126",
+      "id": "cq-00132",
       "headword": "尺片_儿",
       "pinyin": "ci2 piar3",
       "wordClass": "名词",
@@ -2634,7 +2635,7 @@
       ]
     },
     {
-      "id": "cq-00127",
+      "id": "cq-00133",
       "headword": "丁丁猫_儿",
       "pinyin": "din1 din1 mar1",
       "wordClass": "名词",
@@ -2654,7 +2655,7 @@
       "fig": true
     },
     {
-      "id": "cq-00128",
+      "id": "cq-00134",
       "headword": "偷油婆",
       "pinyin": "tou1 you2 po2",
       "wordClass": "名词",
@@ -2666,7 +2667,7 @@
       "fig": true
     },
     {
-      "id": "cq-00129",
+      "id": "cq-00135",
       "headword": "撮箕",
       "pinyin": "co2 ji1",
       "wordClass": "名词",
@@ -2686,7 +2687,7 @@
       "fig": true
     },
     {
-      "id": "cq-00130",
+      "id": "cq-00136",
       "headword": "菢鸡母",
       "pinyin": "bao4 ji1 mu3",
       "wordClass": "名词",
@@ -2705,7 +2706,7 @@
       ]
     },
     {
-      "id": "cq-00131",
+      "id": "cq-00137",
       "headword": "光巴胴_儿",
       "pinyin": "guang1 ba1 der3",
       "wordClass": "名词",
@@ -2724,7 +2725,7 @@
       ]
     },
     {
-      "id": "cq-00132",
+      "id": "cq-00138",
       "headword": "掐",
       "pinyin": "ka2",
       "wordClass": "动词",
@@ -2742,7 +2743,7 @@
       ]
     },
     {
-      "id": "cq-00133",
+      "id": "cq-00139",
       "headword": "䠍",
       "pinyin": "ka2",
       "wordClass": "动词",
@@ -2760,7 +2761,7 @@
       ]
     },
     {
-      "id": "cq-00134",
+      "id": "cq-00140",
       "headword": "挑住",
       "pinyin": "diao1 zu4/zu2",
       "wordClass": "副词；形容词",
@@ -2780,7 +2781,7 @@
       ]
     },
     {
-      "id": "cq-00135",
+      "id": "cq-00141",
       "headword": "㞗",
       "pinyin": "qiu2",
       "wordClass": "名词；语气词",
@@ -2797,7 +2798,7 @@
       ]
     },
     {
-      "id": "cq-00136",
+      "id": "cq-00142",
       "headword": "踩假水_儿",
       "pinyin": "cai3 jia3 suer3",
       "wordClass": "动词短语",
@@ -2819,7 +2820,7 @@
       ]
     },
     {
-      "id": "cq-00137",
+      "id": "cq-00143",
       "headword": "远",
       "pinyin": "yuan4",
       "wordClass": "动词；形容词",
@@ -2846,7 +2847,7 @@
       ]
     },
     {
-      "id": "cq-00138",
+      "id": "cq-00144",
       "headword": "落教",
       "pinyin": "lo2 jiao4",
       "wordClass": "形容词",
@@ -2866,7 +2867,7 @@
       ]
     },
     {
-      "id": "cq-00139",
+      "id": "cq-00145",
       "headword": "依教",
       "pinyin": "yi1 jiao4",
       "wordClass": "形容词；动词短语",
@@ -2885,7 +2886,7 @@
       "note": "和「落教」相近，但「落教」偏重讲信用、守承诺；「依教」更偏重懂规矩、听劝、服理。"
     },
     {
-      "id": "cq-00140",
+      "id": "cq-00146",
       "headword": "巴心巴肠",
       "pinyin": "ba1 xin1 ba1 cang2",
       "wordClass": "形容词；副词",
@@ -2903,7 +2904,7 @@
       ]
     },
     {
-      "id": "cq-00141",
+      "id": "cq-00147",
       "headword": "啄瞌睡",
       "pinyin": "zua2 ko2 sui4",
       "wordClass": "动词短语",
@@ -2921,7 +2922,7 @@
       ]
     },
     {
-      "id": "cq-00142",
+      "id": "cq-00148",
       "headword": "迁翻_儿",
       "pinyin": "qian1 far1",
       "wordClass": "形容词；名词",
@@ -2940,7 +2941,7 @@
       ]
     },
     {
-      "id": "cq-00143",
+      "id": "cq-00149",
       "headword": "霸道",
       "pinyin": "ba4 dao4",
       "wordClass": "形容词",
@@ -2962,7 +2963,7 @@
       ]
     },
     {
-      "id": "cq-00144",
+      "id": "cq-00150",
       "headword": "跶扑爬",
       "pinyin": "da2 pu2 pa2",
       "wordClass": "动词短语",
@@ -2981,7 +2982,7 @@
       ]
     },
     {
-      "id": "cq-00145",
+      "id": "cq-00151",
       "headword": "扯噗鼾",
       "pinyin": "ce3 pu2 han4",
       "wordClass": "动词短语",
@@ -2999,7 +3000,7 @@
       ]
     },
     {
-      "id": "cq-00146",
+      "id": "cq-00152",
       "headword": "打闪闪",
       "pinyin": "da3 san3 san3",
       "wordClass": "动词短语",
@@ -3017,7 +3018,7 @@
       ]
     },
     {
-      "id": "cq-00147",
+      "id": "cq-00153",
       "headword": "孃孃",
       "pinyin": "liang1 liang1",
       "wordClass": "名词",
@@ -3041,7 +3042,7 @@
       ]
     },
     {
-      "id": "cq-00148",
+      "id": "cq-00154",
       "headword": "凊",
       "pinyin": "qin4",
       "wordClass": "形容词；动词",
@@ -3067,7 +3068,7 @@
       ]
     },
     {
-      "id": "cq-00149",
+      "id": "cq-00155",
       "headword": "蔫𤆵皮臭",
       "pinyin": "yan1 pa1 pi2 cou4",
       "wordClass": "形容词",
@@ -3085,7 +3086,7 @@
       ]
     },
     {
-      "id": "cq-00150",
+      "id": "cq-00156",
       "headword": "憨吃傻胀",
       "pinyin": "han1 ci2 ha3 zang4",
       "wordClass": "动词短语；形容词",
@@ -3103,7 +3104,7 @@
       ]
     },
     {
-      "id": "cq-00151",
+      "id": "cq-00157",
       "headword": "耍得好",
       "pinyin": "sua3 de2 hao3",
       "wordClass": "动词短语",
@@ -3121,7 +3122,7 @@
       ]
     },
     {
-      "id": "cq-00152",
+      "id": "cq-00158",
       "headword": "兄弟伙",
       "pinyin": "xiong1 di4 ho3",
       "wordClass": "名词",
@@ -3139,7 +3140,7 @@
       ]
     },
     {
-      "id": "cq-00153",
+      "id": "cq-00159",
       "headword": "姊妹伙",
       "pinyin": "zi3 mei4 ho3",
       "wordClass": "名词",
@@ -3157,7 +3158,7 @@
       ]
     },
     {
-      "id": "cq-00154",
+      "id": "cq-00160",
       "headword": "……惨了",
       "pinyin": "can3 lao3",
       "wordClass": "副词；助词",
@@ -3175,7 +3176,7 @@
       ]
     },
     {
-      "id": "cq-00155",
+      "id": "cq-00161",
       "headword": "㞎㞎",
       "pinyin": "ba3 ba3",
       "wordClass": "名词",
@@ -3194,7 +3195,7 @@
       "notes": "不建议和表示饼类食物的「粑粑」混写。"
     },
     {
-      "id": "cq-00156",
+      "id": "cq-00162",
       "headword": "脑壳",
       "pinyin": "lao3 ko2",
       "wordClass": "名词",
@@ -3212,7 +3213,7 @@
       ]
     },
     {
-      "id": "cq-00157",
+      "id": "cq-00163",
       "headword": "老汉_儿",
       "pinyin": "lao3 har4",
       "wordClass": "名词",
@@ -3230,7 +3231,7 @@
       ]
     },
     {
-      "id": "cq-00158",
+      "id": "cq-00164",
       "headword": "𤆵耳朵",
       "pinyin": "pa1 er3 do3-1",
       "wordClass": "名词；形容词",
@@ -3249,7 +3250,7 @@
       ]
     },
     {
-      "id": "cq-00159",
+      "id": "cq-00165",
       "headword": "㝩",
       "pinyin": "kang3",
       "wordClass": "动词",
@@ -3268,7 +3269,7 @@
       ]
     },
     {
-      "id": "cq-00160",
+      "id": "cq-00166",
       "headword": "跐胶",
       "pinyin": "zi1 jiao1",
       "wordClass": "名词",
