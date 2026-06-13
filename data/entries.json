@@ -3169,7 +3169,7 @@
       ],
       "examples": [
         {
-          "text": "他今天_儿遭领导理抹惨了，回来句都不想说。",
+          "text": "他今天_儿遭领导理抹惨了，回来句话都不想说。",
           "pinyin": "ta1 jin1 tiar1 zao2 lin3 tao4 li3 ma2 can3 lao3 hui2 lai2 ju4 hua4 dou1 bu2 xiang3 so2",
           "translation": "他今天被领导狠狠批评了一顿，回来一句话都不想说。"
         }
@@ -3284,6 +3284,342 @@
           "text": "考试的时候_儿他到处借跐胶，结果还把答题卡跐烂了。",
           "pinyin": "kao3 si4 li1 si2 her4 ta1 dao4 cu4-1 jie4 zi1 jiao1 jie2 go3 hai2 ba3 da2 ti2 ka3 zi1 lan4 lao3",
           "translation": "考试的时候他到处借橡皮，结果还把答题卡擦破了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00167",
+      "headword": "先人",
+      "pinyin": "xian1 ren2",
+      "wordClass": "名词；叹词",
+      "definitions": [
+        {
+          "text": "祖先、祖宗。带情绪的粗俗用法，用于骂人或强调语气。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "稍微动下脑壳嘛，先人！",
+          "pinyin": "sao1 wei2 dong4 ha4 lao3 ko2 ma3 xian1 ren2",
+          "translation": "稍微动动脑子吧，我的祖宗！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00168",
+      "headword": "先人板板",
+      "pinyin": "xian1 ren2 ban3 ban3",
+      "wordClass": "名词；叹词",
+      "definitions": [
+        {
+          "text": "本指祖宗牌位。带情绪的粗俗感叹用法，用于骂人或强调语。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "先人板板，这点事都搞不定！",
+          "pinyin": "xian1 ren2 ban3 ban3 le4 dian3 si4 dou1 gao3 bu2 din4",
+          "translation": "我的天啊，这点事都搞不定！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00169",
+      "headword": "扳",
+      "pinyin": "ban3",
+      "wordClass": "动词",
+      "variants": ["板"],
+      "definitions": [
+        {
+          "text": "身体剧烈摇动、挣扎。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这条鱼好新鲜，都要煮熟了还在扳。",
+          "pinyin": "le4 tiao4 yu2 hao3 xin1 xuan1 dou1 yao4 zu3 su2 lao3 hai2 dai4 ban3",
+          "translation": "这条鱼好新鲜，都要煮熟了还在挣扎。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00170",
+      "headword": "扳命",
+      "pinyin": "ban3 min4",
+      "wordClass": "动词短语",
+      "variants": ["板命"],
+      "definitions": [
+        {
+          "text": "拼命挣扎、拼死反抗。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "喊他去打个针，他像是在扳命样。",
+          "pinyin": "han3 ta4 qi4 da3 gə4 zen1 ta1 qiang4 si4 dai4 ban3 min4 yang4",
+          "translation": "叫他去打针，他跟在逃命似的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00171",
+      "headword": "瞘",
+      "pinyin": "kou1",
+      "wordClass": "动词；形容词",
+      "definitions": [
+        {
+          "text": "眼珠深陷。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他熬了几天夜，眼睛都瞘进去了。",
+          "pinyin": "ta1 ngao2 lao3 ji3 tian1 ye4 yan3 jin1 dou1 kou1 jin4 qi4-1 lao3",
+          "translation": "他熬了几天夜，眼睛都凹进去了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00172",
+      "headword": "打望",
+      "pinyin": "da3 wang4",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "四处张望，寻找目标。多指男性在街上望美女。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "好哇，又在打望！遭婆娘看到又要遭决。",
+          "pinyin": "hao3 wa3 you4 dai4 da3 wang4 zao2 po2 liang1 kan4 dao3 you4 yao4 zao2 jue2",
+          "translation": "好啊，你又在望美女！被老婆知道了又要挨骂。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00173",
+      "headword": "鹞子翻叉",
+      "pinyin": "liao4 zi3 fan1 ca1",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "侧空翻动作。"
+        }
+      ],
+      "fig": true,
+      "examples": [
+        {
+          "text": "小那阵_儿翻鹞子翻叉嘿在行，这下_儿不得行了。",
+          "pinyin": "xiao3 la4 zer4 fan1 liao4 zi3 fan1 ca1 he1 zai4 hang2 le4 har4-1 bu2 de2 xin2 lao3",
+          "translation": "小时候侧空翻很厉害，现在不行了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00174",
+      "headword": "㨣",
+      "pinyin": "wong1",
+      "wordClass": "动词",
+      "variants": ["塕"],
+      "definitions": [
+        {
+          "text": "堆积、堆放、聚拢。"
+        },
+        {
+          "text": "掩盖、捂住。"
+        },
+        {
+          "text": "围住、拥上去。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "柴禾先㨣到一堆_儿，等下_儿再处理。",
+          "pinyin": "cai2 ho2-3 xian1 wong1 dao3 yi4 duer1 den3 har4-1 zai4 cu3 li3",
+          "translation": "柴禾先堆成一堆，等会再处理。"
+        },
+        {
+          "text": "不要一天把各人㨣到铺上，多出去透下_儿气。",
+          "pinyin": "bu2 yao4 yi2 tian1 ba3 go2 ren2 wong1 dao3 pu1 sang4 do1 cu2 qi4-1 tou4 har4 qi4",
+          "translation": "别成天把自己捂在被窝里，多出去透透气。"
+        },
+        {
+          "text": "听着说超市打折，这些老年人下就㨣上去了。",
+          "pinyin": "tin1 dao3 so2 cao1 si4 da3 ze2 le4 xi1 lao3 lian2 ren2 ha4 dou4 wong1 sang4 qi4 lao3",
+          "translation": "听到超市打折的消息，这些老年人一下子就拥上去了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00175",
+      "headword": "㨣",
+      "pinyin": "wong4",
+      "wordClass": "动词",
+      "variants": ["滃", "瓮"],
+      "definitions": [
+        {
+          "text": "使淹没在水中。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "那条狗儿遭㨣了水，现在落雨都怕兮兮的。",
+          "pinyin": "la4 tiao2 gou3 er2 zao2 wong4 lao3 sui3 xian4 zai4 lo2 yu3 dou1 pa4 xi1 xi1 li1",
+          "translation": "那条狗被淹在水里过，现在连下雨都让它害怕。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00176",
+      "headword": "搒",
+      "pinyin": "pang3",
+      "wordClass": "动词",
+      "variants": ["㧍", "碰"],
+      "definitions": [
+        {
+          "text": "碰到、撞到。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你白之八之搒我一下干啥子？",
+          "pinyin": "li3 be2 zi1 ba2 zi1 pang3 wo3 yi2 ha4 gan4 sa4 zi3",
+          "translation": "你平白无故地碰我一下干嘛？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00177",
+      "headword": "打牙祭",
+      "pinyin": "da3 ya2 ji4",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "偶尔吃好一点、改善伙食。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "今天_儿关饷，晚上去打个牙祭。",
+          "pinyin": "jin1 tiar1 guar1 xiang3 wan3 sang4 qi4 da3 gə4 ya2 ji4",
+          "translation": "今天发工资，晚上去改善伙食。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00178",
+      "headword": "扯把子",
+      "pinyin": "ce3 ba3 zi3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "撒谎、胡说。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你少扯这些把子，我才不得信你。",
+          "pinyin": "li3 sao3 ce3 le4 xi1 ba3 zi3 wo3 tai2 bu2 de2 xin4 li3",
+          "translation": "你少编这些谎，我才不信你。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00179",
+      "headword": "打堆堆",
+      "pinyin": "da3 dui1 dui1",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "聚在一起、成群站或坐在一起。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "娃儿们在坝坝头打堆堆耍。",
+          "pinyin": "wa2 er2 men1 zai4 ba4 ba4 tou2 da3 dui1 dui1 sua3",
+          "translation": "孩子们在院坝里聚在一起玩。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00180",
+      "headword": "撇脱",
+      "pinyin": "pie2 to2",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "爽快、洒脱。"
+        },
+        {
+          "text": "容易、简单。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "撇脱点_儿，五块钱干不干？",
+          "pinyin": "pie2 to2 diar3 vu3 kuai3 qian2 gan4 bu2 gan4",
+          "translation": "爽快点，五块钱干不干？"
+        },
+        {
+          "text": "说起撇脱，做起难。",
+          "pinyin": "so2 qi3 pie2 to2 zu4 qi3 lan2",
+          "translation": "说起来容易做起来难。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00181",
+      "headword": "扯霍闪",
+      "pinyin": "ce3 ho2 san3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "闪电。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "外头在扯霍闪了，快点_儿收衣服。",
+          "pinyin": "wai4 tou2 dai4 ce3 ho2 san3 lao3 kuai4 diar3 sou1 yi1 fu2",
+          "translation": "外面电闪雷鸣，快点收衣服。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00182",
+      "headword": "扯霍闪",
+      "pinyin": "ce3 ho2 san3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "闪电。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "外头在扯霍闪了，快点_儿收衣服。",
+          "pinyin": "wai4 tou2 dai4 ce3 ho2 san3 lao3 kuai4 diar3 sou1 yi1 fu2",
+          "translation": "外面电闪雷鸣，快点收衣服。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00182",
+      "headword": "吃麻麻_儿鱼",
+      "pinyin": "ci2 ma2 mar2-1 yu2",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "蒙骗、坑骗。「吃……的麻麻_儿鱼」就是蒙骗某人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我书读得少，你莫吃我的麻麻_儿鱼哟！",
+          "pinyin": "wo3 su1 du2 de2 sao3 li3 mo2 ci2 wo3 li1 ma2 mar2-1 yu2 yo1",
+          "translation": "我书读得少，你别蒙骗我！"
         }
       ]
     }
