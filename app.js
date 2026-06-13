@@ -24,10 +24,14 @@ const els = {
 };
 
 const indexEls = {
-  btn: document.querySelector("#indexBtn"),
+  panel: document.querySelector(".filter-panel"),
+  toggle: document.querySelector("#filterToggle"),
   modal: document.querySelector("#indexModal"),
   grid: document.querySelector("#initialGrid"),
-  tabs: document.querySelectorAll("[data-index-type]")
+  tabs: document.querySelectorAll("[data-index-type]"),
+  selectedTags: document.querySelector("#selectedTags"),
+  openButtons: document.querySelectorAll("[data-open-index]"),
+  showAllButton: document.querySelector("[data-show-all]")
 };
 
 const aboutEls = {
@@ -192,30 +196,52 @@ function matchesWordClass(entry) {
   return state.wordClass ? wordClassesOf(entry).includes(state.wordClass) : false;
 }
 
+function hasActiveFilters() {
+  return Boolean(state.initial || state.wordClass);
+}
+
+function updateMode() {
+  if (state.mode === "all" && !state.query && !hasActiveFilters()) {
+    return;
+  }
+
+  state.mode = state.query || hasActiveFilters() ? "filter" : "idle";
+}
+
+function entryMatchesFilters(entry) {
+  if (state.initial && !matchesInitial(entry)) {
+    return false;
+  }
+
+  if (state.wordClass && !matchesWordClass(entry)) {
+    return false;
+  }
+
+  return true;
+}
+
 function filteredEntries() {
-  if (state.mode === "idle") {
+  const query = normalizeSearchText(state.query);
+  const hasFilters = hasActiveFilters();
+
+  if (state.mode === "idle" && !query && !hasFilters) {
     return dailyEntries(state.entries, WELCOME_ENTRY_COUNT);
   }
 
-  if (state.mode === "search") {
-    const query = normalizeSearchText(state.query);
-    if (!query) {
-      return [];
-    }
+  if (state.mode === "all" && !query && !hasFilters) {
+    return state.entries;
+  }
 
+  if (query) {
     return state.entries
       .map((entry, index) => ({ entry, index, rank: searchRank(entry, query) }))
-      .filter((item) => Number.isFinite(item.rank))
+      .filter((item) => Number.isFinite(item.rank) && entryMatchesFilters(item.entry))
       .sort((a, b) => a.rank - b.rank || a.index - b.index)
       .map((item) => item.entry);
   }
 
-  if (state.mode === "initial") {
-    return state.entries.filter(matchesInitial);
-  }
-
-  if (state.mode === "wordClass") {
-    return state.entries.filter(matchesWordClass);
+  if (hasFilters) {
+    return state.entries.filter(entryMatchesFilters);
   }
 
   return [];
@@ -360,7 +386,76 @@ function renderPagination(totalPages) {
   `;
 }
 
+function activeFilterLabels() {
+  const labels = [];
+
+  if (state.query) {
+    labels.push(`搜索：${state.query}`);
+  }
+
+  if (state.initial) {
+    labels.push(`声母 ${initialLabel(state.initial)}`);
+  }
+
+  if (state.wordClass) {
+    labels.push(`词性 ${state.wordClass}`);
+  }
+
+  return labels;
+}
+
+function renderSelectedTags() {
+  if (!indexEls.selectedTags) {
+    return;
+  }
+
+  const tags = [];
+
+  if (state.initial) {
+    tags.push({
+      type: "initial",
+      label: `声母 ${initialLabel(state.initial)}`
+    });
+  }
+
+  if (state.wordClass) {
+    tags.push({
+      type: "wordClass",
+      label: `词性 ${state.wordClass}`
+    });
+  }
+
+  indexEls.selectedTags.innerHTML = tags.length
+    ? tags
+      .map((tag) => `
+        <button type="button" class="filter-tag" data-remove-filter="${tag.type}" aria-label="移除${escapeHtml(tag.label)}">
+          <span>${escapeHtml(tag.label)}</span>
+          <span aria-hidden="true">×</span>
+        </button>
+      `)
+      .join("")
+    : '<span class="empty-tags">未选择筛选条件</span>';
+}
+
+function syncFilterControls() {
+  indexEls.showAllButton?.classList.toggle(
+    "active",
+    state.mode === "all" && !state.query && !hasActiveFilters()
+  );
+  indexEls.toggle?.classList.toggle(
+    "active",
+    Boolean(indexEls.panel && !indexEls.panel.hidden)
+  );
+  indexEls.toggle?.classList.toggle("has-filters", hasActiveFilters());
+  indexEls.toggle?.setAttribute(
+    "aria-expanded",
+    indexEls.panel && !indexEls.panel.hidden ? "true" : "false"
+  );
+}
+
 function render() {
+  renderSelectedTags();
+  syncFilterControls();
   const filtered = filteredEntries();
   const totalPages = Math.max(1, Math.ceil(filtered.length / RESULTS_PER_PAGE));
   state.page = Math.min(Math.max(state.page, 1), totalPages);
@@ -372,14 +467,16 @@ function render() {
   els.resultsPanel.hidden = false;
   els.count.textContent = `${filtered.length}`;
 
-  if (state.mode === "initial") {
-    els.label.textContent = `声母 ${initialLabel(state.initial)}`;
-  } else if (state.mode === "wordClass") {
-    els.label.textContent = `词性 ${state.wordClass}`;
+  const labels = activeFilterLabels();
+
+  if (state.mode === "all" && !labels.length) {
+    els.label.textContent = "所有词条";
   } else if (state.mode === "idle") {
     els.label.textContent = "每日十词";
+  } else if (labels.length) {
+    els.label.textContent = labels.join(" / ");
   } else {
-    els.label.textContent = `搜索：${state.query}`;
+    els.label.textContent = "筛选结果";
   }
 
   if (!filtered.length) {
@@ -407,7 +504,8 @@ function buildInitialIndex() {
   indexEls.grid.innerHTML = INITIALS
     .map((initial) => {
       const count = counts[initial] || 0;
-      return `<button type="button" data-initial="${escapeHtml(initial)}">${escapeHtml(initialLabel(initial))}<small>${count} 词条</small></button>`;
+      const active = state.initial === initial;
+      return `<button type="button" data-initial="${escapeHtml(initial)}" ${active ? 'class="active"' : ""}>${escapeHtml(initialLabel(initial))}<small>${count} 词条</small></button>`;
     })
     .join("");
 }
@@ -426,7 +524,10 @@ function buildWordClassIndex() {
   const wordClasses = Object.keys(counts).sort((a, b) => a.localeCompare(b, "zh-Hans"));
   indexEls.grid.classList.add("word-class-grid");
   indexEls.grid.innerHTML = wordClasses
-    .map((wordClass) => `<button type="button" data-word-class="${escapeHtml(wordClass)}">${escapeHtml(wordClass)}<small>${counts[wordClass]} 词条</small></button>`)
+    .map((wordClass) => {
+      const active = state.wordClass === wordClass;
+      return `<button type="button" data-word-class="${escapeHtml(wordClass)}" ${active ? 'class="active"' : ""}>${escapeHtml(wordClass)}<small>${counts[wordClass]} 词条</small></button>`;
+    })
     .join("");
 }
 
@@ -434,8 +535,12 @@ function setIndexType(type) {
   indexEls.tabs.forEach((tab) => {
     const active = tab.dataset.indexType === type;
     tab.classList.toggle("active", active);
-    tab.setAttribute("aria-selected", active ? "true" : "false");
+    if (tab.hasAttribute("role")) {
+      tab.setAttribute("aria-selected", active ? "true" : "false");
+    }
   });
+
+  indexEls.grid.hidden = false;
 
   if (type === "wordClass") {
     buildWordClassIndex();
@@ -452,7 +557,7 @@ async function loadEntries() {
     }
     const payload = await response.json();
     state.entries = payload.entries || [];
-    buildInitialIndex();
+    setIndexType("initial");
     render();
   } catch (error) {
     state.mode = "search";
@@ -469,9 +574,7 @@ async function loadEntries() {
 
 function syncSearch() {
   state.query = els.input.value.trim();
-  state.mode = state.query ? "search" : "idle";
-  state.initial = "";
-  state.wordClass = "";
+  updateMode();
   state.page = 1;
   render();
 }
@@ -529,8 +632,8 @@ if (els.backToSearch) {
   });
 }
 
-function openIndexModal() {
-  setIndexType("initial");
+function openIndexModal(type = "initial") {
+  setIndexType(type);
   indexEls.modal.hidden = false;
   document.body.classList.add("modal-open");
 }
@@ -538,12 +641,62 @@ function openIndexModal() {
 function closeIndexModal() {
   indexEls.modal.hidden = true;
   document.body.classList.remove("modal-open");
-  indexEls.btn.focus();
+  indexEls.openButtons.forEach((button) => {
+    button.blur();
+  });
 }
 
-indexEls.btn.addEventListener("click", openIndexModal);
+function showAllEntries() {
+  if (state.mode === "all" && !state.query && !hasActiveFilters()) {
+    state.mode = "idle";
+  } else {
+    state.mode = "all";
+    state.query = "";
+    state.initial = "";
+    state.wordClass = "";
+    els.input.value = "";
+  }
 
-indexEls.modal.addEventListener("click", (event) => {
+  state.page = 1;
+  render();
+  document.querySelector("#resultsPanel").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+indexEls.toggle?.addEventListener("click", () => {
+  indexEls.panel.hidden = !indexEls.panel.hidden;
+  syncFilterControls();
+});
+
+indexEls.panel?.addEventListener("click", (event) => {
+  const removeButton = event.target.closest("button[data-remove-filter]");
+  if (removeButton) {
+    if (removeButton.dataset.removeFilter === "initial") {
+      state.initial = "";
+    }
+
+    if (removeButton.dataset.removeFilter === "wordClass") {
+      state.wordClass = "";
+    }
+
+    updateMode();
+    state.page = 1;
+    render();
+    return;
+  }
+
+  const allButton = event.target.closest("button[data-show-all]");
+  if (allButton) {
+    showAllEntries();
+    return;
+  }
+
+  const openButton = event.target.closest("button[data-open-index]");
+  if (openButton) {
+    openIndexModal(openButton.dataset.openIndex);
+  }
+});
+
+indexEls.modal?.addEventListener("click", (event) => {
   if (event.target.closest("[data-index-close]")) {
     closeIndexModal();
     return;
@@ -561,12 +714,17 @@ indexEls.modal.addEventListener("click", (event) => {
     return;
   }
 
-  state.mode = initialButton ? "initial" : "wordClass";
-  state.initial = initialButton ? initialButton.dataset.initial : "";
-  state.wordClass = wordClassButton ? wordClassButton.dataset.wordClass : "";
-  state.query = "";
+  if (initialButton) {
+    state.initial = initialButton.dataset.initial;
+  }
+
+  if (wordClassButton) {
+    state.wordClass = wordClassButton.dataset.wordClass;
+  }
+
+  updateMode();
   state.page = 1;
-  els.input.value = "";
+  setIndexType(initialButton ? "initial" : "wordClass");
   closeIndexModal();
   render();
   document.querySelector("#resultsPanel").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -940,7 +1098,7 @@ document.addEventListener("keydown", (event) => {
     closeModal();
   }
 
-  if (!indexEls.modal.hidden) {
+  if (indexEls.modal && !indexEls.modal.hidden) {
     closeIndexModal();
   }
 

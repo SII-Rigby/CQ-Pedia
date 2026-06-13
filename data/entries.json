@@ -2590,13 +2590,6 @@
           "note": "《康熙字典》：荸，《篇海》：蒲沒切，音孛。pu2 更贴近古音的念法。"
         }
       ],
-      "examples": [
-        {
-          "text": "热天家买点_儿荸荠_儿回来削起吃，清甜得很。",
-          "pinyin": "re2 tian1 jia1 mai3 diar3 pu2 qier2-1 hui2 lai2 xue2 qi3 ci2 qin1 tian2 de2 hen3",
-          "translation": "夏天买点荸荠回来削着吃，很清甜。"
-        }
-      ],
       "fig": true
     },
     {
@@ -2906,6 +2899,390 @@
           "text": "她巴心巴肠地帮你，你还像恁个误会她。",
           "pinyin": "ta1 ba1 xin1 ba1 cang2 li1 bang1 li3 li3 hai2 qiang4 len4 gə4-1 vu4 hui4 ta1",
           "translation": "她真心实意地帮你，你还像这样误会她。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00141",
+      "headword": "啄瞌睡",
+      "pinyin": "zua2 ko2 sui4",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "打瞌睡，头一点一点地犯困的样子。又作「栽(zuai1)瞌睡」「打瞌睡」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "数学课上到一半，他就在后排啄瞌睡。",
+          "pinyin": "su4 xio2 ko4 sang4 dao3 yi2 ban4 ta1 dou4 dai4 hou4 pai2 zua2 ko2 sui4",
+          "translation": "数学课上到一半，他就在后排打瞌睡。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00142",
+      "headword": "迁翻_儿",
+      "pinyin": "qian1 far1",
+      "wordClass": "形容词；名词",
+      "variants": ["千翻_儿"],
+      "definitions": [
+        {
+          "text": "调皮、淘气、爱折腾。多用于小孩。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个娃儿迁翻_儿得很，才洗干净的衣服，车过背_儿又拊些泥巴。",
+          "pinyin": "le4 gə4 wa2 er2-1 qian1 far1 de2 hen3 tai2 xi3 gan1 jin4 li1 yi1 fu2 ce1 gə4 ber4 you4 fu4 xi1 li2 ba1",
+          "translation": "这个孩子调皮得很，刚洗干净的衣服，一转眼又沾上了泥巴。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00143",
+      "headword": "霸道",
+      "pinyin": "ba4 dao4",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "厉害、好、有实力、让人满意。"
+        },
+        {
+          "text": "蛮横、不讲理。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这家馆子的毛血旺_儿霸道，吃得人汗水直顾流。",
+          "pinyin": "le4 jia1 guan3 zi3 li1 mao2 xue2 war4 ba4 dao4 ci2 de2 ren2 han4 sui3 zi2 gu4 liu2",
+          "translation": "这家馆子的毛血旺很不错，吃得人汗直流。"
+        },
+        {}
+      ]
+    },
+    {
+      "id": "cq-00144",
+      "headword": "跶扑爬",
+      "pinyin": "da2 pu2 pa2",
+      "wordClass": "动词短语",
+      "variants": ["跶扑趴","哒扑爬"],
+      "definitions": [
+        {
+          "text": "向前跌倒，摔成趴着的样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他脚没踩得稳，跶了一扑爬。",
+          "pinyin": "ta1 jio2 mei1 cai3 de2 wen3 da2 lao3 yi2 pu2 pa2",
+          "translation": "他脚没踩稳，摔了一大跤。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00145",
+      "headword": "扯噗鼾",
+      "pinyin": "ce3 pu2 han4",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "打鼾、睡觉时发出鼾声。又作「打噗鼾」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他昨晚黑扯噗鼾扯了一夜，硬是吵得我睡不着。",
+          "pinyin": "ta1 zo2 wan3 he2 ce3 pu2 han4 ce3 lao3 yi2 ye4 ngen4 si4 cao3 de2 wo3 sui4 bu2 co2",
+          "translation": "他昨天晚上打了一夜鼾，吵得我实在睡不着。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00146",
+      "headword": "打闪闪",
+      "pinyin": "da3 san3 san3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "腿因害怕、紧张等颤抖。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她头一回_儿站到台子上发言，紧张得两只脚杆都在打闪闪。",
+          "pinyin": "ta1 tou2 yi2 huer2 zan4 dao3 tai2 zi3 sang4 fa2 yan2 jin3 zang1 de2 liang3 zi1 jio2 gan3 dou1 dai4 da3 san3 san3",
+          "translation": "她第一次站到台上发言，紧张得两条腿都在发抖。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00147",
+      "headword": "孃孃",
+      "pinyin": "liang1 liang1",
+      "wordClass": "名词",
+      "variants": ["嬢嬢"],
+      "definitions": [
+        {
+          "text": "称呼阿姨、姑姑、婶婶等女性长辈。"
+        },
+        {
+          "text": "对中老年女性的亲切称呼。"
+        }
+      ],
+      "note": "受二简字影响，「孃」写成左「女」右「上」的写法也有一定的流行度。",
+      "examples": [
+        {},
+        {
+          "text": "楼脚那个孃孃人好得很，每回_儿看到我都要喊我吃水果。",
+          "pinyin": "lou2 jio2 la4 gə4 liang1 liang1 ren2 hao3 de2 hen3 mei3 huer2 kan4 dao3 wo3 dou1 yao4 han3 wo3 ci2 sui3 go3",
+          "translation": "楼下那个阿姨人很好，每次看到我都要叫我吃水果。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00148",
+      "headword": "凊",
+      "pinyin": "qin4",
+      "wordClass": "形容词；动词",
+      "definitions": [
+        {
+          "text": "非常冷，常形容食物、水或天气带有明显寒意。"
+        },
+        {
+          "text": "使人感到冷、凉得刺激人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个水水_儿冰凊，喝了要不得。",
+          "pinyin": "le4 gə4-1 sui3 suer3 bin1 qin4 ho1 lao3 yao4 bu2 de2",
+          "translation": "这杯饮料冰得很，喝了对身体不好。"
+        },
+        {
+          "text": "江风吹起凊人，你把外套披起嘛。",
+          "pinyin": "jiang1 fong1 cui1 qi3 qin4 ren2 li3 ba3 wai4 tao4 pei1 qi3 ma3",
+          "translation": "江风吹起来冷得刺激人，你把外套披上吧。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00149",
+      "headword": "蔫𤆵皮臭",
+      "pinyin": "yan1 pa1 pi2 cou4",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "蔫巴、没精神、软塌塌的样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "昨天_儿晚黑没睡好，今天_儿上课蔫𤆵皮臭的。",
+          "pinyin": "zo2 tiar1 wan3 he2 mei1 sui4 hao3 jin1 tiar1 sang4 ko4 yan1 pa1 pi2 cou4 li1",
+          "translation": "昨天晚上没睡好，今天上课蔫巴巴的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00150",
+      "headword": "憨吃傻胀",
+      "pinyin": "han1 ci2 ha3 zang4",
+      "wordClass": "动词短语；形容词",
+      "definitions": [
+        {
+          "text": "形容人暴饮暴食，只顾猛吃、不知节制。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "桌子上才摆好菜，胖妹_儿就憨吃傻胀地整了两大碗干饭。",
+          "pinyin": "zo2 zi3 sang4 tai2 bai3 hao3 cai4 pang4 mer4 dou4 han1 ci2 ha3 zang4 li1 zen3 lao3 liang3 da4 wan3 gan1 fan4",
+          "translation": "桌上刚摆好菜，胖妹就不知节制地猛吃了两大碗饭，撑得站都站不起来。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00151",
+      "headword": "耍得好",
+      "pinyin": "sua3 de2 hao3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "形容彼此之间关系好、交情深、来往密切。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我跟她从小就耍得好，有啥子事情她都要来帮我一把。",
+          "pinyin": "wo3 gen1 ta1 cong2 xiao3 dou4 sua3 de2 hao3 you3 sa4 zi3 si4 qin2 ta1 dou1 yao4 lai2 bang1 wo3 yi4 ba3",
+          "translation": "我和她从小关系好，有什么事情她都会来帮我一把。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00152",
+      "headword": "兄弟伙",
+      "pinyin": "xiong1 di4 ho3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "兄弟、哥们儿、关系亲近的男性朋友。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "几个兄弟伙约好晚上去下馆子，结果老张又闪色子。",
+          "pinyin": "ji3 gə4 xiong1 di4 ho3 yo2 hao3 wan3 sang4 qi4 xia4 guan3 zi3 jie2 go3 lao3 zang1 you4 san3 se2 zi3",
+          "translation": "几个哥们儿约好晚上一起下馆子，结果老张又放鸽子。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00153",
+      "headword": "姊妹伙",
+      "pinyin": "zi3 mei4 ho3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "姐妹、闺蜜、关系亲近的女性朋友。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她那几个姊妹伙一来，屋头马上就闹热了。",
+          "pinyin": "ta1 la4 ji3 gə4 zi3 mei4 ho3 yi4 lai2 vu2 tou2 ma3 sang4 dou4 lao4 re2 lao3",
+          "translation": "她那几个闺蜜一来，家里马上就热闹起来了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00154",
+      "headword": "……惨了",
+      "pinyin": "can3 lao3",
+      "wordClass": "副词；助词",
+      "definitions": [
+        {
+          "text": "接在动词或形容词后，表示程度很深、结果很严重。相当于普通话「特别……」「……得很厉害」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他今天_儿遭领导理抹惨了，回来句都不想说。",
+          "pinyin": "ta1 jin1 tiar1 zao2 lin3 tao4 li3 ma2 can3 lao3 hui2 lai2 ju4 hua4 dou1 bu2 xiang3 so2",
+          "translation": "他今天被领导狠狠批评了一顿，回来一句话都不想说。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00155",
+      "headword": "㞎㞎",
+      "pinyin": "ba3 ba3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "屎、粪便。多用于儿语。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个奶崽崽_儿又把㞎㞎屙到裤儿头了。",
+          "pinyin": "le4 gə4 lai3 zai3 zar3 you4 ba3 ba3 ba3 wo1 dao3 ku4 er2 tou2 lao3",
+          "translation": "这个小婴儿又把大便拉到裤子里了。"
+        }
+      ],
+      "notes": "不建议和表示饼类食物的「粑粑」混写。"
+    },
+    {
+      "id": "cq-00156",
+      "headword": "脑壳",
+      "pinyin": "lao3 ko2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "脑袋、头。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "稍微动下脑壳嘛，先人！",
+          "pinyin": "sao1 wei2 dong4 ha4 lao3 ko2 ma3 xian1 ren2",
+          "translation": "稍微动动脑子吧，我的祖宗！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00157",
+      "headword": "老汉_儿",
+      "pinyin": "lao3 har4",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "父亲、爸爸。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我老汉_儿年轻那阵_儿在朝天门㧯过棒棒_儿，力气大得很。",
+          "pinyin": "wo3 lao3 har4 lian2 qin1 la4 zer4 dai4 cao2 tian1 men2 lao3 go4 bang4 bar4-1 li2 qi4 da4 de2 hen3",
+          "translation": "我父亲年轻的时候在朝天门扛过棒棒，力气很大。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00158",
+      "headword": "𤆵耳朵",
+      "pinyin": "pa1 er3 do3-1",
+      "wordClass": "名词；形容词",
+      "variants": ["耙耳朵"],
+      "definitions": [
+        {
+          "text": "怕老婆、听老婆话的男人。也可带调侃或褒义，指顾家、尊重妻子的人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他在外头说话硬得很，一拢屋头就是个𤆵耳朵，婆娘喊他洗碗_儿他不敢拖地。",
+          "pinyin": "ta1 dai4 wai4 tou2 so2 hua4 ngen4 de2 hen3 yi2 long3 vu2 tou2 dou4 si4 gə4 pa1 er3 do3-1 po2 liang2 han3 ta1 xi3 war3 ta1 bu2 gan3 to1 di4",
+          "translation": "他在外面说话很硬气，一回家就是个怕老婆的人，妻子叫他往东他不敢往西。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00159",
+      "headword": "㝩",
+      "pinyin": "kang3",
+      "wordClass": "动词",
+      "variants": ["囥", "冚"],
+      "definitions": [
+        {
+          "text": "盖、罩、扣住。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "菜还没吃完，先拿个盖盖儿㝩着，免得偷油婆爬进去。",
+          "pinyin": "cai4 hai2 mei1 ci2 wan2 xian1 la2 gə4 gai4 gar4-1 kang3 dao3 mian3 de2 tou1 you2 po2 pa2 jin4 qi4-1",
+          "translation": "菜还没吃完，先拿个盖子盖住，免得蟑螂爬进去。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00160",
+      "headword": "跐胶",
+      "pinyin": "zi1 jiao1",
+      "wordClass": "名词",
+      "variants": ["嗞胶"],
+      "definitions": [
+        {
+          "text": "橡皮擦。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "考试的时候_儿他到处借跐胶，结果还把答题卡跐烂了。",
+          "pinyin": "kao3 si4 li1 si2 her4 ta1 dao4 cu4-1 jie4 zi1 jiao1 jie2 go3 hai2 ba3 da2 ti2 ka3 zi1 lan4 lao3",
+          "translation": "考试的时候他到处借橡皮，结果还把答题卡擦破了。"
         }
       ]
     }

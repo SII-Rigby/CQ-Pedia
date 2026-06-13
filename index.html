@@ -26,7 +26,6 @@
       </a>
       <nav class="top-nav" aria-label="主导航">
         <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
-        <button type="button" id="indexBtn" aria-haspopup="dialog" aria-controls="indexModal">索引</button>
         <button type="button" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutModal">关于</button>
       </nav>
     </header>
@@ -84,16 +83,16 @@
       <div class="modal-window index-window" role="document">
         <header class="modal-head">
           <div>
-            <p class="modal-kicker">Dictionary Index</p>
-            <h2 id="indexTitle">索引</h2>
+            <p class="modal-kicker">Filter Tags</p>
+            <h2 id="indexTitle">选择筛选标签</h2>
           </div>
           <button type="button" class="modal-close" data-index-close aria-label="关闭">×</button>
         </header>
-        <div class="index-tabs" role="tablist" aria-label="索引类型">
+        <div class="index-tabs" role="tablist" aria-label="筛选方式">
           <button type="button" class="active" data-index-type="initial" role="tab" aria-selected="true">声母索引</button>
           <button type="button" data-index-type="wordClass" role="tab" aria-selected="false">词性索引</button>
         </div>
-        <div class="initial-grid" id="initialGrid"></div>
+        <div class="initial-grid" id="initialGrid" aria-label="筛选标签"></div>
       </div>
     </div>
 
@@ -140,13 +139,29 @@
           <form class="search-form" id="searchForm" onsubmit="window.cqSearch && window.cqSearch(); return false;">
             <label class="visually-hidden" for="searchInput">搜索词典</label>
             <input id="searchInput" type="search" autocomplete="off" placeholder="搜索词目、拼音、异体写法或释义" oninput="window.cqSearch && window.cqSearch();" onchange="window.cqSearch && window.cqSearch();" onsearch="window.cqSearch && window.cqSearch();" onkeyup="window.cqSearch && window.cqSearch();">
-            <button type="submit" aria-label="搜索">
+            <button type="submit" class="search-submit" aria-label="搜索">
               <svg aria-hidden="true" viewBox="0 0 24 24">
                 <circle cx="11" cy="11" r="6.5"></circle>
                 <path d="m16 16 4 4"></path>
               </svg>
             </button>
+            <button type="button" class="filter-toggle" id="filterToggle" aria-label="筛选" aria-expanded="false" aria-controls="filterPanel">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M4 5h16l-6 7v5l-4 2v-7z"></path>
+              </svg>
+            </button>
           </form>
+
+          <div class="filter-panel" id="filterPanel" aria-label="词条筛选" hidden>
+            <div class="selected-tags" id="selectedTags" aria-live="polite">
+              <span class="empty-tags">未选择筛选条件</span>
+            </div>
+            <div class="filter-actions" aria-label="筛选操作">
+              <button type="button" data-show-all>所有词条</button>
+              <button type="button" data-open-index="initial">声母索引</button>
+              <button type="button" data-open-index="wordClass">词性索引</button>
+            </div>
+          </div>
         </div>
       </section>
 
