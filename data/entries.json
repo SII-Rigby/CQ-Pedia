@@ -79,7 +79,7 @@
       ],
       "examples": [
         {
-          "text": "吃完饭大家坐着院坝头摆龙门阵。",
+          "text": "吃完饭大家坐到院坝头摆龙门阵。",
           "pinyin": "ci2 wan2 fan4 da4 jia1 zo4 dao3 yuan4 ba4 tou2 bai3 long2 men2 zen4",
           "translation": "吃完饭大家坐在院坝里聊天。"
         }
@@ -3446,7 +3446,7 @@
         },
         {
           "text": "听着说超市打折，这些老年人下就㨣上去了。",
-          "pinyin": "tin1 dao3 so2 cao1 si4 da3 ze2 le4 xi1 lao3 lian2 ren2 ha4 dou4 wong1 sang4 qi4 lao3",
+          "pinyin": "tin1 dao3 so2 cao1 si4 da3 ze2 le4 xi1 lao3 lian2 ren2 ha4 dou4 wong1 sang4 qi4-1 lao3",
           "translation": "听到超市打折的消息，这些老年人一下子就拥上去了。"
         }
       ]

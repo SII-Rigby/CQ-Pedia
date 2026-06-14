@@ -12,6 +12,8 @@ const INITIAL_MATCH_ORDER = ["ng", "yu", "b", "p", "m", "f", "v", "d", "t", "l",
 const OTHER_INITIAL = "other";
 const WELCOME_ENTRY_COUNT = 10;
 const RESULTS_PER_PAGE = 10;
+const AUDIO_EXTENSIONS = ["m4a", "mp3", "wav", "ogg"];
+const EXAMPLE_AUDIO_SUFFIXES = "abcdefghijklmnopqrstuvwxyz";
 
 const els = {
   form: document.querySelector("#searchForm"),
@@ -59,6 +61,7 @@ const escapeHtml = (value) => String(value || "")
 const plainMarkedText = (value) => String(value || "").replace(/_/g, "");
 const renderMarkedText = (value) => escapeHtml(value)
   .replace(/_儿/g, '<span class="erhua" aria-label="儿">儿</span>');
+const audioPathCache = new Map();
 
 function todaysSeedKey(date = new Date()) {
   const year = date.getFullYear();
@@ -251,17 +254,81 @@ function hasExampleContent(example) {
   return Boolean(example && [example.text, example.pinyin, example.translation].some((value) => String(value || "").trim()));
 }
 
-function renderExample(example) {
+function audioButton(label, src, hidden = false) {
+  return `
+    <button type="button" class="audio-button" data-audio-src="${escapeHtml(src)}" aria-label="${escapeHtml(label)}" aria-pressed="false" ${hidden ? "hidden" : ""}>
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path class="speaker-body" d="M4 9h4l5-4v14l-5-4H4z"></path>
+        <path class="speaker-wave speaker-wave-one" d="M16 9.5c1.1 1.3 1.1 3.7 0 5"></path>
+        <path class="speaker-wave speaker-wave-two" d="M18.6 7c2.3 2.9 2.3 7.1 0 10"></path>
+      </svg>
+    </button>
+  `;
+}
+
+function entryAudioPath(entry, extension = "m4a") {
+  return `data/audio/entries/${entry.id}.${extension}`;
+}
+
+function exampleAudioPath(entry, index, extension = "m4a") {
+  const suffix = EXAMPLE_AUDIO_SUFFIXES[index] || `${index + 1}`;
+  return `data/audio/examples/${entry.id}-${suffix}.${extension}`;
+}
+
+function renderAudioButton(label, src) {
+  return audioButton(label, src, true);
+}
+
+function audioCandidates(src) {
+  const base = src.replace(/\.[^/.]+$/, "");
+  return AUDIO_EXTENSIONS.map((extension) => `${base}.${extension}`);
+}
+
+async function firstExistingAudioPath(src) {
+  if (audioPathCache.has(src)) {
+    return audioPathCache.get(src);
+  }
+
+  for (const candidate of audioCandidates(src)) {
+    try {
+      const response = await fetch(candidate, { method: "HEAD" });
+      if (response.ok) {
+        audioPathCache.set(src, candidate);
+        return candidate;
+      }
+    } catch (error) {
+      // Local file previews may block HEAD checks; deployed pages use same-origin HTTP.
+    }
+  }
+
+  audioPathCache.set(src, "");
+  return "";
+}
+
+function revealAvailableAudioButtons(root = document) {
+  root.querySelectorAll("button.audio-button[hidden][data-audio-src]").forEach(async (button) => {
+    const audioPath = await firstExistingAudioPath(button.dataset.audioSrc);
+    if (!audioPath) {
+      return;
+    }
+
+    button.dataset.audioSrc = audioPath;
+    button.hidden = false;
+  });
+}
+
+function renderExample(example, entry, index) {
   if (!hasExampleContent(example)) {
     return "";
   }
 
   const pinyin = example.pinyin ? `<p class="example-pinyin">${escapeHtml(example.pinyin)}</p>` : "";
   const translation = example.translation ? `<p class="example-translation">${renderMarkedText(example.translation)}</p>` : "";
+  const audio = entry ? renderAudioButton(`播放${plainMarkedText(entry.headword)}例句${index + 1}`, exampleAudioPath(entry, index)) : "";
 
   return `
     <div class="example">
-      <strong>例：</strong>${renderMarkedText(example.text)}
+      <p class="example-line"><strong>例：</strong><span>${renderMarkedText(example.text)}</span>${audio}</p>
       ${pinyin}
       ${translation}
     </div>
@@ -324,7 +391,7 @@ function renderEntry(entry) {
   const examples = entry.examples || [];
   const definitionBlocks = definitions
     .map((item, index) => {
-      const exampleHtml = renderExample(examples[index]);
+      const exampleHtml = renderExample(examples[index], entry, index);
       const noteHtml = renderNote(item.note, "definition-note");
 
       return `
@@ -338,7 +405,7 @@ function renderEntry(entry) {
     .join("");
   const extraExamples = examples.length > definitions.length
     ? examples.slice(definitions.length)
-      .map(renderExample)
+      .map((example, index) => renderExample(example, entry, definitions.length + index))
       .filter(Boolean)
       .join("")
     : "";
@@ -361,7 +428,10 @@ function renderEntry(entry) {
         <h3><a class="entry-link" href="items/${escapeHtml(entry.id)}/">${renderMarkedText(entry.headword)}</a></h3>
         <span class="pos">${escapeHtml(wordClassOf(entry))}</span>
       </div>
-      <p class="pinyin">${escapeHtml(entry.pinyin)}</p>
+      <div class="entry-audio-line">
+        <p class="pinyin">${escapeHtml(entry.pinyin)}</p>
+        ${renderAudioButton(`播放${plainMarkedText(entry.headword)}读音`, entryAudioPath(entry))}
+      </div>
       ${variantsHtml}
       ${note}
       ${figure}
@@ -508,6 +578,7 @@ function render() {
 
   const pagination = shouldPaginate ? renderPagination(totalPages) : "";
   els.results.innerHTML = `${pageEntries.map(renderEntry).join("")}${pagination}`;
+  revealAvailableAudioButtons(els.results);
   updateBackToSearch();
 }
 

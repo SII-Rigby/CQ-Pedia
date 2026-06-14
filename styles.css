@@ -693,6 +693,55 @@ h1 {
   font-weight: 950;
 }
 
+.entry-audio-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.audio-button {
+  display: inline-grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  padding: 0;
+  color: var(--ink);
+  background: var(--yellow);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--ink);
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.audio-button[hidden] {
+  display: none;
+}
+
+.audio-button svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.6;
+  stroke-linejoin: round;
+  stroke-linecap: square;
+}
+
+.audio-button .speaker-body {
+  fill: currentColor;
+}
+
+.audio-button:hover,
+.audio-button:focus-visible,
+.audio-button.playing {
+  color: var(--white);
+  background: var(--blue);
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
 .variants,
 .note,
 .example {
@@ -795,9 +844,32 @@ h1 {
   box-shadow: 4px 4px 0 rgba(17, 17, 17, 0.18);
 }
 
+.example-line {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+}
+
+.example-line .audio-button {
+  width: 30px;
+  height: 30px;
+  margin-left: 2px;
+}
+
+.example-line .audio-button svg {
+  width: 18px;
+  height: 18px;
+}
+
 .example p,
 .variants {
   margin: 7px 0 0;
+}
+
+.example .example-line {
+  margin-top: 0;
 }
 
 .contributors {

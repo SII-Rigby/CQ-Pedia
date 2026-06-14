@@ -11,6 +11,8 @@ ENTRIES_PATH = ROOT / "data" / "entries.json"
 SITE_URL = "https://cqpedia.cn"
 ITEMS_DIR = ROOT / "items"
 GENERATED_MARKER = "<!-- GENERATED CQ-PEDIA ENTRY PAGE -->"
+AUDIO_EXTENSIONS = ("m4a", "mp3", "wav", "ogg")
+EXAMPLE_AUDIO_SUFFIXES = "abcdefghijklmnopqrstuvwxyz"
 
 
 def plain_marked_text(value: object) -> str:
@@ -53,16 +55,54 @@ def entry_description(entry: dict) -> str:
     return "，".join(str(part).strip() for part in parts if str(part or "").strip())[:150]
 
 
-def render_example(example: dict | None) -> str:
+def audio_button(label: str, src: str) -> str:
+    return f"""
+    <button type="button" class="audio-button" data-audio-src="{escape(src)}" aria-label="{escape(label)}" aria-pressed="false">
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path class="speaker-body" d="M4 9h4l5-4v14l-5-4H4z"></path>
+        <path class="speaker-wave speaker-wave-one" d="M16 9.5c1.1 1.3 1.1 3.7 0 5"></path>
+        <path class="speaker-wave speaker-wave-two" d="M18.6 7c2.3 2.9 2.3 7.1 0 10"></path>
+      </svg>
+    </button>
+  """
+
+
+def existing_audio_path(relative_base: str) -> str:
+    for extension in AUDIO_EXTENSIONS:
+        relative_path = f"{relative_base}.{extension}"
+        if (ROOT / relative_path).exists():
+            return f"../../{relative_path}"
+
+    return ""
+
+
+def entry_audio_path(entry: dict) -> str:
+    return existing_audio_path(f"data/audio/entries/{entry['id']}")
+
+
+def example_audio_path(entry: dict, index: int) -> str:
+    suffix = EXAMPLE_AUDIO_SUFFIXES[index] if index < len(EXAMPLE_AUDIO_SUFFIXES) else str(index + 1)
+    return existing_audio_path(f"data/audio/examples/{entry['id']}-{suffix}")
+
+
+def render_audio_button(label: str, src: str) -> str:
+    return audio_button(label, src) if src else ""
+
+
+def render_example(example: dict | None, entry: dict | None = None, index: int = 0) -> str:
     if not example or not any(str(example.get(key) or "").strip() for key in ("text", "pinyin", "translation")):
         return ""
 
     pinyin = f'<p class="example-pinyin">{escape(str(example.get("pinyin")))}</p>' if example.get("pinyin") else ""
     translation = f'<p class="example-translation">{render_marked_text(example.get("translation"))}</p>' if example.get("translation") else ""
+    audio = render_audio_button(
+        f"播放{plain_marked_text(entry.get('headword'))}例句{index + 1}",
+        example_audio_path(entry, index),
+    ) if entry else ""
 
     return f"""
     <div class="example">
-      <strong>例：</strong>{render_marked_text(example.get("text"))}
+      <p class="example-line"><strong>例：</strong><span>{render_marked_text(example.get("text"))}</span>{audio}</p>
       {pinyin}
       {translation}
     </div>
@@ -114,7 +154,7 @@ def render_entry(entry: dict, link_headword: bool = False) -> str:
     blocks = []
 
     for index, item in enumerate(definitions):
-        example_html = render_example(examples[index] if index < len(examples) else None)
+        example_html = render_example(examples[index] if index < len(examples) else None, entry, index)
         note_html = render_note(item.get("note"), "definition-note")
         blocks.append(f"""
         <section class="definition-block">
@@ -124,7 +164,10 @@ def render_entry(entry: dict, link_headword: bool = False) -> str:
         </section>
       """)
 
-    extra_examples = "".join(render_example(item) for item in examples[len(definitions):])
+    extra_examples = "".join(
+        render_example(item, entry, len(definitions) + index)
+        for index, item in enumerate(examples[len(definitions):])
+    )
     definition_fallback = "".join(blocks) or """
       <section class="definition-block">
         <p class="definition-text">暂无释义。</p>
@@ -135,6 +178,7 @@ def render_entry(entry: dict, link_headword: bool = False) -> str:
     note = render_note(entry.get("note") or entry.get("notes"), "entry-note")
     figure = render_figure(entry)
     contributors = render_contributors(entry)
+    entry_audio = render_audio_button(f"播放{plain_marked_text(entry.get('headword'))}读音", entry_audio_path(entry))
     headword = render_marked_text(entry.get("headword"))
     if link_headword:
         headword = f'<a href="../{escape(entry["id"])}/">{headword}</a>'
@@ -145,7 +189,10 @@ def render_entry(entry: dict, link_headword: bool = False) -> str:
         <h3>{headword}</h3>
         <span class="pos">{escape(str(entry.get("wordClass") or ""))}</span>
       </div>
-      <p class="pinyin">{escape(str(entry.get("pinyin") or ""))}</p>
+      <div class="entry-audio-line">
+        <p class="pinyin">{escape(str(entry.get("pinyin") or ""))}</p>
+        {entry_audio}
+      </div>
       {variants_html}
       {note}
       {figure}
@@ -177,6 +224,7 @@ def render_page(entry: dict) -> str:
     <link rel="icon" href="../../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
     <link rel="stylesheet" href="../../styles.css">
+    <script src="../../audio.js?v=20260615-audio" defer></script>
   </head>
   <body class="entry-detail-page">
     {GENERATED_MARKER}
