@@ -1613,7 +1613,7 @@
       "id": "cq-00079",
       "headword": "交",
       "pinyin": "jiao1",
-      "wordClass": "动词",
+      "wordClass": "副词",
       "definitions": [
         {
           "text": "完、遍的意思。"
@@ -2337,7 +2337,7 @@
       ],
       "examples": [
         {
-          "text": "你煎鱼的时候_儿好生点_儿，油星子莫溅到脸巴_儿上了。",
+          "text": "你煎鱼的时候_儿好生点_儿，油星子莫溅到脸帮_儿上了。",
           "pinyin": "li3 jian1 yu2 li1 si2 her4 hao3 sen1 diar3 you2 xin1 zi3 mo2 zan4 dao3 lian3 bar1 sang4 lao3",
           "translation": "你煎鱼的时候小心点，油点子别溅到脸上了。"
         }
@@ -3532,14 +3532,14 @@
       "wordClass": "动词短语",
       "definitions": [
         {
-          "text": "聚在一起、成群站或坐在一起。"
+          "text": "成群地挤在一起。"
         }
       ],
       "examples": [
         {
-          "text": "娃儿们在坝坝头打堆堆耍。",
-          "pinyin": "wa2 er2 men1 zai4 ba4 ba4 tou2 da3 dui1 dui1 sua3",
-          "translation": "孩子们在院坝里聚在一起玩。"
+          "text": "洪崖洞人恁个多，我才不去打堆堆。",
+          "pinyin": "hong2 ngai2 dong4 ren2 len4 gə4-1 do1 wo3 tai2 bu2 qi4 da3 dui1 dui1",
+          "translation": "洪崖洞人这么多，我才不去人挤人。"
         }
       ]
     },
