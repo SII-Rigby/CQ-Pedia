@@ -12,7 +12,7 @@ const INITIAL_MATCH_ORDER = ["ng", "yu", "b", "p", "m", "f", "v", "d", "t", "l",
 const OTHER_INITIAL = "other";
 const WELCOME_ENTRY_COUNT = 10;
 const RESULTS_PER_PAGE = 10;
-const AUDIO_EXTENSIONS = ["m4a", "mp3", "wav", "ogg"];
+const AUDIO_EXTENSIONS = ["wav", "m4a", "mp3", "ogg"];
 const EXAMPLE_AUDIO_SUFFIXES = "abcdefghijklmnopqrstuvwxyz";
 
 const els = {
@@ -266,11 +266,11 @@ function audioButton(label, src, hidden = false) {
   `;
 }
 
-function entryAudioPath(entry, extension = "m4a") {
+function entryAudioPath(entry, extension = "wav") {
   return `data/audio/entries/${entry.id}.${extension}`;
 }
 
-function exampleAudioPath(entry, index, extension = "m4a") {
+function exampleAudioPath(entry, index, extension = "wav") {
   const suffix = EXAMPLE_AUDIO_SUFFIXES[index] || `${index + 1}`;
   return `data/audio/examples/${entry.id}-${suffix}.${extension}`;
 }
