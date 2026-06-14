@@ -300,6 +300,25 @@ function renderFigure(entry) {
   `;
 }
 
+function contributorsOf(entry) {
+  const value = entry.contributer || entry.contributor || entry.contributors;
+  return Array.isArray(value) ? value : splitList(value);
+}
+
+function renderContributors(entry) {
+  const contributors = contributorsOf(entry);
+
+  if (!contributors.length) {
+    return "";
+  }
+
+  return `
+    <p class="contributors">
+      <span>贡献者</span>${escapeHtml(contributors.join("、"))}
+    </p>
+  `;
+}
+
 function renderEntry(entry) {
   const definitions = entry.definitions || [];
   const examples = entry.examples || [];
@@ -334,6 +353,7 @@ function renderEntry(entry) {
     : "";
   const note = renderNote(entry.note || entry.notes, "entry-note");
   const figure = renderFigure(entry);
+  const contributors = renderContributors(entry);
 
   return `
     <article class="entry">
@@ -347,6 +367,7 @@ function renderEntry(entry) {
       ${figure}
       <div class="definitions">${definitionFallback}</div>
       ${extraExamples}
+      ${contributors}
     </article>
   `;
 }

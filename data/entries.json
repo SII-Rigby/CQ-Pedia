@@ -2501,7 +2501,7 @@
         },
         {
           "text": "他遭小娃儿扖了两锭子，现在肚儿都还是痛的。",
-          "pinyin": "ta1 zao2 xiao3 wa2 er2-1 ru2 lao3 liang3 din4 zi3 xian4 zai4 du4 er2 dou1 hai2 si4 tong4 li2",
+          "pinyin": "ta1 zao2 xiao3 wa2 er2-1 ru2 lao3 liang3 din4 zi3 xian4 zai4 du4 er2 dou1 hai2 si4 tong4 li1",
           "translation": "他被小孩子打了两拳，现在肚子都还是痛的。"
         }
       ]
@@ -2775,7 +2775,7 @@
       "examples": [
         {
           "text": "我看呐，他是挑住把水洒到我书上的。",
-          "pinyin": "wo3 kan4 na3 ta1 si4 diao1 zu4 ba3 sui3 sa2 dao3 wo3 su1 sang4 li1",
+          "pinyin": "wo3 kan4 la3 ta1 si4 diao1 zu4 ba3 sui3 sa2 dao3 wo3 su1 sang4 li1",
           "translation": "我看呐，他是故意把水洒到我书上的。"
         }
       ]
@@ -3602,6 +3602,380 @@
           "text": "我书读得少，你莫吃我的麻麻_儿鱼哟！",
           "pinyin": "wo3 su1 du2 de2 sao3 li3 mo2 ci2 wo3 li1 ma2 mar2-1 yu2 yo1",
           "translation": "我书读得少，你别蒙骗我！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00183",
+      "headword": "细娃_儿",
+      "pinyin": "xi4 war2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "小孩子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "不要跟着细娃_儿㩌！",
+          "pinyin": "bu2 yao4 gen1 dao3 xi4 war2 fei4",
+          "translation": "不要跟着小孩子打闹！"
+        }
+      ],
+      "contributer": "毛绒草"
+    },
+    {
+      "id": "cq-00184",
+      "headword": "锭子",
+      "pinyin": "din4 zi3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "拳头。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "再不起来，我一锭子捶过来。",
+          "pinyin": "zai4 bu2 qi3 lai2 wo3 yi2 din4 zi3 cui2 go4 lai2",
+          "translation": "再不听话，小心我一拳打过来。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00185",
+      "headword": "打下手",
+      "pinyin": "da3 xia4 sou3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "在旁边协助别人做事。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他在灶房头给师傅打下手。",
+          "pinyin": "ta1 dai4 zao4 fang2 tou2 ge1 si1 fu4-1 da3 xia4 sou3",
+          "translation": "他在厨房给师傅打下手帮忙。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00186",
+      "headword": "打急抓",
+      "pinyin": "da3 ji2 zua1",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "临时慌忙行动、紧急赶着去做。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "考试要提前准备，打急抓不得行。",
+          "pinyin": "kao3 si4 yao4 ti2 qian2 zun3 bi4 da3 ji2 zua1 bu2 de2 xin2",
+          "translation": "考试要提前准备，临时抱佛脚可不行。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00187",
+      "headword": "打偏偏",
+      "pinyin": "da3 pian1 pian1",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "走路或行动摇晃、不稳，方向偏斜。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他喝麻了，走路都在打偏偏。",
+          "pinyin": "ta1 ho1 ma2 lao3 zou3 lu4 dou1 dai4 da3 pian1 pian1",
+          "translation": "他喝醉了，走路歪歪倒到的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00188",
+      "headword": "薅",
+      "pinyin": "ha1",
+      "wordClass": "动词",
+      "variants": ["哈"],
+      "definitions": [
+        {
+          "text": "扒拉，拨动。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "薅麻将",
+          "pinyin": "ha1 ma2 jiang4",
+          "translation": "本指扒拉麻将的动作。引申为打麻将。"
+        }
+      ]
+    },
+    {
+    "id": "cq-00189",
+      "headword": "搳",
+      "pinyin": "ha2",
+      "wordClass": "动词",
+      "variants": ["哈","捾"],
+      "definitions": [
+        {
+          "text": "挠痒。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫搳我的脐胳_儿",
+          "pinyin": "li3 mo2 ha2 wo3 li1 ji4 ger1",
+          "translation": "你别挠我的痒痒。"
+        }
+      ]
+    },
+    {
+    "id": "cq-00190",
+      "headword": "额头",
+      "pinyin": "nge2 lou1",
+      "wordClass": "名词",
+      "variants": ["额髅"],
+      "definitions": [
+        {
+          "text": "额头。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她额头上有颗痣。",
+          "pinyin": "ta1 nge2 lou1 sang4 you3 ko3 zi4"
+        }
+      ]
+    },
+    {
+    "id": "cq-00191",
+      "headword": "下巴_儿",
+      "pinyin": "xia4 par2",
+      "wordClass": "名词",
+      "variants": ["下盘_儿"],
+      "definitions": [
+        {
+          "text": "下巴。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你吃饭注意到起嘛，下巴_儿上又巴了几颗饭。",
+          "pinyin": "li3 ci2 fan4 zu4 yi4 dao3 qi3 ma3 xia4 par2 sang4 you4 ba1 lao3 ji3 ko3 fan4",
+          "translation": "你吃饭注意点儿，下巴上又沾了几颗饭。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00192",
+      "headword": "左",
+      "pinyin": "zo3",
+      "wordClass": "形容词；动词",
+      "definitions": [
+        {
+          "text": "唱歌跑调。"
+        },
+        {
+          "text": "调换。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你上台表演啷个一开口就是左的哦？",
+          "pinyin": "li3 sang4 tai2 biao3 yan3 lang3 gə4-1 yi2 kai1 kou3 dou4 si4 zo3 li1 o3",
+          "translation": "你上台表演怎么一开口跑调了？"
+        },
+        {
+          "text": "你去找那个卖菜的婆婆左点_儿零票子。",
+          "pinyin": "li3 qi4 zao3 la4 gə4-1 mai4 cai4 li1 po2 po2-1 zo3 diar3 lin2 piao4 zi3",
+          "translation": "你去找那个卖菜的奶奶换点零钱。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00193",
+      "headword": "仔笨",
+      "pinyin": "zi3 ben4",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "形容人笨、不灵光、反应慢。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这崽儿仔笨得很，教半天都不会。",
+          "pinyin": "le4 zai3 er2 zi3 ben4 de2 hen3 jiao1 ban4 tian1 dou1 bu2 hui4",
+          "translation": "这小子脑子不灵光，教半天都教不会。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00194",
+      "headword": "打烂仗",
+      "pinyin": "da3 lan4 zang4",
+      "wordClass": "动词短语",
+      "variants": ["打烂账","打难仗"],
+      "definitions": [
+        {
+          "text": "生活无着落，漂泊无依，穷困潦倒。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "听别个说沿海一带好找钱，结果跑起去打烂仗。",
+          "pinyin": "tin1 be2 gə4 so2 yan2 hai3 yi2 dai4 hao3 zao3 qian2 jie2 go3 pao3 qi3 qi4 da3 lan4 zang4",
+          "translation": "听别人说沿海一带好赚钱，结果跑过去也没个着落。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00195",
+      "headword": "擦烂污",
+      "pinyin": "ca2 lan4 vu1",
+      "wordClass": "动词短语",
+      "variants": ["拆烂污"],
+      "definitions": [
+        {
+          "text": "做事马虎、敷衍、不负责任，把事情弄得不好收拾。"
+        }
+      ],
+      "notes": "源自下江话「拆烂污」，重庆话中多按「擦烂污」写。",
+      "examples": [
+        {
+          "text": "他做事净是擦烂污，整到最后还要别个来收场。",
+          "pinyin": "ta1 zu4 si4 jin4 si4 ca2 lan4 vu1 zen3 dao3 zui4 hou4 hai2 yao4 be2 gə4 lai2 sou1 cang2",
+          "translation": "他做事总是敷衍乱搞，弄到最后还要别人来收场。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00196",
+      "headword": "皱皱",
+      "pinyin": "zong4 zong4-1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "皱纹，皮肤或布面上起的褶子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "婆婆一笑，眼睛角角的皱皱下都现出来了。",
+          "pinyin": "po2 po2-1 yi2 xiao4 yan3 jin1 go2 go2 li1 zong4 zong4-1 ha4 dou1 xian4 cu2 lai2 lao3",
+          "translation": "奶奶一笑，眼角旁边的皱纹就全出来了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00197",
+      "headword": "骑马马肩_儿",
+      "pinyin": "qi2 ma3 ma3 jiar1",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "小孩骑在大人肩膀上。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "娃儿走累了，他老汉_儿就把他抱起来骑马马肩_儿。",
+          "pinyin": "wa2 er2-1 zou3 lui4 lao3 ta1 lao3 har4 dou4 ba3 ta1 bao4 qi3 lai2 qi2 ma3 ma3 jiar1",
+          "translation": "孩子走累了，他爸爸就把他抱起来骑在肩膀上。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00198",
+      "headword": "栽沕头_儿",
+      "pinyin": "zai1 mi4 ter2",
+      "wordClass": "动词短语",
+      "variants": ["栽没头_儿", "栽渳头_儿"],
+      "definitions": [
+        {
+          "text": "一头扎进水里。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "黑娃_儿一个沕头_儿就栽到嘉陵江头了。",
+          "pinyin": "he2 war2 yi2 gə4 mi4 ter2 dou4 zai1 dao3 jia1 lin2 jiang1 tou2 lao3",
+          "translation": "黑娃一头就扎进了嘉陵江水中。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00199",
+      "headword": "姥子",
+      "pinyin": "lao3 zi3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "姑妈，父亲的姐妹。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我幺姥子给我带了一包麻花_儿。",
+          "pinyin": "wo3 yao1 lao3 zi3 ge1 wo3 dai4 lao3 yi4 bao1 ma2 huar1",
+          "translation": "我幺姑给我带了一包麻花。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00200",
+      "headword": "黏",
+      "pinyin": "lia1",
+      "wordClass": "动词；形容词",
+      "definitions": [
+        {
+          "text": "粘贴、黏着。"
+        },
+        {
+          "text": "黏的，容易让人粘上的。"
+        },
+        {
+          "text": "形容人爱缠着别人、离不开人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "把这个画_儿黏到墙壁高头。",
+          "pinyin": "ba3 le4 gə4-1 huar4 lia1 dao3 qiang2 bi2 gao1 tou2",
+          "translation": "把这幅画粘到墙壁上。"
+        },
+        {
+          "text": "这个胶布黏得很，撕都撕不下来。",
+          "pinyin": "le4 gə4 jiao1 bu4 lia1 de2 hen3 si1 dou1 si1 bu2 xia4 lai2",
+          "translation": "这个胶布很粘，撕都撕不下来。"
+        },
+        {
+          "text": "这娃儿黏人得很，妈妈一走就泣。",
+          "pinyin": "le4 wa2 er2-1 lia1 ren2 de2 hen3 ma1 ma1 yi4 zou3 dou4 xie1",
+          "translation": "这个婴儿很黏人，妈妈一走就哭。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00201",
+      "headword": "嗲",
+      "pinyin": "lia1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "形容人说话娇气、爱撒娇。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她一看到外婆就嗲声嗲气的，抱着手膀子不放。",
+          "pinyin": "ta1 yi2 kan4 dao3 wai4 po2 dou4 lia1 sen1 lia1 qi4 li1 bao4 dao3 sou3 bang3 zi3 bu2 fang4",
+          "translation": "她一看到外婆就撒娇，抱着胳膊不放。"
         }
       ]
     }
