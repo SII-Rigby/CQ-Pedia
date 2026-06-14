@@ -70,3 +70,13 @@ python -m http.server 8000
 ```text
 http://localhost:8000/
 ```
+
+## 生成词条页
+
+每个词条的独立页面由 `data/entries.json` 自动生成，不需要手写维护。更新词条数据后运行：
+
+```powershell
+python scripts/build_entry_pages.py
+```
+
+脚本会生成 `/items/cq-xxxxx/index.html` 和 `sitemap.xml`，用于分享单个词条链接和搜索引擎收录。

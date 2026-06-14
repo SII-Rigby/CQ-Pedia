@@ -301,7 +301,7 @@ function renderFigure(entry) {
 }
 
 function contributorsOf(entry) {
-  const value = entry.contributer || entry.contributor || entry.contributors;
+  const value = entry.contributor || entry.contributors;
   return Array.isArray(value) ? value : splitList(value);
 }
 
@@ -358,7 +358,7 @@ function renderEntry(entry) {
   return `
     <article class="entry">
       <div class="entry-head">
-        <h3>${renderMarkedText(entry.headword)}</h3>
+        <h3><a class="entry-link" href="items/${escapeHtml(entry.id)}/">${renderMarkedText(entry.headword)}</a></h3>
         <span class="pos">${escapeHtml(wordClassOf(entry))}</span>
       </div>
       <p class="pinyin">${escapeHtml(entry.pinyin)}</p>
