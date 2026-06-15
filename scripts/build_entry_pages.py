@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ENTRIES_PATH = ROOT / "data" / "entries.json"
 SITE_URL = "https://cqpedia.cn"
 ITEMS_DIR = ROOT / "items"
+URLS_PATH = ROOT / "urls.txt"
 GENERATED_MARKER = "<!-- GENERATED CQ-PEDIA ENTRY PAGE -->"
 AUDIO_EXTENSIONS = ("wav", "m4a", "mp3", "ogg")
 EXAMPLE_AUDIO_SUFFIXES = "abcdefghijklmnopqrstuvwxyz"
@@ -367,12 +368,18 @@ def write_sitemap(entries: list[dict]) -> None:
     (ROOT / "sitemap.xml").write_text(sitemap, encoding="utf-8", newline="\n")
 
 
+def write_urls(entries: list[dict]) -> None:
+    urls = [f"{SITE_URL}/items/{entry['id']}/" for entry in entries]
+    URLS_PATH.write_text("\n".join(urls) + "\n", encoding="utf-8", newline="\n")
+
+
 def main() -> None:
     data = json.loads(ENTRIES_PATH.read_text(encoding="utf-8-sig"))
     entries = data.get("entries") or []
     removed = remove_legacy_root_pages()
     write_entry_pages(entries)
     write_sitemap(entries)
+    write_urls(entries)
     print(f"Generated {len(entries)} entry pages in items/ and sitemap.xml")
     if removed:
         print(f"Removed {removed} legacy root entry pages")
