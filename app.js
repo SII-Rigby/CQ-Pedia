@@ -59,8 +59,24 @@ const escapeHtml = (value) => String(value || "")
   .replace(/"/g, "&quot;")
   .replace(/'/g, "&#039;");
 const plainMarkedText = (value) => String(value || "").replace(/_/g, "");
-const renderMarkedText = (value) => escapeHtml(value)
-  .replace(/_儿/g, '<span class="erhua" aria-label="儿">儿</span>');
+function renderMarkedText(value) {
+  const text = String(value || "");
+  const markerPattern = /_\(([^)]*)\)|_(.)/gu;
+  let html = "";
+  let lastIndex = 0;
+  let match;
+
+  while ((match = markerPattern.exec(text)) !== null) {
+    const markedText = match[1] === undefined ? match[2] : `(${match[1]})`;
+    const escapedMarkedText = escapeHtml(markedText);
+
+    html += escapeHtml(text.slice(lastIndex, match.index));
+    html += `<span class="erhua" aria-label="${escapedMarkedText}">${escapedMarkedText}</span>`;
+    lastIndex = markerPattern.lastIndex;
+  }
+
+  return html + escapeHtml(text.slice(lastIndex));
+}
 const audioPathCache = new Map();
 
 function todaysSeedKey(date = new Date()) {

@@ -21,7 +21,22 @@ def plain_marked_text(value: object) -> str:
 
 
 def render_marked_text(value: object) -> str:
-    return escape(str(value or "")).replace("_儿", '<span class="erhua" aria-label="儿">儿</span>')
+    raw_text = str(value or "")
+
+    def replace_mark(match: re.Match[str]) -> str:
+        text = match.group(2) or f"({match.group(1)})"
+        escaped_text = escape(text)
+        return f'<span class="erhua" aria-label="{escaped_text}">{escaped_text}</span>'
+
+    parts: list[str] = []
+    last_index = 0
+    for match in re.finditer(r"_\(([^)]*)\)|_(.)", raw_text):
+        parts.append(escape(raw_text[last_index:match.start()]))
+        parts.append(replace_mark(match))
+        last_index = match.end()
+
+    parts.append(escape(raw_text[last_index:]))
+    return "".join(parts)
 
 
 def split_list(value: object) -> list[str]:

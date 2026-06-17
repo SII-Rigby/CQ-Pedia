@@ -3848,7 +3848,7 @@
       "notes": "源自下江话「拆烂污」，重庆话中多按「擦烂污」写。",
       "examples": [
         {
-          "text": "他做事净是擦烂污，整到最后还要别个来收场。",
+          "text": "他做事尽是擦烂污，整到最后还要别个来收场。",
           "pinyin": "ta1 zu4 si4 jin4 si4 ca2 lan4 vu1 zen3 dao3 zui4 hou4 hai2 yao4 be2 gə4 lai2 sou1 cang2",
           "translation": "他做事总是敷衍乱搞，弄到最后还要别人来收场。"
         }
@@ -3976,6 +3976,418 @@
           "text": "她一看到外婆就嗲声嗲气的，抱着手膀子不放。",
           "pinyin": "ta1 yi2 kan4 dao3 wai4 po2 dou4 lia1 sen1 lia1 qi4 li1 bao4 dao3 sou3 bang3 zi3 bu2 fang4",
           "translation": "她一看到外婆就撒娇，抱着胳膊不放。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00202",
+      "headword": "啷个",
+      "pinyin": "lang3 gə4-1/gə4",
+      "wordClass": "代词；副词",
+      "definitions": [
+        {
+          "text": "怎么、为什么，用来询问原因、方式或情况。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "别个都要收摊_儿了，你啷个还没来嘛？",
+          "pinyin": "be2 gə4 dou1 yao4 sou1 tar1 lao3 li3 lang3 gə4-1 hai2 mei1 lai2 ma3",
+          "translation": "人家都要打烊了，你怎么还没来？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00203",
+      "headword": "恁个",
+      "pinyin": "len4 gə4-1",
+      "wordClass": "代词；副词",
+      "variants": ["楞个","嫩个"],
+      "definitions": [
+        {
+          "text": "这么、这样、如此，用来指代方式、状态或程度。"
+        }
+      ],
+      "note": "受后字声母「g」影响，口语中「恁」常以后鼻音收尾，演变为「leng4」。",
+      "examples": [
+        {
+          "text": "洪崖洞人恁个多，我才不去打堆堆。",
+          "pinyin": "hong2 ngai2 dong4 ren2 len4 gə4-1 do1 wo3 tai2 bu2 qi4 da3 dui1 dui1",
+          "translation": "洪崖洞人这么多，我才不去人挤人。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00204",
+      "headword": "这",
+      "pinyin": "le4",
+      "wordClass": "代词",
+      "variants": ["嘞", "勒"],
+      "definitions": [
+        {
+          "text": "这、这个，用来指近处的人、事物或情况。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这件衣服是我的，那件才是你的。",
+          "pinyin": "le4 jian4 yi1 fu2 si4 wo3 li1 la4 jian4 tai2 si4 li3 li1",
+          "translation": "这件衣服是我的，那件才是你的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00205",
+      "headword": "灯_儿晃",
+      "pinyin": "der1 huang4",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "到处闲逛、游荡，不做正事。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "作业没写完就想出去灯_儿晃，遭你妈晓得了要捱决。",
+          "pinyin": "zo2 lie2 mei1 xie3 wan2 dou4 xiang3 cu2 qi4-1 der1 huang4 zao2 li3 ma1 xiao3 de2 lao3 yao4 ngai2 jue2",
+          "translation": "作业没写完就想出去闲逛，被你妈知道了要挨骂。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00206",
+      "headword": "撑花_儿",
+      "pinyin": "cen1 huar1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "雨伞。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00207",
+      "headword": "打挤",
+      "pinyin": "da3 ji3",
+      "wordClass": "动词短语；形容词",
+      "definitions": [
+        {
+          "text": "拥挤、挤在一起。"
+        },
+        {
+          "text": "形容地方窄、人多、拥挤。"
+        }
+      ],
+      "examples": [
+        {},
+        {
+          "text": "早高峰赶轻轨打挤得很，脚都不晓得往哪截放。",
+          "pinyin": "zao3 gao1 fong1 gan3 qin1 gui3 da3 ji3 de2 hen3 jio2 dou1 bu2 xiao3 de2 wang3 la3 jie2 fang4",
+          "translation": "早高峰坐轻轨很拥挤，脚都不知道往哪里放。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00208",
+      "headword": "眼睛水_儿",
+      "pinyin": "yan3 jin1 suer3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "眼泪。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她嘴巴上说没得事，眼睛水_儿都包起了。",
+          "pinyin": "ta1 zui3 ba1 sang4 so2 mei1 de2 si4 yan3 jin1 suer3 dou1 bao1 qi3 lao3",
+          "translation": "她嘴上说没事，眼泪都在眼眶里打转了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00209",
+      "headword": "洗白",
+      "pinyin": "xi3 be2",
+      "wordClass": "动词；形容词",
+      "definitions": [
+        {
+          "text": "完蛋、糟糕、落空，表示事情没有希望或结果失败。"
+        },
+        {
+          "text": "钱财等用光、花光、输光。"
+        },
+        {
+          "text": "指人死亡、过世。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "本来约好国庆去云南耍，结果车票没抢到，住宿也退不到钱，这盘_儿旅游计划算是洗白了。",
+          "pinyin": "ben3 lai2 yo2 hao3 gue2 qin4 qi4 yun2 lan2 sua3 jie2 go3 ce1 piao4 mei1 qiang3 dao3 zu4 xuu2 ye3 tui4 bu2 dao3 qian2 le4 par2 lü3 you2 ji4 hua4 suan4 si4 xi3 be2 lao3",
+          "translation": "本来约好国庆去云南旅游，结果车票没抢到，住宿也退不了钱，这次旅游计划算是泡汤了。"
+        },
+        {
+          "text": "他昨晚黑打牌把身上的钱洗白了，今天_儿早饭都没得钱吃得。",
+          "pinyin": "ta1 zo2 wan3 he2 da3 pai2 ba3 sen1 sang4 li1 qian2 xi3 be2 lao3 jin1 tiar1 zao3 fan4 dou1 mei1 de2 qian2 ci2 de2",
+          "translation": "他昨晚打牌把身上的钱输光了，今天早饭都没钱吃。"
+        },
+        {
+            "text": "那个老头_儿烟抽得凶，六十岁就得肺癌洗白了。",
+            "pinyin": "la4 gə4 lao3 ter2 yan1 cou1 de2 xiong1 lu2 si2 sui4 dou4 de2 fei4 ngai2 xi3 be2 lao3",
+            "translation": "那个老爷子烟抽得厉害，六十岁就得肺癌去世了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00210",
+      "headword": "悬吊吊",
+      "pinyin": "xuan2 diao4 diao4",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "悬着、吊着。"
+        },
+        {
+          "text": "形容事情、心情没有落定，不踏实，不安稳。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "那个广告牌_儿悬吊吊的，风一吹就晃，看起吓人得很。",
+          "pinyin": "la4 gə4 guang3 gao4 par2 xuan2 diao4 diao4 li1 fong1 yi4 cui1 dou4 huang4 kan4 qi3 he2 ren2 de2 hen3",
+          "translation": "那个广告牌悬着挂在那里，风一吹就晃，看起来很吓人。"
+        },
+        {
+          "text": "成绩尽到没出来，我心头悬吊吊的。",
+          "pinyin": "cen2 ji2 jin3 dao3 mei1 cu2 lai2 wo3 xin1 tou2 xuan2 diao4 diao4 li1",
+          "translation": "成绩一直没出来，我心里一直悬着。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00211",
+      "headword": "傻拙拙",
+      "pinyin": "ha3 co2 co2",
+      "wordClass": "形容词",
+      "variants": ["傻戳戳", "哈戳戳"],
+      "definitions": [
+        {
+          "text": "傻乎乎、不灵光、笨拙。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫傻拙拙地杵到那点_儿，喊你拿碗筷就快点_儿去噻。",
+          "pinyin": "li3 mo2 ha3 co2 co2 li1 cu3 dao3 la4 diar3 han3 li3 la2 wan3 kuai4 dou4 kuai4 diar3 qi4 sæ4",
+          "translation": "你别傻乎乎地站在那里，叫你拿碗筷就快点去嘛。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00212",
+      "headword": "尽",
+      "pinyin": "jin3",
+      "wordClass": "副词；动词",
+      "definitions": [
+        {
+          "text": "任凭、放任。"
+        },
+        {
+          "text": "老是、一个劲儿。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "娃儿才放假回来，你尽他多睡一下_儿嘛。",
+          "pinyin": "wa2 er2-1 tai2 fang4 jia3 hui2 lai2 li3 jin3 ta1 do1 sui4 yi2 har1 ma3",
+          "translation": "孩子才放假回来，你就让他多睡一会儿嘛。"
+        },
+        {
+          "text": "你尽念啥子嘛，烦得很。",
+          "pinyin": "li3 jin3 lian4 sa4 zi3 ma3 fan2 de2 hen3",
+          "translation": "你老念叨什么，烦死了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00213",
+      "headword": "尽到",
+      "pinyin": "jin3 dao3",
+      "wordClass": "副词",
+      "variants": ["紧到"],
+      "definitions": [
+        {
+          "text": "一直、老是、不断地。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "成绩尽到没出来，我心头悬吊吊的。",
+          "pinyin": "cen2 ji2 jin3 dao3 mei1 cu2 lai2 wo3 xin1 tou2 xuan2 diao4 diao4 li1",
+          "translation": "成绩一直没出来，我心里一直悬着。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00214",
+      "headword": "尽都",
+      "pinyin": "jin4 dou1",
+      "wordClass": "副词",
+      "variants": ["净都"],
+      "definitions": [
+        {
+          "text": "全都、全部。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "桌子上的菜尽都吃完了，连汤都没剩一口。",
+          "pinyin": "zo2 zi3 sang4 li1 cai4 jin4 dou1 ci2 wan2 lao3 lian2 tang1 dou1 mei1 sen4 yi2 kou3",
+          "translation": "桌子上的菜全都吃完了，连汤都没剩一口。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00215",
+      "headword": "尽是",
+      "pinyin": "jin4 si4",
+      "wordClass": "副词",
+      "variants": ["净是"],
+      "definitions": [
+        {
+          "text": "全是、满是。"
+        },
+        {
+          "text": "老是、总是。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "孔老二搬家——尽是书（输）。",
+          "pinyin": "kong3 lao3 er4 ban1 jia1 jin4 si4 su1"
+        },
+        {
+          "text": "你尽是说别个，各人又做得啷个样嘛？",
+          "pinyin": "li3 jin4 si4 so2 be2 gə4 go2 ren2 you4 zu4 de2 lang3 gə4-1 yang4 ma3",
+          "translation": "你老是说别人，自己又做得怎么样嘛？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00216",
+      "headword": "堂客",
+      "pinyin": "tang4 ke2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "妻子、老婆。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他堂客喊他早点_儿回去吃饭，他嘴上答应，身子还在茶馆_儿头坐起。",
+          "pinyin": "ta1 tang4 ke2 han3 ta1 zao3 dian3 hui2 qi4-1 ci2 fan4 ta1 zui3 sang4 dai4 yin1 sen1 zi3 hai2 dai4 ca2 guar3 tou2 zo4 qi3",
+          "translation": "他老婆叫他早点回去吃饭，他嘴上答应，身子还在茶馆里坐着。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00217",
+      "headword": "妖艳_儿",
+      "pinyin": "yao1 yar2",
+      "wordClass": "形容词；动词",
+      "definitions": [
+        {
+          "text": "形容人打扮、言行花哨、招摇。"
+        },
+        {
+          "text": "做作、装怪、调皮。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "那个女娃_儿打扮得妖艳_儿得很。",
+          "pinyin": "la4 gə4 lü3 wa2 er2-1 da3 ban4 de2 yao1 yar2 de2 hen3",
+          "translation": "那个女孩打扮得很花俏。"
+        },
+        {
+          "text": "你一天妖艳_儿得很，腊月间想吃西瓜。",
+          "pinyin": "li3 yi2 tian1 yao1 yar2 de2 hen3 la2 yue2 jian1 xiang3 ci2 xi1 gua1",
+          "translation": "你成天爱装怪，腊月想吃西瓜。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00218",
+      "headword": "走人户_(儿)",
+      "pinyin": "zou3 ren2 fer4/fu4",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "到亲戚朋友家串门、拜访。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "正月初二开始走人户_儿，今天_儿去舅舅屋头。",
+          "pinyin": "zen1 yue2 cu1 er4 kai1 si3 zou3 ren2 fer4 jin1 tiar1 qi4 jiu4 jiu4-1 vu2 tou2",
+          "translation": "正月初二开始走亲戚，今天去舅舅家。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00219",
+      "headword": "各人",
+      "pinyin": "go2 ren2",
+      "wordClass": "代词",
+      "definitions": [
+        {
+          "text": "自己、本人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "出了事情先想各人的原因，莫一奓嘴就怪别个。",
+          "pinyin": "cu2 lao3 si4 qin2 xian1 xiang3 go2 ren2 li1 yuan2 yin1 mo2 yi2 za1 zui3 dou4 guai4 be2 gə4",
+          "translation": "出了事情先想自己的原因，别一开口就怪别人。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00220",
+      "headword": "幺台",
+      "pinyin": "yao1 tai2",
+      "wordClass": "动词短语；名词",
+      "variants": ["吆台"],
+      "definitions": [
+        {
+          "text": "本指一场戏演到最后、即将结束。"
+        },
+        {
+          "text": "引申为事情草草结束、收场。"
+        },
+        {
+          "text": "引申为垮台、下台。"
+        }
+      ],
+      "notes": "有的文献认为，「台」是戏剧量词，「幺」指排名最后的，「幺台」本指最后一台戏，意味着演出即将结束。也有人理解为「吆」指驱赶的动作，「吆台」就是把人赶下台，清场的意思。常见否定形式「幺不倒台」，表示难以收场，也可形容人洋洋得意、下不来台。",
+      "examples": [
+        {
+          "text": "这场坝坝_儿戏唱到半夜才幺台，娃儿都在板凳_儿高头睡着了。",
+          "pinyin": "le4 cang2 ba4 bar4-1 xi4 cang4 dao3 ban4 ye4 tai2 yao1 tai2 wa2 er2-1 dou1 dai4 ban3 der4 gao1 tou2 sui4 co2 lao3",
+          "translation": "这场露天戏唱到半夜才结束，孩子都在板凳上睡着了。"
+        },
+        {
+          "text": "天都黑了，这件事也只有像恁个幺台了。",
+          "pinyin": "tian1 dou1 he2 lao3 le4 jian4 si4 ye3 zi3 you3 len4 gə4-1 yao1 tai2 lao3",
+          "translation": "天都黑了，这件事也只有像这样结束了。"
+        },
+        {
+          "text": "他那个摊子本来就撑不起，房租一涨就幺台了。",
+          "pinyin": "ta1 la4 gə4-1 tan1 zi3 ben3 lai2 dou4 cen1 bu2 qi3 fang2 zu1 yi2 zang3 dou4 yao1 tai2 lao3",
+          "translation": "他那个摊子本来就撑不下去，房租一涨就垮台了。"
         }
       ]
     }
