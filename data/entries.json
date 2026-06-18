@@ -1447,8 +1447,8 @@
       ],
       "examples": [
         {
-          "text": "新擦的地板亮瓦瓦的，走路小心点啰。",
-          "pinyin": "xin1 ca2 li1 di4 ban3 liang4 wa3 wa3 li1 zou3 lu4 xiao3 xin1 diar3 lo1",
+          "text": "才抹的地板亮瓦瓦的，走路小心点啰。",
+          "pinyin": "tai2 ma2 li1 di4 ban3 liang4 wa3 wa3 li1 zou3 lu4 xiao3 xin1 diar3 lo1",
           "translation": "新擦的地板亮闪闪的，走路小心点。"
         }
       ]
@@ -2555,9 +2555,9 @@
       ],
       "examples": [
         {
-          "text": "这条水沟腌臜得很，走过路过都闻得到臭味_儿。",
-          "pinyin": "le4 tiao2 sui3 gou1 wa1 zua1 de2 hen3 zou3 go4 lu4 go4 dou1 wen2 de2 dao3 cou4 wer4",
-          "translation": "这条水沟很脏，路过都闻得到臭味。"
+          "text": "落雨天去耍河沙，一身腌臜得要命。",
+          "pinyin": "lo2 yu3 tian1 qi4 sua3 ho2 sa1 yi2 sen1 wa1 zua1 de2 yao4 min4",
+          "translation": "下雨天去玩河沙，全身脏得要命。"
         }
       ]
     },
@@ -3391,7 +3391,7 @@
       ],
       "examples": [
         {
-          "text": "好哇，又在打望！遭婆娘看到又要遭决。",
+          "text": "好哇，又在打望！遭婆娘看到又要遭诀。",
           "pinyin": "hao3 wa3 you4 dai4 da3 wang4 zao2 po2 liang1 kan4 dao3 you4 yao4 zao2 jue2",
           "translation": "好啊，你又在望美女！被老婆知道了又要挨骂。"
         }
@@ -4048,7 +4048,7 @@
       ],
       "examples": [
         {
-          "text": "作业没写完就想出去灯_儿晃，遭你妈晓得了要捱决。",
+          "text": "作业没写完就想出去灯_儿晃，遭你妈晓得了要捱诀。",
           "pinyin": "zo2 lie2 mei1 xie3 wan2 dou4 xiang3 cu2 qi4-1 der1 huang4 zao2 li3 ma1 xiao3 de2 lao3 yao4 ngai2 jue2",
           "translation": "作业没写完就想出去闲逛，被你妈知道了要挨骂。"
         }
@@ -4321,8 +4321,8 @@
     },
     {
       "id": "cq-00218",
-      "headword": "走人户_(儿)",
-      "pinyin": "zou3 ren2 fer4/fu4",
+      "headword": "走人户_儿",
+      "pinyin": "zou3 ren2 fer4",
       "wordClass": "动词短语",
       "definitions": [
         {
@@ -4372,7 +4372,7 @@
           "text": "引申为垮台、下台。"
         }
       ],
-      "notes": "有的文献认为，「台」是戏剧量词，「幺」指排名最后的，「幺台」本指最后一台戏，意味着演出即将结束。也有人理解为「吆」指驱赶的动作，「吆台」就是把人赶下台，清场的意思。常见否定形式「幺不倒台」，表示难以收场，也可形容人洋洋得意、下不来台。",
+      "notes": "有的文献认为，「台」是戏剧量词，「幺」指排名最后的，「幺台」本指最后一台戏，意味着演出即将结束。也有人理解为「吆」指驱赶的动作，「吆台」就是把人赶下台，清场的意思。常见否定形式「幺不倒台」，表示难以收场、下不来台，也可形容人洋洋得意。",
       "examples": [
         {
           "text": "这场坝坝_儿戏唱到半夜才幺台，娃儿都在板凳_儿高头睡着了。",
@@ -4388,6 +4388,602 @@
           "text": "他那个摊子本来就撑不起，房租一涨就幺台了。",
           "pinyin": "ta1 la4 gə4-1 tan1 zi3 ben3 lai2 dou4 cen1 bu2 qi3 fang2 zu1 yi2 zang3 dou4 yao1 tai2 lao3",
           "translation": "他那个摊子本来就撑不下去，房租一涨就垮台了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00221",
+      "headword": "幺不倒台",
+      "pinyin": "yao1 bu2 dao3 tai2",
+      "wordClass": "形容词；动词短语",
+      "variants": ["吆不倒台","幺不到台"],
+      "definitions": [
+        {
+          "text": "形容人自以为了不起，洋洋得意。"
+        }
+      ],
+      "notes": "有的文献认为，「台」是戏剧量词，「幺」指排名最后的，「幺台」本指最后一台戏，意味着演出即将结束。也有人理解为「吆」指驱赶的动作，「吆台」就是把人赶下台，清场的意思。常见否定形式「幺不倒台」，表示难以收场、下不来台，也可形容人洋洋得意。",
+      "examples": [
+        {
+          "text": "他这回_儿考了第一名_儿，就幺不倒台的，见到哪个都要摆两句。",
+          "pinyin": "ta1 le4 huer2 kao3 lao3 di4 yi2 mier2 dou4 yao1 bu2 dao3 tai2 li1 jian4 dao3 la3 gə4 dou1 yao4 bai3 liang3 ju4",
+          "translation": "他这次考了第一名，就得意得很，见到谁都要炫耀几句。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00222",
+      "headword": "涎皮耷脸",
+      "pinyin": "xuan2 pi2 da2 lian3",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "脸皮厚、爱耍赖皮，纠缠不休的样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "都跟他说不借了，他还涎皮耷脸地扭着我㩌。",
+          "pinyin": "dou1 gen1 ta1 so2 bu2 jie4 lao3 ta1 hai2 xuan2 pi2 da2 lian3 li1 liu3 dao3 wo3 fei4",
+          "translation": "都跟他说不借了，他还厚着脸皮纠缠我。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00223",
+      "headword": "虚场合",
+      "pinyin": "xu1 cang2 ho2",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "怯场、怕事，遇到关键时候不敢上前。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "平时说起凶得很，一喊他上台发言就虚场合了。",
+          "pinyin": "pin2 si2 so2 qi3 xiong1 de2 hen3 yi4 han3 ta1 sang4 tai2 fa2 yan2 dou4 xu1 cang2 ho2 lao3",
+          "translation": "平时说得很厉害，一叫他上台发言就怯场了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00224",
+      "headword": "血古淋当",
+      "pinyin": "xue2 gu3 lin2 dang1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "血淋淋的样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "三峡广场一个男娃儿跳楼，连着把两个学生榨死了，现场血古淋当的。",
+          "pinyin": "san1 xia2 guang3 cang2 yi2 gə4 lan2 wa2 er2-1 tiao4 lou2 lian2 dao3 ba3 liang3 gə4 xio2 sen1 za4 si3 lao3 xian4 cang2 xue2 gu3 lin2 dang1 li1",
+          "translation": "三峡广场一个男人跳楼，连着把两个学生压死了，现场血淋淋的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00225",
+      "headword": "眉毛",
+      "pinyin": "mi2 mao2-1",
+      "wordClass": "名词",
+      "variants": "迷毛",
+      "definitions": [
+        {
+          "text": "眉毛。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00226",
+      "headword": "后脑啄",
+      "pinyin": "hou4 lao3 zua2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "后脑勺。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她后脑啄靠到墙壁上，遭梗惨了。",
+          "pinyin": "ta1 hou4 lao3 zua2 kao4 dao3 qiang2 bi2 sang4 zao4 ngen3 can3 lao3",
+          "translation": "她后脑勺靠在墙壁上，硌得慌。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00227",
+      "headword": "颈子",
+      "pinyin": "jin3 zi3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "脖子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "把围巾围到颈子上，莫吹凉了。",
+          "pinyin": "ba3 wei2 jin1 wei2 dao3 jin3 zi3 sang4 mo2 cui1 liang2 lao3",
+          "translation": "把围巾围在脖子上，别吹感冒了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00228",
+      "headword": "手倒拐_儿",
+      "pinyin": "sou3 dao4 guar3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "手肘。也作「倒拐子」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她下楼梯摔了一扑爬，把手倒拐_儿跐裂皮了。",
+          "pinyin": "ta1 xia4 lou2 ti1 zuai1 lao3 yi2 pu2 pa2 ba3 sou3 dao4 guar3 zi1 lia2 pi2 lao3",
+          "translation": "她下楼梯摔了一跤，把手肘擦破皮了。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00229",
+      "headword": "肋巴骨",
+      "pinyin": "le2/lie2 ba1 gu2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "肋骨。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这两天咳得凶，肋巴骨都扯起痛。",
+          "pinyin": "le4 liang3 tian1 ke2 de2 xiong1 le2 ba1 gu2 dou1 ce3 qi3 tong4",
+          "translation": "这两天咳得厉害，肋骨都牵着疼。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00230",
+      "headword": "荒篮_儿",
+      "pinyin": "huang1 lar2-1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "废品、破烂物。"
+        },
+        {
+          "text": "收废品的人。"
+        }
+      ],
+      "note": "过去称收废品的篮子叫「荒篮」，后代指废品及收废品从业者。",
+      "examples": [
+        {
+          "text": "屋头那些旧纸壳_儿、铁皮皮都存起，等收荒篮_儿的来了卖。",
+          "pinyin": "vu2 tou2 la4 xi1 jiu4 zi3 kuer2 tie2 pi2 pi2-1 dou1 cen2 qi3 den3 sou1 huang1 lar2-1 li1 lai2 lao3 mai4",
+          "translation": "家里那些旧纸壳、废铁皮都攒起来，等收废品的人来了卖。"
+        },
+        {
+          "text": "去喊个荒篮_儿来，把这些下卖了。",
+          "pinyin": "qi4 han3 gə4 huang1 lar2-1 lai2 ba3 le4 xi1 ha4 mai4 lao3",
+          "translation": "去叫个收废品的人，把这些全部卖掉。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00231",
+      "headword": "夹磨",
+      "pinyin": "jia2 mo2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "折磨，磨练。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他才进厂那阵_儿，受了不少的夹磨。",
+          "pinyin": "ta1 tai2 jin4 cang3 la4 zer4 sou4 lao3 bu2 sao3 li1 jia2 mo2",
+          "translation": "他刚进厂的时候，吃了不少苦头。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00232",
+      "headword": "瘪",
+      "pinyin": "bia3",
+      "wordClass": "形容词；动词",
+      "definitions": [
+        {
+          "text": "形状扁、瘪塌。"
+        },
+        {
+          "text": "凹下去、变得不饱满。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "鸭子嘴巴是瘪的，鹅脑壳前头有个啄啄。",
+          "pinyin": "ya2 zi3 zui3 ba1 si4 bia3 li1 wo2 lao3 ko2 qian2 tou2-1 you3 gə4 zua2 zua2",
+          "translation": "鸭子嘴巴是扁的，鹅脑袋前面有个凸起。"
+        },
+        {
+          "text": "自行车胎漏气了，走不到好远就瘪了。",
+          "pinyin": "zi4 xin2 ce1 tai1 lou4 qi4 lao3 zou3 bu2 dao3 hao3 yuan3 dou4 bia3 lao3",
+          "translation": "自行车胎漏气了，走不了多远就瘪了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00233",
+      "headword": "㔿",
+      "pinyin": "zou4",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "把敞口的物体堵住、塞住。"
+        }
+      ],
+      "notes": "有说法认为此词与「阻」的音变有关。",
+      "examples": [
+        {
+          "text": "你把茶瓶㔿好，莫尽它落灰。",
+          "pinyin": "li3 ba3 ca2 pin2 zou4 hao3 mo2 jin3 ta1 lo2 hui1",
+          "translation": "你把茶水瓶塞好，别让灰落进去了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00234",
+      "headword": "巴",
+      "pinyin": "ba1",
+      "wordClass": "动词；介词",
+      "definitions": [
+        {
+          "text": "紧贴、粘贴。"
+        },
+        {
+          "text": "引申为亲近、贴合、缠着等意思。"
+        },
+        {
+          "text": "沿着、顺着。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "胶水一抹，相片就巴到本子高头了。",
+          "pinyin": "jiao1 sui3 yi2 ma2 xiang4 pian4 dou4 ba1 dao3 ben3 zi3 gao1 tou2 lao3",
+          "translation": "胶水一抹，照片就粘到本子上了。"
+        },
+        {
+          "text": "这个奶娃儿一天巴到妈老汉_儿身上，哪个抱都不干。",
+          "pinyin": "le4 gə4 lai3 wa2 er2-1 yi2 tian1 ba1 dao3 ma1 lao3 har4 sen1 sang4 la3 gə4 bao4 dou1 bu2 gan4",
+          "translation": "这个婴儿整天黏着爸爸妈妈，谁抱都不肯。"
+        },
+        {
+          "text": "你巴到这条河走，再走五公里就拢了。",
+          "pinyin": "li3 ba1 dao3 le4 tiao2 ho2 zou3 zai4 zou3 vu3 gong1 li3 dou4 long3 lao3",
+          "translation": "你沿着这条河走，再走五公里就到了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00235",
+      "headword": "卯",
+      "pinyin": "mao3",
+      "wordClass": "动词；形容词",
+      "definitions": [
+        {
+          "text": "关系闹僵。形容双方僵持、对立的状态。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他两兄弟为分账搞卯了，后头见面都不打招呼了。",
+          "pinyin": "ta1 liang3 xiong1 di4 wei4 fen1 zang4 gao3 mao3 lao3 hou4 tou2 jian4 mian4 dou1 bu2 da3 zao1 fu1 lao3",
+          "translation": "他们两个因为分账闹僵了，后来见面都不打招呼了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00236",
+      "headword": "走搌",
+      "pinyin": "zou3 zan3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "调整、让步或通融的余地；变化的空间。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个价钱还有走搌，你莫一口就把别个㮟死了。",
+          "pinyin": "le4 gə4-1 jia4 qian2 hai2 you3 zou3 zan3 li3 mo2 yi2 kou3 dou4 ba3 be2 gə4 ka1 si3 lao3",
+          "translation": "这个价钱还有商量的余地，你别一口就把人家卡死了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00237",
+      "headword": "现宝",
+      "pinyin": "xian4 bao3",
+      "wordClass": "动词",
+      "variants": ["献宝"],
+      "definitions": [
+        {
+          "text": "出丑、出洋相。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他喝了两口酒就要上台唱歌，结果现宝了。",
+          "pinyin": "ta1 ho1 lao3 liang3 kou3 jiu3 dou4 yao4 sang4 tai2 cang4 go1 jie2 go3 xian4 bao3 lao3",
+          "translation": "他喝了两口酒就上台唱歌，结果出洋相了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00238",
+      "headword": "譑",
+      "pinyin": "jiao2",
+      "wordClass": "形容词",
+      "variants": ["嚼"],
+      "definitions": [
+        {
+          "text": "嘴巴厉害，能言善辩，不轻易服输。"
+        },
+        {
+          "text": "厉害、有本事、能耐强。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫跟她扯，她嘴巴譑得很，十个你都说不赢她。",
+          "pinyin": "li3 mo2 gen1 ta1 ce3 ta1 zui3 ba1 jiao2 de2 hen3 si2 gə4 li3 dou1 so2 bu2 yin2 ta1",
+          "translation": "你别跟她争，她嘴巴很厉害，十个你都说不过她。"
+        },
+        {
+          "text": "这个娃儿譑哦，别个搞不懂的题，他一眼就解出来了。",
+          "pinyin": "le4 gə4 wa2 er2-1 jiao2 o1 be2 gə4 gao3 bu2 dong3 li1 ti2 ta1 yi2 yan3 dou4 jiai3 cu2 lai2 lao3",
+          "translation": "这个孩子很厉害，别人做不出来的题，他一眼就解出来了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00239",
+      "headword": "诀",
+      "pinyin": "jue2",
+      "wordClass": "动词",
+      "variants": ["决"],
+      "definitions": [
+        {
+          "text": "骂、呵斥，严厉地责怪人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "作业没写完就想出去灯_儿晃，遭你妈晓得了要捱诀。",
+          "pinyin": "zo2 lie2 mei1 xie3 wan2 dou4 xiang3 cu2 qi4-1 der1 huang4 zao2 li3 ma1 xiao3 de2 lao3 yao4 ngai2 jue2",
+          "translation": "作业没写完就想出去闲逛，被你妈知道了要挨骂。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00240",
+      "headword": "煞角",
+      "pinyin": "sa2 go2",
+      "wordClass": "动词",
+      "variants": ["杀角", "刹角", "煞割"],
+      "definitions": [
+        {
+          "text": "结束、完结、收场。"
+        }
+      ],
+      "notes": "有说法认为源自木工术语：木工活做到最后要处理边角、收尾，故引申为事情结束。",
+      "examples": [
+        {
+          "text": "这次旅程煞角了，他们的感情也更恋络了。",
+          "pinyin": "le4 ci4 lü3 cen2 sa2 go2 lao3 ta1 men1 li1 gan3 qin2 ye3 gen4 lian4 lo2 lao3",
+          "translation": "这次旅程结束了，他们的感情也更亲密了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00241",
+      "headword": "架墨",
+      "pinyin": "jia4 me2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "开始、开工。"
+        }
+      ],
+      "notes": "木工术语。木工开料、锯榫前先弹墨线定尺寸，故借指做事开始。",
+      "examples": [
+        {
+          "text": "莫站到起摆了，架墨整嘛，天黑前还要把这张桌子打出来。",
+          "pinyin": "mo2 zan4 dao3 qi3 bai3 lao3 jia4 me2 zen3 ma3 tian1 he1 qian2 hai2 yao4 ba3 le4 zang1 zo2 zi3 da3 cu2 lai2",
+          "translation": "别站着聊天了，开始干吧，天黑前还要把这张桌子做出来。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00242",
+      "headword": "恋络",
+      "pinyin": "lian4 lo2",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "形容情侣之间感情亲密、黏糊，彼此舍不得分开。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这次旅程煞角了，他们的感情也更恋络了。",
+          "pinyin": "le4 ci4 lü3 cen2 sa2 go2 lao3 ta1 men1 li1 gan3 qin2 ye3 gen4 lian4 lo2 lao3",
+          "translation": "这次旅程结束了，他们的感情也更亲密了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00243",
+      "headword": "儿娃子",
+      "pinyin": "er2 wa2 zi3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "男孩子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她们班_儿儿娃子多，一下课教室头就河翻水翻的。",
+          "pinyin": "ta1 men1 bar1 er2 wa2 zi3 do1 yi2 xia4 ko4 jiao4 si2 tou2 dou4 ho2 fan1 sui3 fan1 li1",
+          "translation": "她的班上男孩儿多，一下课教室里就闹腾得不行。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00244",
+      "headword": "儿麻婆",
+      "pinyin": "er2 ma2-1 po2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "泼辣、不拘束、爱疯耍，性格举止偏男性化的女性。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她从小跟到一群儿娃子爬坡上树，像个儿麻婆。",
+          "pinyin": "ta1 cong2 xiao3 gen1 dao3 yi2 qun2 er2 wa2 zi3 pa2 po1 sang4 su4 qiang4 gə4 er2 ma2-1 po2",
+          "translation": "她从小跟着一群男孩爬坡上树，活像个“假小子”。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00245",
+      "headword": "假妹崽",
+      "pinyin": "jia3 mei4/mi4 zai3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "指相貌、举止或说话方式偏女性化的男性。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他长得白白净净的，说话又细声细气的，几个兄弟伙背后就喊他假妹崽。",
+          "pinyin": "ta1 zang3 de2 be2 be2 jin4 jin4 li1 so2 hua4 you4 xi4 sen1 xi4 qi4 li1 ji3 gə4 xiong1 di4 ho3 bei4 hou4 dou4 han3 ta1 jia4 mei4 zai3",
+          "translation": "他长得白净，说话又轻声细气，几个哥们儿背后就叫他“假妹崽”。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00246",
+      "headword": "男子八叉",
+      "pinyin": "lan2 zi3 ba2 ca1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "男人、男子。多用于责怪、调侃或贬低的语境。"
+        }
+      ],
+      "notes": "本字可能是「男子八尺」；「八叉」也可能是纯语缀，类似于「笑人巴沙」「黑不溜秋」。",
+      "examples": [
+        {
+          "text": "男子八叉的，扚个箱子都扭扭捏捏的，像啥子话嘛。",
+          "pinyin": "lan2 zi3 ba2 ca1 li1 dia1 gə4 xiang1 zi3 dou1 liu3 liu3 lie2 lie2 li1 qiang4 sa4 zi3 hua4 ma3",
+          "translation": "一个大男人，提个箱子都扭扭捏捏的，像什么话嘛。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00247",
+      "headword": "婆娘",
+      "pinyin": "po2 liang1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "妻子、老婆。"
+        },
+        {
+          "text": "女人。多用于不满、责怪或骂人的语境。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我婆娘喊我早点_儿回去吃饭，我还坐到麻将馆_儿头没动。",
+          "pinyin": "wo3 po2 liang1 han3 wo3 zao3 diar3 hui2 qi4-1 ci2 fan4 wo3 hai2 zo4 dao3 ma2 jiang4 guar3 tou2 mei1 dong4",
+          "translation": "我老婆叫我早点回去吃饭，我还坐在茶馆里没动。"
+        },
+        {
+          "text": "那个婆娘太横了，占了公家的路还敢收过路费。",
+          "pinyin": "la4 gə4 po2 liang1 tai4 hun2 lao3 zan4 lao3 gong1 jia1 li1 lu4 hai2 gan3 sou1 go4 lu4 fei4",
+          "translation": "那个女人太蛮横了，占了公家的路还敢收过路费。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00248",
+      "headword": "妹儿",
+      "pinyin": "mei4 er2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "年轻女性、姑娘。"
+        }
+      ],
+      "notes": "口语中发音更接近 mer4 er2；末字双元音化时通常可读作 mer4 le2。",
+      "examples": [
+        {
+          "text": "那个妹儿在轻轨上帮老人家扚东西，人还多耿直。",
+          "pinyin": "la4 gə4 mei4 er2 dai4 qin1 gui3 sang4 bang1 lao3 ren2 jia1 dia1 dong1 xi1 ren2 hai2 do1 gen3 zi2",
+          "translation": "那个姑娘在轻轨上帮老人提东西，人很热心。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00249",
+      "headword": "老疙蔸",
+      "pinyin": "lao3 ge2 dou1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "本指老树根。喻指年老而顽固、不肯变通的人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "那个老疙蔸脾气又犟，哪个劝他都不得听。",
+          "pinyin": "la4 gə4 lao3 ge2 dou1 pi2 qi4 you4 jiang4 la3 gə4 quan4 ta1 dou1 bu2 de2 tin1",
+          "translation": "那个老顽固脾气又倔，谁劝他都不听。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00250",
+      "headword": "少幺爸_儿",
+      "pinyin": "sao4 yao1 bar2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "本指年少而辈分大的小叔。喻指十几岁到二十来岁、莽撞爱惹事的少年；也可指游手好闲的小混混。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫跟到那帮少幺爸_儿出去裹。",
+          "pinyin": "li3 mo2 gen1 dao3 la4 bang1 sao4 yao1 bar2 cu2 qi4-1 go3",
+          "translation": "你别跟着那帮街头混混出去玩。"
         }
       ]
     }
