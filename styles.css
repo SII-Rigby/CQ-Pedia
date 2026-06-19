@@ -472,7 +472,7 @@ h1 {
 
 .filter-actions {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 10px;
 }
 
@@ -2486,7 +2486,7 @@ h1 {
 /* ===== Index Modal Tabs ===== */
 .index-tabs {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0;
   background: var(--yellow);
   border-bottom: 4px solid var(--line);
@@ -2528,6 +2528,21 @@ h1 {
   font-size: 16px;
 }
 
+.initial-grid.topic-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.initial-grid.topic-grid button {
+  min-height: 108px;
+  padding: 12px;
+  font-size: 17px;
+  line-height: 1.25;
+}
+
+.initial-grid.topic-grid small {
+  line-height: 1.35;
+}
+
 @media (max-width: 460px) {
   .index-tabs {
     grid-template-columns: 1fr;
@@ -2540,6 +2555,10 @@ h1 {
 
   .index-tabs button:last-child {
     border-bottom: 0;
+  }
+
+  .initial-grid.topic-grid {
+    grid-template-columns: 1fr;
   }
 }
 

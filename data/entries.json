@@ -1358,7 +1358,7 @@
       "id": "cq-00066",
       "headword": "滴滴_儿尕尕_儿",
       "pinyin": "di1 dier1 ga2 gar2-1",
-      "wordClass": "形容词；副词",
+      "wordClass": "形容词",
       "variants": ["滴滴_儿嘎嘎_儿"],
       "definitions": [
         {
@@ -1480,14 +1480,14 @@
       "variants": ["俗匝匝"],
       "definitions": [
         {
-          "text": "俗气、土气、不雅。"
+          "text": "俗气、土气。多形容人见钱眼开、为小钱斤斤计较的样子。"
         }
       ],
       "examples": [
         {
-          "text": "这个颜色配起俗杂杂的，不太好看。",
-          "pinyin": "le4 gə4 yan2 se2 pei4 qi3 xuu2 za3 za3 li1 bu2 tai4 hao3 kan4",
-          "translation": "这个颜色搭配起来很俗气，不太好看。"
+          "text": "三姐多远八远来一趟还喊别人各人坐轻轨，还说啥子油价又涨了，真的是俗杂杂的！",
+          "pinyin": "san1 jie3 do1 yuan3 ba2 yuan3 lai2 yi2 tang4 hai2 han3 be2 gə4 go2 ren2 zo4 qin1 gui3 hai2 so2 sa4 zi3 you2 jia4 you4 zang3 lao3 zen1 li1 si4 xuu2 za3 za3 li1",
+          "translation": "三姐千里迢迢来一趟，还叫人家自己坐轻轨，还说因为油价又涨了，真是俗到家了！"
         }
       ]
     },
@@ -1613,7 +1613,7 @@
       "id": "cq-00079",
       "headword": "交",
       "pinyin": "jiao1",
-      "wordClass": "副词",
+      "wordClass": "形容词",
       "definitions": [
         {
           "text": "完、遍的意思。"
@@ -1843,7 +1843,7 @@
       "id": "cq-00092",
       "headword": "正南齐北",
       "pinyin": "zen4 lan2 qi2 be2",
-      "wordClass": "形容词；副词",
+      "wordClass": "形容词",
       "variants": ["正南齐白"],
       "definitions": [
         {
@@ -1862,7 +1862,7 @@
       "id": "cq-00093",
       "headword": "酌古斟今",
       "pinyin": "zo2 gu3 zen1-4 jin1",
-      "wordClass": "形容词；副词",
+      "wordClass": "形容词",
       "variants": ["作古正经"],
       "definitions": [
         {
@@ -1963,7 +1963,7 @@
       "id": "cq-00098",
       "headword": "白之八之",
       "pinyin": "be2 zi1 ba2 zi1",
-      "wordClass": "副词；形容词",
+      "wordClass": "副词",
       "definitions": [
         {
           "text": "平白无故、莫名其妙。又作「白之之」。"
@@ -2075,7 +2075,7 @@
       "id": "cq-00104",
       "headword": "打伙",
       "pinyin": "da3 ho3",
-      "wordClass": "动词短语；副词",
+      "wordClass": "动词短语",
       "variants": ["搭伙"],
       "definitions": [
         {
@@ -2411,7 +2411,7 @@
       "id": "cq-00122",
       "headword": "绒",
       "pinyin": "rong2",
-      "wordClass": "形容词；副词；动词",
+      "wordClass": "形容词；动词",
       "variants": ["融"],
       "definitions": [
         {
@@ -3161,7 +3161,7 @@
       "id": "cq-00160",
       "headword": "……惨了",
       "pinyin": "can3 lao3",
-      "wordClass": "副词；助词",
+      "wordClass": "形容词",
       "definitions": [
         {
           "text": "接在动词或形容词后，表示程度很深、结果很严重。相当于普通话「特别……」「……得很厉害」。"
@@ -3802,6 +3802,7 @@
       "headword": "仔笨",
       "pinyin": "zi3 ben4",
       "wordClass": "形容词",
+      "variants": ["指笨"],
       "definitions": [
         {
           "text": "形容人笨、不灵光、反应慢。"
@@ -3983,7 +3984,7 @@
       "id": "cq-00202",
       "headword": "啷个",
       "pinyin": "lang3 gə4-1/gə4",
-      "wordClass": "代词；副词",
+      "wordClass": "代词",
       "definitions": [
         {
           "text": "怎么、为什么，用来询问原因、方式或情况。"
@@ -4001,7 +4002,7 @@
       "id": "cq-00203",
       "headword": "恁个",
       "pinyin": "len4 gə4-1",
-      "wordClass": "代词；副词",
+      "wordClass": "代词",
       "variants": ["楞个","嫩个"],
       "definitions": [
         {
@@ -4655,6 +4656,9 @@
         },
         {
           "text": "沿着、顺着。"
+        },
+        {
+          "text": "同「爬」。攀登。"
         }
       ],
       "examples": [
@@ -4672,6 +4676,11 @@
           "text": "你巴到这条河走，再走五公里就拢了。",
           "pinyin": "li3 ba1 dao3 le4 tiao2 ho2 zou3 zai4 zou3 vu3 gong1 li3 dou4 long3 lao3",
           "translation": "你沿着这条河走，再走五公里就到了。"
+        },
+        {
+          "text": "这座山看起高，实际上两下就巴上去了。",
+          "pinyin": "le4 zo4 san1 kan4 qi3 gao1 si2 ji4 sang4 liang3 ha4 dou4 ba1 sang4 qi4-1 lao3",
+          "translation": "这座山看着高，实际上两下子就爬上去了。"
         }
       ]
     },
@@ -4911,6 +4920,7 @@
       "headword": "婆娘",
       "pinyin": "po2 liang1",
       "wordClass": "名词",
+      "variants": ["婆孃"],
       "definitions": [
         {
           "text": "妻子、老婆。"
@@ -4984,6 +4994,407 @@
           "text": "你莫跟到那帮少幺爸_儿出去裹。",
           "pinyin": "li3 mo2 gen1 dao3 la4 bang1 sao4 yao1 bar2 cu2 qi4-1 go3",
           "translation": "你别跟着那帮街头混混出去玩。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00251",
+      "headword": "鬏鬏_儿",
+      "pinyin": "jiu1 jier1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "短辫子；把头发束起形成的小发髻。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她扎了两个翘鬏鬏_儿，看起乖得很。",
+          "pinyin": "ta1 za2 lao3 liang3 gə4 qiao4 jiu1 jier1 kan4 qi3 guai1 de2 hen3",
+          "translation": "她扎了两个翘辫子，看起来很可爱。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00252",
+      "headword": "涮坛子",
+      "pinyin": "suan4 tan2 zi3",
+      "wordClass": "动词短语",
+      "variants": ["算弹指"],
+      "definitions": [
+        {
+          "text": "开玩笑、故意逗人。"
+        },
+        {
+          "text": "说话不算数，临时反悔、失信。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我先信你一回_儿，你莫涮我坛子哦。",
+          "pinyin": "wo3 xian1 xin4 li3 yi2 huer2 li3 mo2 suan4 wo3 tan2 zi3 o1",
+          "translation": "我先信你一次，你别跟我开玩笑。"
+        },
+        {
+          "text": "明明说好一路去看房子，他临到点_儿又涮坛子了。",
+          "pinyin": "min2 min2 so2 hao3 yi4 lu4 qi4 kan4 fang2 zi3 ta1 lin2 dao3 diar3 you4 suan4 tan2 zi3 lao3",
+          "translation": "明明说好一起去看房，他临到时间又反悔不来了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00253",
+      "headword": "闪色子",
+      "pinyin": "san3 se2 zi3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "出故障、出岔子，不能正常运转。"
+        },
+        {
+          "text": "关键时候离开、变卦；放鸽子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "店_儿头那个冰箱闪色子了，啤酒端起出来都不冰。",
+          "pinyin": "diar4 tou2 la4 gə4-1 bin1 xiang1 san3 se2 zi3 lao3 pi2 jiu3 duan1 qi3 cu2 lai2 dou1 bu2 bin1",
+          "translation": "店里那个冰箱出故障了，啤酒端出来都不凉。"
+        },
+        {
+          "text": "几个兄弟伙约好晚上去下馆子，结果老张又闪色子。",
+          "pinyin": "ji3 gə4 xiong1 di4 ho3 yo2 hao3 wan3 sang4 qi4 xia4 guan3 zi3 jie2 go3 lao3 zang1 you4 san3 se2 zi3",
+          "translation": "几个哥们儿约好晚上一起下馆子，结果老张又放鸽子。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00254",
+      "headword": "癫子",
+      "pinyin": "dian1 zi3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "疯子；精神或言行不正常的人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫理那个癫子，他一天到黑都在路边边乱吼。",
+          "pinyin": "mo2 li3 la4 gə4 dian1 zi3 ta1 yi2 tian1 dao3 he2 dou1 dai4 lu4 bian1 bian1 luan4 hou3",
+          "translation": "别理那个疯子，他整天都在路边乱喊。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00255",
+      "headword": "颠𢛔",
+      "pinyin": "dian1 dong1",
+      "wordClass": "形容词",
+      "variants": ["癫咚"],
+      "definitions": [
+        {
+          "text": "昏聩糊涂。多形容人年老痴呆、易忘事。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "那个婆婆都老颠𢛔了，各人的女儿都认不着了。",
+          "pinyin": "la4 gə4 po2 po2-1 dou1 lao3 dian1 dong1 lao3 go2 ren2 li1 lüer3 dou1 ren4 bu2 dao3 lao3",
+          "translation": "那个奶奶都老糊涂了，自己的女儿都不认识了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00256",
+      "headword": "𢛔",
+      "pinyin": "dong1",
+      "wordClass": "动词",
+      "variants": ["咚"],
+      "definitions": [
+        {
+          "text": "忽悠、哄骗。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你默到我是来旅游的嗦，就想拿傻儿果来𢛔我。",
+          "pinyin": "li3 me2 dao3 wo3 si4 lai2 lü3 you2 li1 so3 dou4 xiang3 la2 ha3 er2 go3 lai2 dong1 wo3",
+          "translation": "你以为我是来旅游的吗，就想着拿“傻儿果”来忽悠我。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00257",
+      "headword": "偷儿",
+      "pinyin": "tou1 er2-4",
+      "wordClass": "名词",
+      "variants": ["偷二"],
+      "definitions": [
+        {
+          "text": "小偷。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "菜市场人多得很，手机揣好，免得遭偷儿摸起迢了。",
+          "pinyin": "cai4 si4 cang2 ren2 do1 de2 hen3 sou3 ji1 cai1 hao3 mian3 de2 zao2 tou1 er2-4 mo1 qi3 tiao2 lao3",
+          "translation": "菜市场人很多，手机放好，免得被小偷偷走了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00258",
+      "headword": "丘二",
+      "pinyin": "qiu1 er4",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "旧时对饭馆跑堂、伙计的称呼。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "丘二，麻烦添碗饭，再拿双筷子来。",
+          "pinyin": "qiu1 er4 ma2 fan2 tian1 wan3 fan4 zai4 la2 suang1 kuai4 zi3 lai2",
+          "translation": "伙计，麻烦添一碗饭，再拿一双筷子来。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00259",
+      "headword": "好吃狗_儿",
+      "pinyin": "hao4 ci2 ger3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "贪吃、嘴馋的人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个好吃狗_儿一闻到炸酥肉的味道_儿，就快马加鞭地赶过来了。",
+          "pinyin": "le4 gə4-1 hao4 ci2 ger3 yi2 wen2 dao3 za2 su1 rou4 li1 wei4 dar4 dou4 kuai4 ma3 jia1 bian1 li1 gan3 go4 lai2 lao3",
+          "translation": "这个小馋猫一闻到炸酥肉的味道，就快马加鞭地赶过来了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00260",
+      "headword": "装狗_儿",
+      "pinyin": "zuang1 ger3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "小孩生病、不舒服。儿语。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "娃儿昨晚上发烧，今天_儿还在装狗_儿，莫带他出去吹风。",
+          "pinyin": "wa2 er2-1 zo2 wan3 sang4 fa2 sao1 jin1 tiar1 hai2 dai4 zuang1 ger3 mo2 dai4 ta1 cu2 qi4-1 cui1 fong1",
+          "translation": "孩子昨晚发烧，今天还病着，别带他出去吹风。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00261",
+      "headword": "啄",
+      "pinyin": "zua2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "禽类用喙取食；也可泛指用尖的部位戳、碰。"
+        },
+        {
+          "text": "踢。常见于「啄球」。"
+        },
+        {
+          "text": "点头。常说「啄脑壳」「啄瞌睡」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "啄木鸟",
+          "pinyin": "zua2 mu2 liao3"
+        },
+        {
+          "text": "他一脚把球啄到溪沟_儿头去了。",
+          "pinyin": "ta1 yi2 jio2 ba3 qiu2 zua2 dao3 qi1 ger1 tou2 qi4 lao3",
+          "translation": "他一脚把球踢到小溪里去了。"
+        },
+        {
+          "text": "一上数学课，她脑壳就一啄一啄的。",
+          "pinyin": "yi2 sang4 su4 xio2 ko4 ta1 lao3 ko2 dou4 yi2 zua2 yi2 zua2 li2",
+          "translation": "一上数学课，她脑袋就一点一点的（犯困）。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00262",
+      "headword": "傻儿果",
+      "pinyin": "ha3 er2 go3",
+      "wordClass": "名词",
+      "variants": ["哈儿果"],
+      "definitions": [
+        {
+          "text": "一种近年常见于重庆街头的彩色蜜饯，常被叫作「金西梅」。多以小毛桃、李子等经糖和色素腌渍加工而成，并非真正的西梅。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00263",
+      "headword": "梯坎_儿",
+      "pinyin": "ti1 kar3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "台阶、阶梯。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "从菜园坝_儿到两路口_儿，要爬几百米的梯坎_儿。",
+          "pinyin": "cong2 cai4 yuan2 bar4 dao4 liang2 lu4 ker3 yao4 pa2 ji3 be2 mi3 li1 ti1 kar3",
+          "translation": "从菜园坝到两路口，要爬几百米台阶。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00264",
+      "headword": "坐墩_儿",
+      "pinyin": "zo4 der1",
+      "wordClass": "名词",
+      "variants": ["座墩_儿"],
+      "definitions": [
+        {
+          "text": "屁股、臀部。"
+        },
+        {
+          "text": "坐垫、坐具。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "坐久了，坐墩_儿都坐麻了。",
+          "pinyin": "zo4 jiu3 lao3 zo4 der1 dou1 zo4 ma2 lao3",
+          "translation": "坐久了，屁股都坐麻了。"
+        },
+        {
+          "text": "冬天家坐板凳冷，垫个坐墩_儿嘛。",
+          "pinyin": "dong1 tian1 jia1 zo4 ban3 den4 len3 dian4 gə4 zo4 der1 ma3",
+          "translation": "冬天坐板凳冷，垫个坐垫吧。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00265",
+      "headword": "齁_(儿)",
+      "pinyin": "hou1 / her1",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "大口、粗重地喘气；多指因喘咳、哮喘等而呼吸困难。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他才巴两层楼就齁_儿，半天说不出来话。",
+          "pinyin": "ta1 tai2 ba1 liang3 cen2 lou2 dou4 her1 ban4 tian1 so2 bu2 cu2 lai2 hua4",
+          "translation": "他才爬两层楼就喘得厉害，半天说不出话。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00266",
+      "headword": "齁包_儿",
+      "pinyin": "hou1 bar1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "指常年哮喘的人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "隔壁老邓_儿是个齁包_儿，一到秋天家就咳得凶。",
+          "pinyin": "ge2 bi2 lao3 der4 si4 gə4 hou1 bar1 yi2 dao3 qiu1 tian1 jia1 dou4 ke2 de2 xiong1",
+          "translation": "隔壁老邓常年咳喘，一到变天就咳得厉害。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00267",
+      "headword": "乜",
+      "pinyin": "mia2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "斜着眼看；带不屑、轻蔑意味地瞥。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她乜了我一眼_儿，啥子都没说。",
+          "pinyin": "ta1 mia2 lao3 wo3 yi2 yar3 sa4 zi3 dou1 mei1 so2",
+          "translation": "她不屑地瞥了我一眼，什么也没说。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00268",
+      "headword": "揿",
+      "pinyin": "cen3",
+      "wordClass": "动词",
+      "variants": ["撑", "搇"],
+      "definitions": [
+        {
+          "text": "用力按、压。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "把这个杆杆_儿嘿起往下头揿，井水就取出来了。",
+          "pinyin": "ba3 le4 gə4-1 gan3 gar3 he3 qi3 wang3 xia4 tou2 cen3 jin3 sui3 dou4 qu3 cu2 lai2 lao3",
+          "translation": "把这个杆子使劲儿往下面压，井水就取出来了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00269",
+      "headword": "砑",
+      "pinyin": "nga1",
+      "wordClass": "动词",
+      "variants": ["轧"],
+      "definitions": [
+        {
+          "text": "碾压、轧压。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "那只猫儿过马路的时候_儿，差点_儿遭车子砑死了。",
+          "pinyin": "la4 zi1 mao1 er2 go4 ma3 lu4 li1 si2 her4 ca1 diar3 zao2 ce1 zi3 nga1 si3 lao3",
+          "translation": "那只猫过马路时，差点被车轧死了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00270",
+      "headword": "榨",
+      "pinyin": "za4",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "压住、压紧。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "风大，快点_儿拿本_儿书把纸飞飞_儿榨到起。",
+          "pinyin": "fong1 da4 kuai4 diar3 la2 ber3 su1 ba3 zi3 fei1 fer1 za4 dao3 qi3",
+          "translation": "风很大，快拿本书把小纸片压住。"
         }
       ]
     }

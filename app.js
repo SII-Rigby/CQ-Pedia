@@ -1,15 +1,25 @@
 ﻿const state = {
   entries: [],
+  topicIndexes: [],
   mode: "idle",
   query: "",
   initial: "",
   wordClass: "",
+  topic: "",
   page: 1
 };
 
 const INITIALS = ["b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "ng", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w", "other"];
 const INITIAL_MATCH_ORDER = ["ng", "yu", "b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w"];
 const OTHER_INITIAL = "other";
+const DEFAULT_TOPIC_INDEXES = [
+  {
+    id: "four-character",
+    title: "四字词语",
+    generated: "four-character-headword",
+    description: ""
+  }
+];
 const WELCOME_ENTRY_COUNT = 10;
 const RESULTS_PER_PAGE = 10;
 const AUDIO_EXTENSIONS = ["wav", "m4a", "mp3", "ogg"];
@@ -202,6 +212,46 @@ function initialLabel(initial) {
   return initial === OTHER_INITIAL ? "其他" : initial;
 }
 
+function normalizedHeadwordForLength(entry) {
+  return String(entry.headword || "")
+    .replace(/_\(([^)]*)\)/gu, "")
+    .replace(/_儿/gu, "")
+    .replace(/_/gu, "")
+    .replace(/[\s\p{P}\p{S}]+/gu, "");
+}
+
+function isFourCharacterEntry(entry) {
+  return Array.from(normalizedHeadwordForLength(entry)).length === 4;
+}
+
+function topicIndexById(id) {
+  return state.topicIndexes.find((topic) => topic.id === id);
+}
+
+function topicLabel(id) {
+  const topic = topicIndexById(id);
+  return topic ? topic.title : id;
+}
+
+function topicIds(topic) {
+  const ids = [];
+
+  if (topic.generated === "four-character-headword") {
+    ids.push(...state.entries.filter(isFourCharacterEntry).map((entry) => entry.id));
+  }
+
+  if (Array.isArray(topic.entries)) {
+    ids.push(...topic.entries);
+  }
+
+  return [...new Set(ids)];
+}
+
+function selectedTopicIdSet() {
+  const topic = topicIndexById(state.topic);
+  return topic ? new Set(topicIds(topic)) : new Set();
+}
+
 function matchesSearch(entry) {
   const query = normalizeSearchText(state.query);
   return query ? normalizeSearchText(entryText(entry)).includes(query) : false;
@@ -215,8 +265,12 @@ function matchesWordClass(entry) {
   return state.wordClass ? wordClassesOf(entry).includes(state.wordClass) : false;
 }
 
+function matchesTopic(entry) {
+  return state.topic ? selectedTopicIdSet().has(entry.id) : false;
+}
+
 function hasActiveFilters() {
-  return Boolean(state.initial || state.wordClass);
+  return Boolean(state.initial || state.wordClass || state.topic);
 }
 
 function updateMode() {
@@ -233,6 +287,10 @@ function entryMatchesFilters(entry) {
   }
 
   if (state.wordClass && !matchesWordClass(entry)) {
+    return false;
+  }
+
+  if (state.topic && !matchesTopic(entry)) {
     return false;
   }
 
@@ -508,6 +566,10 @@ function activeFilterLabels() {
     labels.push(`词性 ${state.wordClass}`);
   }
 
+  if (state.topic) {
+    labels.push(`专题 ${topicLabel(state.topic)}`);
+  }
+
   return labels;
 }
 
@@ -529,6 +591,13 @@ function renderSelectedTags() {
     tags.push({
       type: "wordClass",
       label: `词性 ${state.wordClass}`
+    });
+  }
+
+  if (state.topic) {
+    tags.push({
+      type: "topic",
+      label: `专题 ${topicLabel(state.topic)}`
     });
   }
 
@@ -608,7 +677,7 @@ function initialCounts() {
 
 function buildInitialIndex() {
   const counts = initialCounts();
-  indexEls.grid.classList.remove("word-class-grid");
+  indexEls.grid.classList.remove("word-class-grid", "topic-grid");
   indexEls.grid.innerHTML = INITIALS
     .map((initial) => {
       const count = counts[initial] || 0;
@@ -631,10 +700,40 @@ function buildWordClassIndex() {
   const counts = wordClassCounts();
   const wordClasses = Object.keys(counts).sort((a, b) => a.localeCompare(b, "zh-Hans"));
   indexEls.grid.classList.add("word-class-grid");
+  indexEls.grid.classList.remove("topic-grid");
   indexEls.grid.innerHTML = wordClasses
     .map((wordClass) => {
       const active = state.wordClass === wordClass;
       return `<button type="button" data-word-class="${escapeHtml(wordClass)}" ${active ? 'class="active"' : ""}>${escapeHtml(wordClass)}<small>${counts[wordClass]} 词条</small></button>`;
+    })
+    .join("");
+}
+
+function topicCounts() {
+  const entryIds = new Set(state.entries.map((entry) => entry.id));
+
+  return state.topicIndexes.reduce((acc, topic) => {
+    acc[topic.id] = topicIds(topic).filter((id) => entryIds.has(id)).length;
+    return acc;
+  }, {});
+}
+
+function buildTopicIndex() {
+  const counts = topicCounts();
+  indexEls.grid.classList.remove("word-class-grid");
+  indexEls.grid.classList.add("topic-grid");
+  indexEls.grid.innerHTML = state.topicIndexes
+    .map((topic) => {
+      const count = counts[topic.id] || 0;
+      const active = state.topic === topic.id;
+      const description = topic.description ? `<small>${escapeHtml(topic.description)}</small>` : `<small>${count} 词条</small>`;
+      return `
+        <button type="button" data-topic="${escapeHtml(topic.id)}" ${active ? 'class="active"' : ""}>
+          ${escapeHtml(topic.title)}
+          ${description}
+          ${topic.description ? `<small>${count} 词条</small>` : ""}
+        </button>
+      `;
     })
     .join("");
 }
@@ -652,8 +751,53 @@ function setIndexType(type) {
 
   if (type === "wordClass") {
     buildWordClassIndex();
+  } else if (type === "topic") {
+    buildTopicIndex();
   } else {
     buildInitialIndex();
+  }
+}
+
+function normalizeTopicIndex(topic) {
+  return {
+    id: String(topic.id || "").trim(),
+    title: String(topic.title || topic.name || topic.id || "").trim(),
+    description: String(topic.description || "").trim(),
+    generated: String(topic.generated || "").trim(),
+    entries: Array.isArray(topic.entries)
+      ? topic.entries.map((id) => String(id || "").trim()).filter(Boolean)
+      : []
+  };
+}
+
+function mergeTopicIndexes(indexes) {
+  const topics = [...DEFAULT_TOPIC_INDEXES, ...indexes]
+    .map(normalizeTopicIndex)
+    .filter((topic) => topic.id && topic.title);
+  const seen = new Set();
+
+  return topics.filter((topic) => {
+    if (seen.has(topic.id)) {
+      return false;
+    }
+
+    seen.add(topic.id);
+    return true;
+  });
+}
+
+async function loadTopicIndexes() {
+  try {
+    const response = await fetch("data/topic-indexes.json");
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const payload = await response.json();
+    return mergeTopicIndexes(payload.topics || []);
+  } catch (error) {
+    console.warn("Unable to read data/topic-indexes.json; using built-in topic indexes.", error);
+    return mergeTopicIndexes([]);
   }
 }
 
@@ -665,6 +809,7 @@ async function loadEntries() {
     }
     const payload = await response.json();
     state.entries = payload.entries || [];
+    state.topicIndexes = await loadTopicIndexes();
     setIndexType("initial");
     render();
   } catch (error) {
@@ -762,6 +907,7 @@ function showAllEntries() {
     state.query = "";
     state.initial = "";
     state.wordClass = "";
+    state.topic = "";
     els.input.value = "";
   }
 
@@ -784,6 +930,10 @@ indexEls.panel?.addEventListener("click", (event) => {
 
     if (removeButton.dataset.removeFilter === "wordClass") {
       state.wordClass = "";
+    }
+
+    if (removeButton.dataset.removeFilter === "topic") {
+      state.topic = "";
     }
 
     updateMode();
@@ -818,7 +968,8 @@ indexEls.modal?.addEventListener("click", (event) => {
 
   const initialButton = event.target.closest("button[data-initial]");
   const wordClassButton = event.target.closest("button[data-word-class]");
-  if (!initialButton && !wordClassButton) {
+  const topicButton = event.target.closest("button[data-topic]");
+  if (!initialButton && !wordClassButton && !topicButton) {
     return;
   }
 
@@ -830,9 +981,13 @@ indexEls.modal?.addEventListener("click", (event) => {
     state.wordClass = wordClassButton.dataset.wordClass;
   }
 
+  if (topicButton) {
+    state.topic = topicButton.dataset.topic;
+  }
+
   updateMode();
   state.page = 1;
-  setIndexType(initialButton ? "initial" : "wordClass");
+  setIndexType(initialButton ? "initial" : wordClassButton ? "wordClass" : "topic");
   closeIndexModal();
   render();
   document.querySelector("#resultsPanel").scrollIntoView({ behavior: "smooth", block: "start" });
