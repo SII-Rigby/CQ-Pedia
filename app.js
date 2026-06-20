@@ -499,7 +499,15 @@ function renderEntry(entry) {
   return `
     <article class="entry">
       <div class="entry-head">
-        <h3><a class="entry-link" href="items/${escapeHtml(entry.id)}/">${renderMarkedText(entry.headword)}</a></h3>
+        <h3>
+          <span>${renderMarkedText(entry.headword)}</span>
+          <a class="entry-open" href="items/${escapeHtml(entry.id)}/" aria-label="打开${escapeHtml(plainMarkedText(entry.headword))}词条">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5 12h13"></path>
+              <path d="m13 6 6 6-6 6"></path>
+            </svg>
+          </a>
+        </h3>
         <span class="pos">${escapeHtml(wordClassOf(entry))}</span>
       </div>
       <div class="entry-audio-line">
@@ -788,7 +796,7 @@ function mergeTopicIndexes(indexes) {
 
 async function loadTopicIndexes() {
   try {
-    const response = await fetch("data/topic-indexes.json");
+    const response = await fetch("data/topic-indices.json");
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
@@ -796,7 +804,7 @@ async function loadTopicIndexes() {
     const payload = await response.json();
     return mergeTopicIndexes(payload.topics || []);
   } catch (error) {
-    console.warn("Unable to read data/topic-indexes.json; using built-in topic indexes.", error);
+    console.warn("Unable to read data/topic-indices.json; using built-in topic indexes.", error);
     return mergeTopicIndexes([]);
   }
 }

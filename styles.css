@@ -8,6 +8,7 @@
   --cyan: #21c4e8;
   --yellow: #ffd51f;
   --green: #14a66f;
+  --teal: #299278;
   --pink: #ff6fae;
   --muted: #5d5750;
   --line: #111111;
@@ -182,6 +183,7 @@ main {
 .search-form button:focus-visible,
 .filter-actions button:focus-visible,
 .filter-tag:focus-visible,
+.entry-open:focus-visible,
 .modal-close:focus-visible,
 .doc-nav button:focus-visible,
 .initial-grid button:focus-visible,
@@ -640,6 +642,11 @@ h1 {
 }
 
 .entry h3 {
+  display: inline-flex;
+  flex: 1 1 auto;
+  min-width: 0;
+  align-items: center;
+  gap: 10px;
   margin: 0;
   font-family: var(--font-serif);
   color: var(--ink);
@@ -648,17 +655,40 @@ h1 {
   line-height: 1.08;
 }
 
-.entry h3 a {
-  color: inherit;
+.entry h3 > span {
+  min-width: 0;
+}
+
+.entry-open {
+  display: inline-grid;
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  color: var(--white);
+  background: var(--teal);
+  border: 3px solid var(--line);
+  border-radius: 50%;
+  box-shadow: 3px 3px 0 var(--ink);
   text-decoration: none;
 }
 
-.entry h3 a:hover,
-.entry h3 a:focus-visible {
-  color: var(--red);
-  text-decoration: underline;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 5px;
+.entry-open svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.entry-open:hover,
+.entry-open:focus-visible {
+  color: var(--white);
+  background: var(--blue);
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--ink);
 }
 
 .erhua {
@@ -1268,7 +1298,7 @@ h1 {
 .welcome-close:hover,
 .welcome-close:focus-visible {
   color: var(--white);
-  background: #146b45;
+  background: var(--teal);
   transform: translate(2px, 2px);
   box-shadow: 2px 2px 0 var(--ink);
 }
