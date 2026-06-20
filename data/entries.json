@@ -4952,7 +4952,7 @@
           "text": "年轻女性、姑娘。"
         }
       ],
-      "notes": "口语中发音更接近 mer4 er2；末字双元音化时通常可读作 mer4 le2。",
+      "notes": "口语中发音更接近 mer4 er2；末字双元音化时通常读作 mer4 le2。",
       "examples": [
         {
           "text": "那个妹儿在轻轨上帮老人家扚东西，人还多耿直。",
@@ -5395,6 +5395,406 @@
           "text": "风大，快点_儿拿本_儿书把纸飞飞_儿榨到起。",
           "pinyin": "fong1 da4 kuai4 diar3 la2 ber3 su1 ba3 zi3 fei1 fer1 za4 dao3 qi3",
           "translation": "风很大，快拿本书把小纸片压住。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00271",
+      "headword": "耍朋友",
+      "pinyin": "sua3 pong2 you3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "谈恋爱、处对象。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他们两个朋友都耍了半年多了。",
+          "pinyin": "ta1 men1 liang3 gə4 pong2 you3 dou1 sua3 lao3 ban4 lian2 do1 lao3",
+          "translation": "他们俩谈恋爱半年多了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00272",
+      "headword": "背时",
+      "pinyin": "bei4 si2",
+      "wordClass": "形容词",
+      "variants": ["悖时"],
+      "definitions": [
+        {
+          "text": "倒霉，运气不好。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我今天_儿好背时，出门就遭摔了一筋斗。",
+          "pinyin": "wo3 jin1 tiar1 hao3 bei4 si2 cu1 men2 dou4 zao2 zuai1 lao3 yi2 jin1 dou3",
+          "translation": "我今天真倒霉，刚出门就摔了一跟头。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00273",
+      "headword": "该背时",
+      "pinyin": "gai1 bei4 si2",
+      "wordClass": "形容词；叹词",
+      "variants": ["该悖时"],
+      "definitions": [
+        {
+          "text": "活该倒霉。多含责怪、不以为然或幸灾乐祸的语气。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "隔壁班_儿那崽儿经常悄悄_儿咪咪梭出去打游戏，遭逮着了该背时！",
+          "pinyin": "ge2 bi2 bar1 la4 zai3 er2 jin1 sang2 qiao1 qiar1 mi1 mi1 so1 cu2 qi4-1 da3 you2 xi4 zao2 dai2 dao3 lao3 gai1 bei4 si2",
+          "translation": "隔壁班那小子经常悄摸溜出去打游戏，被抓住了活该！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00274",
+      "headword": "坌",
+      "pinyin": "ben4",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "蘸。通常指把食物蘸进调料中。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "糍粑要坌红糖，味道_儿才安逸。",
+          "pinyin": "ci2 ba1 yao4 ben4 hong2 tang2 wei4 dar4 tai2 ngan1 yi2",
+          "translation": "糍粑要蘸红糖，味道才好。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00275",
+      "headword": "拓儿车",
+      "pinyin": "to2 er2-1 ce1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "旧时重庆对长安铃木奥拓出租车的称呼；后也可泛指出租车。打出租车常说「打拓儿」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "赶不到轻轨了，我们打个拓儿车过去。",
+          "pinyin": "gan3 bu2 dao3 qin1 gui3 lao3, wo3 men1 da3 gə4 to2 er2-1 ce1 go4 qi4-1",
+          "translation": "赶不上轻轨了，我们打辆出租车过去。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00276",
+      "headword": "羚羊车",
+      "pinyin": "lin2 yang2 ce1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "重庆主城使用的长安铃木羚羊出租车；后也泛指出租车。又称「羊儿车」。",
+          "note": "约于 2000 年起作为奥拓出租车（拓儿车）的换代车型投放，常见为黄色。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00277",
+      "headword": "𤆵和",
+      "pinyin": "pa1 ho2",
+      "wordClass": "形容词；名词",
+      "variants": ["耙活"],
+      "definitions": [
+        {
+          "text": "软和、软烂。"
+        },
+        {
+          "text": "软和的物品。软弱、好欺负的人。"
+        },
+        {
+          "text": "形容事情容易办、容易得到。近义词「撇脱」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这锅蹄花儿炖得𤆵和，牙口不好都咬得动。",
+          "pinyin": "le4 go1 ti2 huar1 den4 de2 pa1 ho2, ya2 kou3 bu2 hao3 dou1 ngao3 de2 dong4",
+          "translation": "这锅蹄花炖得很软烂，牙口不好也咬得动。"
+        },
+        {
+          "text": "我是𤆵和嗦？你们一个二个按到我捏。",
+          "pinyin": "wo3 si4 pa1 ho2 so3 li3 men1 yi2 gə4 er2 gə4 ngan2 dao3 wo3 lie2",
+          "translation": "我是好欺负的人吗？你们一个个地指着我欺负。"
+        },
+        {
+          "text": "平时不认真，考试还想得高分_儿，哪有恁个𤆵和的事？",
+          "pinyin": "pin2 si2 bu2 ren4 zen1, kao3 si4 hai2 xiang3 de2 gao1 fer1, la3 you3 len4 gə4-1 pa1 ho2 li1 si4",
+          "translation": "平时不认真，考试还想得高分，哪有这么容易的事？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00278",
+      "headword": "捡𤆵和",
+      "pinyin": "jian3 pa1 ho2",
+      "wordClass": "动词",
+      "variants": ["捡耙活"],
+      "definitions": [
+        {
+          "text": "捡便宜、占便宜。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这双真皮皮鞋才百块钱，我算是捡到𤆵和了。",
+          "pinyin": "le4 suang1 zen1 pi2 pi2 hai2 tai2 be2 kuai3 qian2, wo3 suan4 si4 jian3 dao3 pa1 ho2 lao3",
+          "translation": "这双真皮皮鞋才一百块钱，我算是捡到便宜了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00279",
+      "headword": "𢱟",
+      "pinyin": "can3",
+      "wordClass": "动词",
+      "variants": ["摌"],
+      "definitions": [
+        {
+          "text": "用手掌、鞭子、竹条等快速击打、抽打。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "𢱟耳矢",
+          "pinyin": "can3 er3 si3",
+          "translation": "扇耳光"
+        }
+      ]
+    },
+    {
+      "id": "cq-00280",
+      "headword": "好多",
+      "pinyin": "hao3 do1",
+      "wordClass": "形容词；代词",
+      "definitions": [
+        {
+          "text": "很多。同普通话。"
+        },
+        {
+          "text": "多少、几个。用于询问数量。"
+        }
+      ],
+      "examples": [
+        {},
+        {
+          "text": "这斤排骨好多钱？",
+          "pinyin": "le4 jin1 pai2 gu2 hao3 do1 qian2",
+          "translation": "这斤排骨多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00281",
+      "headword": "活路_儿",
+      "pinyin": "ho2 luer4",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "活计、工作，需要做的事情。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你先把今天_儿的活路_儿收了。",
+          "pinyin": "li3 xian1 ba3 jin1 tiar1 li1 ho2 luer4 sou1 lao3",
+          "translation": "你先把今天的活儿做完。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00282",
+      "headword": "吃皮",
+      "pinyin": "ci2 pi2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "有钱赚，能得到实惠或好处。"
+        },
+        {
+          "text": "吃香、吃得开；受人欢迎或有面子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个行业嘿吃皮，只要做得好就找得到钱。",
+          "pinyin": "le4 gə4-1 hang2 lie2 he1 ci2 pi2, zi3 yao4 zu4 de2 hao3 dou4 zao3 de2 dao3 qian2",
+          "translation": "这个行业很赚钱，只要做得好就能赚到钱。"
+        },
+        {
+          "text": "他在单位上嘿吃皮，哪个都愿意帮他的忙。",
+          "pinyin": "ta1 dai4 dan1 wei4 sang4 he1 ci2 pi2, la3 gə4 dou1 yuan4 yi4 bang1 ta1 li1 mang2",
+          "translation": "他在单位里很吃得开，谁都愿意帮他的忙。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00283",
+      "headword": "皮",
+      "pinyin": "pi2",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "钱财、利益。「皮款」的简称。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "都互联网时代了，哪个还随身带现皮嘛。",
+          "pinyin": "dou1 fu4 lian2 wang3 si2 dai4 lao3 la3 gə4 hai2 sui2 sen1 dai4 xian4 pi2 ma3",
+          "translation": "都互联网时代了，谁还随身带现金啊。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00284",
+      "headword": "个挑个选",
+      "pinyin": "go4 diao1 go4 xuan3",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "一个一个地挑选、仔细挑选。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "柜台上东西多得很，你个挑个选，不急。",
+          "pinyin": "gui4 tai2 sang4 dong1 xi1 do1 de2 hen3 li3 go4 diao1 go4 xuan3 bu2 ji2",
+          "translation": "柜台上的东西很多，你慢慢一个个挑，不着急。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00285",
+      "headword": "吞口_儿",
+      "pinyin": "ten1 ker3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "饭量很大、很能吃的人。"
+        }
+      ],
+      "examples": [ 
+        { 
+          "text": "自助餐厅的老板_儿最怕遇到吞口_儿。", 
+          "pinyin": "zi4 zu4 can1 tin1 li1 lao3 bar3 zui4 pa4 yu4 dao3 ten1 ker3", 
+          "translation": "自助餐厅的老板最怕遇到大胃王。" 
+          } 
+      ]
+    },
+    {
+      "id": "cq-00286",
+      "headword": "抻抖",
+      "pinyin": "cen1 tou3",
+      "wordClass": "形容词",
+      "variants": ["伸抖","抻敨"],
+      "definitions": [
+        {
+          "text": "清楚、明白。近义词「伸展（cen1 zan3）」"
+        },
+        {
+          "text": "整齐、端正、体面。可形容相貌五官端正，或穿戴、布置得规整好看。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你说啥子咹？我没听抻抖。",
+          "pinyin": "li3 so2 sa4 zi3 æ1 wo3 mei1 tin1 cen1 tou3",
+          "translation": "你说什么？我没听清楚。"
+        },
+        {
+          "text": "老雷他们儿长得还是抻抖。",
+          "pinyin": "lao3 lui2 ta1 men1 er2 zang3 de2 hai2 si4 cen1 tou3",
+          "translation": "老雷他家儿子长得还算端正。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00287",
+      "headword": "舔肥",
+      "pinyin": "tian3 fei2",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "阿谀奉承、拍马屁。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她一天就跟到领导后头舔肥，放个屁都说是香的。",
+          "pinyin": "ta1 yi2 tian1 dou4 gen1 dao3 lin3 tao4 hou4 tou2 tian3 fei2 fang4 gə4 pi4 dou1 so2 si4 xiang1 li1",
+          "translation": "她成天跟在领导后面拍马屁，放个屁都说是香的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00288",
+      "headword": "横",
+      "pinyin": "hun2",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "蛮横、强硬、不讲理。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他这个人横惨了，明明是他不对头还要乱诀人。",
+          "pinyin": "ta1 le4 gə4 ren2 hun2 can3 lao3 min2 min2 si4 ta1 bu2 dui4 tou2 hai2 yao4 luan4 jue2 ren2",
+          "translation": "他这个人很蛮横，明明是他不对还要乱骂人。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00289",
+      "headword": "猫煞",
+      "pinyin": "mao1 sa2",
+      "wordClass": "形容词",
+      "variants": ["猫杀"],
+      "definitions": [
+        {
+          "text": "性子烈、脾气暴、凶悍。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个妹儿开个车猫煞得很，一路上诀人没歇过气。",
+          "pinyin": "le4 gə4-1 mei4 er2 kai1 gə4 ce1 mao1 sa2 de2 hen3 yi2 lu4 sang4 jue2 ren2 mei1 xie2 go4 qi4",
+          "translation": "这个姑娘开车脾气暴躁，一路上骂人没歇过。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00290",
+      "headword": "打横爬",
+      "pinyin": "da3 hun2 pa2",
+      "wordClass": "动词短语",
+      "variants": ["打横耙"],
+      "definitions": [
+        {
+          "text": "耍赖、耍横，不承认说过的话或做过的事。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你要打横爬嗦？借我的钱恁个久了都不还，老子要告你！",
+          "pinyin": "li3 yao4 da3 hun2 pa2 so3 jie4 wo3 li1 qian2 len4 gə4-1 jiu3 lao3 dou1 hai2 bu2 huan2 lao3 zi3-1 yao4 gao4 li3",
+          "translation": "你要耍赖皮吗？借我的钱这么久了都不还，老子要告发你！"
         }
       ]
     }
