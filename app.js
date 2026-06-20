@@ -614,7 +614,12 @@ function renderSelectedTags() {
       .map((tag) => `
         <button type="button" class="filter-tag" data-remove-filter="${tag.type}" aria-label="移除${escapeHtml(tag.label)}">
           <span>${escapeHtml(tag.label)}</span>
-          <span aria-hidden="true">×</span>
+          <span class="filter-tag-remove" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M7 7l10 10"></path>
+              <path d="M17 7 7 17"></path>
+            </svg>
+          </span>
         </button>
       `)
       .join("")

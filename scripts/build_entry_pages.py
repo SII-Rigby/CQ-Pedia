@@ -260,7 +260,12 @@ def render_page(entry: dict) -> str:
       <div class="modal-window" role="document">
         <header class="modal-head">
           <h2 id="mustReadTitle">必读</h2>
-          <button type="button" class="modal-close" data-modal-close aria-label="关闭">×</button>
+          <button type="button" class="modal-close" data-modal-close aria-label="关闭">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M6 6l12 12"></path>
+              <path d="M18 6 6 18"></path>
+            </svg>
+          </button>
         </header>
         <div class="modal-body">
           <aside class="doc-nav" aria-label="文档目录">
@@ -281,7 +286,12 @@ def render_page(entry: dict) -> str:
             <p class="modal-kicker">About CQ-Pedia</p>
             <h2 id="aboutTitle">关于</h2>
           </div>
-          <button type="button" class="modal-close" data-about-close aria-label="关闭">×</button>
+          <button type="button" class="modal-close" data-about-close aria-label="关闭">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M6 6l12 12"></path>
+              <path d="M18 6 6 18"></path>
+            </svg>
+          </button>
         </header>
         <div class="about-content">
           <section class="about-section author-section" aria-labelledby="authorTitle">
