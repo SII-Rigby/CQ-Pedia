@@ -398,6 +398,7 @@
       "headword": "筶",
       "pinyin": "gao4",
       "wordClass": "动词",
+      "variants": ["较"],
       "definitions": [
         {
           "text": "试、尝试。"
@@ -3325,7 +3326,7 @@
     },
     {
       "id": "cq-00169",
-      "headword": "扳",
+      "headword": "𧿨",
       "pinyin": "ban3",
       "wordClass": "动词",
       "variants": ["板"],
@@ -3336,7 +3337,7 @@
       ],
       "examples": [
         {
-          "text": "这条鱼好新鲜，都要煮熟了还在扳。",
+          "text": "这条鱼好新鲜，都要煮熟了还在𧿨。",
           "pinyin": "le4 tiao4 yu2 hao3 xin1 xuan1 dou1 yao4 zu3 su2 lao3 hai2 dai4 ban3",
           "translation": "这条鱼好新鲜，都要煮熟了还在挣扎。"
         }
@@ -3344,7 +3345,7 @@
     },
     {
       "id": "cq-00170",
-      "headword": "扳命",
+      "headword": "𧿨命",
       "pinyin": "ban3 min4",
       "wordClass": "动词短语",
       "variants": ["板命"],
@@ -3355,7 +3356,7 @@
       ],
       "examples": [
         {
-          "text": "喊他去打个针，他像是在扳命样。",
+          "text": "喊他去打个针，他像是在𧿨命样。",
           "pinyin": "han3 ta4 qi4 da3 gə4 zen1 ta1 qiang4 si4 dai4 ban3 min4 yang4",
           "translation": "叫他去打针，他跟在逃命似的。"
         }
@@ -4111,7 +4112,7 @@
       "id": "cq-00209",
       "headword": "洗白",
       "pinyin": "xi3 be2",
-      "wordClass": "动词；形容词",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "完蛋、糟糕、落空，表示事情没有希望或结果失败。"
@@ -5795,6 +5796,201 @@
           "text": "你要打横爬嗦？借我的钱恁个久了都不还，老子要告你！",
           "pinyin": "li3 yao4 da3 hun2 pa2 so3 jie4 wo3 li1 qian2 len4 gə4-1 jiu3 lao3 dou1 hai2 bu2 huan2 lao3 zi3-1 yao4 gao4 li3",
           "translation": "你要耍赖皮吗？借我的钱这么久了都不还，老子要告发你！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00291",
+      "headword": "假打",
+      "pinyin": "jia3 da3",
+      "wordClass": "形容词；动词",
+      "definitions": [
+        {
+          "text": "虚伪、不实在，故意装样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "不就是开了家麻将馆_儿吗，非要说各人开了个国际赌场，真的是假打。",
+          "pinyin": "bu2 dou4 si4 kai1 lao3 jia1 ma2 jiang4 guar3 mæ1 fei1 yao4 so2 go2 ren2 kai1 lao3 gə4 gue2 ji4 du3 cang2 zen1 li1 si4 jia3 da3",
+          "translation": "不就是开了家麻将馆吗，非得说自己开了个国际赌场，真是虚伪。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00292",
+      "headword": "装莽",
+      "pinyin": "zuang1 mang1",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "装傻、装糊涂。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你少装莽，你明明晓得是啷个回事。",
+          "pinyin": "li3 sao3 zuang1 mang1 li3 min2 min2 xiao3 de2 si4 lang3 gə4-1 hui2 si4",
+          "translation": "你别装糊涂，你明明知道是怎么回事。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00293",
+      "headword": "费",
+      "pinyin": "bei1",
+      "wordClass": "动词",
+      "variants": ["背"],
+      "definitions": [
+        {
+          "text": "超常规耗费。"
+        }
+      ],
+      "note": "古无轻唇音，「费」读 bei1 应该是古代重唇音在口语中的残留。",
+      "examples": [
+        {
+          "text": "炖鸡很费火。",
+          "pinyin": "den4 ji1 he1 bei1 ho3",
+          "translation": "炖鸡很耗费火。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00294",
+      "headword": "水垮垮",
+      "pinyin": "sui3 kua3 kua3",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "湿哒哒，水分含量过高。"
+        },
+        {
+          "text": "做事不认真、不踏实。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "这个菜水垮垮的，没把水漉干净。",
+          "pinyin": "le4 gə4-1 cai4 sui3 kua3 kua3 li1 mei1 ba3 sui3 lu2 gan1 jin4",
+          "translation": "这道菜湿哒哒的，没把水滤干净。"
+        },
+        {
+          "text": "他做事水垮垮的，喊他办点_儿啥子都不放心。",
+          "pinyin": "ta1 zu4 si4 sui3 kua3 kua3 li1 han3 ta1 ban4 diar3 sa4 zi3 dou1 bu2 fang4 xin1",
+          "translation": "他做事很不靠谱，让他办什么都不放心。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00295",
+      "headword": "赶场",
+      "pinyin": "gan3 cang2",
+      "wordClass": "动词短语",
+      "definitions": [
+        {
+          "text": "赶集，到场镇买卖东西。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "明天_儿是赶场天_儿，早点_儿去买菜。",
+          "pinyin": "min2 tiar1 si4 gan3 cang2 tiar1 zao3 diar3 qi4 mai3 cai4",
+          "translation": "明天是赶集日，早点去买菜。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00296",
+      "headword": "觑",
+      "pinyin": "qio3 / qio4",
+      "wordClass": "动词",
+      "variants": ["瞅"],
+      "definitions": [
+        {
+          "text": "看、瞥、瞅。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我刚刚_儿觑到他往那边走了。",
+          "pinyin": "wo3 gang1 gar1 qio3 dao3 ta1 wang3 la4 bian1 zou3 lao3",
+          "translation": "我刚才看见他往那边走了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00297",
+      "headword": "夹舌子",
+      "pinyin": "jia2 se2 zi3",
+      "wordClass": "名字",
+      "definitions": [
+        {
+          "text": "说话结巴，不利索的人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他一紧张就成了夹色子，半天都说不抻抖。",
+          "pinyin": "ta1 yi2 jin3 zang1 dou4 cen2 lao3 jia2 se2 zi3 ban4 tian1 dou1 so2 bu2 cen1 tou3",
+          "translation": "他一紧张就结巴，半天都说不清楚。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00298",
+      "headword": "车笔刀_儿",
+      "pinyin": "ce1 bi2 dar1",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "削铅笔的刀；卷笔刀。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00299",
+      "headword": "顿",
+      "pinyin": "du2",
+      "wordClass": "动词",
+      "variants": ["跺"],
+      "definitions": [
+        {
+          "text": "跺。用脚用力踏地。",
+          "note": "「顿」本就有跺脚含义，有「捶胸顿足」一类词语。除了 den4 这个音，《韵会》《正韵》也记载其为当没切，音咄。而重庆话可能是保留其入声切法。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫顿脚了，地板_儿都要遭你踩穿了。",
+          "pinyin": "li3 mo2 du2 jio2 lao3 di4 bar3 dou1 yao4 zao2 li3 cai3 cuan1 lao3",
+          "translation": "你别跺脚了，地板都快被你踩穿了。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00300",
+      "headword": "臊皮",
+      "pinyin": "sao4 pi2",
+      "wordClass": "形容词；动词短语",
+      "definitions": [
+        {
+          "text": "丢脸、失面子。"
+        },
+        {
+          "text": "使人丢脸、难堪。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你在外头喝麻了乱诀人，好臊皮哟。",
+          "pinyin": "li3 dai4 wai4 tou2 ho1 ma2 lao3 luan4 jue2 ren2 hao3 sao4 pi2 yo3",
+          "translation": "你在外面喝醉了乱骂人，真丢脸。"
+        },
+        {
+          "text": "当着恁个多人面前臊我的皮，我啷个下得来台？",
+          "pinyin": "dang1 dao3 len4 gə4-1 do1 ren2 mian4 qian2 sao4 wo3 li1 pi2 wo3 lang3 gə4-1 xia4 de2 lai2 tai2",
+          "translation": "当着这么多人的面让我难堪，我怎么下得来台？"
         }
       ]
     }
