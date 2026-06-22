@@ -71,6 +71,17 @@ def entry_description(entry: dict) -> str:
     return "，".join(str(part).strip() for part in parts if str(part or "").strip())[:150]
 
 
+def entry_title(entry: dict) -> str:
+    headword = plain_marked_text(entry.get("headword"))
+    pinyin = str(entry.get("pinyin") or "").strip()
+    title_parts = [headword]
+
+    if pinyin:
+        title_parts.append(pinyin)
+
+    return f"{' | '.join(title_parts)}是什么意思？重庆话词条解释 - 重庆话正音词典 CQ-Pedia"
+
+
 def audio_button(label: str, src: str) -> str:
     return f"""
     <button type="button" class="audio-button" data-audio-src="{escape(src)}" aria-label="{escape(label)}" aria-pressed="false">
@@ -202,7 +213,7 @@ def render_entry(entry: dict, link_headword: bool = False) -> str:
     return f"""
     <article class="entry">
       <div class="entry-head">
-        <h3>{headword}</h3>
+        <h3><span>{headword}</span></h3>
         <span class="pos">{escape(str(entry.get("wordClass") or ""))}</span>
       </div>
       <div class="entry-audio-line">
@@ -221,7 +232,7 @@ def render_entry(entry: dict, link_headword: bool = False) -> str:
 
 def render_page(entry: dict) -> str:
     headword = plain_marked_text(entry.get("headword"))
-    title = f"{headword} - 重庆话正音词典"
+    title = entry_title(entry)
     description = entry_description(entry)
     canonical = f"{SITE_URL}/items/{entry['id']}/"
 

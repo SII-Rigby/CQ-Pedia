@@ -489,7 +489,7 @@
       "id": "cq-00024",
       "headword": "过筋过脉",
       "pinyin": "go4 jin1 go4 me2",
-      "wordClass": "形容词；副词",
+      "wordClass": "形容词",
       "definitions": [
         {
           "text": "关键的、细节的、节骨眼上的。"
@@ -4556,7 +4556,7 @@
     {
       "id": "cq-00230",
       "headword": "荒篮_儿",
-      "pinyin": "huang1 lar2-1",
+      "pinyin": "huang1 lar2/lar2-1",
       "wordClass": "名词",
       "definitions": [
         {
@@ -4570,12 +4570,12 @@
       "examples": [
         {
           "text": "屋头那些旧纸壳_儿、铁皮皮都存起，等收荒篮_儿的来了卖。",
-          "pinyin": "vu2 tou2 la4 xi1 jiu4 zi3 kuer2 tie2 pi2 pi2-1 dou1 cen2 qi3 den3 sou1 huang1 lar2-1 li1 lai2 lao3 mai4",
+          "pinyin": "vu2 tou2 la4 xi1 jiu4 zi3 kuer2 tie2 pi2 pi2-1 dou1 cen2 qi3 den3 sou1 huang1 lar2 li1 lai2 lao3 mai4",
           "translation": "家里那些旧纸壳、废铁皮都攒起来，等收废品的人来了卖。"
         },
         {
           "text": "去喊个荒篮_儿来，把这些下卖了。",
-          "pinyin": "qi4 han3 gə4 huang1 lar2-1 lai2 ba3 le4 xi1 ha4 mai4 lao3",
+          "pinyin": "qi4 han3 gə4 huang1 lar2 lai2 ba3 le4 xi1 ha4 mai4 lao3",
           "translation": "去叫个收废品的人，把这些全部卖掉。"
         }
       ]
@@ -4797,7 +4797,7 @@
           "text": "结束、完结、收场。"
         }
       ],
-      "notes": "有说法认为源自木工术语：木工活做到最后要处理边角、收尾，故引申为事情结束。",
+      "notes": "一说源自木工术语：木工活做到最后要处理边角、收尾，故引申为事情结束。",
       "examples": [
         {
           "text": "这次旅程煞角了，他们的感情也更恋络了。",
@@ -4816,7 +4816,7 @@
           "text": "开始、开工。"
         }
       ],
-      "notes": "木工术语。木工开料、锯榫前先弹墨线定尺寸，故借指做事开始。",
+      "notes": "一说源自木工术语：木工开料、锯榫前先弹墨线定尺寸，故借指做事开始。",
       "examples": [
         {
           "text": "莫站到起摆了，架墨整嘛，天黑前还要把这张桌子打出来。",
@@ -5602,8 +5602,8 @@
     },
     {
       "id": "cq-00281",
-      "headword": "活路_儿",
-      "pinyin": "ho2 luer4",
+      "headword": "活路_(儿)",
+      "pinyin": "ho2 luer4/lu4",
       "wordClass": "名词",
       "definitions": [
         {
@@ -5706,7 +5706,7 @@
       "variants": ["伸抖","抻敨"],
       "definitions": [
         {
-          "text": "清楚、明白。近义词「伸展（cen1 zan3）」"
+          "text": "清楚、明白。近义词「伸展(cen1 zan3)」"
         },
         {
           "text": "整齐、端正、体面。可形容相貌五官端正，或穿戴、布置得规整好看。"
@@ -5902,7 +5902,7 @@
     {
       "id": "cq-00296",
       "headword": "觑",
-      "pinyin": "qio3 / qio4",
+      "pinyin": "qio3",
       "wordClass": "动词",
       "variants": ["瞅"],
       "definitions": [
@@ -5922,7 +5922,7 @@
       "id": "cq-00297",
       "headword": "夹舌子",
       "pinyin": "jia2 se2 zi3",
-      "wordClass": "名字",
+      "wordClass": "名词",
       "definitions": [
         {
           "text": "说话结巴，不利索的人。"
@@ -5991,6 +5991,369 @@
           "text": "当着恁个多人面前臊我的皮，我啷个下得来台？",
           "pinyin": "dang1 dao3 len4 gə4-1 do1 ren2 mian4 qian2 sao4 wo3 li1 pi2 wo3 lang3 gə4-1 xia4 de2 lai2 tai2",
           "translation": "当着这么多人的面让我难堪，我怎么下得来台？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00301",
+      "headword": "煞贴",
+      "pinyin": "sa2 tie2/ti2",
+      "wordClass": "动词",
+      "variants": ["杀贴", "杀提", "洒涤", "拾饬", "煞饬"],
+      "definitions": [
+        {
+          "text": "收拾、整理、打扫。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你把屋头煞贴一下，黑了要来客。",
+          "pinyin": "li3 ba3 vu2 tou2 sa2 tie2 yi2 ha4 he2 lao3 yao4 lai2 ke2",
+          "translation": "你把家里收拾一下，晚上要来客人。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00302",
+      "headword": "浩",
+      "pinyin": "hao4",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "江边碛坝、石梁与岸边形成的水湾、豁口或小港。常可泊船作码头。多见于地名，如「龙门浩」「渔秋浩」。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00303",
+      "headword": "箜",
+      "pinyin": "kong3",
+      "wordClass": "动词",
+      "variants": ["𤆺"],
+      "definitions": [
+        {
+          "text": "将半熟的饭与菜放在同一口锅中，用小火焖熟。川渝农家常见美食「箜饭」。"
+        },
+        {
+          "text": "闷热，使人感到不透气。"
+        }
+      ],
+      "fig": true,
+      "examples": [
+        {},
+        {
+          "text": "这个屋头箜人得很，开下窗子嘛。",
+          "pinyin": "le4 gə4-1 vu2 tou2 kong3 ren2 de2 hen3 kai1 ha4 cang1 zi3 ma3",
+          "translation": "这个屋里闷得很，开一下窗吧。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00304",
+      "headword": "规矩",
+      "pinyin": "gui1 yu2/yi2",
+      "wordClass": "形容词",
+      "variants": ["归一", "归于"],
+      "definitions": [
+        {
+          "text": "整齐、规整、利落。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你把衣裳穿规矩点_儿，等下_儿要出去见人。",
+          "pinyin": "li3 ba3 yi1 sang2 cuan1 gui1 yu2 diar3 den3 har1 yao4 cu2 qi4-1 jian4 ren2",
+          "translation": "你把衣服穿整齐一点，等会儿要出去见人。"
+        }
+      ],
+      "note": "一说是「规矩」一词的音变；也有人认为取自「归一」的统一、完善之义。"
+    },
+    {
+      "id": "cq-00305",
+      "headword": "恍尔惚兮",
+      "pinyin": "huang3 er3 fu2 xi1",
+      "wordClass": "形容词",
+      "variants": ["恍耳惚兮"],
+      "definitions": [
+        {
+          "text": "精神恍惚，糊里糊涂。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "一天恍尔惚兮的，把洗洁精挤到洗衣机里头。",
+          "pinyin": "yi2 tian1 huang3 er3 fu2 xi1 li1 ba3 xi3 jie2 jin1 ji1 dao3 xi3 yi1 ji1 yi3 tou2",
+          "translation": "成天恍恍惚惚的，把洗洁精挤到洗衣机里。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00306",
+      "headword": "哭兮乃呆",
+      "pinyin": "ku2 xi1 lai1 dai1",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "哭哭啼啼的样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "有啥子就说，莫在这点_儿哭兮乃呆的。",
+          "pinyin": "you3 sa4 zi3 dou4 so2 mo2 dai4 le4 diar3 ku2 xi1 lai1 dai1 li1",
+          "translation": "有什么就说，别在这里哭哭啼啼的。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00307",
+      "headword": "款",
+      "pinyin": "kuan3",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "绊、挡、卡。"
+        },
+        {
+          "text": "扣留，使不能离开。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她这会吃胖了，镯子都款起取不下来了。",
+          "pinyin": "ta1 le4 hui4 ci2 pang4 lao3 zo2 zi3 dou1 kuan3 qi3 qu3 bu2 xia4 lai2 lao3",
+          "translation": "她这段时间吃胖了，手镯都卡住取不下来了。"
+        },
+        {
+          "text": "他本来要走的，又遭老板_儿款到起了。",
+          "pinyin": "ta1 ben3 lai2 yao4 zou3 li1 you4 zao2 lao3 bar3 kuan3 dao3 qi3 lao3",
+          "translation": "他本来要走，又被老板留下来了。"
+        }
+      ],
+      "note": "「款」自古有缓、慢之义，如「点水蜻蜓款款飞」。绊、挡之义可能由此演化而来。"
+    },
+    {
+      "id": "cq-00308",
+      "headword": "浑",
+      "pinyin": "kun2",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "整个、一口气。"
+        },
+        {
+          "text": "厉害、能干；混得开。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "浑鸡蛋 | 打浑吞",
+          "pinyin": "kun2 ji1 dan4 | da3 kun2 ten1",
+          "translation": "整个鸡蛋 | 一口气吞下去"
+        },
+        {
+          "text": "他在这一片操得浑，哪个都认得到他。",
+          "pinyin": "ta1 dai4 le4 yi2 pian4 cao1 de2 kun2 la3 gə4 dou1 ren4 de2 dao3 ta1",
+          "translation": "他在这一带很有本事，谁都认识他。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00309",
+      "headword": "筋筋绊绊",
+      "pinyin": "jin1 jin1 ban4 ban4 / jin1 jin1 pan4 pan4",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "曲折、坎坷、不容易。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "一路的筋筋绊绊，也让二毛慢慢_儿成长起来。",
+          "pinyin": "yi2 lu4 li1 jin1 jin1 ban4 ban4 ye3 rang4 er4 mao2 man4 mar1 cen2 zang3 qi3 lai2",
+          "translation": "一路的坎坎坷坷，也让二毛逐渐成长起来。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00310",
+      "headword": "䗿啊子",
+      "pinyin": "jin1/lin1/yin1 nga1 zi3",
+      "wordClass": "名词",
+      "variants": ["金啊子","拎啊子","音啊子"],
+      "definitions": [
+        {
+          "text": "蝉。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00311",
+      "headword": "咋子",
+      "pinyin": "zua4/za4 zi3",
+      "wordClass": "疑问代词",
+      "definitions": [
+        {
+          "text": "做什么；怎么。由「做啥子」合音而来。"
+        }
+      ],
+      "examples": [
+        {
+          "sentence": "你咋子？惊抓抓的。",
+          "pinyin": "li3 zua4 zi3 jin1 zua1 zua1 li1",
+          "translation": "这件事怎么办呢？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00312",
+      "headword": "啥子",
+      "pinyin": "sa4 zi3",
+      "wordClass": "疑问代词",
+      "definitions": [
+        {
+          "text": "什么。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00313",
+      "headword": "晓得",
+      "pinyin": "xiao3 de2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "知道；明白。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00314",
+      "headword": "硬是",
+      "pinyin": "ngen4 si4",
+      "wordClass": "副词",
+      "definitions": [
+        {
+          "text": "真是；的确是。表示强调、肯定、感叹或讽刺。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他昨晚黑扯噗鼾扯了一夜，硬是吵得我睡不着。",
+          "pinyin": "ta1 zo2 wan3 he2 ce3 pu2 han4 ce3 lao3 yi2 ye4 ngen4 si4 cao3 de2 wo3 sui4 bu2 co2",
+          "translation": "他昨天晚上打了一夜鼾，吵得我实在睡不着。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00315",
+      "headword": "未必",
+      "pinyin": "wei4 bi2",
+      "wordClass": "副词",
+      "definitions": [
+        {
+          "text": "难道；莫非。用于疑问句或反问句。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "未必你还没听到说？",
+          "pinyin": "wei4 bi2 li3 hai2 mei1 tin1 dao3 so2",
+          "translation": "难道你还没有听说？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00316",
+      "headword": "吗",
+      "pinyin": "mæ1",
+      "wordClass": "语气词",
+      "variants": ["唛", "蛮"],
+      "definitions": [
+        {
+          "text": "用于句末，构成是非问句。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "她是重庆人吗？",
+          "pinyin": "ta1 si4 cong2 qin4 ren2 mæ1",
+          "translation": "她是重庆人吗？"
+        }
+      ]
+    },
+    {
+      "id": "cq-00317",
+      "headword": "嘿起",
+      "pinyin": "he3/he2 qi3",
+      "wordClass": "副词",
+      "definitions": [
+        {
+          "text": "使劲地、一个劲地。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "嘿起搊，车子才搊得动。",
+          "pinyin": "he3 qi3 cou1 ce1 zi3 tai2 cou1 de2 dong4",
+          "translation": "使劲推，车子才推得动。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00318",
+      "headword": "莽起",
+      "pinyin": "mang3 qi3",
+      "wordClass": "副词",
+      "definitions": [
+        {
+          "text": "不管不顾地、猛地、径直地。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他一听到消息就莽起往外头跑。",
+          "pinyin": "ta1 yi2 tin1 dao3 xiao1 xi2 dou4 mang3 qi3 wang3 wai4 tou2 pao3",
+          "translation": "他一听到消息就不管不顾地往外跑。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00319",
+      "headword": "搂实",
+      "pinyin": "lou3 si2",
+      "wordClass": "副词",
+      "definitions": [
+        {
+          "text": "使劲地、一个劲地。也作「搂起」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "钉子要搂实锤才锥得进去。",
+          "pinyin": "din1 zi3 yao4 lou3 si2 cui2 tai2 ju1 de2 jin4 qi4-1",
+          "translation": "钉子得使劲儿锤才扎得进去。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00320",
+      "headword": "直顾",
+      "pinyin": "zi2/di2 gu4",
+      "wordClass": "副词",
+      "definitions": [
+        {
+          "text": "一直、始终、一个劲地。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他直顾往前头走，喊他万白遍都听不到。",
+          "pinyin": "ta1 zi2 gu4 wang3 qian2 tou2-1 zou3 han3 ta1 wan4 be2 pian4 dou1 tin1 bu2 dao3",
+          "translation": "他一直往前走，喊了他一万遍都听不见。"
         }
       ]
     }
