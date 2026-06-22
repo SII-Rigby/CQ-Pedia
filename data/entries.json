@@ -584,7 +584,7 @@
           "translation": "别来惹我，我今天很郁闷！"
         },
         {
-          "text": "这张帕子好烦啰，把他甩了嘛。",
+          "text": "这张帕子好烦啰，把它甩了嘛。",
           "pinyin": "le4 zang1 pa4 zi3 hao3 fan2 lo3 ba3 ta1 suai3 lao3 ma3",
           "translation": "这张毛巾真脏，把它扔了吧。"
         }
@@ -1225,7 +1225,7 @@
       "wordClass": "动词短语",
       "definitions": [
         {
-          "text": "白忙活一场、做了没用的事情。"
+          "text": "白忙活一场、做了没用的事情。又叫「搞空灯儿」。"
         }
       ],
       "examples": [
@@ -1541,8 +1541,8 @@
       ],
       "examples": [
         {
-          "text": "他在单位里受了抈憋气，回来就朝着娃儿身上发。",
-          "pinyin": "ta1 dai4 dan1 wei4 li3 sou4 lao3 yue1 bie1 qi4 hui2 lai2 dou4 cao2 dao3 wa2 er2-1 sen1 sang4 fa2",
+          "text": "他在单位里头受了抈憋气，回来就朝着娃儿身上发。",
+          "pinyin": "ta1 dai4 dan1 wei4 li3 tou2 sou4 lao3 yue1 bie1 qi4 hui2 lai2 dou4 cao2 dao3 wa2 er2-1 sen1 sang4 fa2",
           "translation": "他在单位里受了窝囊气，回来就朝着孩子身上撒气。"
         }
       ]
@@ -2261,7 +2261,7 @@
     {
       "id": "cq-00114",
       "headword": "曲蟮_儿",
-      "pinyin": "quu2 suar4 / cu2 suar4",
+      "pinyin": "quu2/cu2 suar4",
       "wordClass": "名词",
       "variants": ["蛐蟮", "曲蟺", "锄蟮"],
       "definitions": [
@@ -4280,7 +4280,7 @@
     {
       "id": "cq-00216",
       "headword": "堂客",
-      "pinyin": "tang4 ke2",
+      "pinyin": "tang2 ke2",
       "wordClass": "名词",
       "definitions": [
         {
@@ -4290,7 +4290,7 @@
       "examples": [
         {
           "text": "他堂客喊他早点_儿回去吃饭，他嘴上答应，身子还在茶馆_儿头坐起。",
-          "pinyin": "ta1 tang4 ke2 han3 ta1 zao3 dian3 hui2 qi4-1 ci2 fan4 ta1 zui3 sang4 dai4 yin1 sen1 zi3 hai2 dai4 ca2 guar3 tou2 zo4 qi3",
+          "pinyin": "ta1 tang2 ke2 han3 ta1 zao3 dian3 hui2 qi4-1 ci2 fan4 ta1 zui3 sang4 dai4 yin1 sen1 zi3 hai2 dai4 ca2 guar3 tou2 zo4 qi3",
           "translation": "他老婆叫他早点回去吃饭，他嘴上答应，身子还在茶馆里坐着。"
         }
       ]
@@ -4407,8 +4407,8 @@
       "notes": "有的文献认为，「台」是戏剧量词，「幺」指排名最后的，「幺台」本指最后一台戏，意味着演出即将结束。也有人理解为「吆」指驱赶的动作，「吆台」就是把人赶下台，清场的意思。常见否定形式「幺不倒台」，表示难以收场、下不来台，也可形容人洋洋得意。",
       "examples": [
         {
-          "text": "他这回_儿考了第一名_儿，就幺不倒台的，见到哪个都要摆两句。",
-          "pinyin": "ta1 le4 huer2 kao3 lao3 di4 yi2 mier2 dou4 yao1 bu2 dao3 tai2 li1 jian4 dao3 la3 gə4 dou1 yao4 bai3 liang3 ju4",
+          "text": "他这回_儿考了第一名_儿，就幺不倒台了，见到哪个都要摆两句。",
+          "pinyin": "ta1 le4 huer2 kao3 lao3 di4 yi2 mier2 dou4 yao1 bu2 dao3 tai2 lao3 jian4 dao3 la3 gə4 dou1 yao4 bai3 liang3 ju4",
           "translation": "他这次考了第一名，就得意得很，见到谁都要炫耀几句。"
         }
       ]
@@ -4688,7 +4688,7 @@
     {
       "id": "cq-00235",
       "headword": "卯",
-      "pinyin": "mao3",
+      "pinyin": "mao3 / mao1",
       "wordClass": "动词；形容词",
       "definitions": [
         {
@@ -4946,14 +4946,14 @@
     {
       "id": "cq-00248",
       "headword": "妹儿",
-      "pinyin": "mei4 er2",
+      "pinyin": "mei4/mer4 er2",
       "wordClass": "名词",
       "definitions": [
         {
           "text": "年轻女性、姑娘。"
         }
       ],
-      "notes": "口语中发音更接近 mer4 er2；末字双元音化时通常读作 mer4 le2。",
+      "notes": "口语中发音更接近 mer4 er2；在句末通常读作 mer4 le2。",
       "examples": [
         {
           "text": "那个妹儿在轻轨上帮老人家扚东西，人还多耿直。",
