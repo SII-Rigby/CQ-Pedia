@@ -3800,7 +3800,7 @@
     },
     {
       "id": "cq-00193",
-      "headword": "仔笨",
+      "headword": "稚笨",
       "pinyin": "zi3 ben4",
       "wordClass": "形容词",
       "variants": ["指笨"],
@@ -3811,7 +3811,7 @@
       ],
       "examples": [
         {
-          "text": "这崽儿仔笨得很，教半天都不会。",
+          "text": "这崽儿稚笨得很，教半天都不会。",
           "pinyin": "le4 zai3 er2 zi3 ben4 de2 hen3 jiao1 ban4 tian1 dou1 bu2 hui4",
           "translation": "这小子脑子不灵光，教半天都教不会。"
         }
@@ -5943,7 +5943,7 @@
       "wordClass": "名词",
       "definitions": [
         {
-          "text": "削铅笔的刀；卷笔刀。"
+          "text": "卷笔刀。"
         }
       ],
       "fig": true
