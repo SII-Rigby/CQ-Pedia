@@ -71,7 +71,7 @@
       "id": "cq-00004",
       "headword": "摆龙门阵",
       "pinyin": "bai3 long2 men2 zen4",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "聊天、闲谈，常带有讲故事、拉家常的意味。"
@@ -434,7 +434,7 @@
       "id": "cq-00021",
       "headword": "搞着",
       "pinyin": "gao3 zo2",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "获得好处、拿到便宜。"
@@ -452,7 +452,7 @@
       "id": "cq-00022",
       "headword": "角逆",
       "pinyin": "go2 lie2",
-      "wordClass": "动词；动词短语",
+      "wordClass": "动词",
       "variants": ["角孽","割孽","合孽","佮孽","割裂","角力"],
       "definitions": [
         {
@@ -1222,7 +1222,7 @@
       "id": "cq-00059",
       "headword": "空搞灯_儿",
       "pinyin": "kong4 gao3 der1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "白忙活一场、做了没用的事情。又叫「搞空灯儿」。"
@@ -1258,7 +1258,7 @@
       "id": "cq-00061",
       "headword": "夹毛锥",
       "pinyin": "jia2 mao2 ju1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "variants": ["夹毛居","夹毛锔"],
       "definitions": [
         {
@@ -1277,7 +1277,7 @@
       "id": "cq-00062",
       "headword": "冒皮皮",
       "pinyin": "mao4 pi2 pi2-1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "说大话、吹嘘、夸大其词。"
@@ -1596,7 +1596,7 @@
       "id": "cq-00078",
       "headword": "冒尖_儿",
       "pinyin": "mao4 jiar1",
-      "wordClass": "动词；动词短语；形容词",
+      "wordClass": "动词；形容词",
       "definitions": [
         {
           "text": "表现突出、领先。"
@@ -1826,7 +1826,7 @@
       "id": "cq-00091",
       "headword": "读望天书",
       "pinyin": "du2 wang4 tian1 su1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "读书、上课时走神，不认真学习，眼睛望到别处或心思不在书本上。"
@@ -1887,7 +1887,7 @@
       "id": "cq-00094",
       "headword": "估吃霸赊",
       "pinyin": "gu3 ci2 ba4-2 se1/sai1",
-      "wordClass": "动词短语；形容词",
+      "wordClass": "动词；形容词",
       "definitions": [
         {
           "text": "吃饭、拿东西不给钱，强迫别人赊账。"
@@ -1928,7 +1928,7 @@
       "id": "cq-00096",
       "headword": "着惊着寒",
       "pinyin": "zo2 jin1 zo2 han2",
-      "wordClass": "形容词；动词短语",
+      "wordClass": "形容词；动词",
       "definitions": [
         {
           "text": "受到惊吓，心里发慌、不安。"
@@ -2018,7 +2018,7 @@
       "id": "cq-00101",
       "headword": "下暴",
       "pinyin": "xia4 bao4",
-      "wordClass": "动词；动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "威胁、欺凌、勒索弱小者，以获得钱财、心理满足等。常用于学生之间。"
@@ -2036,7 +2036,7 @@
       "id": "cq-00102",
       "headword": "搭飞白",
       "pinyin": "da2 fei1 be2",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "插入别人谈话，尤其指不受欢迎、不知趣地搭话。"
@@ -2076,7 +2076,7 @@
       "id": "cq-00104",
       "headword": "打伙",
       "pinyin": "da3 ho3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "variants": ["搭伙"],
       "definitions": [
         {
@@ -2131,7 +2131,7 @@
       "id": "cq-00107",
       "headword": "打平伙",
       "pinyin": "da3 pin2 ho3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "variants": ["打平火"],
       "definitions": [
         {
@@ -2529,7 +2529,7 @@
       "id": "cq-00127",
       "headword": "装疯迷窍",
       "pinyin": "zuang1 fong1 mi2 qiao4",
-      "wordClass": "动词短语；形容词",
+      "wordClass": "动词；形容词",
       "definitions": [
         {
           "text": "装疯卖傻，明明晓得却故意装糊涂。"
@@ -2614,8 +2614,7 @@
           "pinyin": "li3 zai4 bu2 tin1 hua4 wo3 yao4 la2 mie2 piar3 lai2 lao3",
           "translation": "你再不听话，我要拿戒尺来了。"
         }
-      ],
-      "fig": true
+      ]
     },
     {
       "id": "cq-00132",
@@ -2637,10 +2636,10 @@
     },
     {
       "id": "cq-00133",
-      "headword": "丁丁猫_儿",
+      "headword": "虰虰猫_儿",
       "pinyin": "din1 din1 mar1",
       "wordClass": "名词",
-      "variants": ["叮叮猫_儿"],
+      "variants": ["丁丁猫_儿","叮叮猫_儿"],
       "definitions": [
         {
           "text": "蜻蜓。"
@@ -2648,7 +2647,7 @@
       ],
       "examples": [
         {
-          "text": "池子边边好多丁丁猫_儿飞过去飞过来，怕是要落雨了。",
+          "text": "池子边边好多虰虰猫_儿飞过去飞过来，怕是要落雨了。",
           "pinyin": "ci2 zi3 bian1 bian1 hao3 do1 din1 din1 mar1 fei1 go4 qi1 fei1 go4 lai2 pa4 si4 yao4 lo2 yu3 lao3",
           "translation": "水池边有很多蜻蜓飞来飞去，恐怕要下雨了。"
         }
@@ -2786,6 +2785,7 @@
       "headword": "㞗",
       "pinyin": "qiu2",
       "wordClass": "名词；语气词",
+      "variants": ["球"],
       "definitions": [
         {
           "text": "男性生殖器，粗俗用字，用于骂人或加强语气。多用于动词后。"
@@ -2802,7 +2802,7 @@
       "id": "cq-00142",
       "headword": "踩假水_儿",
       "pinyin": "cai3 jia3 suer3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "游泳时身体直立在水中，用脚在水下快速搅动以保持身体不沉。"
@@ -2871,7 +2871,7 @@
       "id": "cq-00145",
       "headword": "依教",
       "pinyin": "yi1 jiao4",
-      "wordClass": "形容词；动词短语",
+      "wordClass": "形容词；动词",
       "definitions": [
         {
           "text": "听劝、服理、懂规矩，愿意照规矩或约定办事。"
@@ -2908,7 +2908,7 @@
       "id": "cq-00147",
       "headword": "啄瞌睡",
       "pinyin": "zua2 ko2 sui4",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "打瞌睡，头一点一点地犯困的样子。又作「栽(zuai1)瞌睡」「打瞌睡」。"
@@ -2967,7 +2967,7 @@
       "id": "cq-00150",
       "headword": "跶扑爬",
       "pinyin": "da2 pu2 pa2",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "variants": ["跶扑趴","哒扑爬"],
       "definitions": [
         {
@@ -2986,7 +2986,7 @@
       "id": "cq-00151",
       "headword": "扯噗鼾",
       "pinyin": "ce3 pu2 han4",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "打鼾、睡觉时发出鼾声。又作「打噗鼾」。"
@@ -3004,7 +3004,7 @@
       "id": "cq-00152",
       "headword": "打闪闪",
       "pinyin": "da3 san3 san3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "腿因害怕、紧张等颤抖。"
@@ -3090,7 +3090,7 @@
       "id": "cq-00156",
       "headword": "憨吃傻胀",
       "pinyin": "han1 ci2 ha3 zang4",
-      "wordClass": "动词短语；形容词",
+      "wordClass": "动词；形容词",
       "definitions": [
         {
           "text": "形容人暴饮暴食，只顾猛吃、不知节制。"
@@ -3108,7 +3108,7 @@
       "id": "cq-00157",
       "headword": "耍得好",
       "pinyin": "sua3 de2 hao3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "形容彼此之间关系好、交情深、来往密切。"
@@ -3347,7 +3347,7 @@
       "id": "cq-00170",
       "headword": "𧿨命",
       "pinyin": "ban3 min4",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "variants": ["板命"],
       "definitions": [
         {
@@ -3384,7 +3384,7 @@
       "id": "cq-00172",
       "headword": "打望",
       "pinyin": "da3 wang4",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "四处张望，寻找目标。多指男性在街上望美女。"
@@ -3402,7 +3402,7 @@
       "id": "cq-00173",
       "headword": "鹞子翻叉",
       "pinyin": "liao4 zi3 fan1 ca1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "侧空翻动作。"
@@ -3494,7 +3494,7 @@
       "id": "cq-00177",
       "headword": "打牙祭",
       "pinyin": "da3 ya2 ji4",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "偶尔吃好一点、改善伙食。"
@@ -3512,7 +3512,7 @@
       "id": "cq-00178",
       "headword": "扯把子",
       "pinyin": "ce3 ba3 zi3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "撒谎、胡说。"
@@ -3530,7 +3530,7 @@
       "id": "cq-00179",
       "headword": "打堆堆",
       "pinyin": "da3 dui1 dui1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "成群地挤在一起。"
@@ -3574,7 +3574,7 @@
       "id": "cq-00181",
       "headword": "扯霍闪",
       "pinyin": "ce3 ho2 san3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "闪电。"
@@ -3592,7 +3592,7 @@
       "id": "cq-00182",
       "headword": "吃麻麻_儿鱼",
       "pinyin": "ci2 ma2 mar2-1 yu2",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "蒙骗、坑骗。「吃……的麻麻_儿鱼」就是蒙骗某人。"
@@ -3647,7 +3647,7 @@
       "id": "cq-00185",
       "headword": "打下手",
       "pinyin": "da3 xia4 sou3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "在旁边协助别人做事。"
@@ -3665,7 +3665,7 @@
       "id": "cq-00186",
       "headword": "打急抓",
       "pinyin": "da3 ji2 zua1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "临时慌忙行动、紧急赶着去做。"
@@ -3683,7 +3683,7 @@
       "id": "cq-00187",
       "headword": "打偏偏",
       "pinyin": "da3 pian1 pian1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "走路或行动摇晃、不稳，方向偏斜。"
@@ -3821,7 +3821,7 @@
       "id": "cq-00194",
       "headword": "打烂仗",
       "pinyin": "da3 lan4 zang4",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "variants": ["打烂账","打难仗"],
       "definitions": [
         {
@@ -3840,7 +3840,7 @@
       "id": "cq-00195",
       "headword": "擦烂污",
       "pinyin": "ca2 lan4 vu1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "variants": ["拆烂污"],
       "definitions": [
         {
@@ -3878,7 +3878,7 @@
       "id": "cq-00197",
       "headword": "骑马马肩_儿",
       "pinyin": "qi2 ma3 ma3 jiar1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "小孩骑在大人肩膀上。"
@@ -3896,7 +3896,7 @@
       "id": "cq-00198",
       "headword": "栽沕头_儿",
       "pinyin": "zai1 mi4 ter2",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "variants": ["栽没头_儿", "栽渳头_儿"],
       "definitions": [
         {
@@ -4042,7 +4042,7 @@
       "id": "cq-00205",
       "headword": "灯_儿晃",
       "pinyin": "der1 huang4",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "到处闲逛、游荡，不做正事。"
@@ -4072,7 +4072,7 @@
       "id": "cq-00207",
       "headword": "打挤",
       "pinyin": "da3 ji3",
-      "wordClass": "动词短语；形容词",
+      "wordClass": "动词；形容词",
       "definitions": [
         {
           "text": "拥挤、挤在一起。"
@@ -4325,7 +4325,7 @@
       "id": "cq-00218",
       "headword": "走人户_儿",
       "pinyin": "zou3 ren2 fer4",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "到亲戚朋友家串门、拜访。"
@@ -4361,7 +4361,7 @@
       "id": "cq-00220",
       "headword": "幺台",
       "pinyin": "yao1 tai2",
-      "wordClass": "动词短语；名词",
+      "wordClass": "动词；名词",
       "variants": ["吆台"],
       "definitions": [
         {
@@ -4397,7 +4397,7 @@
       "id": "cq-00221",
       "headword": "幺不倒台",
       "pinyin": "yao1 bu2 dao3 tai2",
-      "wordClass": "形容词；动词短语",
+      "wordClass": "形容词；动词",
       "variants": ["吆不倒台","幺不到台"],
       "definitions": [
         {
@@ -4435,7 +4435,7 @@
       "id": "cq-00223",
       "headword": "虚场合",
       "pinyin": "xu1 cang2 ho2",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "怯场、怕事，遇到关键时候不敢上前。"
@@ -5020,7 +5020,7 @@
       "id": "cq-00252",
       "headword": "涮坛子",
       "pinyin": "suan4 tan2 zi3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "variants": ["算弹指"],
       "definitions": [
         {
@@ -5047,7 +5047,7 @@
       "id": "cq-00253",
       "headword": "闪色子",
       "pinyin": "san3 se2 zi3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "出故障、出岔子，不能正常运转。"
@@ -5184,7 +5184,7 @@
       "id": "cq-00260",
       "headword": "装狗_儿",
       "pinyin": "zuang1 ger3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "小孩生病、不舒服。儿语。"
@@ -5403,7 +5403,7 @@
       "id": "cq-00271",
       "headword": "耍朋友",
       "pinyin": "sua3 pong2 you3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "谈恋爱、处对象。"
@@ -5666,7 +5666,7 @@
       "id": "cq-00284",
       "headword": "个挑个选",
       "pinyin": "go4 diao1 go4 xuan3",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "一个一个地挑选、仔细挑选。"
@@ -5729,7 +5729,7 @@
       "id": "cq-00287",
       "headword": "舔肥",
       "pinyin": "tian3 fei2",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "阿谀奉承、拍马屁。"
@@ -5784,7 +5784,7 @@
       "id": "cq-00290",
       "headword": "打横爬",
       "pinyin": "da3 hun2 pa2",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "variants": ["打横耙"],
       "definitions": [
         {
@@ -5821,7 +5821,7 @@
       "id": "cq-00292",
       "headword": "装莽",
       "pinyin": "zuang1 mang1",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "装傻、装糊涂。"
@@ -5885,7 +5885,7 @@
       "id": "cq-00295",
       "headword": "赶场",
       "pinyin": "gan3 cang2",
-      "wordClass": "动词短语",
+      "wordClass": "动词",
       "definitions": [
         {
           "text": "赶集，到场镇买卖东西。"
@@ -5972,7 +5972,7 @@
       "id": "cq-00300",
       "headword": "臊皮",
       "pinyin": "sao4 pi2",
-      "wordClass": "形容词；动词短语",
+      "wordClass": "形容词；动词",
       "definitions": [
         {
           "text": "丢脸、失面子。"
@@ -6194,7 +6194,7 @@
       "id": "cq-00311",
       "headword": "咋子",
       "pinyin": "zua4/za4 zi3",
-      "wordClass": "疑问代词",
+      "wordClass": "代词",
       "definitions": [
         {
           "text": "做什么；怎么。由「做啥子」合音而来。"
@@ -6212,7 +6212,7 @@
       "id": "cq-00312",
       "headword": "啥子",
       "pinyin": "sa4 zi3",
-      "wordClass": "疑问代词",
+      "wordClass": "代词",
       "definitions": [
         {
           "text": "什么。"
@@ -6354,6 +6354,349 @@
           "text": "他直顾往前头走，喊他万白遍都听不到。",
           "pinyin": "ta1 zi2 gu4 wang3 qian2 tou2-1 zou3 han3 ta1 wan4 be2 pian4 dou1 tin1 bu2 dao3",
           "translation": "他一直往前走，喊了他一万遍都听不见。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00321",
+      "headword": "要便_儿",
+      "pinyin": "yao4 biar4",
+      "wordClass": "副词",
+      "definitions": [
+        {
+          "text": "有时候、偶尔。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他要便_儿来一回_儿，平时基本上不得来。",
+          "pinyin": "ta1 yao4 biar4 lai2 yi2 huer2, pin2 si2 ji1 ben3 sang4 bu2 de2 lai2",
+          "translation": "他偶尔来一次，平时基本不来。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00322",
+      "headword": "扮家家酒_儿",
+      "pinyin": "ban4 ga1 ga1 jier3",
+      "wordClass": "动词",
+      "variants": ["办家家酒_儿"],
+      "definitions": [
+        {
+          "text": "玩过家家游戏。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "我在跟姊妹伙在扮家家酒_儿。",
+          "pinyin": "wo3 dai4 gen1 zi3 mei4 ho3 ban4 ga1 ga1 jier3",
+          "translation": "我在跟好姊妹玩过家家。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00323",
+      "headword": "𩛲",
+      "pinyin": "mang1",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "喂。多用于给小孩喂食。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "𩛲他两口饭",
+          "pinyin": "mang1 ta1 liang3 kou3 fan4",
+          "translation": "喂他吃两口饭"
+        }
+      ]
+    },
+    {
+      "id": "cq-00324",
+      "headword": "𩛲𩛲",
+      "pinyin": "mang1 mang1/mang3 mang3",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "饭。儿语。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "妈妈，我要吃𩛲𩛲。",
+          "pinyin": "ma1 ma1 wo3 yao4 ci2 mang1 mang1",
+          "translation": "妈妈，我要吃饭。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00325",
+      "headword": "大势",
+      "pinyin": "da4 si4",
+      "wordClass": "形容词",
+      "definitions": [
+        {
+          "text": "爱摆架子、自以为是的样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他大势得很，哪个的话都听不进去。",
+          "pinyin": "ta1 da4 si4 de2 hen3 la3 gə4 li1 hua4 dou1 tin1 bu2 jin4 qi4-1",
+          "translation": "他很爱摆架子，谁的话都听不进去。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00326",
+      "headword": "带把子",
+      "pinyin": "dai4 ba4 zi3",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "说话夹带脏话、粗话。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫带把子哦，小娃儿还在侧边的。",
+          "pinyin": "li3 mo2 dai4 ba4 zi3 o3, xiao3 wa2 er2-1 hai2 dai4 ze1 bian1 li1",
+          "translation": "你别说脏话，小孩子还在旁边。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00327",
+      "headword": "逮猫_儿",
+      "pinyin": "dai2 mar1",
+      "wordClass": "动词；名词",
+      "definitions": [
+        {
+          "text": "躲猫猫、捉迷藏。同「藏猫_儿」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "几个娃儿在巷巷_儿头逮猫_儿。",
+          "pinyin": "ji3 gə4 wa2 er2-1 dai4 hang4 har4-1 tou2 dai2 mar1",
+          "translation": "几个孩子在巷子里玩捉迷藏。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00328",
+      "headword": "藏猫_儿",
+      "pinyin": "qiang2 mar1",
+      "wordClass": "动词；名词",
+      "variants": ["耍藏藏猫_儿"],
+      "definitions": [
+        {
+          "text": "躲猫猫、捉迷藏。同「逮猫_儿」。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "瑶瑶姐姐，你跟我们一路藏猫_儿耍嘛。",
+          "pinyin": "yao2 yao2 jie3 jie3 li3 gen1 wo3 men1 yi2 lu4 qiang2 mar1 sua3 ma3",
+          "translation": "瑶瑶姐姐，你跟我们一起玩躲猫猫吧。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00329",
+      "headword": "打浑吞",
+      "pinyin": "da3 kun2 ten1",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "吃东西不嚼烂，囫囵吞下。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫打浑吞，嚼烂了再吞。",
+          "pinyin": "li3 mo2 da3 kun2 ten1, jiao4 lan4 lao3 zai4 ten1",
+          "translation": "你别囫囵吞，嚼烂了再咽。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00330",
+      "headword": "下矮桩",
+      "pinyin": "xia4 ngai3 zuang1",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "主动低头、让步或赔礼；给人台阶下。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "他们两口儿又闹卯了，最后男娃儿给她下了个矮桩。",
+          "pinyin": "ta1 men1 liang3 kou3 er2 you4 lao4 mao3 lao3 zui4 hou4 lan2 wa2 er2-1 ge1 ta1 xia4 lao3 gə4 ngai3 zuang1",
+          "translation": "他们两个又闹矛盾了，最后男方去赔了不是。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00331",
+      "headword": "蜞蟆_儿",
+      "pinyin": "ke2 mar3 / qie2 mar1",
+      "wordClass": "名词",
+      "variants": ["蜞蚂_儿", "克蚂_儿", "蜞猫_儿"],
+      "definitions": [
+        {
+          "text": "青蛙。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00332",
+      "headword": "棒老二",
+      "pinyin": "bang4 lao3 er4",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "旧时对土匪、强盗的称呼。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "从前这一堂经常有棒老二。",
+          "pinyin": "cong2 qian2 le4 yi2 tang2 jin1 sang2 you3 bang4 lao3 er4",
+          "translation": "从前这一带常有土匪出没。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00333",
+      "headword": "天棒",
+      "pinyin": "tian1 bang4",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "鲁莽大胆、无法无天的人。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "个天棒娃儿！喝了酒就敢到处惹事。",
+          "pinyin": "gə4 tian1 bang4 wa2 er2-1 ho1 lao3 jiu3 dou4 gan3 dao4 cu4-1 re3 si4",
+          "translation": "你这孩子简直要翻天！喝了酒就敢到处惹事。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00334",
+      "headword": "吃欺头_儿",
+      "pinyin": "ci2 qi1 ter2",
+      "wordClass": "动词",
+      "variants": ["吃魌头_儿"],
+      "definitions": [
+        {
+          "text": "占便宜。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你娃想吃我的欺头，门_儿都没得！。",
+          "pinyin": "li3 wa2 xiang3 ci2 wo3 li1 qi1 ter2 mer2 dou1 mei1 de2",
+          "translation": "你小子想占我的便宜，没门儿！"
+        }
+      ]
+    },
+    {
+      "id": "cq-00335",
+      "headword": "屄",
+      "pinyin": "pi1",
+      "wordClass": "名词",
+      "variants": ["批","P"],
+      "definitions": [
+        {
+          "text": "女性外阴。粗俗说法。常置于某些名词前加强骂意，如「屄娃儿」；也可以本身作为名词骂人，如「宝屄」。"
+        }
+      ],
+      "note": "粗话，慎用。"
+    },
+    {
+      "id": "cq-00336",
+      "headword": "宝筛筛",
+      "pinyin": "bao3 sai1 sai1",
+      "wordClass": "形容词",
+      "variants": ["宝塞塞"],
+      "definitions": [
+        {
+          "text": "傻乎乎、出洋相的样子。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你莫宝筛筛的木起，看到客人来了要招待。",
+          "pinyin": "li3 mo2 bao3 sai1 sai1 li1 mu4 qi3 kan4 dao3 ke2 ren2 lai2 lao3 yao4 zao1 dai4",
+          "translation": "你别傻乎乎的，看见客人来了要招待。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00337",
+      "headword": "包谷",
+      "pinyin": "bao1 gu2",
+      "wordClass": "名词",
+      "variants": ["苞谷"],
+      "definitions": [
+        {
+          "text": "玉米。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00338",
+      "headword": "洋芋",
+      "pinyin": "yang2 yu4",
+      "wordClass": "名词",
+      "definitions": [
+        {
+          "text": "土豆、马铃薯。"
+        }
+      ],
+      "fig": true
+    },
+    {
+      "id": "cq-00339",
+      "headword": "敲砂罐_儿",
+      "pinyin": "kao1 sa1 guar4",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "枪毙、处决。旧时说法。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "周克华这种害人精必须要拖去敲砂罐_儿。",
+          "pinyin": "zou1 ke2 hua2 le4 zong3 hai4 ren2 jin1 bi2 xu1 yao4 to1 qi4 kao1 sa1 guar4",
+          "translation": "周克华这种害人精必须要拖去枪毙。"
+        }
+      ]
+    },
+    {
+      "id": "cq-00340",
+      "headword": "砍脑壳",
+      "pinyin": "kan3 lao3 ko2",
+      "wordClass": "动词",
+      "definitions": [
+        {
+          "text": "杀头、处决。常用于咒人倒霉、不得好死。"
+        }
+      ],
+      "examples": [
+        {
+          "text": "你一天净干这些伤天害人的事情，迟早都要遭砍脑壳。",
+          "pinyin": "li3 yi2 tian1 jin4 gan4 le4 xi1 sang1 tian1 hai4 ren2 li1 si4 qin2 ci2 zao3 dou1 yao4 zao2 kan3 lao3 ko2",
+          "translation": "你整天净干伤天害理的事，早晚会遭报应。"
         }
       ]
     }

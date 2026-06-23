@@ -18,6 +18,12 @@ const DEFAULT_TOPIC_INDEXES = [
     title: "四字词语",
     generated: "four-character-headword",
     description: ""
+  },
+  {
+    id: "abb-words",
+    title: "ABB式词语",
+    generated: "abb-headword",
+    description: ""
   }
 ];
 const WELCOME_ENTRY_COUNT = 10;
@@ -224,6 +230,11 @@ function isFourCharacterEntry(entry) {
   return Array.from(normalizedHeadwordForLength(entry)).length === 4;
 }
 
+function isAbbEntry(entry) {
+  const chars = Array.from(normalizedHeadwordForLength(entry));
+  return chars.length === 3 && chars[0] !== chars[1] && chars[1] === chars[2];
+}
+
 function topicIndexById(id) {
   return state.topicIndexes.find((topic) => topic.id === id);
 }
@@ -238,6 +249,10 @@ function topicIds(topic) {
 
   if (topic.generated === "four-character-headword") {
     ids.push(...state.entries.filter(isFourCharacterEntry).map((entry) => entry.id));
+  }
+
+  if (topic.generated === "abb-headword") {
+    ids.push(...state.entries.filter(isAbbEntry).map((entry) => entry.id));
   }
 
   if (Array.isArray(topic.entries)) {

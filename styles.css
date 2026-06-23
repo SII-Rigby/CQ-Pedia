@@ -1939,19 +1939,30 @@ h1 {
 }
 
 .initial-grid button {
+  display: flex;
+  min-width: 0;
   min-height: 58px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   font-family: var(--font-sans);
   font-size: 18px;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
 }
 
 .initial-grid small {
   display: block;
+  max-width: 100%;
   margin-top: 4px;
   color: inherit;
   opacity: 0.72;
   font-size: 11px;
   font-weight: 800;
+  line-height: 1.2;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .visually-hidden {
@@ -2613,6 +2624,25 @@ h1 {
 
   .initial-grid.topic-grid {
     grid-template-columns: 1fr;
+  }
+
+  .initial-grid:not(.topic-grid) {
+    gap: 8px;
+    padding: 14px;
+  }
+
+  .initial-grid:not(.topic-grid) button {
+    min-height: 64px;
+    padding: 8px 4px;
+    font-size: 16px;
+  }
+
+  .initial-grid.word-class-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .initial-grid small {
+    font-size: 10px;
   }
 }
 
