@@ -3,3 +3,5 @@
 重庆方言*
 四川方言*
 assets/*.pptx
+data/new-entries.json
+scripts/add_entries.py

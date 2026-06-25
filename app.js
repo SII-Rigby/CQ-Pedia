@@ -853,25 +853,20 @@ async function loadEntries() {
   }
 }
 
-function syncSearch() {
+function submitSearch() {
   state.query = els.input.value.trim();
   updateMode();
   state.page = 1;
   render();
 }
 
-window.cqSearch = syncSearch;
+window.cqSearch = submitSearch;
 
 els.form.addEventListener("submit", (event) => {
   event.preventDefault();
-  syncSearch();
+  submitSearch();
 });
 
-["input", "change", "search", "keyup", "compositionend"].forEach((eventName) => {
-  els.input.addEventListener(eventName, syncSearch);
-});
-
-els.form.querySelector("button[type='submit']")?.addEventListener("click", syncSearch);
 
 els.results.addEventListener("click", (event) => {
   const button = event.target.closest("button[data-page]");
