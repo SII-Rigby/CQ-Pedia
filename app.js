@@ -854,10 +854,14 @@ async function loadEntries() {
 }
 
 function submitSearch() {
-  state.query = els.input.value.trim();
+  syncQueryFromInput();
   updateMode();
   state.page = 1;
   render();
+}
+
+function syncQueryFromInput() {
+  state.query = els.input.value.trim();
 }
 
 window.cqSearch = submitSearch;
@@ -947,6 +951,7 @@ indexEls.toggle?.addEventListener("click", () => {
 indexEls.panel?.addEventListener("click", (event) => {
   const removeButton = event.target.closest("button[data-remove-filter]");
   if (removeButton) {
+    syncQueryFromInput();
     if (removeButton.dataset.removeFilter === "initial") {
       state.initial = "";
     }
@@ -995,6 +1000,8 @@ indexEls.modal?.addEventListener("click", (event) => {
   if (!initialButton && !wordClassButton && !topicButton) {
     return;
   }
+
+  syncQueryFromInput();
 
   if (initialButton) {
     state.initial = initialButton.dataset.initial;

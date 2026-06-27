@@ -1936,7 +1936,7 @@
     {
       "id": "cq-00230",
       "headword": "荒篮_儿",
-      "pinyin": "huang1 lar2/lar2-1",
+      "pinyin": "huang1 lar2/lar1",
       "wordClass": "名词",
       "definitions": [{"text":"废品、破烂物。"},{"text":"收废品的人。"}],
       "note": "过去称收废品的篮子叫「荒篮」，后代指废品及收废品从业者。",
@@ -3295,6 +3295,7 @@
       "id": "cq-00391",
       "headword": "懒屄壳吊",
       "pinyin": "lan3 pi1 ko2 diao4",
+      "variants": "懒批壳掉",
       "wordClass": "形容词",
       "definitions": [{"text":"形容人非常懒惰，能不动就不动，连本该做的小事也不愿做。也作「懒屄实吊」。"}],
       "note": "含粗俗成分，多用于熟人间骂人、调侃或强烈抱怨。"
@@ -3330,8 +3331,8 @@
       "headword": "周吴郑王",
       "pinyin": "zou1 vu2-3 zen4 wang2",
       "wordClass": "形容词",
-      "definitions": [{"text":"衣着穿戴齐整、讲究而正式。"}],
-      "examples": [{"text":"去楼脚拿个快递，她还把头发梳得周吴郑王的，穿双高跟鞋_儿才下去。","pinyin":"qi4 lou2 jio2 la2 gə4 kuai4 di4 ta1 hai2 ba3 tou2 fa2 su1 de2 zou1 vu2-3 zen4 wang2 li1 cuan1 suang1 gao1 gen1 har2 tai2 xia4 qi4-1","translation":"去楼下拿个快递，她还把头发梳得很正式，穿上高跟鞋才下去。"}]
+      "definitions": [{"text":"严肃正经的样子。"},{"text":"衣着穿戴齐整、讲究而正式。"}],
+      "examples": [{"text":"他长年都是一副周吴郑王的样儿，没得几个愿意跟他接触。","pinyin":"ta1 cang2 lian2 dou1 si4 yi2 fu4 zou1 vu2-3 zen4 wang2 li1 yang4 er2 mei1 de2 ji3 gə4 yuan4 yi4 gen1 ta1 jie2 zu2","translation":"他长年都是一副严肃正经的样子，没几个人愿意跟他接触。"},{"text":"去楼脚拿个快递，她还把头发梳得周吴郑王的，穿双高跟鞋_儿才下去。","pinyin":"qi4 lou2 jio2 la2 gə4 kuai4 di4 ta1 hai2 ba3 tou2 fa2 su1 de2 zou1 vu2-3 zen4 wang2 li1 cuan1 suang1 gao1 gen1 har2 tai2 xia4 qi4-1","translation":"去楼下拿个快递，她还把头发梳得很正式，穿上高跟鞋才下去。"}]
     },
     {
       "id": "cq-00396",
@@ -3852,6 +3853,336 @@
       "variants": ["砣"],
       "definitions": [{"text":"用于成团、成块而不规则的事物。"}],
       "examples": [{"text":"一坨朒朒 | 一坨豆花_儿 | 一坨石头","pinyin":"yi2 to2 ga3 ga3 | yi2 to2 dou4 huar1 | yi2 to2 si2 tou2-1","translation":"一坨肉 | 一块豆花 | 一块石头"}]
+    },
+    {
+      "id": "cq-00459",
+      "headword": "酸屄壳吊",
+      "pinyin": "suan1 pi1 ko2 diao4",
+      "variants": "酸批壳掉",
+      "wordClass": "形容词",
+      "definitions": [{"text":"说话、举止故意讥讽、刁难的样子。也作「屄酸壳吊」。近义词「弯酸」。"}],
+      "note": "含粗俗成分。"
+    },
+    {
+      "id": "cq-00460",
+      "headword": "打胡乱说",
+      "pinyin": "da3 fu2 luan4 so2",
+      "wordClass": "动词",
+      "definitions": [{"text":"胡说八道，东拉西扯地乱说。"}],
+      "examples": [{"text":"他喝了两口酒就开始打胡乱说，把黑的说成白的。","pinyin":"ta1 ho1 lao3 liang3 kou3 jiu3 dou4 kai1 si3 da3 fu2 luan4 so2 ba3 he2 li1 so2 cen2 be2 li1","translation":"他喝了两口酒就开始胡说八道，把黑的说成白的。"}]
+    },
+    {
+      "id": "cq-00461",
+      "headword": "落雨兮兮",
+      "pinyin": "lo2 yu3 xi1 xi1",
+      "wordClass": "形容词",
+      "definitions": [{"text":"下着雨、雨水绵绵不断的样子。"}],
+      "examples": [{"text":"外头落雨兮兮的，晾到坝子头的衣裳下打湿了。","pinyin":"wai4 tou2 lo2 yu3 xi1 xi1 li1 liang4 dao3 ba4 zi3 tou2 li1 yi1 sang2 ha4 da3 si2 lao3","translation":"外面一直下着雨，晾在坝子上的衣服全淋湿了。"}]
+    },
+    {
+      "id": "cq-00462",
+      "headword": "肥不棱登",
+      "pinyin": "fei2 bu2 len1 den1",
+      "wordClass": "形容词",
+      "variants": ["肥不楞登"],
+      "definitions": [{"text":"肥胖、胖乎乎的样子。"}],
+      "note": "也说「肥不拢耸」「肥不隆冬」「肥不溜秋」。",
+      "examples": [{"text":"那只猫儿吃得肥不棱登的，跳个窗台都要缓半天。","pinyin":"la4 zi1 mao1 er2 ci2 de2 fei2 bu2 len1 den1 li1 tiao4 gə4 cang1 tai2 dou1 yao4 huan3 ban4 tian1","translation":"那只猫吃得胖乎乎的，跳上窗台都要缓半天。"}]
+    },
+    {
+      "id": "cq-00463",
+      "headword": "睖眉睖眼_儿",
+      "pinyin": "len2 mi2 len2 yar3",
+      "wordClass": "形容词",
+      "definitions": [{"text":"皱着眉、瞪着眼的样子。多形容生气、不高兴或凶巴巴地看人。"}],
+      "examples": [{"text":"她睖眉睖眼_儿地望到我，好像我欠他很多钱样。","pinyin":"ta1 len2 mi2 len2 yar3 li1 wang4 dao3 wo3 hao3 qiang4 wo3 qian4 ta1 he1 do1 qian2 yang4","translation":"她皱眉瞪眼地看着我，好像我欠了他很多钱。"}]
+    },
+    {
+      "id": "cq-00464",
+      "headword": "不存在",
+      "pinyin": "bu2 cen2 zai4",
+      "wordClass": "叹词",
+      "definitions": [{"text":"表示没有这回事、不成问题或不必见外。多用于朋友之间表示仗义、慷慨。"}],
+      "examples": [{"text":"这顿饭还让你给钱？不存在！哪有让你一个学生娃儿买单的。","pinyin":"le4 den4 fan4 hai2 rang4 li3 ge1 qian2 bu2 cen2 zai4 la3 you3 rang4 li3 yi2 gə4 xio2 sen1 wa2 er2-1 mai3 dan1 li1","translation":"这顿饭还让你付钱？不可能！哪有让你一个学生买单的。"}]
+    },
+    {
+      "id": "cq-00465",
+      "headword": "灯_儿拉麻汤",
+      "pinyin": "der1 la1 ma2 tang1",
+      "wordClass": "形容词",
+      "definitions": [{"text":"耍小聪明、出花招的样子。"},{"text":"吊儿郎当、不务正业，不认真做正事。近义于「灯儿晃」。"}],
+      "note": "也说「灯儿麻汤」「灯儿拉当」「灯_儿拉个麻汤」「灯_儿拉麻当」。其来源或与身上物件甩动时发出的杂乱声响有关。",
+      "examples": [{"text":"我盯着起你的秤的哈，不要给我灯_儿拉麻汤的。","pinyin":"wo3 din2 dao3 qi3 li3 li1 cen4 li1 ha3 bu2 yao4 ge1 wo3 der1 la1 ma2 tang1 li1","translation":"我一直盯着你的秤的，不要给我耍花招的。"},{"text":"他一天灯_儿拉麻汤的，班_儿不去上，屋也不啷个落","pinyin":"ta1 yi2 tian1 der1 la1 ma2 tang1 li1 bar1 bu2 qi4 sang4 vu2 ye3 bu2 lang3 gə4-1 lo2","translation":"他整天吊儿郎当的，班不去上，家也不怎么回。"}]
+    },
+    {
+      "id": "cq-00466",
+      "headword": "威威",
+      "pinyin": "wei1 wei1",
+      "wordClass": "名词",
+      "definitions": [{"text":"鹅。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00467",
+      "headword": "含血喷天",
+      "pinyin": "han2 xue2 fen4 tian1",
+      "wordClass": "形容词；动词",
+      "definitions": [{"text":"恶狠狠咒骂的样子。"}],
+      "examples": [{"text":"明明是他各人把杯子跶了，还站在门口含血喷天地说我冤枉他。","pinyin":"min2 min2 si4 ta1 go2 ren1 ba3 bei1 zi3 da2 lao3 hai2 zan4 dai4 men2 kou3 han2 xue2 fen4 tian1 li1 so2 wo3 yuan1 wang3 ta1","translation":"明明是他自己把杯子摔了，还站在门口恶狠狠地骂我冤枉他。"}]
+    },
+    {
+      "id": "cq-00468",
+      "headword": "踂跐跐",
+      "pinyin": "lie4 ci1 ci1",
+      "wordClass": "形容词",
+      "variants": ["踂摛摛"],
+      "definitions": [{"text":"走路腿脚不利落、姿态别扭的样子。"},{"text":"磨磨蹭蹭、行动拖沓的样子。"}],
+      "note": "也说「踂摛摛」。",
+      "examples": [{"text":"他脚上靸起两只大拖鞋_儿，踂跐跐地走了半天都还没走到门口。","pinyin":"ta1 jio2 sang4 sa2 qi3 liang3 zi1 da4 to1 har2 lie4 ci1 ci1 li1 zou3 lao3 ban4 tian1 dou1 hai2 mei1 zou3 dao3 men2 kou3","translation":"他脚上拖着两只大拖鞋，别别扭扭地走了半天还没走到门口。"},{"text":"喊他收拾书包，他踂跐跐的，半个钟头都还没出门_儿。","pinyin":"han3 ta1 sou1 si2 su1 bao1 ta1 lie4 ci1 ci1 li1 ban4 gə4 zong1 tou2 dou1 hai2 mei1 cu2 mer2","translation":"叫他收拾书包，他磨磨蹭蹭的，半个小时都还没出门。"}]
+    },
+    {
+      "id": "cq-00469",
+      "headword": "跐",
+      "pinyin": "zi1",
+      "wordClass": "动词",
+      "definitions": [{"text":"摩擦、蹭。"}],
+      "examples": [{"text":"莫在地上跐，新拖的地都遭你跐花了。","pinyin":"mo2 dai4 di4 sang4 zi1 xin1 to1 li1 di4 dou1 zao2 li3 zi1 hua1 lao3","translation":"别在地上蹭，新拖的地都被你蹭花了。"}]
+    },
+    {
+      "id": "cq-00470",
+      "headword": "盯",
+      "pinyin": "din2",
+      "wordClass": "动词",
+      "definitions": [{"text":"集中目光看，盯。"}],
+      "examples": [{"text":"他盯到手机屏幕半天，连车子来了都没看到。","pinyin":"ta1 din2 dao3 sou3 ji1 pin2 mo4 ban4 tian1 lian2 ce1 zi3 lai2 lao3 dou1 mei1 kan4 dao3","translation":"他盯着手机屏幕看了半天，连车来了都没看见。"}]
+    },
+    {
+      "id": "cq-00471",
+      "headword": "苶",
+      "pinyin": "lia2",
+      "wordClass": "形容词",
+      "definitions": [{"text":"疲惫、没精神、蔫巴的样子。"}],
+      "examples": [{"text":"连着上了七天班_儿，人都上苶了。","pinyin":"lian2 dao3 sang4 lao3 qi2 tian1 bar1 ren2 dou1 sang4 lia2 lao3","translation":"连着上了七天班，人都上蔫巴了。"}]
+    },
+    {
+      "id": "cq-00472",
+      "headword": "黏巴子",
+      "pinyin": "lia1 ba1 zi3",
+      "wordClass": "名词",
+      "definitions": [{"text":"苍耳。"},{"text":"比喻爱撒娇、爱黏着人的人，多用于小孩。也说「黏巴_儿」。"}],
+      "fig": true,
+      "examples": [{"text":"裤脚高头黏满了黏巴子，扯都扯不脱。","pinyin":"ku4 jio2 gao1 tou2 lia1 man3 lao3 lia1 ba1 zi3 ce3 dou1 ce3 bu2 to2","translation":"裤脚上沾满了苍耳，扯都扯不掉。"},{"text":"她是爷爷的黏巴_儿。","pinyin":"ta1 si4 ye2 ye2 li1 lia1 bar1","translation":"她是爷爷最黏人的小宝贝。"}]
+    },
+    {
+      "id": "cq-00473",
+      "headword": "奤",
+      "pinyin": "tai3",
+      "wordClass": "动词",
+      "variants": ["呔"],
+      "definitions": [{"text":"腆起、挺起肚子。多用于指人懒惰的场景。"},{"text":"故意不慌不忙地拖延，嘴上答应却迟迟不动。"}],
+      "examples": [{"text":"他一吃饱就奤到沙发上不动了。","pinyin":"ta1 yi2 ci2 bao3 dou4 tai3 dao3 sa1 fa2 sang4 bu2 dong4 lao3","translation":"他一吃饱饭就躺到沙发上不动了。"},{"text":"她不说不办，就恁个给你奤起。","pinyin":"ta1 bu2 so2 bu2 ban4 dou4 len4 gə4-1 ge1 li3 tai3 qi3","translation":"她不说也不办，就这样给你拖着。"}]
+    },
+    {
+      "id": "cq-00474",
+      "headword": "谈",
+      "pinyin": "tan4",
+      "wordClass": "动词",
+      "definitions": [{"text":"讲、说、谈论。"},{"text":"说亲、议婚。"}],
+      "examples": [{"text":"你有啥子话就谈嘛。","pinyin":"li3 you3 sa4 zi3 hua4 dou4 tan4 ma3","translation":"你有什么话就说吧。"},{"text":"王媒婆_儿这几天在给他谈亲，听说女方屋头条件还可以。","pinyin":"wang2 mei2 per2 le4 ji3 tian1 dai4 ge1 ta1 tan4 qin1 tin1 so2 lü3 fang1 vu2 tou2 tiao2 jian4 hai2 ko3 yi3","translation":"王媒婆这几天在替他谈婚事，听说女方家条件还可以。"}]
+    },
+    {
+      "id": "cq-00475",
+      "headword": "顿",
+      "pinyin": "ten3",
+      "wordClass": "动词；名词",
+      "definitions": [{"text":"颠簸、震动。"},{"text":"停顿、迟疑；也指临时停一下、犹豫一下。可以加儿化「顿_儿(ter3)」"}],
+      "examples": [{"text":"这条路包包坑坑的，车子顿得人脑壳都痛。","pinyin":"le4 tiao2 lu4 bao1 bao1 ken1 ken1 li1 ce1 zi3 ten3 de2 ren2 lao3 ko2 dou1 tong4","translation":"这条路坑坑洼洼的，车子颠得人头都痛。"},{"text":"《滕王阁序》恁个长的文章，她背下来硬是顿都不打一个。","pinyin":"ten2 wang2 go2 xu4 len4 gə4-1 cang2 li1 wen2 zang1 ta1 bei4 xia4 lai2 ngen4 si4 ten3 dou1 bu2 da3 yi2 gə4","translation":"《滕王阁序》这么长的文章，她背下来愣是一点儿没卡住。"}]
+    },
+    {
+      "id": "cq-00476",
+      "headword": "跳礅_儿",
+      "pinyin": "tiao4 der1",
+      "wordClass": "名词",
+      "variants": ["跳磴_儿"],
+      "definitions": [{"text":"放在浅而宽的河沟中，供人踩着过河的石头。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00477",
+      "headword": "腆",
+      "pinyin": "tie3/tia3/tian3",
+      "wordClass": "动词",
+      "definitions": [{"text":"挺起、凸出。多指肚子。"}],
+      "examples": [{"text":"他腆起个肚皮站到镜子前头，硬说各人一点_儿都没长胖。","pinyin":"ta1 tie3 qi3 gə4 du4 pi2 zan4 dao3 jin4 zi3 qian2 tou2-1 ngen4 so2 go2 ren1 yi2 diar3 dou1 mei1 zang3 pang4","translation":"他挺着肚子站在镜子前，硬说自己一点都没长胖。"}]
+    },
+    {
+      "id": "cq-00478",
+      "headword": "雾罩",
+      "pinyin": "vu4 zao4",
+      "wordClass": "名词",
+      "definitions": [{"text":"雾气；像雾一样笼罩着的水汽。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00479",
+      "headword": "搲",
+      "pinyin": "wa3",
+      "wordClass": "动词",
+      "variants": ["攨"],
+      "definitions": [{"text":"舀、挖取。多指用瓢、勺等取松散物。"}],
+      "examples": [{"text":"花生米四块钱斤，各人搲了称重。","pinyin":"hua1 sen1 mi3 si4 kuai3 qian2 jin1 go2 ren2 wa3 lao3 cen1 zong4","translation":"花生米四块钱一斤，自己舀好了称重。"}]
+    },
+    {
+      "id": "cq-00480",
+      "headword": "汪实",
+      "pinyin": "wang1 si2",
+      "wordClass": "形容词",
+      "definitions": [{"text":"分量足、厚实、实在。"}],
+      "examples": [{"text":"这碗牛肉嘿汪实，三个人都吃不下。","pinyin":"le4 wan3 liu2 rou4 he1 wang1 si2 san1 gə4 ren2 dou1 ci2 bu2 xia4","translation":"这碗牛肉分量很足，三个人都吃不下。"}]
+    },
+    {
+      "id": "cq-00481",
+      "headword": "偎",
+      "pinyin": "wei1",
+      "wordClass": "动词",
+      "definitions": [{"text":"聚拢、围拢；也指蜷缩、靠拢在一起。"}],
+      "examples": [{"text":"天气冷了，几只猫儿偎到纸箱子头睡做一团。","pinyin":"tian1 qi4 len3 lao3 ji3 zi1 mao1 er2 wei1 dao3 zi3 xiang1 zi3 tou2 sui4 zu4 yi2 tuan2","translation":"天冷了，几只猫蜷在纸箱里睡成一团。"}]
+    },
+    {
+      "id": "cq-00482",
+      "headword": "帚",
+      "pinyin": "zou3",
+      "wordClass": "动词",
+      "definitions": [{"text":"用拖把、墩布等来回擦地、拖地。"}],
+      "examples": [{"text":"先把地扫干净，再拿帚帕帚一遍。","pinyin":"xian1 ba3 di4 sao3 gan1 jin4 zai4 la2 zou3 pa4 zou3 yi2 pian4","translation":"先把地扫干净，再拿拖把拖一遍。"}]
+    },
+    {
+      "id": "cq-00483",
+      "headword": "帚帕",
+      "pinyin": "zou3 pa4",
+      "wordClass": "名词",
+      "definitions": [{"text":"拖把、墩布。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00484",
+      "headword": "俏",
+      "pinyin": "qiao4",
+      "wordClass": "形容词；动词",
+      "definitions": [{"text":"价钱高、条件高；也指要求高而不易满足。"},{"text":"销路好，有市场。"},{"text":"摆架子、拿腔作势，故意抬高自己。"},{"text":"烹调时加入配菜，以增加味道、色泽或分量。"}],
+      "examples": [{"text":"这件衣裳是好看，就是俏了点_儿。","pinyin":"le4 jian4 yi1 sang2 si4 hao3 kan4 dou4 si4 qiao4 lao3 diar3","translation":"这件衣服是好看，就是价格高了点。"},{"text":"今年子这一款羽绒服俏得很，店_儿头只剩最后一件了。","pinyin":"jin1 lian2 zi3 le4 yi2 kuan3 yu3 rong2 fu2 qiao4 de2 hen3 diar4 tou2 zi3 sen4 zui4 hou4 yi2 jian4 lao3","translation":"今年这一款羽绒服销路好得很，店里只剩最后一件了。"},{"text":"你才俏喔，别个都要来求你。","pinyin":"li3 tai2 qiao4 wo3 be2 gə4 dou1 yao4 lai2 qiu2 li3","translation":"你架子摆得真大，别人都还得来求你。"},{"text":"炒肉片_儿的时候_儿，俏点_儿木耳进去更好吃。","pinyin":"cao3 rou4 piar4 li1 si2 her4 qiao4 diar3 mu2 er3 jin4 qi4-1 gen4 hao3 ci2","translation":"炒肉片时，加点木耳进去更好吃。"}]
+    },
+    {
+      "id": "cq-00485",
+      "headword": "俏头",
+      "pinyin": "qiao4 tou2",
+      "wordClass": "名词",
+      "definitions": [{"text":"烹调时为增加味道、色泽或分量，在主菜中附加的配菜。"}],
+      "examples": [{"text":"这份菜的俏头比肉都还好吃些。","pinyin":"le4 fen4 cai4 li1 qiao4 tou2 bi3 rou4 dou1 hai2 hao3 ci2 xi1","translation":"这份菜的配菜比肉还好吃。"}]
+    },
+    {
+      "id": "cq-00486",
+      "headword": "𠿕",
+      "pinyin": "qiao2",
+      "wordClass": "形容词；动词",
+      "definitions": [{"text":"木料、纸张等表面高低不平、不齐整。"},{"text":"相处不和谐、不协调；常说「𠿕起」。"},{"text":"做事生疏、不灵巧，手脚不利落。"}],
+      "examples": [{"text":"这块木板子没刨平，摸起是𠿕的。","pinyin":"le4 kuai3 mu2 ban3 zi3 mei1 bao4 pin2 mo1 qi3 si4 qiao2 li1","translation":"这块木板没有刨平，摸起来不平整。"},{"text":"他们两个自从上回_儿吵架过后就𠿕起了，一句话都不肯多讲。","pinyin":"ta1 men1 liang3 gə4 zi4 cong2 sang4 huer2 cao3 jia4 go4 hou4 dou4 qiao2 qi3 lao3 yi2 ju4 hua4 dou1 bu2 ken3 do1 jiang3","translation":"他们两个自从上次吵架以后就不和了，一句话都不肯多说。"},{"text":"他才学包抄手_儿，手是𠿕的，皮子擀得厚薄不匀净。","pinyin":"ta1 tai2 xio2 bao1 cao1 ser3 sou3 si4 qiao2 li1 pi2 zi3 gan3 de2 hou4 bo2 bu2 yun2 jin4","translation":"他刚学包抄手，手不熟练，面皮擀得厚薄不一。"}]
+    },
+    {
+      "id": "cq-00487",
+      "headword": "侧边",
+      "pinyin": "ze2 bian1",
+      "wordClass": "方位词；名词",
+      "definitions": [{"text":"旁边、一边、侧面。"}],
+      "examples": [{"text":"你把箱子搁到侧边，莫挡到别个过路。","pinyin":"li3 ba3 xiang1 zi3 ko1 dao3 ze2 bian1 mo2 dang3 dao3 be2 gə4 go4 lu4","translation":"你把箱子放到旁边，别挡着别人走路。"}]
+    },
+    {
+      "id": "cq-00488",
+      "headword": "巴壁虎_儿",
+      "pinyin": "ba1 bi2 fer3",
+      "wordClass": "名词",
+      "definitions": [{"text":"壁虎。"},{"text":"爬山虎。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00489",
+      "headword": "巴谱",
+      "pinyin": "ba1 pu3",
+      "wordClass": "形容词",
+      "definitions": [{"text":"切题、合乎道理；靠谱。"}],
+      "examples": [{"text":"你这个说法还算巴谱，就按你说的来整。","pinyin":"li3 le4 gə4-1 so2 fa1 hai2 suan4 ba1 pu3 dou4 ngan4 li3 so2 li1 lai2 zen3","translation":"你这个说法还算靠谱，就按你说的办。"}]
+    },
+    {
+      "id": "cq-00490",
+      "headword": "巴适",
+      "pinyin": "ba1 si2",
+      "wordClass": "形容词",
+      "definitions": [{"text":"合适、舒服、令人满意。舒服。近义词「安逸」。"},{"text":"漂亮、好看。"}],
+      "examples": [{"text":"鞋穿到脚上还算巴适。。","pinyin":"le4 suang1 hai2 cuan1 dao3 jio2 sang4 hai2 suan4 ba1 si2","translation":"这双鞋穿在脚上还算合适。"},{"text":"她今天_儿这身打头嘿巴适。","pinyin":"ta1 jin1 tiar1 le4 sen1 da3 tou2 he1 ba1 si2","translation":"她今天这身打扮很好看。"}]
+    },
+    {
+      "id": "cq-00491",
+      "headword": "巴望",
+      "pinyin": "ba1 wang4",
+      "wordClass": "动词",
+      "definitions": [{"text":"盼望、希望。"}],
+      "examples": [{"text":"两口儿想方_儿设法供娃儿读书，一心巴望她考上重点大学。","pinyin":"liang3 kou3 er2 xiang3 far1 se2 fa2 jiong1 wa2 er2-1 du2 su1 yi2 xin1 ba1 wang4 ta1 kao3 sang4 zong4 dian3 da4 xio2","translation":"两口子想方设法供孩子上学，一心盼望她考上重点大学。"}]
+    },
+    {
+      "id": "cq-00492",
+      "headword": "巴心巴肝_儿",
+      "pinyin": "ba1 xin1 ba1 gar1",
+      "wordClass": "形容词；副词",
+      "definitions": [{"text":"一心一意、掏心掏肺地；真心实意地。也说「巴心巴肠」。"}]
+    },
+    {
+      "id": "cq-00493",
+      "headword": "巴不得",
+      "pinyin": "ba1 bu2 de2",
+      "wordClass": "动词",
+      "definitions": [{"text":"非常盼望、恨不得。"}],
+      "examples": [{"text":"下个礼拜要去新疆耍？我巴不得现在就走。","pinyin":"xia4 gə4 li3 bai4 yao4 qi4 xin1 jiang1 sua3 wo3 ba1 bu2 de2 xian4 zai4 dou4 zou3","translation":"下个礼拜要去新疆玩？我恨不得现在就走。"}]
+    },
+    {
+      "id": "cq-00494",
+      "headword": "巴心不得",
+      "pinyin": "ba1 xin1 bu2 de2",
+      "wordClass": "动词",
+      "definitions": [{"text":"非常盼望、恨不得。同「巴不得」。"}],
+      "examples": [{"text":"你干一个月就有五万块钱呐？我巴心不得辞职。","pinyin":"li3 gan4 yi2 go4 yue2 dou4 you3 vu3 wan4 kuai3 qian2 la3 wo3 ba1 xin1 bu2 de2 ci2 zi2","translation":"你干一个月就有五万块钱！我恨不得辞职了。"}]
+    },
+    {
+      "id": "cq-00495",
+      "headword": "爬",
+      "pinyin": "ba1",
+      "wordClass": "动词",
+      "definitions": [{"text":"攀登、向上爬。见「巴(ba1)」。"}]
+    },
+    {
+      "id": "cq-00496",
+      "headword": "疤",
+      "pinyin": "ba1",
+      "wordClass": "名词",
+      "definitions": [{"text":"伤口愈合后留下的瘢痕。"},{"text":"补在衣物破洞处的布片，补丁。"}],
+      "examples": [{},{"text":"这条裤子磨破了，补块疤还穿得。","pinyin":"le4 tiao2 ku4 zi3 mo2 po4 lao3 bu3 kuai3 ba1 hai2 cuan1 de2","translation":"这条裤子磨破了，补一块补丁还能穿。"}]
+    },
+    {
+      "id": "cq-00497",
+      "headword": "笆篓_儿",
+      "pinyin": "ba1 ler1/ler3",
+      "wordClass": "名词",
+      "definitions": [{"text":"葫芦状的竹篓，多用来装鱼、螺蛳等。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00498",
+      "headword": "攒",
+      "pinyin": "zuang3",
+      "wordClass": "动词",
+      "variants": ["奘"],
+      "definitions": [{"text":"添、凑、补足，使数量达到所需数目。"}],
+      "note": "「攒」有储存、蓄积之义，或可以引申为添凑含义，暂用该字记录，本字尚待考。一些资料也记录为「奘」字，更贴合其发音。",
+      "examples": [{"text":"再抓点_儿来攒起就够两斤了。","pinyin":"zai4 zua1 diar3 lai2 zuang3 qi3 dou4 gou4 liang3 jin1 lao3","translation":"再抓一点来凑上，就够两斤了。"}]
     }
   ]
 }
