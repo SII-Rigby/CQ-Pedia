@@ -182,12 +182,20 @@ function entryDefinitionsText(entry) {
   return [definitions, notes].filter(Boolean).join(" ");
 }
 
+function pinyinFinalOf(base) {
+  const matched = INITIAL_MATCH_ORDER.find((initial) => base.startsWith(initial));
+  return matched ? base.slice(matched.length) : base;
+}
+
 function pinyinSyllableParts(value) {
   const raw = normalize(value);
+  const base = raw
+    .replace(/[0-9]+/g, "")
+    .replace(/[\p{P}\p{S}]+/gu, "");
+
   return {
-    base: raw
-      .replace(/[0-9]+/g, "")
-      .replace(/[\p{P}\p{S}]+/gu, ""),
+    base,
+    final: pinyinFinalOf(base),
     tones: raw.match(/[0-9]+/g) || []
   };
 }
@@ -206,7 +214,7 @@ function pinyinReadings(value) {
     .filter((reading) => reading.length);
 }
 
-function pinyinBaseMatchPenalty(readingSyllable, querySyllable) {
+function pinyinSyllableMatchPenalty(readingSyllable, querySyllable) {
   if (querySyllable.tones.length) {
     return readingSyllable.base === querySyllable.base ? 0 : Number.POSITIVE_INFINITY;
   }
@@ -215,7 +223,13 @@ function pinyinBaseMatchPenalty(readingSyllable, querySyllable) {
     return 0;
   }
 
-  return readingSyllable.base.startsWith(querySyllable.base) ? 0.15 : Number.POSITIVE_INFINITY;
+  if (readingSyllable.base.startsWith(querySyllable.base)) {
+    return 0.15;
+  }
+
+  return querySyllable.base.length > 1 && readingSyllable.final.includes(querySyllable.base)
+    ? 0.35
+    : Number.POSITIVE_INFINITY;
 }
 
 function pinyinSequenceRank(reading, querySyllables) {
@@ -231,7 +245,7 @@ function pinyinSequenceRank(reading, querySyllables) {
         return penalty;
       }
 
-      const syllablePenalty = pinyinBaseMatchPenalty(reading[start + index], syllable);
+      const syllablePenalty = pinyinSyllableMatchPenalty(reading[start + index], syllable);
       return Number.isFinite(syllablePenalty) ? penalty + syllablePenalty : Number.POSITIVE_INFINITY;
     }, 0);
 
