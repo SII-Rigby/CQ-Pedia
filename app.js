@@ -67,6 +67,7 @@ const welcomeEls = {
 
 const normalize = (value) => String(value || "").trim().toLowerCase();
 const normalizeSearchText = (value) => normalize(value)
+  .replace(/[0-9]+/g, "")
   .replace(/[\p{P}\p{S}]+/gu, "");
 const escapeHtml = (value) => String(value || "")
   .replace(/&/g, "&amp;")
@@ -195,12 +196,14 @@ function searchRank(entry, query) {
   return matchedIndex === -1 ? Number.POSITIVE_INFINITY : matchedIndex;
 }
 
-function firstSyllable(pinyin) {
-  return normalize(pinyin).split(/\s+/)[0]?.replace(/[0-9].*$/, "") || "";
+function firstSyllables(pinyin) {
+  return normalize(pinyin)
+    .split(/\s*\/\s*/u)
+    .map((reading) => reading.split(/\s+/)[0]?.replace(/[0-9].*$/, "") || "")
+    .filter(Boolean);
 }
 
-function initialOf(entry) {
-  const syllable = firstSyllable(entry.pinyin);
+function initialForSyllable(syllable) {
   const matched = INITIAL_MATCH_ORDER.find((initial) => syllable.startsWith(initial));
 
   if (matched === "yu") {
@@ -212,6 +215,11 @@ function initialOf(entry) {
   }
 
   return matched || OTHER_INITIAL;
+}
+
+function initialsOf(entry) {
+  const initials = firstSyllables(entry.pinyin).map(initialForSyllable);
+  return [...new Set(initials.length ? initials : [OTHER_INITIAL])];
 }
 
 function initialLabel(initial) {
@@ -273,7 +281,7 @@ function matchesSearch(entry) {
 }
 
 function matchesInitial(entry) {
-  return state.initial ? initialOf(entry) === state.initial : false;
+  return state.initial ? initialsOf(entry).includes(state.initial) : false;
 }
 
 function matchesWordClass(entry) {
@@ -697,8 +705,9 @@ function render() {
 
 function initialCounts() {
   return state.entries.reduce((acc, entry) => {
-    const initial = initialOf(entry);
-    acc[initial] = (acc[initial] || 0) + 1;
+    initialsOf(entry).forEach((initial) => {
+      acc[initial] = (acc[initial] || 0) + 1;
+    });
     return acc;
   }, {});
 }
