@@ -166,7 +166,6 @@ function entryText(entry) {
 
   return [
     plainMarkedText(entry.headword),
-    entry.pinyin,
     definitions,
     definitionNotes,
     notes,
@@ -183,17 +182,100 @@ function entryDefinitionsText(entry) {
   return [definitions, notes].filter(Boolean).join(" ");
 }
 
-function searchRank(entry, query) {
-  const fields = [
-    plainMarkedText(entry.headword),
-    variantsOf(entry).map(plainMarkedText).join(" "),
-    entry.pinyin,
-    entryDefinitionsText(entry),
-    entryText(entry)
-  ];
+function pinyinSyllableParts(value) {
+  const raw = normalize(value);
+  return {
+    base: raw
+      .replace(/[0-9]+/g, "")
+      .replace(/[\p{P}\p{S}]+/gu, ""),
+    tones: raw.match(/[0-9]+/g) || []
+  };
+}
 
-  const matchedIndex = fields.findIndex((field) => normalizeSearchText(field).includes(query));
-  return matchedIndex === -1 ? Number.POSITIVE_INFINITY : matchedIndex;
+function pinyinReadingSyllables(reading) {
+  return normalize(reading)
+    .split(/\s+/u)
+    .map(pinyinSyllableParts)
+    .filter((syllable) => syllable.base);
+}
+
+function pinyinReadings(value) {
+  return normalize(value)
+    .split(/\s*\/\s*/u)
+    .map(pinyinReadingSyllables)
+    .filter((reading) => reading.length);
+}
+
+function pinyinBaseMatchPenalty(readingSyllable, querySyllable) {
+  if (querySyllable.tones.length) {
+    return readingSyllable.base === querySyllable.base ? 0 : Number.POSITIVE_INFINITY;
+  }
+
+  if (readingSyllable.base === querySyllable.base) {
+    return 0;
+  }
+
+  return readingSyllable.base.startsWith(querySyllable.base) ? 0.15 : Number.POSITIVE_INFINITY;
+}
+
+function pinyinSequenceRank(reading, querySyllables) {
+  if (!querySyllables.length || querySyllables.length > reading.length) {
+    return Number.POSITIVE_INFINITY;
+  }
+
+  let bestRank = Number.POSITIVE_INFINITY;
+
+  for (let start = 0; start <= reading.length - querySyllables.length; start += 1) {
+    const basePenalty = querySyllables.reduce((penalty, syllable, index) => {
+      if (!Number.isFinite(penalty)) {
+        return penalty;
+      }
+
+      const syllablePenalty = pinyinBaseMatchPenalty(reading[start + index], syllable);
+      return Number.isFinite(syllablePenalty) ? penalty + syllablePenalty : Number.POSITIVE_INFINITY;
+    }, 0);
+
+    if (!Number.isFinite(basePenalty)) {
+      continue;
+    }
+
+    const queryHasTones = querySyllables.some((syllable) => syllable.tones.length);
+    const tonesMatch = querySyllables.every((syllable, index) => {
+      if (!syllable.tones.length) {
+        return true;
+      }
+
+      return syllable.tones.some((tone) => reading[start + index].tones.includes(tone));
+    });
+    const rank = 2 + (start === 0 ? 0 : 0.1) + basePenalty + (queryHasTones && !tonesMatch ? 0.2 : 0);
+    bestRank = Math.min(bestRank, rank);
+  }
+
+  return bestRank;
+}
+
+function pinyinMatchRank(pinyin, query) {
+  const querySyllables = pinyinReadingSyllables(query);
+  return pinyinReadings(pinyin).reduce(
+    (bestRank, reading) => Math.min(bestRank, pinyinSequenceRank(reading, querySyllables)),
+    Number.POSITIVE_INFINITY
+  );
+}
+
+function searchRank(entry, query, rawQuery = query) {
+  const fields = [
+    { rank: 0, text: plainMarkedText(entry.headword) },
+    { rank: 1, text: variantsOf(entry).map(plainMarkedText).join(" ") },
+    { rank: 3, text: entryDefinitionsText(entry) },
+    { rank: 4, text: entryText(entry) }
+  ];
+  const matchedText = fields.find((field) => normalizeSearchText(field.text).includes(query));
+
+  if (matchedText) {
+    return matchedText.rank;
+  }
+
+  return pinyinMatchRank(entry.pinyin, rawQuery);
 }
 
 function firstSyllables(pinyin) {
@@ -277,7 +359,7 @@ function selectedTopicIdSet() {
 
 function matchesSearch(entry) {
   const query = normalizeSearchText(state.query);
-  return query ? normalizeSearchText(entryText(entry)).includes(query) : false;
+  return query ? Number.isFinite(searchRank(entry, query, state.query)) : false;
 }
 
 function matchesInitial(entry) {
@@ -334,7 +416,7 @@ function filteredEntries() {
 
   if (query) {
     return state.entries
-      .map((entry, index) => ({ entry, index, rank: searchRank(entry, query) }))
+      .map((entry, index) => ({ entry, index, rank: searchRank(entry, query, state.query) }))
       .filter((item) => Number.isFinite(item.rank) && entryMatchesFilters(item.entry))
       .sort((a, b) => a.rank - b.rank || a.index - b.index)
       .map((item) => item.entry);
