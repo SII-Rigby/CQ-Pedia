@@ -2085,6 +2085,44 @@ body.modal-open {
   box-shadow: 3px 3px 0 var(--ink);
 }
 
+.label-help-button {
+  position: fixed;
+  right: clamp(16px, 4vw, 32px);
+  bottom: clamp(150px, 18vh, 182px);
+  z-index: 80;
+  display: grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  padding: 0;
+  color: var(--ink);
+  background: #8fe0c9;
+  border: 4px solid var(--line);
+  border-radius: 50%;
+  box-shadow: 5px 5px 0 var(--ink);
+  cursor: pointer;
+  transition: transform 160ms ease, background 160ms ease, color 160ms ease, box-shadow 160ms ease;
+}
+
+.label-help-button svg {
+  width: 29px;
+  height: 29px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.label-help-button:hover,
+.label-help-button:focus-visible {
+  color: var(--white);
+  background: #176fa6;
+  transform: translate(2px, 2px);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+
 @keyframes rise {
   from {
     opacity: 1;
@@ -2768,4 +2806,550 @@ h1,
 .welcome-announcement pre,
 .welcome-announcement pre code {
   font-family: Consolas, monospace;
+}
+/* ===== Phonetic Dictionary ===== */
+.phonetic-page {
+  --paper: #fff4df;
+  --red: #d84a35;
+  --blue: #176fa6;
+  --cyan: #3fb7a3;
+  --yellow: #f0bd4f;
+  --green: #0f8a69;
+  --teal: #0b6f58;
+  --pink: #ef785d;
+  --muted: #59645f;
+  background:
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.18) 1px, transparent 1.5px) 0 0 / 18px 18px,
+    linear-gradient(120deg, #0e765c 0 26%, #0f8a69 26% 56%, #0b6f58 56% 100%);
+}
+
+.phonetic-page .site-header {
+  background: #0b6f58;
+  box-shadow: 0 6px 0 #d84a35;
+}
+
+.phonetic-page .brand,
+.phonetic-page .top-nav button,
+.phonetic-page .top-nav a {
+  color: var(--white);
+}
+
+.phonetic-page .top-nav button:hover,
+.phonetic-page .top-nav a:hover {
+  color: var(--ink);
+  background: #f0bd4f;
+}
+
+.phonetic-page .hero {
+  background:
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.16) 1px, transparent 1.5px) 0 0 / 18px 18px,
+    linear-gradient(90deg, #0f8a69 0 100%);
+}
+
+.phonetic-page .hero::before {
+  background:
+    linear-gradient(105deg, #fff4df 0 18%, transparent 18%),
+    linear-gradient(166deg, transparent 0 50%, #3fb7a3 50% 65%, transparent 65%),
+    linear-gradient(24deg, transparent 0 72%, rgba(216, 74, 53, 0.7) 72% 100%);
+}
+
+.phonetic-page .hero::after {
+  height: clamp(44px, 6vw, 78px);
+  background: #101010;
+  border-top-color: #d84a35;
+}
+
+.phonetic-page .hero-copy {
+  background:
+    linear-gradient(90deg, rgba(255, 248, 232, 0.96) 0 100%);
+  box-shadow: 12px 12px 0 #f0bd4f, 18px 18px 0 var(--ink);
+}
+
+.phonetic-page .hero-copy::before {
+  content: "CQ-PEDIA";
+  color: rgba(13, 48, 40, 0.08);
+}
+
+.phonetic-page .hero-copy::after {
+  background:
+    radial-gradient(circle at 5px 5px, var(--line) 1.8px, transparent 2.6px) 0 0 / 13px 13px,
+    #f0bd4f;
+}
+
+.phonetic-page h1 {
+  color: var(--ink);
+  text-shadow: 2px 2px 0 var(--white), 5px 5px 0 #3fb7a3;
+}
+
+.phonetic-page .platform-label {
+  color: var(--ink);
+  background: #f0bd4f;
+}
+
+.phonetic-page .search-form {
+  background:
+    linear-gradient(135deg, rgba(15, 138, 105, 0.18) 0 12px, transparent 12px 24px),
+    linear-gradient(45deg, rgba(23, 111, 166, 0.13) 0 10px, transparent 10px 22px),
+    radial-gradient(circle at 12px 12px, rgba(216, 74, 53, 0.14) 0 2px, transparent 2.6px) 0 0 / 24px 24px,
+    #fff8e8;
+  box-shadow: 7px 7px 0 #3fb7a3, 13px 13px 0 var(--ink);
+}
+
+.phonetic-page .search-form::before {
+  content: "SOUND";
+  background: #d84a35;
+}
+
+.phonetic-page .search-form input {
+  padding-right: 72px;
+  background:
+    linear-gradient(90deg, rgba(63, 183, 163, 0.16) 0 1px, transparent 1px 18px),
+    linear-gradient(180deg, rgba(63, 183, 163, 0.16) 0 1px, transparent 1px 18px),
+    #fffefa;
+  background-size: 18px 18px;
+}
+
+.phonetic-page .search-form .search-submit {
+  right: 18px;
+  background: #0f8a69;
+}
+
+.phonetic-page .search-form .search-submit:hover {
+  background: #176fa6;
+}
+
+.phonetic-results-panel {
+  max-width: 1260px;
+}
+
+
+.phonetic-results {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(150px, 180px));
+  gap: clamp(14px, 2.2vw, 24px);
+  justify-content: center;
+  align-items: start;
+  padding: clamp(4px, 2vw, 22px);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.phonetic-results .empty {
+  grid-column: 1 / -1;
+  background: #fff8e8;
+  border: 3px solid var(--line);
+  box-shadow: 5px 5px 0 rgba(17, 17, 17, 0.16);
+}
+
+.mahjong-tile {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+  justify-self: center;
+  width: 100%;
+  max-width: 180px;
+  min-width: 0;
+  height: clamp(196px, 22vw, 236px);
+  padding: 24px 12px 16px;
+  color: var(--ink);
+  background:
+    linear-gradient(180deg, #fffefa 0%, #fff7e4 100%);
+  border: 4px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 8px 0 #3fb7a3, 7px 15px 0 var(--ink);
+  cursor: pointer;
+  font-family: var(--font-serif);
+  overflow: hidden;
+  transition: transform 140ms ease, box-shadow 140ms ease, background 140ms ease;
+}
+
+.mahjong-tile::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 2px solid rgba(15, 138, 105, 0.32);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.mahjong-tile::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  top: 14px;
+  z-index: 1;
+  height: 8px;
+  background: linear-gradient(90deg, #16896f 0%, #54c8a8 38%, #f2d06b 68%, #e86f5b 100%);
+  border: 0;
+  border-radius: 999px;
+}
+
+.mahjong-tile:hover,
+.mahjong-tile:focus-visible {
+  background: #fffdf5;
+  transform: translate(3px, 7px);
+  box-shadow: 0 4px 0 #3fb7a3, 3px 8px 0 var(--ink);
+}
+
+.mahjong-tile:focus-visible {
+  outline: 4px solid #f0bd4f;
+  outline-offset: 3px;
+}
+
+.mahjong-character {
+  display: grid;
+  place-items: center;
+  min-height: 92px;
+  color: #0b6f58;
+  font-size: clamp(64px, 8vw, 92px);
+  font-weight: 950;
+  line-height: 0.95;
+  text-shadow: 2px 2px 0 var(--white), 4px 4px 0 rgba(216, 74, 53, 0.24);
+}
+
+.mahjong-readings {
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  min-height: 46px;
+  align-content: end;
+  font-family: var(--font-phonetic);
+  font-size: 14px;
+  line-height: 1.22;
+  text-align: center;
+}
+
+.mahjong-readings strong,
+.mahjong-readings span {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
+.mahjong-readings strong {
+  color: #0b6f58;
+  font-weight: 950;
+}
+
+.mahjong-readings span {
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.phonetic-detail-window {
+  width: min(660px, 100%);
+}
+
+.phonetic-detail-content {
+  padding: clamp(18px, 4vw, 30px);
+  background:
+    radial-gradient(circle at 1px 1px, rgba(15, 138, 105, 0.1) 1px, transparent 1.4px) 0 0 / 18px 18px,
+    #fff4df;
+  overflow-y: auto;
+}
+
+.phonetic-detail-card {
+  display: grid;
+  grid-template-columns: 148px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.phonetic-detail-character {
+  display: grid;
+  aspect-ratio: 0.75;
+  place-items: center;
+  color: #0b6f58;
+  background: #fffefa;
+  border: 4px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 7px 0 #3fb7a3, 6px 13px 0 var(--ink);
+  font-size: 92px;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.phonetic-detail-readings {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.phonetic-reading {
+  padding: 14px 16px;
+  background: var(--white);
+  border: 3px solid var(--line);
+  box-shadow: 5px 5px 0 rgba(17, 17, 17, 0.16);
+}
+
+.phonetic-reading.regular {
+  border-color: #0b6f58;
+  box-shadow: 5px 5px 0 #f0bd4f;
+}
+
+.phonetic-reading-line {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+}
+
+.phonetic-reading-labels {
+  color: #0b6f58;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 950;
+}
+
+.phonetic-reading-pinyin {
+  font-family: var(--font-phonetic);
+  font-size: 24px;
+  font-weight: 950;
+  line-height: 1.1;
+}
+
+.phonetic-description,
+.phonetic-examples {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.phonetic-description {
+  padding-left: 10px;
+  border-left: 4px solid #3fb7a3;
+}
+
+.phonetic-examples span {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 2px 7px;
+  color: var(--white);
+  background: #d84a35;
+  border: 2px solid var(--line);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 950;
+  line-height: 1.2;
+}
+
+.phonetic-detail-card .note {
+  grid-column: 1 / -1;
+}
+
+.phonetic-page .modal-head {
+  background: #0b6f58;
+}
+
+.phonetic-page .modal-window {
+  box-shadow: 12px 12px 0 #d84a35, 18px 18px 0 var(--ink);
+}
+
+.label-help-window {
+  width: min(720px, 100%);
+}
+
+.label-help-content {
+  display: grid;
+  gap: 18px;
+  padding: clamp(18px, 4vw, 30px);
+  background:
+    linear-gradient(90deg, rgba(63, 183, 163, 0.12) 0 1px, transparent 1px 20px),
+    linear-gradient(180deg, rgba(63, 183, 163, 0.12) 0 1px, transparent 1px 20px),
+    #fff4df;
+}
+
+.label-help-layout {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+.label-help-tabs {
+  display: grid;
+  gap: 8px;
+}
+
+.label-help-tabs button {
+  min-height: 46px;
+  padding: 8px 12px;
+  color: var(--ink);
+  background: #fffefa;
+  border: 3px solid var(--line);
+  box-shadow: 4px 4px 0 rgba(17, 17, 17, 0.16);
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 950;
+  transition: transform 140ms ease, background 140ms ease, box-shadow 140ms ease;
+}
+
+.label-help-tabs button.active,
+.label-help-tabs button:hover,
+.label-help-tabs button:focus-visible {
+  color: var(--white);
+  background: #0b6f58;
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.label-help-card {
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  min-height: 250px;
+  padding: 18px;
+  background: var(--white);
+  border: 4px solid var(--line);
+  box-shadow: 7px 7px 0 #f0bd4f;
+}
+
+.label-help-card:focus-visible {
+  outline: 4px solid #3fb7a3;
+  outline-offset: 4px;
+}
+
+.label-help-badge {
+  display: grid;
+  aspect-ratio: 1;
+  place-items: center;
+  color: #0b6f58;
+  background: #fffefa;
+  border: 4px solid var(--line);
+  box-shadow: 5px 5px 0 #3fb7a3;
+  font-size: 28px;
+  font-weight: 950;
+}
+
+.label-help-card-kicker {
+  margin: 0 0 6px;
+  color: #d84a35;
+  font-size: 13px;
+  font-weight: 950;
+  letter-spacing: 0;
+}
+
+.label-help-card h3 {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-size: clamp(24px, 4vw, 34px);
+  line-height: 1.1;
+}
+
+.label-help-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.65;
+}
+
+.label-help-card .label-help-example {
+  margin-top: 10px;
+  padding-top: 10px;
+  color: var(--ink);
+  border-top: 3px solid rgba(15, 138, 105, 0.22);
+}
+
+
+
+@media (max-width: 1180px) {
+  .phonetic-results {
+    grid-template-columns: repeat(4, minmax(132px, 170px));
+  }
+}
+@media (max-width: 820px) {
+  .phonetic-page .hero::before {
+    background:
+      linear-gradient(105deg, #fff4df 0 24%, transparent 24%),
+      linear-gradient(166deg, transparent 0 64%, #3fb7a3 64% 100%);
+  }
+
+  .phonetic-page .hero-copy {
+    box-shadow: 8px 8px 0 #f0bd4f, 12px 12px 0 var(--ink);
+  }
+
+  .phonetic-page .search-form input {
+    padding-right: 62px;
+  }
+
+  .phonetic-page .search-form .search-submit {
+    right: 14px;
+  }
+
+  .phonetic-results {
+    grid-template-columns: repeat(4, minmax(132px, 170px));
+    gap: 14px;
+    box-shadow: none;
+  }
+
+  .mahjong-tile {
+    height: clamp(184px, 30vw, 218px);
+    box-shadow: 0 6px 0 #3fb7a3, 5px 11px 0 var(--ink);
+  }
+
+  .mahjong-character {
+    min-height: 78px;
+    font-size: clamp(56px, 17vw, 74px);
+  }
+
+  .phonetic-detail-card {
+    grid-template-columns: 1fr;
+  }
+
+  .phonetic-detail-character {
+    width: min(140px, 100%);
+    margin: 0 auto;
+    font-size: 78px;
+  }
+}
+
+
+@media (max-width: 760px) {
+  .phonetic-results {
+    grid-template-columns: repeat(3, minmax(132px, 160px));
+  }
+}
+@media (max-width: 460px) {
+  .phonetic-results {
+    grid-template-columns: repeat(2, minmax(132px, 160px));
+    padding: 14px;
+  }
+
+  .mahjong-tile {
+    height: clamp(168px, 44vw, 194px);
+    padding: 16px 8px 14px;
+  }
+
+  .mahjong-tile::after {
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    height: 7px;
+  }
+
+  .label-help-button {
+    right: 16px;
+    bottom: 144px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .label-help-button svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .label-help-content {
+    padding: 16px;
+  }
+
+  .label-help-tabs {
+    gap: 6px;
+  }
 }

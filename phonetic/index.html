@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>重庆话音典 | CQ-Pedia 重庆方言电子词典</title>
+    <meta name="description" content="CQ-Pedia 重庆话音典，查询重庆话单字读音、正音、白读音和异读音。">
+    <link rel="canonical" href="https://cqpedia.cn/phonetic/">
+    <link rel="icon" href="../favicon.ico" sizes="any">
+    <link rel="icon" href="../assets/logo-color.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../assets/logo-color.svg">
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- 百度统计 -->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?ff0cb9d634de0b737a9bb353ade0e74a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+    <meta name="msvalidate.01" content="C8D88AF1E80E4E5EAED8F8ACFA1F1EAC">
+    <meta name="baidu-site-verification" content="codeva-lfjf4aWqhn">
+  </head>
+  <body class="phonetic-page">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="重庆话音典首页">
+        <span>CQ-Pedia</span>
+      </a>
+      <nav class="top-nav" aria-label="主导航">
+        <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
+        <a href="../">词典</a>
+        <button type="button" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutModal">关于</button>
+      </nav>
+    </header>
+
+    <div class="modal" id="mustReadModal" role="dialog" aria-modal="true" aria-labelledby="mustReadTitle" hidden>
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-window" role="document">
+        <header class="modal-head">
+          <h2 id="mustReadTitle">必读</h2>
+          <button type="button" class="modal-close" data-modal-close aria-label="关闭">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M6 6l12 12"></path>
+              <path d="M18 6 6 18"></path>
+            </svg>
+          </button>
+        </header>
+        <div class="modal-body">
+          <aside class="doc-nav" aria-label="文档目录">
+            <ul id="docList"></ul>
+          </aside>
+          <article class="doc-view" id="docView" tabindex="0">
+            <p class="empty">载入中...</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal about-modal" id="aboutModal" role="dialog" aria-modal="true" aria-labelledby="aboutTitle" hidden>
+      <div class="modal-backdrop" data-about-close></div>
+      <div class="modal-window about-window" role="document">
+        <header class="modal-head">
+          <div>
+            <p class="modal-kicker">About CQ-Pedia</p>
+            <h2 id="aboutTitle">关于</h2>
+          </div>
+          <button type="button" class="modal-close" data-about-close aria-label="关闭">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M6 6l12 12"></path>
+              <path d="M18 6 6 18"></path>
+            </svg>
+          </button>
+        </header>
+        <div class="about-content">
+          <section class="about-section author-section" aria-labelledby="authorTitle">
+            <h3 id="authorTitle">求打赏</h3>
+            <div class="author-copy">
+              <span class="author-role">作者</span>
+              <p class="author-name">Rigby</p>
+              <p class="author-email">georgeliu677@gmail.com</p>
+            </div>
+            <figure class="donate-code">
+              <img src="../assets/donate.jpg" alt="赞赏码">
+            </figure>
+          </section>
+          <section class="about-section acknowledgements-section" aria-labelledby="acknowledgementsTitle">
+            <h3 id="acknowledgementsTitle">鸣谢</h3>
+            <div class="acknowledgement-list">
+              <a class="acknowledgement-person" href="https://leehenry.top/" target="_blank" rel="noopener">
+                <span class="acknowledgement-avatar">
+                  <img src="../assets/acknowledgement/伏枥.webp" alt="伏枥头像">
+                </span>
+                <span class="acknowledgement-name">伏枥</span>
+              </a>
+            </div>
+          </section>
+          <section class="about-section" aria-labelledby="feedbackSurveyTitle">
+            <h3 id="feedbackSurveyTitle">反馈</h3>
+            <a class="survey-link" href="https://wj.qq.com/s2/27012512/a2d1/" target="_blank" rel="noopener" aria-label="打开反馈问卷">
+              <figure class="survey-code">
+                <img src="../assets/questionnaire.jpg" alt="反馈问卷二维码">
+              </figure>
+            </a>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal phonetic-detail-modal" id="phoneticDetailModal" role="dialog" aria-modal="true" aria-labelledby="phoneticDetailTitle" hidden>
+      <div class="modal-backdrop" data-phonetic-close></div>
+      <div class="modal-window phonetic-detail-window" role="document">
+        <header class="modal-head">
+          <div>
+            <p class="modal-kicker">Character Pronunciation</p>
+            <h2 id="phoneticDetailTitle">字音</h2>
+          </div>
+          <button type="button" class="modal-close" data-phonetic-close aria-label="关闭">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M6 6l12 12"></path>
+              <path d="M18 6 6 18"></path>
+            </svg>
+          </button>
+        </header>
+        <div class="phonetic-detail-content" id="phoneticDetailContent"></div>
+      </div>
+    </div>
+
+    <div class="modal label-help-modal" id="labelHelpModal" role="dialog" aria-modal="true" aria-labelledby="labelHelpTitle" hidden>
+      <div class="modal-backdrop" data-label-help-close></div>
+      <div class="modal-window label-help-window" role="document">
+        <header class="modal-head">
+          <div>
+            <p class="modal-kicker">Reading Labels</p>
+            <h2 id="labelHelpTitle">读音标签怎么看</h2>
+          </div>
+          <button type="button" class="modal-close" data-label-help-close aria-label="关闭">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M6 6l12 12"></path>
+              <path d="M18 6 6 18"></path>
+            </svg>
+          </button>
+        </header>
+        <div class="label-help-content">
+          <div class="label-help-layout">
+            <div class="label-help-tabs" role="tablist" aria-label="读音标签">
+              <button type="button" class="active" role="tab" aria-selected="true" data-label-help="正">正</button>
+              <button type="button" role="tab" aria-selected="false" data-label-help="白">白</button>
+              <button type="button" role="tab" aria-selected="false" data-label-help="变">变</button>
+              <button type="button" role="tab" aria-selected="false" data-label-help="罕">罕</button>
+              <button type="button" role="tab" aria-selected="false" data-label-help="训">训</button>
+            </div>
+            <article class="label-help-card" id="labelHelpCard" tabindex="0"></article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero phonetic-hero" id="search">
+        <div class="hero-copy">
+          <p class="platform-label">重庆语言文化开放平台</p>
+          <h1>重庆话音典</h1>
+
+          <form class="search-form" id="phoneticSearchForm">
+            <label class="visually-hidden" for="phoneticSearchInput">搜索音典</label>
+            <input id="phoneticSearchInput" type="search" autocomplete="off" placeholder="搜索汉字或拼音">
+            <button type="submit" class="search-submit" aria-label="搜索">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="6.5"></circle>
+                <path d="m16 16 4 4"></path>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="results-panel phonetic-results-panel" id="phoneticResultsPanel" aria-live="polite">
+        <div id="phoneticResults" class="phonetic-results"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span class="footer-title">
+        <img class="footer-mark" src="../assets/logo-color.svg" alt="" aria-hidden="true">
+        <span>重庆话音典</span>
+      </span>
+      <span>CQ-Pedia</span>
+    </footer>
+
+    <button type="button" class="back-to-search" id="backToSearch" aria-label="回到搜索">
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path d="M12 5 5 12"></path>
+        <path d="m12 5 7 7"></path>
+        <path d="M12 6v13"></path>
+      </svg>
+    </button>
+
+    <button type="button" class="label-help-button" id="labelHelpBtn" aria-label="查看读音标签说明" aria-haspopup="dialog" aria-controls="labelHelpModal">
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path d="M8.4 8.1c.45-2.15 2.15-3.35 4.25-3.35 2.45 0 4.25 1.55 4.25 3.75 0 1.65-.85 2.65-2.2 3.55-1.35.9-2 1.6-2 3.25"></path>
+        <path d="M12.7 19.15h.02"></path>
+      </svg>
+    </button>
+
+    <script src="phonetic.js?v=20260628-ph"></script>
+  </body>
+</html>

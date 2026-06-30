@@ -392,7 +392,10 @@ def remove_legacy_root_pages() -> int:
 
 
 def write_sitemap(entries: list[dict]) -> None:
-    urls = [f"  <url><loc>{SITE_URL}/</loc></url>"]
+    urls = [
+        f"  <url><loc>{SITE_URL}/</loc></url>",
+        f"  <url><loc>{SITE_URL}/phonetic/</loc></url>",
+    ]
     urls.extend(f"  <url><loc>{SITE_URL}/items/{escape(entry['id'])}/</loc></url>" for entry in entries)
     sitemap = "\n".join([
         '<?xml version="1.0" encoding="UTF-8"?>',
@@ -405,7 +408,8 @@ def write_sitemap(entries: list[dict]) -> None:
 
 
 def write_urls(entries: list[dict]) -> None:
-    urls = [f"{SITE_URL}/items/{entry['id']}/" for entry in entries]
+    urls = [f"{SITE_URL}/phonetic/"]
+    urls.extend(f"{SITE_URL}/items/{entry['id']}/" for entry in entries)
     URLS_PATH.write_text("\n".join(urls) + "\n", encoding="utf-8", newline="\n")
 
 
