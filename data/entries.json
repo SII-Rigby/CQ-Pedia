@@ -107,7 +107,9 @@
       "headword": "梭",
       "pinyin": "so1",
       "wordClass": "动词",
+      "variants": ["趖"],
       "definitions": [{"text":"本义指织布时牵引纬线（横线）的工具，后引申为在光滑的表面上快速滑动。"},{"text":"逃跑、逃避。"}],
+      "note": "「梭」本义指织布时牵引纬线的工具，其滑动顺畅而快速，后引申出各类相关义项。此外，也有一些资料及南方一些方言采用「趖」字表示该含义。",
       "examples": [{"text":"他一下就从梭梭板_儿高头梭下来了。","pinyin":"ta1 yi2 ha4 dou4 cong2 so1 so1 bar3 gao1 tou2 so1 xia4 lai2 lao3","translation":"他一下就从滑梯上面滑下来了。"},{"text":"每回_儿遇到这种难题，你就想到起梭边边。","pinyin":"mei3 huer2 yu4 dao3 le4 zong3 lan2 ti2 li3 dou4 xiang3 dao3 qi3 so1 bian1 bian1","translation":"每次遇到这种难题，你就想到逃避。"}]
     },
     {
@@ -115,6 +117,7 @@
       "headword": "梭梭板_儿",
       "pinyin": "so1 so1 bar3",
       "wordClass": "名词",
+      "variants": ["趖趖板_儿"],
       "definitions": [{"text":"滑梯。"}],
       "examples": [{"text":"他一下就从梭梭板_儿高头梭下来了。","pinyin":"ta1 yi2 ha4 dou4 cong2 so1 so1 bar3 gao1 tou2 so1 xia4 lai2 lao3","translation":"他一下就从滑梯上面滑下来了。"}]
     },
@@ -156,9 +159,8 @@
       "pinyin": "gao4",
       "wordClass": "动词",
       "variants": ["较","筶","斠"],
-      "definitions": [{"text":"试、尝试。"}],
-      "note": "《重庆方言词解》认为此字本当为「校」，「校(jiao4)」自古有校对、校验的含义，也尝尝与「较」通，表示比较、较量，由此引申出尝试。也有资料认为是「筶」，「筶」是一种古代占卜用具，用类似于羊角的两半器物制成，合拢掷于地，观其俯仰，以占吉凶。但「筶」本身不是动词，且「占卜」引申出「尝试」略显牵强，恐是后人附会。《民国巴县志》记「斠」字，「斠」本指平斗斛称量，与「校(jiao4)」在校对含义上相通。",
-      "examples": [{"text":"下盘_儿我们来校一下_儿这家火锅_儿的味道_儿。","pinyin":"xia4 par2 wo3 men1 lai2 gao4 yi2 har4 le4 jia1 ho3 guer1 li1 wei4 dar4","translation":"下次咱们来尝尝看这家火锅店的味道。"}]
+      "definitions": [{"text":"试、尝试。","note": "《重庆方言词解》认为此字本当为「校」，「校(jiao4)」自古有校对、校验的含义，也尝尝与「较」通，表示比较、较量，由此引申出尝试。也有资料认为是「筶」，「筶」是一种古代占卜用具，用类似于羊角的两半器物制成，合拢掷于地，观其俯仰，以占吉凶。但「筶」本身不是动词，且「占卜」引申出「尝试」略显牵强，恐是后人附会。《民国巴县志》记「斠」字，「斠」本指平斗斛称量，与「校(jiao4)」在校对含义上相通。"},{"text":"设置。"}],
+      "examples": [{"text":"下盘_儿我们来校一下_儿这家火锅_儿的味道_儿。","pinyin":"xia4 par2 wo3 men1 lai2 gao4 yi2 har4 le4 jia1 ho3 guer1 li1 wei4 dar4","translation":"下次咱们来尝尝看这家火锅店的味道。"},{"text":"明天_儿要早点_儿起来，记着校闹钟。","pinyin":"min2 tiar1 yao4 zao3 diar3 qi3 lai2 ji4 dao3 gao4 lao4 zong1","translation":"明天要早起，记得设置闹钟。"}]
     },
     {
       "id": "cq-00020",
@@ -2788,7 +2790,7 @@
       "headword": "蜞蟆_儿",
       "pinyin": "ke2 mar3 / qie2 mar1",
       "wordClass": "名词",
-      "variants": ["蜞蚂_儿","克蚂_儿","蜞猫_儿"],
+      "variants": ["蜞蚂_儿","克蚂_儿","蜞猫_儿","蛤蟆_儿"],
       "definitions": [{"text":"青蛙。"}],
       "fig": true
     },
@@ -3333,6 +3335,7 @@
       "pinyin": "zou1 vu2-3 zen4 wang2",
       "wordClass": "形容词",
       "definitions": [{"text":"严肃正经的样子。"},{"text":"衣着穿戴齐整、讲究而正式。"}],
+      "note": "「周吴郑王」本为《百家姓》第五到八位。重庆话巧妙而戏谑地与「周正」发音结合，用于调侃人严肃认真或穿戴齐整。",
       "examples": [{"text":"他长年都是一副周吴郑王的样儿，没得几个愿意跟他接触。","pinyin":"ta1 cang2 lian2 dou1 si4 yi2 fu4 zou1 vu2-3 zen4 wang2 li1 yang4 er2 mei1 de2 ji3 gə4 yuan4 yi4 gen1 ta1 jie2 zu2","translation":"他长年都是一副严肃正经的样子，没几个人愿意跟他接触。"},{"text":"去楼脚拿个快递，她还把头发梳得周吴郑王的，穿双高跟鞋_儿才下去。","pinyin":"qi4 lou2 jio2 la2 gə4 kuai4 di4 ta1 hai2 ba3 tou2 fa2 su1 de2 zou1 vu2-3 zen4 wang2 li1 cuan1 suang1 gao1 gen1 har2 tai2 xia4 qi4-1","translation":"去楼下拿个快递，她还把头发梳得很正式，穿上高跟鞋才下去。"}]
     },
     {
@@ -3895,7 +3898,7 @@
       "pinyin": "len2 mi2 len2 yar3",
       "wordClass": "形容词",
       "definitions": [{"text":"皱着眉、瞪着眼的样子。多形容生气、不高兴或凶巴巴地看人。"}],
-      "examples": [{"text":"她睖眉睖眼_儿地望到我，好像我欠他很多钱样。","pinyin":"ta1 len2 mi2 len2 yar3 li1 wang4 dao3 wo3 hao3 qiang4 wo3 qian4 ta1 he1 do1 qian2 yang4","translation":"她皱眉瞪眼地看着我，好像我欠了他很多钱。"}]
+      "examples": [{"text":"她睖眉睖眼_儿地望到我，好像我欠她很多钱样。","pinyin":"ta1 len2 mi2 len2 yar3 li1 wang4 dao3 wo3 hao3 qiang4 wo3 qian4 ta1 he1 do1 qian2 yang4","translation":"她皱眉瞪眼地看着我，好像我欠了她很多钱。"}]
     },
     {
       "id": "cq-00464",

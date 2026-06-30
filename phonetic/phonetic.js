@@ -1,7 +1,8 @@
 const phoneticState = {
   entries: [],
   query: "",
-  activeEntry: null
+  activeEntry: null,
+  page: 1
 };
 
 const els = {
@@ -9,6 +10,7 @@ const els = {
   input: document.querySelector("#phoneticSearchInput"),
   resultsPanel: document.querySelector("#phoneticResultsPanel"),
   results: document.querySelector("#phoneticResults"),
+  pagination: document.querySelector("#phoneticPagination"),
   backToSearch: document.querySelector("#backToSearch"),
   detailModal: document.querySelector("#phoneticDetailModal"),
   detailTitle: document.querySelector("#phoneticDetailTitle"),
@@ -27,50 +29,55 @@ const els = {
 const MUST_READ_DOCS = [
   { id: "phonology", title: "重庆方言音系介绍", file: "../docs/phonology.md" },
   { id: "pinyin-scheme", title: "重庆话拼音方案", file: "../docs/pinyin-scheme.md" },
-  { id: "usage", title: "使用说明", file: "../docs/usage.md" }
+  { id: "usage", title: "使用说明 - 重庆话音典", file: "../docs/usage-phonetics.md" }
 ];
 
 const docCache = new Map();
 let activeDocId = null;
 const DAILY_SAMPLE_SIZE = 24;
+const RESULTS_PER_PAGE = 120;
 const LABEL_HELP = {
-  "正": {
-    name: "正音",
-    tone: "放心优先看这个",
-    summary: "这个字在重庆话里最常用、最值得先学的读音。",
-    example: "查一个字时，先把「正」当作默认读法。如果一个字有多个「正」，通常是不同词义或习惯都能用。"
+  "\u6b63": {
+    name: "\u6b63\u97f3",
+    tone: "\u4e3b\u8981\u8bfb\u6cd5",
+    summary: "\u97f5\u4e66\u6d41\u4f20\u5207\u6cd5\u8fdb\u5165\u91cd\u5e86\u8bdd\u540e\u7684\u5e38\u89c4\u97f3\uff0c\u6216\u73b0\u4ee3\u91cd\u5e86\u8bdd\u4e2d\u6700\u7a33\u5b9a\u7684\u5355\u5b57\u8bfb\u6cd5\u3002",
+    example: "\u4e00\u4e2a\u5b57\u53ea\u6709\u4e00\u4e2a\u97f3\u65f6\uff0c\u9ed8\u8ba4\u6807\u4e3a\u300c\u6b63\u300d\u3002\u591a\u97f3\u5b57\u53ef\u6709\u591a\u4e2a\u300c\u6b63\u300d\u3002"
   },
-  "白": {
-    name: "白读",
-    tone: "更口语、更土的读法",
-    summary: "多出现在日常说话、固定词或老派说法里，不一定适合所有词。",
-    example: "看到「白」时，可以顺手看词例或说明；它往往对应「这个词里才这样读」的情况。"
+  "\u767d": {
+    name: "\u767d\u8bfb",
+    tone: "\u53e3\u5934\u8bfb\u6cd5",
+    summary: "\u53e3\u8bed\u91cc\u6cbf\u7528\u7684\u767d\u8bfb\u97f3\uff0c\u5e38\u89c1\u4e8e\u65e5\u5e38\u8bcd\u3001\u719f\u8bed\u6216\u672c\u5730\u4e60\u60ef\u8bf4\u6cd5\u3002",
+    example: "\u540c\u4e00\u4e2a\u97f3\u4e5f\u53ef\u80fd\u540c\u65f6\u6807\u300c\u6b63\u300d\u300c\u767d\u300d\uff0c\u8868\u793a\u6b63\u97f3\u548c\u53e3\u5934\u8bfb\u6cd5\u5408\u6d41\u3002"
   },
-  "变": {
-    name: "变读",
-    tone: "被语流或习惯影响的读法",
-    summary: "不是字的最基本读音，而是在某些词、某种语气或连读环境下变出来的读法。",
-    example: "如果只是想知道单字怎么读，先不必背「变」；真正说到相关词时再用它。"
+  "\u53d8": {
+    name: "\u53d8\u8bfb",
+    tone: "\u73af\u5883\u8bfb\u6cd5",
+    summary: "\u53d7\u8fde\u8bfb\u3001\u8f7b\u91cd\u97f3\u3001\u513f\u5316\u6216\u56fa\u5b9a\u642d\u914d\u5f71\u54cd\u5f62\u6210\u7684\u8bfb\u6cd5\u3002",
+    example: "\u901a\u5e38\u53ea\u5728\u7ed9\u51fa\u7684\u8bcd\u4f8b\u6216\u76f8\u8fd1\u8bed\u5883\u4e2d\u4f7f\u7528\u3002"
   },
-  "罕": {
-    name: "罕用读音",
-    tone: "知道有这个读法就行",
-    summary: "这类读音可能是少数人使用、旧读、特殊地名姓氏读法，或还需要继续审校的读法。",
-    example: "外行查读音时，不要把「罕」当主读；它更像备注和资料线索。"
+  "\u7f55": {
+    name: "\u7f55\u8bfb",
+    tone: "\u5c11\u89c1\u8bfb\u6cd5",
+    summary: "\u8f83\u5c11\u4f7f\u7528\u3001\u5730\u57df\u6216\u4ee3\u9645\u5dee\u5f02\u660e\u663e\uff0c\u6216\u8d44\u6599\u4ecd\u9700\u7ee7\u7eed\u6838\u9a8c\u7684\u8bfb\u97f3\u3002",
+    example: "\u4fdd\u7559\u4f5c\u7ebf\u7d22\uff0c\u4e0d\u5efa\u8bae\u5f53\u4f5c\u9ed8\u8ba4\u8bfb\u6cd5\u3002"
   },
-  "训": {
-    name: "训读 / 义读",
-    tone: "按意思读出来的特殊读法",
-    summary: "表示这个含义的这个音的本字不是它，但习惯用它来代替。",
-    example: "遇到「训」时，一定要看词例或说明；脱离那个词不能随便套用。"
+  "\u8bad": {
+    name: "\u8bad\u8bfb",
+    tone: "\u501f\u5b57\u8bfb\u6cd5",
+    summary: "\u6309\u8bcd\u4e49\u501f\u7528\u67d0\u5b57\u8bb0\u5f55\u65b9\u8a00\u8bcd\uff0c\u8bfb\u97f3\u6765\u81ea\u88ab\u8bb0\u5f55\u7684\u65b9\u8a00\u8bcd\u800c\u975e\u8be5\u5b57\u5e38\u89c4\u97f3\u3002",
+    example: "\u5e94\u7ed3\u5408\u8bcd\u4f8b\u7406\u89e3\uff0c\u4e0d\u5b9c\u8131\u79bb\u8bcd\u4f8b\u5957\u7528\u3002"
   }
 };
 
-
 const normalize = (value) => String(value || "").trim().toLowerCase();
-const normalizeSearchText = (value) => normalize(value)
-  .replace(/[0-9]+/g, "")
-  .replace(/[\p{P}\p{S}]+/gu, "");
+const normalizePinyinText = (value) => normalize(value)
+  .replace(/u:/g, "\u00fc")
+  .replace(/[^a-z0-9\u00fc\u00ea\u00e6\u0259]+/gu, "");
+const withoutTone = (value) => normalizePinyinText(value).replace(/[0-9]+$/u, "");
+const hasToneNumber = (value) => /[0-9]/u.test(value);
+const hasVowel = (value) => /[aeiou\u00fc\u00ea\u00e6\u0259]/u.test(value);
+const hasPinyinLetter = (value) => /[a-z\u00fc\u00ea\u00e6\u0259]/u.test(value);
+const hanziChars = (value) => Array.from(String(value || "").matchAll(/\p{Unified_Ideograph}/gu), (match) => match[0]);
 const escapeHtml = (value) => String(value || "")
   .replace(/&/g, "&amp;")
   .replace(/</g, "&lt;")
@@ -88,10 +95,18 @@ function hasRegularReading(reading) {
   return readingLabels(reading).includes("正");
 }
 
-function labelText(reading) {
-  const labels = readingLabels(reading);
-  return (labels.length ? labels : ["正"]).map((label) => `[${label}]`).join("");
+function labelClass(label) {
+  const key = String(label || "\u6b63").trim() || "\u6b63";
+  return `label-${key.codePointAt(0).toString(16)}`;
 }
+
+function renderLabelsHtml(reading) {
+  const labels = readingLabels(reading);
+  return (labels.length ? labels : ["\u6b63"])
+    .map((label) => `<span class="phonetic-label ${labelClass(label)}">${escapeHtml(label)}</span>`)
+    .join("");
+}
+
 
 function readingsOf(entry) {
   return Array.isArray(entry.readings) ? entry.readings : [];
@@ -104,18 +119,59 @@ function examplesOf(reading) {
 }
 
 
-function searchRank(entry, query, rawQuery) {
-  const character = normalizeSearchText(entry.character);
-  const pinyins = readingsOf(entry).map((reading) => normalize(reading.pinyin)).join(" ");
-  const pinyinNoTone = normalizeSearchText(pinyins);
-
-  if (!query) return 2;
-  if (character === query) return 0;
-  if (character.includes(query)) return 0.2;
-  if (pinyins.split(/\s+/u).includes(normalize(rawQuery))) return 0.5;
-  if (pinyinNoTone.includes(query)) return 1;
-  return Number.POSITIVE_INFINITY;
+function pinyinSyllablesOf(entry) {
+  return readingsOf(entry)
+    .flatMap((reading) => String(reading.pinyin || "").split(/[\s/]+/u))
+    .map(normalizePinyinText)
+    .filter(Boolean);
 }
+
+function characterMatches(rawQuery) {
+  const chars = [];
+  const seen = new Set();
+  hanziChars(rawQuery).forEach((char) => {
+    if (!seen.has(char)) {
+      seen.add(char);
+      chars.push(char);
+    }
+  });
+  return chars;
+}
+
+function characterResults(chars) {
+  const order = new Map(chars.map((char, index) => [char, index]));
+  return phoneticState.entries
+    .map((entry, index) => ({ entry, index, order: order.get(entry.character) }))
+    .filter((item) => item.order !== undefined)
+    .sort((a, b) => a.order - b.order || a.index - b.index)
+    .map((item) => item.entry);
+}
+
+function pinyinRank(entry, query, exactToneQuery) {
+  const syllables = pinyinSyllablesOf(entry);
+
+  if (exactToneQuery) {
+    return syllables.includes(query) ? 0 : Number.POSITIVE_INFINITY;
+  }
+
+  if (hasToneNumber(query)) {
+    return syllables.some((syllable) => syllable.includes(query)) ? 0 : Number.POSITIVE_INFINITY;
+  }
+
+  let rank = Number.POSITIVE_INFINITY;
+  syllables.forEach((syllable) => {
+    const base = withoutTone(syllable);
+    if (base === query) {
+      rank = Math.min(rank, 0);
+    } else if (base.startsWith(query)) {
+      rank = Math.min(rank, 1);
+    } else if (base.includes(query)) {
+      rank = Math.min(rank, 2);
+    }
+  });
+  return rank;
+}
+
 
 function dailySeedKey() {
   const now = new Date();
@@ -156,21 +212,71 @@ function dailyEntries(entries) {
 }
 
 function filteredEntries() {
-  const query = normalizeSearchText(phoneticState.query);
+  const rawQuery = phoneticState.query.trim();
+  const chars = characterMatches(rawQuery);
+
+  if (chars.length) {
+    return characterResults(chars);
+  }
+
+  const query = normalizePinyinText(rawQuery);
 
   if (!query) {
     return dailyEntries(phoneticState.entries);
   }
 
+  if (!hasPinyinLetter(query)) {
+    return [];
+  }
+
+  const exactToneQuery = hasToneNumber(query)
+    && hasVowel(query)
+    && phoneticState.entries.some((entry) => pinyinSyllablesOf(entry).includes(query));
+
   return phoneticState.entries
-    .map((entry, index) => ({ entry, index, rank: searchRank(entry, query, phoneticState.query) }))
+    .map((entry, index) => ({ entry, index, rank: pinyinRank(entry, query, exactToneQuery) }))
     .filter((item) => Number.isFinite(item.rank))
     .sort((a, b) => a.rank - b.rank || a.index - b.index)
     .map((item) => item.entry);
 }
 
+function renderPagination(totalPages) {
+  const pages = new Set([1, totalPages]);
+
+  for (let page = phoneticState.page - 2; page <= phoneticState.page + 2; page += 1) {
+    if (page >= 1 && page <= totalPages) {
+      pages.add(page);
+    }
+  }
+
+  const items = [...pages].sort((a, b) => a - b);
+  const buttons = [];
+
+  items.forEach((page, index) => {
+    const previous = items[index - 1];
+    if (previous && page - previous > 1) {
+      buttons.push('<span class="pagination-ellipsis" aria-hidden="true">...</span>');
+    }
+
+    buttons.push(`
+      <button type="button" data-page="${page}" ${page === phoneticState.page ? 'class="active" aria-current="page"' : ""}>
+        ${page}
+      </button>
+    `);
+  });
+
+  return `
+    <nav class="pagination" aria-label="\u97f3\u5178\u5206\u9875">
+      <button type="button" data-page="${phoneticState.page - 1}" ${phoneticState.page === 1 ? "disabled" : ""}>\u4e0a\u4e00\u9875</button>
+      <span>\u7b2c ${phoneticState.page} / ${totalPages} \u9875</span>
+      <div class="pagination-pages">${buttons.join("")}</div>
+      <button type="button" data-page="${phoneticState.page + 1}" ${phoneticState.page === totalPages ? "disabled" : ""}>\u4e0b\u4e00\u9875</button>
+    </nav>
+  `;
+}
+
 function renderTileReading(reading) {
-  const content = `${escapeHtml(labelText(reading))} ${escapeHtml(reading.pinyin)}`;
+  const content = `${renderLabelsHtml(reading)} <span class="phonetic-reading-value">${escapeHtml(reading.pinyin)}</span>`;
   return hasRegularReading(reading)
     ? `<strong>${content}</strong>`
     : `<span>${content}</span>`;
@@ -187,14 +293,24 @@ function renderTile(entry) {
 
 function render() {
   const entries = filteredEntries();
+  const totalPages = Math.max(1, Math.ceil(entries.length / RESULTS_PER_PAGE));
+  phoneticState.page = Math.min(Math.max(phoneticState.page, 1), totalPages);
+  const shouldPaginate = entries.length > RESULTS_PER_PAGE;
+  const pageEntries = shouldPaginate
+    ? entries.slice((phoneticState.page - 1) * RESULTS_PER_PAGE, phoneticState.page * RESULTS_PER_PAGE)
+    : entries;
 
   if (!entries.length) {
-    els.results.innerHTML = '<p class="empty">没有找到符合条件的字音。</p>';
+    els.results.innerHTML = '<p class="empty">\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u5b57\u97f3\u3002</p>';
+    if (els.pagination) els.pagination.innerHTML = "";
     updateBackToSearch();
     return;
   }
 
-  els.results.innerHTML = entries.map(renderTile).join("");
+  els.results.innerHTML = pageEntries.map(renderTile).join("");
+  if (els.pagination) {
+    els.pagination.innerHTML = shouldPaginate ? renderPagination(totalPages) : "";
+  }
   updateBackToSearch();
 }
 
@@ -212,7 +328,7 @@ function renderDetailReading(reading) {
   return `
     <section class="${className}">
       <p class="phonetic-reading-line">
-        <span class="phonetic-reading-labels">${escapeHtml(labelText(reading))}</span>
+        <span class="phonetic-reading-labels">${renderLabelsHtml(reading)}</span>
         <span class="phonetic-reading-pinyin">${escapeHtml(reading.pinyin)}</span>
       </p>
       ${descriptionHtml}
@@ -492,8 +608,9 @@ function renderLabelHelp(label = "正") {
     button.classList.toggle("active", active);
     button.setAttribute("aria-selected", String(active));
   });
+  els.labelHelpCard.className = `label-help-card ${labelClass(label)}`;
   els.labelHelpCard.innerHTML = `
-    <div class="label-help-badge">[${escapeHtml(label)}]</div>
+    <div class="label-help-badge ${labelClass(label)}">${escapeHtml(label)}</div>
     <div>
       <p class="label-help-card-kicker">${escapeHtml(item.tone)}</p>
       <h3>${escapeHtml(item.name)}</h3>
@@ -526,14 +643,24 @@ function updateBackToSearch() {
 els.form.addEventListener("submit", (event) => {
   event.preventDefault();
   phoneticState.query = els.input.value.trim();
+  phoneticState.page = 1;
   render();
   els.resultsPanel.scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
-els.input.addEventListener("input", () => {
-  phoneticState.query = els.input.value.trim();
-  render();
-});
+if (els.pagination) {
+  els.pagination.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-page]");
+    if (!button || button.disabled) return;
+
+    const page = Number(button.dataset.page);
+    if (!Number.isFinite(page) || page === phoneticState.page) return;
+
+    phoneticState.page = page;
+    render();
+    els.resultsPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
 
 els.results.addEventListener("click", (event) => {
   const tile = event.target.closest("button[data-phonetic-id]");

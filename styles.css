@@ -2088,7 +2088,7 @@ body.modal-open {
 .label-help-button {
   position: fixed;
   right: clamp(16px, 4vw, 32px);
-  bottom: clamp(150px, 18vh, 182px);
+  bottom: calc(clamp(84px, 10vh, 112px) + 68px);
   z-index: 80;
   display: grid;
   width: 54px;
@@ -2105,8 +2105,8 @@ body.modal-open {
 }
 
 .label-help-button svg {
-  width: 29px;
-  height: 29px;
+  width: 28px;
+  height: 28px;
   fill: none;
   stroke: currentColor;
   stroke-width: 3;
@@ -2935,6 +2935,36 @@ h1,
   box-shadow: none;
 }
 
+
+.phonetic-pagination {
+  display: grid;
+  justify-items: center;
+  padding: 18px 0 0;
+}
+
+.phonetic-pagination:empty {
+  display: none;
+}
+
+.phonetic-pagination .pagination {
+  width: min(100%, 960px);
+  color: var(--white);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.phonetic-pagination .pagination button:hover,
+.phonetic-pagination .pagination button.active {
+  color: var(--white);
+  background: #0b6f58;
+}
+
+.phonetic-pagination .pagination button:focus-visible {
+  outline: 4px solid #f0bd4f;
+  outline-offset: 2px;
+}
+
 .phonetic-results .empty {
   grid-column: 1 / -1;
   background: #fff8e8;
@@ -3022,8 +3052,8 @@ h1,
   text-align: center;
 }
 
-.mahjong-readings strong,
-.mahjong-readings span {
+.mahjong-readings > strong,
+.mahjong-readings > span {
   display: block;
   overflow-wrap: anywhere;
 }
@@ -3033,7 +3063,7 @@ h1,
   font-weight: 950;
 }
 
-.mahjong-readings span {
+.mahjong-readings > span {
   color: var(--muted);
   font-weight: 750;
 }
@@ -3104,6 +3134,54 @@ h1,
   font-weight: 950;
 }
 
+.phonetic-label {
+  --label-color: #d84a35;
+  --label-text: var(--white);
+  display: inline-grid;
+  min-width: 1.65em;
+  place-items: center;
+  margin-right: 4px;
+  padding: 1px 5px;
+  color: var(--label-text);
+  background: var(--label-color);
+  border: 2px solid var(--line);
+  font-family: var(--font-sans);
+  font-size: 0.82em;
+  font-weight: 950;
+  line-height: 1.1;
+  vertical-align: 0.08em;
+}
+
+.label-6b63,
+.label-help-tabs button[data-label-help="正"] {
+  --label-color: #d84a35;
+  --label-text: var(--white);
+}
+
+.label-767d,
+.label-help-tabs button[data-label-help="白"] {
+  --label-color: #147fc4;
+  --label-text: var(--white);
+}
+
+.label-53d8,
+.label-help-tabs button[data-label-help="变"] {
+  --label-color: #f0bd4f;
+  --label-text: var(--ink);
+}
+
+.label-7f55,
+.label-help-tabs button[data-label-help="罕"] {
+  --label-color: #7c8584;
+  --label-text: var(--white);
+}
+
+.label-8bad,
+.label-help-tabs button[data-label-help="训"] {
+  --label-color: #7a4b63;
+  --label-text: var(--white);
+}
+
 .phonetic-reading-pinyin {
   font-family: var(--font-phonetic);
   font-size: 24px;
@@ -3150,12 +3228,16 @@ h1,
 }
 
 .label-help-window {
-  width: min(720px, 100%);
+  width: min(720px, calc(100vw - 24px));
+  max-height: calc(100dvh - 32px);
+  overflow: hidden;
 }
 
 .label-help-content {
   display: grid;
   gap: 18px;
+  max-height: calc(100dvh - 104px);
+  overflow-y: auto;
   padding: clamp(18px, 4vw, 30px);
   background:
     linear-gradient(90deg, rgba(63, 183, 163, 0.12) 0 1px, transparent 1px 20px),
@@ -3191,8 +3273,8 @@ h1,
 .label-help-tabs button.active,
 .label-help-tabs button:hover,
 .label-help-tabs button:focus-visible {
-  color: var(--white);
-  background: #0b6f58;
+  color: var(--label-text);
+  background: var(--label-color);
   transform: translate(2px, 2px);
   box-shadow: 2px 2px 0 var(--ink);
 }
@@ -3206,7 +3288,7 @@ h1,
   padding: 18px;
   background: var(--white);
   border: 4px solid var(--line);
-  box-shadow: 7px 7px 0 #f0bd4f;
+  box-shadow: 7px 7px 0 rgba(17, 17, 17, 0.16);
 }
 
 .label-help-card:focus-visible {
@@ -3218,17 +3300,17 @@ h1,
   display: grid;
   aspect-ratio: 1;
   place-items: center;
-  color: #0b6f58;
-  background: #fffefa;
+  color: var(--label-text);
+  background: var(--label-color);
   border: 4px solid var(--line);
-  box-shadow: 5px 5px 0 #3fb7a3;
+  box-shadow: 5px 5px 0 var(--ink);
   font-size: 28px;
   font-weight: 950;
 }
 
 .label-help-card-kicker {
   margin: 0 0 6px;
-  color: #d84a35;
+  color: var(--label-color, #d84a35);
   font-size: 13px;
   font-weight: 950;
   letter-spacing: 0;
@@ -3258,6 +3340,44 @@ h1,
 
 
 
+
+@media (max-width: 640px) {
+  .label-help-layout {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .label-help-tabs {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .label-help-tabs button {
+    min-height: 42px;
+    padding: 6px 4px;
+    font-size: 15px;
+  }
+
+  .label-help-card {
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 12px;
+    min-height: 0;
+    padding: 14px;
+  }
+
+  .label-help-badge {
+    font-size: 24px;
+  }
+
+  .label-help-card h3 {
+    font-size: 24px;
+  }
+
+  .label-help-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
 @media (max-width: 1180px) {
   .phonetic-results {
     grid-template-columns: repeat(4, minmax(132px, 170px));
@@ -3335,14 +3455,14 @@ h1,
 
   .label-help-button {
     right: 16px;
-    bottom: 144px;
-    width: 48px;
-    height: 48px;
+    bottom: calc(clamp(84px, 10vh, 112px) + 68px);
+    width: 54px;
+    height: 54px;
   }
 
   .label-help-button svg {
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
   }
 
   .label-help-content {
