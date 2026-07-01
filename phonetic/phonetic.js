@@ -118,6 +118,23 @@ function examplesOf(reading) {
     : [];
 }
 
+function notesOf(value) {
+  if (Array.isArray(value)) {
+    return value.map((note) => String(note || "").trim()).filter(Boolean);
+  }
+
+  const note = String(value || "").trim();
+  return note ? [note] : [];
+}
+
+function renderReadingNote(note) {
+  const notes = notesOf(note);
+  return notes.length
+    ? `<p class="phonetic-note"><span>\u6ce8</span>${notes.map(escapeHtml).join("\u3001")}</p>`
+    : "";
+}
+
+
 
 function pinyinSyllablesOf(entry) {
   return readingsOf(entry)
@@ -321,8 +338,9 @@ function renderDetailReading(reading) {
     ? `<p class="phonetic-description">${escapeHtml(description)}</p>`
     : "";
   const examplesHtml = examples.length
-    ? `<p class="phonetic-examples"><span>词例</span>${examples.map(escapeHtml).join("、")}</p>`
+    ? `<p class="phonetic-examples"><span>\u8bcd\u4f8b</span>${examples.map(escapeHtml).join("\u3001")}</p>`
     : "";
+  const noteHtml = renderReadingNote(reading.note);
   const className = hasRegularReading(reading) ? "phonetic-reading regular" : "phonetic-reading";
 
   return `
@@ -333,11 +351,17 @@ function renderDetailReading(reading) {
       </p>
       ${descriptionHtml}
       ${examplesHtml}
+      ${noteHtml}
     </section>
   `;
 }
 
 function openDetail(entry) {
+  const entryNotes = notesOf(entry.note);
+  const entryNoteHtml = entryNotes.length
+    ? `<aside class="note entry-note"><span>\u6ce8</span><p>${entryNotes.map(escapeHtml).join("<br>")}</p></aside>`
+    : "";
+
   phoneticState.activeEntry = entry;
   els.detailTitle.textContent = entry.character;
   els.detailContent.innerHTML = `
@@ -346,7 +370,7 @@ function openDetail(entry) {
       <div class="phonetic-detail-readings">
         ${readingsOf(entry).map(renderDetailReading).join("")}
       </div>
-      ${entry.note ? `<aside class="note entry-note"><span>注</span><p>${escapeHtml(entry.note)}</p></aside>` : ""}
+      ${entryNoteHtml}
     </article>
   `;
   els.detailModal.hidden = false;

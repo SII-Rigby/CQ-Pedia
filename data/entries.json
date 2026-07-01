@@ -159,7 +159,7 @@
       "pinyin": "gao4",
       "wordClass": "动词",
       "variants": ["较","筶","斠"],
-      "definitions": [{"text":"试、尝试。","note": "《重庆方言词解》认为此字本当为「校」，「校(jiao4)」自古有校对、校验的含义，也尝尝与「较」通，表示比较、较量，由此引申出尝试。也有资料认为是「筶」，「筶」是一种古代占卜用具，用类似于羊角的两半器物制成，合拢掷于地，观其俯仰，以占吉凶。但「筶」本身不是动词，且「占卜」引申出「尝试」略显牵强，恐是后人附会。《民国巴县志》记「斠」字，「斠」本指平斗斛称量，与「校(jiao4)」在校对含义上相通。"},{"text":"设置。"}],
+      "definitions": [{"text":"试、尝试。","note":"《重庆方言词解》认为此字本当为「校」，「校(jiao4)」自古有校对、校验的含义，也尝尝与「较」通，表示比较、较量，由此引申出尝试。也有资料认为是「筶」，「筶」是一种古代占卜用具，用类似于羊角的两半器物制成，合拢掷于地，观其俯仰，以占吉凶。但「筶」本身不是动词，且「占卜」引申出「尝试」略显牵强，恐是后人附会。《民国巴县志》记「斠」字，「斠」本指平斗斛称量，与「校(jiao4)」在校对含义上相通。"},{"text":"设置。"}],
       "examples": [{"text":"下盘_儿我们来校一下_儿这家火锅_儿的味道_儿。","pinyin":"xia4 par2 wo3 men1 lai2 gao4 yi2 har4 le4 jia1 ho3 guer1 li1 wei4 dar4","translation":"下次咱们来尝尝看这家火锅店的味道。"},{"text":"明天_儿要早点_儿起来，记着校闹钟。","pinyin":"min2 tiar1 yao4 zao3 diar3 qi3 lai2 ji4 dao3 gao4 lao4 zong1","translation":"明天要早起，记得设置闹钟。"}]
     },
     {
@@ -2357,7 +2357,7 @@
       "headword": "𢱟",
       "pinyin": "can3",
       "wordClass": "动词",
-      "variants": ["摌"],
+      "variants": ["摌","掸"],
       "definitions": [{"text":"用手掌、鞭子、竹条等快速击打、抽打。"}],
       "examples": [{"text":"𢱟耳矢","pinyin":"can3 er3 si3","translation":"扇耳光"}]
     },
@@ -4373,6 +4373,169 @@
       "definitions": [{"text":"亲嘴、接吻。"}],
       "examples": [{"text":"幺儿，我们来打个啵_儿。","pinyin":"yao1 er2 wo3 men2 lai2 da3 gə4 ber1","translation":"宝贝，我们来亲个嘴。"}],
       "fig": true
+    },
+    {
+      "id": "cq-00521",
+      "headword": "谄尖_儿夺势",
+      "pinyin": "can3 jiar1 do2 si4 / can3 jiar1 do2 si2",
+      "wordClass": "动词；形容词",
+      "variants": ["谄奸_儿夺势","产尖_儿夺实"],
+      "definitions": [{"text":"为讨好领导、长辈等而打小报告、搬弄是非、出风头。"}],
+      "examples": [{"text":"两个娃儿拌两句嘴，她就跑到老师面前谄尖_儿夺势的。","pinyin":"liang3 gə4 wa2 er2-1 ban4 liang3 ju4 zui3 ta1 dou4 pao3 dao3 lao3 si1 mian4 qian2 can3 jiar1 do2 si4","translation":"两个孩子吵了几句嘴，她就跑去向老师打小报告。"}]
+    },
+    {
+      "id": "cq-00522",
+      "headword": "长麻吊线",
+      "pinyin": "cang1 ma2 diao4 xian4",
+      "wordClass": "形容词",
+      "definitions": [{"text":"形容时间拖得很长，迟迟没有完结。"}],
+      "examples": [{"text":"这件事长麻吊线的，不晓得好久才扯得清。","pinyin":"le4 jian4 si4 cang1 ma2 diao4 xian4 li1 bu2 xiao3 de2 hao3 jiu3 tai2 ce3 de2 qin1","translation":"这件事拖了很久，不知道什么时候才能理清。"}]
+    },
+    {
+      "id": "cq-00523",
+      "headword": "长梭梭",
+      "pinyin": "cang2 so1 so1",
+      "wordClass": "形容词",
+      "definitions": [{"text":"很长、细长的样子。"}],
+      "examples": [{"text":"这条裤儿长梭梭的，穿起不合身。","pinyin":"le4 tiao2 ku4 er2 cang2 so1 so1 li1 cuan1 qi3 bu2 ho2 sen1","translation":"这条裤子很长，穿起来不合身。"}]
+    },
+    {
+      "id": "cq-00524",
+      "headword": "巴味_儿",
+      "pinyin": "ba1 wer4",
+      "wordClass": "动词",
+      "definitions": [{"text":"入味，调料的味道渗进食物里。"}],
+      "examples": [{"text":"牛肉要烧巴味_儿再出锅。","pinyin":"liu2 rou4 yao4 sao1 ba1 wer4 zai4 cu2 go1","translation":"牛肉要烧入味再出锅。"}]
+    },
+    {
+      "id": "cq-00525",
+      "headword": "巴肉",
+      "pinyin": "ba1 rou4",
+      "wordClass": "形容词",
+      "definitions": [{"text":"衣物紧贴身体、贴身。"}],
+      "examples": [{"text":"这件秋衣巴肉，穿起也热和_儿。","pinyin":"le4 jian4 qiu1 yi1 ba1 rou4 cuan1 qi3 ye3 re2 huer2-1","translation":"这件秋衣很贴身，穿着也暖和。"}]
+    },
+    {
+      "id": "cq-00526",
+      "headword": "……巴沙",
+      "pinyin": "ba1 sa1",
+      "wordClass": "助词",
+      "definitions": [{"text":"形容词后缀，表示呈现某种状态、样子的意思，带口语色彩。也说「……巴叉」。"}],
+      "examples": [{"text":"笑人巴沙 | 造孽巴沙 | 眼屎巴沙","pinyin":"xiao4 ren2 ba1 sa1 | zao4 lie2 ba1 sa1 | yan3 si3 ba1 sa1","translation":"笑眯眯的样子 | 可怜兮兮的样子 | 满眼屎、脏兮兮的样子"}]
+    },
+    {
+      "id": "cq-00527",
+      "headword": "巴巴掌",
+      "pinyin": "ba1 ba1 zang3",
+      "wordClass": "名词",
+      "definitions": [{"text":"手掌。"},{"text":"掌声。"}],
+      "examples": [{"text":"鼓巴巴掌","pinyin":"gu3 ba1 ba1 zang3","translation":"鼓掌"},{"text":"看完这一场精彩的表演，台下的巴巴掌一阵接着一阵。","pinyin":"kan4 wan2 le4 yi2 cang2 jin1 cai3 li1 biao3 yan3 tai2 xia4 li1 ba1 ba1 zang3 yi2 zen4 jie2 dao3 yi2 zen4","translation":"看完这一场精彩的表演，台下掌声一阵接着一阵。"}]
+    },
+    {
+      "id": "cq-00528",
+      "headword": "叭",
+      "pinyin": "ba1",
+      "wordClass": "动词",
+      "variants": ["吧","巴"],
+      "definitions": [{"text":"抽烟、吸烟。"}],
+      "examples": [{"text":"他坐到门口叭了点_儿叶子烟。","pinyin":"ta1 zo4 dao3 men2 kou3 ba1 lao3 diar3 ye2 zi3 yan1","translation":"他坐在门口抽了点叶子烟。"}]
+    },
+    {
+      "id": "cq-00529",
+      "headword": "把凭",
+      "pinyin": "ba3 pin2",
+      "wordClass": "名词",
+      "definitions": [{"text":"证据、凭据。"}],
+      "examples": [{"text":"你白之八之说我拿了钱，有啥子把凭？","pinyin":"li3 be2 zi1 ba2 zi1 so2 wo3 la2 lao3 qian2 you3 sa4 zi3 ba3 pin2","translation":"你说我说我拿了钱，有什么证据？"}]
+    },
+    {
+      "id": "cq-00530",
+      "headword": "把稳",
+      "pinyin": "ba3 wen3",
+      "wordClass": "形容词",
+      "definitions": [{"text":"稳当、可靠。"}],
+      "examples": [{"text":"这个人办事把稳，交给他你放心。","pinyin":"le4 gə4 ren2 ban4 si4 ba3 wen3 jiao1 ge3 ta1 li3 fang4 xin1","translation":"这个人办事稳当，交给他你放心。"}]
+    },
+    {
+      "id": "cq-00531",
+      "headword": "把把_儿",
+      "pinyin": "ba3 bar3",
+      "wordClass": "量词；名词",
+      "definitions": [{"text":"量词，一手能握住的数量。"},{"text":"附在形容个头的词后，表示身材、个子。"}],
+      "examples": [{"text":"一把把_儿米 | 一把把_儿藤藤菜","pinyin":"yi2 ba3 bar3 mi3 | yi2 ba3 bar3 ten2 ten2-1 cai4","translation":"一把米 | 一把空心菜"},{"text":"矮把把_儿","pinyin":"ngai3 ba3 bar3","translation":"小矮子"}]
+    },
+    {
+      "id": "cq-00532",
+      "headword": "把细",
+      "pinyin": "ba3 xi4",
+      "wordClass": "形容词；副词",
+      "definitions": [{"text":"仔细、小心、谨慎。"}],
+      "examples": [{"text":"楼梯才拖了地，你走路把细点_儿。","pinyin":"lou2 ti1 tai2 to1 lao3 di4 li3 zou3 lu4 ba3 xi4 diar3","translation":"楼梯刚拖过地，你走路小心点。"}]
+    },
+    {
+      "id": "cq-00533",
+      "headword": "把戏",
+      "pinyin": "ba3 xi4",
+      "wordClass": "名词",
+      "definitions": [{"text":"戏法、花招；也指骗人的小伎俩。"}],
+      "examples": [{"text":"你那点_儿把戏莫拿出来现了，我看过万百遍了。","pinyin":"li3 la4 diar3 ba3 xi4 mo2 la2 cu2 lai2 xian4 lao3 wo3 kan4 go4 wan4 be2 pian4 lao3","translation":"你那点花招别拿出来显摆了，我看过无数次了。"}]
+    },
+    {
+      "id": "cq-00534",
+      "headword": "坝",
+      "pinyin": "ba4",
+      "wordClass": "名词；量词",
+      "definitions": [{"text":"平地、较开阔的空地。常见于地名，如「菜园坝_儿」「沙坪坝」。"},{"text":"量词，用于地面上连片铺开、散落的东西。也说「坝坝」。"}],
+      "examples": [{},{"text":"一坝谷子 | 鸡死了一坝","pinyin":"yi2 ba4 ji1 si3 | ji1 si3 lao3 yi2 ba4","translation":"一大片谷子 | 鸡死了一大片"}]
+    },
+    {
+      "id": "cq-00535",
+      "headword": "坝坝_(儿)",
+      "pinyin": "ba4 ba4-1 / ba4 bar4-1",
+      "wordClass": "名词；量词",
+      "definitions": [{"text":"平地、广场、院坝。也说「坝子」。"},{"text":"用于地面上连片铺开、散落的东西，同「坝」。"}],
+      "examples": [{"text":"坝坝_儿高头跳舞","pinyin":"ba4 bar4-1 gao1 tou2 tiao4 vu3","translation":"在平地上跳舞"},{"text":"渣滓堆了一坝坝。","pinyin":"za1 zi3 dui1 lao3 yi2 ba4 ba4-1","translation":"垃圾堆了一大片。"}]
+    },
+    {
+      "id": "cq-00536",
+      "headword": "坝坝_儿舞",
+      "pinyin": "ba4 ba4r-1 vu3",
+      "wordClass": "名词",
+      "definitions": [{"text":"广场舞。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00537",
+      "headword": "坝坝_儿电影_儿",
+      "pinyin": "ba4 bar4-1 dian4 yer3",
+      "wordClass": "名词",
+      "definitions": [{"text":"露天电影。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00538",
+      "headword": "坝坝_儿戏",
+      "pinyin": "ba4 bar4-1 xi4",
+      "wordClass": "名词",
+      "definitions": [{"text":"在院坝、空地上演出的戏曲或民间演出。"}],
+      "examples": [{"text":"庙会那天请了戏班子唱坝坝_儿戏。","pinyin":"miao4 hui4 la4 tian1 qin3 lao3 xi4 ban1 zi3 cang4 ba4 bar4-1 xi4","translation":"庙会那天请了戏班子唱露天戏。"}]
+    },
+    {
+      "id": "cq-00539",
+      "headword": "礧",
+      "pinyin": "lui1",
+      "wordClass": "动词",
+      "definitions": [{"text":"滚动；使滚动。"},{"text":"因滚落而遗失。"}],
+      "examples": [{"text":"石头礧下来了 | 礧铁环","pinyin":"si2 tou2-1 lui1 xia4 lai2 lao3 | lui1 tie2 huan2","translation":"石头滚下来了 | 滚铁环"},{"text":"我的项链_儿上的珠子礧了，找半天都没找到。","pinyin":"wo3 li1 hang4 liar4 sang4 li1 zu1 zi3 lui1 lao3 zao3 ban4 tian1 dou1 mei1 zao3 dao3","translation":"我项链上的珠子滚掉了，找了半天都没找到。"}]
+    },
+    {
+      "id": "cq-00540",
+      "headword": "衣姿实姿",
+      "pinyin": "yi1 zi1 si2 zi1",
+      "wordClass": "形容词",
+      "variants": ["衣之实之","衣之食之"],
+      "definitions": [{"text":"形容衣服穿得正式、周正而好看。也作「衣姿实展」。"}],
+      "examples": [{"text":"她今天_儿收拾得衣姿食姿的，是不是要去吃喜酒_儿？","pinyin":"ta1 jin1 tiar1 sou1 si2 de2 yi1 zi1 si2 zi1 li1 si4 bu2 si4 yao4 qi4 ci2 xi3 jier3","translation":"她今天打扮得很正式好看，是不是要去喝喜酒？"}]
     }
   ]
 }
