@@ -34,7 +34,7 @@ const MUST_READ_DOCS = [
 
 const docCache = new Map();
 let activeDocId = null;
-const DAILY_SAMPLE_SIZE = 24;
+const FEATURED_CHARACTERS = "嘉陵夜雨南山秋灯长街人静远雾云横心存热望步履从容";
 const RESULTS_PER_PAGE = 120;
 const LABEL_HELP = {
   "\u6b63": {
@@ -190,42 +190,11 @@ function pinyinRank(entry, query, exactToneQuery) {
 }
 
 
-function dailySeedKey() {
-  const now = new Date();
-  const chinaTime = new Date(now.getTime() + 8 * 60 * 60 * 1000);
-  const year = chinaTime.getUTCFullYear();
-  const month = String(chinaTime.getUTCMonth() + 1).padStart(2, "0");
-  const day = String(chinaTime.getUTCDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
-
-function hashString(value) {
-  let hash = 2166136261;
-  for (const char of value) {
-    hash ^= char.charCodeAt(0);
-    hash = Math.imul(hash, 16777619);
-  }
-  return hash >>> 0;
-}
-
-function seededRandom(seed) {
-  let value = seed >>> 0;
-  return () => {
-    value += 0x6D2B79F5;
-    let t = value;
-    t = Math.imul(t ^ (t >>> 15), t | 1);
-    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
-function dailyEntries(entries) {
-  const random = seededRandom(hashString(dailySeedKey()));
-  return entries
-    .map((entry, index) => ({ entry, index, score: random() }))
-    .sort((a, b) => a.score - b.score || a.index - b.index)
-    .slice(0, DAILY_SAMPLE_SIZE)
-    .map((item) => item.entry);
+function featuredEntries(entries) {
+  const byCharacter = new Map(entries.map((entry) => [entry.character, entry]));
+  return Array.from(FEATURED_CHARACTERS)
+    .map((char) => byCharacter.get(char))
+    .filter(Boolean);
 }
 
 function filteredEntries() {
@@ -239,7 +208,7 @@ function filteredEntries() {
   const query = normalizePinyinText(rawQuery);
 
   if (!query) {
-    return dailyEntries(phoneticState.entries);
+    return featuredEntries(phoneticState.entries);
   }
 
   if (!hasPinyinLetter(query)) {

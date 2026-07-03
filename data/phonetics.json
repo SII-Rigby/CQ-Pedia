@@ -1957,6 +1957,12 @@
             "正"
           ],
           "pinyin": "jiai4"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "gai4"
         }
       ]
     },
@@ -3780,9 +3786,10 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","白"
           ],
-          "pinyin": "men1"
+          "pinyin": "men1",
+          "examples": ["我们","你们"]
         },
         {
           "labels": [
@@ -7870,6 +7877,12 @@
             "正"
           ],
           "pinyin": "jiai1"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "gai4"
         }
       ]
     },
@@ -8307,6 +8320,12 @@
             "正"
           ],
           "pinyin": "jiai4"
+        },
+        {
+          "labels": [
+            "白","罕"
+          ],
+          "pinyin": "gai4"
         }
       ]
     },
@@ -10355,7 +10374,15 @@
           "labels": [
             "正"
           ],
-          "pinyin": "gang1"
+          "pinyin": "gang1",
+          "examples": ["下岗","七星岗"]
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "gang4",
+          "examples": ["袁家岗"]
         }
       ]
     },
@@ -13517,9 +13544,10 @@
         },
         {
           "labels": [
-            "罕"
+            "白"
           ],
-          "pinyin": "liu4"
+          "pinyin": "liu4",
+          "examples": ["不要拗"]
         }
       ]
     },
@@ -19885,7 +19913,7 @@
               },
               {
                       "labels": [
-                              "白"
+                              "白","罕"
                       ],
                       "pinyin": "gai1"
               }
@@ -34528,6 +34556,13 @@
             "正"
           ],
           "pinyin": "lo2"
+        },
+        {
+          "labels": [
+            "变","白"
+          ],
+          "pinyin": "lao1",
+          "examples": ["空落落","稀落落"]
         }
       ]
     },
@@ -36472,9 +36507,15 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","白"
           ],
           "pinyin": "gai1"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiai1"
         }
       ]
     },
@@ -37346,7 +37387,15 @@
           "labels": [
             "正"
           ],
-          "pinyin": "kai4"
+          "pinyin": "kai4",
+          "examples": ["灌溉","溉澜溪"]
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "ji4",
+          "examples": ["松溉古镇"]
         }
       ]
     },
