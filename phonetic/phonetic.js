@@ -8,6 +8,7 @@ const phoneticState = {
 const els = {
   form: document.querySelector("#phoneticSearchForm"),
   input: document.querySelector("#phoneticSearchInput"),
+  recentSearchMenu: document.querySelector("#phoneticRecentSearchMenu"),
   resultsPanel: document.querySelector("#phoneticResultsPanel"),
   results: document.querySelector("#phoneticResults"),
   pagination: document.querySelector("#phoneticPagination"),
@@ -36,6 +37,8 @@ const docCache = new Map();
 let activeDocId = null;
 const FEATURED_CHARACTERS = "嘉陵夜雨南山秋灯长街人静远雾云横心存热望步履从容";
 const RESULTS_PER_PAGE = 120;
+const PHONETIC_RECENT_SEARCH_STORAGE_KEY = "cq-pedia-phonetic-recent-searches-v1";
+const RECENT_SEARCH_LIMIT = 5;
 const LABEL_HELP = {
   "\u6b63": {
     name: "\u6b63\u97f3",
@@ -85,6 +88,101 @@ const escapeHtml = (value) => String(value || "")
   .replace(/"/g, "&quot;")
   .replace(/'/g, "&#039;");
 
+
+function readRecentSearches() {
+  try {
+    const raw = localStorage.getItem(PHONETIC_RECENT_SEARCH_STORAGE_KEY);
+    const items = JSON.parse(raw || "[]");
+    return Array.isArray(items)
+      ? items.map((item) => String(item || "").trim()).filter(Boolean).slice(0, RECENT_SEARCH_LIMIT)
+      : [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function writeRecentSearches(searches) {
+  try {
+    localStorage.setItem(PHONETIC_RECENT_SEARCH_STORAGE_KEY, JSON.stringify(searches));
+  } catch (error) {
+    // Ignore storage failures; search still works for this visit.
+  }
+}
+
+function mountRecentSearchMenu() {
+  if (els.recentSearchMenu && els.recentSearchMenu.parentElement !== document.body) {
+    document.body.appendChild(els.recentSearchMenu);
+  }
+}
+
+function positionRecentSearchMenu() {
+  if (!els.form || !els.recentSearchMenu) {
+    return;
+  }
+
+  mountRecentSearchMenu();
+  const rect = els.form.getBoundingClientRect();
+  const inset = 11;
+  const availableWidth = Math.max(0, rect.width - inset * 2);
+  const maxViewportWidth = Math.max(0, window.innerWidth - rect.left - inset - 12);
+  const width = Math.min(availableWidth, maxViewportWidth, Math.max(220, Math.round(availableWidth / 3)));
+  els.recentSearchMenu.style.left = `${rect.left + inset}px`;
+  els.recentSearchMenu.style.top = `${rect.bottom + 3}px`;
+  els.recentSearchMenu.style.width = `${width}px`;
+}
+
+function setRecentSearchMenuVisible(visible) {
+  if (!els.recentSearchMenu) {
+    return;
+  }
+
+  if (visible) {
+    positionRecentSearchMenu();
+  }
+
+  els.recentSearchMenu.hidden = !visible;
+  els.input?.setAttribute("aria-expanded", String(visible));
+}
+
+function renderRecentSearches() {
+  if (!els.recentSearchMenu) {
+    return 0;
+  }
+
+  const searches = readRecentSearches();
+  els.recentSearchMenu.innerHTML = searches
+    .map((query) => `
+      <button type="button" role="option" data-recent-search="${escapeHtml(query)}">
+        <span>${escapeHtml(query)}</span>
+      </button>
+    `)
+    .join("");
+
+  if (!searches.length) {
+    setRecentSearchMenuVisible(false);
+  }
+
+  return searches.length;
+}
+
+function showRecentSearches() {
+  setRecentSearchMenuVisible(renderRecentSearches() > 0);
+}
+
+function rememberSearch(query) {
+  const normalizedQuery = String(query || "").trim();
+  if (!normalizedQuery) {
+    return;
+  }
+
+  const searches = [
+    normalizedQuery,
+    ...readRecentSearches().filter((item) => item !== normalizedQuery)
+  ].slice(0, RECENT_SEARCH_LIMIT);
+
+  writeRecentSearches(searches);
+  renderRecentSearches();
+}
 function readingLabels(reading) {
   return Array.isArray(reading.labels)
     ? reading.labels.map((label) => String(label || "").trim()).filter(Boolean)
@@ -633,12 +731,53 @@ function updateBackToSearch() {
   els.backToSearch.classList.toggle("visible", visible);
 }
 
-els.form.addEventListener("submit", (event) => {
-  event.preventDefault();
+function submitSearch() {
   phoneticState.query = els.input.value.trim();
+  rememberSearch(phoneticState.query);
+  setRecentSearchMenuVisible(false);
   phoneticState.page = 1;
   render();
   els.resultsPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+els.form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  submitSearch();
+});
+
+els.input.addEventListener("focus", showRecentSearches);
+els.input.addEventListener("click", showRecentSearches);
+
+els.recentSearchMenu?.addEventListener("mousedown", (event) => {
+  event.preventDefault();
+});
+
+els.recentSearchMenu?.addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-recent-search]");
+  if (!button) {
+    return;
+  }
+
+  els.input.value = button.dataset.recentSearch || "";
+  submitSearch();
+});
+
+document.addEventListener("click", (event) => {
+  if (!els.form.contains(event.target)) {
+    setRecentSearchMenuVisible(false);
+  }
+});
+
+window.addEventListener("scroll", () => {
+  if (!els.recentSearchMenu?.hidden) {
+    positionRecentSearchMenu();
+  }
+}, { passive: true });
+
+window.addEventListener("resize", () => {
+  if (!els.recentSearchMenu?.hidden) {
+    positionRecentSearchMenu();
+  }
 });
 
 if (els.pagination) {
@@ -701,6 +840,7 @@ if (els.labelHelpBtn && els.labelHelpModal) {
 
 document.addEventListener("keydown", (event) => {
   if (event.key !== "Escape") return;
+  setRecentSearchMenuVisible(false);
   if (!els.detailModal.hidden) closeDetail();
   if (!els.mustReadModal.hidden) closeMustReadModal();
   if (!els.aboutModal.hidden) closeAboutModal();
@@ -717,4 +857,5 @@ if (els.backToSearch) {
 }
 
 buildDocList();
+renderRecentSearches();
 loadEntries();
