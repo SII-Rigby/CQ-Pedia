@@ -1,4 +1,4 @@
-{
+﻿{
   "schemaVersion": 1,
   "language": {"name":"重庆话","romanization":"Chongqing Mandarin tone-number pinyin"},
   "entries": [
@@ -822,6 +822,7 @@
       "headword": "白之八之",
       "pinyin": "be2 zi1 ba2 zi1",
       "wordClass": "副词",
+      "variants": ["白支八支"],
       "definitions": [{"text":"平白无故、莫名其妙。又作「白之之」。"}],
       "examples": [{"text":"你白之八之搒我一下干啥子？","pinyin":"li3 be2 zi1 ba2 zi1 pang3 wo3 yi2 ha4 gan4 sa4 zi3","translation":"你平白无故地碰我一下干嘛？"}]
     },
@@ -2205,7 +2206,7 @@
       "headword": "啄",
       "pinyin": "zua2",
       "wordClass": "动词",
-      "definitions": [{"text":"禽类用喙取食；也可泛指用尖的部位戳、碰。"},{"text":"踢。常见于「啄球」。"},{"text":"点头。常说「啄脑壳」「啄瞌睡」。"}],
+      "definitions": [{"text":"禽类用喙取食；也可泛指用尖的部位戳、碰。"},{"text":"踢。此义项也可写作「𨁿」。"},{"text":"点头。常说「啄脑壳」「啄瞌睡」。"}],
       "examples": [{"text":"啄木鸟","pinyin":"zua2 mu2 liao3"},{"text":"他一脚把球啄到溪沟_儿头去了。","pinyin":"ta1 yi2 jio2 ba3 qiu2 zua2 dao3 qi1 ger1 tou2 qi4 lao3","translation":"他一脚把球踢到小溪里去了。"},{"text":"一上数学课，她脑壳就一啄一啄的。","pinyin":"yi2 sang4 su4 xio2 ko4 ta1 lao3 ko2 dou4 yi2 zua2 yi2 zua2 li2","translation":"一上数学课，她脑袋就一点一点的（犯困）。"}]
     },
     {
@@ -4590,11 +4591,12 @@
     },
     {
       "id": "cq-00547",
-      "headword": "雨飞飞_儿",
+      "headword": "雨霏霏_儿",
       "pinyin": "yu3 fei1 fer1",
       "wordClass": "名词",
-      "definitions": [{"text":"毛毛雨。"}],
-      "examples": [{"text":"外头在落雨飞飞_儿了，记着带伞。","pinyin":"wai4 tou2 dai4 lo2 yu3 fei1 fer1 lao3 ji4 dao3 dai4 san3","translation":"外面在飘毛毛雨了，记得带伞。"}]
+      "variants": ["雨飞飞_儿"],
+      "definitions": [{"text":"毛毛雨。也说「霏霏_儿雨」，或简称「霏霏_儿」。"}],
+      "examples": [{"text":"外头在落雨霏霏_儿了，记着带伞。","pinyin":"wai4 tou2 dai4 lo2 yu3 fei1 fer1 lao3 ji4 dao3 dai4 san3","translation":"外面在飘毛毛雨了，记得带伞。"}]
     },
     {
       "id": "cq-00548",
@@ -4890,7 +4892,7 @@
       "pinyin": "zan3 yan2 zer3",
       "wordClass": "动词",
       "definitions": [{"text":"讲方言俚语、俗语、歇后语或笑话。"}],
-      "examples": [{"text":"他们几个坐到茶馆头展言子_儿，哪个讲得逗就笑哪个。","pinyin":"ta1 men1 ji3 go4 zo4 dao3 ca2 guan3 tou2 zan3 yan2 zer3 la4 go4 jiang3 de2 dou4 dou4 xiao4 la4 go4","translation":"他们几个坐在茶馆里讲俏皮话，谁讲得逗就笑谁。"}]
+      "examples": [{"text":"他诀人喜欢展言子_儿，诀得人反都反应不转来。","pinyin":"ta1 jue2 ren2 xi3 huan1 zan3 yan2 zer3 jue2 de2 ren2 fan3 dou1 fan3 yin4 bu2 go4 lai2","translation":"他骂人喜欢讲点俏皮话，骂得人都反应不过来。"}]
     },
     {
       "id": "cq-00584",
@@ -4898,7 +4900,7 @@
       "pinyin": "ci2 mo3 ho2",
       "wordClass": "动词",
       "definitions": [{"text":"吃不付钱的酒席。"},{"text":"白吃白拿，占便宜。"}],
-      "examples": [{"text":"听说那边办席，他就跑去吃抹和。","pinyin":"tin1 so2 la4 bian1 ban4 xi2 ta1 dou4 pao3 qi4 ci2 mo3 ho2","translation":"听说那边办酒席，他就跑去白吃。"},{"text":"你莫一天到晚想吃抹和，自己该出的那份还是要出。","pinyin":"li3 mo2 yi2 tian1 dao4 wan3 xiang3 ci2 mo3 ho2 zi4 jia1 gai1 cu2 li1 la4 fen4 hai2 si4 yao4 cu2","translation":"你别整天想着占便宜，自己该出的那份还是要出。"}]
+      "examples": [{"text":"听到说那边办席，他就跑去吃抹和。","pinyin":"tin1 dao3 so2 la4 bian1 ban4 xi2 ta1 dou4 pao3 qi4 ci2 mo3 ho2","translation":"听说那边办酒席，他就跑去白吃。"},{"text":"你莫一天到黑想到起吃抹和，各人该出的那份_儿还是要出。","pinyin":"li3 mo2 yi2 tian1 dao4 he2 xiang3 dao3 qi3 ci2 mo3 ho2 go2 ren2 gai1 cu2 li1 la4 fer4 hai2 si4 yao4 cu2","translation":"你别整天想着占便宜，自己该出的那份还是要出。"}]
     },
     {
       "id": "cq-00585",
@@ -4906,32 +4908,34 @@
       "pinyin": "cou1 tiar2",
       "wordClass": "动词",
       "definitions": [{"text":"变瘦，身材变得苗条。"}],
-      "examples": [{"text":"她这阵_儿瘦得抽条_儿了，原来那条裤子都穿不稳。","pinyin":"ta1 le4 zer4 sou4 de2 cou1 tiar2 lao3 yuan2 lai2 la4 tiao2 ku4 zi3 dou1 cuan1 bu2 wen3","translation":"她这阵子瘦得苗条了，原来那条裤子都穿不稳。"}]
+      "examples": [{"text":"她这阵_儿抽条_儿了，原来那条裤儿都穿不稳当了。","pinyin":"ta1 le4 zer4 cou1 tiar2 lao3 yuan2 lai2 la4 tiao2 ku4 er2 dou1 cuan1 bu2 wen3 dang4 lao3","translation":"她这阵子苗条了，原来那条裤子都穿不稳当了。"}]
     },
     {
       "id": "cq-00586",
       "headword": "打甩手_(儿)",
-      "pinyin": "da3 suai3 sou3 / da3 suai3 suer3",
+      "pinyin": "da3 suai3 ser3 / da3 suai3 sou3",
       "wordClass": "动词",
       "definitions": [{"text":"什么东西都不拿，空着手。"},{"text":"什么事情都不用管，甩手不管。"}],
-      "examples": [{"text":"你打甩手_儿就走啊？东西都不拿？","pinyin":"li3 da3 suai3 suer3 dou4 zou3 a3 dong1 xi1 dou1 bu2 na2","translation":"你空着手就走啊？东西都不拿？"},{"text":"这个事情摆平了，他就可以打甩手不管了。","pinyin":"le4 gə4 si4 qing2 bai3 pin2 lao3 ta1 dou4 ko3 yi3 da3 suai3 sou3 bu2 guan3 lao3","translation":"这件事解决了，他就可以甩手不管了。"}]
+      "examples": [{"text":"你打甩手_儿就来啊？东西都不拿？","pinyin":"li3 da3 suai3 ser3 dou4 lai2 a3 dong1 xi1 dou1 bu2 la2","translation":"你空着手就来啊？东西都不拿？"},{"text":"这个事情交给丘二了，她就可以打甩手_儿不管了。","pinyin":"le4 gə4-1 si4 qin2 jiao1 ge1 qiu1 er4 lao3 ta1 dou4 ko3 yi3 da3 suai3 ser3 bu2 guan3 lao3","translation":"这件事交给手下了，她就可以甩手不管了。"}]
     },
     {
       "id": "cq-00587",
-      "headword": "小壳钻_儿",
+      "headword": "小壳转_儿",
       "pinyin": "xiao3 ko2 zuar4",
       "wordClass": "名词",
+      "variants": ["小壳钻_儿"],
       "definitions": [{"text":"小不点；很小的人或东西。"}],
-      "examples": [{"text":"这么个小壳钻_儿，就晓得跟到大人学说话了。","pinyin":"le4 me2 gə4 xiao3 ko2 zuar4 dou4 xiao3 de2 gen1 dao3 da4 ren2 xio2 so2 hua4 lao3","translation":"这么个小不点，就知道跟着大人学说话了。"}]
+      "examples": [{"text":"恁个小个小壳转_儿，就晓得学到大人说话了。","pinyin":"len4 gə4-1 xiao3 gə4 xiao3 ko2 zuar4 dou4 xiao3 de2 xio2 dao3 da4 ren2 so2 hua4 lao3","translation":"这么个小不点，就知道学着大人说话了。"}]
     },
     {
       "id": "cq-00588",
-      "headword": "敲壳钻_儿",
+      "headword": "敲壳转_儿",
       "pinyin": "kao1 ko2 zuar4",
       "wordClass": "动词",
+      "variants": ["敲壳钻_儿"],
       "definitions": [{"text":"用指关节敲人的额头。"}],
       "note": "也说「敲壳儿(kao1 ko2 er2-1)」「敲壳壳_儿(kao1 ko1 kuer1)」。",
-      "examples": [{"text":"你再皮，我就给你敲个壳钻_儿。","pinyin":"li3 zai4 pi2 wo3 dou4 gei3 li3 kao1 gə4 ko2 zuar4","translation":"你再调皮，我就给你敲个脑瓜崩。"}]
+      "examples": [{"text":"你再涎，我敲你一壳转_儿。","pinyin":"li3 zai4 xuan2 wo3 kao1 li3 yi2 ko2 zuar4","translation":"你再厚脸皮，我敲你脑瓜崩。"}]
     },
     {
       "id": "cq-00589",
@@ -4939,15 +4943,15 @@
       "pinyin": "da3 gan1 yue3",
       "wordClass": "动词",
       "definitions": [{"text":"干呕，作呕而没有吐出东西。"}],
-      "examples": [{"text":"闻到那股馊味，他马上就开始打干哕。","pinyin":"wen2 dao3 la4 gu3 sou1 wei4 ta1 ma3 sang4 dou4 kai1 si3 da3 gan1 yue3","translation":"闻到那股馊味，他马上就开始干呕。"}]
+      "examples": [{"text":"闻到那股死耗子气色，我就想打干哕。","pinyin":"wen2 dao3 la4 gu3 si3 hao4 zi3 qi4 se2 wo3 dou4 xiang3 da3 gan1 yue3","translation":"闻到那股死老鼠味，我就想干呕。"}]
     },
     {
       "id": "cq-00590",
       "headword": "米米_(儿)",
       "pinyin": "mi3 mi3 / mi3 mier3",
       "wordClass": "名词",
-      "definitions": [{"text":"皮肤上长出的籽、痘痘等小凸起。"}],
-      "examples": [{"text":"他脸上起了好多米米_儿，莫一天到晚用手去挤。","pinyin":"ta1 lian3 sang4 qi3 lao3 hao3 do1 mi3 mier3 mo2 yi2 tian1 dao4 wan3 yong4 sou3 qi4 ji1","translation":"他脸上长了很多痘痘，别整天用手去挤。"}]
+      "definitions": [{"text":"皮肤上长出的籽、痘痘等小凸起。近义词「籽籽」。"}],
+      "examples": [{"text":"他脸上起了好多米米，莫一天用手去挤。","pinyin":"ta1 lian3 sang4 qi3 lao3 hao3 do1 mi3 mi3 mo2 yi2 tian1 yong4 sou3 qi4 ji1","translation":"他脸上长了很多痘痘，别整天用手去挤。"}]
     },
     {
       "id": "cq-00591",
@@ -4955,7 +4959,7 @@
       "pinyin": "zi3 zi3",
       "wordClass": "名词",
       "definitions": [{"text":"皮肤上长出的籽、痘痘等小凸起。近义词「米米」。"}],
-      "examples": [{"text":"你额头上那颗籽籽红得很，莫去抠它。","pinyin":"li3 ngo2 tou2 sang4 la4 ko1 zi3 zi3 hong2 de2 hen3 mo2 qi4 kou1 ta1","translation":"你额头上那颗痘痘很红，别去抠它。"}]
+      "examples": [{"text":"你额头上那颗籽籽红得很，莫去抠它。","pinyin":"li3 nge2 lou1 sang4 la4 ko3 zi3 zi3 hong2 de2 hen3 mo2 qi4 kou1 ta1","translation":"你额头上那颗痘痘很红，别去抠它。"}]
     },
     {
       "id": "cq-00592",
