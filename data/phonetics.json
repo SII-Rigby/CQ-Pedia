@@ -2898,12 +2898,6 @@
             "正"
           ],
           "pinyin": "ben3"
-        },
-        {
-          "labels": [
-            "正"
-          ],
-          "pinyin": "ben1"
         }
       ]
     },
@@ -14196,9 +14190,10 @@
         },
         {
           "labels": [
-            "正","罕"
+            "罕"
           ],
-          "pinyin": "yu4"
+          "pinyin": "yu4",
+          "description": "动词，下雨。"
         }
       ]
     },

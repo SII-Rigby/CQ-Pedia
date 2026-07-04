@@ -1873,6 +1873,16 @@ h1 {
   box-shadow: 3px 3px 0 var(--blue);
 }
 
+.about-image-note {
+  max-width: 620px;
+  margin: 14px auto 0;
+  color: #5f5f5f;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.7;
+  text-align: center;
+}
+
 .feedback-window {
   width: min(760px, 100%);
 }

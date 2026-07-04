@@ -2825,7 +2825,7 @@
       "id": "cq-00335",
       "headword": "屄",
       "pinyin": "pi1",
-      "wordClass": "名词",
+      "wordClass": "名词；语气词",
       "variants": ["批","P"],
       "definitions": [{"text":"女性外阴。粗俗说法。常置于某些名词、动词前加强骂意，如「屄娃儿」「屄侃(kua3)」；也可以本身作为名词骂人，如「宝屄」。"}],
       "note": "粗话，慎用。"
@@ -5117,7 +5117,7 @@
       "wordClass": "动词；名词",
       "variants": ["穿穿_儿"],
       "definitions": [{"text":"异地贩运、倒卖。"},{"text":"靠转手倒卖做生意的人，二道贩子。"}],
-      "examples": [{"text":"他专门做川川_儿的生意。","pinyin":"ta1 zuan1 men2 zu4 cuan1 cuar1 de2 sen1 yi4","translation":"他专门做异地贩运、转手倒卖的生意。"},{"text":"互联网的风一吹，这些川川_儿都编上了正规军。","pinyin":"fu4 lian2 wang3 li1 fong1 yi2 cui1 le4 xi1 cuan1 cuar1 dou1 bian1 sang4 lao3 zen4 gui1 jun1","translation":"互联网的风一吹，这些二道贩子都挂上了正规的旗号。"}]
+      "examples": [{"text":"他专门做川川_儿生意。","pinyin":"ta1 zuan1 men2 zu4 cuan1 cuar1 sen1 yi4","translation":"他专门做异地贩运、转手倒卖的生意。"},{"text":"互联网的风一吹，这些川川_儿都编上了正规军。","pinyin":"fu4 lian2 wang3 li1 fong1 yi2 cui1 le4 xi1 cuan1 cuar1 dou1 bian1 sang4 lao3 zen4 gui1 jun1","translation":"互联网的风一吹，这些二道贩子都挂上了正规的旗号。"}]
     },
     {
       "id": "cq-00611",
@@ -5225,7 +5225,6 @@
       "pinyin": "ya2 xue2",
       "wordClass": "名词；叹词",
       "definitions": [{"text":"鸭子的血。"},{"text":"表示惊叹、震撼、难以置信等。常说「我鸭血」。近义词「牙刷_儿」。避「鸭儿」的讳。"}],
-      "note": "作叹词时，为避「鸭儿」的讳而说。",
       "examples": [{},{"text":"我鸭血！张三娃_儿遭抓进去了哇？","pinyin":"wo3 ya2 xue2 zang1 san1 war2 zao2 zua1 jin4 qi4-1 lao3 wa3","translation":"我去！张三娃被抓进去了啊？"}]
     },
     {
