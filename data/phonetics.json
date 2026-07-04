@@ -5732,7 +5732,8 @@
           "labels": [
             "正","白"
           ],
-          "pinyin": "guang4"
+          "pinyin": "guang4",
+          "examples": ["光头","光杆儿司令"]
         }
       ]
     },
@@ -6076,6 +6077,12 @@
             "正"
           ],
           "pinyin": "gang1"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "jiang1"
         }
       ]
     },

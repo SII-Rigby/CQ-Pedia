@@ -8,6 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ENTRIES_PATH = ROOT / "data" / "entries.json"
+TOPIC_INDICES_PATH = ROOT / "data" / "topic-indices.json"
 SITE_URL = "https://cqpedia.cn"
 ITEMS_DIR = ROOT / "items"
 URLS_PATH = ROOT / "urls.txt"
@@ -81,6 +82,30 @@ def entry_title(entry: dict) -> str:
 
     return f"{' | '.join(title_parts)}是什么意思？重庆话词条解释 - 重庆话正音词典 CQ-Pedia"
 
+
+def topic_title_emoji(title: object) -> str:
+    match = re.match(r"^([^\u4e00-\u9fffA-Za-z0-9]+)", str(title or "").strip())
+    return match.group(1).strip() if match else ""
+
+
+def load_entry_topic_badges() -> dict[str, str]:
+    try:
+        data = json.loads(TOPIC_INDICES_PATH.read_text(encoding="utf-8-sig"))
+    except FileNotFoundError:
+        return {}
+
+    badges_by_entry: dict[str, list[str]] = {}
+    for topic in data.get("topics") or []:
+        emoji = topic_title_emoji(topic.get("title"))
+        if not emoji:
+            continue
+
+        for entry_id in topic.get("entries") or []:
+            entry_id = str(entry_id or "").strip()
+            if entry_id:
+                badges_by_entry.setdefault(entry_id, []).append(emoji)
+
+    return {entry_id: "/".join(badges) for entry_id, badges in badges_by_entry.items()}
 
 def audio_button(label: str, src: str) -> str:
     return f"""
@@ -230,11 +255,12 @@ def render_entry(entry: dict, link_headword: bool = False) -> str:
   """
 
 
-def render_page(entry: dict) -> str:
+def render_page(entry: dict, topic_badge: str = "") -> str:
     headword = plain_marked_text(entry.get("headword"))
     title = entry_title(entry)
     description = entry_description(entry)
     canonical = f"{SITE_URL}/items/{entry['id']}/"
+    detail_badge = topic_badge
 
     return f"""<!doctype html>
 <html lang="zh-Hans">
@@ -337,7 +363,7 @@ def render_page(entry: dict) -> str:
       <section class="results-panel entry-detail-panel" aria-label="{escape(headword)}词条">
         <div class="results-head">
           <p>{escape(entry["id"])}</p>
-          <span>词条</span>
+          <span>{escape(detail_badge)}</span>
         </div>
         <div class="results">
           {render_entry(entry)}
@@ -358,7 +384,7 @@ def render_page(entry: dict) -> str:
 """
 
 
-def write_entry_pages(entries: list[dict]) -> None:
+def write_entry_pages(entries: list[dict], topic_badges: dict[str, str]) -> None:
     current_ids = {entry["id"] for entry in entries}
     ITEMS_DIR.mkdir(exist_ok=True)
 
@@ -371,7 +397,11 @@ def write_entry_pages(entries: list[dict]) -> None:
     for entry in entries:
         directory = ITEMS_DIR / entry["id"]
         directory.mkdir(exist_ok=True)
-        (directory / "index.html").write_text(render_page(entry), encoding="utf-8", newline="\n")
+        (directory / "index.html").write_text(
+            render_page(entry, topic_badges.get(entry["id"], "")),
+            encoding="utf-8",
+            newline="\n",
+        )
 
 
 def remove_legacy_root_pages() -> int:
@@ -416,8 +446,9 @@ def write_urls(entries: list[dict]) -> None:
 def main() -> None:
     data = json.loads(ENTRIES_PATH.read_text(encoding="utf-8-sig"))
     entries = data.get("entries") or []
+    topic_badges = load_entry_topic_badges()
     removed = remove_legacy_root_pages()
-    write_entry_pages(entries)
+    write_entry_pages(entries, topic_badges)
     write_sitemap(entries)
     write_urls(entries)
     print(f"Generated {len(entries)} entry pages in items/ and sitemap.xml")
