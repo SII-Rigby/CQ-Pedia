@@ -718,7 +718,7 @@ function renderEntry(entry) {
       <div class="entry-head">
         <h3>
           <span>${renderMarkedText(entry.headword)}</span>
-          <a class="entry-open" href="items/${escapeHtml(entry.id)}/" aria-label="打开${escapeHtml(plainMarkedText(entry.headword))}词条">
+          <a class="entry-open" href="items/${escapeHtml(entry.id)}/" target="_blank" rel="noopener" aria-label="打开${escapeHtml(plainMarkedText(entry.headword))}词条">
             <svg aria-hidden="true" viewBox="0 0 24 24">
               <path d="M5 12h13"></path>
               <path d="m13 6 6 6-6 6"></path>

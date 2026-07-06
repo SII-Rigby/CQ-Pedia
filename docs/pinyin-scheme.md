@@ -103,11 +103,11 @@
 
 | 儿化韵 | 原韵 | 例子 |
 | --- | --- | --- |
-| er | o（b,p,m,f,v 作声母情况）, e, u（b,p,m,f,v 作声母情况）, ei, ou, en, i (zi,ci,si,ri) | 指拇儿 `mer3`，双碑 `ber1`，杏儿 `her4` |
+| er | o（b,p,m,f,v 作声母情况）, e, u（b,p,m,f,v 作声母情况）, ei, ou, en, i (zi,ci,si,ri), ong（b,p,m,f,v 作声母情况） | 指拇儿 `mer3`，双碑 `ber1`，杏儿 `her4` |
 | ar | a, ai, ao, an, ang | 菜园坝儿 `bar4`，盖盖儿 `gar1` |
 | ier | i, ie, iu, in | 灶鸡儿 `jier1`，眼镜儿 `jier4` |
 | iar | ia, iai, iao, ian, iang | 架架儿 `jiar4-1`，篾片儿 `piar3` |
-| uer | o（非 b,p,m,f,v 作声母情况）, u（非 b,p,m,f,v 作声母情况）, ue, ui, un, ong | 火锅儿 `guer1`，绳绳儿 `suer1` |
+| uer | o（非 b,p,m,f,v 作声母情况）, u（非 b,p,m,f,v 作声母情况）, ue, ui, un, ong（非 b,p,m,f,v 作声母情况） | 火锅儿 `guer1`，绳绳儿 `suer1` |
 | uar | o（部分词汇）, ua, uai, uan, uang | 牙刷儿 `suar2`，碗儿 `war3` |
 | üer | ü, io, üe, üu, ün, iong | 角角儿 `juer1` 钱，菌儿 `juer4` |
 | üar | üan | 遇了缘儿 `yuar2`，圈圈儿 `quar1` |
