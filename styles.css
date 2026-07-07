@@ -2723,7 +2723,7 @@ h1 {
 
   .filter-panel {
     box-sizing: border-box;
-    width: min(520px, 100%);
+    width: min(520px, calc(100% - 60px));
     margin-top: 14px;
     padding: 0;
     box-shadow: none;
