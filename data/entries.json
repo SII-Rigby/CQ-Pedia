@@ -218,7 +218,7 @@
       "wordClass": "语气词；叹词",
       "variants": ["安"],
       "definitions": [{"text":"表示疑惑。"}],
-      "examples": [{"text":"你说啥子咹？我没听抻抖。","pinyin":"li3 so2 sa4 zi3 æ1 wo3 mei1 tin1 cen1 tou3","translation":"你说什么？我没听清楚。"}]
+      "examples": [{"text":"你说啥子咹？我没听伸抖。","pinyin":"li3 so2 sa4 zi3 æ1 wo3 mei1 tin1 cen1 tou3","translation":"你说什么？我没听清楚。"}]
     },
     {
       "id": "cq-00027",
@@ -2414,12 +2414,12 @@
     },
     {
       "id": "cq-00286",
-      "headword": "抻抖",
+      "headword": "伸抖",
       "pinyin": "cen1 tou3",
       "wordClass": "形容词",
-      "variants": ["伸抖","抻敨"],
+      "variants": ["抻抖","抻敨"],
       "definitions": [{"text":"清楚、明白。近义词「伸展(cen1 zan3)」"},{"text":"整齐、端正、体面。可形容相貌五官端正，或穿戴、布置得规整好看。"}],
-      "examples": [{"text":"你说啥子咹？我没听抻抖。","pinyin":"li3 so2 sa4 zi3 æ1 wo3 mei1 tin1 cen1 tou3","translation":"你说什么？我没听清楚。"},{"text":"老雷他们儿长得还是抻抖。","pinyin":"lao3 lui2 ta1 men1 er2 zang3 de2 hai2 si4 cen1 tou3","translation":"老雷他家儿子长得还算端正。"}]
+      "examples": [{"text":"你说啥子咹？我没听伸抖。","pinyin":"li3 so2 sa4 zi3 æ1 wo3 mei1 tin1 cen1 tou3","translation":"你说什么？我没听清楚。"},{"text":"老雷他们儿长得还是伸抖。","pinyin":"lao3 lui2 ta1 men1 er2 zang3 de2 hai2 si4 cen1 tou3","translation":"老雷他家儿子长得还算端正。"}]
     },
     {
       "id": "cq-00287",
@@ -2512,7 +2512,7 @@
       "pinyin": "jia2 se2 zi3",
       "wordClass": "名词",
       "definitions": [{"text":"说话结巴，不利索的人。"}],
-      "examples": [{"text":"他一紧张就成了夹舌子，半天都说不抻抖。","pinyin":"ta1 yi2 jin3 zang1 dou4 cen2 lao3 jia2 se2 zi3 ban4 tian1 dou1 so2 bu2 cen1 tou3","translation":"他一紧张就结巴，半天都说不清楚。"}]
+      "examples": [{"text":"他一紧张就成了夹舌子，半天都说不伸抖。","pinyin":"ta1 yi2 jin3 zang1 dou4 cen2 lao3 jia2 se2 zi3 ban4 tian1 dou1 so2 bu2 cen1 tou3","translation":"他一紧张就结巴，半天都说不清楚。"}]
     },
     {
       "id": "cq-00298",
@@ -3622,12 +3622,12 @@
     },
     {
       "id": "cq-00429",
-      "headword": "扯谎日白",
+      "headword": "扯谎捏白",
       "pinyin": "ce3 huang3 lia2 be2",
       "wordClass": "动词",
-      "variants": ["扯谎撩白"],
+      "variants": ["扯谎撩白","扯谎撂白"],
       "definitions": [{"text":"编造谎话，胡说八道。"}],
-      "note": "lia2 be2 可能是「日白(ri2 be2)」的又音。",
+      "note": "lia2 be2 可能与「日白(ri2 be2)」同源。",
       "examples": [{"text":"少在这里扯谎日白，监控都拍到你了，还说不是你拿的。","pinyin":"sao3 dai4 le4 li3-1 ce3 huang3 lia2 be2 jian1 kong4 dou1 pie2 dao3 li3 lao3 hai2 so2 bu2 si4 li3 la2 li1","translation":"别在这里胡编乱造，监控都拍到你了，还说不是你拿的。"}]
     },
     {
@@ -4526,11 +4526,12 @@
     },
     {
       "id": "cq-00539",
-      "headword": "礧",
+      "headword": "礌",
       "pinyin": "lui1",
       "wordClass": "动词",
+      "variants": ["礧","磊"],
       "definitions": [{"text":"滚动；使滚动。"},{"text":"因滚落而遗失。"}],
-      "examples": [{"text":"石头礧下来了 | 礧铁环","pinyin":"si2 tou2-1 lui1 xia4 lai2 lao3 | lui1 tie2 huan2","translation":"石头滚下来了 | 滚铁环"},{"text":"我的项链_儿上的珠子礧了，找半天都没找到。","pinyin":"wo3 li1 hang4 liar4 sang4 li1 zu1 zi3 lui1 lao3 zao3 ban4 tian1 dou1 mei1 zao3 dao3","translation":"我项链上的珠子滚掉了，找了半天都没找到。"}]
+      "examples": [{"text":"石头礌下来了 | 礌铁环","pinyin":"si2 tou2-1 lui1 xia4 lai2 lao3 | lui1 tie2 huan2","translation":"石头滚下来了 | 滚铁环"},{"text":"我的项链_儿上的珠子礌了，找半天都没找到。","pinyin":"wo3 li1 hang4 liar4 sang4 li1 zu1 zi3 lui1 lao3 zao3 ban4 tian1 dou1 mei1 zao3 dao3","translation":"我项链上的珠子滚掉了，找了半天都没找到。"}]
     },
     {
       "id": "cq-00540",
@@ -5195,7 +5196,7 @@
       "pinyin": "cao3 long2 long2-1",
       "wordClass": "名词",
       "definitions": [{"text":"草丛、灌木丛。近义词「草林林(cao3 lin2 lin2-1)」。"}],
-      "examples": [{"text":"娟娟_儿的戒指礧到草茏茏头找不到了。","pinyin":"juan1 juar1 li1 jiai4 zi3 lui1 dao3 cao3 long2 long2-1 tou2 zao3 bu2 dao3 lao3","translation":"娟娟的戒指掉到草丛里找不到了。"}]
+      "examples": [{"text":"娟娟_儿的戒指礌到草茏茏头找不到了。","pinyin":"juan1 juar1 li1 jiai4 zi3 lui1 dao3 cao3 long2 long2-1 tou2 zao3 bu2 dao3 lao3","translation":"娟娟的戒指掉到草丛里找不到了。"}]
     },
     {
       "id": "cq-00620",
@@ -5655,7 +5656,7 @@
       "pinyin": "da4 sen1 vu3 qi4",
       "wordClass": "形容词；副词",
       "definitions": [{"text":"说话声音粗大、嗓门很高的样子。也说「大声侉(kua3)气」。"}],
-      "examples": [{"text":"外公说话大声武气的，隔到两层楼都听得抻抻抖抖。","pinyin":"wai4 gong1 so2 hua4 da4 sen1 vu3 qi4 li1 ge2 dao3 liang3 cen2 lou2 dou1 tin1 de2 cen1 cen1 tou3 tou3","translation":"外公讲话嗓门很大，隔着两层楼都听得清清楚楚。"}]
+      "examples": [{"text":"外公说话大声武气的，隔到两层楼都听得伸伸抖抖。","pinyin":"wai4 gong1 so2 hua4 da4 sen1 vu3 qi4 li1 ge2 dao3 liang3 cen2 lou2 dou1 tin1 de2 cen1 cen1 tou3 tou3","translation":"外公讲话嗓门很大，隔着两层楼都听得清清楚楚。"}]
     },
     {
       "id": "cq-00676",

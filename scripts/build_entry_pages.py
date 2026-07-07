@@ -368,7 +368,6 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
         <div class="results">
           {render_entry(entry)}
         </div>
-        <p class="entry-detail-back"><a href="../../">返回首页搜索</a></p>
       </section>
     </main>
 

@@ -232,6 +232,59 @@ function renderReadingNote(note) {
     : "";
 }
 
+function phoneticAudioSrc(pinyin) {
+  const filename = `${encodeURIComponent(normalizePinyinText(pinyin))}.wav`;
+  return `../data/audio/phonetic/${filename}`;
+}
+
+function renderAudioButtonHtml(pinyin) {
+  const normalizedPinyin = normalizePinyinText(pinyin);
+  if (!normalizedPinyin) {
+    return "";
+  }
+
+  return `
+    <button type="button" class="audio-button phonetic-audio-button" data-audio-src="${escapeHtml(phoneticAudioSrc(normalizedPinyin))}" aria-label="播放${escapeHtml(normalizedPinyin)}读音" aria-pressed="false" hidden>
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path class="speaker-body" d="M4 9v6h4l5 4V5L8 9H4z"></path>
+        <path d="M16 9.5c1.2 1.4 1.2 3.6 0 5"></path>
+        <path d="M18.5 7c2.3 2.7 2.3 7.3 0 10"></path>
+      </svg>
+    </button>
+  `;
+}
+
+async function audioExists(src) {
+  try {
+    const response = await fetch(src, { method: "HEAD", cache: "no-store" });
+    if (response.ok) {
+      return true;
+    }
+    if (response.status !== 405) {
+      return false;
+    }
+  } catch (error) {
+    return false;
+  }
+
+  try {
+    const response = await fetch(src, { headers: { Range: "bytes=0-0" }, cache: "no-store" });
+    return response.ok || response.status === 206;
+  } catch (error) {
+    return false;
+  }
+}
+
+async function revealAvailablePhoneticAudio(root) {
+  const buttons = [...root.querySelectorAll("button.phonetic-audio-button[hidden][data-audio-src]")];
+  await Promise.all(buttons.map(async (button) => {
+    if (await audioExists(button.dataset.audioSrc)) {
+      button.hidden = false;
+    }
+  }));
+}
+
+
 
 
 function pinyinSyllablesOf(entry) {
@@ -415,6 +468,7 @@ function renderDetailReading(reading) {
       <p class="phonetic-reading-line">
         <span class="phonetic-reading-labels">${renderLabelsHtml(reading)}</span>
         <span class="phonetic-reading-pinyin">${escapeHtml(reading.pinyin)}</span>
+        ${renderAudioButtonHtml(reading.pinyin)}
       </p>
       ${descriptionHtml}
       ${examplesHtml}
@@ -442,6 +496,7 @@ function openDetail(entry) {
   `;
   els.detailModal.hidden = false;
   document.body.classList.add("modal-open");
+  revealAvailablePhoneticAudio(els.detailContent);
 }
 
 function closeDetail() {
