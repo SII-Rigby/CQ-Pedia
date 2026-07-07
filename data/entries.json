@@ -159,7 +159,7 @@
       "pinyin": "gao4",
       "wordClass": "动词",
       "variants": ["较","筶","斠"],
-      "definitions": [{"text":"试、尝试。","note":"《重庆方言词解》认为此字本当为「校」，「校(jiao4)」自古有校对、校验的含义，也尝尝与「较」通，表示比较、较量，由此引申出尝试。也有资料认为是「筶」，「筶」是一种古代占卜用具，用类似于羊角的两半器物制成，合拢掷于地，观其俯仰，以占吉凶。但「筶」本身不是动词，且「占卜」引申出「尝试」略显牵强，恐是后人附会。《民国巴县志》记「斠」字，「斠」本指平斗斛称量，与「校(jiao4)」在校对含义上相通。"},{"text":"设置。"}],
+      "definitions": [{"text":"试、尝试。","note":"《重庆方言词解》认为此字本当为「校」，「校(jiao4)」自古有校对、校验的含义，也常与「较」通，表示比较、较量，由此引申出尝试。也有资料认为是「筶」，「筶」是一种古代占卜用具，用类似于羊角的两半器物制成，合拢掷于地，观其俯仰，以占吉凶。但「筶」本身不是动词，且「占卜」引申出「尝试」略显牵强，恐是后人附会。《民国巴县志》记「斠」字，「斠」本指平斗斛称量，与「校(jiao4)」在校对含义上相通。"},{"text":"设置。"}],
       "examples": [{"text":"下盘_儿我们来校一下_儿这家火锅_儿的味道_儿。","pinyin":"xia4 par2 wo3 men1 lai2 gao4 yi2 har4 le4 jia1 ho3 guer1 li1 wei4 dar4","translation":"下次咱们来尝尝看这家火锅店的味道。"},{"text":"明天_儿要早点_儿起来，记着校闹钟。","pinyin":"min2 tiar1 yao4 zao3 diar3 qi3 lai2 ji4 dao3 gao4 lao4 zong1","translation":"明天要早起，记得设置闹钟。"}]
     },
     {
@@ -1832,8 +1832,9 @@
       "headword": "妖艳_儿",
       "pinyin": "yao1 yar2",
       "wordClass": "形容词；动词",
+      "variants": ["妖妍_儿"],
       "definitions": [{"text":"形容人打扮、言行花哨、招摇。"},{"text":"做作、装怪、调皮。"}],
-      "examples": [{"text":"那个女娃_儿打扮得妖艳_儿得很。","pinyin":"la4 gə4 lü3 wa2 er2-1 da3 ban4 de2 yao1 yar2 de2 hen3","translation":"那个女孩打扮得很花俏。"},{"text":"你一天妖艳_儿得很，腊月间想吃西瓜。","pinyin":"li3 yi2 tian1 yao1 yar2 de2 hen3 la2 yue2 jian1 xiang3 ci2 xi1 gua1","translation":"你成天爱装怪，腊月想吃西瓜。"}]
+      "examples": [{"text":"那个女娃_儿打扮得妖艳_儿得很。","pinyin":"la4 gə4 lü3 war2 da3 ban4 de2 yao1 yar2 de2 hen3","translation":"那个女孩打扮得很花俏。"},{"text":"你一天妖艳_儿得很，腊月间想吃西瓜。","pinyin":"li3 yi2 tian1 yao1 yar2 de2 hen3 la2 yue2 jian1 xiang3 ci2 xi1 gua1","translation":"你成天爱装怪，腊月想吃西瓜。"}]
     },
     {
       "id": "cq-00218",
@@ -2743,7 +2744,7 @@
       "headword": "大势",
       "pinyin": "da4 si4",
       "wordClass": "形容词",
-      "definitions": [{"text":"爱摆架子、自以为是的样子。近义词「大套」。"}],
+      "definitions": [{"text":"爱摆架子、自以为是的样子。"}],
       "examples": [{"text":"他大势得很，哪个的话都听不进去。","pinyin":"ta1 da4 si4 de2 hen3 la3 gə4 li1 hua4 dou1 tin1 bu2 jin4 qi4-1","translation":"他很爱摆架子，谁的话都听不进去。"}]
     },
     {
@@ -4678,8 +4679,8 @@
     },
     {
       "id": "cq-00557",
-      "headword": "展牙巴劲",
-      "pinyin": "zan3 ya2 ba1 jin4",
+      "headword": "展牙巴劲_(儿)",
+      "pinyin": "zan3 ya2 ba1 jin4 / zan3 ya2 ba1 jier4",
       "wordClass": "动词",
       "definitions": [{"text":"斗嘴；不停地说废话、扯闲话。"}],
       "examples": [{"text":"你两个莫在这行_儿展牙巴劲了，喊你们做事一个都不动。","pinyin":"li3 liang3 gə4 mo2 dai4 le4 har2 zan3 ya2 ba1 jin4 lao3 han3 li3 men1 zu4 si4 yi2 go4 dou1 bu2 dong4","translation":"你们两个别在这里斗嘴说废话了，叫你们做事一个都不动。"}]
@@ -5084,7 +5085,7 @@
       "headword": "𨁿",
       "pinyin": "zua2",
       "wordClass": "动词",
-      "variant": ["啄","蹴"],
+      "variants": ["啄","蹴"],
       "definitions": [{"text":"踢。同「啄」表示「用脚踢」的义项。"}]
     },
     {
@@ -5109,7 +5110,7 @@
       "pinyin": "zang4",
       "wordClass": "动词；形容词",
       "definitions": [{"text":"无节制地往肚子里吃。"},{"text":"肚子鼓胀、不舒服的状态。"}],
-      "examples": [{"text":"莫胀了，肚皮都鼓起了。","pinyin":"mo4 zang4 lao3, du4 pi2 dou1 gu3 qi3 lao3","translation":"别再吃撑了，肚子都鼓起来了。"},{"text":"连着坐了两家席，肚皮胀得很。","pinyin":"lian2 dao3 zo4 lao3 liang3 jia1 xi2 du4 pi2 zang4 de2 hen3","translation":"连着吃了两家席，肚子胀得很。"}]
+      "examples": [{"text":"莫胀了，肚皮都鼓起了。","pinyin":"mo4 zang4 lao3 du4 pi2 dou1 gu3 qi3 lao3","translation":"别再吃撑了，肚子都鼓起来了。"},{"text":"连着坐了两家席，肚皮胀得很。","pinyin":"lian2 dao3 zo4 lao3 liang3 jia1 xi2 du4 pi2 zang4 de2 hen3","translation":"连着吃了两家席，肚子胀得很。"}]
     },
     {
       "id": "cq-00610",
@@ -5377,7 +5378,7 @@
     {
       "id": "cq-00642",
       "headword": "打旋旋_(儿)",
-      "pinyin": "da3 xuan4 xuan4-1 / da3 xuan4 xuar4-1",
+      "pinyin": "da3 xuan4 xuar4-1 / da3 xuan4 xuan4-1",
       "wordClass": "动词",
       "definitions": [{"text":"绕着圈儿飞、游动。"}],
       "examples": [{"text":"池子边边那几只虰虰猫_儿在打旋旋_儿了，可能要落大雨了哦。","pinyin":"ci2 zi3 bian1 bian1 la4 ji3 zi1 din1 din1 mar1 dai4 da3 xuan4 xuar4-1 lao3 ko3 len2 yao4 lo2 da4 yu3 lao3 o1","translation":"池塘边那几只蜻蜓盘旋飞行，可能要下大雨了。"}]
@@ -5522,6 +5523,7 @@
       "headword": "崽儿",
       "pinyin": "zai3 er2 / zar3 er2",
       "wordClass": "名词",
+      "notes": "口语中发音更接近 zar3 er2；在句末通常读作 zar3 le2。",
       "definitions": [{"text":"小子，年轻男性。带轻蔑意味。"},{"text":"小孩儿、小屁孩儿。"}],
       "examples": [{"text":"那几个崽儿深更半夜在楼脚把摩托车骑得嗡拉嗡的，引得街坊邻居泼烦。","pinyin":"la4 ji3 gə4 zar3 er2 sen1 gen1 ban4 ye4 dai4 lou2 jio2 ba3 mo1 to2 ce1 qi2 de2 wong4 la1 wong4 li1 yin3 de2 gai1 fang1 lin2 ju1 po2 fan2","translation":"那几个小子深更半夜在楼下把摩托车骑得嗡嗡响，引得街坊邻居厌烦。"},{"text":"这崽儿才上幼儿园，有点_儿诧生。","pinyin":"le4 zai3 er2 tai2 sang4 you4 er2 yuan2-4 you3 diar3 ca4 sen1","translation":"这孩子才上幼儿园，有点怕生。"}]
     },
@@ -5627,8 +5629,8 @@
       "pinyin": "ngen4 ci1 do2 bang4",
       "wordClass": "形容词",
       "variants": ["硬痴夺棒"],
-      "definitions": [{"text":"形容有硬物硬邦邦地顶着、杵着，不舒服的样子。"}],
-      "examples": [{"text":"昨天_儿加班_儿加久了，今天_儿腰杆_儿还是硬摛剟棒的。","pinyin":"zo4 tiar1 jia1 bar1 jia1 jiu3 lao3 jin1 tiar1 yao1 gar3 hai2 si4 ngen4 ci1 do2 bang4 li1","translation":"昨天加班加太久，今天腰还是硬邦邦的戳得慌。"}]
+      "definitions": [{"text":"形容硬邦邦地顶着、杵着的样子。"}],
+      "examples": [{"text":"老娘要帚地抹屋，你两爷子走㮟㮟头去，莫在这点_儿硬摛剟棒的。","pinyin":"lao3 liang2 yao4 zou3 di4 ma2 vu2 li3 liang3 ye2 zi3 zou3 ka1 ka1 tou2 qi4 mo2 dai4 le4 diar3 ngen4 ci1 do2 bang4 li1","translation":"老娘要拖地收拾屋子，你爷俩上一边儿去，别在这儿硬梆梆地杵着。"}]
     },
     {
       "id": "cq-00673",
@@ -5774,7 +5776,7 @@
       "wordClass": "名词",
       "variants": ["鼁拐_儿","缺块_儿","𧉧块_儿"],
       "definitions": [{"text":"青蛙。同「鼁蟆_儿」。"}],
-      "note": "本字暂拟作「鼁」。「鼁」古义为蟾蜍，「鼁」及「𧉧」为相关异体，且声旁「去」相关的字在川渝地区读音也涵盖了 ke, qi, qie, que 等音节；但暂未见重庆地方文献直接证实此词的本字。"
+      "note": "本字暂拟作「鼁」。「鼁」古义为蟾蜍，「𧉧」为相关异体，且声旁「去」相关的字在川渝地区读音也涵盖了 ke, qi, qie, que 等音节；但暂未见重庆地方文献直接证实此词的本字。"
     },
     {
       "id": "cq-00691",
@@ -5858,7 +5860,8 @@
       "pinyin": "zang3 sui3 war2",
       "wordClass": "名词",
       "variants": ["涨水娃_儿"],
-      "definitions": [{"text":"有翅白蚁。常在涨水、雨后傍晚成群飞出。"}]
+      "definitions": [{"text":"有翅白蚁。常在涨水、雨后傍晚成群飞出。"}],
+      "fig": true
     },
     {
       "id": "cq-00701",
