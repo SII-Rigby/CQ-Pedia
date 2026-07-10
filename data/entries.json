@@ -880,6 +880,7 @@
       "headword": "奓",
       "pinyin": "za1",
       "wordClass": "动词",
+      "variants": ["张"],
       "definitions": [{"text":"张开、展开。"}],
       "note": "另见「奓(ca3)」。",
       "examples": [{"text":"看牙医的时候嘴巴要奓大点_儿。","pinyin":"kan4 ya2 yi1 li1 si2 hou4 zui3 ba1 yao4 za1 da4 diar3","translation":"看牙医的时候嘴巴得张大点儿。"}]
@@ -956,7 +957,7 @@
       "headword": "曲蟮_儿",
       "pinyin": "quu2 suar4 / cu2 suar4",
       "wordClass": "名词",
-      "variants": ["蛐蟮","曲蟺","锄蟮"],
+      "variants": ["蛐蟮_儿","曲蟺_儿","锄蟮_儿"],
       "definitions": [{"text":"蚯蚓。"}],
       "fig": true
     },
@@ -2357,12 +2358,12 @@
     },
     {
       "id": "cq-00279",
-      "headword": "𢱟",
+      "headword": "摌",
       "pinyin": "can3",
       "wordClass": "动词",
-      "variants": ["摌","掸"],
+      "variants": ["𢱟","掸"],
       "definitions": [{"text":"用手掌、鞭子、竹条等快速击打、抽打。"}],
-      "examples": [{"text":"𢱟耳矢","pinyin":"can3 er3 si3","translation":"扇耳光"}]
+      "examples": [{"text":"摌耳矢","pinyin":"can3 er3 si3","translation":"扇耳光"}]
     },
     {
       "id": "cq-00280",
@@ -2465,11 +2466,12 @@
     },
     {
       "id": "cq-00292",
-      "headword": "装莽",
+      "headword": "装㤶",
       "pinyin": "zuang1 mang1",
       "wordClass": "动词",
+      "variants": "装莽",
       "definitions": [{"text":"装傻、装糊涂。"}],
-      "examples": [{"text":"你少装莽，你明明晓得是啷个回事。","pinyin":"li3 sao3 zuang1 mang1 li3 min2 min2 xiao3 de2 si4 lang3 gə4-1 hui2 si4","translation":"你别装糊涂，你明明知道是怎么回事。"}]
+      "examples": [{"text":"你少装㤶，你明明晓得是啷个回事。","pinyin":"li3 sao3 zuang1 mang1 li3 min2 min2 xiao3 de2 si4 lang3 gə4-1 hui2 si4","translation":"你别装糊涂，你明明知道是怎么回事。"}]
     },
     {
       "id": "cq-00293",
@@ -3270,7 +3272,7 @@
       "wordClass": "名词",
       "variants": ["杂痞"],
       "definitions": [{"text":"混混、无赖。"}],
-      "examples": [{"text":"你莫看他穿得人模狗样的，借了钱就装莽，纯粹是个杂皮。","pinyin":"li3 mo2 kan4 ta1 cuan1 de2 ren2 mo2 gou3 yang4 li1 jie4 lao3 qian2 dou4 zuang1 mang1 sun2 cui4 si4 gə4 za2 pi2","translation":"你别看他穿得挺像样，借了钱就装糊涂，纯粹是个无赖。"}]
+      "examples": [{"text":"你莫看他穿得人模狗样的，借了钱就装㤶，纯粹是个杂皮。","pinyin":"li3 mo2 kan4 ta1 cuan1 de2 ren2 mo2 gou3 yang4 li1 jie4 lao3 qian2 dou4 zuang1 mang1 sun2 cui4 si4 gə4 za2 pi2","translation":"你别看他穿得挺像样，借了钱就装糊涂，纯粹是个无赖。"}]
     },
     {
       "id": "cq-00388",
@@ -4017,7 +4019,7 @@
     {
       "id": "cq-00477",
       "headword": "腆",
-      "pinyin": "tie3 / tia3",
+      "pinyin": "tie3 / tia3 / tian3",
       "wordClass": "动词",
       "definitions": [{"text":"挺起、凸出。多指肚子。"}],
       "examples": [{"text":"他腆起个肚皮站到镜子前头，硬说各人一点_儿都没长胖。","pinyin":"ta1 tie3 qi3 gə4 du4 pi2 zan4 dao3 jin4 zi3 qian2 tou2-1 ngen4 so2 go2 ren1 yi2 diar3 dou1 mei1 zang3 pang4","translation":"他挺着肚子站在镜子前，硬说自己一点都没长胖。"}]
@@ -4210,12 +4212,12 @@
     },
     {
       "id": "cq-00501",
-      "headword": "一𤆵拉",
+      "headword": "一𣲩拉",
       "pinyin": "yi1 pa1 la1",
       "wordClass": "数量词",
       "variants": ["一啪啦","一𤆵剌"],
       "definitions": [{"text":"一大堆、一连串。"}],
-      "examples": [{"text":"堆一𤆵拉 | 一𤆵拉事情","pinyin":"dui1 yi2 pa1 la1 | yi1 pa1 la1 si4 qin2","translation":"堆一大堆 | 一连串事情"}]
+      "examples": [{"text":"堆一𣲩拉 | 一𣲩拉事情","pinyin":"dui1 yi2 pa1 la1 | yi1 pa1 la1 si4 qin2","translation":"堆一大堆 | 一连串事情"}]
     },
     {
       "id": "cq-00502",
@@ -4743,7 +4745,7 @@
       "pinyin": "ngan4",
       "wordClass": "形容词",
       "definitions": [{"text":"迟、晚。"}],
-      "examples": [{"text":"你今天儿回来得晏，饭菜都冷了。","pinyin":"li3 jin1 tiar1 hui2 lai2 de2 ngan4 fan4 cai4 dou1 len3 lao3","translation":"你今天回来得晚，饭菜都凉了。"}]
+      "examples": [{"text":"你今天_儿回来得晏，饭菜都冷了。","pinyin":"li3 jin1 tiar1 hui2 lai2 de2 ngan4 fan4 cai4 dou1 len3 lao3","translation":"你今天回来得晚，饭菜都凉了。"}]
     },
     {
       "id": "cq-00565",
@@ -6149,7 +6151,7 @@
       "pinyin": "lui2 fan1 zen4 zang4",
       "wordClass": "形容词",
       "definitions": [{"text":"形容阵势很大、声势很足。多暗指「雷声大，雨点小」。"}],
-      "examples": [{"text":"她们开会开得雷翻阵仗的，横幅、口号、方案弄了一𤆵拉，最后真正落到实处的没得几样。","pinyin":"ta1 men1 kai1 hui4 kai1 de2 lui2 fan1 zen4 zang4 li1 hun2 fu2 kou3 hao4 fang1 ngan4 long1 lao3 yi2 pa1 la1 zui4 hou4 zen1 zen4 lo2 dao3 si2 cu4 li1 mei2 de2 ji3 yang4","translation":"她们开会声势很大，横幅、口号、方案弄了一大堆，最后真正落实的没有几样。"}]
+      "examples": [{"text":"她们开会开得雷翻阵仗的，横幅、口号、方案弄了一𣲩拉，最后真正落到实处的没得几样。","pinyin":"ta1 men1 kai1 hui4 kai1 de2 lui2 fan1 zen4 zang4 li1 hun2 fu2 kou3 hao4 fang1 ngan4 long1 lao3 yi2 pa1 la1 zui4 hou4 zen1 zen4 lo2 dao3 si2 cu4 li1 mei2 de2 ji3 yang4","translation":"她们开会声势很大，横幅、口号、方案弄了一大堆，最后真正落实的没有几样。"}]
     },
     {
       "id": "cq-00735",
@@ -6254,7 +6256,7 @@
       "pinyin": "lian3 mar4",
       "wordClass": "名词",
       "definitions": [{"text":"相貌、模样。"}],
-      "examples": [{"text":"几年没见，那个妹娃子脸貌儿变了好多哟。","pinyin":"ji3 lian2 mei1 jian4 la4 gə4 mei4 wa2 zi3 lian3 mar4 bian4 lao3 hao3 do1 yo3","translation":"几年没见，那个小伙子的相貌变了很多。"}]
+      "examples": [{"text":"几年没见，那个妹娃子脸貌_儿变了好多哟。","pinyin":"ji3 lian2 mei1 jian4 la4 gə4 mei4 wa2 zi3 lian3 mar4 bian4 lao3 hao3 do1 yo3","translation":"几年没见，那个小伙子的相貌变了很多。"}]
     },
     {
       "id": "cq-00748",

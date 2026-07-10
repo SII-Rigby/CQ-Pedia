@@ -6,3 +6,4 @@ assets/*.pptx
 data/new-entries.json
 scripts/add_entries.py
 .codex_tmp/
+data/*字.txt
