@@ -1052,7 +1052,7 @@
       "pinyin": "ru2",
       "wordClass": "动词",
       "variants": ["擩"],
-      "definitions": [{"text":"用力塞、插。"},{"text":"扭伤、崴伤。"},{"text":"揍、打，通常指用手击打弹软的物体，使其凹陷或受力变形。"}],
+      "definitions": [{"text":"塞入、插入。"},{"text":"扭伤、崴伤。"},{"text":"揍、打，通常指用手击打弹软的物体，使其凹陷或受力变形。"}],
       "examples": [{"text":"钥匙莫乱扖，扖断到锁眼_儿头就麻烦了。","pinyin":"yo2 si2 mo2 luan4 ru2 ru2 duan4 dao3 so3 yar3 tou2 dou4 ma2 fan2 lao3","translation":"钥匙别乱插，插断在锁孔里就麻烦了。"},{"text":"他下梯坎_儿没踩得稳，把脚扖了。","pinyin":"ta1 xia4 ti1 kar3 mei1 cai3 de2 wen3 ba3 jio2 ru2 lao3","translation":"他下台阶没踩稳，把脚扭伤了。"},{"text":"他遭小娃儿扖了两锭子，现在肚儿都还是痛的。","pinyin":"ta1 zao2 xiao3 wa2 er2-1 ru2 lao3 liang3 din4 zi3 xian4 zai4 du4 er2 dou1 hai2 si4 tong4 li1","translation":"他被小孩子打了两拳，现在肚子都还是痛的。"}]
     },
     {
@@ -2020,7 +2020,7 @@
       "headword": "诀",
       "pinyin": "jue2",
       "wordClass": "动词",
-      "variants": ["决"],
+      "variants": ["决","噘"],
       "definitions": [{"text":"骂、呵斥，严厉地责怪人。"}],
       "examples": [{"text":"作业没写完就想出去灯_儿晃，遭你妈晓得了要捱诀。","pinyin":"zo2 lie2 mei1 xie3 wan2 dou4 xiang3 cu2 qi4-1 der1 huang4 zao2 li3 ma1 xiao3 de2 lao3 yao4 ngai2 jue2","translation":"作业没写完就想出去闲逛，被你妈知道了要挨骂。"}]
     },
@@ -3330,7 +3330,7 @@
       "headword": "梗",
       "pinyin": "ngen3",
       "wordClass": "动词",
-      "variants": ["隐","硬"],
+      "variants": ["隐","硬","摁"],
       "definitions": [{"text":"身体压到、碰到硬物而感到硌痛、不舒服。"}],
       "note": "《重庆方言词解》选用「梗」字。一说「梗」本指草木的茎、刺，后引申为硬物顶住、硌人的感觉。也有资料认为是「隐」或「硬」；其中「硬」可理解为动词用法中去声变上声的方音表现。本字仍待进一步考证。",
       "examples": [{"text":"凳子上有颗螺丝帽儿，我一屁股坐下去，梗得青痛。","pinyin":"den4 zi3 sang4 you3 ko3 lo2 si1 mao4 er2 wo3 yi2 pi4 gu3 zo4 xia4 qi4-1 ngen3 de2 qin1 tong4","translation":"凳子上有颗螺丝帽，我一屁股坐下去，硌得要命。"}]
@@ -3945,7 +3945,7 @@
       "headword": "踂跐跐",
       "pinyin": "lie4 ci1 ci1",
       "wordClass": "形容词",
-      "variants": ["踂摛摛"],
+      "variants": ["踂摛摛","趔跐跐"],
       "definitions": [{"text":"走路腿脚不利落、姿态别扭的样子。"},{"text":"磨磨蹭蹭、行动拖沓的样子。"}],
       "examples": [{"text":"他脚上靸起两只大拖鞋_儿，踂跐跐地走了半天都还没走到门口。","pinyin":"ta1 jio2 sang4 sa2 qi3 liang3 zi1 da4 to1 har2 lie4 ci1 ci1 li1 zou3 lao3 ban4 tian1 dou1 hai2 mei1 zou3 dao3 men2 kou3","translation":"他脚上拖着两只大拖鞋，别别扭扭地走了半天还没走到门口。"},{"text":"喊他收拾书包，他踂跐跐的，半个钟头都还没出门_儿。","pinyin":"han3 ta1 sou1 si2 su1 bao1 ta1 lie4 ci1 ci1 li1 ban4 gə4 zong1 tou2 dou1 hai2 mei1 cu2 mer2","translation":"叫他收拾书包，他磨磨蹭蹭的，半个小时都还没出门。"}]
     },
@@ -4582,7 +4582,7 @@
       "headword": "稀落落",
       "pinyin": "xi1 lao1 lao1",
       "wordClass": "形容词",
-      "variants": ["稀捞捞"],
+      "variants": ["稀捞捞","稀朗朗"],
       "definitions": [{"text":"稀疏、稀少。"},{"text":"浓度低，寡淡。"}],
       "examples": [{"text":"他扯了两下稀落落的八字胡，笑了两声。","pinyin":"ta1 ce3 lao3 liang3 ha4 xi1 lao1 lao1 li2 ba2 zi4 fu2 xiao4 lao3 liang3 sen1。","translation":"他扯了两下稀稀拉拉的八字胡，笑了两声。"},{"text":"这碗面汤稀落落的，点_儿味道_儿都没得。","pinyin":"le4 wan3 mian4 tang1 xi1 lao1 lao1 li1 diar3 wei4 dar4 dou1 mei1 de2","translation":"这碗面汤很稀淡，一点味道都没有。"}]
     },

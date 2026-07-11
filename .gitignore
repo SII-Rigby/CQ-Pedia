@@ -3,7 +3,9 @@
 重庆方言*
 四川方言*
 assets/*.pptx
-data/new-entries.json
 scripts/add_entries.py
 .codex_tmp/
+
+data/new-entries.json
 data/*字.txt
+data/fig/PowerToys_*

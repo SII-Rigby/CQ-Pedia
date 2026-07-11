@@ -2625,12 +2625,6 @@
             "正"
           ],
           "pinyin": "yu4"
-        },
-        {
-          "labels": [
-            "正","罕"
-          ],
-          "pinyin": "yuu2"
         }
       ]
     },
@@ -6726,7 +6720,7 @@
             "白"
           ],
           "pinyin": "go2",
-          "examples": "合不来"
+          "examples": ["合不来"]
         }
       ]
     },
@@ -17216,6 +17210,13 @@
             "正"
           ],
           "pinyin": "po2"
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "bo2",
+          "examples": ["活泼"]
         }
       ]
     },
@@ -17933,25 +17934,25 @@
     {
       "id": "ph-01317",
       "character": "陋",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "lou4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lou4"
+        }
       ]
     },
     {
       "id": "ph-01318",
       "character": "陌",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "me2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "me2"
+        }
       ]
     },
     {
@@ -17981,26 +17982,21 @@
     {
       "id": "ph-01321",
       "character": "降",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "jiang4",
-                      "examples": [
-                              "下降",
-                              "降落"
-                      ]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "xiang2",
-                      "examples": [
-                              "投降"
-                      ]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiang4",
+          "examples": ["下降","降落"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xiang2",
+          "examples": ["投降"]
+        }
       ]
     },
     {
@@ -18018,19 +18014,19 @@
     {
       "id": "ph-01323",
       "character": "限",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "xian4"
-              },
-              {
-                      "labels": [
-                              "白"
-                      ],
-                      "pinyin": "han4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xian4"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "han4"
+        }
       ]
     },
     {
@@ -18060,37 +18056,37 @@
     {
       "id": "ph-01326",
       "character": "姐",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "jie3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jie3"
+        }
       ]
     },
     {
       "id": "ph-01327",
       "character": "姓",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "xin4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xin4"
+        }
       ]
     },
     {
       "id": "ph-01328",
       "character": "妮",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "li2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li2"
+        }
       ]
     },
     {
@@ -18156,46 +18152,40 @@
     {
       "id": "ph-01334",
       "character": "参",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "can1",
-                      "examples": [
-                              "参加"
-                      ]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "cen1",
-                      "examples": [
-                              "参差"
-                      ]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "sen1",
-                      "examples": [
-                              "人参"
-                      ]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "can1",
+          "examples": ["参加"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cen1",
+          "examples": ["参差"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sen1",
+          "examples": ["人参"]
+        }
       ]
     },
     {
       "id": "ph-01335",
       "character": "艰",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "jian1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jian1"
+        }
       ]
     },
     {
@@ -18213,13 +18203,13 @@
     {
       "id": "ph-01337",
       "character": "练",
-      "readings":[
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "lian4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lian4"
+        }
       ]
     },
     {
@@ -18273,13 +18263,13 @@
     {
       "id": "ph-01342",
       "character": "织",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "zi2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi2"
+        }
       ]
     },
     {
@@ -18321,19 +18311,19 @@
     {
       "id": "ph-01346",
       "character": "绊",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "pan4"
-              },
-              {
-                      "labels": [
-                              "变"
-                      ],
-                      "pinyin": "ban4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pan4"
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "ban4"
+        }
       ]
     },
     {
@@ -18363,25 +18353,25 @@
     {
       "id": "ph-01349",
       "character": "绎",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yi2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi2"
+        }
       ]
     },
     {
       "id": "ph-01350",
       "character": "经",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "jin1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jin1"
+        }
       ]
     },
     {
@@ -18399,13 +18389,13 @@
     {
       "id": "ph-01352",
       "character": "契",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "qi4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qi4"
+        }
       ]
     },
     {
@@ -18423,25 +18413,25 @@
     {
       "id": "ph-01354",
       "character": "奏",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "zou4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zou4"
+        }
       ]
     },
     {
       "id": "ph-01355",
       "character": "春",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "cun1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cun1"
+        }
       ]
     },
     {
@@ -18459,13 +18449,13 @@
     {
       "id": "ph-01357",
       "character": "玷",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "dian4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dian4"
+        }
       ]
     },
     {
@@ -18495,13 +18485,13 @@
     {
       "id": "ph-01360",
       "character": "珊",
-      "readings":             [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "suan1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "suan1"
+        }
       ]
     },
     {
@@ -18519,13 +18509,13 @@
     {
       "id": "ph-01362",
       "character": "毒",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "du2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "du2"
+        }
       ]
     },
     {
@@ -18573,13 +18563,13 @@
     {
       "id": "ph-01366",
       "character": "封",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "fong1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fong1"
+        }
       ]
     },
     {
@@ -18609,37 +18599,33 @@
     {
       "id": "ph-01369",
       "character": "拱",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "gong3"
-              },
-              {
-                      "labels": [
-                              "白"
-                      ],
-                      "pinyin": "gong4",
-                      "examples": [
-                              "拱进去"
-                      ]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gong3"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "gong4",
+          "examples": ["拱进去"]
+        }
       ]
     },
     {
       "id": "ph-01370",
       "character": "项",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "hang4",
-                      "examples": [
-                              "项链"
-                      ]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hang4",
+          "examples": ["项链"]
+        }
       ]
     },
     {
@@ -18657,13 +18643,13 @@
     {
       "id": "ph-01372",
       "character": "挎",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "kua4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kua4"
+        }
       ]
     },
     {
@@ -18681,43 +18667,43 @@
     {
       "id": "ph-01374",
       "character": "挟",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "jia2"
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "xia2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jia2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xia2"
+        }
       ]
     },
     {
       "id": "ph-01375",
       "character": "挠",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "lao2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lao2"
+        }
       ]
     },
     {
       "id": "ph-01376",
       "character": "政",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "zen4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zen4"
+        }
       ]
     },
     {
@@ -18747,40 +18733,38 @@
     {
       "id": "ph-01379",
       "character": "挡",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "dang3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dang3"
+        }
       ]
     },
     {
       "id": "ph-01380",
       "character": "拽",
-      "readings":       [
-              {
-                      "labels": [
-                              "正","罕"
-                      ],
-                      "pinyin": "zuai4"
-              },
-              {
-                      "labels": [
-                              "白"
-                      ],
-                      "pinyin": "zuai3",
-                      "examples": [
-                              "拽得很"
-                      ]
-              },
-              {
-                      "labels": [
-                              "罕"
-                      ],
-                      "pinyin": "yi2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正", "罕"
+          ],
+          "pinyin": "zuai4"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "zuai3",
+          "examples": ["拽得很"]
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "yi2"
+        }
       ]
     },
     {
@@ -18798,37 +18782,37 @@
     {
       "id": "ph-01382",
       "character": "挺",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "tin3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tin3"
+        }
       ]
     },
     {
       "id": "ph-01383",
       "character": "括",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "kue2"
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "gua2"
-              },
-              {
-                      "labels": [
-                              "变"
-                      ],
-                      "pinyin": "kua2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kue2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gua2"
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "kua2"
+        }
       ]
     },
     {
@@ -18846,61 +18830,59 @@
     {
       "id": "ph-01385",
       "character": "拴",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "suan1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "suan1"
+        }
       ]
     },
     {
       "id": "ph-01386",
       "character": "拾",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "si2"
-              },
-              {
-                      "labels": [
-                              "罕"
-                      ],
-                      "pinyin": "se2",
-                      "examples": ["拾级而上"]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "si2"
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "se2",
+          "examples": ["拾级而上"]
+        }
       ]
     },
     {
       "id": "ph-01387",
       "character": "挑",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "diao1",
-                      "examples": ["挑选"]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "tiao1",
-                      "examples": [
-                              "挑针"
-                      ]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "tiao3",
-                      "examples": ["挑拨"]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "diao1",
+          "examples": ["挑选"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tiao1",
+          "examples": ["挑针"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tiao3",
+          "examples": ["挑拨"]
+        }
       ]
     },
     {
@@ -18918,13 +18900,13 @@
     {
       "id": "ph-01389",
       "character": "指",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "zi3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi3"
+        }
       ]
     },
     {
@@ -18942,64 +18924,62 @@
     {
       "id": "ph-01391",
       "character": "挣",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "zen4",
-                      "examples": [
-                              "挣钱"
-                      ]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "zen1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zen4",
+          "examples": ["挣钱"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zen1"
+        }
       ]
     },
     {
       "id": "ph-01392",
       "character": "挤",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "ji3"
-              },
-              {
-                      "labels": [
-                              "白"
-                      ],
-                      "pinyin": "ji1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ji3"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "ji1"
+        }
       ]
     },
     {
       "id": "ph-01393",
       "character": "拼",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "pin1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pin1"
+        }
       ]
     },
     {
       "id": "ph-01394",
       "character": "挖",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "wa1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wa1"
+        }
       ]
     },
     {
@@ -19029,13 +19009,13 @@
     {
       "id": "ph-01397",
       "character": "挪",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "lo2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lo2"
+        }
       ]
     },
     {
@@ -19065,13 +19045,13 @@
     {
       "id": "ph-01400",
       "character": "甚",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "sen4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sen4"
+        }
       ]
     },
     {
@@ -19089,37 +19069,37 @@
     {
       "id": "ph-01402",
       "character": "茸",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "rong2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "rong2"
+        }
       ]
     },
     {
       "id": "ph-01403",
       "character": "革",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "ge2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ge2"
+        }
       ]
     },
     {
       "id": "ph-01404",
       "character": "茬",
-      "readings":       [
-              {
-                      "labels": [
-                              "正","罕"
-                      ],
-                      "pinyin": "ca2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正", "罕"
+          ],
+          "pinyin": "ca2"
+        }
       ]
     },
     {
@@ -19137,13 +19117,13 @@
     {
       "id": "ph-01406",
       "character": "巷",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "hang4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hang4"
+        }
       ]
     },
     {
@@ -19161,25 +19141,25 @@
     {
       "id": "ph-01408",
       "character": "草",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "cao3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cao3"
+        }
       ]
     },
     {
       "id": "ph-01409",
       "character": "茧",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "jian3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jian3"
+        }
       ]
     },
     {
@@ -19209,25 +19189,25 @@
     {
       "id": "ph-01412",
       "character": "荒",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "huang1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "huang1"
+        }
       ]
     },
     {
       "id": "ph-01413",
       "character": "茫",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "mang2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mang2"
+        }
       ]
     },
     {
@@ -19245,43 +19225,43 @@
     {
       "id": "ph-01415",
       "character": "荣",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yun2"
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yong2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yong2"
+        }
       ]
     },
     {
       "id": "ph-01416",
       "character": "荤",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "hun1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hun1"
+        }
       ]
     },
     {
       "id": "ph-01417",
       "character": "荧",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yun2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun2"
+        }
       ]
     },
     {
@@ -19299,74 +19279,74 @@
     {
       "id": "ph-01419",
       "character": "胡",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "fu2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fu2"
+        }
       ]
     },
     {
       "id": "ph-01420",
       "character": "荫",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yin1"
-              },
-              {
-                      "labels": [
-                              "罕"
-                      ],
-                      "pinyin": "yin4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yin1"
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "yin4"
+        }
       ]
     },
     {
       "id": "ph-01421",
       "character": "荔",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "li4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li4"
+        }
       ]
     },
     {
       "id": "ph-01422",
       "character": "南",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "lan2"
-              },
-              {
-                      "labels": [
-                              "罕"
-                      ],
-                      "pinyin": "la2",
-                      "examples": ["南无阿弥陀佛"]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lan2"
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "la2",
+          "examples": ["南无阿弥陀佛"]
+        }
       ]
     },
     {
       "id": "ph-01423",
       "character": "药",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yo2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yo2"
+        }
       ]
     },
     {
@@ -19396,25 +19376,25 @@
     {
       "id": "ph-01426",
       "character": "柑",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "gan1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gan1"
+        }
       ]
     },
     {
       "id": "ph-01427",
       "character": "枯",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "ku1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ku1"
+        }
       ]
     },
     {
@@ -19481,13 +19461,13 @@
     {
       "id": "ph-01432",
       "character": "柏",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "be2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "be2"
+        }
       ]
     },
     {
@@ -19531,13 +19511,13 @@
     {
       "id": "ph-01435",
       "character": "柱",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "zu4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zu4"
+        }
       ]
     },
     {
@@ -19591,43 +19571,39 @@
     {
       "id": "ph-01440",
       "character": "勃",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "pu2"
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "bo2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pu2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bo2"
+        }
       ]
     },
     {
       "id": "ph-01441",
       "character": "要",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yao4",
-                      "examples": [
-                              "需要"
-                      ]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yao1",
-                      "examples": [
-                              "要求"
-                      ]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yao4",
+          "examples": ["需要"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yao1",
+          "examples": ["要求"]
+        }
       ]
     },
     {
@@ -19645,20 +19621,20 @@
     {
       "id": "ph-01443",
       "character": "咸",
-      "readings":       [
-              {
-                      "labels": [
-                              "正","白"
-                      ],
-                      "pinyin": "han2"
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "xian2",
-                      "examples": ["咸丰"]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正", "白"
+          ],
+          "pinyin": "han2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xian2",
+          "examples": ["咸丰"]
+        }
       ]
     },
     {
@@ -19676,31 +19652,31 @@
     {
       "id": "ph-01445",
       "character": "歪",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "wai1"
-              },
-              {
-                      "labels": [
-                              "白","变"
-                      ],
-                      "pinyin": "wai3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wai1"
+        },
+        {
+          "labels": [
+            "白", "变"
+          ],
+          "pinyin": "wai3"
+        }
       ]
     },
     {
       "id": "ph-01446",
       "character": "研",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "lian1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lian1"
+        }
       ]
     },
     {
@@ -19718,13 +19694,13 @@
     {
       "id": "ph-01448",
       "character": "厘",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "li2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li2"
+        }
       ]
     },
     {
@@ -19742,13 +19718,13 @@
     {
       "id": "ph-01450",
       "character": "砌",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "qi4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qi4"
+        }
       ]
     },
     {
@@ -19766,32 +19742,32 @@
     {
       "id": "ph-01452",
       "character": "泵",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "bang4",
-                      "examples": ["水泵"]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "bong4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bang4",
+          "examples": ["水泵"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bong4"
+        }
       ]
     },
     {
       "id": "ph-01453",
       "character": "砚",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "lian4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lian4"
+        }
       ]
     },
     {
@@ -19821,13 +19797,13 @@
     {
       "id": "ph-01456",
       "character": "耐",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "lai4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lai4"
+        }
       ]
     },
     {
@@ -19857,13 +19833,13 @@
     {
       "id": "ph-01459",
       "character": "鸥",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "ngou1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ngou1"
+        }
       ]
     },
     {
@@ -19893,13 +19869,13 @@
     {
       "id": "ph-01462",
       "character": "轴",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "zu2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zu2"
+        }
       ]
     },
     {
@@ -19917,40 +19893,38 @@
     {
       "id": "ph-01464",
       "character": "鸦",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "ya1"
-              },
-              {
-                      "labels": [
-                              "白","训"
-                      ],
-                      "pinyin": "wa1",
-                      "examples": [
-                              "老鸦"
-                      ]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ya1"
+        },
+        {
+          "labels": [
+            "白", "训"
+          ],
+          "pinyin": "wa1",
+          "examples": ["老鸦"]
+        }
       ]
     },
     {
       "id": "ph-01465",
       "character": "皆",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "jiai1"
-              },
-              {
-                      "labels": [
-                              "白","罕"
-                      ],
-                      "pinyin": "gai1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiai1"
+        },
+        {
+          "labels": [
+            "白", "罕"
+          ],
+          "pinyin": "gai1"
+        }
       ]
     },
     {
@@ -19968,27 +19942,21 @@
     {
       "id": "ph-01467",
       "character": "背",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "bei4",
-                      "examples": [
-                              "背诵",
-                              "后背"
-                      ]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "bei1",
-                      "examples": [
-                              "背起",
-                              "背包袱"
-                      ]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bei4",
+          "examples": ["背诵","后背"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bei1",
+          "examples": ["背起","背包袱"]
+        }
       ]
     },
     {
@@ -20018,37 +19986,37 @@
     {
       "id": "ph-01470",
       "character": "虐",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yo2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yo2"
+        }
       ]
     },
     {
       "id": "ph-01471",
       "character": "临",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "lin2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lin2"
+        }
       ]
     },
     {
       "id": "ph-01472",
       "character": "览",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "lan3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lan3"
+        }
       ]
     },
     {
@@ -20066,70 +20034,68 @@
     {
       "id": "ph-01474",
       "character": "省",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "sen3"
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "xin3",
-                      "examples": [
-                              "反省"
-                      ]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sen3"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xin3",
+          "examples": ["反省"]
+        }
       ]
     },
     {
       "id": "ph-01475",
       "character": "削",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "xue2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xue2"
+        }
       ]
     },
     {
       "id": "ph-01476",
       "character": "尝",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "sang2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sang2"
+        }
       ]
     },
     {
       "id": "ph-01477",
       "character": "昧",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "mei4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mei4"
+        }
       ]
     },
     {
       "id": "ph-01478",
       "character": "盹",
-      "readings":       [
-              {
-                      "labels": [
-                              "正","罕"
-                      ],
-                      "pinyin": "den3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正", "罕"
+          ],
+          "pinyin": "den3"
+        }
       ]
     },
     {
@@ -20147,25 +20113,25 @@
     {
       "id": "ph-01480",
       "character": "盼",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "pan4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pan4"
+        }
       ]
     },
     {
       "id": "ph-01481",
       "character": "眨",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "za2"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "za2"
+        }
       ]
     },
     {
@@ -20195,37 +20161,37 @@
     {
       "id": "ph-01483",
       "character": "哄",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "hong3"
-              },
-              {
-                      "labels": [
-                              "白","训"
-                      ],
-                      "pinyin": "ho1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hong3"
+        },
+        {
+          "labels": [
+            "白", "训"
+          ],
+          "pinyin": "ho1"
+        }
       ]
     },
     {
       "id": "ph-01484",
       "character": "哑",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "ya3"
-              },
-              {
-                      "labels": [
-                              "罕"
-                      ],
-                      "pinyin": "ya1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ya3"
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "ya1"
+        }
       ]
     },
     {
@@ -20243,32 +20209,32 @@
     {
       "id": "ph-01486",
       "character": "冒",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "mao4"
-              },
-              {
-                      "labels": [
-                              "罕"
-                      ],
-                      "pinyin": "mo2",
-                      "examples": ["冒顿单于(mo2 du2 san2 yu2)"]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mao4"
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "mo2",
+          "examples": ["冒顿单于(mo2 du2 san2 yu2)"]
+        }
       ]
     },
     {
       "id": "ph-01487",
       "character": "映",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yin4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yin4"
+        }
       ]
     },
     {
@@ -20322,37 +20288,37 @@
     {
       "id": "ph-01491",
       "character": "昭",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "zao1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zao1"
+        }
       ]
     },
     {
       "id": "ph-01492",
       "character": "畏",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "wei4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wei4"
+        }
       ]
     },
     {
       "id": "ph-01493",
       "character": "趴",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "pa3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pa3"
+        }
       ]
     },
     {
@@ -20382,94 +20348,92 @@
     {
       "id": "ph-01496",
       "character": "界",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "jiai4"
-              },
-              {
-                      "labels": [
-                              "白"
-                      ],
-                      "pinyin": "gai4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiai4"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "gai4"
+        }
       ]
     },
     {
       "id": "ph-01497",
       "character": "虹",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "hong2"
-              },
-              {
-                      "labels": [
-                              "白","罕"
-                      ],
-                      "pinyin": "gang4"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hong2"
+        },
+        {
+          "labels": [
+            "白", "罕"
+          ],
+          "pinyin": "gang4"
+        }
       ]
     },
     {
       "id": "ph-01498",
       "character": "虾",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "xia1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xia1"
+        }
       ]
     },
     {
       "id": "ph-01499",
       "character": "蚁",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "li3"
-              },
-              {
-                      "labels": [
-                              "白"
-                      ],
-                      "pinyin": "yi3",
-                      "examples": [
-                              "蚂蚁子"
-                      ]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li3"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "yi3",
+          "examples": ["蚂蚁子"]
+        }
       ]
     },
     {
       "id": "ph-01500",
       "character": "思",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "si1"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "si1"
+        }
       ]
     },
     {
       "id": "ph-01501",
       "character": "蚂",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "ma3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ma3"
+        }
       ]
     },
     {
@@ -20505,34 +20469,28 @@
     {
       "id": "ph-01504",
       "character": "咽",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yan4",
-                      "examples": [
-                              "吞咽"
-                      ]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "yan1",
-                      "examples": [
-                              "咽喉"
-                      ]
-              },
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "ye2",
-                      "examples": [
-                              "哽咽"
-                      ]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yan4",
+          "examples": ["吞咽"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yan1",
+          "examples": ["咽喉"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ye2",
+          "examples": ["哽咽"]
+        }
       ]
     },
     {
@@ -20562,19 +20520,19 @@
     {
       "id": "ph-01507",
       "character": "哗",
-      "readings":       [
-              {
-                      "labels": [
-                              "正"
-                      ],
-                      "pinyin": "hua2"
-              },
-              {
-                      "labels": [
-                              "白"
-                      ],
-                      "pinyin": "hua3"
-              }
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hua2"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "hua3"
+        }
       ]
     },
     {
@@ -20597,35 +20555,35 @@
     {
       "id": "ph-01510",
       "character": "哈",
-      "readings":       [
-              {
-                      "labels": [
-                              "正","白","训"
-                      ],
-                      "pinyin": "ha1",
-                      "examples": ["点头哈腰","哈(薅)麻将"]
-              },
-              {
-                      "labels": [
-                              "正","白","训"
-                      ],
-                      "pinyin": "ha3",
-                      "examples": ["哈达","哈(傻)儿"]
-              },
-              {
-                      "labels": [
-                              "白","训"
-                      ],
-                      "pinyin": "ha2",
-                      "examples": ["哈(搳)脐胳儿"]
-              },
-              {
-                      "labels": [
-                              "训"
-                      ],
-                      "pinyin": "ha4",
-                      "examples": ["等一哈(下)"]
-              }
+      "readings": [
+        {
+          "labels": [
+            "正", "白", "训"
+          ],
+          "pinyin": "ha1",
+          "examples": ["点头哈腰","哈(薅)麻将"]
+        },
+        {
+          "labels": [
+            "正", "白", "训"
+          ],
+          "pinyin": "ha3",
+          "examples": ["哈达","哈(傻)儿"]
+        },
+        {
+          "labels": [
+            "白", "训"
+          ],
+          "pinyin": "ha2",
+          "examples": ["哈(搳)脐胳儿"]
+        },
+        {
+          "labels": [
+            "训"
+          ],
+          "pinyin": "ha4",
+          "examples": ["等一哈(下)"]
+        }
       ]
     },
     {
@@ -20693,6 +20651,13 @@
             "正"
           ],
           "pinyin": "la3"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "la2",
+          "examples": ["哪吒(la2 zua1)"]
         }
       ]
     },
@@ -21271,9 +21236,10 @@
       "readings": [
         {
           "labels": [
-            "正","罕"
+            "正"
           ],
-          "pinyin": "liang3"
+          "pinyin": "liang3",
+          "examples": ["伎俩"]
         }
       ]
     },
@@ -21622,7 +21588,7 @@
             "白"
           ],
           "pinyin": "he1",
-          "examples": "很好耍"
+          "examples": ["很好耍"]
         }
       ]
     },
@@ -21983,7 +21949,7 @@
             "白"
           ],
           "pinyin": "se2",
-          "example": ["偷鸡不成倒蚀把米"]
+          "examples": ["偷鸡不成倒蚀把米"]
         }
       ]
     },
@@ -24917,6 +24883,12 @@
             "正"
           ],
           "pinyin": "bang1"
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "bang2"
         }
       ]
     },
@@ -30160,7 +30132,8 @@
           "labels": [
             "白","训"
           ],
-          "pinyin": "gen3"
+          "pinyin": "ngen3",
+          "examples": ["梗人","梗脚"]
         }
       ]
     },
@@ -30447,7 +30420,7 @@
             "正","罕"
           ],
           "pinyin": "long2",
-          "note": ["文读可用。"]
+          "note": "文读可用。"
         }
       ]
     },
@@ -40364,14 +40337,14 @@
           "labels": [
             "正"
           ],
-          "pinyin": "kue2",
-           "examples": ["轮廓"]
+          "pinyin": "go2",
+          "examples": ["轮廓"]
         },
         {
           "labels": [
             "正"
           ],
-          "pinyin": "go2",
+          "pinyin": "kue2",
           "examples": ["轮廓"]
         }
       ]
@@ -47539,7 +47512,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "mang2"
         }
@@ -47654,7 +47627,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "ge2"
         }
@@ -48557,7 +48530,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "vu3"
         }
@@ -49219,7 +49192,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "zi4"
         }
@@ -51538,7 +51511,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "xu1"
         }
@@ -51562,7 +51535,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "hui4"
         }
@@ -54884,12 +54857,6 @@
           ],
           "pinyin": "o4",
           "examples": ["喔~对了哦。"]
-        },
-        {
-          "labels": [
-            "正"
-          ],
-          "pinyin": "o4"
         }
       ],
       "note": "和「哦」通用，但单独作叹词更推荐用「喔」。"
@@ -55504,7 +55471,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "su2"
         }
@@ -55965,7 +55932,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "cou4"
         }
@@ -56130,7 +56097,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "wan3"
         }
@@ -58936,7 +58903,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "se2"
         }
@@ -59770,7 +59737,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "jian1"
         }
@@ -59966,7 +59933,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "ta2"
         }
@@ -60320,7 +60287,7 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "xiang1"
         }
@@ -60542,6 +60509,8102 @@
             "正"
           ],
           "pinyin": "lang2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04501",
+      "character": "乜",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "mia2",
+          "examples": ["乜了他一眼"]
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "mie3"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lie2",
+          "description": "姓氏。"
+        }
+      ]
+    },
+    {
+      "id": "ph-04502",
+      "character": "孑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04503",
+      "character": "卞",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bian4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04504",
+      "character": "讣",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pu4"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04505",
+      "character": "讫",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04506",
+      "character": "仨",
+      "readings": []
+    },
+    {
+      "id": "ph-04507",
+      "character": "艮",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gen4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04508",
+      "character": "犷",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "guang3"
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "kuang4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04509",
+      "character": "舛",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cuan3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04510",
+      "character": "囡",
+      "readings": [
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "lan1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04511",
+      "character": "讴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ngou1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04512",
+      "character": "纥",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "he2",
+          "examples": ["回纥"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ge2",
+          "examples": ["线纥繨"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04513",
+      "character": "讵",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ju4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04514",
+      "character": "圮",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pi3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04515",
+      "character": "凼",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dang4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04516",
+      "character": "芃",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pong2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04517",
+      "character": "杈",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ca1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04518",
+      "character": "佗",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "to2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04519",
+      "character": "闱",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wei2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04520",
+      "character": "芩",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qin2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04521",
+      "character": "抟",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "tuan2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04522",
+      "character": "佞",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lin4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04523",
+      "character": "苁",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cong1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04524",
+      "character": "妍",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lian2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04525",
+      "character": "苣",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ju4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04526",
+      "character": "佘",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "se2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04527",
+      "character": "诌",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zou1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04528",
+      "character": "陂",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bei1"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04529",
+      "character": "闶",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "kang4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04530",
+      "character": "忸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "liu3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04531",
+      "character": "苋",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "han4",
+          "examples": ["冬苋菜","马齿苋"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xian4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04532",
+      "character": "肓",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "huang1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04533",
+      "character": "疖",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04534",
+      "character": "苎",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04535",
+      "character": "妤",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04536",
+      "character": "囧",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jun3"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiong3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04537",
+      "character": "抈",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "yue1",
+          "examples": ["抈弯","抈憋气"]
+        },
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "yue4",
+          "examples": ["抈憋憋","抈拉抈的"]
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yue2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04538",
+      "character": "拚",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "bian4"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "pin1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04539",
+      "character": "迳",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "jin4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04540",
+      "character": "迨",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "dai4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04541",
+      "character": "郏",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "jia2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04542",
+      "character": "诜",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "sen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04543",
+      "character": "臾",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04544",
+      "character": "怵",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04545",
+      "character": "泅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xiu2",
+          "examples": ["泅水"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04546",
+      "character": "苫",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "san1"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "san4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04547",
+      "character": "诨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hun4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04548",
+      "character": "饯",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jian4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04549",
+      "character": "绉",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zou4"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "zou1",
+          "examples": ["文绉绉"]
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "zong4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04550",
+      "character": "衩",
+      "readings": [
+        {
+          "labels": [
+            "正","训"
+          ],
+          "pinyin": "ca3",
+          "examples": ["衩衩(奓奓)裤"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04551",
+      "character": "岷",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "min2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04552",
+      "character": "忝",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tian3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04553",
+      "character": "迤",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi2",
+          "examples": ["逶迤"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi3",
+          "examples": ["迤逦"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04554",
+      "character": "泸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04555",
+      "character": "茏",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "long2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04556",
+      "character": "岫",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xiu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04557",
+      "character": "昕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xin1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04558",
+      "character": "怩",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04559",
+      "character": "杵",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cu3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04560",
+      "character": "泱",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yang1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04561",
+      "character": "呤",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lin4"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lin2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04562",
+      "character": "峁",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04563",
+      "character": "戕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qiang1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04564",
+      "character": "妲",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "da2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04565",
+      "character": "绌",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04566",
+      "character": "杲",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "gao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04567",
+      "character": "诟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gou4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04568",
+      "character": "炜",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wei3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04569",
+      "character": "兖",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yan3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04570",
+      "character": "抻",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04571",
+      "character": "枇",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04572",
+      "character": "杷",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ba1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04573",
+      "character": "牦",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mao2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04574",
+      "character": "郓",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04575",
+      "character": "疝",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "san4"
+        },
+        {
+          "labels": [
+            "白","变"
+          ],
+          "pinyin": "suai4",
+          "examples": ["疝气"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04576",
+      "character": "昀",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04577",
+      "character": "苒",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ran3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04578",
+      "character": "祎",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04579",
+      "character": "㧟",
+      "readings": [
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "kuai3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04580",
+      "character": "玥",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yue2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04581",
+      "character": "𤆵",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pa1",
+          "examples": ["𤆵和","脚𤆵手软"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04582",
+      "character": "杻",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "cou3"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "liu3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04583",
+      "character": "哒",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "da2"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "da3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04584",
+      "character": "祐",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "you4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04585",
+      "character": "荭",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hong2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04586",
+      "character": "恸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tong4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04587",
+      "character": "赳",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04588",
+      "character": "拮",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04589",
+      "character": "庠",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xiang2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04590",
+      "character": "咣",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "guang1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04591",
+      "character": "柚",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "you4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04592",
+      "character": "骈",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pian2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04593",
+      "character": "柩",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04594",
+      "character": "枸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gou3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04595",
+      "character": "虻",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mang2",
+          "examples": ["牛虻"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04596",
+      "character": "昱",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yuu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04597",
+      "character": "囿",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "you4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04598",
+      "character": "垩",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04599",
+      "character": "诮",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qiao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04600",
+      "character": "峒",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tong2",
+          "examples": ["崆峒"]
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "dong4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04601",
+      "character": "洹",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "huan2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04602",
+      "character": "栉",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04603",
+      "character": "俪",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04604",
+      "character": "竑",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "hong2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04605",
+      "character": "衲",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "la2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04606",
+      "character": "姣",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiao1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04607",
+      "character": "斫",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04608",
+      "character": "闿",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "kai3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04609",
+      "character": "宥",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "you4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04610",
+      "character": "恽",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04611",
+      "character": "胛",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jia2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04612",
+      "character": "哂",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sen3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04613",
+      "character": "栎",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04614",
+      "character": "咤",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "za4"
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "ca4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04615",
+      "character": "贲",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ben1"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "bi4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04616",
+      "character": "胪",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04617",
+      "character": "咿",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04618",
+      "character": "茯",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04619",
+      "character": "轱",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ku1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04620",
+      "character": "怼",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dui4",
+          "examples": ["怨怼"]
+        },
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "dui3",
+          "examples": ["怼(㨃)了"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04621",
+      "character": "郢",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yin3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04622",
+      "character": "胝",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04623",
+      "character": "砭",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bian1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04624",
+      "character": "酊",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "din1"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "din3",
+          "examples": ["酩酊大醉"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04625",
+      "character": "剐",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gua3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04626",
+      "character": "祚",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04627",
+      "character": "骅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hua2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04628",
+      "character": "郧",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04629",
+      "character": "钨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "vu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04630",
+      "character": "闼",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ta2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04631",
+      "character": "羿",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04632",
+      "character": "郛",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04633",
+      "character": "绔",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ku4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04634",
+      "character": "呲",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ci1"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "zi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04635",
+      "character": "茴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hui2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04636",
+      "character": "哔",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bi2"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "bi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04637",
+      "character": "玳",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dai4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04638",
+      "character": "茱",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04639",
+      "character": "洙",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04640",
+      "character": "荏",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ren3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04641",
+      "character": "陟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04642",
+      "character": "逄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pang2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04643",
+      "character": "姝",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "su1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04644",
+      "character": "郜",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04645",
+      "character": "郗",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04646",
+      "character": "咹",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "æ1"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "æ4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04647",
+      "character": "奓",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "za1",
+          "examples": ["奓开"]
+        },
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "ca3",
+          "examples": ["奓起坐"]
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "ci3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04648",
+      "character": "垚",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yao2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04649",
+      "character": "晖",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hui1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04650",
+      "character": "晔",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ye2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04651",
+      "character": "钰",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04652",
+      "character": "胯",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "ka4",
+          "examples": ["胯脚"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kua4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04653",
+      "character": "疸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dan3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04654",
+      "character": "烨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ye2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04655",
+      "character": "窈",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04656",
+      "character": "奘",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zang4",
+          "examples": ["玄奘"]
+        },
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "zuang3",
+          "examples": ["奘两个"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04657",
+      "character": "荻",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "di2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04658",
+      "character": "婀",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wo1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04659",
+      "character": "珞",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04660",
+      "character": "粑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ba1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04661",
+      "character": "觊",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ji4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04662",
+      "character": "崂",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lao2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04663",
+      "character": "狻",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "suan1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04664",
+      "character": "鸬",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04665",
+      "character": "剜",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wan1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04666",
+      "character": "邕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yong1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04667",
+      "character": "铂",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "be2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04668",
+      "character": "涔",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cen2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04669",
+      "character": "桎",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04670",
+      "character": "娣",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "di4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04671",
+      "character": "砺",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04672",
+      "character": "徕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lai2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04673",
+      "character": "胴",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "dong3",
+          "examples": ["光胴胴"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dong4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04674",
+      "character": "钴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gu3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04675",
+      "character": "阄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04676",
+      "character": "陲",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cui2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04677",
+      "character": "倜",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ti2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04678",
+      "character": "铉",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xuan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04679",
+      "character": "骊",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04680",
+      "character": "烩",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hui4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04681",
+      "character": "桠",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ya1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04682",
+      "character": "厝",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04683",
+      "character": "莅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04684",
+      "character": "衮",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gun3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04685",
+      "character": "笏",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04686",
+      "character": "蚝",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hao2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04687",
+      "character": "砣",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "to2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04688",
+      "character": "逡",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qun1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04689",
+      "character": "鸪",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04690",
+      "character": "颀",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04691",
+      "character": "袢",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "pan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04692",
+      "character": "阆",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lang4",
+          "examples": ["阆中"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04693",
+      "character": "趸",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "dui3",
+          "examples": ["打趸卖"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "den4",
+          "examples": ["趸船"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "den3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04694",
+      "character": "笊",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04695",
+      "character": "莸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "you2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04696",
+      "character": "阃",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "kun3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04697",
+      "character": "铆",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04698",
+      "character": "桁",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hen2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hang2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04699",
+      "character": "郴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04700",
+      "character": "赅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gai1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04701",
+      "character": "贽",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04702",
+      "character": "桡",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "rao2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04703",
+      "character": "圄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yu3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04704",
+      "character": "涑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xuu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04705",
+      "character": "逦",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04706",
+      "character": "铄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "so2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04707",
+      "character": "晟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cen2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04708",
+      "character": "鸱",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ci1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04709",
+      "character": "谇",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sui4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04710",
+      "character": "盍",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ho2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04711",
+      "character": "绨",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ti2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04712",
+      "character": "桤",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "qi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04713",
+      "character": "谂",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "sen3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04714",
+      "character": "绡",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xiao1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04715",
+      "character": "鸮",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xiao1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04716",
+      "character": "郫",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pi2",
+          "examples": ["郫县"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04717",
+      "character": "垸",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "huan2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04718",
+      "character": "颃",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "hang2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04719",
+      "character": "绠",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "gen3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04720",
+      "character": "捱",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ngai2",
+          "examples": ["捱打"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04721",
+      "character": "绾",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wan3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04722",
+      "character": "斛",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04723",
+      "character": "喵",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "miao1"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "miao2",
+          "examples": ["喵(猫)儿石"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04724",
+      "character": "蛉",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lin2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04725",
+      "character": "啷",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "lang3"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "lang1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04726",
+      "character": "偻",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lou2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lü3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04727",
+      "character": "谖",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xuan1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04728",
+      "character": "埽",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "sao4"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "sao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04729",
+      "character": "笞",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ci1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04730",
+      "character": "绻",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "quan3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04731",
+      "character": "殒",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04732",
+      "character": "淦",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "gan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04733",
+      "character": "啐",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cui4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04734",
+      "character": "淅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xi2"
+        },
+        {
+          "labels": [
+            "训"
+          ],
+          "pinyin": "xi1",
+          "examples": ["落雨淅淅(兮兮)"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04735",
+      "character": "馗",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kui2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04736",
+      "character": "铰",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04737",
+      "character": "馄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hun2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04738",
+      "character": "粕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pe2",
+          "note": "普伯切。"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "po2",
+          "note": "匹各切。"
+        }
+      ]
+    },
+    {
+      "id": "ph-04739",
+      "character": "梏",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04740",
+      "character": "趺",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "fu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04741",
+      "character": "笥",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "si4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04742",
+      "character": "猕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04743",
+      "character": "晗",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "han2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04744",
+      "character": "铩",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sa2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04745",
+      "character": "窕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tiao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04746",
+      "character": "阈",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yuu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04747",
+      "character": "铤",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tin3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04748",
+      "character": "铨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "quan2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04749",
+      "character": "帼",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gue2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04750",
+      "character": "铣",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xi3"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xian3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04751",
+      "character": "畦",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qi2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04752",
+      "character": "渌",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04753",
+      "character": "袈",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jia1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04754",
+      "character": "硒",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04755",
+      "character": "硎",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xin2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04756",
+      "character": "逶",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wei1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04757",
+      "character": "袷",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jia2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04758",
+      "character": "笸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "po3"
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "bo3",
+          "examples": ["笸(簸)箩货"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04759",
+      "character": "堀",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ku2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04760",
+      "character": "揶",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ye2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04761",
+      "character": "痍",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04762",
+      "character": "笱",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "gou3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04763",
+      "character": "掴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gue2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04764",
+      "character": "赧",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "lan3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04765",
+      "character": "啖",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04766",
+      "character": "硌",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "go2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04767",
+      "character": "蛏",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04768",
+      "character": "蚶",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "han1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04769",
+      "character": "婧",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jin4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04770",
+      "character": "蚰",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "you2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04771",
+      "character": "筇",
+      "readings": [
+        {
+          "labels": [
+            "正", "罕"
+          ],
+          "pinyin": "qiong2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04772",
+      "character": "鸸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "er2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04773",
+      "character": "悫",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "qio2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04774",
+      "character": "菡",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "han4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04775",
+      "character": "耜",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "si4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04776",
+      "character": "鸻",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "hen2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04777",
+      "character": "萜",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04778",
+      "character": "脬",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pao1",
+          "examples": ["尿脬"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04779",
+      "character": "埭",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "dai4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04780",
+      "character": "眭",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "sui1"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "hui1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04781",
+      "character": "眵",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ci1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04782",
+      "character": "珺",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "jun4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04783",
+      "character": "捽",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "jiu2",
+          "examples": ["把他捽(揪)到"]
+        },
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "quu2",
+          "examples": ["捽眼睛"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04784",
+      "character": "梿",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lian2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04785",
+      "character": "愠",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04786",
+      "character": "腴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04787",
+      "character": "缈",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "miao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04788",
+      "character": "琨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kun1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04789",
+      "character": "搽",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ca2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04790",
+      "character": "淼",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "miao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04791",
+      "character": "揆",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kui2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04792",
+      "character": "骛",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "vu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04793",
+      "character": "鱿",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "you2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04794",
+      "character": "詈",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04795",
+      "character": "竦",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "song3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04796",
+      "character": "琬",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "wan3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04797",
+      "character": "靓",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jin4"
+        },
+        {
+          "labels": [
+            "训"
+          ],
+          "pinyin": "liang4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04798",
+      "character": "犄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ji1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04799",
+      "character": "愎",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04800",
+      "character": "崴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wai3"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wei1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04801",
+      "character": "酢",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cu4"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "zo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04802",
+      "character": "飨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xiang3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04803",
+      "character": "揄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04804",
+      "character": "嵘",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04805",
+      "character": "馊",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sou1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04806",
+      "character": "弑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "si4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04807",
+      "character": "趄",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "ce4",
+          "examples": ["趄起身子"]
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ju1"
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "qie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04808",
+      "character": "锃",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zen4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04809",
+      "character": "幄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04810",
+      "character": "傥",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tang3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04811",
+      "character": "揿",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "cen3",
+          "examples": ["揿一下"]
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "qin4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04812",
+      "character": "湟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "huang2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04813",
+      "character": "琰",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yan3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04814",
+      "character": "觞",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sang1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04815",
+      "character": "跎",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "to2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04816",
+      "character": "琮",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cong2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04817",
+      "character": "崾",
+      "readings": [
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "yao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04818",
+      "character": "溆",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04819",
+      "character": "雱",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "pang1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04820",
+      "character": "蛱",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "jia2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04821",
+      "character": "鹂",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04822",
+      "character": "掾",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yuan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04823",
+      "character": "跗",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "fu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04824",
+      "character": "湫",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "qiu1"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "jiao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04825",
+      "character": "缃",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xiang1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04826",
+      "character": "耋",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "die2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04827",
+      "character": "筚",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04828",
+      "character": "琚",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ju1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04829",
+      "character": "㰵",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "juu2",
+          "examples": ["㰵一口"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04830",
+      "character": "琯",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "guan3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04831",
+      "character": "楞",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "len2"
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "len4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04832",
+      "character": "瘀",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04833",
+      "character": "觎",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04834",
+      "character": "滓",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04835",
+      "character": "媾",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gou4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04836",
+      "character": "觥",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gong1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04837",
+      "character": "遛",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "liu2",
+          "examples": ["逗遛(留)"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "liu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04838",
+      "character": "雉",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04839",
+      "character": "筠",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04840",
+      "character": "嗑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ko2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04841",
+      "character": "嗝",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ge2"
+        },
+        {
+          "labels": [
+            "白","变"
+          ],
+          "pinyin": "ge1",
+          "examples": ["呛嗝儿(ger1)"]
+        },
+        {
+          "labels": [
+            "白","变"
+          ],
+          "pinyin": "ge3",
+          "examples": ["打嗝"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04842",
+      "character": "榉",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ju3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04843",
+      "character": "辔",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "pei4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04844",
+      "character": "滢",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yun2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04845",
+      "character": "锟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kun1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04846",
+      "character": "蜇",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ze2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04847",
+      "character": "锨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xuan1"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xian1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04848",
+      "character": "瑁",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04849",
+      "character": "痿",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wei3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04850",
+      "character": "龅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04851",
+      "character": "搡",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sang3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04852",
+      "character": "摁",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ngen4"
+        },
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "ngen3",
+          "examples": ["摁人"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04853",
+      "character": "嗲",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "lia1",
+          "examples": ["嗲声嗲气"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04854",
+      "character": "麂",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ji3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04855",
+      "character": "嗵",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "tong1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04856",
+      "character": "鹌",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ngan1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04857",
+      "character": "楂",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "za1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04858",
+      "character": "楹",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yin2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04859",
+      "character": "裟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sa1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04860",
+      "character": "楫",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ji2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04861",
+      "character": "碛",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04862",
+      "character": "粲",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "can4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04863",
+      "character": "骞",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qian1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04864",
+      "character": "戡",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kan1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04865",
+      "character": "蜊",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04866",
+      "character": "缙",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jin4",
+          "examples": ["缙云山"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04867",
+      "character": "裱",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "biao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04868",
+      "character": "煨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wei1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04869",
+      "character": "龃",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ju3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04870",
+      "character": "碓",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dui4",
+          "examples": ["碓窝"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04871",
+      "character": "痼",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04872",
+      "character": "雎",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ju1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04873",
+      "character": "鲋",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "fu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04874",
+      "character": "裾",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ju1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04875",
+      "character": "鲅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pa2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ba2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04876",
+      "character": "愍",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "min3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04877",
+      "character": "貉",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ho2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04878",
+      "character": "韫",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yun4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04879",
+      "character": "跶",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "da2",
+          "examples": ["跶仆爬"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04880",
+      "character": "蓁",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "zen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04881",
+      "character": "貅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xiu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04882",
+      "character": "摛",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "ci1",
+          "examples": ["摛脚动手"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04883",
+      "character": "搣",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "mie3",
+          "examples": ["搣断","搣弯"]
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "mie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04884",
+      "character": "锺",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zong1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04885",
+      "character": "儆",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jin3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04886",
+      "character": "僮",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tong2"
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "zuang4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04887",
+      "character": "龇",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ci1"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04888",
+      "character": "缫",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sao1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04889",
+      "character": "潢",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "huang2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04890",
+      "character": "膑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bin4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04891",
+      "character": "榛",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04892",
+      "character": "蜴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04893",
+      "character": "蜚",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fei1"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fei3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04894",
+      "character": "瘙",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "cao4",
+          "examples": ["皮子瘙痒"]
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "sao1",
+          "examples": ["瘙痒症状"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04895",
+      "character": "鲟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xun2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04896",
+      "character": "鹗",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "wo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04897",
+      "character": "霁",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ji4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04898",
+      "character": "犒",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04899",
+      "character": "锷",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "wo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04900",
+      "character": "蔫",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yan1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04901",
+      "character": "僖",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04902",
+      "character": "锲",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04903",
+      "character": "慵",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yong1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04904",
+      "character": "潍",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wei2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04905",
+      "character": "碣",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04906",
+      "character": "鹘",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "gu2"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04907",
+      "character": "骶",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "di3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04908",
+      "character": "谲",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jue2",
+          "note": "古穴切。"
+        }
+      ]
+    },
+    {
+      "id": "ph-04909",
+      "character": "旖",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04910",
+      "character": "蝈",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "gue2"
+        },
+        {
+          "labels": [
+            "训"
+          ],
+          "pinyin": "gu1",
+          "examples": ["叫蝈蝈(咕咕)"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04911",
+      "character": "鼐",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "lai4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04912",
+      "character": "锴",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "kai3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04913",
+      "character": "锶",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "si1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04914",
+      "character": "潴",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "zu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04915",
+      "character": "膈",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ge2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04916",
+      "character": "箧",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04917",
+      "character": "嘞",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "le4",
+          "description": "「这(le4)」的俗写。"
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "le2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04918",
+      "character": "禛",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04919",
+      "character": "槑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mei2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04920",
+      "character": "嫚",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "man4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04921",
+      "character": "摌",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "can3",
+          "examples": ["摌耳矢"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04922",
+      "character": "镕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yong2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04923",
+      "character": "寮",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "liao2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04924",
+      "character": "噙",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qin2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04925",
+      "character": "遴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lin2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04926",
+      "character": "暹",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xian1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04927",
+      "character": "獠",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "liao2"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "lao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04928",
+      "character": "踮",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "dian4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04929",
+      "character": "璀",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cui3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04930",
+      "character": "撷",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04931",
+      "character": "噘",
+      "readings": [
+        {
+          "labels": [
+            "正","白","训"
+          ],
+          "pinyin": "jue2",
+          "description": "骂，斥责。",
+          "examples": ["噘(诀)人"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04932",
+      "character": "噔",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "den1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04933",
+      "character": "翦",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jian3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04934",
+      "character": "赭",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ze3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04935",
+      "character": "虢",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "gue2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04936",
+      "character": "靥",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ye2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04937",
+      "character": "耦",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ngou3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04938",
+      "character": "龉",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yu3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04939",
+      "character": "牖",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "you3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04940",
+      "character": "槲",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04941",
+      "character": "颛",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "zuan1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04942",
+      "character": "缯",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "zen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04943",
+      "character": "磺",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "huang2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04944",
+      "character": "橐",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "to2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04945",
+      "character": "邂",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xiai4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04946",
+      "character": "樽",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04947",
+      "character": "篙",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gao1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04948",
+      "character": "犟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiang4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04949",
+      "character": "螨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "man3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04950",
+      "character": "赝",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04951",
+      "character": "懔",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "lin3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04952",
+      "character": "薏",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi2",
+          "note": "於力切。"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04953",
+      "character": "澧",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04954",
+      "character": "盥",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kuan3",
+          "examples": ["盥洗"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "guan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04955",
+      "character": "霏",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fei1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04956",
+      "character": "樾",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yue2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04957",
+      "character": "燧",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xu4"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sui4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04958",
+      "character": "髭",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04959",
+      "character": "薮",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "sou3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04960",
+      "character": "嬗",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "san4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04961",
+      "character": "甑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zen4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04962",
+      "character": "魉",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "liang3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04963",
+      "character": "螟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "min2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04964",
+      "character": "螈",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yuan2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04965",
+      "character": "擀",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gan3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04966",
+      "character": "鲮",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "lin2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04967",
+      "character": "蹉",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "co1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04968",
+      "character": "噻",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "sæ4",
+          "description": "肯定、强调语气词",
+          "examples": ["是噻","要得噻"]
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "se3",
+          "description": "虚拟、假设语气词",
+          "examples": ["要是恁个的话噻"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04969",
+      "character": "篦",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bi4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04970",
+      "character": "薅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hao1"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "ha1",
+          "examples": ["薅两下","薅麻将"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04971",
+      "character": "赟",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yun1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04972",
+      "character": "璟",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "jin3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04973",
+      "character": "罄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qin4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04974",
+      "character": "濡",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ru2",
+          "examples": ["相濡以沫"]
+        },
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "ru3",
+          "examples": ["汗濡濡","湿濡濡"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04975",
+      "character": "璨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "can4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04976",
+      "character": "罅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xia4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04977",
+      "character": "檄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04978",
+      "character": "麋",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04979",
+      "character": "濯",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04980",
+      "character": "魍",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wang3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04981",
+      "character": "擤",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xin3"
+        }
+      ]
+    },
+    {
+      "id": "ph-04982",
+      "character": "鳊",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bian1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04983",
+      "character": "擘",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "be2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04984",
+      "character": "貔",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04985",
+      "character": "簦",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "den1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04986",
+      "character": "藜",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "li2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04987",
+      "character": "馥",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04988",
+      "character": "餮",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04989",
+      "character": "鞫",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "juu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04990",
+      "character": "麒",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04991",
+      "character": "谶",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cen4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04992",
+      "character": "魑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ci1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04993",
+      "character": "鏖",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ngao2"
+        }
+      ]
+    },
+    {
+      "id": "ph-04994",
+      "character": "蹴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "quu2"
+        },
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "zua2",
+          "examples": ["蹴(啄)球"]
+        }
+      ]
+    },
+    {
+      "id": "ph-04995",
+      "character": "镳",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "biao1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04996",
+      "character": "鳝",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "san4"
+        }
+      ]
+    },
+    {
+      "id": "ph-04997",
+      "character": "霰",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xian4"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "san3",
+          "description": "俗读"
+        }
+      ]
+    },
+    {
+      "id": "ph-04998",
+      "character": "孃",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "liang1"
+        }
+      ]
+    },
+    {
+      "id": "ph-04999",
+      "character": "颦",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pin2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05000",
+      "character": "礴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05001",
+      "character": "颧",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "quan2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05002",
+      "character": "癯",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qu2"
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "quu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05003",
+      "character": "聱",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ngao2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05004",
+      "character": "缱",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qian3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05005",
+      "character": "踟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ci2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05006",
+      "character": "蹰",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "cu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05007",
+      "character": "踽",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ju3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05008",
+      "character": "踯",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05009",
+      "character": "躅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05010",
+      "character": "趔",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "lie4",
+          "examples": ["趔(踂)起走路","趔(踂)跐跐"]
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "lie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05011",
+      "character": "恹",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yan1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05012",
+      "character": "怄",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ngou4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05013",
+      "character": "瘆",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sen4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05014",
+      "character": "痱",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fei4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05015",
+      "character": "痦",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "vu4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05016",
+      "character": "疥",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiai4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05017",
+      "character": "龆",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "tiao2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05018",
+      "character": "蠹",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "du4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05019",
+      "character": "遒",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qiu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05020",
+      "character": "酩",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "min3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05021",
+      "character": "皴",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "cen1",
+          "examples": ["手都皴了"]
+        }
+      ]
+    },
+    {
+      "id": "ph-05022",
+      "character": "皲",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jun1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05023",
+      "character": "佝",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gou1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05024",
+      "character": "偬",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zong3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05025",
+      "character": "佶",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ji2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05026",
+      "character": "旻",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "min2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05027",
+      "character": "芊",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qian1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05028",
+      "character": "珩",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hen2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05029",
+      "character": "瑄",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xuan1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05030",
+      "character": "珅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05031",
+      "character": "珝",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xu3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05032",
+      "character": "珵",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "cen2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05033",
+      "character": "珹",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "cen2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05034",
+      "character": "玟",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "wen2"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "min2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05035",
+      "character": "璠",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "fan2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05036",
+      "character": "璁",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "cong1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05037",
+      "character": "璎",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yin1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05038",
+      "character": "琎",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "jin4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05039",
+      "character": "焱",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05040",
+      "character": "燊",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "sen1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05041",
+      "character": "堃",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "kun1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05042",
+      "character": "淏",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "hao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05043",
+      "character": "沄",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yun2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05044",
+      "character": "泫",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xuan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05045",
+      "character": "旸",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yang2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05046",
+      "character": "昶",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "cang3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05047",
+      "character": "晞",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05048",
+      "character": "珮",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pei4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05049",
+      "character": "齁",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hou1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05050",
+      "character": "嘣",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "bong1"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "bong2"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "bong3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05051",
+      "character": "哐",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "kuang1"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "kuang3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05052",
+      "character": "咩",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "me1"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "mie1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05053",
+      "character": "嘚",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "de1",
+          "examples": ["安嘚儿逸"]
+        }
+      ]
+    },
+    {
+      "id": "ph-05054",
+      "character": "嗐",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "hai4",
+          "examples": ["打呵嗐(嗨)"]
+        }
+      ]
+    },
+    {
+      "id": "ph-05055",
+      "character": "嚯",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "ho4",
+          "examples": ["哦嚯(嗬)","嚯拉嚯的"]
+        },
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "ho2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05056",
+      "character": "尥",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "liao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05057",
+      "character": "尕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ga2",
+          "examples": ["滴滴尕尕儿"]
+        }
+      ]
+    },
+    {
+      "id": "ph-05058",
+      "character": "尜",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ga2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05059",
+      "character": "嫑",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "biao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05060",
+      "character": "搲",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "wa3",
+          "examples": ["搲点米","搲两下"]
+        }
+      ]
+    },
+    {
+      "id": "ph-05061",
+      "character": "搛",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "jian1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05062",
+      "character": "扽",
+      "readings": [
+        {
+          "labels": [
+            "正","白","训"
+          ],
+          "pinyin": "den4",
+          "description": "稳定放置。",
+          "examples": ["把被子扽(顿)好"]
+        }
+      ]
+    },
+    {
+      "id": "ph-05063",
+      "character": "趑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05064",
+      "character": "跐",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "zi1",
+          "description": "摩擦。",
+          "examples": ["跐一下"]
+        },
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "ci1",
+          "examples": ["趔(踂)跐跐"]
+        }
+      ]
+    },
+    {
+      "id": "ph-05065",
+      "character": "趿",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sa2",
+          "examples": ["趿起鞋子","趿板儿鞋"]
+        }
+      ]
+    },
+    {
+      "id": "ph-05066",
+      "character": "跩",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zuai3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05067",
+      "character": "𠳐",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "bang2"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "bang1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05068",
+      "character": "鬣",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05069",
+      "character": "髑",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "du2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05070",
+      "character": "覃",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qin2",
+          "examples": ["覃家岗"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tan2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05071",
+      "character": "阚",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kan4"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "han3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05072",
+      "character": "雒",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "lo2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05073",
+      "character": "蒯",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kuai3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05074",
+      "character": "葭",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jia1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05075",
+      "character": "蒹",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jian1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05076",
+      "character": "蓼",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "liao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05077",
+      "character": "蔻",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "kou4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05078",
+      "character": "薜",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bi4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05079",
+      "character": "薤",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xiai4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05080",
+      "character": "薹",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "tai2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05081",
+      "character": "藿",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ho2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05082",
+      "character": "蘅",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "hen2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05083",
+      "character": "蘩",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "fan2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05084",
+      "character": "蘖",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "lie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05085",
+      "character": "嫋",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "liao3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05086",
+      "character": "翳",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yi4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05087",
+      "character": "翕",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05088",
+      "character": "翮",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "he2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05089",
+      "character": "窨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yin4"
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "yin1"
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "xun1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05090",
+      "character": "窬",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05091",
+      "character": "窳",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "yu3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05092",
+      "character": "瓞",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "die2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05093",
+      "character": "觚",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "gu1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05094",
+      "character": "觖",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "jue2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05095",
+      "character": "衄",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "lu2",
+          "note": "女六切。"
+        }
+      ]
+    },
+    {
+      "id": "ph-05096",
+      "character": "裉",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ken4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05097",
+      "character": "馓",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "san3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05098",
+      "character": "馔",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zuan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05099",
+      "character": "骐",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qi2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05100",
+      "character": "骓",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "zui1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05101",
+      "character": "骜",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ngao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05102",
+      "character": "颢",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "hao4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05103",
+      "character": "韪",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "wei3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05104",
+      "character": "霈",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "pei4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05105",
+      "character": "沆",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "hang4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05106",
+      "character": "瀣",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "xiai4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05107",
+      "character": "稂",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "lang2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05108",
+      "character": "莠",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "you3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05109",
+      "character": "茕",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "qun2"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "qiong2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05110",
+      "character": "鹈",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ti2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05111",
+      "character": "鹕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05112",
+      "character": "醍",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ti2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05113",
+      "character": "醐",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05114",
+      "character": "囹",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lin2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05115",
+      "character": "龘",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "da2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05116",
+      "character": "黼",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "fu3"
+        }
+      ]
+    },
+    {
+      "id": "ph-05117",
+      "character": "黻",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05118",
+      "character": "吒",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zua1",
+          "examples": ["哪吒(la2 zua1)"]
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "za4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05119",
+      "character": "舂",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zong1",
+          "examples": ["舂米","舂蒜儿"]
+        }
+      ]
+    },
+    {
+      "id": "ph-05119",
+      "character": "凫",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "fu2"
         }
       ]
     }
