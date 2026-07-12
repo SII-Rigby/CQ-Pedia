@@ -3693,12 +3693,6 @@
             "正"
           ],
           "pinyin": "za4"
-        },
-        {
-          "labels": [
-            "罕"
-          ],
-          "pinyin": "zo4"
         }
       ]
     },
@@ -17308,7 +17302,7 @@
             "白","变"
           ],
           "pinyin": "xin1",
-          "examples": ["记性","德性"]
+          "examples": ["记性","忘性"]
         }
       ]
     },
@@ -27009,13 +27003,13 @@
           "labels": [
             "正"
           ],
-          "pinyin": "di1"
+          "pinyin": "die1"
         },
         {
           "labels": [
             "正"
           ],
-          "pinyin": "die1"
+          "pinyin": "di1"
         }
       ]
     },

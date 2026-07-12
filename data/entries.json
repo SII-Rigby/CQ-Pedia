@@ -3181,7 +3181,7 @@
       "headword": "鬼火冒",
       "pinyin": "gui3 ho3 mao4",
       "wordClass": "动词",
-      "definitions": [{"text":"火气不停往上冒，形容非常生气。"}],
+      "definitions": [{"text":"火气不停往上冒，形容非常生气。也说「鬼冒火」。"}],
       "examples": [{"text":"听到娃儿又在学校跟同学打架，她就鬼火冒。","pinyin":"tin1 dao3 wa2 er2-1 you4 dai4 xio2 xiao4 gen1 tong2 xio2 da3 jia4 ta1 dou4 gui3 ho3 mao4","translation":"听到孩子又在学校跟同学打架，她火气就上来了。"}]
     },
     {
@@ -6040,12 +6040,12 @@
     },
     {
       "id": "cq-00721",
-      "headword": "扯皮捏筋",
-      "pinyin": "ce3 pi2 lia2 jin1 / ce3 pi2 liao2 jin1",
+      "headword": "扯皮聊经",
+      "pinyin": "ce3 pi2 liao2 jin1 / ce3 pi2 lia2 jin1",
       "wordClass": "动词；形容词",
-      "variants": ["扯皮聊筋","扯皮撩筋","扯皮撂筋"],
+      "variants": ["扯皮聊筋","扯皮撩筋","扯皮捏筋"],
       "definitions": [{"text":"互相扯皮，纠纷不断的样子。"}],
-      "examples": [{"text":"两家人为了一棵枇杷树，扯皮捏筋了好多年。","pinyin":"liang3 jia1 ren2 wei4 lao3 yi2 ko3 pi2 ba1 su4 ce3 pi2 lia2 jin1 lao3 hao3 do1 lian2","translation":"两家人为了一棵枇杷树，纠纷扯皮了好多年。"}]
+      "examples": [{"text":"两家人为了一棵枇杷树，扯皮聊经了好多年。","pinyin":"liang3 jia1 ren2 wei4 lao3 yi2 ko3 pi2 ba1 su4 ce3 pi2 liao2 jin1 lao3 hao3 do1 lian2","translation":"两家人为了一棵枇杷树，纠纷扯皮了好多年。"}]
     },
     {
       "id": "cq-00722",
@@ -6310,6 +6310,7 @@
       "headword": "肏妈捣娘",
       "pinyin": "ri2 ma1 dao3 liang2",
       "wordClass": "形容词",
+      "variants": ["日妈倒娘"],
       "definitions": [{"text":"形容人脏话连篇，开口闭口都在骂人。粗俗。"}],
       "examples": [{"text":"随着市民素质的提高，肏妈捣娘乱诀人的现象少了。","pinyin":"sui2 zo2 si4 min2 su4 zi2 li1 ti2 gao1 ri2 ma1 dao3 liang2 luan4 jue2 ren2 li1 xian4 xiang4 sao3 lao3","translation":"随着市民素质的提高，“问候母亲”之类的胡乱骂人现象少了。"}]
     },
@@ -6359,7 +6360,7 @@
       "wordClass": "动词",
       "variants": ["办灯_儿"],
       "definitions": [{"text":"戏弄，开玩笑。"},{"text":"扯皮、吵架。"}],
-      "examples": [{"text":"我没跟你两个扮灯_儿，这个事情今天_儿必须说清楚。","pinyin":"wo3 mei1 gen1 li3 liang3 gə4 ban4 der1 le4 gə4-1 si4 qin2 jin1 tiar1 bi2 xu1 so2 qin1 cu3","translation":"我不是跟你们两个开玩笑，这件事今天必须说清楚。"},{"text":"两弟兄为分那点_儿钱在屋头扮灯儿。","pinyin":"liang3 di4 xiong1 wei4 fen1 la4 diar3 qian2 dai4 vu2 tou2 ban4 der1","translation":"两兄弟为了分那点钱在家里吵架。"}]
+      "examples": [{"text":"我没跟你两个扮灯_儿，这个事情今天_儿必须说清楚。","pinyin":"wo3 mei1 gen1 li3 liang3 gə4 ban4 der1 le4 gə4-1 si4 qin2 jin1 tiar1 bi2 xu1 so2 qin1 cu3","translation":"我不是跟你们两个开玩笑，这件事今天必须说清楚。"},{"text":"两弟兄为分那点_儿钱在屋头扮灯_儿。","pinyin":"liang3 di4 xiong1 wei4 fen1 la4 diar3 qian2 dai4 vu2 tou2 ban4 der1","translation":"两兄弟为了分那点钱在家里吵架。"}]
     },
     {
       "id": "cq-00760",
@@ -6511,6 +6512,7 @@
       "headword": "污烟_儿",
       "pinyin": "vu1 yar1",
       "wordClass": "动词",
+      "variants": ["乌烟_儿"],
       "definitions": [{"text":"捣乱；故意搞事情。"}],
       "examples": [{"text":"是不是你在背后污烟_儿，害得我遭写检讨？","pinyin":"si4 bu2 si4 li3 dai4 bei4 hou4 vu1 yar1 hai4 de2 wo3 zao2 xie3 jian3 tao3","translation":"是不是你在背后捣乱，害得我受罚写检讨。"}]
     },
