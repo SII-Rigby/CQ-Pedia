@@ -40,35 +40,35 @@ const RESULTS_PER_PAGE = 120;
 const PHONETIC_RECENT_SEARCH_STORAGE_KEY = "cq-pedia-phonetic-recent-searches-v1";
 const RECENT_SEARCH_LIMIT = 5;
 const LABEL_HELP = {
-  "\u6b63": {
-    name: "\u6b63\u97f3",
-    tone: "\u4e3b\u8981\u8bfb\u6cd5",
-    summary: "\u97f5\u4e66\u6d41\u4f20\u5207\u6cd5\u8fdb\u5165\u91cd\u5e86\u8bdd\u540e\u7684\u5e38\u89c4\u97f3\uff0c\u6216\u73b0\u4ee3\u91cd\u5e86\u8bdd\u4e2d\u6700\u7a33\u5b9a\u7684\u5355\u5b57\u8bfb\u6cd5\u3002",
-    example: "\u4e00\u4e2a\u5b57\u53ea\u6709\u4e00\u4e2a\u97f3\u65f6\uff0c\u9ed8\u8ba4\u6807\u4e3a\u300c\u6b63\u300d\u3002\u591a\u97f3\u5b57\u53ef\u6709\u591a\u4e2a\u300c\u6b63\u300d\u3002"
+  "正": {
+    name: "正音",
+    tone: "主要读法",
+    summary: "韵书流传切法进入重庆话后的常规音，或现代重庆话中最稳定的单字读法。",
+    example: "一个字只有一个音时，默认为「正」。多音字可有多个「正」。"
   },
-  "\u767d": {
-    name: "\u767d\u8bfb",
-    tone: "\u53e3\u5934\u8bfb\u6cd5",
-    summary: "\u53e3\u8bed\u91cc\u6cbf\u7528\u7684\u767d\u8bfb\u97f3\uff0c\u5e38\u89c1\u4e8e\u65e5\u5e38\u8bcd\u3001\u719f\u8bed\u6216\u672c\u5730\u4e60\u60ef\u8bf4\u6cd5\u3002",
-    example: "\u540c\u4e00\u4e2a\u97f3\u4e5f\u53ef\u80fd\u540c\u65f6\u6807\u300c\u6b63\u300d\u300c\u767d\u300d\uff0c\u8868\u793a\u6b63\u97f3\u548c\u53e3\u5934\u8bfb\u6cd5\u5408\u6d41\u3002"
+  "白": {
+    name: "白读",
+    tone: "口头读法",
+    summary: "口语里永用的白读音，常见于日常词、熟语或本地习惯说法。",
+    example: "同一个音也可能同时标「正」「白」，表示正音和口头读法合流。"
   },
-  "\u53d8": {
-    name: "\u53d8\u8bfb",
-    tone: "\u73af\u5883\u8bfb\u6cd5",
-    summary: "\u53d7\u8fde\u8bfb\u3001\u8f7b\u91cd\u97f3\u3001\u513f\u5316\u6216\u56fa\u5b9a\u642d\u914d\u5f71\u54cd\u5f62\u6210\u7684\u8bfb\u6cd5\u3002",
-    example: "\u901a\u5e38\u53ea\u5728\u7ed9\u51fa\u7684\u8bcd\u4f8b\u6216\u76f8\u8fd1\u8bed\u5883\u4e2d\u4f7f\u7528\u3002"
+  "变": {
+    name: "变读",
+    tone: "环境读法",
+    summary: "受连读、轻重音、儿化或固定搭配影响形成的读法。",
+    example: "通常只在给出的词例或相近语境中使用。"
   },
-  "\u7f55": {
-    name: "\u7f55\u8bfb",
-    tone: "\u5c11\u89c1\u8bfb\u6cd5",
-    summary: "\u8f83\u5c11\u4f7f\u7528\u3001\u5730\u57df\u6216\u4ee3\u9645\u5dee\u5f02\u660e\u663e\uff0c\u6216\u8d44\u6599\u4ecd\u9700\u7ee7\u7eed\u6838\u9a8c\u7684\u8bfb\u97f3\u3002",
-    example: "\u4fdd\u7559\u4f5c\u7ebf\u7d22\uff0c\u4e0d\u5efa\u8bae\u5f53\u4f5c\u9ed8\u8ba4\u8bfb\u6cd5\u3002"
+  "罕": {
+    name: "罕读",
+    tone: "少见读法",
+    summary: "日常口语、书面用语都极少用到的字或读音，重庆话基本不会涉及。",
+    example: "保留作线索，在一些古籍或专业文献中可能会遇到。"
   },
-  "\u8bad": {
-    name: "\u8bad\u8bfb",
-    tone: "\u501f\u5b57\u8bfb\u6cd5",
-    summary: "\u6309\u8bcd\u4e49\u501f\u7528\u67d0\u5b57\u8bb0\u5f55\u65b9\u8a00\u8bcd\uff0c\u8bfb\u97f3\u6765\u81ea\u88ab\u8bb0\u5f55\u7684\u65b9\u8a00\u8bcd\u800c\u975e\u8be5\u5b57\u5e38\u89c4\u97f3\u3002",
-    example: "\u5e94\u7ed3\u5408\u8bcd\u4f8b\u7406\u89e3\uff0c\u4e0d\u5b9c\u8131\u79bb\u8bcd\u4f8b\u5957\u7528\u3002"
+  "借": {
+    name: "借读",
+    tone: "借字读法",
+    summary: "按意义借用某字记录方言词，读音来自被记录的方言词而非该字常规音。",
+    example: "应结合词例理解，不宜脱离词例套用。"
   }
 };
 

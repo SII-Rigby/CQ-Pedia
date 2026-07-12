@@ -6076,7 +6076,8 @@
           "labels": [
             "白"
           ],
-          "pinyin": "jiang1"
+          "pinyin": "jiang1",
+          "examples": ["刚刚_儿才","刚合适"]
         }
       ]
     },
@@ -32590,6 +32591,13 @@
             "正"
           ],
           "pinyin": "duan4"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "duan3",
+          "examples": ["把那个人断(短)到"]
         }
       ]
     },
@@ -53606,6 +53614,12 @@
           ],
           "pinyin": "xian2",
           "examples": ["舷舷"]
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "xuan2"
         }
       ]
     },
@@ -64220,10 +64234,10 @@
         },
         {
           "labels": [
-            "正","白"
+            "正","白","训"
           ],
           "pinyin": "quu2",
-          "examples": ["捽眼睛"]
+          "examples": ["捽(曲/𢬑)眼睛"]
         }
       ]
     },
@@ -68597,7 +68611,7 @@
       ]
     },
     {
-      "id": "ph-05119",
+      "id": "ph-05120",
       "character": "凫",
       "readings": [
         {
@@ -68605,6 +68619,38 @@
             "正"
           ],
           "pinyin": "fu2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05121",
+      "character": "胗",
+      "readings": [
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "zen1"
+        },
+        {
+          "labels": [
+            "训"
+          ],
+          "pinyin": "jun4",
+          "examples": ["鸡胗(𬂁)子","胗(𬂁)肝"]
+        }
+      ]
+    },
+    {
+      "id": "ph-05122",
+      "character": "𬂁",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "zen1",
+          "examples": ["鸡𬂁子","𬂁肝"]
         }
       ]
     }

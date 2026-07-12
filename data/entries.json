@@ -412,7 +412,7 @@
       "headword": "孬",
       "pinyin": "pie4",
       "wordClass": "形容词",
-      "variants": ["撇"],
+      "variants": ["敝","撇","㡀"],
       "definitions": [{"text":"差、不好、不行。"}],
       "examples": [{"text":"这款茶质量好孬哟。","pinyin":"le4 kuan3 ca2 zi2 liang4 hao3 pie4 yo3","translation":"这款茶质量真差。"}]
     },
@@ -1969,6 +1969,7 @@
       "headword": "㔿",
       "pinyin": "zou4",
       "wordClass": "动词",
+      "variants": ["奏","阻"],
       "definitions": [{"text":"把敞口的物体堵住、塞住。"}],
       "notes": "有说法认为此词与「阻」的音变有关。",
       "examples": [{"text":"你把茶瓶㔿好，莫尽它落灰。","pinyin":"li3 ba3 ca2 pin2 zou4 hao3 mo2 jin3 ta1 lo2 hui1","translation":"你把茶水瓶塞好，别让灰落进去了。"}]
@@ -5097,6 +5098,7 @@
       "headword": "𪽫",
       "pinyin": "zua3",
       "wordClass": "动词",
+      "variants": ["爪"],
       "definitions": [{"text":"手指等弯曲僵硬，不能随意屈伸。"},{"text":"因突然受惊、发懵而呆住，手足无措。"}],
       "examples": [{"text":"手都冻𪽫了。","pinyin":"sou3 dou1 dong4 zua3 lao3","translation":"手指都冻得僵弯了。"},{"text":"那把刀一亮出来，他当场就𪽫了。","pinyin":"la4 ba3 dao1 yi2 liang4 cu2 lai2, ta1 dang1 cang2 dou4 zua3 lao3","translation":"那把刀一亮出来，他当场就吓呆了。"}]
     },
@@ -5105,6 +5107,7 @@
       "headword": "𪽫脚𪽫手_(儿)",
       "pinyin": "zua3 jio2 zua3 sou3 / zua3 jio2 zua3 ser3",
       "wordClass": "形容词",
+      "variants": ["爪脚爪手_(儿)"],
       "definitions": [{"text":"做事笨手笨脚，不利索。"}],
       "examples": [{"text":"你啷个𪽫脚𪽫手的嘛？又打烂两个碗_儿","pinyin":"li3 lang3 gə4-1 zua3 jio2 zua3 sou3 li1 ma3 you4 da3 lan4 liang3 gə4 war3","translation":"你怎么这么笨手笨脚的？又摔烂两个碗。"}]
     },
@@ -5320,7 +5323,7 @@
       "pinyin": "ka3 be2",
       "wordClass": "形容词",
       "definitions": [{"text":"惨白，没有血色而发白。"}],
-      "examples": [{"text":"他刚刚_儿在巷巷_儿口子那截差点_儿遭摩托车撞了，回到屋头脸帮_儿还是卡白的。","pinyin":"ta1 jiang1 gar1 dai4 hang4 har4-1 kou3 zi3 la4 jie2 ca1 diar3 zao2 mo1 to2 ce1 cuang3 lao3 hui2 dao3 vu2 tou2 lian3 bar1 hai2 si4 ka3 be2 li1","translation":"他刚才在巷子口那儿差点被摩托车撞了，回到家脸还是惨白的。"}]
+      "examples": [{"text":"他刚刚_儿在巷巷_儿口子那截差点_儿遭摩托车撞了，回到屋头脸帮_儿还是卡白的。","pinyin":"ta1 jiang1 jiar1 dai4 hang4 har4-1 kou3 zi3 la4 jie2 ca1 diar3 zao2 mo1 to2 ce1 cuang3 lao3 hui2 dao3 vu2 tou2 lian3 bar1 hai2 si4 ka3 be2 li1","translation":"他刚才在巷子口那儿差点被摩托车撞了，回到家脸还是惨白的。"}]
     },
     {
       "id": "cq-00635",
@@ -5925,8 +5928,8 @@
       "headword": "祖祖",
       "pinyin": "zu3 zu3",
       "wordClass": "名词",
-      "definitions": [{"text":"曾祖父母。也泛指比自己高三辈及以上的祖辈。"}],
-      "examples": [{"text":"清明节，老汉_儿带我去跟祖祖上坟。","pinyin":"qin1 ming2 jie2 lao3 har1 dai4 wo3 qi4 gen1 zu3 zu3 sang4 fen2","translation":"清明节，父亲带我去给曾祖父母上坟。"}]
+      "definitions": [{"text":"曾祖父母。"},{"text":"也泛指比自己高三辈及以上的祖辈。"}],
+      "examples": [{"text":"清明节，老汉_儿带我去跟祖祖上坟。","pinyin":"qin1 ming2 jie2 lao3 har1 dai4 wo3 qi4 gen1 zu3 zu3 sang4 fen2","translation":"清明节，父亲带我去给曾祖父母上坟。"},{}]
     },
     {
       "id": "cq-00708",
@@ -6325,6 +6328,329 @@
       "wordClass": "形容词",
       "definitions": [{"text":"食物滋味好，有味道。"},{"text":"引申为值得玩味、很有意思。常说「傻得有盐有味_儿」「宝得有盐有味_儿」。"}],
       "examples": [{"text":"这碗烧白蒸得有盐有味_儿，肥肉不哽人，底下的咸菜也下饭。","pinyin":"le4 wan3 sao1 be2 zen1 de2 you3 yan2 you3 wer4 fei2 rou4 bu2 gen3 ren2 di3 xia4 li1 han2 cai4 ye3 xia4 fan4","translation":"这碗烧白蒸得很有滋味，肥肉不腻人，下面的咸菜也很下饭。"},{"text":"你真的是夜明珠坌酱油——宝得有盐有味_儿。","pinyin":"li3 zen1 li1 si4 ye4 min2 zu1 ben4 jiang4 you2 bao3 de2 you3 yan2 you3 wer4","translation":"你真是夜明珠蘸酱油——宝（蠢）得别有一番风味。"}]
+    },
+    {
+      "id": "cq-00756",
+      "headword": "独凳_儿",
+      "pinyin": "du2 der4",
+      "wordClass": "名词",
+      "definitions": [{"text":"凳子。"}],
+      "examples": [{"text":"屋头来客了，去厨房搬两个独凳儿出来。","pinyin":"vu2 tou2 lai2 ke2 lao3 qi4 cu2 fang2 ban1 liang3 ge4 du2 der4 cu1 lai2","translation":"家里来了客人，去厨房搬两个凳子出来。"}]
+    },
+    {
+      "id": "cq-00757",
+      "headword": "办生",
+      "pinyin": "ban4 sen1",
+      "wordClass": "动词",
+      "definitions": [{"text":"办生日宴，操办生日酒席。"}],
+      "examples": [{"text":"外公今年满七十，屋头准备在农家乐办生。","pinyin":"wai4 gong1 jin1 lian2 man3 qi2 si2 vu2 tou2 zun3 bi4 dai4 long2 jia1 lo2 ban4 sen1","translation":"外公今年满七十岁，家里准备在农家乐办生日宴。"}]
+    },
+    {
+      "id": "cq-00758",
+      "headword": "办寿",
+      "pinyin": "ban4 sou4",
+      "wordClass": "动词",
+      "definitions": [{"text":"办寿宴。也说「做寿」。"}]
+    },
+    {
+      "id": "cq-00759",
+      "headword": "扮灯_儿",
+      "pinyin": "ban4 der1",
+      "wordClass": "动词",
+      "variants": ["办灯_儿"],
+      "definitions": [{"text":"戏弄，开玩笑。"},{"text":"扯皮、吵架。"}],
+      "examples": [{"text":"我没跟你两个扮灯_儿，这个事情今天_儿必须说清楚。","pinyin":"wo3 mei1 gen1 li3 liang3 gə4 ban4 der1 le4 gə4-1 si4 qin2 jin1 tiar1 bi2 xu1 so2 qin1 cu3","translation":"我不是跟你们两个开玩笑，这件事今天必须说清楚。"},{"text":"两弟兄为分那点_儿钱在屋头扮灯儿。","pinyin":"liang3 di4 xiong1 wei4 fen1 la4 diar3 qian2 dai4 vu2 tou2 ban4 der1","translation":"两兄弟为了分那点钱在家里吵架。"}]
+    },
+    {
+      "id": "cq-00760",
+      "headword": "半边风",
+      "pinyin": "ban4 bian1 fong1",
+      "wordClass": "名词",
+      "definitions": [{"text":"半身不遂，偏瘫。"}],
+      "examples": [{"text":"那个老人家前几年得了半边风，左边手脚动不得。","pinyin":"la4 gə4 lao3 ren2 jia1 qian2 ji3 lian2 de2 lao3 ban4 bian1 fong1 zo3 bian1 sou3 jio2 dong4 bu2 de2","translation":"那位老人前几年得了偏瘫，左边手脚动不了。"}]
+    },
+    {
+      "id": "cq-00761",
+      "headword": "半截子",
+      "pinyin": "ban4 jie2 zi3",
+      "wordClass": "名词",
+      "definitions": [{"text":"半大小子；年长者对将成年的男青年或少年男孩的称呼。常说「半截子幺爸_儿」「半截子崽儿」。"}],
+      "examples": [{"text":"你个半截子幺爸_儿，还想跟大人动手嗦？","pinyin":"li3 gə4 ban4 jie2 zi3 yao1 bar2 hai2 xiang3 gen1 da4 ren2 dong4 sou3 so3","translation":"你一个半大小子，还想跟大人动手吗？"}]
+    },
+    {
+      "id": "cq-00762",
+      "headword": "半截子幺爸_儿",
+      "pinyin": "ban4 jie2 zi3 yao1 bar2",
+      "wordClass": "名词",
+      "definitions": [{"text":"半大小子。含轻蔑义。详见「半截子」。"}]
+    },
+    {
+      "id": "cq-00763",
+      "headword": "半衫_儿",
+      "pinyin": "ban4 sar1",
+      "wordClass": "名词",
+      "definitions": [{"text":"一种中式妇女上装，样式像长旗袍的上半截，故名。"}]
+    },
+    {
+      "id": "cq-00764",
+      "headword": "拌嘴皮子",
+      "pinyin": "ban4 zui3 pi2 zi3",
+      "wordClass": "动词",
+      "definitions": [{"text":"争吵、斗嘴。"}],
+      "examples": [{"text":"为了这点_儿事情还要拌嘴皮子，说出去笑人。","pinyin":"wei4 lao3 le4 diar3 si4 qin2 hai2 yao4 ban4 zui3 pi2 zi3 so2 cu2 qi4-1 xiao4 ren2","translation":"为了这点小事还要斗嘴，说出去真让人笑话。"}]
+    },
+    {
+      "id": "cq-00765",
+      "headword": "瓣瓣_儿",
+      "pinyin": "ban4 bar4-1",
+      "wordClass": "名词；量词",
+      "definitions": [{"text":"瓣儿；果实、植物鳞茎等分成的小片。"}],
+      "examples": [{"text":"橘柑_儿瓣瓣_儿 | 蒜瓣瓣_儿","pinyin":"juu2 gar1 ban4 bar4-1 | suan4 ban4 bar4-1","translation":"橘子瓣儿 | 蒜瓣儿"}]
+    },
+    {
+      "id": "cq-00766",
+      "headword": "蚌壳_儿",
+      "pinyin": "bang4 kuer2 / ban4 kuer2",
+      "wordClass": "名词",
+      "definitions": [{"text":"蚌。或蚌的外壳。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00767",
+      "headword": "蚌壳_儿油",
+      "pinyin": "bang4 kuer2 you2 / ban4 kuer2 you2",
+      "wordClass": "名词",
+      "definitions": [{"text":"旧时用蛤蜊包装、用于擦皲裂手脚的油膏。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00768",
+      "headword": "办招待",
+      "pinyin": "ban4 zao1 dai4",
+      "wordClass": "名词",
+      "definitions": [{"text":"宴请。"}],
+      "examples": [{"text":"你们不管，今天_儿我来办招待。","pinyin":"li3 men1 bu2 guan3 jin1 tiar1 wo3 lai2 ban4 zao1 dai4","translation":"你们别管，今天由我来主持宴请。"}]
+    },
+    {
+      "id": "cq-00769",
+      "headword": "垮杆_儿",
+      "pinyin": "kua3 gar3",
+      "wordClass": "动词；形容词",
+      "definitions": [{"text":"衰落、衰败，垮台。"}],
+      "examples": [{"text":"以前这家厂旺得很，后头经营不善，慢慢_儿就垮杆_儿了。","pinyin":"yi3 qian2 le4 jia1 cang2 wang4 de2 hen3 hou4 tou2 jin1 yun2 bu2 san4 man4 mar4-1 dou4 kua3 gar3 lao3","translation":"以前这家厂很兴旺，后来经营不下去，慢慢就衰败了。"}]
+    },
+    {
+      "id": "cq-00770",
+      "headword": "梆",
+      "pinyin": "bang1 / bang2",
+      "wordClass": "副词",
+      "variants": ["邦"],
+      "definitions": [{"text":"程度副词，加强形容词程度，相当于「特别、非常」。常用于「梆硬」「梆重」。"}],
+      "examples": [{"text":"石头梆硬 | 这袋米梆重","pinyin":"si2 tou2-1 bang1 ngen4 | le4 dai4 mi3 bang2 zong4","translation":"石头梆梆硬 | 这袋米真重"}]
+    },
+    {
+      "id": "cq-00771",
+      "headword": "周身",
+      "pinyin": "zou1 sen1",
+      "wordClass": "名词",
+      "definitions": [{"text":"全身。"}],
+      "examples": [{"text":"淋了雨转来，周身打湿完了。","pinyin":"lin2 lao3 yu3 zuan3 lai2 zou1 sen1 da3 si2 wan2 lao3","translation":"淋了雨回来，全身都湿透了。"}]
+    },
+    {
+      "id": "cq-00772",
+      "headword": "辣乎_儿辣乎_儿",
+      "pinyin": "la2 fer1 la2 fer1",
+      "wordClass": "形容词",
+      "definitions": [{"text":"形容食物或味觉感受很辣。"}],
+      "examples": [{"text":"这起青海椒看起不辣，吃到嘴巴头辣乎儿辣乎儿的。","pinyin":"le4 qi3 qin1 hai3 jiao1 kan4 qi3 bu2 la2 ci2 dao3 zui3 ba1 tou2 la2 fer1 la2 fer1 li1","translation":"这款青椒看着不辣，吃到嘴里火辣辣的。"}]
+    },
+    {
+      "id": "cq-00773",
+      "headword": "油渍渍",
+      "pinyin": "you2 ji4 ji4",
+      "wordClass": "形容词",
+      "variants": ["油迹迹","油叽叽"],
+      "definitions": [{"text":"油很多，油腻腻的感觉。"}],
+      "examples": [{"text":"好久没煞贴厨房了，灶台高头油渍渍的。","pinyin":"hao3 jiu3 mei1 sa2 tie2 cu2 fang2 lao3 zao4 tai2 gao1 tou2 you2 ji4 ji4 li1","translation":"很久都没清理厨房了，灶台上满是油渍。"}]
+    },
+    {
+      "id": "cq-00774",
+      "headword": "老刉刉",
+      "pinyin": "lao3 ge4 ge4",
+      "wordClass": "形容词",
+      "variants": ["老疙疙","老革革"],
+      "definitions": [{"text":"形容人或物很老。"}],
+      "examples": [{"text":"他才五十出头，看起都老刉刉的了。","pinyin":"ta1 tai2 vu3 si2 cu2 tou2 kan4 qi3 dou1 lao3 ge4 ge4 li1 lao3","translation":"他才五十出头，看着都老得不成样子了。"}]
+    },
+    {
+      "id": "cq-00775",
+      "headword": "起窖窖",
+      "pinyin": "qi3 gao4 gao4-1",
+      "wordClass": "形容词",
+      "definitions": [{"text":"形容东西多得成堆。"}],
+      "examples": [{"text":"过年的腊肉挂了一墙壁，香肠也多得起窖窖。","pinyin":"go4 lian2 li1 la2 rou4 gua4 lao3 yi2 qiang2 bi2 xiang1 cang2 ye3 do1 de2 qi3 gao4 gao4-1","translation":"过年的腊肉挂了一墙，香肠也多得成堆。"}]
+    },
+    {
+      "id": "cq-00776",
+      "headword": "松活",
+      "pinyin": "song1 ho2",
+      "wordClass": "形容词",
+      "definitions": [{"text":"轻松、容易。"},{"text":"（病情）好转，缓解。"},{"text":"经济宽裕，手头不紧。"},{"text":"松弛、不严格。"}],
+      "examples": [{"text":"个龟儿队长专门挑松活的留给各人，把这些下力活路_儿扖给我们。","pinyin":"gə4 guer1 er2 dui4 zang3 zuan1 men1 diao1 song1 ho2 li1 liu2 ge1 go2 ren2 ba3 le4 xi1 xia4 li2 ho2 luer4 rou4 ge1 wo3 men1","translation":"这个臭队长特意挑轻松的活儿留给自己，把这些重体力活儿塞给我们。"},{"text":"他吃了几天药，身上松活些了。","pinyin":"ta1 ci2 lao3 ji3 tian1 yo2 sen1 sang4 song1 ho2 xi1 lao3","translation":"他吃了几天药，身体症状缓解了一些。"},{"text":"今年子收成好，手头也松活得多。","pinyin":"jin1 lian2 zi3 sou1 cen2 hao3 sou3 tou2 ye3 song1 ho2 de2 do1","translation":"今年收成好，手头也宽裕些。"},{"text":"这个小区门卫管得松活，直接跟着前头的人走起进去就是了。","pinyin":"le4 gə4 xiao3 qu1 men2 wei4 guan3 de2 song1 ho2 zi2 jie2 gen1 dao3 qian2 tou2-1 li1 ren2 zou3 qi3 jin4 qi4-1 dou4 si4 lao3","translation":"今这个小区门卫管得很松，直接跟着前边的人走着进去就行了。"}]
+    },
+    {
+      "id": "cq-00777",
+      "headword": "带携",
+      "pinyin": "dai4 xi2 / dai4 xie2",
+      "wordClass": "副词",
+      "definitions": [{"text":"一起、共同。近义词「一路」「打伙」。"}],
+      "examples": [{"text":"我跟姐儿带携把东西送起去。","pinyin":"wo3 gen1 jie3 er2-1 dai4 xi2 ba3 dong1 xi1 song4 qi3 qi4","translation":"我跟姐姐一起把东西送过去。"}]
+    },
+    {
+      "id": "cq-00778",
+      "headword": "污烟_儿",
+      "pinyin": "vu1 yar1",
+      "wordClass": "动词",
+      "definitions": [{"text":"捣乱；故意搞事情。"}],
+      "examples": [{"text":"是不是你在背后污烟_儿，害得我遭写检讨？","pinyin":"si4 bu2 si4 li3 dai4 bei4 hou4 vu1 yar1 hai4 de2 wo3 zao2 xie3 jian3 tao3","translation":"是不是你在背后捣乱，害得我受罚写检讨。"}]
+    },
+    {
+      "id": "cq-00779",
+      "headword": "呜嘘呐喊",
+      "pinyin": "vu1 xu1 la2 han3",
+      "wordClass": "形容词",
+      "definitions": [{"text":"大喊大叫，声音喧闹。"},{"text":"虚张声势。"}],
+      "examples": [{"text":"有人在楼脚呜嘘呐喊的，出啥子事了？","pinyin":"you3 ren2 dai4 lou2 jio2 vu1 xu1 la2 han3 li1 cu2 sa4 zi3 si4 lao3","translation":"有人在楼下大喊大叫，出啥事了？"},{"text":"寡晓得呜嘘呐喊，倒是拿出点_儿真本事出来唦。","pinyin":"gua3 xiao3 de2 vu1 xu1 la2 han3 dao4 si4 la2 cu2 diar3 zen1 ben3 si4 cu2 lai2 sa4","translation":"只知道虚张声势，倒是拿出点儿真本事出来呗。"}]
+    },
+    {
+      "id": "cq-00780",
+      "headword": "格外",
+      "pinyin": "ge2 wai4",
+      "wordClass": "副词",
+      "definitions": [{"text":"额外，另外。"},{"text":"非常，异常地。"}],
+      "examples": [{"text":"筷子礌了就不要去捡了，喊服务员_儿格外拿一双。","pinyin":"kuai4 zi3 lui1 lao3 dou4 bu2 yao4 qi4 jian3 lao3 han3 fu2 vu4 yuar2 ge2 wai4 la2 yi2 suang1","translation":"筷子掉了就不要去捡了，叫服务员另外拿一双。"},{}]
+    },
+    {
+      "id": "cq-00781",
+      "headword": "扖",
+      "pinyin": "rou4",
+      "wordClass": "动词",
+      "variants": ["肉","揉"],
+      "definitions": [{"text":"塞入、插入。"}],
+      "note": "另见「扖(ru2)」。",
+      "examples": [{"text":"帮我把杯子扖到书包侧边。","pinyin":"bang1 wo3 ba3 bei1 zi3 rou4 dao3 su1 bao1 ze2 bian1","translation":"帮我把杯子塞进书包两侧。"}]
+    },
+    {
+      "id": "cq-00782",
+      "headword": "当门",
+      "pinyin": "dang1 men2",
+      "wordClass": "方位词；名词",
+      "definitions": [{"text":"面前，正对着的地方。"}],
+      "examples": [{"text":"子弹从他身当门飞过去了，把她魂都吓脱了。","pinyin":"zi3 dan4 cong2 ta1 sen1 dang1 men2 fei1 go4 qi4-1 lao3 ba3 ta1 hun2 dou1 he2 to2 lao3","translation":"子弹从他面前飞过去了，把她的魂都吓掉了。"}]
+    },
+    {
+      "id": "cq-00783",
+      "headword": "扚",
+      "pinyin": "dia1",
+      "wordClass": "动词",
+      "definitions": [{"text":"提。"}],
+      "examples": [{"text":"他一只手扚起菜篮子，一只手牵到娃儿，走得飞快。","pinyin":"ta1 yi2 zi1 sou3 dia1 qi3 cai4 lan2 zi3 yi2 zi1 sou3 qian1 dao3 wa2 er2-1 zou3 de2 fei1 kuai4","translation":"他一只手提着菜篮子，一只手牵着孩子，走得很快。"}]
+    },
+    {
+      "id": "cq-00784",
+      "headword": "耖",
+      "pinyin": "cao4",
+      "wordClass": "动词",
+      "definitions": [{"text":"翻动。"}],
+      "examples": [{"text":"拈菜的时候_儿，筷子莫在盘子头耖过去耖过来的。","pinyin":"lian1 cai4 li2 si2 her4 kuai4 zi3 mo2 dai4 pan2 zi3 tou2 cao4 go4 qi4-1 cao4 go4 lai2 li1","translation":"夹菜的时候，筷子不要在盘子里翻来翻去。"}]
+    },
+    {
+      "id": "cq-00785",
+      "headword": "争",
+      "pinyin": "zen1",
+      "wordClass": "动词",
+      "definitions": [{"text":"欠。"},{"text":"差、缺少。常说「争点_儿」。"}],
+      "examples": [{"text":"她还争我两百块钱_儿。","pinyin":"ta1 hai2 zen1 wo3 liang3 be2 kuai3 qiar2","translation":"她还欠我两百块钱。"},{"text":"我钱包_儿争点_儿遭摸包_儿贼毛了，喜得好有好心人提醒啰。","pinyin":"wo3 qian2 bar1 zen1 diar3 zao2 mo1 bar1 zui2 mao2 lao3 xi1 de2 hao3 you3 hao3 xin1 ren2 ti2 xin3 lo3","translation":"我的钱包差点被扒手偷走，幸好有好心人提醒。"}]
+    },
+    {
+      "id": "cq-00786",
+      "headword": "断",
+      "pinyin": "duan3",
+      "wordClass": "动词",
+      "variants": ["短"],
+      "definitions": [{"text":"拦截、阻挡。"}],
+      "examples": [{"text":"他刚走到门口，就遭几爷子断着了，做起一副审犯人的架势。","pinyin":"ta1 gang1 zou3 dao3 men2 kou3 dou4 zao2 ji3 ye2 zi3 duan3 dao3 lao3 zu4 qi3 yi2 fu4 sen3 fan4 ren2 li1 jia4 si4","translation":"他刚走到门口，就被几个人拦住了，做出一副审犯人的架子。"}]
+    },
+    {
+      "id": "cq-00787",
+      "headword": "躧",
+      "pinyin": "li1",
+      "wordClass": "动词",
+      "definitions": [{"text":"用脚底擦、蹭。"}],
+      "examples": [{"text":"踩到一𣲩口香糖，躧都躧不脱。","pinyin":"cai3 dao3 yi2 pa1 kou3 xiang1 tang2 li1 dou1 li1 bu2 to2","translation":"踩到一泡口香糖，压根儿蹭不掉。"}]
+    },
+    {
+      "id": "cq-00788",
+      "headword": "敹",
+      "pinyin": "liao2 / liao1",
+      "wordClass": "动词",
+      "variants": ["缭"],
+      "definitions": [{"text":"一种缝纫针法，指缠绕式缝缀。"},{"text":"泛指缝补。"}],
+      "examples": [{"text":"补这条口子要过敹,不要过串。","pinyin":"bu3 le4 tiao2 kou3 zi3 yao4 go4 liao2 bu2 yao4 go4 cuan4","translation":"补这条口子要用「敹（缠绕式缝缀）」的方式,不要用「串（一种直线缝缀的针法）」。"},{"text":"娃儿的衣裳遭树子桠桠挂破了，空了我给他敹起。","pinyin":"wa2 er2-1 li1 yi1 sang2 zao2 su4 zi3 ya1 ya1 gua4 po4 lao3 kong4 lao3 wo3 ge1 ta1 liao2 qi3","translation":"孩子的衣服被树枝挂破了，等有空了我给他补起来。"}]
+    },
+    {
+      "id": "cq-00789",
+      "headword": "捽",
+      "pinyin": "jiu2",
+      "wordClass": "动词",
+      "variants": ["揪"],
+      "definitions": [{"text":"揪、抓。"}],
+      "examples": [{"text":"把那崽儿捽到，就是他那天_儿下暴。","pinyin":"ba3 la4 zai3 er2 jiu2 dao3 dou4 si4 ta1 la4 tiar1 xia4 bao4","translation":"把那小子揪住，就是他那天搞霸凌。"}]
+    },
+    {
+      "id": "cq-00790",
+      "headword": "𢬑",
+      "pinyin": "quu2",
+      "wordClass": "动词",
+      "variants": ["捽","曲"],
+      "definitions": [{"text":"用手指关节揉搓。"}],
+      "note": "本字不详，暂用「𢬑」记录。",
+      "examples": [{"text":"切了葱子的手不要去𢬑眼睛，这下眼睛水_儿停不下来了哈。","pinyin":"qie2 lao3 cong1 zi3 li1 sou3 bu2 yao4 qi4 quu2 yan3 jin1 le4 ha4 yan3 jin1 suer3 tin2 bu2 xia4 lai2 lao3 ha1","translation":"切了葱的手不要去揉眼睛，这下眼泪停不下来了吧。"}]
+    },
+    {
+      "id": "cq-00791",
+      "headword": "喜得好",
+      "pinyin": "xi1 de2 hao3 / xi3 de2 hao3",
+      "wordClass": "副词",
+      "variants": ["希得好"],
+      "definitions": [{"text":"幸好、幸亏。"}],
+      "examples": [{"text":"喜得好买了保险哦，不然遇到这种事情要亏得来倾家荡产。","pinyin":"xi1 de2 hao3 mai3 lao3 bao3 xian3 o3 bu2 ran2 yu4 dao3 le4 zong3 si4 qin2 yao4 kui1 de2 lai2 qun1 jia1 dang4 can3","translation":"幸好买了保险，要不然遇到这种事情要亏得倾家荡产。"}]
+    },
+    {
+      "id": "cq-00792",
+      "headword": "瓤",
+      "pinyin": "rang2",
+      "wordClass": "形容词",
+      "definitions": [{"text":"质地薄软、不密实。"},{"text":"形容人疲软无力。"}],
+      "examples": [{"text":"恁个瓤张纸拿起来啷个写字嘛？","pinyin":"len4 gə4-1 rang2 zang1 zi3 la2 qi3 lai2 lang3 gə4-1 xie3 zi4 ma3","translation":"这么薄软的一张纸拿过来怎么写字？"},{"text":"干了一天，周身都是瓤的。","pinyin":"gan4 lao3 yi2 tian1 zou1 sen1 dou1 si4 rang2 li1","translation":"干了一天，全身都疲软无力。"}]
+    },
+    {
+      "id": "cq-00793",
+      "headword": "猪儿虫",
+      "pinyin": "zu1 er2 cong2",
+      "wordClass": "名词",
+      "definitions": [{"text":"一种专吃红苕叶、树叶、葡萄叶等的害虫。虫体形似蚕而较肥大，淡绿色。因其肥胖而称「猪儿虫」。"}],
+      "fig": true,
+      "examples": [{"text":"今年子红苕叶子遭猪儿虫啃得凶。","pinyin":"jin1 lian2 zi3 hong2 sao2 ye2 zi3 zao2 zu1 er2 cong2 ken3 de2 xiong1","translation":"今年红薯叶被猪儿虫吃得厉害。"}]
+    },
+    {
+      "id": "cq-00794",
+      "headword": "𬂁肝_儿",
+      "pinyin": "jun4 gar1",
+      "wordClass": "名词",
+      "variants": ["肫肝_儿","胗肝_儿","郡肝_儿"],
+      "definitions": [{"text":"鸡胗，鸡的胃。也称「𬂁子」。"}],
+      "fig": true
     }
   ]
 }
