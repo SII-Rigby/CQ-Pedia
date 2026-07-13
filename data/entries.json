@@ -2635,6 +2635,7 @@
       "headword": "咋子",
       "pinyin": "zua4 zi3 / za4 zi3",
       "wordClass": "代词",
+      "variants": ["𫩜子"],
       "definitions": [{"text":"做什么；怎么。由「做啥子」合音而来。"}],
       "examples": [{"text":"你咋子？惊抓抓的。","pinyin":"li3 zua4 zi3 jin1 zua1 zua1 li1","translation":"你干啥？大惊小怪的。"}]
     },
@@ -6311,7 +6312,8 @@
       "pinyin": "ri2 ma1 dao3 liang2",
       "wordClass": "形容词",
       "variants": ["日妈倒娘"],
-      "definitions": [{"text":"形容人脏话连篇，开口闭口都在骂人。粗俗。"}],
+      "definitions": [{"text":"形容人脏话连篇，开口闭口都在骂人。"}],
+      "note": "含粗俗成分。",
       "examples": [{"text":"随着市民素质的提高，肏妈捣娘乱诀人的现象少了。","pinyin":"sui2 zo2 si4 min2 su4 zi2 li1 ti2 gao1 ri2 ma1 dao3 liang2 luan4 jue2 ren2 li1 xian4 xiang4 sao3 lao3","translation":"随着市民素质的提高，“问候母亲”之类的胡乱骂人现象少了。"}]
     },
     {
@@ -6653,6 +6655,173 @@
       "variants": ["肫肝_儿","胗肝_儿","郡肝_儿"],
       "definitions": [{"text":"鸡胗，鸡的胃。也称「𬂁子」。"}],
       "fig": true
+    },
+    {
+      "id": "cq-00795",
+      "headword": "哈喉_(儿)",
+      "pinyin": "ha1 hou2 / ha1 her2",
+      "variants": ["疨喉_(儿)"],
+      "wordClass": "形容词；动词",
+      "definitions": [{"text":"因吃到有哈喇味或霉变的食物，喉咙受到刺激而感到发麻、发涩或刺痒。也形容食物具有这种刺激喉咙的味道。"}],
+      "examples": [{"text":"这把花生放久了，吃起有点哈喉_儿。","pinyin":"le4 ba3 hua1 sen1 fang4 jiu3 lao3 ci2 qi3 you3 diar3 ha1 her2","translation":"这些花生放久了，吃起来有些麻涩、刺激喉咙。"}]
+    },
+    {
+      "id": "cq-00796",
+      "headword": "倒倒_(儿)胡",
+      "pinyin": "dao3 dao3 fu2 / dao3 dar3 fu2",
+      "wordClass": "名词",
+      "definitions": [{"text":"重庆地区传统的一种麻将打法。通常四人参与，可以碰、杠而不能吃，不要求打缺；达到四组牌加一对将等基本条件即可自摸或点炮胡牌，一般不按清一色、大对子等牌型另加番，杠牌则另行计分。一家胡牌后本局立即结束，区别于一家胡牌后继续行牌的「血战到底」。具体用牌、特殊胡牌及计分方式因地区和牌桌约定而异。"}]
+    },
+    {
+      "id": "cq-00797",
+      "headword": "瞟眼_儿",
+      "pinyin": "piao3 yar3",
+      "wordClass": "名词",
+      "definitions": [{"text":"斜视；两只眼睛的视线不能同时对准同一目标的状态。"},{"text":"有斜视的人。","note":"称人带有不尊重意味，慎用。"}],
+      "examples": [{"text":"他从小就有点_儿瞟眼_儿，看人的时候两只眼睛对不到一起。","pinyin":"ta1 cong2 xiao3 dou4 you3 diar3 piao3 yar3 kan4 ren2 li1 si2 her4 liang3 zi1 yan3 jin1 dui4 bu2 dao3 yi2 qi3","translation":"他从小就有些斜视，看人时两只眼睛不能对准同一个地方。"},{}]
+    },
+    {
+      "id": "cq-00798",
+      "headword": "竝排",
+      "pinyin": "pin3 pai2",
+      "variants": ["并排","並排","品排"],
+      "wordClass": "副词",
+      "note": ["「並」蒲迥切，本就有「并列、并立」的意思。pin3 乃浊音演变为送气清音的读法。而「并」是「並」的简化字。「竝」是更接近原型「两人并立」的隶变写法。此处选用字型更直观的「竝」为正。"],
+      "definitions": [{"text":"并排；彼此挨着排列在同一条线上，不分前后。"}],
+      "examples": [{"text":"他们两个竝排起走进了学校大门。","pinyin":"ta1 men1 liang3 gə4 pin3 pai2 qi3 zou3 jin4 lao3 xio2 xiao4 da4 men2","translation":"他们两个人并排走进了学校大门。"}]
+    },
+    {
+      "id": "cq-00799",
+      "headword": "老的",
+      "pinyin": "lao3 li1",
+      "wordClass": "名词",
+      "definitions": [{"text":"长辈、老一辈。"}],
+      "examples": [{"text":"团年的时候_儿，要先跟老的拜年。","pinyin":"tuan2 lian2 li1 si2 her4 yao4 xian1 gen1 lao3 li1 bai4 lian2","translation":"团圆的时候，要先给长辈拜年。"}]
+    },
+    {
+      "id": "cq-00800",
+      "headword": "小的",
+      "pinyin": "xiao3 li1",
+      "wordClass": "名词",
+      "definitions": [{"text":"晚辈、小辈。"}],
+      "examples": [{"text":"老的还没动筷子，你们小的莫忙到起吃。","pinyin":"lao3 li1 hai2 mei1 dong4 kuai4 zi3 li3 men1 xiao3 li1 mo2 mang2 dao3 qi3 ci2","translation":"长辈还没有动筷子，你们这些晚辈先不要急着吃。"}]
+    },
+    {
+      "id": "cq-00801",
+      "headword": "蠚",
+      "pinyin": "ho2",
+      "wordClass": "动词",
+      "definitions": [{"text":"植物或小虫表面的细毛、微刺接触皮肤，使人感到刺痒或微痛。"}],
+      "examples": [{"text":"这种草草蠚人得很，走拢了莫乱摸。","pinyin":"le4 zong3 cao3 cao3 ho2 ren2 de2 hen3 zou3 long3 lao3 mo2 luan4 mo1","translation":"这种草的细刺很刺激皮肤，靠近了不要乱摸。"}]
+    },
+    {
+      "id": "cq-00802",
+      "headword": "刨财",
+      "pinyin": "pao2 cai2",
+      "wordClass": "名词",
+      "definitions": [{"text":"来路不正或不应归自己所有的钱财；也泛指意外得到的横财。"}],
+      "examples": [{"text":"他还默到捡到刨财了，结果失主马上就找起转来了。","pinyin":"ta1 hai2 me2 dao3 jian3 dao3 pao2 cai2 lao3 jie2 go3 si2 zu3 ma3 sang4 dou4 zao3 qi3 zuan3 lai2 lao3","translation":"他还以为捡到意外之财了，结果失主马上就找回来了。"}]
+    },
+    {
+      "id": "cq-00803",
+      "headword": "礼信",
+      "pinyin": "li3 xin4",
+      "variants": ["礼行"],
+      "wordClass": "名词",
+      "definitions": [{"text":"走亲访友、逢年过节或参加婚丧宴席时送给对方的礼物或礼金。"}],
+      "examples": [{"text":"明天_儿要去走人户_儿，礼信都买好了没有？","pinyin":"min2 tiar1 yao4 qi4 zou3 ren2 fer4 li3 xin4 dou1 mai3 hao3 lao3 mei1 you3-1","translation":"明天要去走亲戚，送人的礼物都买好了吗？"}]
+    },
+    {
+      "id": "cq-00804",
+      "headword": "立耸耸",
+      "pinyin": "li2 song3 song3",
+      "wordClass": "形容词；副词",
+      "definitions": [{"text":"直挺挺地立着、竖着的样子。"}],
+      "examples": [{"text":"你立耸耸地杵到门口咋子？把路都挡完了。","pinyin":"li3 li2 song3 song3 li1 cu3 dao3 men2 kou3 zua4 zi3 ba3 lu4 dou1 dang3 wan2 lao3","translation":"你直挺挺地站在门口干什么？把路全挡住了。"}]
+    },
+    {
+      "id": "cq-00805",
+      "headword": "把滑",
+      "pinyin": "ba3 hua2",
+      "wordClass": "形容词；动词",
+      "definitions": [{"text":"控制住不滑倒；防滑。"}],
+      "examples": [{"text":"统靴底底有齿齿，很把滑。","pinyin":"tong3 xue1 di3 di3 you3 ci3 ci3 he1 ba3 hua2","translation":"统靴底部有锯齿，很防滑。"}]
+    },
+    {
+      "id": "cq-00806",
+      "headword": "蚀",
+      "pinyin": "se2",
+      "wordClass": "动词",
+      "definitions": [{"text":"丢失、遗失。也写作「失」。"},{"text":"亏损、赔本。也写作「折」。"},{"text":"液体因蒸发、渗漏等而逐渐减少。"},{"text":"嗓音变得沙哑、嘶哑。也可写作「涩」。近义词「沙」。"}],
+      "examples": [{"text":"我才买的伞坐一趟公交就蚀了。","pinyin":"wo3 tai2 mai3 li1 san3 zo4 yi2 tang4 gong1 jiao1 dou4 se2 lao3","translation":"我刚买的伞坐了一趟公交车就弄丢了。"},{"text":"这笔生意没做好，蚀了好几千块钱。","pinyin":"le4 bi2 sen1 yi4 mei1 zu4 hao3 se2 lao3 hao3 ji3 qian1 kuai3 qian2","translation":"这笔生意没做好，亏了好几千元。"},{"text":"这瓶酒盖子没㔿紧，放了半年都蚀了一截。","pinyin":"le4 pin2 jiu3 gai4 zi3 mei1 zou4 jin3 fang4 lao3 ban4 lian2 dou1 se2 lao3 yi2 jie2","translation":"这瓶酒的盖子没有塞紧，放了半年，里面的酒少了一截。"},{"text":"她得了流感，咳了一个礼拜，声音都蚀了。","pinyin":"ta1 de2 lao3 liu2 gan3 ke2 lao3 yi2 gə4 li3 bai4 sen1 yin1 dou1 se2 lao3","translation":"她得了流感，咳了一个星期，声音都沙哑了。"}]
+    },
+    {
+      "id": "cq-00807",
+      "headword": "沙",
+      "pinyin": "sa1",
+      "wordClass": "形容词",
+      "definitions": [{"text":"声音沙哑、嘶哑，不清亮。"}],
+      "examples": [{"text":"她昨天_儿把喉咙喊沙了，今天_儿说话都费力。","pinyin":"ta1 zo2 tiar1 ba3 hou2 long2-1 han3 sa1 lao3 jin1 tiar1 so2 hua4 dou1 fei4 li2","translation":"她昨天把嗓子喊哑了，今天说话都很费力。"}]
+    },
+    {
+      "id": "cq-00808",
+      "headword": "齐展",
+      "pinyin": "qi2 zan3",
+      "wordClass": "形容词",
+      "variants": ["齐崭"],
+      "definitions": [{"text":"整齐；排列得规整利落。也说「齐展展」。"}],
+      "examples": [{"text":"做大扫除要把桌子这些摆齐展。","pinyin":"zu4 da4 sao3 cu2 yao4 ba3 zo2 zi3 le4 xi1 bai3 qi2 zan3","translation":"做大扫除，要把桌子等物件摆整齐。"}]
+    },
+    {
+      "id": "cq-00809",
+      "headword": "米花糖",
+      "pinyin": "mi3 hua1 tang2",
+      "wordClass": "名词",
+      "definitions": [{"text":"以阴米为主要原料，配以白糖、饴糖、花生仁、桃仁等制成的酥脆糖食。江津米花糖为重庆著名特产。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00810",
+      "headword": "桃片",
+      "pinyin": "tao2 pian4",
+      "wordClass": "名词",
+      "definitions": [{"text":"以糯米、核桃仁和糖等为主要原料，经制粉、蒸糕、切片等工序制成的薄片糕点。合川桃片为重庆著名特产。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00811",
+      "headword": "耍耍哒哒",
+      "pinyin": "sua3 sua3 da2 da2",
+      "variants": ["耍耍达达"],
+      "wordClass": "形容词；副词",
+      "definitions": [{"text":"玩着玩着，轻轻松松、不慌不忙的样子。"},{"text":"只顾游玩，拖拉、不抓紧。"}],
+      "examples": [{"text":"她边旅游边拍视频，耍耍哒哒地就把钱赚了。","pinyin":"ta1 bian1 lü3 you2 bian1 pie2 si4 pin2 sua3 sua3 da2 da2 li1 dou4 ba3 qian2 zuan4 lao3","translation":"她一边旅游一边拍视频，玩着玩着就把钱赚了。"},{"text":"作业要抓紧做，莫一天耍耍哒哒的。","pinyin":"zo2 lie2 yao4 zua1 jin3 zu4 mo2 yi2 tian1 sua3 sua3 da2 da2 li1","translation":"作业要抓紧做，不要整天拖拖拉拉、不当回事。"}]
+    },
+    {
+      "id": "cq-00812",
+      "headword": "死胆胆_儿",
+      "pinyin": "si3 dan3 dar3",
+      "wordClass": "名词",
+      "definitions": [{"text":"长辈生气时对调皮、不听话的小孩的责骂或嗔称。根据语气不同，责骂程度可轻可重。"}],
+      "examples": [{"text":"你个死胆胆_儿，喊你莫去踩水，你还专门往凼凼头跳！","pinyin":"li3 gə4 si3 dan3 dar3 han3 li3 mo2 qi4 cai3 sui3 li3 hai2 zuan1 men1 wang3 dang4 dang4 tou2 tiao4","translation":"你这个调皮鬼，叫你不要踩水，你还故意往水坑里跳！"}]
+    },
+    {
+      "id": "cq-00813",
+      "headword": "螃蟹",
+      "pinyin": "pang2 kai3 / pan2 hai3",
+      "wordClass": "名词",
+      "definitions": [{"text":"螃蟹。"}],
+      "examples": [{"text":"小那阵我们几个耍得好的经常去扳螃蟹。","pinyin":"xiao3 la4 zen4 wo3 men1 ji3 gə4 sua3 de2 hao3 li1 jin1 sang2 qi4 ban1 pang2 kai3","translation":"小时候我们几个玩得好的朋友经常去河边掰开石头捉螃蟹。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-00814",
+      "headword": "搳脐胳_儿",
+      "pinyin": "ha2 ji4 ger1",
+      "variants": ["哈脐沟_儿"],
+      "wordClass": "动词",
+      "definitions": [{"text":"用手指抓挠别人怕痒的部位，使其发痒；挠痒痒。"}],
+      "examples": [{"text":"你莫搳我的脐胳_儿，痒得遭不住了！","pinyin":"li3 mo2 ha2 wo3 li1 ji4 ger1 yang3 de2 zao2 bu2 zu4 lao3","translation":"你别挠我的痒痒，痒得受不了了！"}]
     }
   ]
 }

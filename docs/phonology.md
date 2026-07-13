@@ -85,7 +85,7 @@
 - 曾晓渝，《重庆方言词解》
 - 王文虎等，《四川方言词典》
 - 翟时雨，《重庆方言志》
-- nk2028，[《音典網頁版》](https://nk2028.shn.hk/yindian/)
+- Vearvip，[《漢字音典》](https://mcpdict.vear.vip/)
 - 李柰，[《两百多个四川方言正字》](https://www.zhihu.com/search?type=content&q=%E5%9B%9B%E5%B7%9D%E8%AF%9D%E6%9C%AC%E5%AD%97)
 
 ---

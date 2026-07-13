@@ -420,6 +420,65 @@ function initialLabel(initial) {
   return initial === OTHER_INITIAL ? "其他" : initial;
 }
 
+function compareToneSequences(a, b) {
+  const length = Math.min(a.length, b.length);
+
+  for (let index = 0; index < length; index += 1) {
+    const aTone = Number(a[index]) || 9;
+    const bTone = Number(b[index]) || 9;
+
+    if (aTone !== bTone) {
+      return aTone - bTone;
+    }
+  }
+
+  return a.length - b.length;
+}
+
+function comparePinyinSyllables(a, b) {
+  const baseOrder = a.base.localeCompare(b.base, "en", { sensitivity: "base" });
+  return baseOrder || compareToneSequences(a.tones, b.tones);
+}
+
+function comparePinyinReadings(a, b) {
+  const length = Math.min(a.length, b.length);
+
+  for (let index = 0; index < length; index += 1) {
+    const syllableOrder = comparePinyinSyllables(a[index], b[index]);
+
+    if (syllableOrder) {
+      return syllableOrder;
+    }
+  }
+
+  return a.length - b.length;
+}
+
+function initialReadingForSort(entry) {
+  const readings = pinyinReadings(entry.pinyin);
+  const matchingReadings = readings.filter((reading) => (
+    initialForSyllable(reading[0]?.base || "") === state.initial
+  ));
+  const candidates = matchingReadings.length ? matchingReadings : readings;
+
+  return [...candidates].sort(comparePinyinReadings)[0] || [];
+}
+
+function compareInitialIndexEntries(a, b) {
+  const readingOrder = comparePinyinReadings(initialReadingForSort(a), initialReadingForSort(b));
+
+  if (readingOrder) {
+    return readingOrder;
+  }
+
+  return plainMarkedText(a.headword).localeCompare(plainMarkedText(b.headword), "zh-Hans")
+    || String(a.id || "").localeCompare(String(b.id || ""));
+}
+
+function sortInitialIndexEntries(entries) {
+  return [...entries].sort(compareInitialIndexEntries);
+}
+
 function normalizedHeadwordForLength(entry) {
   return String(entry.headword || "")
     .replace(/_\(([^)]*)\)/gu, "")
@@ -527,15 +586,22 @@ function filteredEntries() {
   }
 
   if (query) {
-    return state.entries
+    const matches = state.entries
       .map((entry, index) => ({ entry, index, rank: searchRank(entry, query, state.query) }))
-      .filter((item) => Number.isFinite(item.rank) && entryMatchesFilters(item.entry))
+      .filter((item) => Number.isFinite(item.rank) && entryMatchesFilters(item.entry));
+
+    if (state.initial) {
+      return sortInitialIndexEntries(matches.map((item) => item.entry));
+    }
+
+    return matches
       .sort((a, b) => a.rank - b.rank || a.index - b.index)
       .map((item) => item.entry);
   }
 
   if (hasFilters) {
-    return state.entries.filter(entryMatchesFilters);
+    const matches = state.entries.filter(entryMatchesFilters);
+    return state.initial ? sortInitialIndexEntries(matches) : matches;
   }
 
   return [];
