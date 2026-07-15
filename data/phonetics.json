@@ -43377,13 +43377,22 @@
           "labels": [
             "正"
           ],
-          "pinyin": "hun2"
+          "pinyin": "hun2",
+          "examples": ["那崽儿嘿横","横竖撇捺"]
         },
         {
           "labels": [
             "白"
           ],
-          "pinyin": "huan2"
+          "pinyin": "huan2",
+          "examples": ["长横批(huan2 pei1)","横起搁"]
+        },
+        {
+          "labels": [
+            "白","变"
+          ],
+          "pinyin": "huang2",
+          "examples": ["二横二面"]
         }
       ]
     },
