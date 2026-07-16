@@ -1,4 +1,4 @@
-﻿{
+{
   "schemaVersion": 1,
   "language": {"name":"重庆话","romanization":"Chongqing Mandarin tone-number pinyin"},
   "entries": [
@@ -1995,6 +1995,7 @@
       "headword": "走搌",
       "pinyin": "zou3 zan3",
       "wordClass": "名词",
+      "variants": ["走展"],
       "definitions": [{"text":"调整、让步或通融的余地；变化的空间。"}],
       "examples": [{"text":"这个价钱还有走搌，你莫一口就把别个㮟死了。","pinyin":"le4 gə4-1 jia4 qian2 hai2 you3 zou3 zan3 li3 mo2 yi2 kou3 dou4 ba3 be2 gə4 ka1 si3 lao3","translation":"这个价钱还有商量的余地，你别一口就把人家卡死了。"}]
     },
@@ -2681,7 +2682,7 @@
     {
       "id": "cq-00317",
       "headword": "嘿起",
-      "pinyin": "he3 qi3 / he2 qi3",
+      "pinyin": "he3 qi3 / he3 qi2 / he2 qi3",
       "wordClass": "副词",
       "definitions": [{"text":"使劲地、一个劲地。"}],
       "examples": [{"text":"嘿起搊，车子才搊得动。","pinyin":"he3 qi3 cou1 ce1 zi3 tai2 cou1 de2 dong4","translation":"使劲推，车子才推得动。"}]
@@ -4244,6 +4245,7 @@
       "headword": "日诀",
       "pinyin": "ri2 jue2",
       "wordClass": "动词",
+      "variants": ["日决"],
       "definitions": [{"text":"谩骂、粗俗地骂人。"}],
       "note": "粗俗语。",
       "examples": [{"text":"你再杵到这截不走，我就要日诀人了哈！","pinyin":"li3 zai4 cu3 dao3 le4 jie2 bu2 zou3 wo3 dou4 yao4 ri2 jue2 ren2 lao3 ha3","translation":"你再站在这里不走，我就要骂人了！"}]
@@ -5522,9 +5524,9 @@
       "id": "cq-00658",
       "headword": "港",
       "pinyin": "gang3",
-      "wordClass": "量词；形容词",
-      "definitions": [{"text":"一小阵，短时间。常指疼痛、天气等客观事物。常说「一港」。","note":"本字不详，暂用「港」记录。"},{"text":"港风的、时尚的。","note":"改革开放后香港文化、货品涌入内地初期流行的表达。"}],
-      "examples": [{"text":"吃了火锅_儿又喝冰啤酒，这下_儿肚儿一港一港地痛。","pinyin":"ci2 lao3 ho3 guer1 you4 ho1 bin1 pi2 jiu3 le4 har1 du4 er2 yi2 gang3 yi2 gang3 li1 tong4","translation":"吃了火锅又喝冰啤酒，现在肚子一阵一阵地痛。"},{"text":"她这个大波浪头发好港哦！","pinyin":"ta1 le4 gə4-1 da4 bo1 lang4 tou2 fa2 hao3 gang3 o3","translation":"她这个大波浪发型好时髦！"}]
+      "wordClass": "量词",
+      "definitions": [{"text":"一小阵，短时间。常指疼痛、天气等客观事物。常说「一港」。","note":"本字不详，暂用「港」记录。"}],
+      "examples": [{"text":"吃了火锅_儿又喝冰啤酒，这下_儿肚儿一港一港地痛。","pinyin":"ci2 lao3 ho3 guer1 you4 ho1 bin1 pi2 jiu3 le4 har1 du4 er2 yi2 gang3 yi2 gang3 li1 tong4","translation":"吃了火锅又喝冰啤酒，现在肚子一阵一阵地痛。"}]
     },
     {
       "id": "cq-00659",
@@ -6465,7 +6467,7 @@
       "pinyin": "la2 fer1 la2 fer1",
       "wordClass": "形容词",
       "definitions": [{"text":"形容食物或味觉感受很辣。"}],
-      "examples": [{"text":"这起青海椒看起不辣，吃到嘴巴头辣乎儿辣乎儿的。","pinyin":"le4 qi3 qin1 hai3 jiao1 kan4 qi3 bu2 la2 ci2 dao3 zui3 ba1 tou2 la2 fer1 la2 fer1 li1","translation":"这款青椒看着不辣，吃到嘴里火辣辣的。"}]
+      "examples": [{"text":"这起青海椒看起不辣，吃到嘴巴头辣乎_儿辣乎_儿的。","pinyin":"le4 qi3 qin1 hai3 jiao1 kan4 qi3 bu2 la2 ci2 dao3 zui3 ba1 tou2 la2 fer1 la2 fer1 li1","translation":"这款青椒看着不辣，吃到嘴里火辣辣的。"}]
     },
     {
       "id": "cq-00773",
@@ -7071,7 +7073,7 @@
     {
       "id": "cq-00845",
       "headword": "二横二面",
-      "pinyin": "er4 huang2 er4 mian4",
+      "pinyin": "er4 huang2 er4 mian4 / er4 huan2 er4 mian4",
       "wordClass": "名词；方位词",
       "variants": ["二黄二面"],
       "definitions": [{"text":"两面、两边。也说「二合二面」。"}],
@@ -7158,7 +7160,7 @@
       "headword": "焦眉烂眼_儿",
       "pinyin": "jiao1 mi2 lan4 yar3",
       "wordClass": "形容词",
-      "definitions": [{"text":"形容愁眉不展、焦急忧虑的样子。也说「焦眉愁眼_儿」。"}],
+      "definitions": [{"text":"形容愁眉不展、焦急忧虑的样子。也说「焦眉愁眼」。"}],
       "examples": [{"text":"你焦眉烂眼_儿地坐到那点，出啥子事了嘛？","pinyin":"li3 jiao1 mi2 lan4 yar3 li1 zo4 dao3 la4 diar3 cu2 sa4 zi3 si4 lao3 ma3","translation":"你愁眉苦脸地坐在那里，出什么事情了？"}]
     },
     {
@@ -7175,7 +7177,7 @@
       "pinyin": "lao4 san1 ma2 quer2-1",
       "wordClass": "名词",
       "definitions": [{"text":"比喻爱喳闹、吵吵嚷嚷的人。"}],
-      "examples": [{"text":"二回不要把你那两个姊妹伙引到屋头来，跟闹山麻雀_儿样。","pinyin":"er4 hui2 bu2 yao4 ba3 li3 la4 liang3 gə4 zi3 mei4 ho3 yin3 dao3 vu2 tou2 lai2 gen1 lao4 san1 ma2 quer2-1 yang4","translation":"今后不要把你那两个姐妹引到家里来，跟“闹山麻雀”一样吵闹不停。"}]
+      "examples": [{"text":"二回不要把你那两个姊妹伙引到屋头来，跟闹山麻雀_儿样。","pinyin":"er4 hui2 bu2 yao4 ba3 li3 la4 liang3 gə4 zi3 mei4 ho3 yin3 dao3 vu2 tou2 lai2 gen1 lao4 san1 ma2 quer2-1 yang4","translation":"今后不要把你那两个姐妹带到家里来，跟“闹山麻雀”一样吵闹不停。"}]
     },
     {
       "id": "cq-00858",
@@ -7326,6 +7328,14 @@
       "wordClass": "副词",
       "definitions": [{"text":"置于形容词成分前，表示程度极高，难以言表，相当于「非常」「极其」，常带有夸张、感叹的语气。"}],
       "examples": [{"text":"菜市场的人之多 | 胃之难受 | 她真的之神","pinyin":"cai4 si4 cang2 li1 ren2 zi1 do1 | wei4 zi1 lan2 sou4 | ta1 zen1 li1 zi1 sen2","translation":"菜市场的人非常多 | 胃难受得受不了 | 她真的特别神经"}]
+    },
+    {
+      "id": "cq-00876",
+      "headword": "港",
+      "pinyin": "gang3",
+      "wordClass": "形容词",
+      "definitions": [{"text":"港风的、时尚的。","note":"改革开放后香港文化、货品涌入内地初期流行的表达。"}],
+      "examples": [{"text":"她这个大波浪头发好港哦！","pinyin":"ta1 le4 gə4-1 da4 bo1 lang4 tou2 fa2 hao3 gang3 o3","translation":"她这个大波浪发型好时髦！"}]
     }
   ]
 }

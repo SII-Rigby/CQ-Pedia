@@ -375,6 +375,11 @@ function pinyinMatchRank(pinyin, query) {
 }
 
 function searchRank(entry, query, rawQuery = query) {
+  const normalizedHeadword = normalizeSearchText(plainMarkedText(entry.headword));
+  if (normalizedHeadword === query) {
+    return -1;
+  }
+
   const fields = [
     { rank: 0, text: plainMarkedText(entry.headword) },
     { rank: 1, text: variantsOf(entry).map(plainMarkedText).join(" ") },

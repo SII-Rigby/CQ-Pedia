@@ -2716,7 +2716,7 @@ h1 {
 
   .search-form {
     box-sizing: border-box;
-    width: min(520px, calc(100% - 60px));
+    width: min(520px, calc(100% - 28px));
     margin-top: 46px;
   }
 
