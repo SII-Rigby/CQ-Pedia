@@ -8169,14 +8169,14 @@
           "labels": [
             "正"
           ],
-          "pinyin": "ji4"
+          "pinyin": "ji3",
+          "examples": ["纪晓岚","纪律"]
         },
         {
           "labels": [
             "正"
           ],
-          "pinyin": "ji3",
-          "examples": ["纪晓岚","纪律"]
+          "pinyin": "ji4"
         }
       ]
     },
