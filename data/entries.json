@@ -21,7 +21,7 @@
     {
       "id": "cq-00003",
       "headword": "安逸",
-      "pinyin": "ngan1 yi2",
+      "pinyin": "ngan1 yi2 / ngai1 yi2",
       "wordClass": "形容词",
       "definitions": [{"text":"舒服、满意。"}],
       "examples": [{"text":"这碗小面吃起安逸。","pinyin":"le4 wan3 xiao3 mian4 ci2 qi3 ngan1 yi2","translation":"这碗小面吃起来很舒服、很好。"}]
@@ -5575,7 +5575,7 @@
       "pinyin": "liang3 liang2 mer3",
       "wordClass": "名词",
       "definitions": [{"text":"母女俩或母子俩。"}],
-      "examples": [{"text":"两娘母儿赶完场回来，买了一背篼的菜。","pinyin":"liang3 liang2 mer3 gan3 wan2 cang2 hui2 lai2 mai3 lao3 yi2 bei4 dou1 li1 cai4","translation":"母女俩赶集回来，买了一背篼的菜。"}]
+      "examples": [{"text":"两娘母_儿赶完场回来，买了一背篼的菜。","pinyin":"liang3 liang2 mer3 gan3 wan2 cang2 hui2 lai2 mai3 lao3 yi2 bei4 dou1 li1 cai4","translation":"母女俩赶集回来，买了一背篼的菜。"}]
     },
     {
       "id": "cq-00665",
