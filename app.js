@@ -1469,6 +1469,18 @@ function renderMarkdown(md) {
       continue;
     }
 
+    const image = line.match(/^\s*!\[([^\]]*)\]\(([^)\s]+)(?:\s+["']([^"']*)["'])?\)\s*$/);
+    if (image) {
+      const src = image[2].trim();
+      if (!/^(?:javascript|vbscript|data):/i.test(src)) {
+        out.push(
+          `<figure class="doc-image"><img src="${escapeHtml(src)}" alt="${escapeHtml(image[1].trim())}" loading="lazy"></figure>`
+        );
+      }
+      i++;
+      continue;
+    }
+
     const heading = line.match(/^(#{1,6})\s+(.*)$/);
     if (heading) {
       const level = heading[1].length;
