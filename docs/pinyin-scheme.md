@@ -16,7 +16,7 @@
 
 ## 二、声母对照
 
-重庆话不区分平翘舌，本方案按下表记录声母；保留疑母时写作 `ng`。
+重庆话不区分平翘舌，本方案按下表记录声母。
 
 | 拼音 | 音标 | 例字 |
 | --- | --- | --- |
@@ -68,8 +68,8 @@
     <tr><td>i</td><td>[ɿ]</td><td>资 zi1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
     <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>üu</td><td>[ɥu]</td><td>俗 xuu2</td></tr>
     <tr><td>e</td><td>[e]</td><td>额 nge2</td><td>ie</td><td>[ie]</td><td>姐 jie3</td><td>ue</td><td>[ue]</td><td>国 gue2</td><td>üe</td><td>[ye]</td><td>月 yue2</td></tr>
-    <tr><td>ai</td><td>[ai]</td><td>才 cai2</td><td>iai</td><td>[iai]</td><td>解 jiai3</td><td>uai</td><td>[uai]</td><td>快 kuai4</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td>ei</td><td>[ei]</td><td>飞 fei1</td><td>-</td><td>-</td><td>-</td><td>ui</td><td>[uei]</td><td>贵 gui4</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>ai</td><td>[aɪ]</td><td>才 cai2</td><td>iai</td><td>[iaɪ]</td><td>解 jiai3</td><td>uai</td><td>[uaɪ]</td><td>快 kuai4</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>ei</td><td>[eɪ]</td><td>飞 fei1</td><td>-</td><td>-</td><td>-</td><td>ui</td><td>[ueɪ]</td><td>贵 gui4</td><td>-</td><td>-</td><td>-</td></tr>
     <tr><td>ao</td><td>[au]</td><td>包 bao1</td><td>iao</td><td>[iau]</td><td>桥 qiao2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
     <tr><td>ou</td><td>[əu]</td><td>口 kou3</td><td>iu</td><td>[iəu]</td><td>秋 qiu1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
     <tr><td>an</td><td>[an]</td><td>安 ngan1</td><td>ian</td><td>[iɛn]</td><td>烟 yan1</td><td>uan</td><td>[uan]</td><td>宽 kuan1</td><td>üan</td><td>[yɛn]</td><td>宣 xuan1</td></tr>

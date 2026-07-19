@@ -1891,6 +1891,12 @@
             "正"
           ],
           "pinyin": "ren2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ren1"
         }
       ]
     },
@@ -8930,9 +8936,17 @@
         },
         {
           "labels": [
-            "白"
+            "白","训"
           ],
-          "pinyin": "jiu3"
+          "pinyin": "jiu3",
+          "examples": ["扭(㲃)不开"]
+        },
+        {
+          "labels": [
+            "白","变","训"
+          ],
+          "pinyin": "liu4",
+          "examples": ["莫扭(蚴)"]
         }
       ]
     },
@@ -16499,7 +16513,15 @@
           "labels": [
             "正"
           ],
-          "pinyin": "ge2"
+          "pinyin": "ge2",
+          "examples": ["疙瘩"]
+        },
+        {
+          "labels": [
+            "变","白"
+          ],
+          "pinyin": "ge4",
+          "examples": ["麻疙疙","老疙疙"]
         }
       ]
     },
