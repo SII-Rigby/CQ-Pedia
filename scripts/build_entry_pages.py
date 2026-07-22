@@ -18,7 +18,7 @@ GENERATED_MARKER = "<!-- GENERATED CQ-PEDIA ENTRY PAGE -->"
 GENERATED_TOPIC_MARKER = "<!-- GENERATED CQ-PEDIA TOPIC PAGE -->"
 AUDIO_EXTENSIONS = ("wav", "m4a", "mp3", "ogg")
 EXAMPLE_AUDIO_SUFFIXES = "abcdefghijklmnopqrstuvwxyz"
-INITIALS = ("b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "ng", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w", "other")
+INITIALS = ("b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "ng", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "other")
 INITIAL_MATCH_ORDER = ("ng", "yu", "b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w")
 OTHER_INITIAL = "other"
 DEFAULT_TOPIC_INDEXES = (
@@ -428,7 +428,7 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
     <meta property="og:type" content="article">
     <link rel="icon" href="../../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
-    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles.css?v=20260722-header-nav">
     <script src="../../topic-menu.js?v=20260722-topics-v2" defer></script>
     <script src="../../item-detail.js?v=20260615-detail" defer></script>
     <script src="../../audio.js?v=20260615-audio" defer></script>
@@ -706,13 +706,17 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
 
     emoji = topic_title_emoji(title)
     pattern_html = ""
+    title_emoji_html = ""
     page_theme = "topic-page-cross"
     if emoji:
         page_theme = "topic-page-emoji"
+        emoji_asset = f"../../assets/topic-emoji/{escape(topic_id)}.svg"
         pattern_html = (
-            '<div class="topic-emoji-pattern" aria-hidden="true">'
-            + "".join(f"<span>{escape(emoji)}</span>" for _ in range(84))
-            + "</div>"
+            '<div class="topic-emoji-pattern" aria-hidden="true" '
+            f'style="--topic-emoji-image: url(\'{emoji_asset}\');"></div>'
+        )
+        title_emoji_html = (
+            f'<span class="topic-title-emoji" aria-hidden="true">{escape(emoji)}</span>'
         )
 
     structured_data = json.dumps(
@@ -754,7 +758,7 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
     <meta property="og:type" content="website">
     <link rel="icon" href="../../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
-    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles.css?v=20260722-header-nav">
     <script type="application/ld+json">{structured_data}</script>
     <script src="../../topic-menu.js?v=20260722-topics-v2" defer></script>
     <script src="../../item-detail.js?v=20260615-detail" defer></script>
@@ -780,6 +784,7 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
       <section class="topic-hero">
         {pattern_html}
         <div class="topic-hero-inner">
+          {title_emoji_html}
           <h1>{escape(display_title)}</h1>
           <p class="topic-description">{escape(description)}</p>
           <p class="topic-count"><strong>{len(selected_entries)}</strong><span>词条</span></p>

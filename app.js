@@ -9,7 +9,7 @@
   page: 1
 };
 
-const INITIALS = ["b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "ng", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w", "other"];
+const INITIALS = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "ng", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "other"];
 const INITIAL_MATCH_ORDER = ["ng", "yu", "b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w"];
 const OTHER_INITIAL = "other";
 const DEFAULT_TOPIC_INDEXES = [
