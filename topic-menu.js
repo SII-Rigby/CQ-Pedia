@@ -16,6 +16,11 @@
       description: "按 ABB 重叠结构汇集的重庆话词语。"
     }
   ];
+  const allEntriesTopic = {
+    id: "all-entries",
+    title: "所有词条",
+    description: "按声母汇集重庆话正音词典的全部词条。"
+  };
 
   const escapeHtml = (value) => String(value || "")
     .replace(/&/g, "&amp;")
@@ -62,7 +67,7 @@
 
   function mergeTopics(topics) {
     const seen = new Set();
-    return [...builtInTopics, ...topics]
+    return [...builtInTopics, ...topics.filter((topic) => topic.id !== allEntriesTopic.id), allEntriesTopic]
       .map(normalizeTopic)
       .filter((topic) => {
         if (!topic.id || !topic.title || seen.has(topic.id)) return false;

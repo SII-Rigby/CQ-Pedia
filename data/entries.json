@@ -3127,7 +3127,7 @@
       "pinyin": "lao2 cang2 gua3 du4",
       "wordClass": "形容词",
       "definitions": [{"text":"因长期吃得寡淡、没有油水而感到难受。"}],
-      "examples": [{"text":"连到吃了几天清汤面，这下_儿痨肠剐肚的。","pinyin":"lian2 dao3 ci2 lao3 ji3 tian1 qin1 tang1 mian4 le4 har1 lao2 cang2 gua3 du4 li1","translation":"连着吃了几天清汤面，现在馋油水馋得难受。"}]
+      "examples": [{"text":"连着吃了几天清汤面，这下_儿痨肠剐肚的。","pinyin":"lian2 dao3 ci2 lao3 ji3 tian1 qin1 tang1 mian4 le4 har1 lao2 cang2 gua3 du4 li1","translation":"连着吃了几天清汤面，现在馋油水馋得难受。"}]
     },
     {
       "id": "cq-00370",
@@ -3284,8 +3284,8 @@
       "pinyin": "dui4 cuan1 dui4 go4 / dui4 cuan1 dui4 go2",
       "wordClass": "形容词；动词",
       "variants": ["对穿对角"],
-      "definitions": [{"text":"彻底从中间穿过。也作「对穿对角」。"},{"text":"擦肩而过。"}],
-      "examples": [{"text":"就恁个杀他们中路，打他个对穿对角。","pinyin":"dou4 len4 gə4-1 sa2 ta1 men1 zong1 lu4 da3 ta1 gə4 dui4 cuan1 dui4 go2","translation":"就像这样杀他们中路，彻底从中间穿过去。"},{"text":"哎呀，老同学！差点_儿和你对穿对过了。","pinyin":"ai3 ya2 lao3 tong2 xio2 ca1 diar3 ho2 li3 dui4 cuan1 dui4 go4 lao3","translation":"哎呀，老同学！差点儿和你擦肩而过了。"}]
+      "definitions": [{"text":"彻底从中间穿过。"},{"text":"擦肩而过。"}],
+      "examples": [{"text":"就恁个杀他们中路，打他个对穿对过。","pinyin":"dou4 len4 gə4-1 sa2 ta1 men1 zong1 lu4 da3 ta1 gə4 dui4 cuan1 dui4 go4","translation":"就像这样杀他们中路，彻底从中间穿过去。"},{"text":"哎呀，老同学！差点_儿和你对穿对过了。","pinyin":"ai3 ya2 lao3 tong2 xio2 ca1 diar3 ho2 li3 dui4 cuan1 dui4 go4 lao3","translation":"哎呀，老同学！差点儿和你擦肩而过了。"}]
     },
     {
       "id": "cq-00389",
@@ -4547,9 +4547,9 @@
       "headword": "衣姿实姿",
       "pinyin": "yi1 zi1 si2 zi1",
       "wordClass": "形容词",
-      "variants": ["衣之实之","衣之食之"],
+      "variants": ["衣之实之","衣姿食姿"],
       "definitions": [{"text":"形容衣服穿得正式、周正而好看。也作「衣姿实展」。"}],
-      "examples": [{"text":"她今天_儿收拾得衣姿食姿的，是不是要去吃喜酒_儿？","pinyin":"ta1 jin1 tiar1 sou1 si2 de2 yi1 zi1 si2 zi1 li1 si4 bu2 si4 yao4 qi4 ci2 xi3 jier3","translation":"她今天打扮得很正式好看，是不是要去喝喜酒？"}]
+      "examples": [{"text":"她今天_儿收拾得衣姿实姿的，是不是要去吃喜酒_儿？","pinyin":"ta1 jin1 tiar1 sou1 si2 de2 yi1 zi1 si2 zi1 li1 si4 bu2 si4 yao4 qi4 ci2 xi3 jier3","translation":"她今天打扮得很正式好看，是不是要去喝喜酒？"}]
     },
     {
       "id": "cq-00541",
@@ -5010,11 +5010,11 @@
     },
     {
       "id": "cq-00596",
-      "headword": "雀_儿",
+      "headword": "雀儿",
       "pinyin": "qio2 er2-1",
       "wordClass": "名词",
       "definitions": [{"text":"小鸟。"},{"text":"男性生殖器。多指儿童的。同「雀雀_儿」。"}],
-      "examples": [{"text":"树高底那只雀_儿一叫，屋头的猫儿就抬起脑壳望。","pinyin":"su4 gao1 di3 la4 zi1 qio2 er2-1 yi2 jiao4 vu2 tou2 li1 mao1 er2 dou4 tai2 qi3 lao3 ko2 wang4","translation":"树上那只小鸟一叫，屋里的猫就抬头看。"}]
+      "examples": [{"text":"树高底那只雀儿一叫，屋头的猫儿就抬起脑壳望。","pinyin":"su4 gao1 di3 la4 zi1 qio2 er2-1 yi2 jiao4 vu2 tou2 li1 mao1 er2 dou4 tai2 qi3 lao3 ko2 wang4","translation":"树上那只小鸟一叫，屋里的猫就抬头看。"}]
     },
     {
       "id": "cq-00597",

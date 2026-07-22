@@ -51,8 +51,7 @@ const indexEls = {
   grid: document.querySelector("#initialGrid"),
   tabs: document.querySelectorAll("[data-index-type]"),
   selectedTags: document.querySelector("#selectedTags"),
-  openButtons: document.querySelectorAll("[data-open-index]"),
-  showAllButton: document.querySelector("[data-show-all]")
+  openButtons: document.querySelectorAll("[data-open-index]")
 };
 
 const aboutEls = {
@@ -555,10 +554,6 @@ function hasActiveFilters() {
 }
 
 function updateMode() {
-  if (state.mode === "all" && !state.query && !hasActiveFilters()) {
-    return;
-  }
-
   state.mode = state.query || hasActiveFilters() ? "filter" : "idle";
 }
 
@@ -584,10 +579,6 @@ function filteredEntries() {
 
   if (state.mode === "idle" && !query && !hasFilters) {
     return dailyEntries(state.entries, WELCOME_ENTRY_COUNT);
-  }
-
-  if (state.mode === "all" && !query && !hasFilters) {
-    return state.entries;
   }
 
   if (query) {
@@ -915,10 +906,6 @@ function renderSelectedTags() {
 }
 
 function syncFilterControls() {
-  indexEls.showAllButton?.classList.toggle(
-    "active",
-    state.mode === "all" && !state.query && !hasActiveFilters()
-  );
   indexEls.toggle?.classList.toggle(
     "active",
     Boolean(indexEls.panel && !indexEls.panel.hidden)
@@ -946,9 +933,7 @@ function render() {
 
   const labels = activeFilterLabels();
 
-  if (state.mode === "all" && !labels.length) {
-    els.label.textContent = "所有词条";
-  } else if (state.mode === "idle") {
+  if (state.mode === "idle") {
     els.label.textContent = "每日十词";
   } else if (labels.length) {
     els.label.textContent = labels.join(" / ");
@@ -1237,23 +1222,6 @@ function closeIndexModal() {
   });
 }
 
-function showAllEntries() {
-  if (state.mode === "all" && !state.query && !hasActiveFilters()) {
-    state.mode = "idle";
-  } else {
-    state.mode = "all";
-    state.query = "";
-    state.initial = "";
-    state.wordClass = "";
-    state.topic = "";
-    els.input.value = "";
-  }
-
-  state.page = 1;
-  render();
-  document.querySelector("#resultsPanel").scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
 indexEls.toggle?.addEventListener("click", () => {
   indexEls.panel.hidden = !indexEls.panel.hidden;
   syncFilterControls();
@@ -1278,12 +1246,6 @@ indexEls.panel?.addEventListener("click", (event) => {
     updateMode();
     state.page = 1;
     render();
-    return;
-  }
-
-  const allButton = event.target.closest("button[data-show-all]");
-  if (allButton) {
-    showAllEntries();
     return;
   }
 

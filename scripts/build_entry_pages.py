@@ -37,6 +37,13 @@ DEFAULT_TOPIC_INDEXES = (
         "entries": [],
     },
 )
+ALL_ENTRIES_TOPIC = {
+    "id": "all-entries",
+    "title": "所有词条",
+    "description": "按声母汇集重庆话正音词典的全部词条。",
+    "generated": "all-entries",
+    "entries": [],
+}
 
 
 def plain_marked_text(value: object) -> str:
@@ -154,10 +161,14 @@ def load_topic_indexes() -> list[dict]:
     seen = set()
     for raw_topic in (*DEFAULT_TOPIC_INDEXES, *(payload.get("topics") or [])):
         topic = normalize_topic(raw_topic)
+        if topic["id"] == ALL_ENTRIES_TOPIC["id"]:
+            continue
         if not topic["id"] or not topic["title"] or topic["id"] in seen:
             continue
         seen.add(topic["id"])
         topics.append(topic)
+
+    topics.append(normalize_topic(ALL_ENTRIES_TOPIC))
 
     return topics
 
@@ -190,6 +201,9 @@ def topic_entries(topic: dict, entries: list[dict]) -> list[dict]:
 
     if topic.get("generated") == "abb-headword":
         entry_ids.extend(entry["id"] for entry in entries if is_abb_entry(entry))
+
+    if topic.get("generated") == "all-entries":
+        entry_ids.extend(entry["id"] for entry in entries)
 
     entry_ids.extend(topic.get("entries") or [])
     unique_ids = dict.fromkeys(entry_ids)
@@ -429,7 +443,7 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
     <link rel="icon" href="../../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
     <link rel="stylesheet" href="../../styles.css?v=20260722-header-nav">
-    <script src="../../topic-menu.js?v=20260722-topics-v2" defer></script>
+    <script src="../../topic-menu.js?v=20260722-all-entries" defer></script>
     <script src="../../item-detail.js?v=20260615-detail" defer></script>
     <script src="../../audio.js?v=20260615-audio" defer></script>
   </head>
@@ -760,8 +774,9 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
     <link rel="stylesheet" href="../../styles.css?v=20260722-header-nav">
     <script type="application/ld+json">{structured_data}</script>
-    <script src="../../topic-menu.js?v=20260722-topics-v2" defer></script>
+    <script src="../../topic-menu.js?v=20260722-all-entries" defer></script>
     <script src="../../item-detail.js?v=20260615-detail" defer></script>
+    <script src="../../topic-page.js?v=20260722-back-to-top" defer></script>
   </head>
   <body class="topic-page {page_theme}" data-topic-id="{escape(topic_id)}">
     {GENERATED_TOPIC_MARKER}
@@ -807,6 +822,14 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
       </span>
       <span>CQ-Pedia</span>
     </footer>
+
+    <button type="button" class="back-to-search" data-back-to-top aria-label="回到顶部">
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path d="M12 5 5 12"></path>
+        <path d="m12 5 7 7"></path>
+        <path d="M12 6v13"></path>
+      </svg>
+    </button>
   </body>
 </html>
 """
