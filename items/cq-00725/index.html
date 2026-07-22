@@ -13,6 +13,7 @@
     <link rel="icon" href="../../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
     <link rel="stylesheet" href="../../styles.css">
+    <script src="../../topic-menu.js?v=20260722-topics-v2" defer></script>
     <script src="../../item-detail.js?v=20260615-detail" defer></script>
     <script src="../../audio.js?v=20260615-audio" defer></script>
   </head>
@@ -20,10 +21,13 @@
     <!-- GENERATED CQ-PEDIA ENTRY PAGE -->
     <header class="site-header">
       <a class="brand" href="../../" aria-label="重庆话正音词典首页">
+        <img class="brand-icon" src="../../assets/logo-red.svg" alt="" aria-hidden="true">
         <span>CQ-Pedia</span>
       </a>
-      <nav class="top-nav" aria-label="主导航">
+      <nav class="top-nav dictionary-nav" aria-label="主导航">
         <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
+        <button type="button" data-topic-menu-trigger data-topic-root="../../" aria-haspopup="dialog" aria-controls="topicNavigationMenu">专题</button>
+        <a href="../../phonetic/">音典</a>
         <button type="button" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutModal">关于</button>
       </nav>
     </header>
@@ -144,7 +148,7 @@
 
 
     <div class="example">
-      <p class="example-line"><strong>例：</strong><span>怂祸婆！是不是你又在背后污烟<span class="erhua" aria-label="儿">儿</span>？。</span></p>
+      <p class="example-line"><strong>例：</strong><span>怂祸婆！是不是你又在背后污烟<span class="erhua" aria-label="儿">儿</span>？</span></p>
       <p class="example-pinyin">cong3 ho4 po2 si4 bu2 si4 li3 you4 dai4 bei4 hou4 vu1 yar1</p>
       <p class="example-translation">“怂祸婆”！是不是你又在背后捣鬼？</p>
     </div>

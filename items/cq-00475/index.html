@@ -13,6 +13,7 @@
     <link rel="icon" href="../../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
     <link rel="stylesheet" href="../../styles.css">
+    <script src="../../topic-menu.js?v=20260722-topics-v2" defer></script>
     <script src="../../item-detail.js?v=20260615-detail" defer></script>
     <script src="../../audio.js?v=20260615-audio" defer></script>
   </head>
@@ -20,10 +21,13 @@
     <!-- GENERATED CQ-PEDIA ENTRY PAGE -->
     <header class="site-header">
       <a class="brand" href="../../" aria-label="重庆话正音词典首页">
+        <img class="brand-icon" src="../../assets/logo-red.svg" alt="" aria-hidden="true">
         <span>CQ-Pedia</span>
       </a>
-      <nav class="top-nav" aria-label="主导航">
+      <nav class="top-nav dictionary-nav" aria-label="主导航">
         <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
+        <button type="button" data-topic-menu-trigger data-topic-root="../../" aria-haspopup="dialog" aria-controls="topicNavigationMenu">专题</button>
+        <a href="../../phonetic/">音典</a>
         <button type="button" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutModal">关于</button>
       </nav>
     </header>
@@ -135,7 +139,7 @@
         <p class="pinyin">ten3</p>
 
       </div>
-
+      <p class="variants">异体写法：腾、震</p>
 
 
       <div class="definitions">

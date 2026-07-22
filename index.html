@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-Hans">
   <head>
     <meta charset="utf-8">
@@ -45,10 +45,12 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#" aria-label="重庆话正音词典首页">
+        <img class="brand-icon" src="assets/logo-red.svg" alt="" aria-hidden="true">
         <span>CQ-Pedia</span>
       </a>
-      <nav class="top-nav" aria-label="主导航">
+      <nav class="top-nav dictionary-nav" aria-label="主导航">
         <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
+        <button type="button" data-topic-menu-trigger data-topic-root="./" aria-haspopup="dialog" aria-controls="topicNavigationMenu">专题</button>
         <a href="phonetic/">音典</a>
         <button type="button" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutModal">关于</button>
       </nav>
@@ -251,6 +253,7 @@
       </svg>
     </button>
 
+    <script src="topic-menu.js?v=20260722-topics-v2"></script>
     <script src="app.js?v=20260615-audio"></script>
     <script src="audio.js?v=20260615-audio"></script>
   </body>
