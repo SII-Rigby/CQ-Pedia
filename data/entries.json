@@ -22,9 +22,9 @@
       "id": "cq-00003",
       "headword": "安逸",
       "pinyin": "ngan1 yi2 / ngai1 yi2",
-      "wordClass": "形容词",
-      "definitions": [{"text":"舒服、满意。"}],
-      "examples": [{"text":"这碗小面吃起安逸。","pinyin":"le4 wan3 xiao3 mian4 ci2 qi3 ngan1 yi2","translation":"这碗小面吃起来很舒服、很好。"}]
+      "wordClass": "形容词；动词",
+      "definitions": [{"text":"舒服；令人满意。"},{"text":"轻松、容易，不费力。"},{"text":"满意、高兴。常用于否定句，「不安逸……」表示对某人或某事不乐意、不高兴。"},{"text":"用在动词或形容词后作补语，表示程度深。也可单独说「安逸了」。常含庆幸或讽刺意味。"}],
+      "examples": [{"text":"这碗小面吃起安逸。","pinyin":"le4 wan3 xiao3 mian4 ci2 qi3 ngan1 yi2","translation":"这碗小面吃起来很舒服、很好。"},{"text":"说得好安逸哟，你来做下，看你喊不喊累。","pinyin":"so2 de2 hao3 ngan1 yi2 yo3 li3 lai2 zu4 ha4 kan4 li3 han3 bu2 han3 lui4","translation":"说得倒轻松，你来做一下，看你会不会喊累。"},{"text":"有人早就不安逸他了。","pinyin":"you3 ren2 zao3 dou4 bu2 ngai1 yi2 ta1 lao3","translation":"有人早就对他不满意了。"},{"text":"今天_儿热安逸了 | 这盘_儿耍安逸了","pinyin":"jin1 tiar1 re2 ngan1 yi2 lao3 | le4 par2 sua3 ngai1 yi2 lao3","translation":"今天给我热舒服了 | 这局玩得痛快"}]
     },
     {
       "id": "cq-00004",
@@ -639,7 +639,7 @@
       "headword": "㰵",
       "pinyin": "juu2",
       "wordClass": "动词",
-      "definitions": [{"text":"用嘴吸。"}],
+      "definitions": [{"text":"用嘴吸、吮吸。"}],
       "examples": [{"text":"看起一张樱桃_儿小嘴，两下就把一大瓶奶㰵干净了。","pinyin":"kan4 qi3 yi2 zang1 ngen1 tar2 xiao3 zui3 liang3 ha4 dou4 ba3 yi2 da4 pin2 lai3 juu2 gan1 jin4 lao3","translation":"看着是一张樱桃小嘴，两下就把一大瓶奶吸干净了。"}]
     },
     {
@@ -5172,7 +5172,7 @@
     {
       "id": "cq-00615",
       "headword": "蜇蛛_(儿)",
-      "pinyin": "ze2 zu1",
+      "pinyin": "ze2 zu1 / ze2 zuer1",
       "wordClass": "名词",
       "variants": ["蛰蛛_(儿)"],
       "definitions": [{"text":"蜘蛛。"}],
