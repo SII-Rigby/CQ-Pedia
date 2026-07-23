@@ -778,7 +778,7 @@
     {
       "id": "cq-00093",
       "headword": "酌古斟今",
-      "pinyin": "zo2 gu3 zen4 jin1",
+      "pinyin": "zo2 gu3 zen1-4 jin1",
       "wordClass": "形容词",
       "variants": ["作古正经"],
       "definitions": [{"text":"斟酌古今、参考古今情形。"},{"text":"一本正经、故作严肃。","note":"普通书面义本为斟酌古今、参考古今情形；重庆话里多按口语中的「作古正经」一路理解，意义转为一本正经、严肃的样子。"}],
@@ -787,7 +787,7 @@
     {
       "id": "cq-00094",
       "headword": "估吃霸赊",
-      "pinyin": "gu3 ci2 ba2 se1 / gu3 ci2 ba2 sai1",
+      "pinyin": "gu3 ci2 ba4 se1 / gu3 ci2 ba4-2 sai1",
       "wordClass": "动词；形容词",
       "definitions": [{"text":"吃饭、拿东西不给钱，强迫别人赊账。"},{"text":"引申为蛮不讲理、强占便宜、横行霸道。"}],
       "examples": [{},{"text":"你一天估吃霸赊的，哪个还愿意跟你做生意嘛？","pinyin":"li3 yi2 tian1 gu3 ci2 ba4-2 se1 li1 la3 gə4 hai2 yuan4 yi4 gen1 li3 zu4 sen1 yi4 ma3","translation":"你总是强占便宜不给钱，谁还愿意跟你做生意呢？"}]
@@ -1381,11 +1381,11 @@
     {
       "id": "cq-00164",
       "headword": "𤆵耳朵",
-      "pinyin": "pa1 er3 do3-1",
+      "pinyin": "pa1 er3 do1",
       "wordClass": "名词；形容词",
       "variants": ["耙耳朵"],
       "definitions": [{"text":"怕老婆、听老婆话的男人。也可带调侃或褒义，指顾家、尊重妻子的人。"}],
-      "examples": [{"text":"他在外头说话硬得很，一拢屋头就是个𤆵耳朵，婆娘喊他洗碗_儿他不敢拖地。","pinyin":"ta1 dai4 wai4 tou2 so2 hua4 ngen4 de2 hen3 yi2 long3 vu2 tou2 dou4 si4 gə4 pa1 er3 do3-1 po2 liang2 han3 ta1 xi3 war3 ta1 bu2 gan3 to1 di4","translation":"他在外面说话很硬气，一回家就是个怕老婆的人，妻子叫他往东他不敢往西。"}]
+      "examples": [{"text":"他在外头说话硬得很，一拢屋头就是个𤆵耳朵，婆娘喊他洗碗_儿他不敢拖地。","pinyin":"ta1 dai4 wai4 tou2 so2 hua4 ngen4 de2 hen3 yi2 long3 vu2 tou2 dou4 si4 gə4 pa1 er3 do1 po2 liang2 han3 ta1 xi3 war3 ta1 bu2 gan3 to1 di4","translation":"他在外面说话很硬气，一回家就是个怕老婆的人，妻子叫他往东他不敢往西。"}]
     },
     {
       "id": "cq-00165",
@@ -1558,8 +1558,8 @@
     },
     {
       "id": "cq-00185",
-      "headword": "打下手",
-      "pinyin": "da3 xia4 sou3",
+      "headword": "打下手_(儿)",
+      "pinyin": "da3 xia4 sou3 / da3 xia4 ser3",
       "wordClass": "动词",
       "definitions": [{"text":"在旁边协助别人做事。"}],
       "examples": [{"text":"他在灶房头给师傅打下手。","pinyin":"ta1 dai4 zao4 fang2 tou2 ge1 si1 fu4-1 da3 xia4 sou3","translation":"他在厨房给师傅打下手帮忙。"}]
@@ -3078,7 +3078,7 @@
       "wordClass": "动词",
       "variants": ["㩚"],
       "definitions": [{"text":"用手遮掩物体。"}],
-      "examples": [{"text":"你把耳朵蒙到起，就当听不到了嗦？","pinyin":"li3 ba3 er3 do3-1 mong3 dao3 qi3 dou4 dang4 tin1 bu2 dao3 lao3 so3","translation":"你把耳朵捂住，就当听不见了吗？"}]
+      "examples": [{"text":"你把耳朵蒙到起，就当听不到了嗦？","pinyin":"li3 ba3 er3 do1 mong3 dao3 qi3 dou4 dang4 tin1 bu2 dao3 lao3 so3","translation":"你把耳朵捂住，就当听不见了吗？"}]
     },
     {
       "id": "cq-00364",
@@ -3230,7 +3230,7 @@
     {
       "id": "cq-00382",
       "headword": "惯肆",
-      "pinyin": "guan4 si4 / guan4 si1",
+      "pinyin": "guan4 si4 / guan4 si4-1",
       "wordClass": "动词",
       "variants": ["惯恃"],
       "definitions": [{"text":"宠溺、娇惯、放任。"}],
@@ -3639,7 +3639,7 @@
     {
       "id": "cq-00430",
       "headword": "咿呜呀呜",
-      "pinyin": "yi1 vu1 ya2 vu1",
+      "pinyin": "yi1 vu1 ya2 vu1 / yi1 vu4 ya2 vu1",
       "wordClass": "动词",
       "definitions": [{"text":"絮絮叨叨、嘀嘀咕咕念个不停。"}],
       "examples": [{"text":"少在底下咿呜呀呜的，有啥子话到台子上来讲。","pinyin":"sao3 dai4 di3 xia4-2 yi1 vu1 ya2 vu1 li1 you3 sa4 zi3 hua4 dao4 tai2 zi3 sang4 lai2 jiang3","translation":"少在底下嘀嘀咕咕的，有啥话到台上来讲。"}]
@@ -3924,7 +3924,8 @@
       "headword": "灯_儿拉麻汤",
       "pinyin": "der1 la1 ma2 tang1",
       "wordClass": "形容词",
-      "definitions": [{"text":"耍小聪明、出花招的样子。"},{"text":"吊儿郎当、不务正业，不认真做正事。近义于「灯儿晃」。"}],
+      "variants": ["灯_儿拉麻糖"],
+      "definitions": [{"text":"耍小聪明、出花招的样子。"},{"text":"吊儿郎当、不务正业，不认真做正事。近义于「灯_儿晃」。"}],
       "note": "也说「灯儿麻汤」「灯儿拉当」「灯_儿拉个麻汤」「灯_儿拉麻当」。其来源或与身上物件甩动时发出的杂乱声响有关。",
       "examples": [{"text":"我盯着起你的秤的哈，不要给我灯_儿拉麻汤的。","pinyin":"wo3 din2 dao3 qi3 li3 li1 cen4 li1 ha3 bu2 yao4 ge1 wo3 der1 la1 ma2 tang1 li1","translation":"我一直盯着你的秤的，不要给我耍花招的。"},{"text":"他一天灯_儿拉麻汤的，班_儿不去上，屋也不啷个落","pinyin":"ta1 yi2 tian1 der1 la1 ma2 tang1 li1 bar1 bu2 qi4 sang4 vu2 ye3 bu2 lang3 gə4-1 lo2","translation":"他整天吊儿郎当的，班不去上，家也不怎么回。"}]
     },
@@ -5170,10 +5171,10 @@
     },
     {
       "id": "cq-00615",
-      "headword": "蜇蛛",
+      "headword": "蜇蛛_(儿)",
       "pinyin": "ze2 zu1",
       "wordClass": "名词",
-      "variants": ["蛰蛛"],
+      "variants": ["蛰蛛_(儿)"],
       "definitions": [{"text":"蜘蛛。"}],
       "fig": true
     },
@@ -5191,6 +5192,7 @@
       "headword": "丫丫",
       "pinyin": "ya1 ya1",
       "wordClass": "名词",
+      "variants": ["桠桠"],
       "definitions": [{"text":"树枝。"}],
       "examples": [{"text":"树子丫丫 | 柏树丫丫","pinyin":"su4 zi3 ya1 ya1 | be2 su4 ya1 ya1"}]
     },
@@ -5881,7 +5883,7 @@
       "headword": "巢虫",
       "pinyin": "cao2 cong2-1",
       "wordClass": "名词",
-      "variants": ["巢冲"],
+      "variants": ["螬虫"],
       "definitions": [{"text":"蛔虫。"}],
       "examples": [{"text":"把这颗宝塔糖吃了，打巢虫。","pinyin":"ba3 le4 ko3 bao3 ta2 tang2 ci2 lao3 da3 cao2 cong2-1","translation":"把这颗宝塔糖吃了，除蛔虫。"}]
     },
@@ -6207,6 +6209,7 @@
       "headword": "白之之",
       "pinyin": "be2 zi1 zi1",
       "wordClass": "副词",
+      "variants": "白支支",
       "definitions": [{"text":"平白无故、莫名其妙。也说「白之八之」。"}],
       "examples": [{"text":"你白之之说我拿了你的东西，有啥子把凭嘛？","pinyin":"li3 be2 zi1 zi1 so2 wo3 la2 lao3 li3 li1 dong1 xi1 you3 sa4 zi3 ba3 pin2 ma3","translation":"你平白无故说我拿了你的东西，有什么证据吗？"}]
     },
@@ -7564,11 +7567,11 @@
     {
       "id": "cq-00904",
       "headword": "扬尘",
-      "pinyin": "yang2 cen1 / yang2 cen2",
+      "pinyin": "yang2 cen2-1",
       "wordClass": "名词",
       "variants": ["仰尘","阳尘"],
       "definitions": [{"text":"附着在屋顶、墙角、墙壁等处的积尘、蛛网等。清除这类积尘叫作「打扬尘」。"}],
-      "examples": [{"text":"要过年了，先把屋头的扬尘打了，再来帚地抹屋。","pinyin":"yao4 go4 lian2 lao3 xian1 ba3 vu2 tou2 li1 yang2 cen1 da3 lao3 zai4 lai2 zou3 di4 ma2 vu2","translation":"快过年了，先把屋顶和墙壁上的积尘清除掉，再打扫地面。"}],
+      "examples": [{"text":"要过年了，先把屋头的扬尘打了，再来帚地抹屋。","pinyin":"yao4 go4 lian2 lao3 xian1 ba3 vu2 tou2 li1 yang2 cen2-1 da3 lao3 zai4 lai2 zou3 di4 ma2 vu2","translation":"快过年了，先把屋顶和墙壁上的积尘清除掉，再打扫地面。"}],
       "fig": true
     },
     {
@@ -7751,7 +7754,7 @@
       "pinyin": "bi2 zi3",
       "wordClass": "名词",
       "definitions": [{"text":"鼻子。"},{"text":"鼻涕、鼻屎。"}],
-      "examples": [{},{"text":"流清鼻子 | 酽鼻子","pinyin":"liu2 qin1 bi2 zi3 lian4 bi2 zi3","translation":"流清鼻涕 | 浓鼻涕"}]
+      "examples": [{},{"text":"流清鼻子 | 酽鼻子","pinyin":"liu2 qin1 bi2 zi3 | lian4 bi2 zi3","translation":"流清鼻涕 | 浓鼻涕"}]
     },
     {
       "id": "cq-00927",

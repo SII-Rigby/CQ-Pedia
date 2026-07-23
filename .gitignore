@@ -4,6 +4,7 @@
 四川方言*
 assets/*.pptx
 scripts/add_entries.py
+scripts/submit_indexnow.py
 .codex_tmp/
 
 data/new-entries.json
