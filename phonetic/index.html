@@ -10,24 +10,8 @@
     <link rel="icon" href="../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../assets/logo-color.svg">
     <link rel="stylesheet" href="../styles.css?v=20260722-header-nav">
-
-    <!-- 百度统计：仅正式域名加载，过滤 localhost / 127.0.0.1 等本地测试 -->
-    <script>
-      if (
-        location.hostname === "cqpedia.cn" ||
-        location.hostname === "www.cqpedia.cn"
-      ) {
-        window._hmt = window._hmt || [];
-
-        (function () {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?ff0cb9d634de0b737a9bb353ade0e74a";
-
-          var s = document.getElementsByTagName("script")[0];
-          s.parentNode.insertBefore(hm, s);
-        })();
-      }
-    </script>
+    <script src="../posthog.js"></script>
+    <script src="../baidu-analytics.js"></script>
     <meta name="msvalidate.01" content="C8D88AF1E80E4E5EAED8F8ACFA1F1EAC">
     <meta name="baidu-site-verification" content="codeva-lfjf4aWqhn">
   </head>
