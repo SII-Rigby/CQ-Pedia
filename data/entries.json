@@ -2834,7 +2834,8 @@
       "pinyin": "pi1",
       "wordClass": "名词；语气词",
       "variants": ["批","P"],
-      "definitions": [{"text":"女性外阴。粗俗说法。常置于某些名词、动词前加强骂意，如「屄娃儿」「屄侃(kua3)」；也可以本身作为名词骂人，如「宝屄」。"}],
+      "definitions": [{"text":"女性外阴，粗俗说法。常作为语气助词加强骂意；也可以本身作为名词骂人。"}],
+      "examples": [{"text":"屄娃儿 | 酸屄壳吊 | 宝屄","pinyin":"pi1 wa2 er2-1 | suan1 pi1 ko2 diao4 | bao3 pi1"}],
       "note": "粗话，慎用。"
     },
     {
@@ -2882,9 +2883,9 @@
     {
       "id": "cq-00341",
       "headword": "黑黢麻恐",
-      "pinyin": "he2 qu1 ma1 kong3",
+      "pinyin": "he2 qu1 ma1 kong3 / he2 qu1 ma1 kong1",
       "wordClass": "形容词",
-      "variants": ["黑黢妈孔"],
+      "variants": ["黑黢妈孔","黑黢妈空"],
       "definitions": [{"text":"形容光线很暗、颜色非常黑。"}],
       "examples": [{"text":"地下商场又停电了，黑黢麻恐的，出口都找不到了。","pinyin":"di4 xia4 sang1 cang2 you4 tin2 dian4 lao3 he2 qu1 ma1 kong3 li1 cu2 kou3 dou1 zao3 bu2 dao3 lao3","translation":"地下商场又停电了，黑漆漆的，出口都找不着了。"}]
     },
@@ -3068,7 +3069,7 @@
       "pinyin": "za3 qi3",
       "wordClass": "动词",
       "variants": ["扎起"],
-      "definitions": [{"text":"撑腰，做后盾。"}],
+      "definitions": [{"text":"撑腰，捧场，做后盾。"}],
       "examples": [{"text":"上台了莫虚，我们给你拃起。","pinyin":"sang4 tai2 lao3 mo2 xu1 wo3 men1 ge1 li3 za3 qi3","translation":"上台了别怕，我们给你撑腰。"}]
     },
     {
@@ -4248,7 +4249,7 @@
       "headword": "日诀",
       "pinyin": "ri2 jue2",
       "wordClass": "动词",
-      "variants": ["日决"],
+      "variants": ["日决","肏诀","日吷"],
       "definitions": [{"text":"谩骂、粗俗地骂人。"}],
       "note": "粗俗语。",
       "examples": [{"text":"你再杵到这截不走，我就要日诀人了哈！","pinyin":"li3 zai4 cu3 dao3 le4 jie2 bu2 zou3 wo3 dou4 yao4 ri2 jue2 ren2 lao3 ha3","translation":"你再站在这里不走，我就要骂人了！"}]
