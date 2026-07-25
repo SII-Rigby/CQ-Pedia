@@ -10,3 +10,4 @@ scripts/submit_indexnow.py
 data/new-entries.json
 data/*字.txt
 data/fig/PowerToys_*
+data/script-entries.json

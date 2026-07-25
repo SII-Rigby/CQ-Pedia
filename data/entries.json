@@ -589,7 +589,7 @@
       "pinyin": "liang4 wa3 wa3",
       "wordClass": "形容词",
       "definitions": [{"text":"亮闪闪、亮而有光泽的。"}],
-      "examples": [{"text":"才抹的地板亮瓦瓦的，走路小心点啰。","pinyin":"tai2 ma2 li1 di4 ban3 liang4 wa3 wa3 li1 zou3 lu4 xiao3 xin1 diar3 lo1","translation":"新擦的地板亮闪闪的，走路小心点。"}]
+      "examples": [{"text":"才抹的地板亮瓦瓦的，走路小心点_儿啰。","pinyin":"tai2 ma2 li1 di4 ban3 liang4 wa3 wa3 li1 zou3 lu4 xiao3 xin1 diar3 lo1","translation":"新擦的地板亮闪闪的，走路小心点。"}]
     },
     {
       "id": "cq-00071",
@@ -8388,6 +8388,302 @@
       "variants": ["塍塍"],
       "definitions": [{"text":"土埂；地面上呈条状、高出四周的部分。"}],
       "examples": [{"text":"路中间有条磴磴，骑车过去要顿一下。","pinyin":"lu4 zong1 jian1 you3 tiao2 ten4 ten4-1 qi2 ce1 go4 qi4-1 yao4 ten3 yi2 ha4","translation":"路中间有一道凸起，骑车经过时会颠一下。"}]
+    },
+    {
+      "id": "cq-01003",
+      "headword": "新崭崭",
+      "pinyin": "xin1 zan3 zan3",
+      "wordClass": "形容词",
+      "definitions": [{"text":"崭新的，非常新的。"}],
+      "examples": [{"text":"你这套西服保养得好，穿了两年还是新崭崭的。","pinyin":"li3 le4 tao4 xi1 fu2 bao3 yang3 de2 hao3 cuan1 lao3 liang3 lian2 hai2 si4 xin1 zan3 zan3 li1","translation":"你这套西服保养得好，穿了两年还是崭新的。"}]
+    },
+    {
+      "id": "cq-01004",
+      "headword": "皱眉拉垮",
+      "pinyin": "zong4 mi2 la1 kua3",
+      "wordClass": "形容词",
+      "definitions": [{"text":"形容皱着眉头、神情不舒展的样子。"},{"text":"褶皱多、不平展的样子。"}],
+      "examples": [{"text":"你一进门就皱眉拉垮的，哪个惹你了？","pinyin":"li3 yi2 jin4 men2 dou4 zong4 mi2 la1 kua3 li1 la3 gə4 re3 li3 lao3","translation":"你一进门就皱着眉头，谁惹你了？"},{"text":"喊你把裤儿折好了放衣柜_儿头，不然每回_儿拿出来都是皱眉拉垮的。","pinyin":"han3 li3 ba3 ku4 er2 ze2 hao3 lao3 fang4 yi1 guer4 tou2 bu2 ran2 mei3 huer2 la2 cu2 lai2 dou1 si4 zong4 mi2 la1 kua3 li1","translation":"叫你把裤子折好了放衣柜里，要不然每次拿出来都是皱皱的。"}]
+    },
+    {
+      "id": "cq-01005",
+      "headword": "沙疙疙",
+      "pinyin": "sa1 ge4 ge4",
+      "wordClass": "形容词",
+      "definitions": [{"text":"质地粗糙，有明显的砂粒感。"}],
+      "examples": [{"text":"这匹布摸起沙疙疙的，做巴身衣服还是格外选一起。","pinyin":"le4 pi2 bu4 mo1 qi3 sa1 ge4 ge4 li1 zu4 ba1 sen1 yi1 fu2 hai2 si4 ge2 wai4 xuan3 yi2 qi3","translation":"这块布摸起来很粗糙，做贴身衣服还是另外选一款布吧。"}]
+    },
+    {
+      "id": "cq-01006",
+      "headword": "靸",
+      "pinyin": "sa2",
+      "wordClass": "动词",
+      "variants": ["趿"],
+      "definitions": [{"text":"穿鞋时不提起鞋后帮，将其踩在脚后跟下面。"},{"text":"穿（拖鞋）。"}],
+      "examples": [{"text":"鞋子要穿好，莫靸起。","pinyin":"hai2 zi3 yao4 cuan1 hao3 mo2 sa2 qi3","translation":"鞋要好好穿，不要把鞋后帮踩在脚后跟下面。"},{"text":"她靸起双拖鞋_儿就跑出去了。","pinyin":"ta1 sa2 qi3 suang1 to1 har2 dou4 pao3 cu1 qi4 lao3","translation":"她穿着一双拖鞋就跑出去了。"}]
+    },
+    {
+      "id": "cq-01007",
+      "headword": "山㮟㮟",
+      "pinyin": "san1 ka1 ka1",
+      "wordClass": "名词",
+      "variants": ["山旮旮","山卡卡"],
+      "definitions": [{"text":"偏僻、交通不便的山区地方。"}],
+      "examples": [{"text":"你跑到哪个山㮟㮟去了嘛，联系你两天都没得信号_儿，把一家人焦惨了。","pinyin":"li3 pao3 dao3 la3 gə4 san1 ka1 ka1 qi4 lao3 ma3 lian2 xi4 li3 liang3 tian1 dou1 mei1 de2 xin4 har4 ba3 yi2 jia1 ren2 jiao1 can3 lao3","translation":"你跑到哪个偏远山区去了？联系你两天都没信号，一家人着急得不得了。"}]
+    },
+    {
+      "id": "cq-01008",
+      "headword": "伤",
+      "pinyin": "sang1",
+      "wordClass": "形容词；动词",
+      "definitions": [{"text":"因吃得过多或连续吃同一种食物而感到厌腻，不想再吃；使感到厌腻。"}],
+      "examples": [{"text":"连到吃了几天的腊肉，我都吃伤了。 | 这锅红烧肉看起好伤人。","pinyin":"lian2 dao3 ci2 lao3 ji3 tian1 li1 la2 rou4 wo3 dou1 ci2 sang1 lao3 | le4 go1 hong2 sao1 rou4 kan4 qi3 hao3 sang1 ren2","translation":"连续吃了几天腊肉，我已经吃腻了。 | 这锅红烧肉看着真腻人。"}]
+    },
+    {
+      "id": "cq-01009",
+      "headword": "夹",
+      "pinyin": "jia2",
+      "wordClass": "形容词",
+      "variants": ["啬"],
+      "definitions": [{"text":"吝啬、小气。"}],
+      "examples": [{"text":"夹得很，几块钱都舍不得出。","pinyin":"jia2 de2 hen3 ji3 kuai3 qian2 dou1 se3 bu2 de2 cu2","translation":"真吝啬，几块钱都舍不得拿出来。"}]
+    },
+    {
+      "id": "cq-01010",
+      "headword": "央夹",
+      "pinyin": "yang1 jia2",
+      "wordClass": "形容词",
+      "variants": ["央啬"],
+      "definitions": [{"text":"吝啬、小气。"}],
+      "examples": [{"text":"你啷个恁个央夹哟，两块钱的水还要讲半天价。","pinyin":"li3 lang3 gə4-1 len4 gə4-1 yang1 jia2 yo3 liang3 kuai3 qian2 li1 sui3 hai2 yao4 jiang3 ban4 tian1 jia4","translation":"你怎么这么小气啊，两块钱的水还得讲老半天价。"}]
+    },
+    {
+      "id": "cq-01011",
+      "headword": "夹",
+      "pinyin": "jia2",
+      "wordClass": "形容词；动词",
+      "variants": ["涩"],
+      "definitions": [{"text":"味道苦涩或酸涩。"},{"text":"使感到苦涩、酸涩。"}],
+      "examples": [{"text":"这起李子夹得很，还是该买紫颜色那起。","pinyin":"le4 qi3 li3 zi3 jia2 de2 hen3 hai2 si4 gai1 mai3 zi3 yan2 se2 la4 qi3","translation":"这个李子非常涩，还是该买紫色那一款。"},{"text":"这药好夹口哦，我不想喝了。","pinyin":"le4 yo2 hao3 jia2 kou3 o3 wo3 bu2 xiang3 ho1 lao3","translation":"这药好苦涩，我不想喝了。"}]
+    },
+    {
+      "id": "cq-01012",
+      "headword": "夹口",
+      "pinyin": "jia2 kou3",
+      "wordClass": "动词",
+      "variants": ["涩口"],
+      "definitions": [{"text":"使嘴里感到酸涩或苦涩。"}],
+      "examples": [{"text":"这批柿子还没熟，夹口得很。","pinyin":"le4 pei1 si4 zi3 hai2 mei1 su2 jia2 kou3 de2 hen3","translation":"这批柿子还没有成熟，吃起来非常涩口。"}]
+    },
+    {
+      "id": "cq-01013",
+      "headword": "不了",
+      "pinyin": "bu2 liao3",
+      "wordClass": "副词",
+      "definitions": [{"text":"不止、不少于。"}],
+      "examples": [{"text":"他说他才一百四十斤，我看他不了。","pinyin":"ta1 so2 ta1 tai2 yi2 be2 si4 si2 jin1 wo3 kan4 ta1 bu2 liao3","translation":"他说他才一百四十斤，我看他不止（一百四十斤）。"}]
+    },
+    {
+      "id": "cq-01014",
+      "headword": "摩的",
+      "pinyin": "mo1 di1",
+      "wordClass": "名词",
+      "definitions": [{"text":"搭载乘客并收费的摩托车，摩托出租车。"}],
+      "examples": [{"text":"225收班_儿了，我们坐摩的回去。","pinyin":"er4 er4 vu3 sou1 bar1 lao3 wo3 men1 zo4 mo1 di1 hui2 qi4","translation":"225路公交车收班了，我们乘摩托出租车回去。"}]
+    },
+    {
+      "id": "cq-01015",
+      "headword": "隙",
+      "pinyin": "xie1",
+      "wordClass": "动词",
+      "definitions": [{"text":"使物体之间留出缝隙。"}],
+      "examples": [{"text":"把窗子隙点_儿缝缝_儿，屋头好豁点_儿风进来。","pinyin":"ba3 cang1 zi3 xie1 diar3 fong4 fer4-1 vu2 tou2 hao3 ho1 diar3 fong1 jin4 lai2","translation":"把窗户留一点缝，屋里好通点风进来。"}]
+    },
+    {
+      "id": "cq-01016",
+      "headword": "泣",
+      "pinyin": "xie1",
+      "wordClass": "动词",
+      "variants": ["歇"],
+      "definitions": [{"text":"哭泣、啜泣。多用于小孩。"}],
+      "examples": [{"text":"你再泣，明天不带你去坐碰碰_儿车了。","pinyin":"li3 zai4 xie1 min2 tiar1 bu2 dia4 li3 qi4 zo4 pong4 per4-1 ce1 lao3","translation":"你再哭，明天不带你去坐碰碰车了。"}]
+    },
+    {
+      "id": "cq-01017",
+      "headword": "豁风",
+      "pinyin": "ho1 fong1",
+      "wordClass": "动词",
+      "variants": ["喝风"],
+      "definitions": [{"text":"通风，留出开口让风吹进来。"}],
+      "examples": [{"text":"再是腊月间，也要把窗子打开豁下风。","pinyin":"zai4 si4 la2 yue2 jian1 ye3 yao4 ba3 cang1 zi3 da3 kai1 ho1 ha4 fong1","translation":"就算腊月期间再寒冷，也要把窗户打开透透风。"}]
+    },
+    {
+      "id": "cq-01018",
+      "headword": "歪货",
+      "pinyin": "wai3 ho4",
+      "wordClass": "名词",
+      "definitions": [{"text":"次品、假货；质量低劣的货品。"}],
+      "examples": [{"text":"去石桥铺买的这副耳机是歪货，才用了两天_儿，一边就没得声音得了。","pinyin":"qi4 si2 qiao2 bu4 mai3 li1 le4 fu4 er3 ji1 si4 wai3 ho4 tai2 yong4 lao3 liang3 tiar1 yi2 bian1 dou4 mei1 de2 sen1 yin1 de2 lao3","translation":"去石桥铺买的这副耳机质量是个垃圾货，才用了两天，一边就没有声音了。"}]
+    },
+    {
+      "id": "cq-01019",
+      "headword": "精灵",
+      "pinyin": "jin1 lin2",
+      "wordClass": "形容词",
+      "definitions": [{"text":"聪明、机灵。"}],
+      "examples": [{"text":"这娃儿精灵得很，晓得把孃孃呵高兴了就有冰糕吃。","pinyin":"le4 wa2 er2-1 jin1 lin2 de2 hen3 xiao3 de2 ba3 liang1 liang1 ho1 gao1 xin4 lao3 dou4 you3 bin1 gao1 ci2","translation":"这孩子可机灵了，知道把阿姨哄高兴了就有雪糕吃。"}]
+    },
+    {
+      "id": "cq-01020",
+      "headword": "稀𤆵烂",
+      "pinyin": "xi1 pa1 lan4",
+      "wordClass": "形容词",
+      "variants": ["稀巴烂","稀啪烂","稀趴烂"],
+      "definitions": [{"text":"非常烂、破碎不堪。"},{"text":"非常差、糟糕得不成样子。"}],
+      "examples": [{"text":"灰姑娘的衣服遭两姊妹扯得个稀𤆵烂。","pinyin":"hui1 gu1 liang1 li1 yi1 fu2 zao2 liang3 zi3 mei4 ce3 de2 gə4 xi1 pa1 lan4","translation":"灰姑娘的衣服被姐妹俩扯得破烂不堪。"},{"text":"一手好牌遭他打得稀𤆵烂。","pinyin":"yi2 sou3 hao3 pai2 zao2 ta1 da3 de2 xi1 pa1 lan4","translation":"一手好牌被他打得糟糕透顶。"}]
+    },
+    {
+      "id": "cq-01021",
+      "headword": "昏浊浊",
+      "pinyin": "hun1 co2 co2",
+      "wordClass": "形容词",
+      "definitions": [{"text":"形容头脑昏沉、迷糊、糊涂的样子。"}],
+      "examples": [{"text":"我才睡醒，脑壳昏浊浊的，把皮炎平当成了牙膏。","pinyin":"wo3 tai2 sui4 xin3 lao3 ko2 hun1 co2 co2 li1 ba3 pi2 yan1 pin2 dang4 cen2 lao3 ya2 gao1","translation":"我刚睡醒，头脑昏昏沉沉的，把皮炎平当成了牙膏。"}]
+    },
+    {
+      "id": "cq-01022",
+      "headword": "马起脸",
+      "pinyin": "ma3 qi3 lian3",
+      "wordClass": "动词",
+      "definitions": [{"text":"板起脸，露出严肃或生气的神色。"}],
+      "examples": [{"text":"我又没说你，你马起脸咋子。","pinyin":"wo3 you4 mei1 so2 li3 li3 ma3 qi3 lian3 za4 zi3","translation":"我又没说你，你板着脸干嘛。"}]
+    },
+    {
+      "id": "cq-01023",
+      "headword": "卡厅",
+      "pinyin": "ka3 tin1",
+      "wordClass": "名词",
+      "definitions": [{"text":"卡拉OK厅，供顾客唱卡拉OK的营业性娱乐场所。"}]
+    },
+    {
+      "id": "cq-01024",
+      "headword": "摸灯_儿",
+      "pinyin": "mo1 der1",
+      "wordClass": "名词",
+      "definitions": [{"text":"调制解调器，即 modem。也称「猫」。"}],
+      "examples": [{"text":"零几年屋头上网要接个摸灯_儿。","pinyin":"lin2 ji3 lian2 vu2 tou2 sang4 wang3 yao4 jie2 gə4 mo1 der1","translation":"二〇〇几年家里上网要连接调制解调器。"}]
+    },
+    {
+      "id": "cq-01025",
+      "headword": "吓人",
+      "pinyin": "he2 ren2",
+      "wordClass": "动词；形容词",
+      "variants": ["嘿人"],
+      "definitions": [{"text":"吓唬人，使人感到害怕。"},{"text":"令人害怕的、恐怖的。"}],
+      "examples": [{"text":"不许藏到门背后头吓人，心子把把差点_儿遭你吓落。","pinyin":"bu2 xu3 qiang2 dao3 men2 bei4 hou4 he2 ren2 xin1 zi3 ba4 ba4-1 ca1 diar3 zao2 li3 he2 lo2","translation":"不许躲在门后吓唬人，心脏病都快被你吓出来了。"},{"text":"那截路晚上没得灯_儿，走起吓人得很。","pinyin":"la4 jie2 lu4 wan3 sang4 mei1 de2 der1 zou3 qi3 he2 ren2 de2 hen3","translation":"那段路晚上没有灯，走起来非常吓人。"}]
+    },
+    {
+      "id": "cq-01026",
+      "headword": "龟儿",
+      "pinyin": "gui1 er2 / guer1 er2",
+      "wordClass": "名词；语气词",
+      "definitions": [{"text":"本指乌龟的儿子。用作对人的詈称，也说「龟儿子」。"},{"text":"插入句中加强语气，常带责怪、不满或发狠等情绪。"}],
+      "examples": [{"text":"你个龟儿，又把老子的杯杯_儿打烂了。","pinyin":"li3 gə4 gui1 er2 you4 ba3 lao3 zi3-1 li1 bei1 ber1 da3 lan4 lao3","translation":"你这个家伙，又把我的杯子打碎了。"},{"text":"龟儿天气好鸡公热哟。","pinyin":"guer1 er2 tian1 qi4 hao3 ji1 gong1 re2 yo3","translation":"该死的天气真TMD热。"}],
+      "note": "粗俗语，慎用。"
+    },
+    {
+      "id": "cq-01027",
+      "headword": "老子",
+      "pinyin": "lao3 zi3-1 / lao3 zi3",
+      "wordClass": "代词；名词",
+      "definitions": [{"text":"第一人称代词，相当于「我」「你爹我」，带有强硬、粗豪的语气。","note":"不礼貌的自称，慎用。"},{"text":"父亲。"}],
+      "examples": [{"text":"你莫催，老子晓得做。","pinyin":"li3 mo2 cui1 lao3 zi3-1 xiao3 de2 zu4","translation":"你别催，我知道做。"},{"text":"他们老子原先在码头担货。","pinyin":"ta1 men1 lao3 zi3 yuan2 xian1 dai4 ma3 tou2 dan1 ho4","translation":"他父亲以前在码头上挑货。"}]
+    },
+    {
+      "id": "cq-01028",
+      "headword": "耗儿",
+      "pinyin": "hao4 er2",
+      "wordClass": "名词",
+      "definitions": [{"text":"老鼠。也说「耗子」。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01029",
+      "headword": "波鞋_(儿)",
+      "pinyin": "bo1 hai2 / bo1 har2",
+      "wordClass": "名词",
+      "variants": ["ball鞋"],
+      "definitions": [{"text":"球鞋；运动鞋。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01030",
+      "headword": "菢鸡母鞋_(儿)",
+      "pinyin": "bao4 ji1 mu3 hai2 / bao4 ji1 mu3 har2",
+      "wordClass": "名词",
+      "variants": ["抱鸡母鞋_(儿)"],
+      "definitions": [{"text":"旧式手工棉布鞋，鞋帮厚实，外形较为臃肿。也说「菢鸡婆鞋_(儿)」。"}],
+      "examples": [{"text":"冬天穿双菢鸡母鞋_儿，脚板_儿暖和得很。","pinyin":"dong1 tian1 cuan1 suang1 bao4 ji1 mu3 har2 jio2 bar3 luan3 ho2 de2 hen3","translation":"冬天穿一双厚实的手工棉鞋，脚非常暖和。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01031",
+      "headword": "对头",
+      "pinyin": "dui4 tou2",
+      "wordClass": "形容词；动词；叹词",
+      "definitions": [{"text":"正确、正常；没有差错或异常。"},{"text":"合适；符合要求或心意。"},{"text":"用作应答，表示肯定，相当于「是的」「没错」。"}],
+      "examples": [{"text":"你算的这个数是对头的，没得错。","pinyin":"li3 suan4 li1 le4 gə4 su4 si4 dui4 tou2 li1 mei1 de2 co4","translation":"你算出的这个数字是正确的，没有错。"},{"text":"这双鞋价钱还算对头，我就拿两双。","pinyin":"le4 suang1 hai2 jia4 qian2 hai2 suan4 dui4 tou2 wo3 dou4 la2 liang3 suang1","translation":"这双鞋价格还算合适，我就买两双。"},{"text":"——明天_儿下午三点开会吗？——对头。","pinyin":"min2 tiar1 xia4 vu3 san1 dian3 kai1 hui4 mæ1 | dui4 tou2","translation":"——明天下午三点开会吗？——是的。"}]
+    },
+    {
+      "id": "cq-01032",
+      "headword": "好生",
+      "pinyin": "hao3 sen1",
+      "wordClass": "副词；动词",
+      "definitions": [{"text":"小心、当心；注意。"},{"text":"好好地、认真地、用心地。也说「好好生生」。"}],
+      "examples": [{"text":"过马路的时候好生点_儿，先看两边有没得车。","pinyin":"go4 ma3 lu4 li1 si2 hou4 hao3 sen1 diar3 xian1 kan4 liang3 bian1 you3 mei1 de2 ce1","translation":"过马路时小心一点，先看看两边有没有车。"},{"text":"这回_儿回了屋，我要好生休息半个月。","pinyin":"le4 huer2 hui2 lao3 vu2 wo3 yao4 hao3 sen1 xiu1 xi2 ban4 gə4 yue2","translation":"这回回了家，我得好好儿地休息半个月。"}]
+    },
+    {
+      "id": "cq-01033",
+      "headword": "精蹦",
+      "pinyin": "jin1 bong4",
+      "wordClass": "形容词",
+      "definitions": [{"text":"精力饱满、活泼有劲。"}],
+      "examples": [{"text":"娃儿睡了一觉起来，又精蹦了。","pinyin":"wa2 er2-1 sui4 lao3 yi2 gao4 qi3 lai2 you4 jin1 bong4 lao3","translation":"孩子睡了一觉起来，又变得精神十足了。"}]
+    },
+    {
+      "id": "cq-01034",
+      "headword": "经掊",
+      "pinyin": "jin1 bei3",
+      "wordClass": "形容词；动词",
+      "definitions": [{"text":"结实耐用，经得住反复使用或折腾。近义词「经事」。"}],
+      "examples": [{"text":"这个板凳_儿经掊。 | 花瓶_儿经不得掊哟。","pinyin":"le4 gə4 ban3 der4 jin1 bei3 | hua1 pier2 jin1 bu2 de2 bei3 yo1","translation":"这张板凳结实耐用。 | 花瓶经不住折腾。"}]
+    },
+    {
+      "id": "cq-01035",
+      "headword": "经脏",
+      "pinyin": "jin1 zang1",
+      "wordClass": "形容词；动词",
+      "definitions": [{"text":"耐脏；沾上少量污渍也不容易显得脏。"}],
+      "examples": [{"text":"买深颜色的外套经脏些。","pinyin":"mai3 sen1 yan2 se2 li1 wai4 tao4 jin1 zang1 xi1","translation":"买深颜色的外套更耐脏。"}]
+    },
+    {
+      "id": "cq-01036",
+      "headword": "胩",
+      "pinyin": "ka4",
+      "wordClass": "名词",
+      "variants": ["胯"],
+      "definitions": [{"text":"两腿之间靠近会阴的部位。"}],
+      "examples": [{"text":"洗澡的时候_儿，胩跟胁孔特别要下细。","pinyin":"xi3 zao3 li1 si2 her4 ka4 gen1 xia2 kong3 tie2 bie2 yao4 xia4 xi4","translation":"洗澡的时候，胯下和腋窝尤其要认真（洗）。"}]
+    },
+    {
+      "id": "cq-01037",
+      "headword": "窑裤_儿",
+      "pinyin": "yao2 kuer4",
+      "wordClass": "名词",
+      "variants": ["摇裤_儿"],
+      "definitions": [{"text":"内裤。"}],
+      "examples": [{"text":"闲事管得宽，没得窑裤_儿穿。","pinyin":"xian2 si4 guan3 de2 kuan1 mei1 de2 yao2 kuer4 cuan1"}],
+      "note": "烧窑工人在高温环境中劳作时常只穿短裤，这种裤子因而被称为「窑裤」，后来泛指内裤。"
     }
   ]
 }
