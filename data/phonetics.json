@@ -12924,7 +12924,16 @@
           "labels": [
             "正"
           ],
-          "pinyin": "xian4"
+          "pinyin": "xian4",
+          "examples": ["现在"]
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "xuan4",
+          "description": "现场、临时",
+          "examples": ["现挑现做"]
         }
       ]
     },
@@ -27143,6 +27152,12 @@
             "正"
           ],
           "pinyin": "cui4"
+        },
+        {
+          "labels": [
+            "白","变"
+          ],
+          "pinyin": "cui3"
         }
       ]
     },
@@ -54939,7 +54954,7 @@
       "readings": [
         {
           "labels": [
-            "正","白"
+            "正"
           ],
           "pinyin": "kuan3",
           "examples": ["浣花溪"]
@@ -68699,6 +68714,1983 @@
             "正","罕"
           ],
           "pinyin": "da2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05123",
+      "character": "㔿",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "zou4",
+          "examples": [
+            "㔿㔿儿",
+            "㔿起"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05124",
+      "character": "㝩",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "kang3",
+          "examples": [
+            "㝩起",
+            "㝩㝩"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05125",
+      "character": "㞎",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "ba3",
+          "examples": [
+            "㞎㞎",
+            "屎㞎儿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05126",
+      "character": "㞗",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "qiu2",
+          "examples": [
+            "㞗经不懂"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05127",
+      "character": "㞘",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "du2",
+          "examples": [
+            "㞘㞘"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05128",
+      "character": "㡀",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "pie4",
+          "examples": [
+            "㡀（孬）"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05129",
+      "character": "㤶",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "mang1",
+          "examples": [
+            "装㤶"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05130",
+      "character": "㧍",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "pang3",
+          "examples": [
+            "㧍（搒）我一下"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05131",
+      "character": "㨣",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "wong1",
+          "examples": [
+            "㨣热和儿"
+          ]
+        },
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "wong4",
+          "examples": [
+            "㨣到水头"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05132",
+      "character": "㩐",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "ten4",
+          "examples": [
+            "㩐（褪）起不做声"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05133",
+      "character": "㩚",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "mong3",
+          "examples": [
+            "㩚（蒙）着眼睛"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05134",
+      "character": "㩟",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "zai4",
+          "examples": [
+            "㩟衣服",
+            "㩟书机"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05135",
+      "character": "㮟",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "ka1",
+          "examples": [
+            "㮟㮟角角",
+            "㮟进去"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05136",
+      "character": "㲃",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "jiu3",
+          "examples": [
+            "㲃(扭)不开"
+          ]
+        },
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "jiu4",
+          "examples": [
+            "颈子㲃了"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05137",
+      "character": "䗿",
+      "readings": [
+        {
+          "labels": [
+            "变",
+            "训"
+          ],
+          "pinyin": "jin1",
+          "examples": [
+            "䗿啊子"
+          ]
+        },
+        {
+          "labels": [
+            "正",
+            "训"
+          ],
+          "pinyin": "lin1",
+          "examples": [
+            "䗿啊子"
+          ]
+        },
+        {
+          "labels": [
+            "变",
+            "训"
+          ],
+          "pinyin": "yin1",
+          "examples": [
+            "䗿啊子"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05138",
+      "character": "䠍",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "ka2",
+          "examples": [
+            "䠍两步",
+            "䠍尿山_儿"
+          ]
+        },
+        {
+          "labels": [
+            "正",
+            "白",
+            "罕"
+          ],
+          "pinyin": "qia2",
+          "description": "ka2 的又音。更流行于成都等地。"
+        }
+      ]
+    },
+    {
+      "id": "ph-05139",
+      "character": "亸",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "to3",
+          "examples": [
+            "重亸亸",
+            "亸神"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05140",
+      "character": "佮",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "go2",
+          "examples": [
+            "佮不得",
+            "佮得来"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05141",
+      "character": "凊",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "qin4",
+          "examples": [
+            "冰凊"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05142",
+      "character": "刉",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "ge4",
+          "examples": [
+            "刉开"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05143",
+      "character": "剟",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "do2",
+          "examples": [
+            "剟一下"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05144",
+      "character": "哕",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yue3",
+          "examples": [
+            "打干哕"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05145",
+      "character": "圿",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "jia2",
+          "examples": [
+            "圿圿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05146",
+      "character": "坌",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "ben4",
+          "examples": [
+            "坌作料"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05147",
+      "character": "坨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "to2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05148",
+      "character": "奤",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "tai3",
+          "examples": [
+            "奤起"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05149",
+      "character": "孬",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "pie4",
+          "examples": [
+            "稀孬",
+            "孬火药"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05150",
+      "character": "屄",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "pi1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05151",
+      "character": "屙",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "wo1",
+          "examples": [
+            "屙屎",
+            "屙痢"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05152",
+      "character": "恁",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "len4",
+          "examples": [
+            "恁个"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05153",
+      "character": "戆",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "gang4",
+          "examples": [
+            "直戆戆"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05154",
+      "character": "扖",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "ru2"
+        },
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "rou4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05155",
+      "character": "扙",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "zang2",
+          "examples": [
+            "扙沙包","扙笨"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05156",
+      "character": "扚",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "dia1",
+          "examples": [
+            "扚"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05157",
+      "character": "拃",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "za3",
+          "examples": [
+            "拃起"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05158",
+      "character": "挼",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "rua2",
+          "examples": [
+            "挼灰面"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05159",
+      "character": "捩",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "lia2",
+          "examples": [
+            "捩肩膀","捩不脱"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05160",
+      "character": "掊",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "bei3",
+          "examples": [
+            "掊整",
+            "经掊"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05161",
+      "character": "揙",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bian3",
+          "examples": [
+            "操揙挂"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05162",
+      "character": "搊",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "cou1",
+          "examples": [
+            "搊下去"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05163",
+      "character": "搌",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "zan3",
+          "examples": [
+            "搌到边边","走搌"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05164",
+      "character": "搒",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "pang3",
+          "examples": [
+            "搒(㧍)着了"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05165",
+      "character": "搳",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "ha2",
+          "examples": [
+            "搳脐胳儿"
+          ]
+        },
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "hua2",
+          "examples": [
+            "搳拳"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05166",
+      "character": "擗",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "pie3",
+          "examples": [
+            "擗断"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05167",
+      "character": "敹",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "liao2",
+          "examples": [
+            "敹两针"
+          ]
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "liao1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05168",
+      "character": "斢",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "tiao3",
+          "examples": [
+            "斢(调)个面儿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05169",
+      "character": "朒",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "ga3",
+          "examples": [
+            "朒朒"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05170",
+      "character": "枵",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "xiao1"
+        }
+      ]
+    },
+    {
+      "id": "ph-05171",
+      "character": "沕",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "mi4",
+          "examples": [
+            "栽沕头儿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05172",
+      "character": "涷",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "dong1",
+          "examples": [
+            "偏涷雨"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05173",
+      "character": "漤",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "lan3",
+          "examples": [
+            "漤李子"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05174",
+      "character": "潽",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "pu1",
+          "examples": [
+            "水潽出来"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05175",
+      "character": "炪",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "cu1",
+          "examples": [
+            "灯炪了"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05176",
+      "character": "煪",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "qiu1",
+          "examples": [
+            "煪(煍)腊肉"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05177",
+      "character": "熋",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "lai4",
+          "examples": [
+            "熋人"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05178",
+      "character": "熛",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白","训"
+          ],
+          "pinyin": "piao3",
+          "examples": [
+            "熛一下","火熛火辣"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05179",
+      "character": "痨",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lao2",
+          "examples": [
+            "痨肠剐肚",
+            "饿痨"
+          ]
+        },
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "lao4",
+          "examples": [
+            "痨药"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05180",
+      "character": "睖",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "len2",
+          "examples": [
+            "睖眉睖眼_儿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05181",
+      "character": "瞘",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "kou1",
+          "examples": [
+            "眼睛落瞘"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05182",
+      "character": "砑",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "nga1",
+          "examples": [
+            "砑(轧)死"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05183",
+      "character": "磴",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "den1",
+          "examples": [
+            "跳磴"
+          ]
+        },
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "ten4",
+          "examples": [
+            "十磴梯坎",
+            "磴磴"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05184",
+      "character": "礅",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "den1",
+          "examples": [
+            "跳礅(磴)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05185",
+      "character": "礌",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "lui1",
+          "examples": [
+            "东西礌了",
+            "礌礌儿"
+          ]
+        },
+        {
+          "labels": [
+            "罕"
+          ],
+          "pinyin": "lui2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05186",
+      "character": "竝",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "pin3",
+          "examples": [
+            "竝排","竝起走"
+          ]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bin4",
+          "description": "「並(并)」的异体。"
+        }
+      ]
+    },
+    {
+      "id": "ph-05187",
+      "character": "箜",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "kong3",
+          "examples": [
+            "箜饭"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05188",
+      "character": "篼",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dou1",
+          "examples": [
+            "箩篼"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05189",
+      "character": "篾",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mie2",
+          "examples": [
+            "篾片儿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05190",
+      "character": "耖",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "cao4",
+          "examples": [
+            "耖"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05191",
+      "character": "肏",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "ri2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05192",
+      "character": "胩",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "ka4",
+          "examples": [
+            "打光胩",
+            "胩脚"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05193",
+      "character": "胮",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "pang1",
+          "examples": [
+            "胮(滂)臭"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05194",
+      "character": "腠",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "zou3",
+          "examples": [
+            "硬腠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05195",
+      "character": "臜",
+      "readings": [
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "zua1",
+          "examples": [
+            "腌(wa1)臜"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05196",
+      "character": "芫",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yan2",
+          "examples": [
+            "芫荽"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05197",
+      "character": "苶",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "lia2",
+          "examples": [
+            "皮苶嘴歪"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05198",
+      "character": "荠",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ji4",
+          "examples": [
+            "荠菜"
+          ]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qi2",
+          "examples": [
+            "荸荠儿(pu2 qier2-1)"
+          ]
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "qu1",
+          "examples": [
+            "荸荠儿(pu2 quer2-1)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05199",
+      "character": "荸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "pu2",
+          "examples": [
+            "荸荠儿(pu2 quer2-1)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05200",
+      "character": "荽",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "xu1",
+          "examples": [
+            "芫荽"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05201",
+      "character": "菢",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "bao4",
+          "examples": [
+            "菢鸡母"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05202",
+      "character": "蔸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "dou1",
+          "examples": [
+            "疙蔸"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05203",
+      "character": "虰",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "din1",
+          "examples": [
+            "虰虰猫儿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05204",
+      "character": "蚴",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "liu4",
+          "examples": [
+            "蚴屎蛆",
+            "莫蚴"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05205",
+      "character": "蜢",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "mong3",
+          "examples": [
+            "蚱蜢儿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05206",
+      "character": "蠚",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ho2",
+          "examples": [
+            "蠚麻","蠚人"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05207",
+      "character": "蠛",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "me2",
+          "examples": [
+            "蠛蠛蚊儿"
+          ]
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "mie2"
+        }
+      ]
+    },
+    {
+      "id": "ph-05208",
+      "character": "詜",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "tao1",
+          "examples": [
+            "詜人"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05209",
+      "character": "謇",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jian3",
+          "examples": [
+            "謇巴郎"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05210",
+      "character": "譑",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "jiao2",
+          "examples": [
+            "嘴巴譑"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05211",
+      "character": "豇",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiang1",
+          "examples": [
+            "豇豆儿"
+          ]
+        },
+        {
+          "labels": [
+            "正",
+            "变"
+          ],
+          "pinyin": "gang1",
+          "examples": [
+            "豇豆儿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05212",
+      "character": "跍",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "gu1",
+          "examples": [
+            "跍到起"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05213",
+      "character": "踂",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "lie4",
+          "examples": [
+            "踂跐跐(ci1)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05214",
+      "character": "躧",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "li1",
+          "examples": [
+            "躧两脚"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05215",
+      "character": "遢",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ta2",
+          "examples": [
+            "花尔麻遢"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05216",
+      "character": "酽",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lian4",
+          "examples": [
+            "酽茶",
+            "酽搅搅(gao2)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05217",
+      "character": "靸",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "sa2",
+          "examples": [
+            "靸拖鞋"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05218",
+      "character": "鬏",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "jiu1",
+          "examples": [
+            "鬏鬏儿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05219",
+      "character": "鮀",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "to2",
+          "examples": [
+            "江鮀儿(tuar2)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05220",
+      "character": "鲊",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "za3",
+          "examples": [
+            "鲊肉",
+            "烂鲊鲊"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05221",
+      "character": "黢",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "qu1",
+          "examples": [
+            "黢麻打黑",
+            "黑黢麻恐"
+          ]
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "quu2",
+          "examples": [
+            "黢黑"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05222",
+      "character": "鼁",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "que2",
+          "examples": [
+            "鼁块儿"
+          ]
+        },
+        {
+          "labels": [
+            "白",
+            "变",
+            "训"
+          ],
+          "pinyin": "qie2",
+          "examples": [
+            "鼁蟆儿"
+          ]
+        },
+        {
+          "labels": [
+            "白",
+            "变",
+            "训"
+          ],
+          "pinyin": "ke2",
+          "examples": [
+            "鼁蟆儿"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05223",
+      "character": "𠯩",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "za2",
+          "examples": [
+            "𠯩咐"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05224",
+      "character": "𠵫",
+      "readings": [
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "ngang1",
+          "examples": [
+            "𠵫"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05225",
+      "character": "𠿕",
+      "readings": [
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "qiao2",
+          "examples": [
+            "𠿕"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05226",
+      "character": "𢛔",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "dong1",
+          "examples": [
+            "颠𢛔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05227",
+      "character": "𢬑",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "quu2",
+          "examples": [
+            "𢬑眼睛"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05228",
+      "character": "𢺞",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "ba4",
+          "examples": [
+            "𢺞单儿",
+            "𢺞席子"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05229",
+      "character": "𣲩",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "pa1",
+          "examples": [
+            "一𣲩拉","一𣲩屎"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05230",
+      "character": "𧿨",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "ban3",
+          "examples": [
+            "𧿨不动",
+            "𧿨命"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05231",
+      "character": "𨁿",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "zua2",
+          "examples": [
+            "𨁿(啄)球"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05232",
+      "character": "𨃅",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "bai1",
+          "examples": [
+            "𨃅𨃅儿",
+            "𨃅子"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05233",
+      "character": "𨈓",
+      "readings": [
+        {
+          "labels": [
+            "白",
+            "训"
+          ],
+          "pinyin": "lang1",
+          "examples": [
+            "𨈓巴儿",
+            "一𨈓𨈓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05234",
+      "character": "𩛲",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白"
+          ],
+          "pinyin": "mang1",
+          "examples": [
+            "𩛲一口",
+            "𩛲𩛲"
+          ]
+        },
+        {
+          "labels": [
+            "白",
+            "变"
+          ],
+          "pinyin": "mang3",
+          "examples": [
+            "𩛲𩛲"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-05235",
+      "character": "𪽫",
+      "readings": [
+        {
+          "labels": [
+            "正",
+            "白",
+            "训"
+          ],
+          "pinyin": "zua3",
+          "examples": [
+            "𪽫脚𪽫手"
+          ]
         }
       ]
     }
