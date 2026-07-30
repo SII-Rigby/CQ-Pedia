@@ -3,11 +3,19 @@
   topicIndexes: [],
   mode: "idle",
   query: "",
+  searchScopes: new Set(["headword", "pinyin", "definitions"]),
   initial: "",
   wordClass: "",
   topic: "",
   page: 1
 };
+
+const DEFAULT_SEARCH_SCOPES = Object.freeze(["headword", "pinyin", "definitions"]);
+const SEARCH_SCOPES = new Set([
+  ...DEFAULT_SEARCH_SCOPES,
+  "examples",
+  "examplePinyin"
+]);
 
 const INITIALS = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "ng", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "other"];
 const INITIAL_MATCH_ORDER = ["ng", "yu", "b", "p", "m", "f", "v", "d", "t", "l", "g", "k", "h", "j", "q", "x", "z", "c", "s", "r", "y", "w"];
@@ -38,6 +46,8 @@ const els = {
   input: document.querySelector("#searchInput"),
   recentSearchMenu: document.querySelector("#recentSearchMenu"),
   resultsPanel: document.querySelector("#resultsPanel"),
+  quickGuides: document.querySelector("#quickGuides"),
+  idleShare: document.querySelector("#idleShare"),
   results: document.querySelector("#results"),
   count: document.querySelector("#resultCount"),
   label: document.querySelector("#resultLabel"),
@@ -51,6 +61,8 @@ const indexEls = {
   grid: document.querySelector("#initialGrid"),
   tabs: document.querySelectorAll("[data-index-type]"),
   selectedTags: document.querySelector("#selectedTags"),
+  searchScopePanel: document.querySelector("#advancedSearchScopes"),
+  searchScopeButtons: document.querySelectorAll("[data-search-scope]"),
   openButtons: document.querySelectorAll("[data-open-index]")
 };
 
@@ -255,21 +267,6 @@ function variantsOf(entry) {
   return splitList(entry.variants);
 }
 
-function entryText(entry) {
-  const definitions = (entry.definitions || []).map((item) => plainMarkedText(item.text)).join(" ");
-  const definitionNotes = (entry.definitions || []).map((item) => plainMarkedText(item.note)).join(" ");
-  const variants = variantsOf(entry);
-  const notes = [entry.note, entry.notes].filter(Boolean).map(plainMarkedText).join(" ");
-
-  return [
-    plainMarkedText(entry.headword),
-    definitions,
-    definitionNotes,
-    notes,
-    ...variants.map(plainMarkedText)
-  ].join(" ");
-}
-
 function entryDefinitionsText(entry) {
   const definitions = (entry.definitions || [])
     .map((item) => [item.text, item.note].filter(Boolean).map(plainMarkedText).join(" "))
@@ -277,6 +274,15 @@ function entryDefinitionsText(entry) {
   const notes = [entry.note, entry.notes].filter(Boolean).map(plainMarkedText).join(" ");
 
   return [definitions, notes].filter(Boolean).join(" ");
+}
+
+function entryExamplesText(entry) {
+  return (entry.examples || [])
+    .map((example) => [example.text, example.translation]
+      .filter(Boolean)
+      .map(plainMarkedText)
+      .join(" "))
+    .join(" ");
 }
 
 function pinyinFinalOf(base) {
@@ -373,25 +379,58 @@ function pinyinMatchRank(pinyin, query) {
   );
 }
 
+function entryExamplePinyinRank(entry, rawQuery) {
+  return (entry.examples || []).reduce((bestRank, example) => {
+    const examplePinyin = String(example.pinyin || "").replace(/\|/g, " ");
+    const rank = pinyinMatchRank(examplePinyin, rawQuery);
+    return Number.isFinite(rank) ? Math.min(bestRank, rank + 3) : bestRank;
+  }, Number.POSITIVE_INFINITY);
+}
+
 function searchRank(entry, query, rawQuery = query) {
-  const normalizedHeadword = normalizeSearchText(plainMarkedText(entry.headword));
-  if (normalizedHeadword === query) {
-    return -1;
+  let bestRank = Number.POSITIVE_INFINITY;
+
+  if (state.searchScopes.has("headword")) {
+    const normalizedHeadword = normalizeSearchText(plainMarkedText(entry.headword));
+    if (normalizedHeadword === query) {
+      return -1;
+    }
+
+    const headwordFields = [
+      { rank: 0, text: plainMarkedText(entry.headword) },
+      { rank: 1, text: variantsOf(entry).map(plainMarkedText).join(" ") }
+    ];
+    const matchedHeadword = headwordFields.find((field) => (
+      normalizeSearchText(field.text).includes(query)
+    ));
+    if (matchedHeadword) {
+      bestRank = Math.min(bestRank, matchedHeadword.rank);
+    }
   }
 
-  const fields = [
-    { rank: 0, text: plainMarkedText(entry.headword) },
-    { rank: 1, text: variantsOf(entry).map(plainMarkedText).join(" ") },
-    { rank: 3, text: entryDefinitionsText(entry) },
-    { rank: 4, text: entryText(entry) }
-  ];
-  const matchedText = fields.find((field) => normalizeSearchText(field.text).includes(query));
-
-  if (matchedText) {
-    return matchedText.rank;
+  if (
+    state.searchScopes.has("definitions")
+    && normalizeSearchText(entryDefinitionsText(entry)).includes(query)
+  ) {
+    bestRank = Math.min(bestRank, 3);
   }
 
-  return pinyinMatchRank(entry.pinyin, rawQuery);
+  if (
+    state.searchScopes.has("examples")
+    && normalizeSearchText(entryExamplesText(entry)).includes(query)
+  ) {
+    bestRank = Math.min(bestRank, 4);
+  }
+
+  if (state.searchScopes.has("pinyin")) {
+    bestRank = Math.min(bestRank, pinyinMatchRank(entry.pinyin, rawQuery));
+  }
+
+  if (state.searchScopes.has("examplePinyin")) {
+    bestRank = Math.min(bestRank, entryExamplePinyinRank(entry, rawQuery));
+  }
+
+  return bestRank;
 }
 
 function firstSyllables(pinyin) {
@@ -906,15 +945,44 @@ function renderSelectedTags() {
 }
 
 function syncFilterControls() {
+  syncSearchScopeControls();
   indexEls.toggle?.classList.toggle(
     "active",
     Boolean(indexEls.panel && !indexEls.panel.hidden)
   );
-  indexEls.toggle?.classList.toggle("has-filters", hasActiveFilters());
+  indexEls.toggle?.classList.toggle(
+    "has-filters",
+    hasActiveFilters() || hasCustomSearchScopes()
+  );
   indexEls.toggle?.setAttribute(
     "aria-expanded",
     indexEls.panel && !indexEls.panel.hidden ? "true" : "false"
   );
+}
+
+function hasCustomSearchScopes() {
+  return (
+    state.searchScopes.size !== DEFAULT_SEARCH_SCOPES.length
+    || DEFAULT_SEARCH_SCOPES.some((scope) => !state.searchScopes.has(scope))
+  );
+}
+
+function syncSearchScopeControls() {
+  indexEls.searchScopeButtons.forEach((button) => {
+    const selected = state.searchScopes.has(button.dataset.searchScope);
+    button.classList.toggle("active", selected);
+    button.setAttribute("aria-pressed", String(selected));
+  });
+}
+
+function syncIdleExtrasVisibility() {
+  const hidden = state.mode !== "idle" || hasActiveFilters();
+  if (els.quickGuides) {
+    els.quickGuides.hidden = hidden;
+  }
+  if (els.idleShare) {
+    els.idleShare.hidden = hidden;
+  }
 }
 
 function render() {
@@ -929,6 +997,7 @@ function render() {
     : filtered;
 
   els.resultsPanel.hidden = false;
+  syncIdleExtrasVisibility();
   els.count.textContent = `${filtered.length}`;
 
   const labels = activeFilterLabels();
@@ -1134,6 +1203,7 @@ els.form.addEventListener("submit", (event) => {
 
 els.input.addEventListener("focus", showRecentSearches);
 els.input.addEventListener("click", showRecentSearches);
+els.input.addEventListener("input", syncIdleExtrasVisibility);
 
 els.recentSearchMenu?.addEventListener("mousedown", (event) => {
   event.preventDefault();
@@ -1198,6 +1268,57 @@ function updateBackToSearch() {
   els.backToSearch.classList.toggle("visible", visible);
 }
 
+function sharePageUrl() {
+  const url = new URL(window.location.href);
+  url.search = "";
+  url.hash = "";
+  return url.href;
+}
+
+async function copyShareLink() {
+  const url = sharePageUrl();
+
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(url);
+      return true;
+    } catch (error) {
+      // Fall back for local or non-secure pages where Clipboard API may be blocked.
+    }
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = url;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+  document.body.appendChild(textarea);
+
+  try {
+    textarea.select();
+    return document.execCommand("copy");
+  } catch (error) {
+    console.error(error);
+    return false;
+  } finally {
+    textarea.remove();
+  }
+}
+
+els.idleShare?.addEventListener("click", async (event) => {
+  const copyButton = event.target.closest("[data-share-copy]");
+  if (copyButton) {
+    const copied = await copyShareLink();
+    const label = copyButton.querySelector("[data-share-copy-label]");
+    if (label) {
+      label.textContent = copied ? "👌复制完了" : "复制失败";
+      window.setTimeout(() => {
+        label.textContent = "🔗复制链接";
+      }, 1800);
+    }
+  }
+});
+
 if (els.backToSearch) {
   window.addEventListener("scroll", updateBackToSearch, { passive: true });
   window.addEventListener("resize", updateBackToSearch);
@@ -1228,6 +1349,38 @@ indexEls.toggle?.addEventListener("click", () => {
 });
 
 indexEls.panel?.addEventListener("click", (event) => {
+  const advancedFilterToggle = event.target.closest("[data-advanced-filter-toggle]");
+  if (advancedFilterToggle) {
+    const expanded = advancedFilterToggle.getAttribute("aria-expanded") !== "true";
+    advancedFilterToggle.setAttribute("aria-expanded", String(expanded));
+    advancedFilterToggle.textContent = `${expanded ? "▼" : "▲"} 高级筛选`;
+    if (indexEls.searchScopePanel) {
+      indexEls.searchScopePanel.hidden = !expanded;
+    }
+    return;
+  }
+
+  const searchScopeButton = event.target.closest("button[data-search-scope]");
+  if (searchScopeButton) {
+    const scope = searchScopeButton.dataset.searchScope;
+    if (!SEARCH_SCOPES.has(scope)) {
+      return;
+    }
+
+    if (state.searchScopes.has(scope)) {
+      state.searchScopes.delete(scope);
+    } else {
+      state.searchScopes.add(scope);
+    }
+
+    state.page = 1;
+    syncFilterControls();
+    if (state.query) {
+      render();
+    }
+    return;
+  }
+
   const removeButton = event.target.closest("button[data-remove-filter]");
   if (removeButton) {
     syncQueryFromInput();
@@ -1337,6 +1490,7 @@ const MUST_READ_DOCS = [
 
 const modalEls = {
   btn: document.querySelector("#mustReadBtn"),
+  quickBtn: document.querySelector("[data-quick-docs]"),
   modal: document.querySelector("#mustReadModal"),
   list: document.querySelector("#docList"),
   view: document.querySelector("#docView")
@@ -1344,6 +1498,7 @@ const modalEls = {
 
 const docCache = new Map();
 let activeDocId = null;
+let modalReturnFocus = modalEls.btn;
 
 function renderMarkdown(md) {
   const lines = md.replace(/\r\n?/g, "\n").split("\n");
@@ -1568,7 +1723,8 @@ async function showDoc(id) {
   }
 }
 
-function openModal() {
+function openModal(event) {
+  modalReturnFocus = event?.currentTarget || modalEls.btn;
   modalEls.modal.hidden = false;
   document.body.classList.add("modal-open");
   if (!activeDocId) {
@@ -1579,7 +1735,7 @@ function openModal() {
 function closeModal() {
   modalEls.modal.hidden = true;
   document.body.classList.remove("modal-open");
-  modalEls.btn.focus();
+  modalReturnFocus?.focus();
 }
 
 const WELCOME_STORAGE_KEY = "cq-pedia-welcome-dismissed-v1";
@@ -1661,6 +1817,7 @@ function initWelcomeModal() {
 }
 
 modalEls.btn.addEventListener("click", openModal);
+modalEls.quickBtn?.addEventListener("click", openModal);
 
 modalEls.modal.addEventListener("click", (event) => {
   if (event.target.closest("[data-modal-close]")) {

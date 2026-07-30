@@ -571,7 +571,7 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
         <img class="footer-mark" src="../../assets/logo-color.svg" alt="" aria-hidden="true">
         <span>重庆话正音词典</span>
       </span>
-      <span>CQ-Pedia</span>
+      <span class="footer-notice">© 2026 CQ-Pedia · 原创内容采用 <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans" target="_blank" rel="license noopener">CC BY-NC 4.0</a> 许可</span>
     </footer>
   </body>
 </html>
@@ -824,7 +824,7 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
         <img class="footer-mark" src="../../assets/logo-color.svg" alt="" aria-hidden="true">
         <span>重庆话正音词典</span>
       </span>
-      <span>CQ-Pedia</span>
+      <span class="footer-notice">© 2026 CQ-Pedia · 原创内容采用 <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans" target="_blank" rel="license noopener">CC BY-NC 4.0</a> 许可</span>
     </footer>
 
     <button type="button" class="back-to-search" data-back-to-top aria-label="回到顶部">

@@ -4494,7 +4494,15 @@
           "labels": [
             "正"
           ],
-          "pinyin": "yun3"
+          "pinyin": "yun3",
+          "examples": ["永川","永远"]
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yong3",
+          "description": "yun3 的又音。"
         }
       ]
     },
@@ -7251,7 +7259,7 @@
             "正","白"
           ],
           "pinyin": "bei4",
-          "examples": ["闭汗"]
+          "examples": ["闭汗","闭气"]
         }
       ]
     },
@@ -19252,13 +19260,15 @@
           "labels": [
             "正"
           ],
-          "pinyin": "yun2"
+          "pinyin": "yun2",
+          "examples": ["荣昌"]
         },
         {
           "labels": [
             "正"
           ],
-          "pinyin": "yong2"
+          "pinyin": "yong2",
+          "description": "yun2 的又音。"
         }
       ]
     },

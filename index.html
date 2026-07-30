@@ -8,7 +8,7 @@
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" href="assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/logo-color.svg">
-    <link rel="stylesheet" href="styles.css?v=20260722-filter-actions">
+    <link rel="stylesheet" href="styles.css?v=20260731-idle-share-v4">
 
     <!-- 百度统计：仅正式域名加载，过滤 localhost / 127.0.0.1 等本地测试 -->
     <script src="baidu-analytics.js"></script>
@@ -200,16 +200,75 @@
               <button type="button" data-open-index="wordClass">词性索引</button>
               <button type="button" data-open-index="topic">专题索引</button>
             </div>
+            <button type="button" class="advanced-filter-toggle" data-advanced-filter-toggle aria-expanded="false" aria-controls="advancedSearchScopes">▲ 高级筛选</button>
+            <div class="search-scope-options" id="advancedSearchScopes" aria-label="文字搜索范围" hidden>
+              <button type="button" class="active" data-search-scope="headword" aria-pressed="true">词条名</button>
+              <button type="button" class="active" data-search-scope="pinyin" aria-pressed="true">拼音</button>
+              <button type="button" class="active" data-search-scope="definitions" aria-pressed="true">释义</button>
+              <button type="button" data-search-scope="examples" aria-pressed="false">例句</button>
+              <button type="button" data-search-scope="examplePinyin" aria-pressed="false">例句拼音</button>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="results-panel" id="resultsPanel" aria-live="polite" hidden>
+        <nav class="quick-guides" id="quickGuides" aria-label="快速导引" hidden>
+          <button class="quick-guide quick-guide-docs" type="button" data-quick-docs aria-haspopup="dialog" aria-controls="mustReadModal">
+            <span class="quick-guide-copy">
+              <span class="quick-guide-kicker">先看文档</span>
+              <strong>必读</strong>
+            </span>
+            <span class="quick-guide-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 6h16"></path>
+                <path d="M4 12h16"></path>
+                <path d="M4 18h16"></path>
+              </svg>
+            </span>
+          </button>
+
+          <button class="quick-guide quick-guide-topics" type="button" data-topic-menu-trigger data-topic-menu-placement="center" data-topic-root="./" aria-haspopup="dialog" aria-controls="topicNavigationMenu">
+            <span class="quick-guide-copy">
+              <span class="quick-guide-kicker">分类逛词</span>
+              <strong>专题</strong>
+            </span>
+            <span class="quick-guide-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 12h16"></path>
+                <path d="m14 6 6 6-6 6"></path>
+              </svg>
+            </span>
+          </button>
+
+          <a class="quick-guide quick-guide-phonetic" href="phonetic/">
+            <span class="quick-guide-copy">
+              <span class="quick-guide-kicker">听音辨字</span>
+              <strong>音典</strong>
+            </span>
+            <span class="quick-guide-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 4v16"></path>
+                <path d="M4 12h16"></path>
+              </svg>
+            </span>
+          </a>
+        </nav>
+
         <div class="results-head">
           <p id="resultLabel">Search results</p>
           <span id="resultCount">0</span>
         </div>
         <div id="results" class="results"></div>
+
+        <section class="idle-share" id="idleShare" aria-labelledby="idleShareTitle" hidden>
+          <div class="idle-share-heading">
+            <p id="idleShareTitle">觉得网站还要得？散给耍得好的觑一眼 ▶︎</p>
+            <button class="share-copy" type="button" data-share-copy>
+              <span data-share-copy-label>🔗复制链接</span>
+            </button>
+          </div>
+        </section>
       </section>
     </main>
 
@@ -218,7 +277,7 @@
         <img class="footer-mark" src="assets/logo-color.svg" alt="" aria-hidden="true">
         <span>重庆话正音词典</span>
       </span>
-      <span>CQ-Pedia</span>
+      <span class="footer-notice">© 2026 CQ-Pedia · 原创内容采用 <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans" target="_blank" rel="license noopener">CC BY-NC 4.0</a> 许可</span>
     </footer>
 
     <button type="button" class="back-to-search" id="backToSearch" aria-label="回到搜索">
@@ -229,8 +288,8 @@
       </svg>
     </button>
 
-    <script src="topic-menu.js?v=20260722-all-entries"></script>
-    <script src="app.js?v=20260722-no-home-all"></script>
+    <script src="topic-menu.js?v=20260730-trigger-placement"></script>
+    <script src="app.js?v=20260731-idle-share-v5"></script>
     <script src="audio.js?v=20260615-audio"></script>
   </body>
 </html>

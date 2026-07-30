@@ -1,8 +1,9 @@
 (function () {
-  const trigger = document.querySelector("[data-topic-menu-trigger]");
-  if (!trigger) return;
+  const triggers = Array.from(document.querySelectorAll("[data-topic-menu-trigger]"));
+  if (!triggers.length) return;
 
-  const root = trigger.dataset.topicRoot || "./";
+  const root = triggers[0].dataset.topicRoot || "./";
+  let activeTrigger = triggers[0];
   const currentTopicId = document.body.dataset.topicId || "";
   const builtInTopics = [
     {
@@ -98,9 +99,14 @@
     }
   }
 
-  function openMenu() {
+  function openMenu(event) {
+    activeTrigger = event?.currentTarget || triggers[0];
+    menu.classList.toggle(
+      "topic-menu-centered",
+      activeTrigger.dataset.topicMenuPlacement === "center"
+    );
     menu.hidden = false;
-    trigger.setAttribute("aria-expanded", "true");
+    triggers.forEach((trigger) => trigger.setAttribute("aria-expanded", "true"));
     document.body.classList.add("topic-menu-open");
     panel.focus();
   }
@@ -108,13 +114,15 @@
   function closeMenu(restoreFocus = true) {
     if (menu.hidden) return;
     menu.hidden = true;
-    trigger.setAttribute("aria-expanded", "false");
+    triggers.forEach((trigger) => trigger.setAttribute("aria-expanded", "false"));
     document.body.classList.remove("topic-menu-open");
-    if (restoreFocus) trigger.focus();
+    if (restoreFocus) activeTrigger.focus();
   }
 
-  trigger.setAttribute("aria-expanded", "false");
-  trigger.addEventListener("click", openMenu);
+  triggers.forEach((trigger) => {
+    trigger.setAttribute("aria-expanded", "false");
+    trigger.addEventListener("click", openMenu);
+  });
   menu.addEventListener("click", (event) => {
     if (event.target.closest("[data-topic-menu-close]")) closeMenu();
   });
