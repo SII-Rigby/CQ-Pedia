@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-Hans" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>才猫｜川渝四字词语猜读游戏 - CQ-Pedia</title>
+    <meta name="description" content="才猫是 CQ-Pedia 的川渝四字词语猜读游戏：猜写法，也猜声母、韵母和实际声调。">
+    <link rel="canonical" href="https://cqpedia.cn/caimao/">
+    <meta property="og:title" content="才猫｜川渝四字词语猜读游戏">
+    <meta property="og:description" content="十次机会，猜川渝四字词语的写法和读音。">
+    <meta property="og:url" content="https://cqpedia.cn/caimao/">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#f47721">
+    <link rel="icon" href="../assets/logo-color.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../assets/logo-color.svg">
+    <script>
+      (() => {
+        try {
+          const saved = localStorage.getItem("cq-pedia-caimao-theme-v1");
+          const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.dataset.theme = saved || (dark ? "dark" : "light");
+        } catch (_) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="caimao.css?v=20260802-footer-v1">
+    <script src="../baidu-analytics.js"></script>
+    <script src="../posthog.js"></script>
+    <script src="caimao.js?v=20260802-ten-guesses-v1" defer></script>
+  </head>
+  <body>
+    <header class="game-header">
+      <a class="back-link" href="../" aria-label="返回 CQ-Pedia 重庆话正音词典">
+        <img src="../assets/logo-red.svg" alt="" aria-hidden="true">
+        <span>CQ-Pedia</span>
+      </a>
+      <a class="game-wordmark" href="./" aria-label="才猫游戏首页">
+        <img class="cat-mark" src="assets/lucky-cat.png?v=20260802-1" alt="" aria-hidden="true">
+        <strong>才猫</strong>
+      </a>
+      <nav class="game-actions" aria-label="才猫功能">
+        <button type="button" data-open-modal="helpModal">玩法</button>
+        <button type="button" data-open-modal="statsModal">战绩</button>
+        <button type="button" id="themeToggle" aria-label="切换深浅颜色模式" title="切换颜色模式">
+          <span aria-hidden="true" id="themeIcon">🌙</span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="game-shell">
+      <section class="game-intro" aria-labelledby="gameTitle">
+        <div>
+          <p class="eyebrow">川渝四字词语猜读游戏</p>
+          <h1 id="gameTitle">才猫</h1>
+        </div>
+        <div class="mode-panel">
+          <div class="mode-switch" role="group" aria-label="游戏模式">
+            <button type="button" class="active" data-mode="daily" aria-pressed="true">每日一词</button>
+            <button type="button" data-mode="practice" aria-pressed="false">练习</button>
+          </div>
+          <button type="button" class="new-practice" id="newPracticeBtn" hidden>换一题</button>
+        </div>
+      </section>
+
+      <section class="game-status" aria-label="本局信息">
+        <p id="puzzleMeta">载入题目中……</p>
+        <p class="timer"><span aria-hidden="true">◷</span><span id="timerText">00:00</span></p>
+      </section>
+
+      <section class="board-panel" aria-label="才猫猜词棋盘">
+        <div class="board" id="board" aria-live="polite"></div>
+        <p class="game-notice" id="gameNotice" role="status" hidden></p>
+      </section>
+
+      <section class="composer" id="composer" aria-labelledby="composerTitle">
+        <div id="wordStep">
+          <div class="composer-heading">
+            <div>
+              <p class="step-label">第一步</p>
+              <h2 id="composerTitle">填四个字</h2>
+            </div>
+            <button type="button" class="helper-button" id="openRareHelper">
+              <span aria-hidden="true">𰻞</span> 难字助手
+            </button>
+          </div>
+          <div class="character-inputs" id="characterInputs" aria-label="输入四个汉字">
+            <input type="text" inputmode="text" autocomplete="off" aria-label="第一个字">
+            <input type="text" inputmode="text" autocomplete="off" aria-label="第二个字">
+            <input type="text" inputmode="text" autocomplete="off" aria-label="第三个字">
+            <input type="text" inputmode="text" autocomplete="off" aria-label="第四个字">
+          </div>
+          <button type="button" class="primary-action" id="toPronunciation">校对读音</button>
+          <p class="composer-tip">可提交任意四个汉字；难写的字可以按重庆话拼音找。</p>
+        </div>
+
+        <div id="pronunciationStep" hidden>
+          <div class="composer-heading">
+            <div>
+              <p class="step-label">第二步</p>
+              <h2>校对你想提交的读音</h2>
+            </div>
+            <button type="button" class="text-action" id="backToWord">返回改字</button>
+          </div>
+          <div class="reading-editor" id="readingEditor"></div>
+          <button type="button" class="primary-action" id="submitGuess">提交这一猜</button>
+          <p class="composer-tip">只填实际声调。例如 <code>zen1-4</code> 的实际调是 <code>4</code>，提交时写 <code>zen4</code>。</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="game-footer">
+      <span class="footer-brand">
+        <img src="assets/lucky-cat.png?v=20260802-1" alt="" aria-hidden="true">
+        <span>才猫 · CQ-Pedia</span>
+      </span>
+      <span class="footer-notice">© 2026 CQ-Pedia · 原创内容采用 <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans" target="_blank" rel="license noopener">CC BY-NC 4.0</a> 许可</span>
+    </footer>
+
+    <div class="game-modal" id="helpModal" role="dialog" aria-modal="true" aria-labelledby="helpTitle" hidden>
+      <div class="modal-shade" data-close-modal></div>
+      <section class="modal-card help-card" tabindex="-1">
+        <header>
+          <div>
+            <p class="step-label">HOW TO PLAY</p>
+            <h2 id="helpTitle">玩法</h2>
+          </div>
+          <button type="button" class="close-button" data-close-modal aria-label="关闭玩法说明">×</button>
+        </header>
+        <div class="help-copy">
+          <p>你有十次机会。每次先填四个字，再确认每个字的重庆话读音。</p>
+          <div class="legend">
+            <span><i data-state="correct"></i>内容和位置都对</span>
+            <span><i data-state="present"></i>有这个内容，但位置不对</span>
+            <span><i data-state="absent"></i>答案里没有或数量多了</span>
+          </div>
+          <p>每格会分别判断<strong>字、声母、韵母、声调</strong>。答案有多套收录读音时，任何一套都算对。</p>
+          <p>变调只判断最后的实际调值：<code>zen1-4</code> 按 <code>zen4</code> 判断。写法全对但读音没全对，或者读音全对但写法不同，都可以继续猜。</p>
+          <p>题目中的儿化“儿”不单独占一格，但儿化后的韵母仍要读对。</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="game-modal" id="statsModal" role="dialog" aria-modal="true" aria-labelledby="statsTitle" hidden>
+      <div class="modal-shade" data-close-modal></div>
+      <section class="modal-card stats-card" tabindex="-1">
+        <header>
+          <div>
+            <p class="step-label">YOUR RECORD</p>
+            <h2 id="statsTitle">战绩</h2>
+          </div>
+          <button type="button" class="close-button" data-close-modal aria-label="关闭战绩">×</button>
+        </header>
+        <div id="statsContent"></div>
+      </section>
+    </div>
+
+    <div class="game-modal" id="rareHelperModal" role="dialog" aria-modal="true" aria-labelledby="rareHelperTitle" hidden>
+      <div class="modal-shade" data-close-modal></div>
+      <section class="modal-card rare-card" tabindex="-1">
+        <header>
+          <div>
+            <p class="step-label">CHARACTER FINDER</p>
+            <h2 id="rareHelperTitle">重庆话难字助手</h2>
+          </div>
+          <button type="button" class="close-button" data-close-modal aria-label="关闭难字助手">×</button>
+        </header>
+        <label class="rare-search">
+          <span>按字或重庆话拼音找</span>
+          <input type="search" id="rareSearchInput" placeholder="例如：ka1、黢、qu" autocomplete="off">
+        </label>
+        <p class="rare-hint" id="rareHint">输入拼音、声母、韵母、声调或汉字，再点选要填入的字。</p>
+        <div class="rare-results" id="rareResults"></div>
+      </section>
+    </div>
+
+    <div class="game-modal" id="resultModal" role="dialog" aria-modal="true" aria-labelledby="resultTitle" hidden>
+      <div class="modal-shade"></div>
+      <section class="modal-card result-card" tabindex="-1">
+        <p class="result-kicker" id="resultKicker">本局结束</p>
+        <h2 id="resultTitle">猜对了！</h2>
+        <p class="result-answer" id="resultAnswer"></p>
+        <p class="result-reading" id="resultReading"></p>
+        <p class="result-definition" id="resultDefinition"></p>
+        <div class="result-summary" id="resultSummary"></div>
+        <div class="result-actions">
+          <button type="button" class="primary-action" id="shareResult">分享结果</button>
+          <a id="answerLink" href="../">查看词条</a>
+          <button type="button" class="text-action" id="closeResult">看看棋盘</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  </body>
+</html>

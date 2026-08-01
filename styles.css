@@ -797,6 +797,74 @@ h1 {
   background: var(--blue);
 }
 
+.quick-guide-caimao {
+  grid-column: 1 / -1;
+  min-height: 104px;
+  gap: clamp(14px, 3vw, 26px);
+  padding: 13px clamp(18px, 4vw, 34px);
+  background-color: #fff8ef;
+  background-image:
+    linear-gradient(90deg, rgba(201, 149, 75, 0.12) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(138, 90, 43, 0.1) 1px, transparent 1px),
+    repeating-linear-gradient(135deg, transparent 0 34px, rgba(201, 149, 75, 0.08) 34px 36px),
+    radial-gradient(circle at 12% 0%, rgba(255, 216, 189, 0.3), transparent 38%);
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: 18px 18px, 18px 18px, 72px 72px, auto;
+  box-shadow: 7px 7px 0 var(--ink), inset 0 6px 0 #f47721;
+}
+
+.quick-guide-caimao::after {
+  display: none;
+}
+
+.quick-guide-caimao-logo {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 76px;
+  height: 76px;
+  flex: 0 0 76px;
+  object-fit: contain;
+  filter: drop-shadow(2px 4px 0 rgba(71, 41, 14, 0.3));
+}
+
+.quick-guide-caimao-copy {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  min-width: 0;
+  align-content: center;
+}
+
+.quick-guide-caimao .quick-guide-kicker {
+  background: #b5291d;
+}
+
+.quick-guide-caimao-title {
+  display: flex;
+  min-width: 0;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.28em;
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: clamp(20px, 3vw, 34px);
+  font-weight: 900;
+  line-height: 1.15;
+}
+
+.quick-guide-caimao-title strong {
+  color: #b5291d;
+  font-size: 1.18em;
+}
+
+.quick-guide-caimao-separator {
+  color: #f47721;
+  font-family: var(--font-sans);
+  font-weight: 950;
+}
+
 .results-panel {
   max-width: 1120px;
   margin: -28px auto 74px;
@@ -2780,6 +2848,22 @@ body.modal-open {
     white-space: nowrap;
   }
 
+  .quick-guide-caimao {
+    min-height: 88px;
+    gap: 12px;
+    padding: 10px 16px;
+  }
+
+  .quick-guide-caimao-logo {
+    width: 60px;
+    height: 60px;
+    flex-basis: 60px;
+  }
+
+  .quick-guide-caimao-title {
+    font-size: clamp(17px, 4.2vw, 25px);
+  }
+
   .results-head {
     padding: 12px 14px;
     box-shadow: 6px 6px 0 var(--ink);
@@ -2970,6 +3054,22 @@ body.modal-open {
 
   .quick-guide-kicker {
     font-size: 8px;
+  }
+
+  .quick-guide-caimao {
+    min-height: 76px;
+    gap: 8px;
+    padding: 8px 10px;
+  }
+
+  .quick-guide-caimao-logo {
+    width: 48px;
+    height: 48px;
+    flex-basis: 48px;
+  }
+
+  .quick-guide-caimao-title {
+    font-size: clamp(14px, 4.1vw, 18px);
   }
 
   .welcome-window {
