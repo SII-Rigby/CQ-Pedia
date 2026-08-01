@@ -6,6 +6,7 @@ assets/*.pptx
 scripts/add_entries.py
 scripts/submit_indexnow.py
 .codex_tmp/
+.cq-workflow/
 
 data/new-entries.json
 data/*字.txt

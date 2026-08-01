@@ -1,5 +1,6 @@
 ﻿const state = {
   entries: [],
+  entriesStatus: "loading",
   topicIndexes: [],
   mode: "idle",
   query: "",
@@ -238,7 +239,10 @@ function seededRandom(seed) {
 
 function dailyEntries(entries, count) {
   const random = seededRandom(hashSeed(`daily-entries:${todaysSeedKey()}`));
-  const shuffled = entries.slice();
+  const shuffled = entries.filter((entry) => {
+    const tags = Array.isArray(entry.tag) ? entry.tag : splitList(entry.tag);
+    return !tags.some((tag) => String(tag).trim() === "粗俗");
+  });
 
   for (let index = shuffled.length - 1; index > 0; index -= 1) {
     const target = Math.floor(random() * (index + 1));
@@ -1011,7 +1015,15 @@ function render() {
   }
 
   if (!filtered.length) {
-    els.results.innerHTML = '<p class="empty">没有找到符合条件的词条。</p>';
+    if (state.entriesStatus === "loading") {
+      els.count.textContent = "…";
+      els.results.innerHTML = '<p class="empty">词条载入中…</p>';
+    } else if (state.entriesStatus === "error") {
+      els.count.textContent = "载入失败";
+      els.results.innerHTML = '<p class="empty">词条载入失败，请稍后刷新重试。</p>';
+    } else {
+      els.results.innerHTML = '<p class="empty">没有找到符合条件的词条。</p>';
+    }
     updateBackToSearch();
     return;
   }
@@ -1166,9 +1178,11 @@ async function loadEntries() {
     const payload = await response.json();
     state.entries = payload.entries || [];
     state.topicIndexes = await loadTopicIndexes();
+    state.entriesStatus = "ready";
     setIndexType("initial");
     render();
   } catch (error) {
+    state.entriesStatus = "error";
     state.mode = "search";
     els.resultsPanel.hidden = false;
     els.count.textContent = "载入失败";
@@ -1485,6 +1499,7 @@ loadEntries();
 const MUST_READ_DOCS = [
   { id: "phonology", title: "重庆方言音系介绍", file: "docs/phonology.md" },
   { id: "pinyin-scheme", title: "重庆话拼音方案", file: "docs/pinyin-scheme.md" },
+  { id: "connected-speech", title: "重庆话的吞音与连读", file: "docs/connected-speech.md" },
   { id: "usage", title: "使用说明", file: "docs/usage.md" }
 ];
 

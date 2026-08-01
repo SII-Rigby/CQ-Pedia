@@ -3,6 +3,7 @@
   const MUST_READ_DOCS = [
     { id: "phonology", title: "重庆方言音系介绍", file: "docs/phonology.md" },
     { id: "pinyin-scheme", title: "重庆话拼音方案", file: "docs/pinyin-scheme.md" },
+    { id: "connected-speech", title: "重庆话的吞音与连读", file: "docs/connected-speech.md" },
     { id: "usage", title: "使用说明", file: "docs/usage.md" }
   ];
 

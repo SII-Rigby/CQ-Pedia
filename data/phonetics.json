@@ -26437,11 +26437,12 @@
           "labels": [
             "正"
           ],
-          "pinyin": "cao4"
+          "pinyin": "cao4",
+          "examples": ["创造","造船"]
         },
         {
           "labels": [
-            "白"
+            "正"
           ],
           "pinyin": "zao4",
           "examples": ["造孽"]
