@@ -6874,7 +6874,8 @@
           "labels": [
             "变","白"
           ],
-          "pinyin": "za3"
+          "pinyin": "za3",
+          "examples": ["麻麻杂杂(鲊鲊)"]
         }
       ]
     },
@@ -12995,7 +12996,15 @@
           "labels": [
             "白"
           ],
-          "pinyin": "ma2"
+          "pinyin": "ma2",
+          "examples": ["抹桌子"]
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "ma3",
+          "examples": ["吃干抹(马)净","抹(码)盐巴"]
         }
       ]
     },
@@ -13346,6 +13355,12 @@
             "正"
           ],
           "pinyin": "bao4"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "bao1"
         }
       ]
     },
