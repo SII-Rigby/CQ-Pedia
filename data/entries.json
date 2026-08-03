@@ -8970,7 +8970,7 @@
       "pinyin": "tao2 sen2",
       "wordClass": "形容词",
       "definitions": [{"text":"令人费神、耗费精力。常形容小孩难以管束、抚养。"}],
-      "examples": [{"text":"养这娃儿淘神得很，要么就生病，病好了诶又天天_儿耍横。","pinyin":"yang3 le4 wa2 er2-1 tao2 sen2 de2 hen3 yao4 ma1 dou4 sen1 bin4 bin4 hao3 lao3 æ1 you4 tian1 tiar1 sua3 hun2","translation":"养这个孩子很让人费神，经常地生病，病好了又成天耍无赖。"}]
+      "examples": [{"text":"养这娃儿淘神得很，要么就生病，病好了欸又天天_儿耍横。","pinyin":"yang3 le4 wa2 er2-1 tao2 sen2 de2 hen3 yao4 ma1 dou4 sen1 bin4 bin4 hao3 lao3 æ1 you4 tian1 tiar1 sua3 hun2","translation":"养这个孩子很让人费神，经常地生病，病好了又成天耍无赖。"}]
     },
     {
       "id": "cq-01071",
@@ -9995,24 +9995,25 @@
       "wordClass": "语气词；叹词",
       "variants": ["也"],
       "definitions": [{"text":"单独使用的叹词。表示惊讶(ye1)、疑惑(ye4)、调侃(ye3)等情感。"},{"text":"句末语气词。表示疑问(ye1/ye4)、反问(ye1/ye4)、肯定或惊喜(ye1/ye3)等情感。表示疑问的时候情况近似于「咹(æ1/æ4)」。","note":"零声母句末语气词（如 e/æ/a/o）在前字韵尾偏向齐齿或撮口口型(i/ai/ei/ü等)时音变为 ye/yæ/ya/yo；偏向合口口型(u/ao/ou等)时变为 we/wæ/wa/wo；前字以前鼻音韵尾(an/en等)结尾时变为 ne/næ/na/no；前字以后鼻音韵尾(ang等)结尾时变为 nge/ngæ/nga/ngo；前字以er或儿化收束变为 le/læ/la/lo。"}],
-      "examples": [{"text":"耶，你啷个来了。 | 耶，我钥匙咹？ | 耶，操得可以哟。","pinyin":"ye1 li3 lang3 gə4-1 lai2 lao3 | ye4 wo3 yo2 si2 æ1 | ye3 cao3 de2 ko3 yi3 yo4","translation":"咦，你怎么来了。 | 诶，我的钥匙呢？ | 哟呵，混得不错嘛。"},{"text":"你耶？ | 味道_儿还可以耶。","pinyin":"li3 ye1 | wei4 dar4 hai2 ko3 yi3 ye3","translation":"你呢？ | 味道还可以嘛。"}]
+      "examples": [{"text":"耶，你啷个来了。 | 耶，我钥匙咹？ | 耶，操得可以哟。","pinyin":"ye1 li3 lang3 gə4-1 lai2 lao3 | ye4 wo3 yo2 si2 æ1 | ye3 cao3 de2 ko3 yi3 yo4","translation":"咦，你怎么来了。 | 欸，我的钥匙呢？ | 哟呵，混得不错嘛。"},{"text":"你耶？ | 味道_儿还可以耶。","pinyin":"li3 ye1 | wei4 dar4 hai2 ko3 yi3 ye3","translation":"你呢？ | 味道还可以嘛。"}]
     },
     {
       "id": "cq-01194",
-      "headword": "耶诶",
+      "headword": "耶欸",
       "pinyin": "ye4 e3",
       "wordClass": "叹词",
-      "variants": ["耶~"],
+      "variants": ["耶诶","耶~"],
       "definitions": [{"text":"表示调侃、惊讶、疑惑等情感。常可拖长声音、声调反复弯拐，以表达强烈的调侃、阴阳怪气之感。"}],
       "examples": [{"text":"耶诶，中了五十万都不肯请我们这些兄弟伙吃顿火锅_儿啊？","pinyin":"ye4 e3 zong1 lao3 vu3 si2 wan4 dou1 bu2 ken3 qin3 wo3 men1 le4 xi1 xiong1 di4 ho3 ci2 den4 ho3 guer1 a1"}]
     },
     {
       "id": "cq-01195",
-      "headword": "诶",
+      "headword": "欸",
       "pinyin": "e3 / e1 / e4",
       "wordClass": "语气词；叹词",
+      "variants": ["诶"],
       "definitions": [{"text":"单独使用的叹词。表示招呼、应答、惊讶、疑问等。具体语气随音调而异。"},{"text":"句末语气词。表示肯定(e3)、惊喜(e3/e1)或疑问(e1/e4)。和 æ1/æ3/æ4 相通，通常属于自由变体范畴。","note":"零声母句末语气词（如 e/æ/a/o）在前字韵尾偏向齐齿或撮口口型(i/ai/ei/ü等)时音变为 ye/yæ/ya/yo；偏向合口口型(u/ao/ou等)时变为 we/wæ/wa/wo；前字以前鼻音韵尾(an/en等)结尾时变为 ne/næ/na/no；前字以后鼻音韵尾(ang等)结尾时变为 nge/ngæ/nga/ngo；前字以er或儿化收束变为 le/læ/la/lo。"}],
-      "examples": [{"text":"诶，你等我一下唦。 | 诶，不对头啊。","pinyin":"e3 li3 den3 wo3 yi2 ha4 sa4 | e4 bu2 dui4 tou2 æ1","translation":"哎，你等我一下。 | 咦，不对啊。"},{"text":"他还有点_儿东西诶。 | 你啷个不说诶？","pinyin":"ta1 hai2 you3 diar3 dong1 xi1 e1 | li3 lang3 gə4-1 bu2 so2 e1","translation":"他还有点儿能耐呢。 | 你怎么不说呢？"}]
+      "examples": [{"text":"欸，你等我一下唦。 | 欸，不对头啊。","pinyin":"e3 li3 den3 wo3 yi2 ha4 sa4 | e4 bu2 dui4 tou2 æ1","translation":"哎，你等我一下。 | 咦，不对啊。"},{"text":"他还有点_儿东西欸。 | 你啷个不说欸？","pinyin":"ta1 hai2 you3 diar3 dong1 xi1 e1 | li3 lang3 gə4-1 bu2 so2 e1","translation":"他还有点儿能耐呢。 | 你怎么不说呢？"}]
     },
     {
       "id": "cq-01196",

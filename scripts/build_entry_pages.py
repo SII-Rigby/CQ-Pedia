@@ -903,6 +903,7 @@ def write_sitemap(entries: list[dict], topics: list[dict]) -> None:
     urls = [
         f"  <url><loc>{SITE_URL}/</loc></url>",
         f"  <url><loc>{SITE_URL}/phonetic/</loc></url>",
+        f"  <url><loc>{SITE_URL}/quiz/</loc></url>",
     ]
     urls.extend(f"  <url><loc>{SITE_URL}/items/{escape(entry['id'])}/</loc></url>" for entry in entries)
     urls.extend(f"  <url><loc>{SITE_URL}/topics/{escape(topic['id'])}/</loc></url>" for topic in topics)
@@ -917,7 +918,7 @@ def write_sitemap(entries: list[dict], topics: list[dict]) -> None:
 
 
 def write_urls(entries: list[dict], topics: list[dict]) -> None:
-    urls = [f"{SITE_URL}/phonetic/"]
+    urls = [f"{SITE_URL}/phonetic/", f"{SITE_URL}/quiz/"]
     urls.extend(f"{SITE_URL}/items/{entry['id']}/" for entry in entries)
     urls.extend(f"{SITE_URL}/topics/{topic['id']}/" for topic in topics)
     URLS_PATH.write_text("\n".join(urls) + "\n", encoding="utf-8", newline="\n")

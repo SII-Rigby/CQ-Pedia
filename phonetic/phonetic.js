@@ -20,8 +20,11 @@ const els = {
   mustReadModal: document.querySelector("#mustReadModal"),
   docList: document.querySelector("#docList"),
   docView: document.querySelector("#docView"),
-  aboutBtn: document.querySelector("#aboutBtn"),
+  aboutButtons: document.querySelectorAll("[data-open-about]"),
   aboutModal: document.querySelector("#aboutModal"),
+  moreWrap: document.querySelector(".more-menu"),
+  moreBtn: document.querySelector("#moreBtn"),
+  moreMenu: document.querySelector("#moreMenu"),
   labelHelpBtn: document.querySelector("#labelHelpBtn"),
   labelHelpModal: document.querySelector("#labelHelpModal"),
   labelHelpCard: document.querySelector("#labelHelpCard")
@@ -737,7 +740,21 @@ function closeMustReadModal() {
   document.body.classList.remove("modal-open");
 }
 
+function setMoreMenuOpen(open, restoreFocus = false) {
+  if (!els.moreBtn || !els.moreMenu) return;
+  els.moreMenu.hidden = !open;
+  els.moreBtn.setAttribute("aria-expanded", String(open));
+  document.body.classList.toggle("topic-menu-open", open);
+
+  if (open) {
+    els.moreMenu.querySelector(".topic-menu-panel")?.focus();
+  } else if (restoreFocus) {
+    els.moreBtn.focus();
+  }
+}
+
 function openAboutModal() {
+  setMoreMenuOpen(false);
   els.aboutModal.hidden = false;
   document.body.classList.add("modal-open");
 }
@@ -875,12 +892,46 @@ els.docList.addEventListener("click", (event) => {
   if (button) showDoc(button.dataset.doc);
 });
 
-els.aboutBtn.addEventListener("click", openAboutModal);
+els.aboutButtons.forEach((button) => button.addEventListener("click", openAboutModal));
 els.aboutModal.addEventListener("click", (event) => {
   if (event.target.closest("[data-about-close]")) {
     closeAboutModal();
   }
 });
+
+if (els.moreBtn && els.moreMenu) {
+  els.moreBtn.addEventListener("click", () => setMoreMenuOpen(els.moreMenu.hidden));
+  els.moreBtn.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      setMoreMenuOpen(true);
+    }
+  });
+  els.moreMenu.addEventListener("click", (event) => {
+    if (event.target.closest("[data-more-menu-close]")) {
+      setMoreMenuOpen(false, true);
+    }
+  });
+  els.moreMenu.addEventListener("keydown", (event) => {
+    const items = Array.from(els.moreMenu.querySelectorAll('[role="menuitem"]'));
+    const index = items.indexOf(document.activeElement);
+    if (event.key === "Escape") {
+      event.preventDefault();
+      setMoreMenuOpen(false, true);
+    } else if (event.key === "ArrowDown") {
+      event.preventDefault();
+      items[(index + 1 + items.length) % items.length]?.focus();
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      items[(index - 1 + items.length) % items.length]?.focus();
+    }
+  });
+  document.addEventListener("click", (event) => {
+    if (!els.moreMenu.hidden && !els.moreWrap?.contains(event.target) && !els.moreMenu.contains(event.target)) {
+      setMoreMenuOpen(false);
+    }
+  });
+}
 
 if (els.labelHelpBtn && els.labelHelpModal) {
   els.labelHelpBtn.addEventListener("click", openLabelHelpModal);
@@ -900,6 +951,7 @@ document.addEventListener("keydown", (event) => {
   if (!els.detailModal.hidden) closeDetail();
   if (!els.mustReadModal.hidden) closeMustReadModal();
   if (!els.aboutModal.hidden) closeAboutModal();
+  if (els.moreMenu && !els.moreMenu.hidden) setMoreMenuOpen(false, true);
   if (els.labelHelpModal && !els.labelHelpModal.hidden) closeLabelHelpModal();
 });
 

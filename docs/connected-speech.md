@@ -65,6 +65,7 @@
 | 你们 | `li3 men1` | `li3 m1` |
 | 他们 | `ta1 men1` | `ta1 m1` |
 | 快点儿 | `kuai4 diar3` | `kuar4 ar3` / `kuar4` （快儿） |
+| 今天儿 | `jin1 tiar1` | `jin1 ar1` / `jiar1` （今儿） |
 | 起来 | `qi3 lai2` | `qi3 ai2` |
 | 恁个 | `len4 gə4-1` | `leng4 ngə1` / `leng4` |
 | 啷个 | `lang3 gə4-1` | `lang3 ngə1` / `lang3` |

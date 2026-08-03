@@ -68,8 +68,15 @@ const indexEls = {
 };
 
 const aboutEls = {
-  btn: document.querySelector("#aboutBtn"),
-  modal: document.querySelector("#aboutModal")
+  buttons: document.querySelectorAll("[data-open-about]"),
+  modal: document.querySelector("#aboutModal"),
+  returnFocus: null
+};
+
+const moreEls = {
+  wrap: document.querySelector(".more-menu"),
+  btn: document.querySelector("#moreBtn"),
+  menu: document.querySelector("#moreMenu")
 };
 
 const welcomeEls = {
@@ -77,7 +84,7 @@ const welcomeEls = {
   announcement: document.querySelector("#welcomeAnnouncement"),
   startButtons: document.querySelectorAll("[data-welcome-start]"),
   docButton: document.querySelector("[data-welcome-doc]"),
-  aboutButton: document.querySelector("[data-welcome-about]")
+  quizLink: document.querySelector("[data-welcome-quiz]")
 };
 
 const normalize = (value) => String(value || "").trim().toLowerCase();
@@ -1463,7 +1470,26 @@ indexEls.modal?.addEventListener("click", (event) => {
   document.querySelector("#resultsPanel").scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
+function setMoreMenuOpen(open, restoreFocus = false) {
+  if (!moreEls.btn || !moreEls.menu) return;
+
+  moreEls.menu.hidden = !open;
+  moreEls.btn.setAttribute("aria-expanded", String(open));
+  moreEls.wrap?.classList.toggle("open", open);
+  document.body.classList.toggle("topic-menu-open", open);
+
+  if (open) {
+    moreEls.menu.querySelector(".topic-menu-panel")?.focus();
+  } else if (restoreFocus) {
+    moreEls.btn.focus();
+  }
+}
+
 function openAboutModal() {
+  aboutEls.returnFocus = moreEls.menu?.contains(document.activeElement)
+    ? moreEls.btn
+    : document.activeElement;
+  setMoreMenuOpen(false);
   aboutEls.modal.hidden = false;
   document.body.classList.add("modal-open");
 }
@@ -1471,15 +1497,64 @@ function openAboutModal() {
 function closeAboutModal() {
   aboutEls.modal.hidden = true;
   document.body.classList.remove("modal-open");
-  aboutEls.btn?.focus();
+  const target = aboutEls.returnFocus?.isConnected ? aboutEls.returnFocus : moreEls.btn;
+  aboutEls.returnFocus = null;
+  target?.focus();
 }
 
-if (aboutEls.btn && aboutEls.modal) {
-  aboutEls.btn.addEventListener("click", openAboutModal);
+if (aboutEls.buttons.length && aboutEls.modal) {
+  aboutEls.buttons.forEach((button) => button.addEventListener("click", openAboutModal));
 
   aboutEls.modal.addEventListener("click", (event) => {
     if (event.target.closest("[data-about-close]")) {
       closeAboutModal();
+    }
+  });
+}
+
+if (moreEls.btn && moreEls.menu) {
+  moreEls.btn.addEventListener("click", () => {
+    setMoreMenuOpen(moreEls.menu.hidden);
+  });
+
+  moreEls.btn.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      setMoreMenuOpen(true);
+    }
+  });
+
+  moreEls.menu.addEventListener("keydown", (event) => {
+    const items = Array.from(moreEls.menu.querySelectorAll('[role="menuitem"]'));
+    const index = items.indexOf(document.activeElement);
+
+    if (event.key === "Escape") {
+      event.preventDefault();
+      setMoreMenuOpen(false, true);
+    } else if (event.key === "ArrowDown") {
+      event.preventDefault();
+      items[(index + 1 + items.length) % items.length]?.focus();
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      items[(index - 1 + items.length) % items.length]?.focus();
+    } else if (event.key === "Home") {
+      event.preventDefault();
+      items[0]?.focus();
+    } else if (event.key === "End") {
+      event.preventDefault();
+      items.at(-1)?.focus();
+    }
+  });
+
+  moreEls.menu.addEventListener("click", (event) => {
+    if (event.target.closest("[data-more-menu-close]")) {
+      setMoreMenuOpen(false, true);
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!moreEls.menu.hidden && !moreEls.wrap?.contains(event.target) && !moreEls.menu.contains(event.target)) {
+      setMoreMenuOpen(false);
     }
   });
 }
@@ -1821,10 +1896,7 @@ function initWelcomeModal() {
     showDoc("phonology");
   });
 
-  welcomeEls.aboutButton?.addEventListener("click", () => {
-    closeWelcomeModal(true);
-    openAboutModal();
-  });
+  welcomeEls.quizLink?.addEventListener("click", () => closeWelcomeModal(true));
 
   if (isReloadNavigation() || !welcomeDismissed()) {
     openWelcomeModal();
@@ -1846,6 +1918,11 @@ document.addEventListener("keydown", (event) => {
   }
 
   setRecentSearchMenuVisible(false);
+
+  if (moreEls.menu && !moreEls.menu.hidden) {
+    setMoreMenuOpen(false, true);
+    return;
+  }
 
   if (!modalEls.modal.hidden) {
     closeModal();

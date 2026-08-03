@@ -177,6 +177,17 @@ button {
   background: var(--blue);
 }
 
+.more-menu {
+  position: relative;
+  display: flex;
+  height: 100%;
+  border-right: 3px solid var(--line);
+}
+
+.top-nav .more-menu .more-trigger {
+  border-right: 0;
+}
+
 main {
   position: relative;
 }
@@ -659,9 +670,10 @@ h1 {
 
 .quick-guides {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
-  margin: 0 0 26px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  column-gap: 24px;
+  row-gap: 22px;
+  margin: 0 0 24px;
   font-family: var(--font-sans);
 }
 
@@ -797,11 +809,20 @@ h1 {
   background: var(--blue);
 }
 
+.quick-guide-docs,
+.quick-guide-topics,
+.quick-guide-phonetic {
+  grid-column: span 2;
+}
+
+.quick-guide-game {
+  grid-column: span 3;
+}
+
 .quick-guide-caimao {
-  grid-column: 1 / -1;
   min-height: 104px;
-  gap: clamp(14px, 3vw, 26px);
-  padding: 13px clamp(18px, 4vw, 34px);
+  gap: clamp(12px, 2vw, 22px);
+  padding: 13px clamp(14px, 2.4vw, 26px);
   background-color: #fff8ef;
   background-image:
     linear-gradient(90deg, rgba(201, 149, 75, 0.12) 1px, transparent 1px),
@@ -811,7 +832,23 @@ h1 {
   background-position: 0 0;
   background-repeat: repeat;
   background-size: 18px 18px, 18px 18px, 72px 72px, auto;
-  box-shadow: 7px 7px 0 var(--ink), inset 0 6px 0 #f47721;
+  box-shadow: 7px 7px 0 var(--ink);
+}
+
+.quick-guide-caimao::before,
+.quick-guide-quiz::before {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 6px;
+  content: "";
+  background: #f47721;
+}
+
+.quick-guide-quiz::before {
+  background: #2ca58d;
 }
 
 .quick-guide-caimao::after {
@@ -842,27 +879,103 @@ h1 {
 }
 
 .quick-guide-caimao-title {
-  display: flex;
+  display: grid;
   min-width: 0;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 0.28em;
+  align-content: center;
+  gap: 2px;
   color: var(--ink);
   font-family: var(--font-serif);
-  font-size: clamp(20px, 3vw, 34px);
   font-weight: 900;
   line-height: 1.15;
 }
 
-.quick-guide-caimao-title strong {
+.quick-guide-caimao-title strong,
+.quick-guide-quiz-title strong {
   color: #b5291d;
-  font-size: 1.18em;
+  font-size: clamp(20px, 2.45vw, 30px);
+  white-space: nowrap;
+}
+
+.quick-guide-caimao-title > span:last-child,
+.quick-guide-quiz-title > span {
+  overflow: hidden;
+  font-family: var(--font-sans);
+  font-size: clamp(11px, 1.05vw, 13px);
+  font-weight: 800;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .quick-guide-caimao-separator {
-  color: #f47721;
-  font-family: var(--font-sans);
-  font-weight: 950;
+  display: none;
+}
+
+.quick-guide-quiz {
+  min-height: 104px;
+  gap: clamp(12px, 2vw, 22px);
+  padding: 13px clamp(14px, 2.4vw, 26px);
+  background-color: #fffdf7;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='72' viewBox='0 0 160 72'%3E%3Cg fill='none' stroke='%232ca58d' stroke-width='2' stroke-opacity='.14'%3E%3Ccircle cx='14' cy='18' r='6'/%3E%3Cpath d='M27 18h35'/%3E%3Ccircle cx='88' cy='18' r='6'/%3E%3Cpath d='M101 18h43'/%3E%3Ccircle cx='48' cy='54' r='6'/%3E%3Cpath d='M61 54h35'/%3E%3Ccircle cx='122' cy='54' r='6'/%3E%3Cpath d='M135 54h19'/%3E%3C/g%3E%3Ccircle cx='88' cy='18' r='3' fill='%23f3a712' fill-opacity='.32'/%3E%3Cpath d='m44 54 3 3 6-7' fill='none' stroke='%23b7282e' stroke-width='2.4' stroke-linecap='square' stroke-linejoin='miter' stroke-opacity='.25'/%3E%3C/svg%3E");
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: 160px 72px;
+  box-shadow: 7px 7px 0 var(--ink);
+}
+
+.quick-guide-quiz-mark {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  place-items: center;
+  background: #173b3f;
+  border: 3px solid var(--ink);
+  border-radius: 18px 18px 9px 9px;
+  box-shadow: 4px 4px 0 #f3a712;
+  transform: rotate(-2deg);
+}
+
+.quick-guide-quiz-mark img {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.quick-guide-quiz-copy {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  min-width: 0;
+  align-content: center;
+}
+
+.quick-guide-quiz .quick-guide-kicker {
+  background: #b7282e;
+}
+
+.quick-guide-quiz-title {
+  display: grid;
+  min-width: 0;
+  color: #173b3f;
+  line-height: 1.15;
+}
+
+.quick-guide-quiz-title strong {
+  color: #173b3f;
+}
+
+.quick-guide-quiz-title > span {
+  margin-top: 4px;
+}
+
+@container (max-width: 300px) {
+  .quick-guide-caimao-title > span:last-child,
+  .quick-guide-quiz-title > span {
+    display: none;
+  }
 }
 
 .results-panel {
@@ -1575,24 +1688,32 @@ body.topic-menu-open {
   padding: 0;
 }
 
-.topic-menu-list a {
+.topic-menu-list a,
+.topic-menu-list button {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 24px;
+  width: 100%;
   min-height: 52px;
   align-items: center;
   padding: 7px 12px 7px 15px;
   color: var(--ink);
   background: var(--white);
+  border: 0;
   border-bottom: 1px solid rgba(17, 17, 17, 0.22);
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
   text-decoration: none;
 }
 
-.topic-menu-list a:last-child {
+.topic-menu-list > :last-child {
   border-bottom: 0;
 }
 
 .topic-menu-list a:hover,
-.topic-menu-list a:focus-visible {
+.topic-menu-list a:focus-visible,
+.topic-menu-list button:hover,
+.topic-menu-list button:focus-visible {
   color: var(--ink);
   background: #fff0a8;
   outline: 0;
@@ -2055,9 +2176,12 @@ body.topic-menu-open {
   backdrop-filter: none;
 }
 
-.welcome-actions button {
+.welcome-actions button,
+.welcome-actions a {
+  display: grid;
   min-width: 0;
   min-height: 43px;
+  place-items: center;
   padding: 8px 14px;
   color: var(--ink);
   background: var(--white);
@@ -2069,6 +2193,8 @@ body.topic-menu-open {
   font-size: 14px;
   font-weight: 700;
   overflow-wrap: anywhere;
+  text-align: center;
+  text-decoration: none;
 }
 
 .welcome-actions .welcome-primary {
@@ -2079,7 +2205,9 @@ body.topic-menu-open {
 }
 
 .welcome-actions button:hover,
-.welcome-actions button:focus-visible {
+.welcome-actions button:focus-visible,
+.welcome-actions a:hover,
+.welcome-actions a:focus-visible {
   color: var(--ink);
   background: var(--yellow);
   border-color: var(--line);
@@ -2811,9 +2939,9 @@ body.modal-open {
   }
 
   .quick-guides {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 10px;
-    margin-bottom: 22px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 18px;
   }
 
   .quick-guide {
@@ -2848,7 +2976,8 @@ body.modal-open {
     white-space: nowrap;
   }
 
-  .quick-guide-caimao {
+  .quick-guide-caimao,
+  .quick-guide-quiz {
     min-height: 88px;
     gap: 12px;
     padding: 10px 16px;
@@ -2860,8 +2989,20 @@ body.modal-open {
     flex-basis: 60px;
   }
 
-  .quick-guide-caimao-title {
+  .quick-guide-caimao-title strong,
+  .quick-guide-quiz-title strong {
     font-size: clamp(17px, 4.2vw, 25px);
+  }
+
+  .quick-guide-quiz-mark {
+    width: 50px;
+    height: 50px;
+    flex-basis: 50px;
+  }
+
+  .quick-guide-quiz-mark img {
+    width: 41px;
+    height: 41px;
   }
 
   .results-head {
@@ -3017,7 +3158,8 @@ body.modal-open {
 
 @media (max-width: 460px) {
   .quick-guides {
-    gap: 6px;
+    gap: 12px;
+    margin-bottom: 14px;
   }
 
   .quick-guide {
@@ -3056,7 +3198,8 @@ body.modal-open {
     font-size: 8px;
   }
 
-  .quick-guide-caimao {
+  .quick-guide-caimao,
+  .quick-guide-quiz {
     min-height: 76px;
     gap: 8px;
     padding: 8px 10px;
@@ -3068,8 +3211,23 @@ body.modal-open {
     flex-basis: 48px;
   }
 
-  .quick-guide-caimao-title {
+  .quick-guide-caimao-title strong,
+  .quick-guide-quiz-title strong {
     font-size: clamp(14px, 4.1vw, 18px);
+  }
+
+  .quick-guide-quiz-mark {
+    width: 42px;
+    height: 42px;
+    flex-basis: 42px;
+    border-width: 2px;
+    border-radius: 15px 15px 7px 7px;
+    box-shadow: 3px 3px 0 #f3a712;
+  }
+
+  .quick-guide-quiz-mark img {
+    width: 34px;
+    height: 34px;
   }
 
   .welcome-window {
@@ -3129,7 +3287,8 @@ body.modal-open {
     padding: 10px 12px 13px;
   }
 
-  .welcome-actions button {
+  .welcome-actions button,
+  .welcome-actions a {
     min-height: 38px;
     padding: 6px 8px;
     font-size: 13px;
