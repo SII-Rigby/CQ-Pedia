@@ -1,4 +1,4 @@
-{
+﻿{
   "schemaVersion": 1,
   "language": {"name":"重庆话","romanization":"Chongqing Mandarin tone-number pinyin"},
   "entries": [
@@ -6490,12 +6490,12 @@
     },
     {
       "id": "cq-00773",
-      "headword": "油渍渍",
+      "headword": "油济济",
       "pinyin": "you2 ji4 ji4",
       "wordClass": "形容词",
       "variants": ["油迹迹","油叽叽"],
       "definitions": [{"text":"油很多，油腻腻的感觉。"}],
-      "examples": [{"text":"好久没煞贴厨房了，灶台高头油渍渍的。","pinyin":"hao3 jiu3 mei1 sa2 tie2 cu2 fang2 lao3 zao4 tai2 gao1 tou2 you2 ji4 ji4 li1","translation":"很久都没清理厨房了，灶台上满是油渍。"}]
+      "examples": [{"text":"好久没煞贴厨房了，灶台高头油济济的。","pinyin":"hao3 jiu3 mei1 sa2 tie2 cu2 fang2 lao3 zao4 tai2 gao1 tou2 you2 ji4 ji4 li1","translation":"很久都没清理厨房了，灶台上满是油渍。"}]
     },
     {
       "id": "cq-00774",
@@ -10372,7 +10372,6 @@
       "headword": "咳咳孔孔",
       "pinyin": "ke2 ke2 kong3 kong3",
       "wordClass": "形容词",
-      "variants": ["咳咳耸耸"],
       "definitions": [{"text":"咳嗽得厉害的样子。"}],
       "examples": [{"text":"这都感冒半个月了，啷个还是咳咳孔孔的哦？","pinyin":"le4 dou1 gan3 mao4 ban4 gə4 yue2 lao3 lang3 gə4-1 hai2 si4 ke2 ke2 kong3 kong3 li1 o3","translation":"这都感冒半个月了，怎么还是咳个不停？"}]
     },
