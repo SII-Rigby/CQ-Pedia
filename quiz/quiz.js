@@ -18,8 +18,30 @@
     progressTrack: document.querySelector("#progressTrack"),
     progressFill: document.querySelector("#progressFill"),
     themeToggle: document.querySelector("#themeToggle"),
+    scoreHelp: document.querySelector("#scoreHelpBtn"),
+    scoreRulesModal: document.querySelector("#scoreRulesModal"),
+    scoreRulesCard: document.querySelector(".score-rules-card"),
     toast: document.querySelector("#quizToast")
   };
+
+  function setScoreRulesOpen(open) {
+    if (!els.scoreHelp || !els.scoreRulesModal) return;
+    els.scoreRulesModal.hidden = !open;
+    document.body.classList.toggle("score-rules-open", open);
+    if (open) els.scoreRulesCard?.focus();
+    else els.scoreHelp.focus();
+  }
+
+  els.scoreHelp?.addEventListener("click", () => setScoreRulesOpen(true));
+  els.scoreRulesModal?.addEventListener("click", (event) => {
+    if (event.target.closest("[data-score-rules-close]")) setScoreRulesOpen(false);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && els.scoreRulesModal && !els.scoreRulesModal.hidden) {
+      event.preventDefault();
+      setScoreRulesOpen(false);
+    }
+  });
 
   function applyTheme(theme, persist = true) {
     const nextTheme = theme === "dark" ? "dark" : "light";

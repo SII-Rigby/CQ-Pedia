@@ -18,11 +18,11 @@
         document.documentElement.dataset.theme = savedTheme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       } catch (_) {}
     </script>
-    <link rel="stylesheet" href="quiz.css?v=20260804-previous-question">
+    <link rel="stylesheet" href="quiz.css?v=20260804-scoring-rules-v2">
     <script src="../baidu-analytics.js"></script>
     <script src="../posthog.js"></script>
     <script src="questions.js?v=20260803-1" defer></script>
-    <script src="quiz.js?v=20260804-previous-question" defer></script>
+    <script src="quiz.js?v=20260804-scoring-rules" defer></script>
   </head>
   <body>
     <header class="quiz-topbar">
@@ -56,6 +56,7 @@
           <div class="level-row">
             <span class="level-badge" id="levelBadge">载入中</span>
             <span class="question-kind" id="questionKind"></span>
+            <button class="score-help" id="scoreHelpBtn" type="button" aria-label="查看计分规则" aria-haspopup="dialog" aria-controls="scoreRulesModal" title="查看计分规则">?</button>
           </div>
           <h1 id="questionTitle">题目正在上山……</h1>
           <p class="question-hint" id="questionHint"></p>
@@ -71,6 +72,41 @@
 
       <section class="result-card" id="resultCard" aria-labelledby="resultTitle" hidden></section>
     </main>
+
+    <div class="score-rules-modal" id="scoreRulesModal" role="dialog" aria-modal="true" aria-labelledby="scoreRulesTitle" hidden>
+      <div class="score-rules-backdrop" data-score-rules-close></div>
+      <section class="score-rules-card" tabindex="-1">
+        <header class="score-rules-head">
+          <div class="score-rules-title">
+            <span class="score-rules-symbol" aria-hidden="true">?</span>
+            <div>
+              <small>重庆话评级</small>
+              <h2 id="scoreRulesTitle">怎样计分？</h2>
+            </div>
+          </div>
+          <button type="button" data-score-rules-close aria-label="关闭计分规则">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+          </button>
+        </header>
+        <div class="score-rules-body">
+          <section class="score-rule score-rule-regular">
+            <div class="score-rule-top">
+              <strong>普通题</strong>
+              <span>每题 5 分</span>
+            </div>
+            <small>简单 · 中等 · 困难</small>
+            <p>每题 5 分。答案只要有误，该题便记为 0 分。</p>
+          </section>
+          <section class="score-rule score-rule-expert">
+            <div class="score-rule-top">
+              <strong>专家题</strong>
+              <span>合计 25 分</span>
+            </div>
+            <p>专家题合计 25 分；每漏选 1 个扣 3 分，每多选 1 个扣 2 分，最多扣 25 分。</p>
+          </section>
+        </div>
+      </section>
+    </div>
 
     <div class="quiz-toast" id="quizToast" role="status" aria-live="polite" hidden></div>
 

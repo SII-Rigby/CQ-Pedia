@@ -228,7 +228,7 @@
           { id: "i", label: "打得𰍻（cua3）" },
           { id: "j", label: "扮灯_儿" },
           { id: "k", label: "敲棒棒" },
-          { id: "l", label: "挼包包散" }
+          { id: "l", label: "打番天印_儿" }
         ],
         correct: ["a", "f", "i"]
       },
