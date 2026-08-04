@@ -60,7 +60,7 @@
         id: "easy-5",
         level: "简单",
         type: "match",
-        prompt: "把左边的词和右边的词搭起。",
+        prompt: "把左边的词和右边的词搭配起。",
         pairs: [
           { id: "a", left: "青 qin1", right: "痛 tong4" },
           { id: "b", left: "冰 bin1", right: "凊 qin4" },
@@ -188,7 +188,7 @@
         id: "hard-5",
         level: "困难",
         type: "match",
-        prompt: "把量词和后面的事物搭起。",
+        prompt: "把量词和后面的事物搭配起。",
         pairs: [
           { id: "a", left: "一茏", right: "猪草" },
           { id: "b", left: "一磴（ten4）", right: "梯坎_儿" },
@@ -238,7 +238,7 @@
         type: "multi",
         prompt: "下列各组字在老重庆话中读音相同的是？",
         options: [
-          { id: "a", label: "压－鸭" },
+          { id: "a", label: "微－威" },
           { id: "b", label: "跃－耀" },
           { id: "c", label: "玉－欲" },
           { id: "d", label: "择－窄" },
