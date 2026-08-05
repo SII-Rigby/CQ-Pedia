@@ -39,7 +39,7 @@
           { id: "a", label: "白之之" },
           { id: "b", label: "纸飞飞_儿" },
           { id: "c", label: "麻鲊鲊（za3）" },
-          { id: "d", label: "飞奓奓（ca3 / ca1）" }
+          { id: "d", label: "飞叉叉" }
         ],
         correct: ["b"]
       },

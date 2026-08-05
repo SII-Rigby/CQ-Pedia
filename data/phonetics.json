@@ -5296,13 +5296,15 @@
           "labels": [
             "正"
           ],
-          "pinyin": "ya4"
+          "pinyin": "ya4",
+          "examples": ["压力","水压"]
         },
         {
           "labels": [
             "正"
           ],
-          "pinyin": "ya2"
+          "pinyin": "ya2",
+          "examples": ["压岁钱"]
         }
       ]
     },
@@ -18667,7 +18669,7 @@
             "正"
           ],
           "pinyin": "hang4",
-          "examples": ["项链"]
+          "examples": ["项链","项目"]
         }
       ]
     },
@@ -19167,7 +19169,8 @@
           "labels": [
             "正"
           ],
-          "pinyin": "hang4"
+          "pinyin": "hang4",
+          "examples": ["巷巷儿","巷道"]
         }
       ]
     },
@@ -32973,12 +32976,6 @@
             "正"
           ],
           "pinyin": "yi2"
-        },
-        {
-          "labels": [
-            "正"
-          ],
-          "pinyin": "ye4"
         }
       ]
     },
@@ -36601,7 +36598,7 @@
         },
         {
           "labels": [
-            "正"
+            "正","罕"
           ],
           "pinyin": "jiai1"
         }
@@ -42058,7 +42055,7 @@
             "白","训"
           ],
           "pinyin": "ze2",
-          "examples": ["蜘(蛰)蛛"]
+          "examples": ["蜘(蜇)蛛"]
         }
       ]
     },
@@ -44023,16 +44020,16 @@
       "readings": [
         {
           "labels": [
-            "白"
-          ],
-          "pinyin": "dong4",
-          "examples": ["一幢房子"]
-        },
-        {
-          "labels": [
             "正"
           ],
           "pinyin": "zuang4"
+        },
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "dong4",
+          "examples": ["一幢(栋)房子"]
         },
         {
           "labels": [
@@ -44461,13 +44458,13 @@
           "labels": [
             "正"
           ],
-          "pinyin": "yi4"
+          "pinyin": "li4"
         },
         {
           "labels": [
-            "正","罕"
+            "正"
           ],
-          "pinyin": "li4"
+          "pinyin": "yi4"
         }
       ]
     },
@@ -46208,12 +46205,6 @@
             "正"
           ],
           "pinyin": "quu2"
-        },
-        {
-          "labels": [
-            "正"
-          ],
-          "pinyin": "cu2"
         }
       ]
     },
@@ -46453,11 +46444,12 @@
           "labels": [
             "正"
           ],
-          "pinyin": "yi2"
+          "pinyin": "yi2",
+          "examples": ["小心翼翼"]
         },
         {
           "labels": [
-            "正"
+            "变"
           ],
           "pinyin": "yi4"
         }
@@ -46471,7 +46463,8 @@
           "labels": [
             "正"
           ],
-          "pinyin": "cou4"
+          "pinyin": "cou4",
+          "examples": ["步骤"]
         }
       ]
     },
@@ -46652,6 +46645,13 @@
             "正"
           ],
           "pinyin": "co2"
+        },
+        {
+          "labels": [
+            "白","训"
+          ],
+          "pinyin": "do2",
+          "examples": ["戳(剟)一下"]
         }
       ]
     },
@@ -46805,9 +46805,10 @@
         },
         {
           "labels": [
-            "罕"
+            "白"
           ],
-          "pinyin": "bo2"
+          "pinyin": "bo2",
+          "note": "俗读。"
         }
       ]
     },
@@ -59581,6 +59582,18 @@
             "正"
           ],
           "pinyin": "tian3"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "tie3"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "tia3"
         }
       ]
     },
