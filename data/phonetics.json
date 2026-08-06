@@ -45089,6 +45089,13 @@
             "正"
           ],
           "pinyin": "zen3"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "gen3",
+          "examples": ["整天","整票子"]
         }
       ]
     },
@@ -55561,6 +55568,12 @@
       "id": "ph-04120",
       "character": "阄",
       "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gou1"
+        },
         {
           "labels": [
             "正"

@@ -87,6 +87,14 @@
     "专家": "level-expert"
   };
 
+  const QUESTION_QUOTAS = [
+    { level: "简单", count: 5 },
+    { level: "中等", count: 5 },
+    { level: "困难", count: 5 },
+    { level: "专家", count: 3 }
+  ];
+  const QUIZ_QUESTION_COUNT = QUESTION_QUOTAS.reduce((total, item) => total + item.count, 0);
+
   const state = {
     questions: [],
     index: 0,
@@ -107,6 +115,23 @@
 
   function cleanLabel(value) {
     return String(value ?? "").replaceAll("_", "");
+  }
+
+  function renderMarkedText(value) {
+    const text = String(value ?? "");
+    const markerPattern = /_\(([^)]*)\)|_(.)/gu;
+    let html = "";
+    let lastIndex = 0;
+    let match;
+
+    while ((match = markerPattern.exec(text)) !== null) {
+      const markedText = match[1] === undefined ? match[2] : `(${match[1]})`;
+      html += escapeHtml(text.slice(lastIndex, match.index));
+      html += `<span class="erhua">${escapeHtml(markedText)}</span>`;
+      lastIndex = markerPattern.lastIndex;
+    }
+
+    return html + escapeHtml(text.slice(lastIndex));
   }
 
   function shuffled(items) {
@@ -145,6 +170,26 @@
     });
   }
 
+  function selectQuizQuestions(questions) {
+    return QUESTION_QUOTAS.flatMap(({ level, count }) => {
+      const candidates = questions.filter((question) => question.level === level);
+      return shuffled(candidates).slice(0, count);
+    });
+  }
+
+  function buildQuizQuestions() {
+    return prepareQuestions(selectQuizQuestions(source.questions));
+  }
+
+  function hasEnoughQuestions(questions) {
+    if (!Array.isArray(questions)) return false;
+    const uniqueIds = new Set(questions.map((question) => question.id));
+    if (uniqueIds.size !== questions.length) return false;
+    return QUESTION_QUOTAS.every(({ level, count }) => (
+      questions.filter((question) => question.level === level).length >= count
+    ));
+  }
+
   function emptyResponse(question) {
     if (question.type === "multi") return new Set();
     if (question.type === "match" || question.type === "matrix") return {};
@@ -163,7 +208,7 @@
   }
 
   function setProgress(answered) {
-    const total = state.questions.length || 18;
+    const total = state.questions.length || QUIZ_QUESTION_COUNT;
     const safeAnswered = Math.max(0, Math.min(answered, total));
     const percent = total ? (safeAnswered / total) * 100 : 0;
     els.progressFill.style.width = `${percent}%`;
@@ -185,7 +230,7 @@
         const isSelected = selected.has(option.id);
         return `<button class="answer-choice${isSelected ? " selected" : ""}" type="button" data-option="${escapeHtml(option.id)}" aria-pressed="${isSelected}">
           <span class="choice-marker" aria-hidden="true">${multiple ? (isSelected ? "✓" : "＋") : String.fromCharCode(65 + index)}</span>
-          <span class="choice-label">${escapeHtml(cleanLabel(option.label))}</span>
+          <span class="choice-label">${renderMarkedText(option.label)}</span>
         </button>`;
       }).join("")}
     </div>`;
@@ -199,7 +244,7 @@
         <div class="sound-options">
           ${segment.options.map((option) => {
             const selected = response[segment.id] === option.id;
-            return `<button type="button" class="sound-option${selected ? " selected" : ""}" data-segment="${escapeHtml(segment.id)}" data-segment-option="${escapeHtml(option.id)}" aria-pressed="${selected}">${escapeHtml(option.label)}</button>`;
+            return `<button type="button" class="sound-option${selected ? " selected" : ""}" data-segment="${escapeHtml(segment.id)}" data-segment-option="${escapeHtml(option.id)}" aria-pressed="${selected}">${renderMarkedText(option.label)}</button>`;
           }).join("")}
         </div>
       </section>`).join("")}
@@ -228,7 +273,7 @@
 
     return `<button type="button" class="match-tile${paired ? " paired" : ""}${selected ? " selected" : ""}" data-match-side="${side}" data-match-id="${escapeHtml(item.id)}" aria-pressed="${selected || paired}" aria-label="${escapeHtml(cleanLabel(label))}${pairedText}">
       <span class="match-number" aria-hidden="true">${number || ""}</span>
-      <span>${escapeHtml(cleanLabel(label))}</span>
+      <span>${renderMarkedText(label)}</span>
     </button>`;
   }
 
@@ -285,6 +330,21 @@
     return false;
   }
 
+  function hasPartialCredit(question) {
+    const response = responseFor(question);
+    if (question.type === "multi") {
+      const correct = new Set(question.correct);
+      return Array.from(response).some((id) => correct.has(id));
+    }
+    if (question.type === "matrix") {
+      return question.segments.some((segment) => response[segment.id] === segment.correct);
+    }
+    if (question.type === "match") {
+      return question.pairs.some((pair) => response[pair.id] === pair.id);
+    }
+    return false;
+  }
+
   function expertMistakes(question) {
     if (question.type !== "multi") return { missed: 0, extra: 0 };
     const response = responseFor(question);
@@ -305,7 +365,7 @@
     els.level.className = `level-badge ${levelClass}`;
     els.level.textContent = question.level;
     els.kind.textContent = TYPE_LABELS[question.type] || "";
-    els.title.textContent = question.prompt;
+    els.title.innerHTML = renderMarkedText(question.prompt);
     els.hint.textContent = TYPE_HINTS[question.type] || "";
     els.answers.innerHTML = renderAnswers(question);
     els.progressLabel.textContent = `${question.level} · ${TYPE_LABELS[question.type]}`;
@@ -376,10 +436,12 @@
     if (!question || !isComplete(question)) return;
 
     const mistakes = expertMistakes(question);
+    const correct = isCorrect(question);
     const result = {
       id: question.id,
       level: question.level,
-      correct: isCorrect(question),
+      correct,
+      partial: question.level !== "专家" && !correct && hasPartialCredit(question),
       missed: mistakes.missed,
       extra: mistakes.extra
     };
@@ -404,8 +466,8 @@
 
   function scoreQuiz() {
     const regularScore = state.results
-      .filter((result) => result.level !== "专家" && result.correct)
-      .length * 5;
+      .filter((result) => result.level !== "专家")
+      .reduce((total, result) => total + (result.correct ? 5 : result.partial ? 2 : 0), 0);
     const penalty = state.results
       .filter((result) => result.level === "专家")
       .reduce((total, result) => total + result.missed * 3 + result.extra * 2, 0);
@@ -559,7 +621,7 @@
   }
 
   function restartQuiz() {
-    state.questions = prepareQuestions(source.questions);
+    state.questions = buildQuizQuestions();
     state.index = 0;
     state.responses = new Map();
     state.results = [];
@@ -609,7 +671,7 @@
     }
   });
 
-  if (!source || !Array.isArray(source.questions) || source.questions.length !== 18) {
+  if (!source || !hasEnoughQuestions(source.questions)) {
     els.title.textContent = "题库没有顺利到站";
     els.hint.textContent = "请刷新页面再试一次。";
     els.answers.innerHTML = '<p class="load-error">无法载入重庆话测验题库。</p>';
@@ -617,7 +679,7 @@
     return;
   }
 
-  state.questions = prepareQuestions(source.questions);
+  state.questions = buildQuizQuestions();
   try {
     delete window.CQ_QUIZ_DATA;
   } catch (_) {

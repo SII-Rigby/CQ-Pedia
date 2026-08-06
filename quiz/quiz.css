@@ -56,6 +56,16 @@ button {
   color: inherit;
 }
 
+.erhua {
+  display: inline-block;
+  margin-left: 0.02em;
+  color: currentColor;
+  font-size: 0.66em;
+  font-weight: inherit;
+  line-height: 1;
+  vertical-align: baseline;
+}
+
 .quiz-topbar {
   position: sticky;
   top: 0;
