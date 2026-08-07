@@ -70745,6 +70745,24 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ph-05236",
+      "character": "聒",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gua2"
+        },
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "gue2"
+        }
+      ]
     }
 ],
   "generation": {

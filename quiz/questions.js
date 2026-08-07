@@ -200,16 +200,16 @@
         id: "expert-1",
         level: "专家",
         type: "multi",
-        prompt: "不属于二〇〇〇年后才出现的新词汇的是？",
+        prompt: "属于二〇〇〇年后才出现的新事物的是？",
         options: [
           { id: "a", label: "棒棒军" },
-          { id: "b", label: "傻_儿果" },
+          { id: "b", label: "傻儿果" },
           { id: "c", label: "轻轨" },
-          { id: "d", label: "拓_儿车" },
-          { id: "e", label: "630" },
+          { id: "d", label: "拓儿车" },
+          { id: "e", label: "天天630" },
           { id: "f", label: "嘣嚓嚓" }
         ],
-        correct: ["a", "d", "f"]
+        correct: ["b", "c", "e"]
       },
       {
         id: "expert-2",
