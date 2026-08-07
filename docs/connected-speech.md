@@ -67,9 +67,11 @@
 | 快点儿 | `kuai4 diar3` | `kuar4 ar3` / `kuar4` （快儿） |
 | 今天儿 | `jin1 tiar1` | `jin1 ar1` / `jiar1` （今儿） |
 | 起来 | `qi3 lai2` | `qi3 ai2` |
+| 出来 | `cu2 lai2` | `cu2 ai2` |
 | 恁个 | `len4 gə4-1` | `leng4 ngə1` / `leng4` |
 | 啷个 | `lang3 gə4-1` | `lang3 ngə1` / `lang3` |
 | 这么 | `ze4 mo1` | `zong4` / `zo4 m1` |
+| 没得 | `mei1 de2` | `me1 e2` |
 | 各人 | `go2 ren2` | `go2 en2` |
 | 该是哈 | `gai1 si4 ha3` | `ga3 ha3` / `ge3 ha3` / `ga3` |
 | 遇得到 | `yu4 de2 dao3` | `yu4 e2 dao3` |

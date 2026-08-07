@@ -1,4 +1,4 @@
-﻿{
+{
   "schemaVersion": 1,
   "language": {"name":"重庆话","romanization":"Chongqing Mandarin tone-number pinyin"},
   "entries": [
@@ -57,7 +57,7 @@
       "pinyin": "sen2 co2 co2",
       "variants": ["神戳戳","神拙拙"],
       "wordClass": "形容词",
-      "definitions": [{"text":"神经质的。"},{"text":"故作神秘的。"}],
+      "definitions": [{"text":"神经质的，莫名其妙的。"},{"text":"故作神秘的。"}],
       "examples": [{"text":"这个人神浊浊的，莫理他。","pinyin":"le4 gə4 ren2 sen2 co2 co2 li1 mo2 li3 ta1","translation":"这个人神经兮兮的，别理他。"},{"text":"做起恁个神浊浊的样儿，其实我都晓得了。","pinyin":"zu4 qi3 len4 gə4 sen2 co2 co2 li1 yang4 er2 qi2 si2 wo3 dou1 xiao3 de2 lao3","translation":"做出那种神神秘秘的样子，其实我都明白了。"}]
     },
     {
@@ -10956,6 +10956,347 @@
       "wordClass": "动词",
       "definitions": [{"text":"居住；住在某处。"}],
       "examples": [{"text":"你现在坐哪点_儿？ | 他们一家坐到江北。","pinyin":"li3 xian4 zai4 zo4 la3 diar3 | ta1 men1 yi2 jia1 zo4 dao3 jiang1 be2","translation":"你现在住在哪里？ | 他们一家住在江北。"}]
+    },
+    {
+      "id": "cq-01309",
+      "headword": "渥",
+      "pinyin": "wo2",
+      "wordClass": "动词",
+      "variants": ["捂","涹","焐"],
+      "definitions": [{"text":"长时间在被窝里捂着，以致发热、出汗。"}],
+      "examples": [{"text":"你在床上渥一下_儿，出汗了就好了。","pinyin":"li3 dai4 cuang2 sang4 wo2 yi2 har1 cu2 han4 lao3 dou4 hao3 lao3","translation":"你在床上捂一会儿，出汗了就好了。"}]
+    },
+    {
+      "id": "cq-01310",
+      "headword": "哪个",
+      "pinyin": "la3 gə4 / la3 go4",
+      "wordClass": "代词",
+      "definitions": [{"text":"谁；哪一个人。"}],
+      "examples": [{"text":"哪个跟你说的？","pinyin":"la3 gə4 gen1 li3 so2 li1"}]
+    },
+    {
+      "id": "cq-01311",
+      "headword": "老师",
+      "pinyin": "lao3 si1",
+      "wordClass": "名词",
+      "definitions": [{"text":"教师、师傅。"},{"text":"对陌生人的敬称。"}],
+      "examples": [{},{"text":"老师，请问下车站啷个走？ | 老师，来我们店_儿头看下嘛。","pinyin":"lao3 si1 qin3 wen4 ha3 ce1 zan4 lang3 gə4 zou3 | lao3 si1 lai2 wo3 men1 diar4 tou2 kan4 ha4 ma3"}]
+    },
+    {
+      "id": "cq-01312",
+      "headword": "忙",
+      "pinyin": "mang2",
+      "wordClass": "形容词",
+      "definitions": [{"text":"紧张、慌张或着急。"},{"text":"忙碌，没有空闲。"}],
+      "examples": [{"text":"你莫忙，慢慢说。 | 搞忙了，把货发斢了。","pinyin":"ni3 mo2 mang2 man4 man4 so2 | gao3 mang2 lao3 ba3 ho4 fa2 tiao3 lao3","translation":"你别慌，慢慢说。 | 搞太着急了，把货发反了。"},{}]
+    },
+    {
+      "id": "cq-01313",
+      "headword": "冒大",
+      "pinyin": "mao4 da4",
+      "wordClass": "动词",
+      "definitions": [{"text":"说大话，摆大架子。"}],
+      "examples": [{"text":"不得行就说不得行嘛，又在冒大。","pinyin":"bu2 de2 xin2 dou4 so2 bu2 de2 xin2 ma3 you4 dai4 mao4 da4","translation":"不行就说不行呗，又在说大话。"}]
+    },
+    {
+      "id": "cq-01314",
+      "headword": "搣秆_儿",
+      "pinyin": "mie3 gar3",
+      "wordClass": "动词",
+      "variants": ["搣杆_儿"],
+      "definitions": [{"text":"喻指人死亡。"}],
+      "examples": [{"text":"看嘛，好端端的个老头_儿说搣秆_儿就搣秆_儿了。","pinyin":"kan4 ma3 hao3 duan1 duan1 li1 gə4 lao3 ter2 so2 mie3 gar3 dou4 mie3 gar3 lao3","translation":"瞧瞧，好端端的一个老头子说归西就归西了。"}]
+    },
+    {
+      "id": "cq-01315",
+      "headword": "明砍",
+      "pinyin": "min2 kan3",
+      "wordClass": "动词",
+      "definitions": [{"text":"把话挑明了说；直说。"}],
+      "examples": [{"text":"月亮坝坝_儿耍弯刀——明砍！","pinyin":"yue2 liang4 ba4 bar4-1 sua3 wan1 dao1 min2 kan3"}]
+    },
+    {
+      "id": "cq-01316",
+      "headword": "绲边_儿",
+      "pinyin": "gun3 biar1",
+      "wordClass": "动词",
+      "variants": ["滚边_儿"],
+      "definitions": [{"text":"在织物边缘缝上布条或带子，以防散边或作为装饰。"}],
+      "examples": [{"text":"这条裙子拿跟裁缝_儿姐姐绲个边_儿。","pinyin":"le4 tiao2 qun2 zi3 la2 gen1 cai2 fer2-1 jie3 jie3 gun3 gə4 biar1","translation":"这条裙子拿给裁缝姐姐缝个边儿。"}]
+    },
+    {
+      "id": "cq-01317",
+      "headword": "心慊慊",
+      "pinyin": "xin1 qian4 qian4",
+      "wordClass": "形容词",
+      "variants": ["心欠欠","心歉歉"],
+      "definitions": [{"text":"因没有得到、没有满足或事情未尽如意而惦记、遗憾。"}],
+      "examples": [{"text":"我嘿喜欢的那件衣服没买得到，回来一直心慊慊的。","pinyin":"wo3 he1 xi3 huan1 li1 la4 jian4 yi1 fu2 mei1 mai3 de2 dao3 hui2 lai2 yi2 zi2 xin1 qian4 qian4 li1","translation":"我很喜欢的那件衣服没买得到，回来心里一直惦记着。"}]
+    },
+    {
+      "id": "cq-01318",
+      "headword": "狗刨搔",
+      "pinyin": "gou3 pao2 sao1",
+      "wordClass": "名词",
+      "definitions": [{"text":"游泳时四肢像狗一样在水中不断划动的姿势；狗刨式。"}],
+      "examples": [{"text":"我不会游泳，只会狗刨搔。","pinyin":"wo3 bu2 hui4 you2 yun4 zi3 hui4 gou3 pao2 sao1"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01319",
+      "headword": "整",
+      "pinyin": "gen3",
+      "wordClass": "形容词",
+      "variants": ["亘"],
+      "definitions": [{"text":"整的、不零散的。"}],
+      "examples": [{"text":"勒块朒朒还是整的，还没切。 | 整票子","pinyin":"le4 kuai3 ga3 ga3 hai2 si4 gen3 li1 hai2 mei1 qie2 | gen3 piao4 zi3","translation":"这块肉还是完整的，还没有切开。 | 整钱（非零钱）"}]
+    },
+    {
+      "id": "cq-01320",
+      "headword": "高耸耸",
+      "pinyin": "gao1 song3 song3",
+      "wordClass": "形容词",
+      "definitions": [{"text":"很高；高高耸立的样子。"}],
+      "examples": [{"text":"市中区的房子修得高耸耸的。","pinyin":"si4 zong1 qu1 li1 fang2 zi3 xiu1 de2 gao1 song3 song3 li1"}]
+    },
+    {
+      "id": "cq-01321",
+      "headword": "谨防",
+      "pinyin": "jin3 fang2",
+      "wordClass": "动词",
+      "variants": ["警防"],
+      "definitions": [{"text":"留神防备，小心提防。"}],
+      "examples": [{"text":"这个人不简单，你要把她谨防到。","pinyin":"le4 gə4 ren2 bu2 jian3 dan1 li3 yao4 ba3 ta1 jin3 fang2 dao3","translation":"这个人不简单，你要留神防备她。"}]
+    },
+    {
+      "id": "cq-01322",
+      "headword": "爬",
+      "pinyin": "pa2",
+      "wordClass": "动词",
+      "note": "另见「爬（ba1）」。",
+      "definitions": [{"text":"离开、走开。常用于命令，叫对方离远一点，相当于「滚」。"},{"text":"爬动、攀爬。"}],
+      "examples": [{"text":"爬开，莫挡到我！","pinyin":"pa2 kai1 mo2 dang3 dao3 wo3","translation":"滚开，不要挡着我！"},{}]
+    },
+    {
+      "id": "cq-01323",
+      "headword": "拈阄_儿",
+      "pinyin": "lian1 ger1",
+      "wordClass": "动词",
+      "definitions": [{"text":"抓阄；从预先做有不同标记的纸团等物品中任取一个，以决定人选或事情的规划。"}],
+      "examples": [{"text":"哪个先上台，大家拈阄_儿决定。","pinyin":"la3 gə4 xian1 sang4 tai2 da4 jia1 lian1 ger1 jue2 din4","translation":"谁先上台，由大家抓阄决定。"}]
+    },
+    {
+      "id": "cq-01324",
+      "headword": "打门锤_儿",
+      "pinyin": "da3 men2 cuer2",
+      "wordClass": "名词",
+      "definitions": [{"text":"使人得以求职、谋生、进入某个行业或取得机会的本领、技能或条件；看家本领。"}],
+      "examples": [{"text":"会写一手好字，是当老师的打门锤_儿。","pinyin":"hui4 xie3 yi2 sou3 hao3 zi4 si4 dang1 lao3 si1 li1 da3 men2 cuer2","translation":"能写一手好字，是当老师的看家本领。"}]
+    },
+    {
+      "id": "cq-01325",
+      "headword": "直见",
+      "pinyin": "zi2 jian4",
+      "wordClass": "副词",
+      "definitions": [{"text":"一直不断地、不停地。同「直顾」。"}],
+      "examples": [{"text":"他直见在那里说，台底下的人都睡着了。","pinyin":"ta1 zi2 jian4 dai4 la4 li3-1 so2 tai2 di3 xia4-2 li1 ren2 dou1 sui4 co2 lao3","translation":"他一直在那里说，台下的人都睡着了。"}]
+    },
+    {
+      "id": "cq-01326",
+      "headword": "满打满算",
+      "pinyin": "man3 da3 man3 suan4",
+      "wordClass": "副词",
+      "definitions": [{"text":"把全部数量都计算在内，表示即使按最大限度计算。"}],
+      "examples": [{"text":"满打满算也才十五个人，你啷个包个五十个人的大巴哟。","pinyin":"man3 da3 man3 suan4 ye3 tai2 si2 vu3 gə4 ren2 li3 lang3 gə4 bao1 gə4 vu3 si2 gə4 ren2 li1 da4 ba1 yo3","translation":"把所有人都算上也才十五个人，你怎么包了一个核载五十人的大巴？"}]
+    },
+    {
+      "id": "cq-01327",
+      "headword": "霉浊浊",
+      "pinyin": "mei2 co2 co2",
+      "wordClass": "形容词",
+      "definitions": [{"text":"倒霉、不顺遂的样子。"},{"text":"形容空气或环境潮湿、沉闷，带有霉味。"}],
+      "examples": [{"text":"这段时间霉浊浊的，做啥子都不顺。","pinyin":"le4 duan4 si2 jian1 mei2 co2 co2 li1 zu4 sa4 zi3 dou1 bu2 sun4","translation":"这段时间很倒霉，做什么都不顺利。"},{"text":"屋头关久了，一进门霉浊浊的。","pinyin":"vu2 tou2 guan1 jiu3 lao3 yi2 jin4 men2 mei2 co2 co2 li1","translation":"屋子封闭久了，一进门空气潮湿而带着霉味。"}]
+    },
+    {
+      "id": "cq-01328",
+      "headword": "毛",
+      "pinyin": "mao1 / mao2",
+      "wordClass": "形容词、动词",
+      "variants": ["猫"],
+      "definitions": [{"text":"性情或做事方式急躁、粗暴。"},{"text":"发火、发怒。"},{"text":"速度快。"}],
+      "examples": [{"text":"你做事莫恁个毛，慢慢_儿来。","pinyin":"ni3 zu4 si4 mo2 len4 gə4-1 mao1 man4 mar4-1 lai2","translation":"你做事不要这么急躁，慢慢来。"},{"text":"才说她两句，她就毛了。","pinyin":"tai2 so2 ta1 liang3 ju4 ta1 dou4 mao2 lao3","translation":"才说了她两句，她就发火了。"},{"text":"车子开恁个毛咋子，赶去投胎唛？","pinyin":"ce1 zi3 kai1 len4 gə4-1 mao1 zua4 zi3 gan3 qi4 tou2 tai1 mæ1","translation":"车开这么快干嘛，赶着去投胎吗？"}]
+    },
+    {
+      "id": "cq-01329",
+      "headword": "风壳",
+      "pinyin": "fong1 ko2",
+      "wordClass": "名词",
+      "definitions": [{"text":"头皮屑。"}],
+      "examples": [{"text":"你肩膀上落了好多风壳哟。","pinyin":"ni3 jian1 bang3 sang4 lo2 lao3 hao3 do1 fong1 ko2 yo3","translation":"你肩膀上落了很多头皮屑。"}]
+    },
+    {
+      "id": "cq-01330",
+      "headword": "风色壳子",
+      "pinyin": "fong1 se2 ko2 zi3",
+      "wordClass": "名词",
+      "definitions": [{"text":"头皮屑。也说「风屑(xue2)壳壳」「风壳」。"}],
+      "examples": [{"text":"他一抓脑壳，风色壳子就往下头落。","pinyin":"ta1 yi2 zua1 lao3 ko2 fong1 se2 ko2 zi3 dou4 wang3 xia4 tou2 lo2","translation":"他一挠头，头皮屑就往下掉。"}]
+    },
+    {
+      "id": "cq-01331",
+      "headword": "吊脚楼",
+      "pinyin": "diao4 jio2 lou4",
+      "wordClass": "名词",
+      "definitions": [{"text":"依山坡等地势修建、部分底层用木柱支撑悬空的传统房屋。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01332",
+      "headword": "量识",
+      "pinyin": "liang4 si2",
+      "wordClass": "动词",
+      "definitions": [{"text":"料想、估计。含轻蔑意味。"}],
+      "examples": [{"text":"我量识你也不敢去。","pinyin":"wo3 liang4 si2 li3 ye3 bu2 gan3 qi4","translation":"我料想你也不敢去。"}]
+    },
+    {
+      "id": "cq-01333",
+      "headword": "干绷",
+      "pinyin": "gan1 bong1",
+      "wordClass": "动词",
+      "definitions": [{"text":"自身条件不足，却为了撑面子而勉强维持场面。"}],
+      "examples": [{"text":"没得钱还要请恁多人吃饭，纯粹是干绷。 | 冷登了，多穿两件，莫干绷。","pinyin":"mei1 de2 qian2 hai2 yao4 qin3 len4 do1 ren2 ci2 fan4 sun2 cui4 si4 gan1 bong1 | len3 den1 lao3 do1 cuan1 liang3 jian4 mo2 gan1 bong1","translation":"没有钱还要请这么多人吃饭，纯粹是在硬撑面子。 | 天气冷到极点了，多穿两件，别“要风度不要温度”。"}]
+    },
+    {
+      "id": "cq-01334",
+      "headword": "老厥厥",
+      "pinyin": "lao3 jue3 jue3",
+      "wordClass": "名词",
+      "definitions": [{"text":"指年纪大的人。略带贬义。"}],
+      "examples": [{"text":"都是老厥厥了，还要去舞厅蹦。","pinyin":"dou1 si4 lao3 jue3 jue3 lao3 hai2 yao4 qi4 vu3 tin1 bong4","translation":"都老得不行了，还要去舞厅蹦跶。"}]
+    },
+    {
+      "id": "cq-01335",
+      "headword": "趼巴",
+      "pinyin": "jian3 ba1",
+      "wordClass": "名词",
+      "variants": ["茧巴"],
+      "definitions": [{"text":"趼子、老茧；手脚等部位因长期摩擦而形成的硬皮。"}],
+      "examples": [{"text":"你一天出去下苦力，一个手磨些趼巴，我好心痛哦。","pinyin":"li3 yi2 tian1 cu2 qi4-1 xia4 ku3 li3 yi2 gə4 sou3 mo2 xi1 jian3 ba1 wo3 hao3 xin1 tong4 o3","translation":"你整天出门干苦力活，整个手都磨出趼子了，我好心疼。"}]
+    },
+    {
+      "id": "cq-01336",
+      "headword": "蕨藄",
+      "pinyin": "jue2 ji1",
+      "wordClass": "名词",
+      "definitions": [{"text":"蕨菜；蕨类植物可供食用的嫩叶。也说「蕨藄菜」。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01337",
+      "headword": "脚猪",
+      "pinyin": "jio2 zu1",
+      "wordClass": "名词",
+      "variants": ["豭猪"],
+      "definitions": [{"text":"留作配种的、未经阉割的公猪；种猪。"}],
+      "examples": [{"text":"以前队上有头脚猪，长得很茁实。","pinyin":"yi3 qian2 dui4 sang4 you3 tou2 jio2 zu1 zang3 de2 he1 zuai2 si2","translation":"以前生产队有一头种公猪，长得很壮实。"}]
+    },
+    {
+      "id": "cq-01338",
+      "headword": "白心白板_儿",
+      "pinyin": "be2 xin1 be2 bar3",
+      "wordClass": "名词",
+      "definitions": [{"text":"一种参与者同时伸手，以掌心或手背朝上来分组或选人的游戏；手心手背。也指进行该游戏时所念的口令。"}],
+      "examples": [{"text":"我们来白心白板_儿，哪个不一样哪个当猫_儿。","pinyin":"wo3 men1 lai2 be2 xin1 be2 bar3 la3 gə4 bu2 yi2 yang4 la3 gə4 dang1 mar1","translation":"我们来玩手心手背，谁出的不一样谁当“猫”。"}]
+    },
+    {
+      "id": "cq-01339",
+      "headword": "承",
+      "pinyin": "sen2",
+      "wordClass": "动词",
+      "definitions": [{"text":"支撑、顶。"},{"text":"承受、承担。"}],
+      "examples": [{"text":"这根柱子承不起恁重的楼板_儿。","pinyin":"le4 gen1 zu4 zi3 sen2 bu2 qi3 len4 zong4 li1 lou2 bar3","translation":"这根柱子支撑不起这么重的楼板。"},{"text":"恁大的责任，我一个人承不起。","pinyin":"len4 da4 li1 ze2 ren4 wo3 yi2 gə4 ren2 sen2 bu2 qi3","translation":"这么重大的责任，我一个人承担不起。"}]
+    },
+    {
+      "id": "cq-01340",
+      "headword": "甚更",
+      "pinyin": "sen2 gen4",
+      "wordClass": "副词",
+      "variants": ["乘更"],
+      "definitions": [{"text":"更加、越发。"}],
+      "examples": [{"text":"锐_儿她两句，她甚更得意了。","pinyin":"ruer4 ta1 liang3 ju4 ta1 sen2 gen4 de2 yi4 lao3","translation":"嘲讽她两句，她越发得意了。"}]
+    },
+    {
+      "id": "cq-01341",
+      "headword": "神浊鬼浊",
+      "pinyin": "sen2 co2 gui3 co2",
+      "wordClass": "形容词",
+      "variants": ["神戳鬼戳"],
+      "definitions": [{"text":"言行古怪，神秘兮兮或莫名其妙的。"}],
+      "examples": [{"text":"他一天神浊鬼浊的，半夜巴起来练气功。","pinyin":"ta1 yi4 tian1 sen2 co2 gui3 co2 li1 ban4 ye4 ba1 qi3 lai2 lian4 qi4 gong1","translation":"他整天古古怪怪的，半夜爬起来练气功。"}]
+    },
+    {
+      "id": "cq-01342",
+      "headword": "深沉",
+      "pinyin": "sen1 cen2",
+      "wordClass": "形容词",
+      "definitions": [{"text":"病情、问题等严重。常说「毛病深沉」。"},{"text":"道理、内容等深奥，不容易理解。"}],
+      "examples": [{"text":"她胃上的毛病深沉了，不好医。","pinyin":"ta1 wei4 sang4 li1 mao2 bin4 sen1 cen2 lao3 bu2 hao3 yi1","translation":"她胃上的毛病严重了，不容易医治。"},{"text":"这个道理深沉啰，我一下还想不明白。","pinyin":"le4 gə4-1 dao4 li3 sen1 cen2 lo1 wo3 yi2 ha4 hai2 xiang3 bu2 min2 be2","translation":"这个道理十分深奥，我一时还想不明白。"}]
+    },
+    {
+      "id": "cq-01343",
+      "headword": "透",
+      "pinyin": "tou4",
+      "wordClass": "动词；副词",
+      "definitions": [{"text":"漂洗；把衣物等放在水中摆动，使污垢或残留物脱落。"},{"text":"非常、极。用于加强程度。"}],
+      "examples": [{"text":"把衣裳放清水头透两道。","pinyin":"ba3 yi1 sang2 fang4 qin1 sui3 tou2 tou4 liang3 dao4","translation":"把衣服放在清水里漂洗两遍。"},{"text":"这块玻璃抹得透亮。","pinyin":"le4 kuai4 bo1 li2 ma2 de2 tou4 liang4","translation":"这块玻璃擦得非常明亮。"}]
+    },
+    {
+      "id": "cq-01344",
+      "headword": "浪",
+      "pinyin": "lang3",
+      "wordClass": "动词",
+      "definitions": [{"text":"荡涤、涮洗；把水倒入容器中晃动，以清除其中的污物。"}],
+      "examples": [{"text":"瓶子头加点_儿水，浪两下再倒出来。","pinyin":"pin2 zi3 tou2 jia1 diar3 sui3 lang3 liang3 ha4 zai4 dao3 cu1 lai2","translation":"往瓶子里加一点水，涮洗几下再倒出来。"}]
+    },
+    {
+      "id": "cq-01345",
+      "headword": "诧生",
+      "pinyin": "ca4 sen1",
+      "wordClass": "形容词；动词",
+      "definitions": [{"text":"怕生；面对陌生人或处于陌生环境时感到拘束、不自然。"}],
+      "examples": [{"text":"勒个娃_儿有点诧生，除了屋头的人都不得打招呼。","pinyin":"le4 gə4-1 wa2 er2-1 you3 diar3 ca4 sen1 cu2 lao3 vu2 tou2 li1 ren2 dou1 bu2 de2 da3 zao1 fu1","translation":"这个孩子有些怕生，除了跟家里的人都不会打招呼。"}]
+    },
+    {
+      "id": "cq-01346",
+      "headword": "泼烦",
+      "pinyin": "po2 fan2",
+      "wordClass": "动词；形容词",
+      "definitions": [{"text":"感到厌烦、讨厌，不耐烦。也形容人或事情令人讨厌、心烦。"}],
+      "examples": [{"text":"我最泼烦开会说空话。 | 泼烦得很，一天到黑都来闹。","pinyin":"wo3 zui4 po2 fan2 kai1 hui4 so2 kong1 hua4 | po2 fan2 de2 hen3 yi2 tian1 dao4 he2 dou1 lai2 lao4","translation":"我最讨厌开会时说空话。 | 烦死了，整天都来吵。"}]
+    },
+    {
+      "id": "cq-01347",
+      "headword": "抹脱",
+      "pinyin": "ma2 to2",
+      "wordClass": "动词",
+      "definitions": [{"text":"擦掉、抹去。"},{"text":"捋掉。"},{"text":"推脱或推掉某件事情。"},{"text":"推卸、逃避应负的责任。"}],
+      "examples": [{"text":"我把窗子上的那只死苍蝇_儿抹脱了。","pinyin":"wo3 ba3 cang1 zi3 sang4 li1 la4 zi1 si3 cang1 yer1 ma2 to2 lao3"},{"text":"棒棒上的绳绳_儿顺着一抹就抹脱了。","pinyin":"bang4 bang4-1 sang4 li1 sun2 suer2-1 sun4 dao3 yi2 ma2 dou4 ma2 to2 lao3","translation":"棒子上的绳子顺着一捋就捋掉了。"},{"text":"这个差事她找借口抹脱了。","pinyin":"le4 gə4-1 cai1 si4 ta1 zao3 jie4 kou3 ma2 to2 lao3","translation":"这件差事被她找借口推掉了。"},{"text":"出了问题就想抹脱？没恁个撇脱！","pinyin":"cu1 lao3 wen4 ti2 dou4 xiang3 ma2 to2 mei1 len4 gə4-1 pie2 to2","translation":"出了问题就像逃脱责任？没这么容易！"}]
+    },
+    {
+      "id": "cq-01348",
+      "headword": "下席",
+      "pinyin": "xia4 xi2",
+      "wordClass": "动词",
+      "definitions": [{"text":"离席；吃完饭离开餐桌。"}],
+      "examples": [{"text":"客人都下席了，才开始收桌子。 | 先下席不管，后下席洗碗。","pinyin":"ke2 ren2 dou1 xia4 xi2 lao3 tai2 kai1 si3 sou1 zo2 zi3 | xian1 xia4 xi2 bu2 guan3 hou4 xia4 xi2 xi3 wan3","translation":"客人都吃完离席后，才开始收拾餐桌。 | 先吃完不管，后吃完洗碗。"}]
+    },
+    {
+      "id": "cq-01349",
+      "headword": "仙健",
+      "pinyin": "xian1 jian4",
+      "wordClass": "形容词",
+      "definitions": [{"text":"形容老年人身体健康、精神饱满。"}],
+      "examples": [{"text":"她八十多岁了，身子仙健得很。","pinyin":"ta1 ba2 si2 do1 sui4 lao3 sen1 zi3 xian1 jian4 de2 hen3","translation":"她八十多岁了，身子十分硬朗。"}]
     }
   ]
 }
