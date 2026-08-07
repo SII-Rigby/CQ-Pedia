@@ -1,4 +1,4 @@
-{
+﻿{
   "schemaVersion": 1,
   "language": {"name":"重庆话","romanization":"Chongqing Mandarin tone-number pinyin"},
   "entries": [
@@ -10885,7 +10885,7 @@
     {
       "id": "cq-01300",
       "headword": "丢头",
-      "pinyin": "qiu1 tou2",
+      "pinyin": "diu1 tou2",
       "wordClass": "名词",
       "definitions": [{"text":"剔除、丢弃的部分。"}],
       "examples": [{"text":"地头的笋子看起大，实际上只有心子那一滴滴_儿吃得，丢头太大了。","pinyin":"di4 tou2 li3 sen3 zi3 kan4 qi3 da4 si2 ji4 sang4 zi3 you3 xin1 zi3 la4 yi2 di1 dier1 ci2 de2 diu1 tou2 tai4 da4 lao3","translation":"地里的竹笋看着大，实际上只有中心那一点儿能吃，丢弃的部分太多了。"}]
@@ -11049,7 +11049,7 @@
       "wordClass": "形容词",
       "variants": ["亘"],
       "definitions": [{"text":"整的、不零散的。"}],
-      "examples": [{"text":"勒块朒朒还是整的，还没切。 | 整票子","pinyin":"le4 kuai3 ga3 ga3 hai2 si4 gen3 li1 hai2 mei1 qie2 | gen3 piao4 zi3","translation":"这块肉还是完整的，还没有切开。 | 整钱（非零钱）"}]
+      "examples": [{"text":"这块朒朒还是整的，还没切。 | 整票子","pinyin":"le4 kuai3 ga3 ga3 hai2 si4 gen3 li1 hai2 mei1 qie2 | gen3 piao4 zi3","translation":"这块肉还是完整的，还没有切开。 | 整钱（非零钱）"}]
     },
     {
       "id": "cq-01320",
