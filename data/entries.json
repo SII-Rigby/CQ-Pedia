@@ -231,12 +231,12 @@
     },
     {
       "id": "cq-00028",
-      "headword": "渥",
+      "headword": "沤",
       "pinyin": "wo2",
       "wordClass": "动词",
-      "variants": ["沤","涹"],
-      "definitions": [{"text":"把物品长时间浸泡在水中。"},{"text":"把带有水分的物品长时间堆积、变质。"},{"text":"长时间在被窝里捂着，以致发热、出汗。"}],
-      "examples": [{"text":"衣服泡到水头都渥臭了。","pinyin":"yi1 fu2 pao4 dao3 sui3 tou2 dou1 wo2 cou4 lao3","translation":"衣服一直泡在水里都臭了。"},{"text":"坛子头的菜都渥烂了。","pinyin":"tan2 zi3 tou4 li1 cai4 dou1 wo2 lan4 lao3","translation":"坛子里的菜都沤烂了。"},{"text":"你在床上渥一下_儿，出汗了就好了。","pinyin":"li3 dai4 cuang2 sang4 wo2 yi2 har1 cu2 han4 lao3 dou4 hao3 lao3","translation":"你在床上捂一会儿，出汗了就好了。"}]
+      "variants": ["渥","涹"],
+      "definitions": [{"text":"把物品长时间浸泡在水中。"},{"text":"把带有水分的物品长时间堆积、变质。"}],
+      "examples": [{"text":"衣服泡到水头都沤臭了。","pinyin":"yi1 fu2 pao4 dao3 sui3 tou2 dou1 wo2 cou4 lao3","translation":"衣服一直泡在水里都臭了。"},{"text":"坛子头的菜都沤烂了。","pinyin":"tan2 zi3 tou4 li1 cai4 dou1 wo2 lan4 lao3","translation":"坛子里的菜都沤烂了。"}]
     },
     {
       "id": "cq-00029",
@@ -4731,6 +4731,7 @@
       "headword": "直戆戆",
       "pinyin": "zi2 gang4 gang4",
       "wordClass": "形容词",
+      "variants": ["直杠杠"],
       "definitions": [{"text":"性情直率、直爽，说话做事不拐弯抹角。"}],
       "examples": [{"text":"我这个人就是个直戆戆的性格，说话可能不好听，但绝对不得假打。","pinyin":"wo3 le4 gə4 ren2 dou4 si4 gə4 zi2 gang4 gang4 li1 xin4 ge2 so2 hua4 ko3 len2 bu2 hao3 tin1 dan4 jue2 dui4 bu2 de2 jia3 da3","translation":"我这个人就是个直来直去的性格，说话不好听，但绝对不得虚情假意。"}]
     },
@@ -6036,11 +6037,11 @@
     },
     {
       "id": "cq-00718",
-      "headword": "丈母娘",
-      "pinyin": "zang4 mu3 liang2",
+      "headword": "老丈母",
+      "pinyin": "lao3 zang4 mu3",
       "wordClass": "名词",
-      "definitions": [{"text":"妻子的母亲。"}],
-      "examples": [{"text":"他今年子回丈母娘屋头过年去了，扚了嘿大几坨腊肉。","pinyin":"ta1 jin1 lian2 zi3 hui2 zang4 mu3 liang2 vu2 tou2 go4 lian2 qi4 lao3 dia1 lao3 he1 da4 ji3 to2 la2 rou4","translation":"他今年回丈母娘家过年去了，提了特别大的几块腊肉回去。"}]
+      "definitions": [{"text":"妻子的母亲；丈母娘。"}],
+      "examples": [{"text":"他今年子回老丈母屋头过年去了，扚了嘿大几坨腊肉。","pinyin":"ta1 jin1 lian2 zi3 hui2 lao3 zang4 mu3 vu2 tou2 go4 lian2 qi4 lao3 dia1 lao3 he1 da4 ji3 to2 la2 rou4","translation":"他今年回丈母娘家过年去了，提了特别大的几块腊肉回去。"}]
     },
     {
       "id": "cq-00719",
@@ -6285,12 +6286,12 @@
     },
     {
       "id": "cq-00748",
-      "headword": "捻",
+      "headword": "撚",
       "pinyin": "len1",
       "wordClass": "动词",
-      "variants": ["抡"],
+      "variants": ["捻","抡"],
       "definitions": [{"text":"捻，把薄的物体放在手指间来回搓动。"}],
-      "examples": [{"text":"这两页遭水打湿了，捻都捻不开。","pinyin":"le4 liang3 ye2 zao2 sui3 da3 si2 lao3 len1 dou1 len1 bu2 kai1","translation":"这两页被水打湿了，用手指根本搓不开。"}]
+      "examples": [{"text":"这两页遭水打湿了，撚都撚不开。","pinyin":"le4 liang3 ye2 zao2 sui3 da3 si2 lao3 len1 dou1 len1 bu2 kai1","translation":"这两页被水打湿了，用手指根本搓不开。"}]
     },
     {
       "id": "cq-00749",
@@ -7288,7 +7289,8 @@
       "headword": "走草",
       "pinyin": "zou3 cao3",
       "wordClass": "动词",
-      "definitions": [{"text":"狗等家畜发情时焦躁不安，急于外出寻找配偶。"},{"text":"引申指嫖娼或发生不正当性行为。"}]
+      "definitions": [{"text":"狗等家畜发情时焦躁不安，急于外出寻找配偶。"},{"text":"引申指嫖娼或发生不正当性行为。"}],
+      "tag": ["粗俗"]
     },
     {
       "id": "cq-00869",
@@ -8168,7 +8170,7 @@
       "pinyin": "tiao3",
       "wordClass": "动词",
       "variants": ["调"],
-      "definitions": [{"text":"调换；交换。"},{"text":"调转；改变方向。"}],
+      "definitions": [{"text":"调换、交换。"},{"text":"调转、翻面；改变方向。"}],
       "examples": [{"text":"我拿的这件衣服大了个号_儿，麻烦你们斢一件。","pinyin":"wo3 la2 li1 le4 jian4 yi1 fu2 da4 lao3 gə4 har4 ma2 fan2 li3 men1 tiao3 yi2 jian4","translation":"我拿的这件衣服大了一号，麻烦你们换一件。"},{"text":"前头没得路，只有斢头回去给。","pinyin":"qian2 tou2-1 mei1 de2 lu4 zi3 you3 tiao3 tou2 hui2 qi4-1 ge1","translation":"前面没有路，只能调头回去了。"}]
     },
     {
@@ -9304,6 +9306,7 @@
       "headword": "面_儿",
       "pinyin": "miar4",
       "wordClass": "名词",
+      "variants": ["麺_儿"],
       "definitions": [{"text":"粉末；细碎的粉末状物体。"}],
       "examples": [{"text":"花椒面_儿 | 海椒面_儿","pinyin":"hua1 jiao1 miar4 | hai3 jiao1 miar4"}]
     },
@@ -9320,6 +9323,7 @@
       "headword": "面面_(儿)",
       "pinyin": "mian4 mian4-1 / mian4 miar4-1",
       "wordClass": "名词",
+      "variants": ["麺麺_(儿)"],
       "definitions": [{"text":"粉末；细碎成粉状的东西。同「面_儿」。"}],
       "examples": [{"text":"饼干压烂了，包包头尽是面面。","pinyin":"bin3 gan1 ya4 lan4 lao3 bao1 bao1 tou2 jin4 si4 mian4 mian4-1","translation":"饼干被压碎了，包里全是饼干粉末。"}]
     },
@@ -9328,6 +9332,7 @@
       "headword": "面面_(儿)药",
       "pinyin": "mian4 mian4-1 yo2 / mian4 miar4-1 yo2",
       "wordClass": "名词",
+      "variants": ["麺麺_(儿)药"],
       "definitions": [{"text":"粉末状的药，药粉。"},{"text":"尤指粉末状的迷药、毒药等。"}],
       "examples": [{"text":"面面_儿药要兑水喝，莫直接倒到嘴巴头。","pinyin":" mian4 miar4-1 yo2 yao4 dui4 sui3 ho1 mo2 zi2 jie1 dao4 dao3 zui3 ba1 tou2","translation":"药粉要兑水服用，不要直接倒进嘴里。"},{"text":"那天我喝了一小杯_儿可乐就发昏，迟怕是遭下了面面_儿药。","pinyin":"la4 tian1 wo3 ho1 lao3 yi2 xiao3 ber1 ko3 lo2 dou4 fa2 hun1 ci2 pa4 si4 zao2 xia4 lao3 mian4 miar4-1 yo2","translation":"那天我喝了一小杯可乐就头晕，恐怕是被下了迷药。"}]
     },
