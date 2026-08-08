@@ -94,6 +94,9 @@
     { level: "专家", count: 3 }
   ];
   const QUIZ_QUESTION_COUNT = QUESTION_QUOTAS.reduce((total, item) => total + item.count, 0);
+  const QUIZ_VERSION = "2026-08-09-scoring-v2";
+  const STATS_ENDPOINT = document.querySelector('meta[name="cq-quiz-stats-endpoint"]')?.content || "/api/quiz-stats";
+  const RATING_ORDER = ["黄棒", "半罐水", "摸得到门", "耍得转", "行市", "老江湖", "老板凳"];
 
   const state = {
     questions: [],
@@ -101,6 +104,7 @@
     responses: new Map(),
     results: [],
     matchSelection: null,
+    attemptId: "",
     toastTimer: 0
   };
 
@@ -467,11 +471,11 @@
   function scoreQuiz() {
     const regularScore = state.results
       .filter((result) => result.level !== "专家")
-      .reduce((total, result) => total + (result.correct ? 5 : result.partial ? 2 : 0), 0);
+      .reduce((total, result) => total + (result.correct ? 6 : result.partial ? 2 : 0), 0);
     const penalty = state.results
       .filter((result) => result.level === "专家")
-      .reduce((total, result) => total + result.missed * 3 + result.extra * 2, 0);
-    const expertScore = Math.max(0, 25 - penalty);
+      .reduce((total, result) => total + result.missed + result.extra, 0);
+    const expertScore = Math.max(0, 10 - penalty);
     return {
       regularScore,
       expertScore,
@@ -514,6 +518,80 @@
     return { title: "老板凳", eyebrow: "镇堂级别", description: "从小坐到大的老资格，勒套题怕不是你出的。", mark: "S+" };
   }
 
+  function newAttemptId() {
+    if (window.crypto?.randomUUID) return window.crypto.randomUUID();
+    const random = new Uint8Array(16);
+    if (window.crypto?.getRandomValues) window.crypto.getRandomValues(random);
+    else random.forEach((_, index) => { random[index] = Math.floor(Math.random() * 256); });
+    random[6] = (random[6] & 0x0f) | 0x40;
+    random[8] = (random[8] & 0x3f) | 0x80;
+    const hex = Array.from(random, (value) => value.toString(16).padStart(2, "0")).join("");
+    return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
+  }
+
+  function statsPlaceholder() {
+    return RATING_ORDER.map((title) => `<li>
+      <span>${escapeHtml(title)}</span>
+      <i aria-hidden="true"><b style="width:0%"></b></i>
+      <strong>—</strong>
+    </li>`).join("");
+  }
+
+  function renderRatingStats(payload, currentRating) {
+    const list = els.resultCard.querySelector("#ratingStatsList");
+    const status = els.resultCard.querySelector("#ratingStatsStatus");
+    if (!list || !status) return;
+
+    const rows = new Map(Array.isArray(payload?.bands)
+      ? payload.bands.map((band) => [band.rating, band])
+      : []);
+    const total = Number.isFinite(payload?.total) ? Math.max(0, payload.total) : 0;
+    list.innerHTML = RATING_ORDER.map((title) => {
+      const count = Math.max(0, Number(rows.get(title)?.count) || 0);
+      const percent = total ? Math.round((count / total) * 1000) / 10 : 0;
+      const current = title === currentRating;
+      return `<li${current ? ' class="current"' : ""}>
+        <span>${escapeHtml(title)}${current ? '<small>你在这档</small>' : ""}</span>
+        <i aria-hidden="true"><b style="width:${percent}%"></b></i>
+        <strong>${percent.toFixed(1)}%</strong>
+      </li>`;
+    }).join("");
+    status.textContent = total > 0
+      ? `已匿名统计 ${total.toLocaleString("zh-CN")} 次完整评级`
+      : "你是第一位完成评级的人";
+  }
+
+  function showStatsUnavailable() {
+    const status = els.resultCard.querySelector("#ratingStatsStatus");
+    if (status) status.textContent = "段位统计暂时没有连上，稍后再来看。";
+  }
+
+  async function syncRatingStats(score, rating) {
+    if (!state.attemptId) state.attemptId = newAttemptId();
+    try {
+      const response = await fetch(STATS_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          attemptId: state.attemptId,
+          score: score.total,
+          rating: rating.title,
+          quizVersion: QUIZ_VERSION
+        })
+      });
+      if (!response.ok) throw new Error(`Stats request failed: ${response.status}`);
+      renderRatingStats(await response.json(), rating.title);
+    } catch (_) {
+      try {
+        const response = await fetch(STATS_ENDPOINT, { headers: { "Accept": "application/json" } });
+        if (!response.ok) throw new Error(`Stats request failed: ${response.status}`);
+        renderRatingStats(await response.json(), rating.title);
+      } catch (_) {
+        showStatsUnavailable();
+      }
+    }
+  }
+
   function renderResult() {
     const score = scoreQuiz();
     const rating = ratingFor(score.total);
@@ -537,9 +615,20 @@
         <strong>${score.total}</strong><span>/ 100</span>
       </div>
       <div class="score-breakdown">
-        <span><small>基础题</small><strong>${score.regularScore} / 75</strong></span>
-        <span><small>专家题</small><strong>${score.expertScore} / 25</strong></span>
+        <span><small>普通题</small><strong>${score.regularScore} / 90</strong></span>
+        <span><small>专家题</small><strong>${score.expertScore} / 10</strong></span>
       </div>
+      <section class="rating-stats" aria-labelledby="ratingStatsTitle">
+        <div class="rating-stats-heading">
+          <div>
+            <span>匿名段位统计</span>
+            <h2 id="ratingStatsTitle">大家测到哪一档？</h2>
+          </div>
+          <p id="ratingStatsStatus" role="status">正在把这次评级记进去……</p>
+        </div>
+        <ol class="rating-stats-list" id="ratingStatsList">${statsPlaceholder()}</ol>
+        <small class="rating-stats-note">这项统计只记录最终分数与评级，不保存每题作答。</small>
+      </section>
       <section class="share-callout" aria-labelledby="sharePrompt">
         <div>
           <span class="share-kicker">散给朋友看</span>
@@ -561,6 +650,7 @@
       els.resultCard.focus();
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
+    syncRatingStats(score, rating);
   }
 
   function showToast(message) {
@@ -626,6 +716,7 @@
     state.responses = new Map();
     state.results = [];
     state.matchSelection = null;
+    state.attemptId = "";
     els.resultCard.innerHTML = "";
     renderQuestion();
     window.scrollTo({ top: 0, behavior: "smooth" });

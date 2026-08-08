@@ -1,0 +1,24 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+
+  "name": "cqpedia-quiz-stats",
+
+  "main": "src/index.js",
+
+  "compatibility_date": "2026-08-08",
+
+  "workers_dev": true,
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cqpedia-quiz-stats",
+      "database_id": "8f078ac2-1e1a-469c-9779-d6b2af7d3665",
+      "migrations_dir": "migrations"
+    }
+  ],
+
+  "vars": {
+    "ALLOWED_ORIGINS": "https://cqpedia.cn,https://www.cqpedia.cn"
+  }
+}

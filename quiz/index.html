@@ -6,6 +6,7 @@
     <title>重庆话测验｜CQ-Pedia</title>
     <meta name="description" content="18 道重庆话题目，测下你的言子儿水平；完成后获得专属评级。">
     <meta name="theme-color" content="#f6e8c8">
+    <meta name="cq-quiz-stats-endpoint" content="https://cqpedia-quiz-stats.rigby.workers.dev/api/quiz-stats">
     <link rel="canonical" href="https://cqpedia.cn/quiz/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="重庆话测验｜CQ-Pedia">
@@ -18,11 +19,11 @@
         document.documentElement.dataset.theme = savedTheme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       } catch (_) {}
     </script>
-    <link rel="stylesheet" href="quiz.css?v=20260805-erhua-mark">
+    <link rel="stylesheet" href="quiz.css?v=20260809-rating-stats">
     <script src="../baidu-analytics.js"></script>
     <script src="../posthog.js"></script>
     <script src="questions.js?v=20260806-question-pool-v2" defer></script>
-    <script src="quiz.js?v=20260806-random-paper" defer></script>
+    <script src="quiz.js?v=20260809-rating-stats" defer></script>
   </head>
   <body>
     <header class="quiz-topbar">
@@ -92,18 +93,19 @@
           <section class="score-rule score-rule-regular">
             <div class="score-rule-top">
               <strong>普通题</strong>
-              <span>每题 5 分</span>
+              <span>每题 6 分</span>
             </div>
             <small>简单 · 中等 · 困难</small>
-            <p>每题 5 分；全部答对得 5 分，答对一部分得 2 分，完全未答对得 0 分。</p>
+            <p>每题 6 分；全部答对得 6 分，答对一部分得 2 分，完全未答对得 0 分。</p>
           </section>
           <section class="score-rule score-rule-expert">
             <div class="score-rule-top">
               <strong>专家题</strong>
-              <span>合计 25 分</span>
+              <span>合计 10 分</span>
             </div>
-            <p>专家题合计 25 分；每漏选 1 个扣 3 分，每多选 1 个扣 2 分，最多扣 25 分。</p>
+            <p>专家题合计 10 分；每漏选 1 个扣 1 分，每多选 1 个扣 1 分，最多扣 10 分。</p>
           </section>
+          <p class="score-rules-update"><time datetime="2026-08-09">2026.8.9</time> 优化了评分规则</p>
         </div>
       </section>
     </div>

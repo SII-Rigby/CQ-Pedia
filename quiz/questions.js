@@ -360,7 +360,7 @@
           { id: "a", left: "坌（ben4）", right: "酱油" },
           { id: "b", left: "逮（dai2）", right: "耗子" },
           { id: "c", left: "㩟（zai4）", right: "扣子" },
-          { id: "d", left: "扚（dia1）", right: "水果" }
+          { id: "d", left: "扚（dia1）", right: "袋子" }
         ]
       },
       {

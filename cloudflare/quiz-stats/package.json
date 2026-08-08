@@ -1,0 +1,14 @@
+{
+  "name": "cqpedia-quiz-stats",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "migrate:local": "wrangler d1 migrations apply cqpedia-quiz-stats --local",
+    "migrate:remote": "wrangler d1 migrations apply cqpedia-quiz-stats --remote",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

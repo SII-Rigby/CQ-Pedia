@@ -7,6 +7,9 @@ scripts/add_entries.py
 scripts/submit_indexnow.py
 .codex_tmp/
 .cq-workflow/
+cloudflare/quiz-stats/node_modules/
+cloudflare/quiz-stats/.wrangler/
+cloudflare/quiz-stats/.dev.vars
 
 data/new-entries.json
 data/*字.txt
