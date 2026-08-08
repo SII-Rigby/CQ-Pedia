@@ -627,7 +627,6 @@
           <p id="ratingStatsStatus" role="status">正在把这次评级记进去……</p>
         </div>
         <ol class="rating-stats-list" id="ratingStatsList">${statsPlaceholder()}</ol>
-        <small class="rating-stats-note">这项统计只记录最终分数与评级，不保存每题作答。</small>
       </section>
       <section class="share-callout" aria-labelledby="sharePrompt">
         <div>
