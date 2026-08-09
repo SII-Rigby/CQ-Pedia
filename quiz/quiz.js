@@ -631,6 +631,21 @@
       }
     }
 
+    for (const endpoint of STATS_ENDPOINTS) {
+      try {
+        const response = await fetchWithTimeout(endpoint, {
+          headers: { "Accept": "application/json" }
+        });
+        if (!response.ok) throw new Error(`Stats request failed: ${response.status}`);
+        const payload = await response.json();
+        saveStatsCache(payload);
+        renderRatingStats(payload, rating.title, "本次成绩暂未记入，先显示现有段位统计");
+        return;
+      } catch (_) {
+        // Try the next read endpoint before falling back to a saved snapshot.
+      }
+    }
+
     const cached = loadStatsCache();
     if (cached) {
       const savedTime = new Date(cached.savedAt).toLocaleDateString("zh-CN");

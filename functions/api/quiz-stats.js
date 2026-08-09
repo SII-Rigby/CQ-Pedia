@@ -13,29 +13,10 @@ function json(data, status) {
 }
 
 async function readLimitedBody(request) {
-  if (!request.body) return new Uint8Array();
-  const reader = request.body.getReader();
-  const chunks = [];
-  let size = 0;
-
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    size += value.byteLength;
-    if (size > MAX_BODY_BYTES) {
-      await reader.cancel();
-      return null;
-    }
-    chunks.push(value);
-  }
-
-  const body = new Uint8Array(size);
-  let offset = 0;
-  for (const chunk of chunks) {
-    body.set(chunk, offset);
-    offset += chunk.byteLength;
-  }
-  return body;
+  const declaredSize = Number(request.headers.get("Content-Length") || 0);
+  if (declaredSize > MAX_BODY_BYTES) return null;
+  const body = await request.text();
+  return new TextEncoder().encode(body).byteLength <= MAX_BODY_BYTES ? body : null;
 }
 
 export async function onRequest({ request }) {
