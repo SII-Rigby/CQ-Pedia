@@ -95,8 +95,21 @@
   ];
   const QUIZ_QUESTION_COUNT = QUESTION_QUOTAS.reduce((total, item) => total + item.count, 0);
   const QUIZ_VERSION = "2026-08-09-scoring-v2";
-  const STATS_ENDPOINT = document.querySelector('meta[name="cq-quiz-stats-endpoint"]')?.content || "/api/quiz-stats";
-  const RATING_ORDER = ["黄棒", "半罐水", "摸得到门", "耍得转", "行市", "老江湖", "老板凳"];
+  const STATS_ENDPOINTS = Array.from(new Set([
+    "/api/quiz-stats",
+    document.querySelector('meta[name="cq-quiz-stats-fallback"]')?.content
+  ].filter(Boolean)));
+  const STATS_TIMEOUT_MS = 6000;
+  const STATS_CACHE_KEY = "cq-quiz-rating-stats-v1";
+  const RATING_BANDS = [
+    { rating: "黄棒", mark: "F" },
+    { rating: "半罐水", mark: "D" },
+    { rating: "摸得到门", mark: "C" },
+    { rating: "耍得转", mark: "B" },
+    { rating: "行市", mark: "A" },
+    { rating: "老江湖", mark: "S" },
+    { rating: "老板凳", mark: "S+" }
+  ];
 
   const state = {
     questions: [],
@@ -530,14 +543,14 @@
   }
 
   function statsPlaceholder() {
-    return RATING_ORDER.map((title) => `<li>
-      <span>${escapeHtml(title)}</span>
+    return RATING_BANDS.map((band) => `<li>
+      <span>${escapeHtml(band.mark)}</span>
       <i aria-hidden="true"><b style="width:0%"></b></i>
       <strong>—</strong>
     </li>`).join("");
   }
 
-  function renderRatingStats(payload, currentRating) {
+  function renderRatingStats(payload, currentRating, statusMessage = "") {
     const list = els.resultCard.querySelector("#ratingStatsList");
     const status = els.resultCard.querySelector("#ratingStatsStatus");
     if (!list || !status) return;
@@ -546,19 +559,19 @@
       ? payload.bands.map((band) => [band.rating, band])
       : []);
     const total = Number.isFinite(payload?.total) ? Math.max(0, payload.total) : 0;
-    list.innerHTML = RATING_ORDER.map((title) => {
-      const count = Math.max(0, Number(rows.get(title)?.count) || 0);
+    list.innerHTML = RATING_BANDS.map((band) => {
+      const count = Math.max(0, Number(rows.get(band.rating)?.count) || 0);
       const percent = total ? Math.round((count / total) * 1000) / 10 : 0;
-      const current = title === currentRating;
+      const current = band.rating === currentRating;
       return `<li${current ? ' class="current"' : ""}>
-        <span>${escapeHtml(title)}${current ? '<small>你在这档</small>' : ""}</span>
+        <span>${escapeHtml(band.mark)}${current ? '<small>你在这档</small>' : ""}</span>
         <i aria-hidden="true"><b style="width:${percent}%"></b></i>
         <strong>${percent.toFixed(1)}%</strong>
       </li>`;
     }).join("");
-    status.textContent = total > 0
+    status.textContent = statusMessage || (total > 0
       ? `已匿名统计 ${total.toLocaleString("zh-CN")} 次完整评级`
-      : "你是第一位完成评级的人";
+      : "你是第一位完成评级的人");
   }
 
   function showStatsUnavailable() {
@@ -566,30 +579,65 @@
     if (status) status.textContent = "段位统计暂时没有连上，稍后再来看。";
   }
 
+  async function fetchWithTimeout(url, options) {
+    const controller = new AbortController();
+    const timer = window.setTimeout(() => controller.abort(), STATS_TIMEOUT_MS);
+    try {
+      return await fetch(url, { ...options, signal: controller.signal });
+    } finally {
+      window.clearTimeout(timer);
+    }
+  }
+
+  function saveStatsCache(payload) {
+    try {
+      localStorage.setItem(STATS_CACHE_KEY, JSON.stringify({ payload, savedAt: Date.now() }));
+    } catch (_) {}
+  }
+
+  function loadStatsCache() {
+    try {
+      const cached = JSON.parse(localStorage.getItem(STATS_CACHE_KEY) || "null");
+      if (!cached?.payload || !Number.isFinite(cached.savedAt)) return null;
+      return cached;
+    } catch (_) {
+      return null;
+    }
+  }
+
   async function syncRatingStats(score, rating) {
     if (!state.attemptId) state.attemptId = newAttemptId();
-    try {
-      const response = await fetch(STATS_ENDPOINT, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          attemptId: state.attemptId,
-          score: score.total,
-          rating: rating.title,
-          quizVersion: QUIZ_VERSION
-        })
-      });
-      if (!response.ok) throw new Error(`Stats request failed: ${response.status}`);
-      renderRatingStats(await response.json(), rating.title);
-    } catch (_) {
+    const body = JSON.stringify({
+      attemptId: state.attemptId,
+      score: score.total,
+      rating: rating.title,
+      quizVersion: QUIZ_VERSION
+    });
+
+    for (const endpoint of STATS_ENDPOINTS) {
       try {
-        const response = await fetch(STATS_ENDPOINT, { headers: { "Accept": "application/json" } });
+        const response = await fetchWithTimeout(endpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "Accept": "application/json" },
+          body
+        });
         if (!response.ok) throw new Error(`Stats request failed: ${response.status}`);
-        renderRatingStats(await response.json(), rating.title);
+        const payload = await response.json();
+        saveStatsCache(payload);
+        renderRatingStats(payload, rating.title);
+        return;
       } catch (_) {
-        showStatsUnavailable();
+        // Try the next endpoint. The same attemptId keeps retries idempotent.
       }
     }
+
+    const cached = loadStatsCache();
+    if (cached) {
+      const savedTime = new Date(cached.savedAt).toLocaleDateString("zh-CN");
+      renderRatingStats(cached.payload, rating.title, `网络不稳，显示 ${savedTime} 的统计快照`);
+      return;
+    }
+    showStatsUnavailable();
   }
 
   function renderResult() {

@@ -6,7 +6,7 @@
     <title>重庆话测验｜CQ-Pedia</title>
     <meta name="description" content="18 道重庆话题目，测下你的言子儿水平；完成后获得专属评级。">
     <meta name="theme-color" content="#f6e8c8">
-    <meta name="cq-quiz-stats-endpoint" content="https://cqpedia-quiz-stats.rigby.workers.dev/api/quiz-stats">
+    <meta name="cq-quiz-stats-fallback" content="https://cqpedia-quiz-stats.rigby.workers.dev/api/quiz-stats">
     <link rel="canonical" href="https://cqpedia.cn/quiz/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="重庆话测验｜CQ-Pedia">
@@ -19,11 +19,11 @@
         document.documentElement.dataset.theme = savedTheme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       } catch (_) {}
     </script>
-    <link rel="stylesheet" href="quiz.css?v=20260809-rating-stats">
+    <link rel="stylesheet" href="quiz.css?v=20260809-stats-resilience">
     <script src="../baidu-analytics.js"></script>
     <script src="../posthog.js"></script>
     <script src="questions.js?v=20260806-question-pool-v2" defer></script>
-    <script src="quiz.js?v=20260809-rating-stats" defer></script>
+    <script src="quiz.js?v=20260809-stats-resilience" defer></script>
   </head>
   <body>
     <header class="quiz-topbar">
