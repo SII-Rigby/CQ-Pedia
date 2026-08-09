@@ -1930,13 +1930,13 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "正", "白"
           ],
           "pinyin": "zua3"
         },
         {
           "labels": [
-            "正", "白"
+            "正"
           ],
           "pinyin": "zao3"
         }
