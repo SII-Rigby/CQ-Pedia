@@ -3168,8 +3168,9 @@
       "pinyin": "jin1 bao3 luan3 / jin1 bao1 luan3",
       "wordClass": "名词",
       "variants": ["金包卵"],
-      "definitions": [{"text":"非常宝贝、受宠爱的人或物。含贬义，多用于讽刺、谩骂场合。"}],
-      "examples": [{"text":"真的是个金宝卵！手遭跐落点_儿皮皮就要喊救护车。","pinyin":"zen1 li1 si4 gə4 jin1 bao3 luan3 sou3 zao2 zi1 lo2 diar3 pi2 pi2-1 dou4 yao4 han3 jiu4 fu4 ce1","translation":"真的是个宝贝呢！手上擦破点皮就要喊救护车。"}]
+      "definitions": [{"text":"非常宝贝、受宠爱的人或物。含贬义，多用于讽刺、谩骂场合。","note":"含粗俗成分。"}],
+      "examples": [{"text":"真的是个金宝卵！手遭跐落点_儿皮皮就要喊救护车。","pinyin":"zen1 li1 si4 gə4 jin1 bao3 luan3 sou3 zao2 zi1 lo2 diar3 pi2 pi2-1 dou4 yao4 han3 jiu4 fu4 ce1","translation":"真的是个宝贝呢！手上擦破点皮就要喊救护车。"}],
+      "tag": ["粗俗"]
     },
     {
       "id": "cq-00374",
@@ -6094,8 +6095,9 @@
       "pinyin": "cong3 luan3 qi3 ho3",
       "wordClass": "动词",
       "variants": ["宠卵起火","趁乱起火"],
-      "definitions": [{"text":"趁别人遭难或局面混乱时，从中捞取好处；趁火打劫。"}],
-      "examples": [{"text":"我屋房子遭震垮了，几副颜色宠卵起火，把盆盆_儿碗碗_儿都薅起跑了。","pinyin":"wo3 vu2 fang2 zi3 zao2 zen4 kua3 lao3 ji3 fu4 yan2 se2 cong3 luan3 qi3 ho3 ba3 pen2 per2-1 wan3 war3 dou1 ha1 qi3 pao3 lao3","translation":"我家房子被震塌了，几个小人趁火打劫，把锅碗瓢盆全薅走了。"}]
+      "definitions": [{"text":"趁别人遭难或局面混乱时，从中捞取好处；趁火打劫。","note":"含粗俗成分。"}],
+      "examples": [{"text":"我屋房子遭震垮了，几副颜色宠卵起火，把盆盆_儿碗碗_儿都薅起跑了。","pinyin":"wo3 vu2 fang2 zi3 zao2 zen4 kua3 lao3 ji3 fu4 yan2 se2 cong3 luan3 qi3 ho3 ba3 pen2 per2-1 wan3 war3 dou1 ha1 qi3 pao3 lao3","translation":"我家房子被震塌了，几个小人趁火打劫，把锅碗瓢盆全薅走了。"}],
+      "tag": ["粗俗"]
     },
     {
       "id": "cq-00725",
@@ -11343,11 +11345,11 @@
     },
     {
       "id": "cq-01355",
-      "headword": "坛沿水",
-      "pinyin": "tan2 yan2 sui3 / tan2 yuan2 sui3",
+      "headword": "坛舷水",
+      "pinyin": "tan2 xian2 sui3",
       "wordClass": "名词",
-      "definitions": [{"text":"盛在坛口边缘凹槽内，用于隔绝空气、密封坛内食物的水。"}],
-      "examples": [{"text":"记到把坛沿水加起，不要搞忘了。","pinyin":"ji4 dao3 ba3 tan2 yan2 sui3 jia1 qi3 bu2 yao4 gao3 wang4 lao3","translation":"记着把坛口边缘的水加上，别忘了。"}]
+      "definitions": [{"text":"盛在坛口边缘凹槽内，用于隔绝空气、密封坛内食物的水；坛沿水。"}],
+      "examples": [{"text":"记到把坛舷水加起，不要搞忘了。","pinyin":"ji4 dao3 ba3 tan2 yan2 sui3 jia1 qi3 bu2 yao4 gao3 wang4 lao3","translation":"记着把坛口边缘的水加上，别忘了。"}]
     },
     {
       "id": "cq-01356",
@@ -11542,9 +11544,9 @@
       "id": "cq-01379",
       "headword": "架势",
       "pinyin": "jia4 si4",
-      "wordClass": "动词；副词",
-      "definitions": [{"text":"摆出势头；着手做准备。"},{"text":"一个劲儿地、努力地。近义词「搂实」「嘿起」。"}],
-      "examples": [{"text":"大家都架势起，准备开工了。","pinyin":"da4 ga1 dou1 jia4 si4 qi3 zun3 bi4 kai1 gong1 lao3","translation":"大家都做好准备，准备开工了。"},{"text":"她架势往坡上爬，喊她也不应。","pinyin":"ta1 jia4 si4 wang3 po1 sang4 pa2 han3 ta1 ye3 bu2 yin4","translation":"她使劲往坡上爬，叫她也不应。"}]
+      "wordClass": "动词；副词；名词",
+      "definitions": [{"text":"摆出势头；着手做准备。"},{"text":"一个劲儿地、努力地。近义词「搂实」「嘿起」。"},{"text":"势头、架子。"}],
+      "examples": [{"text":"大家都架势起，准备开工了。","pinyin":"da4 ga1 dou1 jia4 si4 qi3 zun3 bi4 kai1 gong1 lao3","translation":"大家都做好准备，准备开工了。"},{"text":"她架势往坡上爬，喊她也不应。","pinyin":"ta1 jia4 si4 wang3 po1 sang4 pa2 han3 ta1 ye3 bu2 yin4","translation":"她使劲往坡上爬，叫她也不应。"},{}]
     },
     {
       "id": "cq-01380",

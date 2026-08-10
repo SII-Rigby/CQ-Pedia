@@ -442,7 +442,8 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
     <meta property="og:type" content="article">
     <link rel="icon" href="../../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
-    <link rel="stylesheet" href="../../styles.css?v=20260722-header-nav">
+    <script src="../../theme.js?v=20260810-theme-v1"></script>
+    <link rel="stylesheet" href="../../styles.css?v=20260810-theme-v1">
     <script src="../../posthog.js"></script>
     <script src="../../baidu-analytics.js"></script>
     <script src="../../topic-menu.js?v=20260722-all-entries" defer></script>
@@ -774,7 +775,8 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
     <meta property="og:type" content="website">
     <link rel="icon" href="../../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
-    <link rel="stylesheet" href="../../styles.css?v=20260722-header-nav">
+    <script src="../../theme.js?v=20260810-theme-v1"></script>
+    <link rel="stylesheet" href="../../styles.css?v=20260810-theme-v1">
     <script type="application/ld+json">{structured_data}</script>
     <script src="../../posthog.js"></script>
     <script src="../../baidu-analytics.js"></script>

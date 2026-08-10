@@ -468,7 +468,7 @@
     state.matchSelection = null;
 
     if (state.index === state.questions.length - 1) {
-      renderResult();
+      void renderResult();
       return;
     }
 
@@ -624,8 +624,7 @@
         if (!response.ok) throw new Error(`Stats request failed: ${response.status}`);
         const payload = await response.json();
         saveStatsCache(payload);
-        renderRatingStats(payload, rating.title);
-        return;
+        return { payload, statusMessage: "" };
       } catch (_) {
         // Try the next endpoint. The same attemptId keeps retries idempotent.
       }
@@ -639,8 +638,7 @@
         if (!response.ok) throw new Error(`Stats request failed: ${response.status}`);
         const payload = await response.json();
         saveStatsCache(payload);
-        renderRatingStats(payload, rating.title, "本次成绩暂未记入，先显示现有段位统计");
-        return;
+        return { payload, statusMessage: "本次成绩暂未记入，先显示现有段位统计" };
       } catch (_) {
         // Try the next read endpoint before falling back to a saved snapshot.
       }
@@ -649,22 +647,34 @@
     const cached = loadStatsCache();
     if (cached) {
       const savedTime = new Date(cached.savedAt).toLocaleDateString("zh-CN");
-      renderRatingStats(cached.payload, rating.title, `网络不稳，显示 ${savedTime} 的统计快照`);
-      return;
+      return { payload: cached.payload, statusMessage: `网络不稳，显示 ${savedTime} 的统计快照` };
     }
-    showStatsUnavailable();
+    return { payload: null, statusMessage: "" };
   }
 
-  function renderResult() {
-    const score = scoreQuiz();
-    const rating = ratingFor(score.total);
+  function showResultLoading() {
     document.body.dataset.level = "level-result";
     state.index = state.questions.length;
     els.questionCard.hidden = true;
     els.resultCard.hidden = false;
-    els.progressLabel.textContent = "测验完成";
+    els.progressLabel.textContent = "正在结算";
     setProgress(state.questions.length);
+    els.resultCard.innerHTML = `
+      <div class="result-loading" role="status" aria-live="polite">
+        <div class="result-loader" aria-hidden="true"></div>
+        <h1 id="resultTitle">正在结算</h1>
+        <p>正在记录本次成绩并汇总段位数据</p>
+      </div>`;
 
+    window.requestAnimationFrame(() => {
+      els.resultCard.tabIndex = -1;
+      els.resultCard.focus();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  function renderFinalResult(score, rating, statsResult) {
+    els.progressLabel.textContent = "测验完成";
     els.resultCard.innerHTML = `
       <div class="result-confetti" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
       <div class="rating-emblem" aria-hidden="true">
@@ -687,7 +697,7 @@
             <span>匿名段位统计</span>
             <h2 id="ratingStatsTitle">大家测到哪一档？</h2>
           </div>
-          <p id="ratingStatsStatus" role="status">正在把这次评级记进去……</p>
+          <p id="ratingStatsStatus" role="status"></p>
         </div>
         <ol class="rating-stats-list" id="ratingStatsList">${statsPlaceholder()}</ol>
       </section>
@@ -707,12 +717,25 @@
         <a href="../">回到 CQ-Pedia</a>
       </div>`;
 
+    if (statsResult.payload) {
+      renderRatingStats(statsResult.payload, rating.title, statsResult.statusMessage);
+    } else {
+      showStatsUnavailable();
+    }
+
     window.requestAnimationFrame(() => {
       els.resultCard.tabIndex = -1;
       els.resultCard.focus();
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
-    syncRatingStats(score, rating);
+  }
+
+  async function renderResult() {
+    const score = scoreQuiz();
+    const rating = ratingFor(score.total);
+    showResultLoading();
+    const statsResult = await syncRatingStats(score, rating);
+    renderFinalResult(score, rating, statsResult);
   }
 
   function showToast(message) {
