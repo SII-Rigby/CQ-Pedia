@@ -773,7 +773,7 @@
       "id": "cq-00092",
       "headword": "正南齐北",
       "pinyin": "zen4 lan2 qi2 be2",
-      "wordClass": "形容词",
+      "wordClass": "副词；形容词",
       "variants": ["正南其北"],
       "definitions": [{"text":"一本正经地、认真地。"}],
       "examples": [{"text":"我正南齐北跟你说，这件事不是搞起好耍的。","pinyin":"wo3 zen4 lan2 qi2 be2 gen1 li3 so2 le4 jian4 si4 bu2 si4 gao3 qi3 hao3 sua3 li1","translation":"我认真跟你说，这件事不是闹着玩的。"}]
@@ -2662,11 +2662,11 @@
     },
     {
       "id": "cq-00314",
-      "headword": "硬是",
-      "pinyin": "ngen4 si4",
-      "wordClass": "副词",
-      "definitions": [{"text":"真是；的确是。表示强调、肯定、感叹或讽刺。"}],
-      "examples": [{"text":"他昨晚黑扯噗鼾扯了一夜，硬是吵得我睡不着。","pinyin":"ta1 zo2 wan3 he2 ce3 pu2 han4 ce3 lao3 yi2 ye4 ngen4 si4 cao3 de2 wo3 sui4 bu2 co2","translation":"他昨天晚上打了一夜鼾，吵得我实在睡不着。"}]
+      "headword": "正儿八百",
+      "pinyin": "zen4 er2 ba2 be2",
+      "wordClass": "副词；形容词",
+      "definitions": [{"text":"一本正经地、认真地。也说「正南齐北」「正儿八经」。"}],
+      "examples": [{"text":"正儿八百的欸，不呵你嘛。","pinyin":"zen4 er2 ba2 be2 li1 e3 bu2 ho1 li3 ma3","translation":"我是正经的，不会骗你。"}]
     },
     {
       "id": "cq-00315",
@@ -7675,7 +7675,7 @@
       "pinyin": "ma2",
       "wordClass": "形容词；动词",
       "definitions": [{"text":"带细碎斑点的。"},{"text":"饮酒过量而神志迟钝，醉醺醺的。"},{"text":"声音繁杂、闹嚷。常说「闹麻了」。"},{"text":"身体某一部位感觉迟钝或暂时失去知觉；麻木。"},{"text":"因言语、举止过分亲昵或矫情而感到肉麻、不自在。使肉麻。"},{"text":"哄骗、欺骗。"},{"text":"提（胆）、壮（胆）。"}],
-      "examples": [{"text":"麻雀_儿 | 麻子 | 麻老虎","pinyin":"ma2 quer2-1 | ma2 zi3 | ma2 lao3 fu3","translation":"麻雀 | 雀斑 | 老虎（因身上斑纹故称）"},{"text":"他酒量孬得很，两杯下肚就喝麻了。","pinyin":"ta1 jiu3 liang4 pie4 de2 hen3 liang3 bei1 xia4 du4 dou4 ho1 ma2 lao3","translation":"他酒量很差，两杯酒下肚就醉醺醺的了。"},{"text":"麻将馆_儿头闹麻了，啷个做作业嘛？","pinyin":"ma2 jiang4 guar3 tou2 lao4 ma2 lao3 lang3 gə4-1 zu4 zo2 lie2 ma3","translation":"麻将馆里闹闹嚷嚷，还怎么写作业？"},{"text":"跍久了，脚杆都麻了。","pinyin":"gu1 jiu3 lao3 jio2 gan3 dou1 ma2 lao3","translation":"蹲得太久，腿都麻木了。"},{"text":"听到这些怪话全身都麻了。","pinyin":"tin1 dao3 le4 xi1 guai4 hua4 quan2 sen1 dou1 ma2 lao3","translation":"听到这些奇怪的话我全身起鸡皮疙瘩。"},{"text":"你莫拿这些假话来麻我，我不得信。","pinyin":"li3 mo2 la2 le4 xi1 jia3 hua4 lai2 ma2 wo3 wo3 bu2 de2 xin4","translation":"你不要拿这些假话来骗我，我不会相信。"},{"text":"起先我有点_儿怕，我麻着胆子赶拢去，那个家伙飘飘悠悠_儿地跑开了。","pinyin":"qi3 xian1 wo3 you3 diar3 pa4 wo3 ma2 qi3 dan3 zi3 gan3 long3 qi4 la4 gə4 jia1 ho3 piao1 piao1 you1 yer1 li1 pao3 kai1 lao3","translation":"起初我有点害怕，我壮着胆子赶过去，那个家伙飘飘悠悠地跑开了。"}]
+      "examples": [{"text":"麻雀_儿 | 麻子 | 麻老虎","pinyin":"ma2 quer2-1 | ma2 zi3 | ma2 lao3 fu3","translation":"麻雀 | 雀斑 | 老虎（因身上斑纹故称）"},{"text":"他酒量孬得很，两杯下肚就喝麻了。","pinyin":"ta1 jiu3 liang4 pie4 de2 hen3 liang3 bei1 xia4 du4 dou4 ho1 ma2 lao3","translation":"他酒量很差，两杯酒下肚就醉醺醺的了。"},{"text":"麻将馆_儿头闹麻了，啷个做作业嘛？","pinyin":"ma2 jiang4 guar3 tou2 lao4 ma2 lao3 lang3 gə4-1 zu4 zo2 lie2 ma3","translation":"麻将馆里闹闹嚷嚷，还怎么写作业？"},{"text":"跍久了，脚杆都麻了。","pinyin":"gu1 jiu3 lao3 jio2 gan3 dou1 ma2 lao3","translation":"蹲得太久，腿都麻木了。"},{"text":"听到这些怪话全身都麻了。","pinyin":"tin1 dao3 le4 xi1 guai4 hua4 quan2 sen1 dou1 ma2 lao3","translation":"听到这些奇怪的话我全身起鸡皮疙瘩。"},{"text":"你莫拿这些假话来麻我，我不得信。","pinyin":"li3 mo2 la2 le4 xi1 jia3 hua4 lai2 ma2 wo3 wo3 bu2 de2 xin4","translation":"你不要拿这些假话来骗我，我不会相信。"},{"text":"起先我有点_儿怕，我麻起胆子赶拢去，那个家伙飘飘悠悠_儿地跑开了。","pinyin":"qi3 xian1 wo3 you3 diar3 pa4 wo3 ma2 qi3 dan3 zi3 gan3 long3 qi4 la4 gə4 jia1 ho3 piao1 piao1 you1 yer1 li1 pao3 kai1 lao3","translation":"起初我有点害怕，我壮着胆子赶过去，那个家伙飘飘悠悠地跑开了。"}]
     },
     {
       "id": "cq-00915",
@@ -9488,7 +9488,7 @@
       "pinyin": "you2 suer3",
       "wordClass": "名词",
       "definitions": [{"text":"食物中所含的油脂或荤腥。"},{"text":"可以从中获得的收益、利润或价格空间。"}],
-      "examples": [{},{"text":"这单_儿生意看起大，其实没得好多油水儿得。","pinyin":"le4 dar1 sen1 yi4-1 kan4 qi3 da4 qi2 si2 mei1 de2 hao3 do1 you2 suer3 de2","translation":"这笔生意看起来很大，其实没有多少利润。"}]
+      "examples": [{},{"text":"这单_儿生意看起大，其实没得好多油水_儿得。","pinyin":"le4 dar1 sen1 yi4-1 kan4 qi3 da4 qi2 si2 mei1 de2 hao3 do1 you2 suer3 de2","translation":"这笔生意看起来很大，其实没有多少利润。"}]
     },
     {
       "id": "cq-01132",

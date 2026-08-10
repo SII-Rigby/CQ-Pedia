@@ -38,7 +38,7 @@
         options: [
           { id: "a", label: "白之之" },
           { id: "b", label: "纸飞飞_儿" },
-          { id: "c", label: "麻鲊鲊（za3）" },
+          { id: "c", label: "麻鲊鲊(za3)" },
           { id: "d", label: "飞叉叉" }
         ],
         correct: ["b"]
@@ -75,8 +75,8 @@
         prompt: "下列哪个词常形容小孩调皮？",
         options: [
           { id: "a", label: "汪实" },
-          { id: "b", label: "伸抖" },
-          { id: "c", label: "敦笃" },
+          { id: "b", label: "伸抖(cen1 tou3)" },
+          { id: "c", label: "敦笃(den1 du2)" },
           { id: "d", label: "迁翻_儿" }
         ],
         correct: ["d"]
@@ -191,9 +191,9 @@
         prompt: "把量词和后面的事物搭配起。",
         pairs: [
           { id: "a", left: "一茏", right: "猪草" },
-          { id: "b", left: "一磴（ten4）", right: "梯坎_儿" },
-          { id: "c", left: "一𣲩（pa1）", right: "口香糖" },
-          { id: "d", left: "一撮（zua3 / cua3）", right: "葡萄_儿" }
+          { id: "b", left: "一磴(ten4)", right: "梯坎_儿" },
+          { id: "c", left: "一𣲩(pa1)", right: "口香糖" },
+          { id: "d", left: "一撮(zua3 / cua3)", right: "葡萄_儿" }
         ]
       },
       {
@@ -221,11 +221,11 @@
           { id: "b", label: "吃跑堂" },
           { id: "c", label: "打烂仗" },
           { id: "d", label: "踩假水_儿" },
-          { id: "e", label: "夹毛锥（ju1）" },
-          { id: "f", label: "拃（za3）场子" },
+          { id: "e", label: "夹毛锥(ju1)" },
+          { id: "f", label: "拃(za3)场子" },
           { id: "g", label: "打横爬" },
           { id: "h", label: "闪色子" },
-          { id: "i", label: "打得𰍻（cua3）" },
+          { id: "i", label: "打得𰍻(cua3)" },
           { id: "j", label: "扮灯_儿" },
           { id: "k", label: "敲棒棒" },
           { id: "l", label: "打番天印_儿" }
@@ -282,8 +282,8 @@
         options: [
           { id: "a", label: "癞疙宝" },
           { id: "b", label: "猪儿虫" },
-          { id: "c", label: "涨水蛾_儿（war2）" },
-          { id: "d", label: "蠚（ho2）麻" }
+          { id: "c", label: "涨水蛾_儿(war2)" },
+          { id: "d", label: "蠚(ho2)麻" }
         ],
         correct: ["d"]
       },
@@ -294,8 +294,8 @@
         prompt: "下列用于夸人的词汇是？",
         options: [
           { id: "a", label: "金宝卵" },
-          { id: "b", label: "古嗔（cen4）" },
-          { id: "c", label: "敦笃（den1 du2）" },
+          { id: "b", label: "古嗔(cen4)" },
+          { id: "c", label: "敦笃(den1 du2)" },
           { id: "d", label: "打滚_儿匠" }
         ],
         correct: ["c"]
@@ -331,7 +331,7 @@
         type: "single",
         prompt: "下列哪个词不能表示「花样、名堂、手段」？",
         options: [
-          { id: "a", label: "抖（tou3）摆" },
+          { id: "a", label: "抖(tou3)摆" },
           { id: "b", label: "板眼_儿" },
           { id: "c", label: "过场" },
           { id: "d", label: "仆爬" }
@@ -357,10 +357,10 @@
         type: "match",
         prompt: "把左边的动作和右边的事物搭配起。",
         pairs: [
-          { id: "a", left: "坌（ben4）", right: "酱油" },
-          { id: "b", left: "逮（dai2）", right: "耗子" },
-          { id: "c", left: "㩟（zai4）", right: "扣子" },
-          { id: "d", left: "扚（dia1）", right: "袋子" }
+          { id: "a", left: "坌(ben4)", right: "酱油" },
+          { id: "b", left: "逮(dai2)", right: "耗子" },
+          { id: "c", left: "㩟(zai4)", right: "扣子" },
+          { id: "d", left: "扚(dia1)", right: "袋子" }
         ]
       },
       {
@@ -369,9 +369,9 @@
         type: "match",
         prompt: "把 ABB 式词语的前后部分搭配起。",
         pairs: [
-          { id: "a", left: "神", right: "浊浊（co2 co2）" },
+          { id: "a", left: "神", right: "浊浊(co2 co2)" },
           { id: "b", left: "水", right: "垮垮" },
-          { id: "c", left: "粗", right: "疙疙（ge4 ge4）" },
+          { id: "c", left: "粗", right: "疙疙(ge4 ge4)" },
           { id: "d", left: "油", right: "济济" }
         ]
       },
@@ -381,7 +381,7 @@
         type: "single",
         prompt: "下列哪个词不能表示「共同、一起」？",
         options: [
-          { id: "a", label: "带携（xi2 / xie2）" },
+          { id: "a", label: "带携(xi2 / xie2)" },
           { id: "b", label: "一火色" },
           { id: "c", label: "打伙" },
           { id: "d", label: "一路" }
@@ -395,9 +395,9 @@
         prompt: "下列哪一句话不是夏天的场景？",
         options: [
           { id: "a", label: "这个天热登了，少出门_儿。" },
-          { id: "b", label: "在落偏涷（dong1）雨了，把衣服收了。" },
-          { id: "c", label: "烘笼_儿里头熋（lai4）人，莫摛（ci1）进去。" },
-          { id: "d", label: "在扯霍闪了，快点_儿藏（qiang2）到起。" }
+          { id: "b", label: "在落偏涷(dong1)雨了，把衣服收了。" },
+          { id: "c", label: "烘笼_儿里头熋(lai4)人，莫摛(ci1)进去。" },
+          { id: "d", label: "在扯霍闪了，快点_儿藏(qiang2)到起。" }
         ],
         correct: ["c"]
       },
@@ -421,7 +421,7 @@
         options: [
           { id: "a", label: "迁翻_儿" },
           { id: "b", label: "装狗_儿" },
-          { id: "c", label: "涎（xuan2）脸" },
+          { id: "c", label: "涎(xuan2)脸" },
           { id: "d", label: "搞豪" }
         ],
         correct: ["b"]
