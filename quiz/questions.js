@@ -87,7 +87,7 @@
         type: "single",
         prompt: "下列哪一个词汇不能表示「拳头」？",
         options: [
-          { id: "a", label: "砣_儿" },
+          { id: "a", label: "砣儿" },
           { id: "b", label: "锭子" },
           { id: "c", label: "皮砣" },
           { id: "d", label: "皮款" }

@@ -102,13 +102,13 @@
   const STATS_TIMEOUT_MS = 6000;
   const STATS_CACHE_KEY = "cq-quiz-rating-stats-v1";
   const RATING_BANDS = [
-    { rating: "黄棒", mark: "F" },
-    { rating: "半罐水", mark: "D" },
-    { rating: "摸得到门", mark: "C" },
-    { rating: "耍得转", mark: "B" },
-    { rating: "行市", mark: "A" },
+    { rating: "老板凳", mark: "S+" },
     { rating: "老江湖", mark: "S" },
-    { rating: "老板凳", mark: "S+" }
+    { rating: "行市", mark: "A" },
+    { rating: "耍得转", mark: "B" },
+    { rating: "摸得到门", mark: "C" },
+    { rating: "半罐水", mark: "D" },
+    { rating: "黄棒", mark: "F" }
   ];
 
   const state = {
@@ -559,13 +559,21 @@
       ? payload.bands.map((band) => [band.rating, band])
       : []);
     const total = Number.isFinite(payload?.total) ? Math.max(0, payload.total) : 0;
-    list.innerHTML = RATING_BANDS.map((band) => {
+    const distribution = RATING_BANDS.map((band) => {
       const count = Math.max(0, Number(rows.get(band.rating)?.count) || 0);
       const percent = total ? Math.round((count / total) * 1000) / 10 : 0;
+      return { ...band, count, percent };
+    });
+    const peakCount = Math.max(0, ...distribution.map((band) => band.count));
+
+    list.innerHTML = distribution.map((band) => {
+      const { count, percent } = band;
       const current = band.rating === currentRating;
+      const relative = peakCount ? count / peakCount : 0;
+      const visualPercent = count > 0 ? Math.max(6, relative * 100) : 0;
       return `<li${current ? ' class="current"' : ""}>
         <span>${escapeHtml(band.mark)}${current ? '<small>你在这档</small>' : ""}</span>
-        <i aria-hidden="true"><b style="width:${percent}%"></b></i>
+        <i aria-hidden="true"><b style="width:${visualPercent.toFixed(1)}%"></b></i>
         <strong>${percent.toFixed(1)}%</strong>
       </li>`;
     }).join("");
