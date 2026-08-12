@@ -4940,7 +4940,9 @@ html[data-theme="dark"] .advanced-filter-toggle {
 }
 
 html[data-theme="dark"] .search-scope-options button::before {
-  background: #60706a;
+  background: transparent;
+  border-color: #aebfca;
+  box-shadow: none;
 }
 
 html[data-theme="dark"] .search-scope-options button:hover,
@@ -4952,6 +4954,37 @@ html[data-theme="dark"] .topic-entry-link:hover,
 html[data-theme="dark"] .topic-entry-link:focus-visible {
   color: var(--ink);
   background: #3a351f;
+}
+
+html[data-theme="dark"] .search-scope-options button {
+  color: #d8e5ec;
+  background: #162a35;
+  border-color: #8299a7;
+  box-shadow: 3px 3px 0 #071016;
+}
+
+html[data-theme="dark"] .search-scope-options button:hover:not(.active) {
+  color: #f7fbff;
+  background: #203f51;
+  border-color: #b9d2e1;
+}
+
+html[data-theme="dark"] .search-scope-options button.active {
+  color: #ffffff;
+  background: #197fc2;
+  border-color: #cceaff;
+  box-shadow: 3px 3px 0 #0b3f61;
+  transform: translate(1px, 1px);
+}
+
+html[data-theme="dark"] .search-scope-options button.active::before {
+  background: #f3c642;
+  border-color: #0c3854;
+  box-shadow: 0 0 0 2px #ffffff;
+}
+
+html[data-theme="dark"] .search-scope-options button.active:hover {
+  background: #3198d8;
 }
 
 html[data-theme="dark"] .quick-guide-docs {

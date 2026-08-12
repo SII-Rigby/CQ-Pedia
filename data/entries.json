@@ -4413,10 +4413,10 @@
     {
       "id": "cq-00522",
       "headword": "长麻吊线",
-      "pinyin": "cang1 ma2 diao4 xian4",
+      "pinyin": "cang2 ma2 diao4 xian4",
       "wordClass": "形容词",
       "definitions": [{"text":"形容时间拖得很长，迟迟没有完结。"}],
-      "examples": [{"text":"这件事长麻吊线的，不晓得好久才扯得清。","pinyin":"le4 jian4 si4 cang1 ma2 diao4 xian4 li1 bu2 xiao3 de2 hao3 jiu3 tai2 ce3 de2 qin1","translation":"这件事拖了很久，不知道什么时候才能理清。"}]
+      "examples": [{"text":"这件事长麻吊线的，不晓得好久才扯得清。","pinyin":"le4 jian4 si4 cang2 ma2 diao4 xian4 li1 bu2 xiao3 de2 hao3 jiu3 tai2 ce3 de2 qin1","translation":"这件事拖了很久，不知道什么时候才能理清。"}]
     },
     {
       "id": "cq-00523",
@@ -9661,11 +9661,11 @@
     },
     {
       "id": "cq-01152",
-      "headword": "宝屄农",
+      "headword": "宝屄龙",
       "pinyin": "bao3 pi1 long2",
       "wordClass": "名词",
       "variants": ["宝批龙"],
-      "definitions": [{"text":"对行为傻气、愚蠢之人的詈称。","note":"含粗俗成分。本义带有对农民的歧视性意味，后来使用范围逐渐泛化。「宝批龙」是通行借音写法。"}],
+      "definitions": [{"text":"对行为傻气或出洋相之人的称呼；傻瓜、蠢货。","note":"含粗俗成分，具有冒犯性。"}],
       "tag": ["粗俗"]
     },
     {
@@ -9674,7 +9674,7 @@
       "pinyin": "ha3 long2 bao1",
       "wordClass": "名词",
       "variants": ["哈龙包"],
-      "definitions": [{"text":"对见识少、举止土气或行为傻气之人的贬称。","note":"本义带有对农民的歧视性意味，具有冒犯性。"}]
+      "definitions": [{"text":"对见识少、举止土气或行为傻气之人的贬称；草包、傻帽儿。","note":"本义带有对农民的歧视性意味，具有冒犯性。"}]
     },
     {
       "id": "cq-01154",
