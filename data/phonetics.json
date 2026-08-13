@@ -4315,6 +4315,20 @@
           ],
           "pinyin": "tou1",
           "examples": ["石头","骨头"]
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "dou1",
+          "examples": ["壁头","石头","岩(ngai2)头"]
+        },
+        {
+          "labels": [
+            "变"
+          ],
+          "pinyin": "lou1",
+          "examples": ["额头"]
         }
       ]
     },
@@ -10354,6 +10368,13 @@
           ],
           "pinyin": "pie2",
           "examples": ["别针"]
+        },
+        {
+          "labels": [
+            "正","白"
+          ],
+          "pinyin": "bie2",
+          "examples": ["别(蹩)手别脚","别拉拉"]
         }
       ]
     },
