@@ -719,7 +719,7 @@ function submitGuess() {
   const readings = app.readingDrafts.map((draft) => draft.value.trim().toLowerCase());
   const invalidIndex = readings.findIndex((reading) => !validManualReading(reading));
   if (invalidIndex >= 0) {
-    showToast("每个读音都要用拼音加一个实际声调，且最多 7 个字符，例如 nguang1。");
+    showToast("每个读音都要用拼音加一个实际声调，且最多 7 个字符。");
     els.readingEditor.querySelector(`[data-reading-input="${invalidIndex}"]`)?.focus();
     return;
   }
