@@ -70804,6 +70804,42 @@
           "pinyin": "gue2"
         }
       ]
+    },
+    {
+      "id": "ph-05237",
+      "character": "潋",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "lian4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05238",
+      "character": "滟",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "yan4"
+        }
+      ]
+    },
+    {
+      "id": "ph-05239",
+      "character": "谪",
+      "readings": [
+        {
+          "labels": [
+            "正"
+          ],
+          "pinyin": "ze2"
+        }
+      ]
     }
 ],
   "generation": {
