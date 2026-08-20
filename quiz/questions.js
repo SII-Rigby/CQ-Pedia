@@ -65,7 +65,7 @@
           { id: "a", left: "青 qin1", right: "痛 tong4" },
           { id: "b", left: "冰 bin1", right: "凊 qin4" },
           { id: "c", left: "梆 bang1", right: "硬 ngen4" },
-          { id: "d", left: "膖 pang1", right: "臭 cou4" }
+          { id: "d", left: "胮 pang1", right: "臭 cou4" }
         ]
       },
       {
