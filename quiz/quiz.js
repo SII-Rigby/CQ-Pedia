@@ -246,7 +246,7 @@
       ${question.options.map((option, index) => {
         const isSelected = selected.has(option.id);
         return `<button class="answer-choice${isSelected ? " selected" : ""}" type="button" data-option="${escapeHtml(option.id)}" aria-pressed="${isSelected}">
-          <span class="choice-marker" aria-hidden="true">${multiple ? (isSelected ? "✓" : "＋") : String.fromCharCode(65 + index)}</span>
+          <span class="choice-marker${multiple ? " multi-marker" : ""}" aria-hidden="true">${multiple ? "" : String.fromCharCode(65 + index)}</span>
           <span class="choice-label">${renderMarkedText(option.label)}</span>
         </button>`;
       }).join("")}
