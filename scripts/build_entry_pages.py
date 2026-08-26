@@ -447,7 +447,7 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
     <script src="../../posthog.js"></script>
     <script src="../../baidu-analytics.js"></script>
     <script src="../../topic-menu.js?v=20260722-all-entries" defer></script>
-    <script src="../../item-detail.js?v=20260615-detail" defer></script>
+    <script src="../../item-detail.js?v=20260826-more-menu-v1" defer></script>
     <script src="../../audio.js?v=20260615-audio" defer></script>
   </head>
   <body class="entry-detail-page">
@@ -461,9 +461,29 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
         <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
         <button type="button" data-topic-menu-trigger data-topic-root="../../" aria-haspopup="dialog" aria-controls="topicNavigationMenu">专题</button>
         <a href="../../phonetic/">音典</a>
-        <button type="button" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutModal">关于</button>
+        <div class="more-menu">
+          <button type="button" class="more-trigger" id="moreBtn" aria-haspopup="dialog" aria-controls="moreMenu" aria-expanded="false">更多</button>
+        </div>
       </nav>
     </header>
+
+    <div class="topic-menu more-navigation" id="moreMenu" hidden>
+      <div class="topic-menu-backdrop" data-more-menu-close></div>
+      <section class="topic-menu-panel" role="dialog" aria-modal="true" aria-labelledby="moreMenuTitle" tabindex="-1">
+        <header class="topic-menu-head">
+          <h2 id="moreMenuTitle">更多</h2>
+          <button type="button" class="topic-menu-close" data-more-menu-close aria-label="关闭更多菜单">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12"></path><path d="M18 6 6 18"></path></svg>
+          </button>
+        </header>
+        <nav class="topic-menu-list" aria-label="更多">
+          <a href="../../caimao/" role="menuitem"><span class="topic-menu-title">🐈 才猫 | 四字词猜读</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
+          <a href="../../quiz/" role="menuitem"><span class="topic-menu-title">✍️ 重庆话评级</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
+          <button type="button" role="menuitem" data-theme-toggle aria-pressed="false"><span class="topic-menu-title"><span class="theme-menu-glyph" data-theme-icon aria-hidden="true">🌙</span> <span data-theme-label>深色模式</span></span><span class="topic-menu-arrow" aria-hidden="true">→</span></button>
+          <button type="button" role="menuitem" data-open-about><span class="topic-menu-title">关于</span><span class="topic-menu-arrow" aria-hidden="true">→</span></button>
+        </nav>
+      </section>
+    </div>
 
     <div class="modal" id="mustReadModal" role="dialog" aria-modal="true" aria-labelledby="mustReadTitle" hidden>
       <div class="modal-backdrop" data-modal-close></div>

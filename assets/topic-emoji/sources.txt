@@ -1,3 +1,7 @@
 微软 Fluent Emoji 官方资源：
 GitHub 仓库：microsoft/fluentui-emoji
 SVG 资源目录：assets
+
+本地专题资源：
+- injury-illness.svg：assets/Syringe/Flat/syringe_flat.svg
+- daily-labor.svg：assets/Broom/Flat/broom_flat.svg

@@ -1,4 +1,4 @@
-﻿{
+{
   "schemaVersion": 1,
   "language": {"name":"重庆话","romanization":"Chongqing Mandarin tone-number pinyin"},
   "entries": [
@@ -567,7 +567,7 @@
       "pinyin": "fei1 ca1 ca1 / fei1 ca3 ca3",
       "wordClass": "形容词",
       "variants": ["飞奓奓"],
-      "definitions": [{"text":"形容人不庄重、放肆。多用于女性。"},{"text":"速度快、野、不拘束。"}],
+      "definitions": [{"text":"形容人不庄重、轻浮放肆。多用于女性。"},{"text":"速度快、野、不拘束。"}],
       "examples": [{"text":"王婆婆那几个孙女_儿一天飞叉叉的，不懂规矩。","pinyin":"wang2 po2 po2-1 la4 ji3 gə4 sen1 lüer3 yi2 tian1 fei1 ca1 ca1 li1 bu2 dong3 gui1 ju3","translation":"王婆婆那几个孙女成天举止放肆，不懂规矩。"},{"text":"这些摩托车一天开得飞叉叉的。","pinyin":"le4 xi1 mo1 to2 ce1 yi2 tian1 kai1 de2 fei1 ca3 ca3 li1","translation":"这些摩托车成天开得很放肆。"}]
     },
     {
@@ -2353,7 +2353,7 @@
       "wordClass": "形容词；名词",
       "variants": ["耙活"],
       "definitions": [{"text":"软和、软烂。"},{"text":"软和的物品。软弱、好欺负的人。"},{"text":"形容事情容易办、容易得到。近义词「撇脱」。"}],
-      "examples": [{"text":"这锅蹄花儿炖得𤆵和，牙口不好都咬得动。","pinyin":"le4 go1 ti2 huar1 den4 de2 pa1 ho2, ya2 kou3 bu2 hao3 dou1 ngao3 de2 dong4","translation":"这锅蹄花炖得很软烂，牙口不好也咬得动。"},{"text":"我是𤆵和嗦？你们一个二个按到我捏。","pinyin":"wo3 si4 pa1 ho2 so3 li3 men1 yi2 gə4 er2 gə4 ngan2 dao3 wo3 lie2","translation":"我是好欺负的人吗？你们一个个地指着我欺负。"},{"text":"平时不认真，考试还想得高分_儿，哪有恁个𤆵和的事？","pinyin":"pin2 si2 bu2 ren4 zen1, kao3 si4 hai2 xiang3 de2 gao1 fer1, la3 you3 len4 gə4-1 pa1 ho2 li1 si4","translation":"平时不认真，考试还想得高分，哪有这么容易的事？"}]
+      "examples": [{"text":"这锅蹄花_儿炖得𤆵和，牙口不好都咬得动。","pinyin":"le4 go1 ti2 huar1 den4 de2 pa1 ho2, ya2 kou3 bu2 hao3 dou1 ngao3 de2 dong4","translation":"这锅蹄花炖得很软烂，牙口不好也咬得动。"},{"text":"我是𤆵和嗦？你们一个二个按到我捏。","pinyin":"wo3 si4 pa1 ho2 so3 li3 men1 yi2 gə4 er2 gə4 ngan2 dao3 wo3 lie2","translation":"我是好欺负的人吗？你们一个个地指着我欺负。"},{"text":"平时不认真，考试还想得高分_儿，哪有恁个𤆵和的事？","pinyin":"pin2 si2 bu2 ren4 zen1, kao3 si4 hai2 xiang3 de2 gao1 fer1, la3 you3 len4 gə4-1 pa1 ho2 li1 si4","translation":"平时不认真，考试还想得高分，哪有这么容易的事？"}]
     },
     {
       "id": "cq-00278",
@@ -4955,7 +4955,7 @@
       "pinyin": "xiao3 ko2 zuar4",
       "wordClass": "名词",
       "variants": ["小壳钻_儿"],
-      "definitions": [{"text":"小不点；很小的人或东西。"}],
+      "definitions": [{"text":"小不点儿、小孩儿；或泛指很小、不值一提或无足轻重的人或物。带调侃意味。"}],
       "examples": [{"text":"恁个小个小壳转_儿，就晓得学到大人说话了。","pinyin":"len4 gə4-1 xiao3 gə4 xiao3 ko2 zuar4 dou4 xiao3 de2 xio2 dao3 da4 ren2 so2 hua4 lao3","translation":"这么个小不点，就知道学着大人说话了。"}]
     },
     {
@@ -8126,11 +8126,12 @@
     },
     {
       "id": "cq-00968",
-      "headword": "耍板_儿",
+      "headword": "耍把_儿",
       "pinyin": "sua3 bar3",
       "wordClass": "名词",
+      "variants": ["耍板_儿"],
       "definitions": [{"text":"玩具。"}],
-      "examples": [{"text":"她给二妹买了一大包耍板_儿。","pinyin":"ta1 ge1 er4 mei2 mai3 lao3 yi2 da4 bao1 sua3 bar3","translation":"她给二妹买了一大包玩具。"}]
+      "examples": [{"text":"她给二妹买了咚大一包耍板_儿，陀螺、车子、游戏机、家家酒_儿啥子都有。。","pinyin":"ta1 ge1 er4 mei2 mai3 lao3 dong2 da4 yi2 bao1 sua3 bar3 to2 lo2 ce1 zi3 you2 xi4 ji1 ga1 ga1 jier3 sa4 zi3 dou1 you3","translation":"她给二妹买了一大包玩具，陀螺、玩具车、游戏机、过家家的玩具应有尽有。。"}]
     },
     {
       "id": "cq-00969",
@@ -13779,6 +13780,7 @@
       "headword": "槽头",
       "pinyin": "cao2 tou2-1",
       "wordClass": "名词",
+      "variants": ["䐬头"],
       "definitions": [{"text":"猪颈项下部的肉，也说「槽头肉」。"}],
       "examples": [{"text":"这会肉卖得好，摊子上的槽头两下就卖完了。","pinyin":"le4 hui4 rou4 mai4 de2 hao3 tan1 zi3 sang4 li1 cao2 tou2-1 liang3 ha4 dou4 mai4 wan2 lao3","translation":"这段时间肉卖得好，摊位上的猪颈肉很快就卖光了。"}]
     },
@@ -14370,7 +14372,7 @@
       "pinyin": "fei1 si2",
       "wordClass": "形容词",
       "variants": ["飞石"],
-      "definitions": [{"text":"女性行为举止轻率放肆、不庄重。也说「飞叉叉」。"}],
+      "definitions": [{"text":"女性行为举止轻浮、放肆、不庄重。也说「飞叉叉」。"}],
       "examples": [{"text":"她说起还是一国领导，那个动作之飞肆。 | 她是嘉陵巷_儿出了名的飞肆。","pinyin":"ta1 so2 qi3 hai2 si4 yi2 gue2 lin3 tao4 la4 gə4-1 dong4 zo2 zi1 fei1 si2 | ta1 si4 jia1 lin2 har4 cu2 lao3 min2 li1 fei1 si2","translation":"她说起来还是一国领导，她的动作相当轻率放肆。 | 她是嘉陵巷出了名的行为放肆没教养。"}]
     },
     {
@@ -15085,6 +15087,248 @@
       "wordClass": "名词",
       "definitions": [{"text":"枣。"}],
       "fig": true
+    },
+    {
+      "id": "cq-01809",
+      "headword": "恻",
+      "pinyin": "ce2",
+      "wordClass": "动词",
+      "variants": ["𢛁"],
+      "definitions": [{"text":"心惊动。"}],
+      "examples": [{"text":"听到说上头要查贪污，他心头恻了一下。","pinyin":"tin1 dao3 so2 sang4 tou2 yao4 ca2 tan1 vu1 ta1 xin1 tou2 ce2 lao3 yi2 ha4","translation":"听到说上面要查贪污，他心里猛地惊动了一下。"}]
+    },
+    {
+      "id": "cq-01810",
+      "headword": "扯伸",
+      "pinyin": "ce3 cen1",
+      "wordClass": "动词；副词",
+      "variants": ["扯抻"],
+      "definitions": [{"text":"把起皱、弯曲的东西拉平或拉直。"},{"text":"通盘、全盘。"},{"text":"说清楚、弄明白，理出条理。"},{"text":"纠纷、矛盾得到解决，意见一致。"},{"text":"痛快、没有拘束地。"}],
+      "examples": [{"text":"铺盖扯伸了再折唦，卷起啷个折嘛？","pinyin":"pu1 gai4 ce3 cen1 lao3 zai4 ze2 sa4 juan1 qi3 lang3 gə4-1 ze2 ma3","translation":"被子拉直了再折呗，卷着怎么折得好？"},{"text":"这三个月的工钱扯伸算，每个月差不多四千。","pinyin":"le4 san1 gə4 yue2 li1 gong1 qian2 ce3 cen1 suan4 mei3 gə4 yue2 ca1 bu2 do1 si4 qian1","translation":"把这三个月的工资平均计算，每个月大约四千元。"},{"text":"你东一句西一句，半天都没把事情扯伸。","pinyin":"li3 dong1 yi2 ju4 xi1 yi2 ju4 ban4 tian1 dou1 mei1 ba3 si4 qin2 ce3 cen1","translation":"你东说一句西说一句，说了很久也没把事情说清。"},{"text":"老屋分家那笔账终于扯伸了，弟兄几个都把字签了。","pinyin":"lao3 vu2 fen1 jia1 la4 bi2 zang4 zong1 yu2 ce3 cen1 lao3 di4 xiong1 ji3 gə4 dou1 ba3 zi4 qian1 lao3","translation":"老房分家的账终于处理妥当，兄弟几人都签了字。"},{"text":"过年这几天就莫想着工作了，扯伸了耍。","pinyin":"go4 lian2 le4 ji3 tian1 dou4 mo2 xiang3 dao3 gong1 zo2 lao3 ce3 cen1 lao3 sua3","translation":"过年这几天就别想着工作了，痛痛快快地玩。"}]
+    },
+    {
+      "id": "cq-01811",
+      "headword": "打𨃅𨃅_儿",
+      "pinyin": "da3 bai1 bar1",
+      "wordClass": "动词",
+      "definitions": [{"text":"一种单脚跳着前进、按时间或距离定胜负的儿童游戏。"}]
+    },
+    {
+      "id": "cq-01812",
+      "headword": "打摆子",
+      "pinyin": "da3 bai3 zi3",
+      "wordClass": "动词",
+      "definitions": [{"text":"患疟疾。"}],
+      "examples": [{"text":"他昨天_儿去游了野泳，今_儿就在打摆子了。","pinyin":"ta1 zo2 tiar1 qi4 you2 lao3 ye3 yun4 jiar1 dou4 dai1 da3 bai3 zi3 lao3","translation":"他昨天去野外游了泳，今天就患疟疾了。"}]
+    },
+    {
+      "id": "cq-01813",
+      "headword": "打帮锤_儿",
+      "pinyin": "da3 bang1 cuer2",
+      "wordClass": "动词",
+      "definitions": [{"text":"在打架或争吵中帮着其中一方。"}],
+      "examples": [{"text":"两边的头子遭抓起来了，侧边打帮锤_儿的也脱不到爪爪_儿。","pinyin":"liang3 bian1 li1 tou2 zi3 zao2 zua1 qi3 lai2 lao3 ze2 bian1 da3 bang1 cuer2 li1 ye3 to2 bu2 dao3 zao3 zar3","translation":"双方的头儿被抓起来了，在旁边提供帮助的也脱不了责任。"}]
+    },
+    {
+      "id": "cq-01814",
+      "headword": "打帮腔",
+      "pinyin": "da3 bang1 qiang1",
+      "wordClass": "动词",
+      "definitions": [{"text":"偏向一方替其说话。近义词「打帮锤_儿」。"}],
+      "examples": [{"text":"事情问伸之前，你们哪个都不准打帮腔。","pinyin":"si4 qin2 wen4 cen1 zi1 qian2 li3 men1 la3 gə4 dou1 bu2 zun3 da3 bang1 qiang1","translation":"事情问清楚之前，你们谁也不允许帮着一方说话。"}]
+    },
+    {
+      "id": "cq-01815",
+      "headword": "打白",
+      "pinyin": "da3 be2",
+      "wordClass": "动词",
+      "definitions": [{"text":"使性子、闹脾气；故意不吃饭、不做事或消极对待，以表达不满。也说「打白撒气」。"}],
+      "examples": [{"text":"又关到屋头打白，再不出来饭吃完了，饿死该背时。","pinyin":"you4 guan1 dao3 vu2 tou2 da3 be2 zai4 bu2 cu2 lai2 fan4 ci2 wan2 lao3 wo4 si3 gai1 bei4 si2","translation":"又关在房间里赌气，再不出来饭吃光了，饿死活该。"}]
+    },
+    {
+      "id": "cq-01816",
+      "headword": "打比",
+      "pinyin": "da3 bi3",
+      "wordClass": "动词；副词",
+      "definitions": [{"text":"作比较。"},{"text":"比如、如果、假如。也说「假比」。"}],
+      "examples": [{"text":"我们五十几岁的老果果啷个能跟年轻人打比嘛。","pinyin":"wo3 men1 vu3 si2 ji3 sui4 li1 lao3 go3 go3 lang3 gə4-1 len2 gen1 lian2 qin1 ren2 da3 bi3 ma3","translation":"我们五十几岁的老人怎么能跟年轻人比较。"},{"text":"就打比她那个时候_儿买了这套房子，现在也赚不到几万块钱。","pinyin":"dou4 da3 bi3 ta1 la4 gə4-1 si2 her4 mai3 lao3 le4 tao4 fang2 zi3 xian4 zai4 ye3 zuan3 bu2 dao3 ji3 wan4 kuai3 qian2","translation":"就假如说她那个时候买了这套房子，现在也赚不了几万块钱。"}]
+    },
+    {
+      "id": "cq-01817",
+      "headword": "打比譬",
+      "pinyin": "da3 bi3 pei4",
+      "wordClass": "动词",
+      "variants": ["打比配"],
+      "definitions": [{"text":"做比较。"},{"text":"打比方，假设或举例子。"}],
+      "examples": [{"text":"你拿镇上的房价跟市中区打比譬，哪有恁个比的哟？","pinyin":"li3 la2 zen4 sang4 li1 fang2 jia4 gen1 si4 zong1 qu1 da3 bi3 pei4 la3 you4 len4 gə4-1 bi3 li1 yo1","translation":"你拿镇上的房价跟市中区比较，哪有像这样比的？"},{"text":"打个比譬，蚂蚁子的力气就当一个成年男娃儿直接㧯起一台汽车。","pinyin":"da3 gə4 bi3 pei4 ma3 yin1 zi3 li1 li2 qi4 dou4 dang4 yi2 gə4 cen2 lian2 lan2 wa2 er2-1 zi2 jie2 lao3 qi3 yi2 tai2 qi4 ce1","translation":"打个比方，蚂蚁的力气就当一个成年男人直接扛起一台汽车。"}]
+    },
+    {
+      "id": "cq-01818",
+      "headword": "打失悔",
+      "pinyin": "da3 si2 hui3",
+      "wordClass": "动词",
+      "definitions": [{"text":"后悔。"}],
+      "examples": [{"text":"票卖完了他才打失悔，早先喊买又不买。","pinyin":"piao4 mai4 wan2 lao3 ta1 tai2 da3 si2 hui3 zao3 xian1 han3 mai3 you4 bu2 mai3","translation":"票卖完后他才后悔，之前让他买却不买。"}]
+    },
+    {
+      "id": "cq-01819",
+      "headword": "打食麯",
+      "pinyin": "da3 si2 quu2",
+      "wordClass": "名词",
+      "variants": ["打食麴"],
+      "definitions": [{"text":"帮助消食的药麯。"}],
+      "examples": [{"text":"油吃重了，要吃点_儿打食麯。","pinyin":"you2 ci2 zong4 lao3 yao4 ci2 diar3 da3 si2 quu2","translation":"吃得太油腻，需要服用一点助消化的药。"}]
+    },
+    {
+      "id": "cq-01820",
+      "headword": "打湿",
+      "pinyin": "da3 si2",
+      "wordClass": "动词",
+      "definitions": [{"text":"浸湿、淋湿或弄湿。"}],
+      "examples": [{"text":"衣服遭汗水打湿完了。 | 谷子遭雨水打湿了。","pinyin":"yi1 fu2 zao2 han4 sui3 da3 si2 wan2 lao3 | gu2 zi3 zao2 yu3 sui3 da3 si2 lao3","translation":"衣服被汗水浸湿透了。 | 谷子被雨水淋湿了。"}]
+    },
+    {
+      "id": "cq-01821",
+      "headword": "打头阵",
+      "pinyin": "da3 tou2 zen4",
+      "wordClass": "动词",
+      "definitions": [{"text":"率先到达或行动；带头、领头。"}],
+      "examples": [{"text":"我有点_儿枵_儿，你是大哥，你打头阵，我殿后。","pinyin":"wo3 you3 diar3 xier1 li3 si4 da4 go1 li3 da3 tou2 zen4 wo3 dian4 hou4","translation":"我有点害怕，你是大哥，你领头，我跟在你后面。"}]
+    },
+    {
+      "id": "cq-01822",
+      "headword": "挑",
+      "pinyin": "diao1",
+      "wordClass": "动词；形容词",
+      "variants": ["刁"],
+      "definitions": [{"text":"挑拣、挑选。"},{"text":"挑剔的、要求严格的。"}],
+      "examples": [{"text":"把这堆红豆_儿头的绿豆_儿挑出来。","pinyin":"ba3 le4 dui1 hong2 der4 tou2 li1 lu2 der4 diao1 cu2 lai2","translation":"把这堆红豆里头的绿豆挑拣出来。"},{"text":"一天大鱼大肉供起，嘴巴吃挑了。","pinyin":"yi2 tian1 da4 yu2 da4 rou4 gong4 qi3 zui3 ba1 ci2 diao1 lao3","translation":"成天大鱼大肉供奉着，嘴巴都吃得挑剔了。"}]
+    },
+    {
+      "id": "cq-01823",
+      "headword": "挑嘴",
+      "pinyin": "diao1 zui3",
+      "wordClass": "形容词；动词",
+      "variants": ["刁嘴"],
+      "definitions": [{"text":"挑食、择食。"}],
+      "examples": [{"text":"这娃儿就是挑嘴，点_儿叶子菜都不吃。","pinyin":"le4 wa2 er2-1 dou4 si4 diao1 zui3 diar3 ye2 zi3 cai4 dou1 bu2 ci2","translation":"这娃儿就是挑食，一点带叶子的菜都不吃。"}]
+    },
+    {
+      "id": "cq-01824",
+      "headword": "断竟",
+      "pinyin": "duan4 jin4-1",
+      "wordClass": "副词",
+      "variants": ["断金"],
+      "definitions": [{"text":"断然、绝对、肯定、确实。"}],
+      "examples": [{"text":"我断竟没拿他的钱，我赌咒！","pinyin":"wo3 duan4 jin4-1 mei1 la2 ta1 li1 qian2 wo3 du3 zou4","translation":"我绝对没拿他的钱，我发誓！"}]
+    },
+    {
+      "id": "cq-01825",
+      "headword": "二簸簸",
+      "pinyin": "er4 bo3 bo3",
+      "wordClass": "形容词",
+      "variants": ["二跛跛"],
+      "definitions": [{"text":"质量差、不经用。"},{"text":"技艺生疏、做得不专业。"}],
+      "examples": [{"text":"夜市摊_儿买的伞二簸簸的，第一盘_儿落雨就断了。","pinyin":"ye4 si4 tar1 mai3 li1 san3 er4 bo3 bo3 li1 di4 yi2 par2 lo2 yu3 dou4 duan4 lao3","translation":"夜市摊买的伞质量很差，第一次下雨就翻了。"},{"text":"你这补锅儿的手艺二簸簸的，水一烧开又漏。","pinyin":"li3 le4 bu3 go1 er2 li1 sou3 li4 er4 bo3 bo3 li1 sui3 yi2 sao1 kai1 you4 lou4","translation":"你这补锅手艺太业余了，水一烧开又漏了。"}]
+    },
+    {
+      "id": "cq-01826",
+      "headword": "二刀肉",
+      "pinyin": "er4 dao1 rou4",
+      "wordClass": "名词",
+      "definitions": [{"text":"紧靠猪臀部或颈部第二刀割下来的肉。分别叫做「二刀坐墩_儿」和「二刀槽头」。"}],
+      "examples": [{"text":"今天_儿菜摊子剩的二刀肉唛，拿来炒回锅肉刚合适噻。","pinyin":"jin1 tiar1 cai4 tan1 zi3 sen4 li1 er4 dao1 rou4 mæ1 la2 lai2 cao3 hui2 go1 rou4 jiang1 ho2 si2-4 sæ4","translation":"今天菜摊子剩的二刀肉，拿来炒回锅肉正合适。"}]
+    },
+    {
+      "id": "cq-01827",
+      "headword": "掌",
+      "pinyin": "zang3",
+      "wordClass": "动词",
+      "definitions": [{"text":"托住、把握、扶持。"},{"text":"钉补（鞋钉、鞋底）。"},{"text":"主管、主持。"}],
+      "examples": [{"text":"梯子脚打滑，你在下面掌稳点_儿。","pinyin":"ti1 zi3 jio2 da3 hua2 li3 dai4 xia4 mian4 zang3 wen3 diar3","translation":"梯脚打滑，你在下面扶稳一些。"},{"text":"这双布鞋前脚掌磨穿了，拿去再掌一层胶底。","pinyin":"le4 suang1 bu4 hai2 qian2 jio2 zang3 mo2 cuan1 lao3 la2 qi4 zai4 zang3 yi2 cen2 jiao1 di3","translation":"这双布鞋前掌磨破了，拿去再钉一层胶底。"},{"text":"掌瓢师傅 | 掌门人","pinyin":"zang3 piao2 si1 fu4-1 | zang3 men2 ren2","translation":""}]
+    },
+    {
+      "id": "cq-01828",
+      "headword": "真资格",
+      "pinyin": "zen1 zi1 ge2",
+      "wordClass": "形容词；名词",
+      "definitions": [{"text":"名副其实的，货真价实的。"},{"text":"资历高的人或事物。"}],
+      "examples": [{"text":"我这件是真资格的貂皮大衣。","pinyin":"wo3 le4 jian4 si4 zen1 zi1 ge2 li1 diao1 pi2 da4 yi1","translation":"我这件是货真价实的貂皮大衣。"},{"text":"她是重庆美食圈_儿的真资格。","pinyin":"ta1 si4 cong2 qin4 mei3 si2 quar1 li1 zen1 zi1 ge2","translation":"她是重庆美食圈的老资历。"}]
+    },
+    {
+      "id": "cq-01829",
+      "headword": "左手边",
+      "pinyin": "zo3 sou3 bian1",
+      "wordClass": "名词；方位词",
+      "definitions": [{"text":"左边。"},{"text":"左手。"}],
+      "examples": [{"text":"菜市场在左手边，采石场在右手边。","pinyin":"cai4 si4 cang2 dai4 zo3 sou3 bian1 cai3 si2 cang2 dai4 you4 sou3 bian1","translation":"菜市场在左边，采石场在右边。"},{"text":"我们认到恁个多年，今天才发现你用左手边写字。","pinyin":"wo3 men1 ren4 dao3 len4 gə4-1 do1 zi4 jin1 tian1 tai2 fa2 xian4 li3 yong4 zo3 sou3 bian1 xie3 zi4","translation":"我们认识这么多年，今天才发现你用左手写字。"}]
+    },
+    {
+      "id": "cq-01830",
+      "headword": "坐板_(儿)疮",
+      "pinyin": "zo4 ban3 cuang1 / zo4 bar3 cuang1",
+      "wordClass": "名词",
+      "definitions": [{"text":"臀部因久坐长出的疮疖。"}],
+      "examples": [{"text":"这些高中生_儿一天十几个小时坐起，啷个不长坐板_(儿)疮嘛？","pinyin":"le4 xi1 gao1 zong1 ser1 yi2 tian1 si2 ji3 gə4 xiao3 si2 zo4 qi3 lang3 gə4-1 bu2 zang3 zo4 bar3 cuang1 ma3","translation":"这些高中生成天十几个小时坐着，怎教人屁股不长疮呢？"}]
+    },
+    {
+      "id": "cq-01831",
+      "headword": "娃儿",
+      "pinyin": "wa2 er2-1",
+      "wordClass": "名词",
+      "definitions": [{"text":"孩子、小孩儿。"}],
+      "examples": [{"text":"奶娃儿 | 大娃儿 | 你屋几个娃儿？","pinyin":"lai3 wa2 er2-1 | da4 wa2 er2-1 | li3 vu2 ji3 gə4 wa2 er2-1","translation":"婴儿 | 大孩子 | 你家有几个小孩？"}]
+    },
+    {
+      "id": "cq-01832",
+      "headword": "解手",
+      "pinyin": "gai3 sou3",
+      "wordClass": "动词",
+      "variants": ["解溲"],
+      "definitions": [{"text":"上厕所，解便。解大便称「解大手」，解小便称「解小手」。"}],
+      "note": "「解手」的「排泄大小便」义在元代已有明确记载，如《京本通俗小说·错斩崔宁》「魏生起身去解手」。\n民间广传「解手」源于明初山西洪洞大槐树移民或清初「湖广填四川」移民被绑手押送，内急时请求「解手」方便，久而久之成为如厕代称。然而，史料考证表明：《明实录》《明史》无移民被绑手押送的记载，且移民携带家当迁徙，绑手不合常理。「解手」作为如厕代称的用法早在元代就已存在，比明初移民早数百年。顾颉刚等学者虽提及移民传说，但认为其为情感记忆的附会，非词源依据。\n有观点认为其可能由「解溲」音变而来，亦有认为由「解」表示排泄、排解之义双音节化扩展而成。明清移民途中「绑手—解手」的说法虽流传甚广，但因「解手」「小解」等如厕用法在更早文献中已有出现，故一般不宜视作该词的可靠起源。",
+      "examples": [{"text":"好想解手哦，夹不住了，要流了。","pinyin":"hao3 xiang3 gai3 sou3 o3 jia2 bu2 zu4 lao3 yao4 liu2 lao3","translation":"好想上厕所，快憋不住了。"}]
+    },
+    {
+      "id": "cq-01833",
+      "headword": "开刀_儿",
+      "pinyin": "kai1 dar1",
+      "wordClass": "名词",
+      "definitions": [{"text":"开瓶器。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01834",
+      "headword": "开山_儿",
+      "pinyin": "kai1 sar1",
+      "wordClass": "名词",
+      "definitions": [{"text":"斧头。","note":"古传「开山斧」法器，威力巨大、能劈山裂石。「开山_儿」这一称谓可能出自于此。"},{"text":"开瓶器。见「开刀_儿」。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01835",
+      "headword": "虼蚤",
+      "pinyin": "ge2 zao3",
+      "wordClass": "名词",
+      "variants": ["疙蚤","格蚤"],
+      "definitions": [{"text":"跳蚤。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01836",
+      "headword": "杏_儿",
+      "pinyin": "her4",
+      "wordClass": "名词",
+      "definitions": [{"text":"杏，杏子。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01837",
+      "headword": "右手边",
+      "pinyin": "you4 sou3 bian1",
+      "wordClass": "名词；方位词",
+      "definitions": [{"text":"右边。"},{"text":"右手。"}],
+      "examples": [{"text":"菜市场在左手边，采石场在右手边。","pinyin":"cai4 si4 cang2 dai4 zo3 sou3 bian1 cai3 si2 cang2 dai4 you4 sou3 bian1","translation":"菜市场在左边，采石场在右边。"},{"text":"我虽然是个左拐拐，但右手边写字还是写得不孬。","pinyin":"wo3 xu1 ran2 si4 gə4 zo3 guai3 guai3 dan4 you4 sou3 bian1 xie3 zi4 hai2 si4 xie3 de2 bu2 pie4","translation":"我虽然是个左撇子，但右手写字还是写得不赖。"}]
     }
   ]
 }
