@@ -446,7 +446,7 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
     <link rel="stylesheet" href="../../styles.css?v=20260810-theme-v1">
     <script src="../../posthog.js"></script>
     <script src="../../baidu-analytics.js"></script>
-    <script src="../../topic-menu.js?v=20260722-all-entries" defer></script>
+    <script src="../../topic-menu.js?v=20260826-topic-order" defer></script>
     <script src="../../item-detail.js?v=20260826-more-menu-v1" defer></script>
     <script src="../../audio.js?v=20260615-audio" defer></script>
   </head>
@@ -800,7 +800,7 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
     <script type="application/ld+json">{structured_data}</script>
     <script src="../../posthog.js"></script>
     <script src="../../baidu-analytics.js"></script>
-    <script src="../../topic-menu.js?v=20260722-all-entries" defer></script>
+    <script src="../../topic-menu.js?v=20260826-topic-order" defer></script>
     <script src="../../item-detail.js?v=20260615-detail" defer></script>
     <script src="../../topic-page.js?v=20260722-back-to-top" defer></script>
   </head>

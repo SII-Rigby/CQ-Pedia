@@ -68,7 +68,15 @@
 
   function mergeTopics(topics) {
     const seen = new Set();
-    return [...builtInTopics, ...topics.filter((topic) => topic.id !== allEntriesTopic.id), allEntriesTopic]
+    const configuredTopics = topics.filter((topic) => topic.id !== allEntriesTopic.id);
+    const movedTopicIds = new Set(["injury-illness", "daily-labor"]);
+    const movedTopics = configuredTopics.filter((topic) => movedTopicIds.has(topic.id));
+    const orderedTopics = configuredTopics.filter((topic) => !movedTopicIds.has(topic.id));
+    const childhoodIndex = orderedTopics.findIndex((topic) => topic.id === "childhood");
+    const insertIndex = childhoodIndex >= 0 ? childhoodIndex + 1 : orderedTopics.length;
+    orderedTopics.splice(insertIndex, 0, ...movedTopics);
+
+    return [...builtInTopics, ...orderedTopics, allEntriesTopic]
       .map(normalizeTopic)
       .filter((topic) => {
         if (!topic.id || !topic.title || seen.has(topic.id)) return false;
