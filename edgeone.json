@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/quiz",
+      "destination": "/quiz/",
+      "statusCode": 301
+    },
+    {
+      "source": "/phonetic",
+      "destination": "/phonetic/",
+      "statusCode": 301
+    }
+  ]
+}
