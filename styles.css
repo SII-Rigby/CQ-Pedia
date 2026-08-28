@@ -206,6 +206,7 @@ main {
 .filter-actions button:focus-visible,
 .filter-tag:focus-visible,
 .idle-share button:focus-visible,
+.idle-share a:focus-visible,
 .entry-open:focus-visible,
 .modal-close:focus-visible,
 .doc-nav button:focus-visible,
@@ -1479,11 +1480,17 @@ h1 {
 }
 
 .idle-share-heading {
+  display: grid;
+  gap: 6px;
+  text-align: center;
+}
+
+.idle-share-row {
   display: block;
   text-align: center;
 }
 
-.idle-share-heading p {
+.idle-share-row p {
   display: inline;
   margin: 0 0.35em 0 0;
   font-size: clamp(15px, 1.8vw, 17px);
@@ -1491,7 +1498,8 @@ h1 {
   line-height: 1.4;
 }
 
-.share-copy {
+.share-copy,
+.idle-share-action {
   display: inline;
   min-height: 0;
   padding: 0;
@@ -1512,7 +1520,10 @@ h1 {
 
 .share-copy,
 .share-copy:hover,
-.share-copy:focus-visible {
+.share-copy:focus-visible,
+.idle-share-action,
+.idle-share-action:hover,
+.idle-share-action:focus-visible {
   color: var(--blue);
   background: transparent;
   transform: none;

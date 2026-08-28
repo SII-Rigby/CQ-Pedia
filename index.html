@@ -9,7 +9,7 @@
     <link rel="icon" href="assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/logo-color.svg">
     <script src="theme.js?v=20260810-theme-v1"></script>
-    <link rel="stylesheet" href="styles.css?v=20260811-dark-scope-v2">
+    <link rel="stylesheet" href="styles.css?v=20260828-idle-actions">
 
     <!-- 百度统计：仅正式域名加载，过滤 localhost / 127.0.0.1 等本地测试 -->
     <script src="baidu-analytics.js"></script>
@@ -166,7 +166,7 @@
                   <p>联系邮箱：<a href="mailto:georgeliu677@gmail.com">georgeliu677@gmail.com</a></p>
                   <p>如果本站对你有帮助，也恳请打赏支持，助力网站持续整理与运营。</p>
                 </div>
-                <figure class="donate-code">
+                <figure class="donate-code" id="donateCode">
                   <img src="assets/donate.jpg" alt="赞赏码">
                 </figure>
               </div>
@@ -309,10 +309,20 @@
 
         <section class="idle-share" id="idleShare" aria-labelledby="idleShareTitle" hidden>
           <div class="idle-share-heading">
-            <p id="idleShareTitle">觉得网站还要得？散给耍得好的觑一眼 ▶︎</p>
-            <button class="share-copy" type="button" data-share-copy>
-              <span data-share-copy-label>🔗复制链接</span>
-            </button>
+            <div class="idle-share-row">
+              <p id="idleShareTitle">觉得网站还要得？散给耍得好的觑(qio3)一眼 ▶︎</p>
+              <button class="share-copy" type="button" data-share-copy>
+                <span data-share-copy-label>🔗复制链接</span>
+              </button>
+            </div>
+            <div class="idle-share-row">
+              <p>词条整拐了？想补点新词条？ ▶︎</p>
+              <a class="idle-share-action" href="https://wj.qq.com/s2/27012512/a2d1/" target="_blank" rel="noopener">✒️问卷反馈</a>
+            </div>
+            <div class="idle-share-row">
+              <p>给站长扎(za3)起 ▶︎</p>
+              <button class="idle-share-action" type="button" data-open-donate aria-haspopup="dialog" aria-controls="aboutModal">🧧打赏支持</button>
+            </div>
           </div>
         </section>
       </section>
@@ -335,7 +345,7 @@
     </button>
 
     <script src="topic-menu.js?v=20260826-topic-order"></script>
-    <script src="app.js?v=20260804-shared-more-menu"></script>
+    <script src="app.js?v=20260828-idle-actions"></script>
     <script src="audio.js?v=20260615-audio"></script>
   </body>
 </html>

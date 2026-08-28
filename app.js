@@ -70,6 +70,9 @@ const indexEls = {
 const aboutEls = {
   buttons: document.querySelectorAll("[data-open-about]"),
   modal: document.querySelector("#aboutModal"),
+  content: document.querySelector("#aboutModal .about-content"),
+  donateButton: document.querySelector("[data-open-donate]"),
+  donateTarget: document.querySelector("#donateCode"),
   returnFocus: null
 };
 
@@ -987,7 +990,7 @@ function syncSearchScopeControls() {
 }
 
 function syncIdleExtrasVisibility() {
-  const hidden = state.mode !== "idle" || hasActiveFilters();
+  const hidden = state.mode !== "idle" || hasActiveFilters() || Boolean(els.input.value.trim());
   if (els.quickGuides) {
     els.quickGuides.hidden = hidden;
   }
@@ -1332,7 +1335,7 @@ els.idleShare?.addEventListener("click", async (event) => {
     const copied = await copyShareLink();
     const label = copyButton.querySelector("[data-share-copy-label]");
     if (label) {
-      label.textContent = copied ? "👌复制完了" : "复制失败";
+      label.textContent = copied ? "👌复制完了" : "🚫复制失败";
       window.setTimeout(() => {
         label.textContent = "🔗复制链接";
       }, 1800);
@@ -1485,13 +1488,34 @@ function setMoreMenuOpen(open, restoreFocus = false) {
   }
 }
 
-function openAboutModal() {
-  aboutEls.returnFocus = moreEls.menu?.contains(document.activeElement)
+function openAboutModal(event) {
+  const trigger = event?.currentTarget || document.activeElement;
+  aboutEls.returnFocus = moreEls.menu?.contains(trigger)
     ? moreEls.btn
-    : document.activeElement;
+    : trigger;
   setMoreMenuOpen(false);
+  if (aboutEls.content) {
+    aboutEls.content.scrollTop = 0;
+  }
   aboutEls.modal.hidden = false;
   document.body.classList.add("modal-open");
+}
+
+function openDonateSupport(event) {
+  openAboutModal(event);
+  window.requestAnimationFrame(() => {
+    if (!aboutEls.content || !aboutEls.donateTarget) {
+      return;
+    }
+
+    const contentRect = aboutEls.content.getBoundingClientRect();
+    const targetRect = aboutEls.donateTarget.getBoundingClientRect();
+    const targetTop = aboutEls.content.scrollTop
+      + targetRect.top
+      - contentRect.top
+      - (aboutEls.content.clientHeight - targetRect.height) / 2;
+    aboutEls.content.scrollTo({ top: Math.max(0, targetTop), behavior: "smooth" });
+  });
 }
 
 function closeAboutModal() {
@@ -1511,6 +1535,8 @@ if (aboutEls.buttons.length && aboutEls.modal) {
     }
   });
 }
+
+aboutEls.donateButton?.addEventListener("click", openDonateSupport);
 
 if (moreEls.btn && moreEls.menu) {
   moreEls.btn.addEventListener("click", () => {
