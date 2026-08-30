@@ -1,4 +1,4 @@
-﻿{
+{
   "schemaVersion": 1,
   "language": {"name":"重庆话","romanization":"Chongqing Mandarin tone-number pinyin"},
   "entries": [
@@ -3958,7 +3958,7 @@
       "pinyin": "han2 xue2 fen4 tian1",
       "wordClass": "形容词；动词",
       "definitions": [{"text":"恶狠狠咒骂的样子。"}],
-      "examples": [{"text":"明明是他各人把杯子跶了，还站在门口含血喷天地说我冤枉他。","pinyin":"min2 min2 si4 ta1 go2 ren1 ba3 bei1 zi3 da2 lao3 hai2 zan4 dai4 men2 kou3 han2 xue2 fen4 tian1 li1 so2 wo3 yuan1 wang3 ta1","translation":"明明是他自己把杯子摔了，还站在门口恶狠狠地骂我冤枉他。"}]
+      "examples": [{"text":"明明是他各人把杯子挞了，还站在门口含血喷天地说我冤枉他。","pinyin":"min2 min2 si4 ta1 go2 ren1 ba3 bei1 zi3 da2 lao3 hai2 zan4 dai4 men2 kou3 han2 xue2 fen4 tian1 li1 so2 wo3 yuan1 wang3 ta1","translation":"明明是他自己把杯子摔了，还站在门口恶狠狠地骂我冤枉他。"}]
     },
     {
       "id": "cq-00468",
@@ -4040,7 +4040,7 @@
     {
       "id": "cq-00477",
       "headword": "腆",
-      "pinyin": "tie3 / tia3 / tian3",
+      "pinyin": "tie3 / tia3",
       "wordClass": "动词",
       "definitions": [{"text":"挺起、凸出。多指肚子。"}],
       "examples": [{"text":"他腆起个肚皮站到镜子前头，硬说各人一点_儿都没长胖。","pinyin":"ta1 tie3 qi3 gə4 du4 pi2 zan4 dao3 jin4 zi3 qian2 tou2-1 ngen4 so2 go2 ren1 yi2 diar3 dou1 mei1 zang3 pang4","translation":"他挺着肚子站在镜子前，硬说自己一点都没长胖。"}]
@@ -4981,16 +4981,16 @@
       "headword": "米米_(儿)",
       "pinyin": "mi3 mi3 / mi3 mier3",
       "wordClass": "名词",
-      "definitions": [{"text":"皮肤上长出的籽、痘痘等小凸起。近义词「籽籽」。"}],
-      "examples": [{"text":"他脸上起了好多米米，莫一天用手去挤。","pinyin":"ta1 lian3 sang4 qi3 lao3 hao3 do1 mi3 mi3 mo2 yi2 tian1 yong4 sou3 qi4 ji1","translation":"他脸上长了很多痘痘，别整天用手去挤。"}]
+      "definitions": [{"text":"从外壳、荚、果实里剥出来的小颗粒、籽仁。"},{"text":"皮肤上长出的籽、痘痘等小凸起。近义词「籽籽」。"}],
+      "examples": [{"text":"花生米米 | 豌豆_儿米米","pinyin":"hua1 sen1 mi3 mi3 | wan1 der4 mi3 mi3"},{"text":"他脸上起了好多米米，莫一天用手去挤。","pinyin":"ta1 lian3 sang4 qi3 lao3 hao3 do1 mi3 mi3 mo2 yi2 tian1 yong4 sou3 qi4 ji1","translation":"他脸上长了很多痘痘，别整天用手去挤。"}]
     },
     {
       "id": "cq-00591",
-      "headword": "籽籽",
-      "pinyin": "zi3 zi3",
+      "headword": "籽籽_(儿)",
+      "pinyin": "zi3 zi3 / zi3 zer3",
       "wordClass": "名词",
-      "definitions": [{"text":"皮肤上长出的籽、痘痘等小凸起。近义词「米米」。"}],
-      "examples": [{"text":"你额头上那颗籽籽红得很，莫去抠它。","pinyin":"li3 nge2 lou1 sang4 la4 ko3 zi3 zi3 hong2 de2 hen3 mo2 qi4 kou1 ta1","translation":"你额头上那颗痘痘很红，别去抠它。"}]
+      "definitions": [{"text":"籽儿；果实内部的小种子。"},{"text":"皮肤上长出的籽、痘痘等小凸起。近义词「米米」。"}],
+      "examples": [{"text":"海椒籽籽 | 西瓜籽籽_儿","pinyin":"hai3 jiao1 zi3 zi3 | xi1 gua1 zi3 zer3"},{"text":"你额头上那颗籽籽红得很，莫去抠它。","pinyin":"li3 nge2 lou1 sang4 la4 ko3 zi3 zi3 hong2 de2 hen3 mo2 qi4 kou1 ta1","translation":"你额头上那颗痘痘很红，别去抠它。"}]
     },
     {
       "id": "cq-00592",
@@ -10975,6 +10975,7 @@
       "pinyin": "wo2",
       "wordClass": "动词",
       "variants": ["捂","涹","焐"],
+      "note": "另见「沤(wo2)」。",
       "definitions": [{"text":"长时间在被窝里捂着，以致发热、出汗。"}],
       "examples": [{"text":"你在床上渥一下_儿，出汗了就好了。","pinyin":"li3 dai4 cuang2 sang4 wo2 yi2 har1 cu2 han4 lao3 dou4 hao3 lao3","translation":"你在床上捂一会儿，出汗了就好了。"}]
     },
@@ -15752,6 +15753,174 @@
       "variants": ["扯火"],
       "definitions": [{"text":"合伙、搭伙。也说「打伙」。"}],
       "examples": [{"text":"两弟兄扯伙办了个汽修厂。","pinyin":"liang3 di4 xiong1 ce3 ho3 ban4 lao3 gə4 qi4 xiu1 cang3","translation":"两兄弟合伙办了个汽修厂。"}]
+    },
+    {
+      "id": "cq-01888",
+      "headword": "搞皮",
+      "pinyin": "gao3 pi2",
+      "wordClass": "动词；形容词",
+      "definitions": [{"text":"赚钱、挣钱、搞钱。"}],
+      "examples": [{"text":"她哥儿到深圳搞皮去了。 | 你们这行还搞皮耶！","pinyin":"ta1 go1 er2-1 dao4 sen1 zen4 gao3 pi2 qi4 lao3 | li3 men1 le4 hang2 hai2 gao3 pi2 ye1","translation":"她哥到深圳赚钱去了。 | 你们这行还挺挣钱！"}]
+    },
+    {
+      "id": "cq-01889",
+      "headword": "搞猛皮",
+      "pinyin": "gao3 mong3 pi2",
+      "wordClass": "动词",
+      "definitions": [{"text":"赚大钱、挣大钱。近义词「吃猛皮」。"}],
+      "examples": [{"text":"走，我带你去搞猛皮！","pinyin":"zou3 wo3 dai4 li3 qi4 gao3 mong3 pi2","translation":"走，我带你去赚大钱！"}]
+    },
+    {
+      "id": "cq-01890",
+      "headword": "回豁",
+      "pinyin": "hui2 ho1 / hui2 ho3",
+      "wordClass": "动词",
+      "variants": ["回火","回嚯"],
+      "definitions": [{"text":"反应，回过神，醒悟。常说「回豁过来」「回豁转来」。"}],
+      "examples": [{"text":"他兀笃笃给我来恁个一句，我半天都没回豁过来。","pinyin":"ta1 vu4 du2 du2 ge1 wo3 lai2 len4 gə4-1 yi2 ju4 wo3 ban4 tian1 dou1 mei1 hui2 ho3 go4 lai2","translation":"他冷不丁给我冒这样一句话，我半天都没回过神来。"}]
+    },
+    {
+      "id": "cq-01891",
+      "headword": "沉沉",
+      "pinyin": "cen2 cen2-1",
+      "wordClass": "名词",
+      "definitions": [{"text":"液体中的沉淀。"}],
+      "examples": [{"text":"这个药水底底要是起沉沉了，就说明要不得了，该甩了。","pinyin":"le4 gə4-1 yo2 sui3 di3 di3 yao4 si4 qi3 cen2 cen2-1 lao3 dou4 so2 min2 yao4 bu2 de2 lao3 gai1 suai3 lao3","translation":"这个药水底部要是起沉淀了，就说明不能留了，该扔了。"}]
+    },
+    {
+      "id": "cq-01892",
+      "headword": "陈古八十年",
+      "pinyin": "cen2 gu3 ba2 si2 lian2",
+      "wordClass": "名词",
+      "definitions": [{"text":"喻久远年代。形容十分陈旧、老套。多带贬义或调侃。也说「哪百年」。"}],
+      "examples": [{"text":"陈古八十年的旧账，今天_儿想起了翻出来谈！","pinyin":"cen2 gu3 ba2 si2 lian2 li1 jiu4 zang4 jin1 tiar1 xiang3 qi3 lao3 fan1 cu2 lai2 tan4","translation":"陈年往日的旧账，今天想起来了挑出来说！"}]
+    },
+    {
+      "id": "cq-01893",
+      "headword": "承头",
+      "pinyin": "cen2 tou2",
+      "wordClass": "动词",
+      "definitions": [{"text":"领头、主持或负责。"}],
+      "examples": [{"text":"回村修学校是他承的头，几兄弟跟到出力。","pinyin":"hui2 cen1 xiu1 xio2 xiao4 si4 ta1 cen2 li1 tou2 ji3 xiong1 di4 gen1 dao3 cu2 li2","translation":"回村修学校是他牵的头，几兄弟跟着帮忙。"}]
+    },
+    {
+      "id": "cq-01894",
+      "headword": "撑",
+      "pinyin": "cen4",
+      "wordClass": "动词",
+      "variants": ["撜"],
+      "definitions": [{"text":"支撑。"},{"text":"手撑着物体坐、站或跳起来。"}],
+      "examples": [{"text":"找根木棒棒把牌牌_儿撑起。","pinyin":"zao3 gen1 mu2 bang4 bang4 ba3 pai2 par2-1 cen4 qi3","translation":"找根木棒把牌子支撑起来。"},{"text":"她一下从床上撑起来。 | 他在池子边边一撑，就爬上岸了。","pinyin":"ta1 yi2 ha4 cong2 cuang2 sang4 cen4 qi3 lai2 | ta1 dai4 ci2 zi3 bian1 bian1 yi2 cen4 dou4 pa2 sang4 ngan4 lao3","translation":"她撑着床一下子坐起来。 | 他在池边用手支撑身体往上，就爬上岸了。"}]
+    },
+    {
+      "id": "cq-01895",
+      "headword": "吃大户_(儿)",
+      "pinyin": "ci2 da4 fu4 / ci2 da4 fer4",
+      "wordClass": "动词",
+      "definitions": [{"text":"旧时遇到荒年，饥民结伙到富户家吃饭或夺取粮食。"},{"text":"现泛指许多人到某一家或某个地方白吃一顿。带调侃意味。"}],
+      "examples": [{},{"text":"他搬新屋没打算办酒_儿，朋友些还是提起礼信去吃大户_儿。","pinyin":"ta1 ban1 xin1 vu2 mei1 da3 suan4 ban4 jier3 pong2 you3 xi1 hai2 si4 ti2 qi3 li3 xin4 qi4 ci2 da4 fer4","translation":"他搬新家本没打算设宴，朋友们还是拿着礼品结伴去吃饭。"}]
+    },
+    {
+      "id": "cq-01896",
+      "headword": "吃安胎",
+      "pinyin": "ci2 ngan1 tai1",
+      "wordClass": "动词",
+      "definitions": [{"text":"不劳动而享受成果，坐享其成。"}],
+      "examples": [{"text":"活路都是别个做，她坐到那里吃安胎。","pinyin":"ho2 lu4 dou1 si4 be2 gə4 zu4 ta1 zo4 dao3 la4 li3-1 ci2 ngan1 tai1","translation":"活都是别人干，她坐在那里享受现成成果。"}]
+    },
+    {
+      "id": "cq-01897",
+      "headword": "充行市",
+      "pinyin": "cong1 hang2 si4",
+      "wordClass": "动词",
+      "variants": ["充行势"],
+      "definitions": [{"text":"故意显示内行、本事大。多含贬义。"}],
+      "examples": [{"text":"他一个黄棒，偏要在师傅面前充行市。","pinyin":"ta1 yi2 gə4 huang2 bang4 pian1 yao4 dai4 si1 fu1 mian4 qian2 cong1 hang2 si4","translation":"他一个外行，却偏要在师傅面前装内行。"}]
+    },
+    {
+      "id": "cq-01898",
+      "headword": "充狠",
+      "pinyin": "cong1 hen3",
+      "wordClass": "动词",
+      "definitions": [{"text":"逞能、逞强。"}],
+      "examples": [{"text":"搬不动就喊人，莫一个人在那里充狠。","pinyin":"ban1 bu2 dong4 dou4 han3 ren2 mo2 yi2 gə4 ren2 dai4 la4 li3-1 cong1 hen3","translation":"搬不动就叫人，别一个人在那里逞能。"}]
+    },
+    {
+      "id": "cq-01899",
+      "headword": "冲棒",
+      "pinyin": "cong4 bang4",
+      "wordClass": "名词",
+      "definitions": [{"text":"特别爱出风头、逞能的人。多指男性。"}],
+      "examples": [{"text":"你真的是个冲棒，非要在别个婚礼高头抢新人的台子。","pinyin":"li3 zen1 li1 si4 gə4 cong4 bang4 fei1 yao4 dai4 be2 gə4 hun1 li3 gao1 tou2 qiang3 xin1 ren2 li1 tai2 zi3","translation":"你真是个出头鸟，非得在人家婚礼上抢两位新人的舞台。"}]
+    },
+    {
+      "id": "cq-01900",
+      "headword": "冲壳子",
+      "pinyin": "cong4 ko2 zi3",
+      "wordClass": "动词",
+      "definitions": [{"text":"吹牛，说大话。也说「吹壳子」。"},{"text":"聊天、闲谈。也说「吹壳子」。"}],
+      "examples": [{"text":"他酒喝麻了就爱冲壳子，昨天_儿又说各人接见过美国总统。","pinyin":"ta1 jiu3 ho1 ma2 lao3 dou4 ngai4 cong4 ko2 zi3 zo2 tiar1 you4 so2 go2 ren2 jie2 jian4 go4 mei3 gue2 zong3 tong3","translation":"他喝醉后就爱吹牛，昨天又说自己接见过美国总统。"},{"text":"改天_儿再陪你两爷子冲壳子。","pinyin":"gai3 tiar1 zai4 pei2 li3 liang3 ye2 zi3 cong4 ko2 zi3","translation":"改天再陪你两兄弟聊天。"}]
+    },
+    {
+      "id": "cq-01901",
+      "headword": "冲天炮_(儿)",
+      "pinyin": "cong4 tian1 par4 / cong4 tian1 pao4",
+      "wordClass": "名词",
+      "variants": ["冲天砲_(儿)"],
+      "definitions": [{"text":"一种点燃后升空爆炸的火焰炮。"},{"text":"比喻说话冲动、毫无顾忌，容易得罪人的人。"}],
+      "examples": [{"text":"擦炮_儿、甩炮_儿、冲天炮_儿，看你要哪起。","pinyin":"ca2 par4 suai3 par4 cong4 tian1 par4 kan4 li3 yao4 la3 qi3","translation":"擦炮、摔炮、冲天炮，看你要哪一种。"},{"text":"他是个冲天炮_儿脾气，经常得罪人。","pinyin":"ta1 si4 gə4 cong4 tian1 par4 pi2 qi4 jin1 sang2 de2 zui4 ren2","translation":"他是个冲动火爆的脾气，经常得罪人。"}],
+      "fig": true
+    },
+    {
+      "id": "cq-01902",
+      "headword": "㭎炭",
+      "pinyin": "gang1 tan4",
+      "wordClass": "名词",
+      "variants": ["冈炭"],
+      "definitions": [{"text":"青冈木烧成的木炭。"}]
+    },
+    {
+      "id": "cq-01903",
+      "headword": "钢鞭_儿",
+      "pinyin": "gang1 biar1",
+      "wordClass": "名词",
+      "definitions": [{"text":"铁证；坐实某事、难以推翻的证据。"}],
+      "examples": [{"text":"“文化革命”中，老李屋里的海外关系成了他遭打成“特务”的钢鞭_儿材料。","pinyin":"wen2 hua4 ge2 min4 zong1 lao3 li3 vu2 li3 li1 hai3 wai4 guan1 xi4 cen2 lao3 ta1 zao2 da3 cen2 tie2 vu4 li1 gang1 biar1 cai2 liao4","translation":"“文化革命”中，老李家里的海外关系成了他被打成“特务”的铁证。"}]
+    },
+    {
+      "id": "cq-01904",
+      "headword": "搞伙",
+      "pinyin": "gao3 ho3",
+      "wordClass": "动词；副词",
+      "variants": ["搞火"],
+      "definitions": [{"text":"搞一阵、搞半天。也说「搞一伙」。"},{"text":"搞半天原来，到头来。也说「搞一伙」。"}],
+      "note": "「伙」这里表示一小阵时间。",
+      "examples": [{"text":"收音机没得声音了，他搞伙还是没修好。","pinyin":"sou1 yin1 ji1 mei1 de2 sen1 yin1 lao3 ta1 gao3 ho3 hai2 si4 mei1 xiu1 hao3","translation":"收音机没有声音，他搞半天还是没修理好。"},{"text":"搞伙是楼上水管_儿爆了，怪不得电梯口浇𣲩湿。","pinyin":"gao3 ho3 si4 lou2 sang4 sui3 guar3 bao4 lao3 guai4 bu2 de2 dian4 ti1 kou3 jiao1 pa1 si2","translation":"原来是楼上水管破裂，难怪电梯口这么湿。"}]
+    },
+    {
+      "id": "cq-01905",
+      "headword": "搞事",
+      "pinyin": "gao3 si4",
+      "wordClass": "名词",
+      "variants": ["搞势"],
+      "definitions": [{"text":"可搞到的好处、利益。同「搞头」。"}],
+      "examples": [{"text":"学点_儿游泳还是有搞事，别个当游泳教练一个热还是找了几万。","pinyin":"xio2 diar3 you2 yun4 hai2 si4 you3 gao3 si4 be2 gə4 dang1 you2 yun4 jiao4 lian4 yi2 gə4 re2 hai2 si4 zao3 lao3 ji3 wan4","translation":"学点游泳还是有好处，别人当游泳教练一个夏天还挣了好几万。"}]
+    },
+    {
+      "id": "cq-01906",
+      "headword": "搞头",
+      "pinyin": "gao3 tou2",
+      "wordClass": "名词",
+      "definitions": [{"text":"能够搞到的利益、好处、利润等。"}],
+      "examples": [{"text":"门面_儿租金涨得凶惨，卖早饭没得啥搞头得了。","pinyin":"men2 miar4 zu1 jin1 zang3 de2 xiong1 can3 mai4 zao3 fan4 mei1 de2 sa4 gao3 tou2 de2 lao3","translation":"门面租金上涨得很厉害，经营早餐已经没有多少利润。"}]
+    },
+    {
+      "id": "cq-01907",
+      "headword": "关钱_(儿)",
+      "pinyin": "guan1 qian2 / guan1 qiar2",
+      "wordClass": "动词",
+      "definitions": [{"text":"领取工资、薪饷。同「关饷」。"}],
+      "examples": [{"text":"说好的十五号关钱，啷个又拖到二十号哟！","pinyin":"so2 hao3 li1 si2 vu3 hao4 guan1 qian2 lang3 gə4-1 you4 to1 dao3 er4 si2 hao4 yo3","translation":"说好的十五号发工资，怎么又拖到二十号了！"}]
     }
   ]
 }

@@ -1,7 +1,7 @@
 .sii
 .chrome*
-重庆方言*
-四川方言*
+重庆*
+四川*
 assets/*.pptx
 scripts/add_entries.py
 scripts/submit_indexnow.py
