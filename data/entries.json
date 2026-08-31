@@ -1,4 +1,4 @@
-{
+﻿{
   "schemaVersion": 1,
   "language": {"name":"重庆话","romanization":"Chongqing Mandarin tone-number pinyin"},
   "entries": [
@@ -3998,9 +3998,9 @@
       "headword": "黏巴子",
       "pinyin": "lia1 ba1 zi3",
       "wordClass": "名词",
-      "definitions": [{"text":"苍耳。"},{"text":"比喻爱撒娇、爱黏着人的人，多用于小孩。也说「黏巴_儿」。"}],
+      "definitions": [{"text":"苍耳。"}],
       "fig": true,
-      "examples": [{"text":"裤脚高头黏满了黏巴子，扯都扯不脱。","pinyin":"ku4 jio2 gao1 tou2 lia1 man3 lao3 lia1 ba1 zi3 ce3 dou1 ce3 bu2 to2","translation":"裤脚上沾满了苍耳，扯都扯不掉。"},{}]
+      "examples": [{"text":"裤脚高头黏满了黏巴子，扯都扯不脱。","pinyin":"ku4 jio2 gao1 tou2 lia1 man3 lao3 lia1 ba1 zi3 ce3 dou1 ce3 bu2 to2","translation":"裤脚上沾满了苍耳，扯都扯不掉。"}]
     },
     {
       "id": "cq-00473",
@@ -10013,7 +10013,7 @@
       "wordClass": "语气词；叹词",
       "variants": ["也"],
       "definitions": [{"text":"单独使用的叹词。表示惊讶(ye1)、疑惑(ye4)、调侃(ye3)等情感。"},{"text":"句末语气词。表示疑问(ye1/ye4)、反问(ye1/ye4)、肯定或惊喜(ye1/ye3)等情感。表示疑问的时候情况近似于「咹(æ1/æ4)」。","note":"零声母句末语气词（如 e/æ/a/o）在前字韵尾偏向齐齿或撮口口型(i/ai/ei/ü等)时音变为 ye/yæ/ya/yo；偏向合口口型(u/ao/ou等)时变为 we/wæ/wa/wo；前字以前鼻音韵尾(an/en等)结尾时变为 ne/næ/na/no；前字以后鼻音韵尾(ang等)结尾时变为 nge/ngæ/nga/ngo；前字以er或儿化收束变为 le/læ/la/lo。"}],
-      "examples": [{"text":"耶，你啷个来了。 | 耶，我钥匙咹？ | 耶，操得可以哟。","pinyin":"ye1 li3 lang3 gə4-1 lai2 lao3 | ye4 wo3 yo2 si2 æ1 | ye3 cao3 de2 ko3 yi3 yo4","translation":"咦，你怎么来了。 | 欸，我的钥匙呢？ | 哟呵，混得不错嘛。"},{"text":"你耶？ | 味道_儿还可以耶。","pinyin":"li3 ye1 | wei4 dar4 hai2 ko3 yi3 ye3","translation":"你呢？ | 味道还可以嘛。"}]
+      "examples": [{"text":"耶，你啷个来了。 | 耶，我钥匙咹？ | 耶，操得可以哟。","pinyin":"ye1 li3 lang3 gə4-1 lai2 lao3 | ye4 wo3 yo2 si2 æ1 | ye3 cao1 de2 ko3 yi3 yo4","translation":"咦，你怎么来了。 | 欸，我的钥匙呢？ | 哟呵，混得不错嘛。"},{"text":"你耶？ | 味道_儿还可以耶。","pinyin":"li3 ye1 | wei4 dar4 hai2 ko3 yi3 ye3","translation":"你呢？ | 味道还可以嘛。"}]
     },
     {
       "id": "cq-01194",
@@ -10197,7 +10197,7 @@
       "pinyin": "yi2 mo3 pin2 yang2",
       "wordClass": "形容词",
       "definitions": [{"text":"形容田野或地面平坦而开阔。"}],
-      "examples": [{"text":"川西坝子一抹平阳，自古农业就发达。","pinyin":"cuan1 xi1 ba4 zi3 yi2 mo3 pin2 yang2 zi4 gu3 nong2 lie2 dou4 fa2 da2","translation":"川西平原一马平川，自古农业就发达。"}]
+      "examples": [{"text":"川西坝子一抹平阳，自古农业就发达。","pinyin":"cuan1 xi1 ba4 zi3 yi2 mo3 pin2 yang2 zi4 gu3 long2 lie2 dou4 fa2 da2","translation":"川西平原一马平川，自古农业就发达。"}]
     },
     {
       "id": "cq-01216",
@@ -11158,7 +11158,7 @@
     {
       "id": "cq-01331",
       "headword": "吊脚楼",
-      "pinyin": "diao4 jio2 lou4",
+      "pinyin": "diao4 jio2 lou2",
       "wordClass": "名词",
       "definitions": [{"text":"依山坡等地势修建、部分底层用木柱支撑悬空的传统房屋。"}],
       "fig": true
