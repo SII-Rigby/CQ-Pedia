@@ -1,4 +1,4 @@
-{
+﻿{
   "schemaVersion": 1,
   "language": {"name":"重庆话","romanization":"Chongqing Mandarin tone-number pinyin"},
   "entries": [
@@ -3654,7 +3654,7 @@
       "id": "cq-00430",
       "headword": "咿呜呀呜",
       "pinyin": "yi1 vu1 ya2 vu1 / yi1 vu4 ya2 vu1",
-      "wordClass": "动词；形容词",
+      "wordClass": "拟声词；动词；形容词",
       "definitions": [{"text":"絮絮叨叨、嘀嘀咕咕念个不停。"}],
       "examples": [{"text":"少在底下咿呜呀呜的，有啥子话到台子上来讲。","pinyin":"sao3 dai4 di3 xia4-2 yi1 vu1 ya2 vu1 li1 you3 sa4 zi3 hua4 dao4 tai2 zi3 sang4 lai2 jiang3","translation":"少在底下嘀嘀咕咕的，有啥话到台上来讲。"}]
     },
@@ -3662,7 +3662,7 @@
       "id": "cq-00431",
       "headword": "咿打哇打",
       "pinyin": "yi3 da3 wa3 da3",
-      "wordClass": "动词；形容词",
+      "wordClass": "拟声词；动词；形容词",
       "definitions": [{"text":"絮叨不休、说个不停。同「咿呜呀呜」。"}]
     },
     {
@@ -4448,7 +4448,7 @@
       "id": "cq-00526",
       "headword": "……巴沙",
       "pinyin": "ba1 sa1",
-      "wordClass": "助词",
+      "wordClass": "词缀",
       "definitions": [{"text":"形容词后缀，表示呈现某种状态、样子的意思，带口语色彩。也说「……巴叉」。"}],
       "examples": [{"text":"笑人巴沙 | 造孽巴沙 | 眼屎巴沙","pinyin":"xiao4 ren2 ba1 sa1 | zao4 lie2 ba1 sa1 | yan3 si3 ba1 sa1","translation":"笑眯眯的样子 | 可怜兮兮的样子 | 满眼屎、脏兮兮的样子"}]
     },
@@ -4490,7 +4490,7 @@
       "headword": "把把_儿",
       "pinyin": "ba3 bar3",
       "wordClass": "量词；名词",
-      "definitions": [{"text":"量词，一手能握住的数量。"},{"text":"附在形容个头的词后，表示身材、个子。"}],
+      "definitions": [{"text":"量词，一手能握住的数量。"},{"text":"个子、块头。"}],
       "examples": [{"text":"一把把_儿米 | 一把把_儿藤藤菜","pinyin":"yi2 ba3 bar3 mi3 | yi2 ba3 bar3 ten2 ten2-1 cai4","translation":"一把米 | 一把空心菜"},{"text":"矮把把_儿","pinyin":"ngai3 ba3 bar3","translation":"小矮子"}]
     },
     {
@@ -5172,7 +5172,7 @@
       "id": "cq-00613",
       "headword": "啵啰",
       "pinyin": "bo1 lo1",
-      "wordClass": "量词；名词",
+      "wordClass": "拟声词；量词；名词",
       "variants": ["波罗"],
       "definitions": [{"text":"指关节敲击头部的动作或声音；计量头部被敲、被打的次数。"}],
       "examples": [{"text":"你再嘴巴譑，老子敲你一啵啰！","pinyin":"li3 zai4 zui3 ba1 jiao2 lao3 zi3-1 kao1 li3 yi2 bo1 lo1","translation":"你再犟嘴，老子弹你脑瓜崩！"}]
@@ -8274,7 +8274,7 @@
       "id": "cq-00986",
       "headword": "……八……",
       "pinyin": "ba2",
-      "wordClass": "助词",
+      "wordClass": "词缀",
       "definitions": [{"text":"嵌入四字状态词中，本身没有实在意义，起增强语势、协调节奏的作用。常构成「AB八B」式。"},{"text":"也可构成「AB八C」式。"}],
       "examples": [{"text":"梆重八重 | 白之八之 | 气齁_(儿)八齁_(儿)","pinyin":"bang1 zong4 ba2 zong4 | be2 zi1 ba2 zi1 | qi4 her1 ba2 her1","translation":"非常沉重 | 非常白 | 大口粗重喘气的样子"},{"text":"清早八晨 | 稀王八烂","pinyin":"qin1 zao3 ba2 sen2 | xi1 wang2 ba2 lan4","translation":"大清早 | 稀巴烂"}]
     },
@@ -10055,7 +10055,7 @@
       "id": "cq-01198",
       "headword": "唛",
       "pinyin": "mæ1 / mæ4",
-      "wordClass": "语气词。",
+      "wordClass": "语气词",
       "variants": ["吗"],
       "definitions": [{"text":"用于句末构成是非问句，询问情况是否属实。也可用于反问、设问语气。也写作「吗」。"},{"text":"句中语气词。当有多个选项时，用于句中表示列举、疑问。"}],
       "examples": [{"text":"你明天_儿也要去唛？ | 你还不信唛？","pinyin":"li3 min2 tiar1 ye3 yao4 qi4 mæ1 | li3 hai2 bu2 xin4 mæ4","translation":"你明天也要去吗？ | 你还不相信吗？"},{"text":"买这件黑的唛、黄的唛、紫的唛，还是这件花的嘛？","pinyin":"mai3 le4 jian4 he2 li1 mæ1 huang2 li1 mæ1 zi3 li1 mæ1 hai2 si4 le4 jian4 hua1 li1 ma3","translation":"买这件黑的吗、黄的吗、紫的吗，还是这件花的？"}]
@@ -10390,7 +10390,7 @@
       "id": "cq-01239",
       "headword": "咳咳孔孔",
       "pinyin": "ke2 ke2 kong3 kong3",
-      "wordClass": "形容词",
+      "wordClass": "拟声词；形容词",
       "definitions": [{"text":"咳嗽得厉害的样子。也说「謦(kin3)謦孔孔」。"}],
       "examples": [{"text":"这都感冒半个月了，啷个还是咳咳孔孔的哦？","pinyin":"le4 dou1 gan3 mao4 ban4 gə4 yue2 lao3 lang3 gə4-1 hai2 si4 ke2 ke2 kong3 kong3 li1 o3","translation":"这都感冒半个月了，怎么还是咳个不停？"}]
     },
@@ -10406,7 +10406,7 @@
       "id": "cq-01241",
       "headword": "喳喳哇哇",
       "pinyin": "za1 za1 wa1 wa1",
-      "wordClass": "形容词",
+      "wordClass": "拟声词；形容词",
       "definitions": [{"text":"七嘴八舌、大声吵嚷或说个不停的样子。"}],
       "examples": [{"text":"几副颜色在那里喳喳哇哇的，闹麻了。","pinyin":"ji3 fu4 yan2 se2 dai4 la4 li3-1 za1 za1 wa1 wa1 li1 lao4 ma2 lao3","translation":"几个人在那里大声吵嚷，太吵了。"}]
     },
@@ -10855,7 +10855,7 @@
       "id": "cq-01295",
       "headword": "㘗㘗唝唝",
       "pinyin": "qu1 qu1 gong4 gong4",
-      "wordClass": "动词；形容词",
+      "wordClass": "拟声词；动词；形容词",
       "definitions": [{"text":"低声交谈、窃窃私语。"}],
       "examples": [{"text":"你们几个在那里㘗㘗唝唝地说啥子？","pinyin":"li3 men1 ji3 gə4 dai4 la4 li3-1 qu1 qu1 gong4 gong4 li1 so2 sa3 zi3","translation":"你们几个人在那里小声议论什么？"}]
     },
@@ -12964,7 +12964,7 @@
       "id": "cq-01551",
       "headword": "……不拉几",
       "pinyin": "bu2 la1 ji1",
-      "wordClass": "助词",
+      "wordClass": "词缀",
       "variants": ["……不拉叽"],
       "definitions": [{"text":"形容词后缀，加强语气，常略带嫌弃意味。"}],
       "examples": [{"text":"红不拉几 | 软不拉几 | 蔫不拉几","pinyin":"hong2 bu2 la1 ji1 | ruan3 bu2 la1 ji1 | yan1 bu2 la1 ji1","translation":""}]
@@ -14103,8 +14103,8 @@
       "headword": "搭白",
       "pinyin": "da2 be2",
       "wordClass": "动词",
-      "definitions": [{"text":"接着别人的话；搭腔。"}],
-      "examples": [{"text":"长辈在谈正事，没问你就莫乱搭白。","pinyin":"cang2 bei4 dai4 tan2 zen4 si4 mei1 wen4 li3 dou4 mo2 luan4 da2 be2","translation":"长辈在谈正事，没有问你就不要随便插话。"}]
+      "definitions": [{"text":"接着别人的话；搭腔。"},{"text":"主动与陌生人或不相干的人谈话；攀谈。"}],
+      "examples": [{"text":"长辈在谈正事，没问你就莫乱搭白。","pinyin":"cang2 bei4 dai4 tan2 zen4 si4 mei1 wen4 li3 dou4 mo2 luan4 da2 be2","translation":"长辈在谈正事，没有问你就不要随便插话。"},{"text":"那个弟娃_儿好像也是去买票的，上去搭个白。","pinyin":"la4 gə4 di4 war2 hao3 qiang4 ye3 si4 qi4 mai3 piao4 li1 sang4 qi4-1 da2 gə4 be2","translation":"那个弟弟好像也是去买票的，上去搭个话儿。"}]
     },
     {
       "id": "cq-01691",
@@ -15076,7 +15076,7 @@
       "id": "cq-01807",
       "headword": "謦謦孔孔",
       "pinyin": "kin3 kin3 kong3 kong3",
-      "wordClass": "形容词；拟声词",
+      "wordClass": "拟声词；形容词",
       "definitions": [{"text":"咳嗽得厉害的样子。也说「咳咳孔孔」「謦零孔隆(kin3 lin3 kong3 long3)」。"}],
       "examples": [{"text":"这都感冒半个月了，啷个还是謦謦孔孔的哦？","pinyin":"le4 dou1 gan3 mao4 ban4 gə4 yue2 lao3 lang3 gə4-1 hai2 si4 kin3 kin3 kong3 kong3 li1 o3","translation":"这都感冒半个月了，怎么还是咳个不停？"}]
     },
