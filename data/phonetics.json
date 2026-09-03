@@ -3149,6 +3149,13 @@
         },
         {
           "labels": [
+            "白"
+          ],
+          "pinyin": "ka1",
+          "examples": ["卡进来","卡轮子"]
+        },
+        {
+          "labels": [
             "正","罕"
           ],
           "pinyin": "qia3"
@@ -4352,7 +4359,8 @@
           "labels": [
             "正"
           ],
-          "pinyin": "lin2"
+          "pinyin": "lin2",
+          "examples": ["安宁","宁愿"]
         },
         {
           "labels": [
@@ -10018,14 +10026,15 @@
           "labels": [
             "正"
           ],
-          "pinyin": "wei2"
+          "pinyin": "wei2",
+          "examples": ["打围","围巾"]
         },
         {
           "labels": [
             "白"
           ],
           "pinyin": "wei1",
-          "examples": ["围成一个圈"]
+          "examples": ["围起来","围成一个圈"]
         }
       ]
     },
@@ -11373,6 +11382,13 @@
             "正"
           ],
           "pinyin": "xi4"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "ji1",
+          "examples": ["把袋子系紧"]
         }
       ]
     },
@@ -17112,7 +17128,7 @@
             "正"
           ],
           "pinyin": "pao1",
-          "examples": ["灯泡"]
+          "examples": ["灯泡","肿泡泡"]
         },
         {
           "labels": [
@@ -40678,6 +40694,13 @@
             "正"
           ],
           "pinyin": "man3"
+        },
+        {
+          "labels": [
+            "白"
+          ],
+          "pinyin": "men4",
+          "examples": ["装满了"]
         }
       ]
     },
@@ -40899,7 +40922,8 @@
           "labels": [
             "正"
           ],
-          "pinyin": "cen4"
+          "pinyin": "cen4",
+          "examples": ["谨慎","慎重"]
         }
       ]
     },
@@ -41819,6 +41843,14 @@
           ],
           "pinyin": "ku2",
           "examples": ["残酷"]
+        },
+        {
+          "labels": [
+            "训"
+          ],
+          "pinyin": "ku4",
+          "description": "用于音译词。",
+          "examples": ["酷毙了","跑酷"]
         }
       ]
     },

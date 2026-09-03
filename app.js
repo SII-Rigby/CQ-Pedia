@@ -1032,7 +1032,7 @@ function render() {
       els.count.textContent = "载入失败";
       els.results.innerHTML = '<p class="empty">词条载入失败，请稍后刷新重试。</p>';
     } else {
-      els.results.innerHTML = '<p class="empty">没有找到符合条件的词条。</p>';
+      els.results.innerHTML = '<p class="empty">没有找到符合条件的词条。或许换个说法或用更精炼的字能搜到哦。</p>';
     }
     updateBackToSearch();
     return;
