@@ -1,4 +1,4 @@
-{
+﻿{
   "schemaVersion": 1,
   "language": {"name":"重庆话","romanization":"Chongqing Mandarin tone-number pinyin"},
   "entries": [
@@ -288,7 +288,7 @@
       "headword": "着",
       "pinyin": "co2",
       "wordClass": "副词",
-      "definitions": [{"text":"同「着(zo2)」，用于「睡着(sui4 co2)」。"}]
+      "definitions": [{"text":"「着(zo2)」的又音，用于「睡着」「需不着」等情况。"}]
     },
     {
       "id": "cq-00035",
@@ -2618,8 +2618,8 @@
       "headword": "浑",
       "pinyin": "kun2",
       "wordClass": "形容词",
-      "definitions": [{"text":"整个、一口气。"},{"text":"厉害、能干；混得开。"}],
-      "examples": [{"text":"浑鸡蛋 | 打浑吞","pinyin":"kun2 ji1 dan4 | da3 kun2 ten1","translation":"整个鸡蛋 | 一口气吞下去"},{"text":"他在这一片操得浑，哪个都认得到他。","pinyin":"ta1 dai4 le4 yi2 pian4 cao1 de2 kun2 la3 gə4 dou1 ren4 de2 dao3 ta1","translation":"他在这一带很有本事，谁都认识他。"}]
+      "definitions": [{"text":"整个、一口气。"},{"text":"厉害、排面大、阔绰。常说「操得浑」。"}],
+      "examples": [{"text":"浑鸡蛋 | 打浑吞","pinyin":"kun2 ji1 dan4 | da3 kun2 ten1","translation":"整个鸡蛋 | 一口气吞下去"},{"text":"在来福士里面办酒_儿啊，你娃操得好浑啰。","pinyin":"dai4 lai2 fu2 si4 li3 mian4 ban4 jier3 a3 li3 wa2 cao1 de2 hao3 kun2 lo3","translation":"在来福士里面办酒席，你小子排场真阔绰。"}]
     },
     {
       "id": "cq-00309",
@@ -10513,7 +10513,6 @@
       "headword": "皮泡眼肿",
       "pinyin": "pi2 pao1 yan3 zong3",
       "wordClass": "形容词",
-      "variants": ["肿眼泡皮"],
       "definitions": [{"text":"脸皮和眼皮浮肿的样子。也说「肿眼泡(pao1)皮」。近义词「皮泡脸肿」。"}],
       "examples": [{"text":"她才睡醒，看起皮泡眼肿的。","pinyin":"ta1 tai2 sui4 xin3 kan4 qi3 pi2 pao1 yan3 zong3 li1","translation":"她刚睡醒，脸和眼皮都浮肿着。"}]
     },
@@ -10553,10 +10552,10 @@
     {
       "id": "cq-01259",
       "headword": "横𧿨顺跳",
-      "pinyin": "huan2 ban3 sun4 tiao4",
+      "pinyin": "huan2 ban3 sun4 tiao4 / hun2 ban3 sun4 tiao4",
       "wordClass": "动词",
       "variants": ["横板顺跳"],
-      "definitions": [{"text":"竭力挣扎、抵赖；撒泼耍无赖。"}],
+      "definitions": [{"text":"竭力挣扎、抵赖；撒泼耍无赖。也说「横𧿨竖跳」。"}],
       "examples": [{"text":"她非但不认账，还在这截横𧿨顺跳。","pinyin":"ta1 fei1 dan4 bu2 ren4 zang4 hai2 dai4 le4 jie2 huan2 ban3 sun4 tiao4","translation":"她不但不认账，还在这里撒泼耍横。"}]
     },
     {
@@ -14978,8 +14977,8 @@
       "headword": "自钵水_儿",
       "pinyin": "zi4 bo2 suer3",
       "wordClass": "名词",
-      "variants": ["自缽水_儿"],
-      "definitions": [{"text":"专指带有坛沿的泡菜坛，通过坛沿盛水扣上盖子隔绝空气。也说「自钵水坛子」。"},{"text":"同「坛舷水」。"}]
+      "variants": ["自缽水_儿","滞钵水_儿"],
+      "definitions": [{"text":"专指带有坛沿的泡菜坛，通过坛沿盛水扣上盖子隔绝空气。也说「自钵水坛子」。"}]
     },
     {
       "id": "cq-01796",

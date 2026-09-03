@@ -17982,13 +17982,15 @@
           "labels": [
             "正", "白"
           ],
-          "pinyin": "sen2"
+          "pinyin": "sen2",
+          "examples": ["承不起","承担"]
         },
         {
           "labels": [
             "正"
           ],
-          "pinyin": "cen2"
+          "pinyin": "cen2",
+          "examples": ["承头","承认"]
         }
       ]
     },
@@ -31633,7 +31635,9 @@
           "labels": [
             "正"
           ],
-          "pinyin": "sang3"
+          "pinyin": "sang3",
+          "examples": ["赔偿","偿还"],
+          "note": "时亮切。繁体「償」以「赏」为声旁。"
         },
         {
           "labels": [
@@ -35317,9 +35321,17 @@
       "readings": [
         {
           "labels": [
+            "正","白"
+          ],
+          "pinyin": "co2",
+          "examples": ["凿子","凿刀"]
+        },
+        {
+          "labels": [
             "正"
           ],
-          "pinyin": "zo2"
+          "pinyin": "zo2",
+          "examples": ["确凿"]
         }
       ]
     },
