@@ -49,6 +49,7 @@ const els = {
   resultsPanel: document.querySelector("#resultsPanel"),
   quickGuides: document.querySelector("#quickGuides"),
   idleShare: document.querySelector("#idleShare"),
+  phoneticSearchPrompt: document.querySelector("#phoneticSearchPrompt"),
   results: document.querySelector("#results"),
   count: document.querySelector("#resultCount"),
   label: document.querySelector("#resultLabel"),
@@ -999,6 +1000,19 @@ function syncIdleExtrasVisibility() {
   }
 }
 
+function syncPhoneticSearchPrompt(resultCount) {
+  if (!els.phoneticSearchPrompt) {
+    return;
+  }
+
+  const shouldShow = (
+    state.entriesStatus === "ready"
+    && Boolean(state.query)
+    && resultCount <= RESULTS_PER_PAGE
+  );
+  els.phoneticSearchPrompt.hidden = !shouldShow;
+}
+
 function render() {
   renderSelectedTags();
   syncFilterControls();
@@ -1012,6 +1026,7 @@ function render() {
 
   els.resultsPanel.hidden = false;
   syncIdleExtrasVisibility();
+  syncPhoneticSearchPrompt(filtered.length);
   els.count.textContent = `${filtered.length}`;
 
   const labels = activeFilterLabels();

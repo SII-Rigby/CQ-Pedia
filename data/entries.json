@@ -159,8 +159,8 @@
       "headword": "校",
       "pinyin": "gao4",
       "wordClass": "动词",
-      "variants": ["较","筶","斠"],
-      "definitions": [{"text":"试、尝试。","note":"《重庆方言词解》认为此字本当为「校」，「校(jiao4)」自古有校对、校验的含义，也常与「较」通，表示比较、较量，由此引申出尝试。也有资料认为是「筶」，「筶」是一种古代占卜用具，用类似于羊角的两半器物制成，合拢掷于地，观其俯仰，以占吉凶。但「筶」本身不是动词，且「占卜」引申出「尝试」略显牵强，恐是后人附会。《民国巴县志》记「斠」字，「斠」本指平斗斛称量，与「校(jiao4)」在校对含义上相通。"},{"text":"设置。"}],
+      "variants": ["较","筶","挍","斠"],
+      "definitions": [{"text":"试、尝试。","note":"《重庆方言词解》认为此字本当为「校」，「校(jiao4)」自古有校对、校验的含义，也常与「较」通，表示比较、较量，由此引申出尝试；「挍」为相关异体。也有资料认为是「筶」，「筶」是一种古代占卜用具，用类似于羊角的两半器物制成，合拢掷于地，观其俯仰，以占吉凶。但「筶」本身不是动词，且「占卜」引申出「尝试」略显牵强，恐是后人附会。《民国巴县志》记「斠」字，「斠」本指平斗斛称量，与「校(jiao4)」在校对含义上相通。"},{"text":"设置。"}],
       "examples": [{"text":"下盘_儿我们来校一下_儿这家火锅_儿的味道_儿。","pinyin":"xia4 par2 wo3 men1 lai2 gao4 yi2 har4 le4 jia1 ho3 guer1 li1 wei4 dar4","translation":"下次咱们来尝尝看这家火锅店的味道。"},{"text":"明天_儿要早点_儿起来，记着校闹钟。","pinyin":"min2 tiar1 yao4 zao3 diar3 qi3 lai2 ji4 dao3 gao4 lao4 zong1","translation":"明天要早起，记得设置闹钟。"}]
     },
     {
@@ -1184,7 +1184,7 @@
       "pinyin": "diao1 zu4",
       "wordClass": "副词；形容词",
       "variants": ["刁住","挑做","刁做"],
-      "definitions": [{"text":"故意、存心、有意做某事。","note":"「挑」在表示挑选的时候读作 diao1，也更切合「故意、存心」的意义。除了「挑住」，重庆周边还有 tiao1 sen1, liao1 zi3 等等讲法，第一个字都是基于「挑」的演变。"}],
+      "definitions": [{"text":"故意、存心、有意、专门。","note":"「挑」在表示挑选的时候读作 diao1，也更切合「故意、存心」的意义。除了「挑住」，重庆周边还有 tiao1 sen1, liao1 zi3 等等讲法，第一个字都是基于「挑」的演变。"}],
       "examples": [{"text":"我看呐，他是挑住把水洒到我书上的。","pinyin":"wo3 kan4 la3 ta1 si4 diao1 zu4 ba3 sui3 sa2 dao3 wo3 su1 sang4 li1","translation":"我看呐，他是故意把水洒到我书上的。"}]
     },
     {
@@ -3024,7 +3024,7 @@
       "pinyin": "ha1 er2",
       "wordClass": "名词；副词",
       "variants": ["哈儿","霎儿"],
-      "definitions": [{"text":"一小会、过一会。同「下下_儿」「一下_儿」。"}],
+      "definitions": [{"text":"一小会、过一会、马上。同「下下_儿」「一下_儿」。"}],
       "note": "「下」在重庆话中意思根据读音产生了分化：读作阴平表示一段较短的时间，类似于普通话的「一会儿」，如「下下_儿(ha1 har1)」；读成去声则表示一次、一下子，如「整一下(ha4)」。当然，这两个音也常常混用，如「等下_儿」既可以念作 har1 也可以念作 har4。"
     },
     {
@@ -4964,7 +4964,7 @@
       "pinyin": "kao1 ko2 zuar4",
       "wordClass": "动词",
       "variants": ["敲壳钻_儿"],
-      "definitions": [{"text":"用指关节敲人的额头。"}],
+      "definitions": [{"text":"用指关节敲人的额头；弹脑瓜崩。"}],
       "note": "也说「敲壳儿(kao1 ko2 er2-1)」「敲壳壳_儿(kao1 ko1 kuer1)」。",
       "examples": [{"text":"你再涎，我敲你一壳转_儿。","pinyin":"li3 zai4 xuan2 wo3 kao1 li3 yi2 ko2 zuar4","translation":"你再厚脸皮，我敲你脑瓜崩。"}]
     },
@@ -5172,9 +5172,9 @@
       "id": "cq-00613",
       "headword": "啵啰",
       "pinyin": "bo1 lo1",
-      "wordClass": "拟声词；量词；名词",
+      "wordClass": "拟声词；名词",
       "variants": ["波罗"],
-      "definitions": [{"text":"指关节敲击头部的动作或声音；计量头部被敲、被打的次数。"}],
+      "definitions": [{"text":"指关节敲击头部的动作或声音；计量头部被敲、被打的次数；脑瓜崩。"}],
       "examples": [{"text":"你再嘴巴譑，老子敲你一啵啰！","pinyin":"li3 zai4 zui3 ba1 jiao2 lao3 zi3-1 kao1 li3 yi2 bo1 lo1","translation":"你再犟嘴，老子弹你脑瓜崩！"}]
     },
     {
@@ -8162,6 +8162,7 @@
       "headword": "毛伸伸",
       "pinyin": "mao2 cen1 cen1",
       "wordClass": "形容词",
+      "variants": ["毛抻抻"],
       "definitions": [{"text":"形容毛发伸展、散乱或翘起的样子。"}],
       "examples": [{"text":"他才起来，头发毛伸伸的。","pinyin":"ta1 tai2 qi3 lai2 tou2 fa2 mao2 cen1 cen1 li1","translation":"他刚起床，头发乱蓬蓬的。"}]
     },
@@ -10004,7 +10005,7 @@
       "pinyin": "yi2 xie2",
       "wordClass": "副词",
       "definitions": [{"text":"一下子，一口气，一股脑儿。"},{"text":"一会儿、一阵子。"}],
-      "examples": [{"text":"他一歇把三碗饭都吃完了。","pinyin":"ta1 yi2 xie2 ba3 san1 wan3 fan4 dou1 ci2 wan2 lao3","translation":"他一口气把三碗饭全吃完了。"},{"text":"给她一歇吵，她都要哭要哭的了。","pinyin":"ge1 ta1 yi2 xie2 cao3 ta1 dou1 yao4 ku2 yao4 ku2 li1 lao3","translation":"把她吵了一阵儿，她都快哭了。"}]
+      "examples": [{"text":"他一歇把三碗饭都吃完了。","pinyin":"ta1 yi2 xie2 ba3 san1 wan3 fan4 dou1 ci2 wan2 lao3","translation":"他一口气把三碗饭全吃完了。"},{"text":"给她一歇吵，她都要哭要哭的了。","pinyin":"ge1 ta1 yi2 xie2 cao3 ta1 dou1 yao4 ku2 yao4 ku2 li1 lao3","translation":"把她吵了一阵，她都快哭了。"}]
     },
     {
       "id": "cq-01193",
@@ -11931,7 +11932,7 @@
       "headword": "行_(儿)",
       "pinyin": "har2 / hang2",
       "wordClass": "名词",
-      "definitions": [{"text":"地方、位置。常说「这行_(儿)」「那行_(儿)」「哪行_(儿)」。"}],
+      "definitions": [{"text":"地方、位置。常说「这行_(儿)（这里）」「那行_(儿)（那里）」「哪行_(儿)（哪里）」。"}],
       "examples": [{"text":"这一行 | 那行_儿 | 你从哪行_儿来？","pinyin":"le4 yi2 hang1 | la4 har2 | li3 cong2 la3 har2 lai2","translation":"这附近 | 那里 | 你从哪里来？"}]
     },
     {
@@ -11939,7 +11940,7 @@
       "headword": "堂_(儿)",
       "pinyin": "tar2 / tang2",
       "wordClass": "名词",
-      "definitions": [{"text":"地方、位置。常说「这堂_(儿)」「那堂_(儿)」「哪堂_(儿)」。"}],
+      "definitions": [{"text":"地方、位置。常说「这堂_(儿)（这里）」「那堂_(儿)（那里）」「哪堂_(儿)（哪里）」。"}],
       "examples": [{"text":"我说去李子林那堂_儿，你给我拉到李子坝这堂来了。","pinyin":"wo3 so2 qi4 li3 zi3 lin2 la4 tar2 li3 ge1 wo3 la1 dao3 li3 zi3 ba4 le4 tang2 lai2 lao3","translation":"我说去李子林那个地方，你给我送到李子坝这里来了。"}]
     },
     {
@@ -11948,7 +11949,7 @@
       "pinyin": "jie2 / jier2",
       "wordClass": "名词；量词",
       "variants": ["节_(儿)"],
-      "definitions": [{"text":"地方、位置。常说「这截_(儿)」「那截_(儿)」「哪截_(儿)」。"}],
+      "definitions": [{"text":"地方、位置。常说「这截_(儿)（这里）」「那截_(儿)（那里）」「哪截_(儿)（哪里）」。"}],
       "examples": [{"text":"你站到这截等我。 | 我腰杆这截_儿痛。","pinyin":"li3 zan4 dao3 le4 jier2 den3 wo3 | wo3 yao1 gan3 le4 jier2 tong4","translation":"你站在这里等我。 | 我腰上这一块儿疼。"}]
     },
     {
@@ -11956,7 +11957,7 @@
       "headword": "阵_(儿)",
       "pinyin": "zer4 / zen4",
       "wordClass": "名词",
-      "definitions": [{"text":"时候、时段。"}],
+      "definitions": [{"text":"时候、时段。常说「这阵_(儿)（现在、这时）」「那阵_(儿)（那会、那时）」「哪阵_(儿)（啥时候、何时）」。"}],
       "examples": [{"text":"这阵他忙得很。 | 小那阵_儿","pinyin":"le4 zen4 ta1 mang2 de2 hen3 | xiao3 la4 zer4","translation":"这段时间他很忙。 | 小时候"}]
     },
     {
@@ -14457,6 +14458,7 @@
       "headword": "伸伸抖抖",
       "pinyin": "cen1 cen1 tou3 tou3",
       "wordClass": "形容词",
+      "variants": ["抻抻抖抖","抻抻敨敨"],
       "definitions": [{"text":"整整齐齐、端端正正、体面。可形容相貌五官端正，或穿戴、布置得规整好看。见「伸抖」。"},{"text":"清清楚楚、明明白白。见「伸抖」。"},{"text":"舒舒服服；伸展、舒坦、顺畅。"},{"text":"一清二白、无瓜葛。"}],
       "examples": [{"text":"他穿起那件白衣裳伸伸抖抖的，一表人才嘛！","pinyin":"ta1 cuan1 qi3 la4 jian4 be2 yi1 sang2 cen1 cen1 tou3 tou3 li1 yi2 biao3 ren2 cai2 ma3","translation":"他穿起那件白衣服整齐利落，简直是一表人才！"},{"text":"你那天_儿在舞厅头做的事，我看得伸伸抖抖！","pinyin":"li3 la4 tiar1 dai4 vu3 tin1 tou2 zu4 li1 si4 wo3 kan4 de2 cen1 cen1 tou3 tou3","translation":"你那天在舞厅里做的事，我看得一清二楚！"},{"text":"连着上了半个月班_儿，这下终于可以伸伸抖抖地睡个懒觉了。","pinyin":"lian2 dao3 sang4 lao3 ban4 go4 yue2 bar1 le4 ha4 zong1 yu2 ko3 yi3 cen1 cen1 tou3 tou3 li1 sui4 gə4 lan3 jiao4 lao3","translation":"连着上了半个月班，这下终于可以舒舒服服地睡个懒觉了。"},{"text":"我跟你是伸伸抖抖的哈，为啥子要来污我的名声？","pinyin":"wo3 gen1 li3 si4 cen1 cen1 tou3 tou3 li1 ha3 wei4 sa4 zi3 yao4 lai2 vu1 wo3 li1 min2 sen1","translation":"我跟你是清清白白的，为什么要来玷污我的名声？"}]
     },
@@ -16415,7 +16417,7 @@
       "headword": "火锅_(儿)",
       "pinyin": "ho3 guer1 / ho3 ger1 / ho3 go1",
       "wordClass": "名词",
-      "definitions": [{"text":"重庆特色饮食，以麻辣鲜香的沸汤涮煮毛肚、肉菜等，边烫边吃。"}],
+      "definitions": [{"text":"重庆传统饮食，以牛油、辣椒、花椒等熬制麻辣锅底，持续加热后将毛肚、鸭肠、肉类、蔬菜等食材随吃随烫，通常配油碟等蘸料食用。"}],
       "examples": [{"text":"走哦，火锅_儿歠起！","pinyin":"zou3 o3 ho3 guer1 co1 qi3","translation":"走，一起去吃火锅！"}],
       "fig": true
     },

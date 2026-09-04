@@ -9,7 +9,7 @@
     <link rel="icon" href="assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/logo-color.svg">
     <script src="theme.js?v=20260810-theme-v1"></script>
-    <link rel="stylesheet" href="styles.css?v=20260828-about-references">
+    <link rel="stylesheet" href="styles.css?v=20260904-phonetic-search-prompt">
 
     <!-- 百度统计：仅正式域名加载，过滤 localhost / 127.0.0.1 等本地测试 -->
     <script src="baidu-analytics.js"></script>
@@ -207,7 +207,7 @@
 
           <form class="search-form" id="searchForm">
             <label class="visually-hidden" for="searchInput">搜索词典</label>
-            <input id="searchInput" type="search" autocomplete="off" aria-controls="recentSearchMenu" aria-expanded="false" placeholder="搜索拼音(cen1 tou3)、词目(打伙)、释义(舒服)">
+            <input id="searchInput" type="search" autocomplete="off" aria-controls="recentSearchMenu" aria-expanded="false" placeholder="cen tou、打伙、舒服……">
             <div class="recent-search-menu" id="recentSearchMenu" role="listbox" aria-label="最近搜索" hidden></div>
             <button type="submit" class="search-submit" aria-label="搜索">
               <svg aria-hidden="true" viewBox="0 0 24 24">
@@ -317,6 +317,15 @@
         </div>
         <div id="results" class="results"></div>
 
+        <section class="idle-share phonetic-search-prompt" id="phoneticSearchPrompt" aria-label="音典导引" hidden>
+          <div class="idle-share-heading">
+            <div class="idle-share-row">
+              <p>想查字的发音？校(gao4)下 ▶︎</p>
+              <a class="idle-share-action" href="phonetic/">📗音典</a>
+            </div>
+          </div>
+        </section>
+
         <section class="idle-share" id="idleShare" aria-labelledby="idleShareTitle" hidden>
           <div class="idle-share-heading">
             <div class="idle-share-row">
@@ -355,7 +364,7 @@
     </button>
 
     <script src="topic-menu.js?v=20260826-topic-order"></script>
-    <script src="app.js?v=20260828-idle-actions"></script>
+    <script src="app.js?v=20260904-phonetic-search-prompt"></script>
     <script src="audio.js?v=20260615-audio"></script>
   </body>
 </html>
