@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CQ-Pedia 重庆话发音教学</title>
+    <meta name="description" content="重庆话声母、韵母、声调与搜索入门。">
+    <link rel="icon" href="../assets/logo-color.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../assets/logo-color.svg">
+    <script src="../theme.js?v=20260810-theme-v1"></script>
+    <link rel="stylesheet" href="../styles.css?v=20260906-teaching-v3">
+    <link rel="stylesheet" href="teaching.css?v=20260906-teaching-v6">
+    <script src="../pinyin-display.js?v=20260906-noto-pinyin-v1" defer></script>
+    <script src="../topic-menu.js?v=20260826-topic-order" defer></script>
+    <script src="../item-detail.js?v=20260906-teaching-nav-v1" defer></script>
+    <script src="teaching.js?v=20260906-teaching-v3" defer></script>
+    <script src="../posthog.js"></script>
+    <script src="../baidu-analytics.js"></script>
+  </head>
+  <body class="teaching-page" data-doc-prefix="../">
+    <header class="site-header">
+      <a class="brand" href="../" aria-label="重庆话正音词典首页">
+        <img class="brand-icon" src="../assets/logo-red.svg" alt="" aria-hidden="true">
+        <span>CQ-Pedia</span>
+      </a>
+      <nav class="top-nav dictionary-nav" aria-label="主导航">
+        <a href="./" aria-current="page">教学</a>
+        <button type="button" data-topic-menu-trigger data-topic-root="../" aria-haspopup="dialog" aria-controls="topicNavigationMenu">专题</button>
+        <a href="../phonetic/">音典</a>
+        <div class="more-menu">
+          <button type="button" class="more-trigger" id="moreBtn" aria-haspopup="dialog" aria-controls="moreMenu" aria-expanded="false">更多</button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="topic-menu more-navigation" id="moreMenu" hidden>
+      <div class="topic-menu-backdrop" data-more-menu-close></div>
+      <section class="topic-menu-panel" role="dialog" aria-modal="true" aria-labelledby="moreMenuTitle" tabindex="-1">
+        <header class="topic-menu-head">
+          <h2 id="moreMenuTitle">更多</h2>
+          <button type="button" class="topic-menu-close" data-more-menu-close aria-label="关闭更多菜单">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12"></path><path d="M18 6 6 18"></path></svg>
+          </button>
+        </header>
+        <nav class="topic-menu-list" aria-label="更多">
+          <button type="button" id="mustReadBtn" role="menuitem" aria-haspopup="dialog" aria-controls="mustReadModal"><span class="topic-menu-title">📚 必读</span><span class="topic-menu-arrow" aria-hidden="true">→</span></button>
+          <a href="../caimao/" role="menuitem"><span class="topic-menu-title">🐈 才猫 | 四字词猜读</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
+          <a href="../quiz/" role="menuitem"><span class="topic-menu-title">✍️ 重庆话评级</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
+          <button type="button" role="menuitem" data-theme-toggle aria-pressed="false"><span class="topic-menu-title"><span class="theme-menu-glyph" data-theme-icon aria-hidden="true">🌙</span> <span data-theme-label>深色模式</span></span><span class="topic-menu-arrow" aria-hidden="true">→</span></button>
+          <a href="../" role="menuitem"><span class="topic-menu-title">关于本站</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
+        </nav>
+      </section>
+    </div>
+
+    <div class="modal" id="mustReadModal" role="dialog" aria-modal="true" aria-labelledby="mustReadTitle" hidden>
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-window" role="document">
+        <header class="modal-head">
+          <h2 id="mustReadTitle">必读</h2>
+          <button type="button" class="modal-close" data-modal-close aria-label="关闭">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12"></path><path d="M18 6 6 18"></path></svg>
+          </button>
+        </header>
+        <div class="modal-body">
+          <aside class="doc-nav" aria-label="文档目录"><ul id="docList"></ul></aside>
+          <article class="doc-view" id="docView" tabindex="0"><p class="empty">载入中...</p></article>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="teaching-hero">
+        <div class="teaching-hero-copy">
+          <p class="teaching-eyebrow">CQ-Pedia · 拼音快速入门</p>
+          <h1>重庆话发音教学</h1>
+        </div>
+      </section>
+
+      <nav class="lesson-nav" aria-label="教学章节">
+        <a href="#initials">声母</a>
+        <a href="#finals">韵母</a>
+        <a href="#tones">声调</a>
+        <a href="#search">搜索</a>
+      </nav>
+
+      <div class="lesson-shell">
+        <section class="lesson-section" id="initials">
+          <h2>声母</h2>
+          <div class="sound-grid initial-grid-teaching" id="initialGrid"></div>
+        </section>
+
+        <section class="lesson-section" id="finals">
+          <h2>韵母</h2>
+          <div class="final-groups" id="finalGroups"></div>
+        </section>
+
+        <section class="lesson-section" id="tones">
+          <h2>声调</h2>
+          <div class="tone-grid" id="toneGrid"></div>
+          <div class="tone-marking" aria-label="标调示例">
+            <span><code>ma1</code> → <b>mā</b></span>
+            <span><code>ma2</code> → <b>mâ</b></span>
+            <span><code>ma3</code> → <b>mà</b></span>
+            <span><code>ma4</code> → <b>má</b></span>
+          </div>
+        </section>
+
+        <section class="lesson-section" id="search">
+          <h2>学会搜索</h2>
+          <div class="search-methods" aria-label="搜索方式">
+            <span>🔍汉字：千翻儿</span>
+            <span>🔍拼音：qian far</span>
+            <span>🔍释义：调皮</span>
+          </div>
+          <section class="results-panel entry-detail-panel teaching-entry-demo" aria-label="迁翻儿词条例子">
+            <div class="results-head">
+              <p>cq-00148</p>
+              <span>♋️/🧸</span>
+            </div>
+            <div class="results">
+              <article class="entry">
+                <div class="entry-head">
+                  <h3><span>迁翻<span class="erhua" aria-label="儿">儿</span></span></h3>
+                  <span class="pos">形容词；名词</span>
+                </div>
+                <div class="entry-audio-line">
+                  <p class="pinyin" data-pinyin-display>qian1 far1</p>
+                </div>
+                <p class="variants">异体写法：千翻<span class="erhua" aria-label="儿">儿</span></p>
+                <div class="definitions">
+                  <section class="definition-block">
+                    <p class="definition-text"><span class="definition-number">1.</span>调皮、淘气、爱折腾。多用于小孩。</p>
+                    <div class="example">
+                      <p class="example-line"><strong>例：</strong><span>这个娃儿迁翻<span class="erhua" aria-label="儿">儿</span>得很，才洗干净的衣服，车过背<span class="erhua" aria-label="儿">儿</span>又拊些泥巴。</span></p>
+                      <p class="example-pinyin" data-pinyin-display>le4 gə4 wa2 er2-1 qian1 far1 de2 hen3 tai2 xi3 gan1 jin4 li1 yi1 fu2 ce1 gə4 ber4 you4 fu4 xi1 li2 ba1</p>
+                      <p class="example-translation">这个孩子调皮得很，刚洗干净的衣服，一转眼又沾上了泥巴。</p>
+                    </div>
+                  </section>
+                </div>
+              </article>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <span class="footer-title"><img class="footer-mark" src="../assets/logo-color.svg" alt="" aria-hidden="true"><span>重庆话正音词典</span></span>
+      <span class="footer-notice">© 2026 CQ-Pedia · 重庆话发音教学</span>
+    </footer>
+  </body>
+</html>

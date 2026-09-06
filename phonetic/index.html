@@ -11,7 +11,7 @@
     <link rel="icon" href="../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../assets/logo-color.svg">
     <script src="../theme.js?v=20260810-theme-v1"></script>
-    <link rel="stylesheet" href="../styles.css?v=20260906-noto-pinyin-v1">
+    <link rel="stylesheet" href="../styles.css?v=20260906-teaching-v1">
     <script src="../pinyin-display.js?v=20260906-noto-pinyin-v1" defer></script>
     <script src="../posthog.js"></script>
     <script src="../baidu-analytics.js"></script>
@@ -25,7 +25,7 @@
         <span>CQ-Pedia</span>
       </a>
       <nav class="top-nav" aria-label="主导航">
-        <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
+        <a href="../teaching/">教学</a>
         <a href="../">词典</a>
         <div class="more-menu">
           <button type="button" class="more-trigger" id="moreBtn" aria-haspopup="dialog" aria-controls="moreMenu" aria-expanded="false">更多</button>
@@ -43,6 +43,7 @@
           </button>
         </header>
         <nav class="topic-menu-list" aria-label="更多">
+          <button type="button" id="mustReadBtn" role="menuitem" aria-haspopup="dialog" aria-controls="mustReadModal"><span class="topic-menu-title">📚 必读</span><span class="topic-menu-arrow" aria-hidden="true">→</span></button>
           <a href="../caimao/" role="menuitem"><span class="topic-menu-title">🐈 才猫 | 四字词猜读</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
           <a href="../quiz/" role="menuitem"><span class="topic-menu-title">✍️ 重庆话评级</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
           <button type="button" role="menuitem" data-theme-toggle aria-pressed="false"><span class="topic-menu-title"><span class="theme-menu-glyph" data-theme-icon aria-hidden="true">🌙</span> <span data-theme-label>深色模式</span></span><span class="topic-menu-arrow" aria-hidden="true">→</span></button>
@@ -235,6 +236,6 @@
     </button>
 
     <script src="../audio.js?v=20260708-ph"></script>
-    <script src="phonetic.js?v=20260906-special-vowel-aliases"></script>
+    <script src="phonetic.js?v=20260906-teaching-nav-v1"></script>
   </body>
 </html>

@@ -736,6 +736,7 @@ async function showDoc(id) {
 }
 
 function openMustReadModal() {
+  setMoreMenuOpen(false);
   els.mustReadModal.hidden = false;
   document.body.classList.add("modal-open");
   if (!activeDocId) {
@@ -746,6 +747,7 @@ function openMustReadModal() {
 function closeMustReadModal() {
   els.mustReadModal.hidden = true;
   document.body.classList.remove("modal-open");
+  els.moreBtn?.focus();
 }
 
 function setMoreMenuOpen(open, restoreFocus = false) {

@@ -443,12 +443,12 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
     <link rel="icon" href="../../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
     <script src="../../theme.js?v=20260810-theme-v1"></script>
-    <link rel="stylesheet" href="../../styles.css?v=20260906-noto-pinyin-v1">
+    <link rel="stylesheet" href="../../styles.css?v=20260906-teaching-v1">
     <script src="../../pinyin-display.js?v=20260906-noto-pinyin-v1" defer></script>
     <script src="../../posthog.js"></script>
     <script src="../../baidu-analytics.js"></script>
     <script src="../../topic-menu.js?v=20260826-topic-order" defer></script>
-    <script src="../../item-detail.js?v=20260826-more-menu-v1" defer></script>
+    <script src="../../item-detail.js?v=20260906-teaching-nav-v1" defer></script>
     <script src="../../audio.js?v=20260615-audio" defer></script>
   </head>
   <body class="entry-detail-page">
@@ -459,7 +459,7 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
         <span>CQ-Pedia</span>
       </a>
       <nav class="top-nav dictionary-nav" aria-label="主导航">
-        <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
+        <a href="../../teaching/">教学</a>
         <button type="button" data-topic-menu-trigger data-topic-root="../../" aria-haspopup="dialog" aria-controls="topicNavigationMenu">专题</button>
         <a href="../../phonetic/">音典</a>
         <div class="more-menu">
@@ -478,6 +478,7 @@ def render_page(entry: dict, topic_badge: str = "") -> str:
           </button>
         </header>
         <nav class="topic-menu-list" aria-label="更多">
+          <button type="button" id="mustReadBtn" role="menuitem" aria-haspopup="dialog" aria-controls="mustReadModal"><span class="topic-menu-title">📚 必读</span><span class="topic-menu-arrow" aria-hidden="true">→</span></button>
           <a href="../../caimao/" role="menuitem"><span class="topic-menu-title">🐈 才猫 | 四字词猜读</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
           <a href="../../quiz/" role="menuitem"><span class="topic-menu-title">✍️ 重庆话评级</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
           <button type="button" role="menuitem" data-theme-toggle aria-pressed="false"><span class="topic-menu-title"><span class="theme-menu-glyph" data-theme-icon aria-hidden="true">🌙</span> <span data-theme-label>深色模式</span></span><span class="topic-menu-arrow" aria-hidden="true">→</span></button>
@@ -797,13 +798,13 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
     <link rel="icon" href="../../assets/logo-color.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../assets/logo-color.svg">
     <script src="../../theme.js?v=20260810-theme-v1"></script>
-    <link rel="stylesheet" href="../../styles.css?v=20260906-noto-pinyin-v1">
+    <link rel="stylesheet" href="../../styles.css?v=20260906-teaching-v1">
     <script src="../../pinyin-display.js?v=20260906-noto-pinyin-v1" defer></script>
     <script type="application/ld+json">{structured_data}</script>
     <script src="../../posthog.js"></script>
     <script src="../../baidu-analytics.js"></script>
     <script src="../../topic-menu.js?v=20260826-topic-order" defer></script>
-    <script src="../../item-detail.js?v=20260826-more-menu-v1" defer></script>
+    <script src="../../item-detail.js?v=20260906-teaching-nav-v1" defer></script>
     <script src="../../topic-page.js?v=20260722-back-to-top" defer></script>
   </head>
   <body class="topic-page {page_theme}" data-topic-id="{escape(topic_id)}">
@@ -814,7 +815,7 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
         <span>CQ-Pedia</span>
       </a>
       <nav class="top-nav dictionary-nav" aria-label="主导航">
-        <button type="button" id="mustReadBtn" aria-haspopup="dialog" aria-controls="mustReadModal">必读</button>
+        <a href="../../teaching/">教学</a>
         <button type="button" data-topic-menu-trigger data-topic-root="../../" aria-haspopup="dialog" aria-controls="topicNavigationMenu">专题</button>
         <a href="../../phonetic/">音典</a>
         <div class="more-menu">
@@ -833,6 +834,7 @@ def render_topic_page(topic: dict, entries: list[dict]) -> str:
           </button>
         </header>
         <nav class="topic-menu-list" aria-label="更多">
+          <button type="button" id="mustReadBtn" role="menuitem" aria-haspopup="dialog" aria-controls="mustReadModal"><span class="topic-menu-title">📚 必读</span><span class="topic-menu-arrow" aria-hidden="true">→</span></button>
           <a href="../../caimao/" role="menuitem"><span class="topic-menu-title">🐈 才猫 | 四字词猜读</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
           <a href="../../quiz/" role="menuitem"><span class="topic-menu-title">✍️ 重庆话评级</span><span class="topic-menu-arrow" aria-hidden="true">→</span></a>
           <button type="button" role="menuitem" data-theme-toggle aria-pressed="false"><span class="topic-menu-title"><span class="theme-menu-glyph" data-theme-icon aria-hidden="true">🌙</span> <span data-theme-label>深色模式</span></span><span class="topic-menu-arrow" aria-hidden="true">→</span></button>

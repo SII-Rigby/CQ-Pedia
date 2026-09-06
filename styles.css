@@ -8,6 +8,7 @@
   --cyan: #21c4e8;
   --yellow: #ffd51f;
   --yellow-cross-pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewBox='0 0 54 54'%3E%3Cg fill='%23ffe66e'%3E%3Cpath d='M26 26C17 21 13 10 26 0C39 10 35 21 26 26Z'/%3E%3Cpath d='M26 26C31 17 42 13 52 26C42 39 31 35 26 26Z'/%3E%3Cpath d='M26 26C35 31 39 42 26 52C13 42 17 31 26 26Z'/%3E%3Cpath d='M26 26C21 35 10 39 0 26C10 13 21 17 26 26Z'/%3E%3C/g%3E%3Cdefs%3E%3Cg id='small' fill='%23e7bc0d'%3E%3Cpath d='M0 0C-5-3-7-9 0-15C7-9 5-3 0 0Z'/%3E%3Cpath d='M0 0C3-5 9-7 15 0C9 7 3 5 0 0Z'/%3E%3Cpath d='M0 0C5 3 7 9 0 15C-7 9-5 3 0 0Z'/%3E%3Cpath d='M0 0C-3 5-9 7-15 0C-9-7-3-5 0 0Z'/%3E%3C/g%3E%3C/defs%3E%3Cuse href='%23small' transform='translate(53 53)'/%3E%3Cuse href='%23small' transform='translate(-1 53)'/%3E%3Cuse href='%23small' transform='translate(53 -1)'/%3E%3Cuse href='%23small' transform='translate(-1 -1)'/%3E%3C/svg%3E");
+  --chongqing-learning-pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='520' height='520' viewBox='0 0 520 520'%3E%3Crect width='520' height='520' fill='%23f7f5ef'/%3E%3Crect x='-24' y='25' width='135' height='96' rx='12' fill='%239bbbd3' opacity='.52'/%3E%3Crect x='94' y='20' width='155' height='48' rx='10' fill='%231b67c3'/%3E%3Ccircle cx='292' cy='38' r='14' fill='%23f4bd43'/%3E%3Crect x='394' y='-25' width='58' height='104' rx='10' fill='%230d376c'/%3E%3Ccircle cx='472' cy='64' r='27' fill='%236ca8b0'/%3E%3Crect x='235' y='105' width='160' height='78' rx='10' fill='%239bbbd3' opacity='.55'/%3E%3Crect x='205' y='78' width='47' height='107' rx='8' fill='%230d376c'/%3E%3Ccircle cx='360' cy='103' r='5' fill='%230d376c'/%3E%3Ccircle cx='378' cy='103' r='5' fill='%230d376c'/%3E%3Ccircle cx='360' cy='121' r='5' fill='%230d376c'/%3E%3Ccircle cx='378' cy='121' r='5' fill='%230d376c'/%3E%3Crect x='430' y='140' width='34' height='34' rx='7' fill='%23f4bd43'/%3E%3Crect x='282' y='210' width='157' height='48' rx='10' fill='%231b67c3'/%3E%3Crect x='180' y='198' width='66' height='13' rx='7' fill='%234c89be'/%3E%3Ccircle cx='455' cy='278' r='25' fill='%23104380'/%3E%3Crect x='317' y='285' width='43' height='13' rx='7' fill='%236ca8b0'/%3E%3Crect x='30' y='250' width='133' height='102' rx='11' fill='%239bbbd3' opacity='.55'/%3E%3Crect x='104' y='305' width='67' height='104' rx='9' fill='%230d376c'/%3E%3Ccircle cx='86' cy='291' r='5' fill='%230d376c'/%3E%3Ccircle cx='104' cy='291' r='5' fill='%230d376c'/%3E%3Ccircle cx='86' cy='309' r='5' fill='%230d376c'/%3E%3Ccircle cx='104' cy='309' r='5' fill='%230d376c'/%3E%3Ccircle cx='70' cy='212' r='26' fill='%236ca8b0'/%3E%3Crect x='-20' y='398' width='170' height='44' rx='10' fill='%231b67c3'/%3E%3Ccircle cx='202' cy='428' r='25' fill='%236ca8b0'/%3E%3Crect x='292' y='348' width='145' height='91' rx='11' fill='%239bbbd3' opacity='.52'/%3E%3Crect x='323' y='378' width='52' height='105' rx='8' fill='%230d376c'/%3E%3Crect x='427' y='445' width='45' height='31' rx='7' fill='%23f4bd43'/%3E%3Ccircle cx='284' cy='468' r='14' fill='%23f4bd43'/%3E%3Ccircle cx='448' cy='369' r='5' fill='%230d376c'/%3E%3Ccircle cx='466' cy='369' r='5' fill='%230d376c'/%3E%3Ccircle cx='448' cy='387' r='5' fill='%230d376c'/%3E%3Ccircle cx='466' cy='387' r='5' fill='%230d376c'/%3E%3Crect x='215' y='460' width='70' height='13' rx='7' fill='%234c89be'/%3E%3Crect x='470' y='180' width='85' height='58' rx='10' fill='%239bbbd3' opacity='.55'/%3E%3Crect x='485' y='305' width='65' height='97' rx='9' fill='%230d376c'/%3E%3Crect x='470' y='480' width='93' height='52' rx='10' fill='%231b67c3'/%3E%3Crect x='-35' y='170' width='65' height='90' rx='9' fill='%230d376c'/%3E%3C/svg%3E");
   --green: #14a66f;
   --teal: #299278;
   --pink: #ff6fae;
@@ -804,15 +805,22 @@ h1 {
 
 .quick-guide-docs {
   padding-left: 20px;
-  background:
-    linear-gradient(90deg, transparent 0 7px, rgba(239, 47, 47, 0.48) 7px 8.5px, transparent 8.5px),
-    linear-gradient(rgba(23, 111, 166, 0.17) 1px, transparent 1px) 0 0 / 100% 12px,
-    linear-gradient(90deg, rgba(23, 111, 166, 0.1) 1px, transparent 1px) 0 0 / 12px 100%,
-    #fffdf5;
+  color: #0b3267;
+  background-color: #f7f5ef;
+  background-image: var(--chongqing-learning-pattern);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 520px 520px;
 }
 
 .quick-guide-docs .quick-guide-kicker {
-  background: var(--blue);
+  color: var(--ink);
+  background: var(--yellow);
+}
+
+.quick-guide-docs:hover,
+.quick-guide-docs:focus-visible {
+  color: #075dbd;
 }
 
 .quick-guide-docs,
@@ -5134,11 +5142,12 @@ html[data-theme="dark"] .search-scope-options button.active:hover {
 }
 
 html[data-theme="dark"] .quick-guide-docs {
-  background:
-    linear-gradient(90deg, transparent 0 7px, rgba(255, 98, 89, 0.46) 7px 8.5px, transparent 8.5px),
-    linear-gradient(rgba(77, 158, 211, 0.18) 1px, transparent 1px) 0 0 / 100% 12px,
-    linear-gradient(90deg, rgba(77, 158, 211, 0.12) 1px, transparent 1px) 0 0 / 12px 100%,
-    #1d2926;
+  color: #0b3267;
+  background-color: #f7f5ef;
+  background-image: var(--chongqing-learning-pattern);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 520px 520px;
 }
 
 html[data-theme="dark"] .quick-guide-topics {

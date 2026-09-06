@@ -1866,7 +1866,9 @@ async function showDoc(id) {
 }
 
 function openModal(event) {
-  modalReturnFocus = event?.currentTarget || modalEls.btn;
+  const trigger = event?.currentTarget || modalEls.btn;
+  modalReturnFocus = moreEls.menu?.contains(trigger) ? moreEls.btn : trigger;
+  setMoreMenuOpen(false);
   modalEls.modal.hidden = false;
   document.body.classList.add("modal-open");
   if (!activeDocId) {

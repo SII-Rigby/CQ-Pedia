@@ -1,5 +1,5 @@
 (function () {
-  const DOC_PREFIX = "../../";
+  const DOC_PREFIX = document.body?.dataset.docPrefix || "../../";
   const MUST_READ_DOCS = [
     { id: "phonology", title: "重庆方言音系介绍", file: "docs/phonology.md" },
     { id: "pinyin-scheme", title: "重庆话拼音方案", file: "docs/pinyin-scheme.md" },
@@ -244,6 +244,7 @@
 
   function openMustReadModal() {
     if (!modalEls.modal) return;
+    setMoreMenuOpen(false);
     modalEls.modal.hidden = false;
     document.body.classList.add("modal-open");
     if (!activeDocId) {
@@ -255,7 +256,7 @@
     if (!modalEls.modal) return;
     modalEls.modal.hidden = true;
     document.body.classList.remove("modal-open");
-    modalEls.btn?.focus();
+    moreEls.btn?.focus();
   }
 
   function setMoreMenuOpen(open, restoreFocus = false) {
