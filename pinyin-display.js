@@ -91,6 +91,10 @@
   }
 
   function toneMarkIndex(base) {
+    const umlautDoubleU = base.indexOf("üu");
+    if (umlautDoubleU >= 0) return umlautDoubleU + 1;
+    const doubleU = base.indexOf("uu");
+    if (doubleU >= 0) return doubleU + 1;
     const ash = base.indexOf("æ");
     if (ash >= 0) return ash;
     const schwa = base.indexOf("ə");
