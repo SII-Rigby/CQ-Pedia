@@ -5142,12 +5142,24 @@ html[data-theme="dark"] .search-scope-options button.active:hover {
 }
 
 html[data-theme="dark"] .quick-guide-docs {
-  color: #0b3267;
-  background-color: #f7f5ef;
+  color: #f7f5ef;
+  background-color: #0b3267;
   background-image: var(--chongqing-learning-pattern);
+  background-blend-mode: multiply;
   background-position: center;
   background-repeat: repeat;
   background-size: 520px 520px;
+  border-color: #afc9e2;
+}
+
+html[data-theme="dark"] .quick-guide-docs .quick-guide-kicker {
+  color: #17202a;
+  background: #f4be3e;
+}
+
+html[data-theme="dark"] .quick-guide-docs:hover,
+html[data-theme="dark"] .quick-guide-docs:focus-visible {
+  color: #f4be3e;
 }
 
 html[data-theme="dark"] .quick-guide-topics {
