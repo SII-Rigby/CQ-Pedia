@@ -15,7 +15,7 @@
   --line: #111111;
   --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
   --font-sans: "Segoe UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Source Han Sans SC", "Droid Sans Fallback", Arial, sans-serif;
-  --font-phonetic: "Charis SIL", "Doulos SIL", "Gentium Plus", "Noto Sans SC", "Noto Sans", "Segoe UI", "Arial Unicode MS", Arial, sans-serif;
+  --font-phonetic: "Noto Sans", "Noto Sans SC", "Noto Sans CJK SC", "Segoe UI", "Arial Unicode MS", Arial, sans-serif;
 }
 
 * {

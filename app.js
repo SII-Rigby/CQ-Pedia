@@ -307,6 +307,8 @@ function pinyinFinalOf(base) {
 
 function abbreviateErhuaSpelling(value) {
   return String(value)
+    .replace(/ae/g, "æ")
+    .replace(/eo/g, "ə")
     .replace(/yuer(?=[0-9]|$)/g, "yur")
     .replace(/yer(?=[0-9]|$)/g, "yir")
     .replace(/üer(?=[0-9]|$)/g, "ür")

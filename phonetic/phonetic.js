@@ -78,6 +78,8 @@ const LABEL_HELP = {
 
 const normalize = (value) => String(value || "").trim().toLowerCase();
 const abbreviateErhuaSpelling = (value) => String(value)
+  .replace(/ae/g, "æ")
+  .replace(/eo/g, "ə")
   .replace(/yuer(?=[0-9]|$)/g, "yur")
   .replace(/yer(?=[0-9]|$)/g, "yir")
   .replace(/üer(?=[0-9]|$)/g, "ür")

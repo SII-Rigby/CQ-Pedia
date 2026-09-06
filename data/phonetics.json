@@ -647,7 +647,15 @@
           "labels": [
             "白"
           ],
-          "pinyin": "gə4"
+          "pinyin": "gə4",
+          "examples": ["三个","啷个"]
+        },
+        {
+          "labels": [
+            "白","变"
+          ],
+          "pinyin": "gə1",
+          "examples": ["恁个","啷个"]
         }
       ]
     },
