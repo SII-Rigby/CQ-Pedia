@@ -12,7 +12,7 @@
 4. **保留疑母**：写作 `ng`。
 5. **添加重庆话中特有的韵**：如 `io`（「学」`xio2`）、`üu`（「俗」`xuu2`）、`iai`（「解」`jiai3`）等。
 6. **不单独区分入声**：根据入声字实际的归并调值标注（绝大多数是第 2 调）。
-7. **儿化**：用 `er ar ier iar uer uar üer üar` 这几种儿化方式标注儿化韵。
+7. **儿化**：用 `er ar ir iar ur uar ür üar` 这几种儿化方式标注儿化韵，其中 `ir ur ür` 是 `ier uer üer` 的缩写。
 
 ## 二、声母对照
 
@@ -76,13 +76,12 @@
     <tr><td>en</td><td>[ən]</td><td>跟 gen1</td><td>in</td><td>[in]</td><td>亲 qin1</td><td>un</td><td>[uən]</td><td>文 wen2</td><td>ün</td><td>[yn]</td><td>军 jun1</td></tr>
     <tr><td>ang</td><td>[ɑŋ]</td><td>妨 fang2</td><td>iang</td><td>[iɑŋ]</td><td>羊 yang2</td><td>uang</td><td>[uɑŋ]</td><td>光 guang1</td><td>-</td><td>-</td><td>-</td></tr>
     <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>ong</td><td>[oŋ]</td><td>工 gong1</td><td>iong</td><td>[ɥoŋ]</td><td>穷 qiong2</td></tr>
-    <tr><td>er</td><td>[ɚɭ]</td><td>门儿 mer2</td><td>ier</td><td>[iɚɭ]</td><td>兵儿 bier1</td><td>uer</td><td>[uɚɭ]</td><td>绳儿 suer2</td><td>üer</td><td>[yɚɭ]</td><td>群儿 quer2</td></tr>
+    <tr><td>er</td><td>[ɚɭ]</td><td>门儿 mer2</td><td>ir</td><td>[iɚɭ]</td><td>兵儿 bir1</td><td>ur</td><td>[uɚɭ]</td><td>绳儿 sur2</td><td>ür</td><td>[yɚɭ]</td><td>群儿 qur2</td></tr>
     <tr><td>ar</td><td>[aɚɭ]</td><td>猫儿 mar1</td><td>iar</td><td>[iaɚɭ]</td><td>眼儿 yar3</td><td>uar</td><td>[uaɚɭ]</td><td>官儿 guar1</td><td>üar</td><td>[yaɚɭ]</td><td>圈儿 quar1</td></tr>
   </tbody>
 </table>
 
-> 特殊发音：「个」白读韵母常常弱化成 `[ə]`，记录为 `ə`，对于不方便显示 `ə` 的场景也可以记录成 `eo`。
-> 「吗」「噻」的韵母发音为 `[æ]`，记录为 `æ`，对于不方便显示 `æ` 的场景也可以记录成 `ae`。
+> 特殊发音：「个」白读韵母常常弱化成 `[ə]`，统一记录为 `ə`；「吗」「噻」的韵母发音为 `[æ]`，统一记录为 `æ`。使用符号标调拼音方案时，调号直接标在 `ə`、`æ` 上，不转换成 `eo`、`ae`。
 
 ## 四、声调与变调标记
 
@@ -101,26 +100,26 @@
 
 ## 五、儿化
 
-与多数官话一样，重庆话存在儿化韵，但儿化方式与普通话有所不同，主要包含 `er ar ier iar uer uar üer üar` 八种儿化韵，且儿化韵尾通常以舌尖抵住上颚中央收束。不同韵母的儿化方式如下：
+与多数官话一样，重庆话存在儿化韵，但儿化方式与普通话有所不同，主要包含 `er ar ir iar ur uar ür üar` 八种儿化韵，且儿化韵尾通常以舌尖抵住上颚中央收束。不同韵母的儿化方式如下：
 
 | 儿化韵 | 原韵 | 例子 |
 | --- | --- | --- |
 | er | o（b,p,m,f,v 作声母情况）, e, u（b,p,m,f,v 作声母情况）, ei, ou, en, i (zi,ci,si,ri), ong（b,p,m,f,v 作声母情况） | 指拇儿 `mer3`，双碑 `ber1`，杏儿 `her4` |
 | ar | a, ai, ao, an, ang | 菜园坝儿 `bar4`，盖盖儿 `gar1` |
-| ier | i, ie, iu, in | 灶鸡儿 `jier1`，眼镜儿 `jier4` |
+| ir | i, ie, iu, in | 灶鸡儿 `jir1`，眼镜儿 `jir4` |
 | iar | ia, iai, iao, ian, iang | 架架儿 `jiar4-1`，篾片儿 `piar3` |
-| uer | o（非 b,p,m,f,v 作声母情况）, u（非 b,p,m,f,v 作声母情况）, ue, ui, un, ong（非 b,p,m,f,v 作声母情况） | 火锅儿 `guer1`，绳绳儿 `suer1`，盅盅儿 `zuer1` |
+| ur | o（非 b,p,m,f,v 作声母情况）, u（非 b,p,m,f,v 作声母情况）, ue, ui, un, ong（非 b,p,m,f,v 作声母情况） | 火锅儿 `gur1`，绳绳儿 `sur1`，盅盅儿 `zur1` |
 | uar | o（部分词汇）, ua, uai, uan, uang | 牙刷儿 `suar2`，碗儿 `war3` |
-| üer | ü, io, üe, üu, ün, iong | 角角儿 `juer1` 钱，菌儿 `juer4` |
+| ür | ü, io, üe, üu, ün, iong | 角角儿 `jur1` 钱，菌儿 `jur4` |
 | üar | üan | 遇了缘儿 `yuar2`，圈圈儿 `quar1` |
 
-其中，`o`的儿化变化比较多样，唇音或唇齿音做声母时通常儿化为 `er`，如「钵钵儿」`bo2 ber2`；而非唇音、唇齿音通常儿化为 `uer`，如「索索儿」 `so2 suer2-1`；部分词汇中还会儿化为 `uar`，如「江鮀儿」`jiang1 tuar2`，「飞蛾儿」`fei1 war2`；有的人还习惯在 `o` 的儿化韵中保留圆唇的 `o`，读若 `or`。
+其中，`o`的儿化变化比较多样，唇音或唇齿音做声母时通常儿化为 `er`，如「钵钵儿」`bo2 ber2`；而非唇音、唇齿音通常儿化为 `ur`，如「索索儿」 `so2 sur2-1`；部分词汇中还会儿化为 `uar`，如「江鮀儿」`jiang1 tuar2`，「飞蛾儿」`fei1 war2`；有的人还习惯在 `o` 的儿化韵中保留圆唇的 `o`，读若 `or`。
 
-像「火锅儿」一词，不同人习惯的儿化方式也不尽相同，正音标注为 `guer1` 但有人更习惯发 `ger` 或 `gor` 甚至 `guar`。「包儿」「班儿」有人无法分辨，有人发音却有细微的区别。不同的地区、不同的语境、不同的词汇下，儿化可以是很多样的，本拼音方案仅是取最大公约数，分类了八种儿化韵，但实际发音中可以更灵活一点。
+像「火锅儿」一词，不同人习惯的儿化方式也不尽相同，正音标注为 `gur1` 但有人更习惯发 `ger` 或 `gor` 甚至 `guar`。「包儿」「班儿」有人无法分辨，有人发音却有细微的区别。不同的地区、不同的语境、不同的词汇下，儿化可以是很多样的，本拼音方案仅是取最大公约数，分类了八种儿化韵，但实际发音中可以更灵活一点。
 
 此外，如「妹儿」「崽儿」此类词，「妹」「崽」通常会发生儿化，而「儿」作为单独的音节依然保留。在拼音方案中既可以写 `mei4 er2 | zai3 er2`，也可以将前字儿化，记为 `mer4 er2 | zar3 er2`。
 
-> `ier uer üer` 可以缩写为 `ir ur ür`。
+> 本方案把完整形式 `ier uer üer` 分别缩写为 `ir ur ür`，并在词条、例句和音典词例中统一采用缩写形式。特别地，零声母形式 `ir ur ür` 写作 `yir wer yur`。
 
 ## 六、使用范围与备注
 

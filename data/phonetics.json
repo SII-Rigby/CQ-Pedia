@@ -5974,15 +5974,22 @@
       "readings": [
         {
           "labels": [
-            "正"
+            "白"
           ],
           "pinyin": "mæ1"
         },
         {
           "labels": [
-            "罕"
+            "白"
           ],
-          "pinyin": "ma3"
+          "pinyin": "mæ4"
+        },
+        {
+          "labels": [
+            "正","罕"
+          ],
+          "pinyin": "ma3",
+          "examples": ["吗啡"]
         }
       ]
     },
@@ -70204,7 +70211,7 @@
           ],
           "pinyin": "qi2",
           "examples": [
-            "荸荠儿(pu2 qier2-1)"
+            "荸荠儿(pu2 qir2-1)"
           ]
         },
         {
@@ -70213,7 +70220,7 @@
           ],
           "pinyin": "qu1",
           "examples": [
-            "荸荠儿(pu2 quer2-1)"
+            "荸荠儿(pu2 qur2-1)"
           ]
         }
       ]
@@ -70228,7 +70235,7 @@
           ],
           "pinyin": "pu2",
           "examples": [
-            "荸荠儿(pu2 quer2-1)"
+            "荸荠儿(pu2 qur2-1)"
           ]
         }
       ]

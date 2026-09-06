@@ -77,7 +77,13 @@ const LABEL_HELP = {
 };
 
 const normalize = (value) => String(value || "").trim().toLowerCase();
-const normalizePinyinText = (value) => normalize(value)
+const abbreviateErhuaSpelling = (value) => String(value)
+  .replace(/yuer(?=[0-9]|$)/g, "yur")
+  .replace(/yer(?=[0-9]|$)/g, "yir")
+  .replace(/üer(?=[0-9]|$)/g, "ür")
+  .replace(/ier(?=[0-9]|$)/g, "ir")
+  .replace(/uer(?=[0-9]|$)/g, "ur");
+const normalizePinyinText = (value) => abbreviateErhuaSpelling(normalize(value))
   .replace(/u:/g, "\u00fc")
   .replace(/[^a-z0-9\u00fc\u00ea\u00e6\u0259]+/gu, "");
 const withoutTone = (value) => normalizePinyinText(value).replace(/[0-9]+$/u, "");

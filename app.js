@@ -305,8 +305,17 @@ function pinyinFinalOf(base) {
   return matched ? base.slice(matched.length) : base;
 }
 
+function abbreviateErhuaSpelling(value) {
+  return String(value)
+    .replace(/yuer(?=[0-9]|$)/g, "yur")
+    .replace(/yer(?=[0-9]|$)/g, "yir")
+    .replace(/üer(?=[0-9]|$)/g, "ür")
+    .replace(/ier(?=[0-9]|$)/g, "ir")
+    .replace(/uer(?=[0-9]|$)/g, "ur");
+}
+
 function pinyinSyllableParts(value) {
-  const raw = normalize(value);
+  const raw = abbreviateErhuaSpelling(normalize(value));
   const base = raw
     .replace(/[0-9]+/g, "")
     .replace(/[\p{P}\p{S}]+/gu, "");

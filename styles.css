@@ -1861,6 +1861,125 @@ body.topic-menu-open {
   box-shadow: 1px 1px 0 var(--ink);
 }
 
+.pinyin-settings-window {
+  width: min(720px, 100%);
+  box-shadow: 8px 8px 0 var(--yellow), 14px 14px 0 var(--ink);
+}
+
+.pinyin-settings-form {
+  display: grid;
+  gap: 18px;
+  padding: clamp(18px, 4vw, 30px);
+  overflow-y: auto;
+}
+
+.pinyin-settings-form fieldset {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.pinyin-settings-form legend {
+  margin-bottom: 12px;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.pinyin-scheme-option {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 14px;
+  background: var(--white);
+  border: 3px solid var(--line);
+  box-shadow: 4px 4px 0 var(--ink);
+  cursor: pointer;
+}
+
+.pinyin-scheme-option:hover,
+.pinyin-scheme-option:has(input:checked) {
+  background: #fff8d5;
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.pinyin-scheme-option:has(input:focus-visible) {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}
+
+.pinyin-scheme-option input {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--red);
+}
+
+.pinyin-scheme-copy {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.pinyin-scheme-copy strong {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.pinyin-scheme-copy small {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.pinyin-scheme-preview {
+  font-family: var(--font-phonetic);
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.pinyin-scheme-preview-ipa,
+html[data-pinyin-scheme="ipa"] .pinyin,
+html[data-pinyin-scheme="ipa"] .example-pinyin,
+html[data-pinyin-scheme="ipa"] .topic-entry-pinyin,
+html[data-pinyin-scheme="ipa"] .phonetic-reading-value,
+html[data-pinyin-scheme="ipa"] .phonetic-reading-pinyin {
+  font-family: var(--font-phonetic);
+}
+
+.pinyin-settings-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.pinyin-settings-actions button {
+  min-width: 104px;
+  padding: 10px 16px;
+  color: var(--ink);
+  background: var(--white);
+  border: 3px solid var(--line);
+  box-shadow: 3px 3px 0 var(--ink);
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.pinyin-settings-actions button[type="submit"] {
+  color: var(--white);
+  background: var(--red);
+}
+
+.pinyin-settings-actions button:hover,
+.pinyin-settings-actions button:focus-visible {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
 .modal-body {
   display: grid;
   grid-template-columns: minmax(180px, 232px) minmax(0, 1fr);
@@ -5413,3 +5532,43 @@ html[data-theme="dark"] .phonetic-page #mustReadModal .modal-window,
 html[data-theme="dark"] .phonetic-page #aboutModal .modal-window {
   box-shadow: 8px 8px 0 #8f3d35, 14px 14px 0 var(--night-shadow);
 }
+
+html[data-theme="dark"] .pinyin-scheme-option {
+  color: var(--ink);
+  background: var(--night-raised);
+  box-shadow: 4px 4px 0 var(--night-shadow);
+}
+
+html[data-theme="dark"] .pinyin-scheme-option:hover,
+html[data-theme="dark"] .pinyin-scheme-option:has(input:checked) {
+  background: #27352f;
+  box-shadow: 2px 2px 0 var(--night-shadow);
+}
+
+html[data-theme="dark"] .pinyin-settings-actions button {
+  color: var(--ink);
+  background: var(--night-raised);
+  box-shadow: 3px 3px 0 var(--night-shadow);
+}
+
+html[data-theme="dark"] .pinyin-settings-actions button[type="submit"] {
+  color: #ffffff;
+  background: var(--red);
+}
+
+@media (max-width: 640px) {
+  .pinyin-scheme-option {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .pinyin-scheme-preview {
+    grid-column: 2;
+    white-space: normal;
+  }
+
+  .pinyin-settings-actions button {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+}
+

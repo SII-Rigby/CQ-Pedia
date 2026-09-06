@@ -103,7 +103,7 @@
           { id: "a", label: "虰虰猫_儿 din1 din1 mar1" },
           { id: "b", label: "鼁蟆_儿 que2 mar1" },
           { id: "c", label: "蚱蜢_儿 zua2 mer3" },
-          { id: "d", label: "灶鸡_儿 zao4 jier1" }
+          { id: "d", label: "灶鸡_儿 zao4 jir1" }
         ],
         correct: ["b"]
       },
