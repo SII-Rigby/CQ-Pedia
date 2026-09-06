@@ -1011,7 +1011,7 @@ function syncIdleExtrasVisibility() {
   }
 }
 
-function syncPhoneticSearchPrompt(resultCount) {
+function syncPhoneticSearchPrompt() {
   if (!els.phoneticSearchPrompt) {
     return;
   }
@@ -1019,7 +1019,6 @@ function syncPhoneticSearchPrompt(resultCount) {
   const shouldShow = (
     state.entriesStatus === "ready"
     && Boolean(state.query)
-    && resultCount <= RESULTS_PER_PAGE
   );
   els.phoneticSearchPrompt.hidden = !shouldShow;
 }
@@ -1037,7 +1036,7 @@ function render() {
 
   els.resultsPanel.hidden = false;
   syncIdleExtrasVisibility();
-  syncPhoneticSearchPrompt(filtered.length);
+  syncPhoneticSearchPrompt();
   els.count.textContent = `${filtered.length}`;
 
   const labels = activeFilterLabels();
